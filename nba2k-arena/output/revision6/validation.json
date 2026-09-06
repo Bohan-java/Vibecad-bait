@@ -1,0 +1,590 @@
+{
+  "changed_original_archive_entries": [
+    "level.SCNE",
+    "level_floor_lightmaps.SCNE",
+    "crowd.SCNE"
+  ],
+  "all_original_binary_resources_byte_identical": true,
+  "original_objects_except_time_of_day_byte_equivalent": true,
+  "all_original_compiled_effects_unchanged": true,
+  "preserved_gameplay_archive_entries": [
+    "level_collisions.Coll",
+    "speedtree_collisions.Coll",
+    "baskets.SCNE",
+    "baskets_collisions.Coll",
+    "MAIN.Coll",
+    "crowd_seats_vertex.674a68d9eb68bc7a.bin",
+    "crowd.CrowdData"
+  ],
+  "visible_original_level_objects": [
+    "__floor00__"
+  ],
+  "all_hidden_geometry_zero_area_in_every_lod": true,
+  "all_new_index_ranges_and_stream_sizes_valid": true,
+  "duplicate_archive_names": 0,
+  "game_runtime_verified": false,
+  "game_directory_modified": false,
+  "status": "STATIC_VALIDATED_GAME_UNTESTED",
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 195182112,
+      "sha256": "cb4d51d0287f98751fb5605f641c753b8c33391edeb0eafb27559c8d8f72f49e"
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  },
+  "base_revision5_sha256": "2fd02c8cfb3d771947cd4fe655db1f64f1ecf51a598bc1a8656ba16e1a670a3d",
+  "changed_revision5_archive_entries": [
+    "level.SCNE"
+  ],
+  "changed_existing_revision5_scene_records": [
+    {
+      "category": "Model",
+      "name": "venice_v3:coast"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:service_building"
+    }
+  ],
+  "added_scene_records": [
+    {
+      "category": "Texture",
+      "name": "venice_v3:building_r6_joint"
+    },
+    {
+      "category": "Texture",
+      "name": "venice_v3:building_r6_roof"
+    },
+    {
+      "category": "Texture",
+      "name": "venice_v3:building_r6_wall"
+    },
+    {
+      "category": "Material",
+      "name": "venice_v3:building_r6_joint"
+    },
+    {
+      "category": "Material",
+      "name": "venice_v3:building_r6_roof"
+    },
+    {
+      "category": "Material",
+      "name": "venice_v3:building_r6_wall"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+00"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+01"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+02"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+03"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+04"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+05"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+06"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+07"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+08"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+09"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z+10"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-01"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-02"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-03"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-04"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-05"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-06"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-07"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-08"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-09"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x+00_z-10"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+00"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+01"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+02"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+03"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+04"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+05"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+06"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+07"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+08"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+09"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z+10"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-01"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-02"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-03"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-04"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-05"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-06"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-07"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-08"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-09"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-01_z-10"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+00"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+01"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+02"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+03"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+04"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+05"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+06"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+07"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+08"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+09"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z+10"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-01"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-02"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-03"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-04"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-05"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-06"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-07"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-08"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-09"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:coast_r6_land_x-02_z-10"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+00"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+01"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+02"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+03"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+04"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+05"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+06"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+07"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+08"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+09"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z+10"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-01"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-02"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-03"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-04"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-05"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-06"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-07"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-08"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-09"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x+00_z-10"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+00"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+01"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+02"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+03"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+04"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+05"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+06"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+07"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+08"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+09"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z+10"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-01"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-02"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-03"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-04"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-05"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-06"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-07"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-08"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-09"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-01_z-10"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+00"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+01"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+02"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+03"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+04"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+05"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+06"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+07"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+08"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+09"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z+10"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-01"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-02"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-03"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-04"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-05"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-06"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-07"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-08"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-09"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:coast_r6_land_x-02_z-10"
+    }
+  ],
+  "all_existing_revision5_records_except_two_scenery_models_preserved": true,
+  "all_existing_revision5_objects_and_transforms_preserved": true,
+  "all_existing_revision5_materials_and_textures_preserved": true,
+  "all_existing_revision5_binary_resources_byte_identical": true,
+  "paired_floor_byte_identical_to_revision5": true,
+  "new_binary_resources": 83,
+  "byte_identical_existing_resources_reused": [],
+  "shared_validator_environment_audit_revision3_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99"
+}

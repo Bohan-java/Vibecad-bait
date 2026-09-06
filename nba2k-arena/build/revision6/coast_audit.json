@@ -1,0 +1,2778 @@
+{
+  "source_package": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/output/revision5/venice_court_revision5.zip",
+  "native_iff_sha256": "2fd02c8cfb3d771947cd4fe655db1f64f1ecf51a598bc1a8656ba16e1a670a3d",
+  "read_only": true,
+  "world_units": "cm",
+  "scope": "actual native generated coast, terraces, promenade and complete floor; sky and props are not ground",
+  "models": [
+    {
+      "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+      "object": "__floor00__",
+      "object_matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_format": {
+        "Format": "R32G32B32_FLOAT"
+      },
+      "world_min_cm": [
+        -975.3603515625,
+        0.0,
+        -1889.760009765625
+      ],
+      "world_max_cm": [
+        975.3603515625,
+        4.76837158203125e-07,
+        1889.760009765625
+      ],
+      "primitives": [
+        {
+          "material": "floor_clutchtime_court:area_1_mat",
+          "triangles": 670,
+          "min_world_cm": [
+            -975.3603515625,
+            0.0,
+            -1889.760009765625
+          ],
+          "max_world_cm": [
+            975.3603515625,
+            4.76837158203125e-07,
+            1889.760009765625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 670,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -767.0800170898438,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            -762.0,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -767.0800170898438,
+            0.0,
+            -1437.6400146484375
+          ],
+          "max_world_cm": [
+            767.0800170898438,
+            0.0,
+            -1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            762.0,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            767.0800170898438,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -767.0800170898438,
+            0.0,
+            1432.56005859375
+          ],
+          "max_world_cm": [
+            767.0800170898438,
+            0.0,
+            1437.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -762.0,
+            0.0,
+            -2.5399999618530273
+          ],
+          "max_world_cm": [
+            762.0,
+            0.0,
+            2.5399999618530273
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 1440,
+          "min_world_cm": [
+            -182.8800048828125,
+            0.0,
+            -182.8800048828125
+          ],
+          "max_world_cm": [
+            182.8800048828125,
+            0.0,
+            182.8800048828125
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 1440,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 1440,
+          "min_world_cm": [
+            -66.04000091552734,
+            0.0,
+            -66.04000091552734
+          ],
+          "max_world_cm": [
+            66.04000091552734,
+            0.0,
+            66.04000091552734
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 1440,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            -238.75999450683594,
+            0.0,
+            -853.4400024414062
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            238.75999450683594,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            243.83999633789062,
+            0.0,
+            -853.4400024414062
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -858.52001953125
+          ],
+          "max_world_cm": [
+            243.83999633789062,
+            0.0,
+            -853.4400024414062
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 720,
+          "min_world_cm": [
+            -182.8800048828125,
+            0.0,
+            -855.97998046875
+          ],
+          "max_world_cm": [
+            182.8800048828125,
+            0.0,
+            -673.0999755859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 720,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 82,
+          "min_world_cm": [
+            -182.18408203125,
+            0.0,
+            -933.2684326171875
+          ],
+          "max_world_cm": [
+            -161.1415252685547,
+            0.0,
+            -871.476318359375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 82,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            -149.8065185546875,
+            0.0,
+            -1005.7864990234375
+          ],
+          "max_world_cm": [
+            -101.98188781738281,
+            0.0,
+            -957.9619140625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            -77.2884292602539,
+            0.0,
+            -1038.1640625
+          ],
+          "max_world_cm": [
+            -15.496291160583496,
+            0.0,
+            -1017.1215209960938
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            15.496291160583496,
+            0.0,
+            -1038.1640625
+          ],
+          "max_world_cm": [
+            77.2884292602539,
+            0.0,
+            -1017.1215209960938
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            101.98188781738281,
+            0.0,
+            -1005.7864990234375
+          ],
+          "max_world_cm": [
+            149.8065185546875,
+            0.0,
+            -957.9619140625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            161.1415252685547,
+            0.0,
+            -933.2684326171875
+          ],
+          "max_world_cm": [
+            182.18408203125,
+            0.0,
+            -871.476318359375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 720,
+          "min_world_cm": [
+            -670.5599975585938,
+            0.0,
+            -1000.8074951171875
+          ],
+          "max_world_cm": [
+            670.5599975585938,
+            0.0,
+            -548.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 720,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            665.47998046875,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            670.5599975585938,
+            0.0,
+            -999.8121337890625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -670.5599975585938,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            -665.47998046875,
+            0.0,
+            -999.8121337890625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 720,
+          "min_world_cm": [
+            -127.0,
+            0.0,
+            -1272.5400390625
+          ],
+          "max_world_cm": [
+            127.0,
+            0.0,
+            -1145.5400390625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 720,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -127.0,
+            0.0,
+            -1310.6400146484375
+          ],
+          "max_world_cm": [
+            -121.91999816894531,
+            0.0,
+            -1272.5400390625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            121.91999816894531,
+            0.0,
+            -1310.6400146484375
+          ],
+          "max_world_cm": [
+            127.0,
+            0.0,
+            -1272.5400390625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -762.0,
+            0.0,
+            -579.1199951171875
+          ],
+          "max_world_cm": [
+            -670.5599975585938,
+            0.0,
+            -574.0399780273438
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -340.3599853515625,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            -335.2799987792969,
+            0.0,
+            -1417.3199462890625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -350.5199890136719,
+            0.0,
+            -1036.3199462890625
+          ],
+          "max_world_cm": [
+            -335.2799987792969,
+            0.0,
+            -1031.239990234375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            -1310.6400146484375
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -1305.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            -1188.719970703125
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -1183.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            -1097.280029296875
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -1092.199951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            -1005.8400268554688
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -1000.760009765625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            -1219.199951171875
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            -1188.719970703125
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            670.5599975585938,
+            0.0,
+            -579.1199951171875
+          ],
+          "max_world_cm": [
+            762.0,
+            0.0,
+            -574.0399780273438
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            335.2799987792969,
+            0.0,
+            -1432.56005859375
+          ],
+          "max_world_cm": [
+            340.3599853515625,
+            0.0,
+            -1417.3199462890625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            335.2799987792969,
+            0.0,
+            -1036.3199462890625
+          ],
+          "max_world_cm": [
+            350.5199890136719,
+            0.0,
+            -1031.239990234375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            -1310.6400146484375
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            -1305.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            -1188.719970703125
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            -1183.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            -1097.280029296875
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            -1092.199951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            -1005.8400268554688
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            -1000.760009765625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            -1219.199951171875
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            -1188.719970703125
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -243.83999633789062,
+            0.0,
+            853.4400024414062
+          ],
+          "max_world_cm": [
+            -238.75999450683594,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            238.75999450683594,
+            0.0,
+            853.4400024414062
+          ],
+          "max_world_cm": [
+            243.83999633789062,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -243.83999633789062,
+            0.0,
+            853.4400024414062
+          ],
+          "max_world_cm": [
+            243.83999633789062,
+            0.0,
+            858.52001953125
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 720,
+          "min_world_cm": [
+            -182.8800048828125,
+            0.0,
+            673.0999755859375
+          ],
+          "max_world_cm": [
+            182.8800048828125,
+            0.0,
+            855.97998046875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 720,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 82,
+          "min_world_cm": [
+            -182.18408203125,
+            0.0,
+            871.476318359375
+          ],
+          "max_world_cm": [
+            -161.1415252685547,
+            0.0,
+            933.2684326171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 82,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            -149.8065185546875,
+            0.0,
+            957.9619140625
+          ],
+          "max_world_cm": [
+            -101.98188781738281,
+            0.0,
+            1005.7864990234375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            -77.2884292602539,
+            0.0,
+            1017.1215209960938
+          ],
+          "max_world_cm": [
+            -15.496291160583496,
+            0.0,
+            1038.1640625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            15.496291160583496,
+            0.0,
+            1017.1215209960938
+          ],
+          "max_world_cm": [
+            77.2884292602539,
+            0.0,
+            1038.1640625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            101.98188781738281,
+            0.0,
+            957.9619140625
+          ],
+          "max_world_cm": [
+            149.8065185546875,
+            0.0,
+            1005.7864990234375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 80,
+          "min_world_cm": [
+            161.1415252685547,
+            0.0,
+            871.476318359375
+          ],
+          "max_world_cm": [
+            182.18408203125,
+            0.0,
+            933.2684326171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 80,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 720,
+          "min_world_cm": [
+            -670.5599975585938,
+            0.0,
+            548.6400146484375
+          ],
+          "max_world_cm": [
+            670.5599975585938,
+            0.0,
+            1000.8074951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 720,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            665.47998046875,
+            0.0,
+            999.8121337890625
+          ],
+          "max_world_cm": [
+            670.5599975585938,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -670.5599975585938,
+            0.0,
+            999.8121337890625
+          ],
+          "max_world_cm": [
+            -665.47998046875,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 720,
+          "min_world_cm": [
+            -127.0,
+            0.0,
+            1145.5400390625
+          ],
+          "max_world_cm": [
+            127.0,
+            0.0,
+            1272.5400390625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 720,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -127.0,
+            0.0,
+            1272.5400390625
+          ],
+          "max_world_cm": [
+            -121.91999816894531,
+            0.0,
+            1310.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            121.91999816894531,
+            0.0,
+            1272.5400390625
+          ],
+          "max_world_cm": [
+            127.0,
+            0.0,
+            1310.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -762.0,
+            0.0,
+            574.0399780273438
+          ],
+          "max_world_cm": [
+            -670.5599975585938,
+            0.0,
+            579.1199951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -340.3599853515625,
+            0.0,
+            1417.3199462890625
+          ],
+          "max_world_cm": [
+            -335.2799987792969,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            -350.5199890136719,
+            0.0,
+            1031.239990234375
+          ],
+          "max_world_cm": [
+            -335.2799987792969,
+            0.0,
+            1036.3199462890625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            1305.56005859375
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            1310.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            1183.6400146484375
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            1188.719970703125
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            1092.199951171875
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            1097.280029296875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            1000.760009765625
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            1005.8400268554688
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            -259.0799865722656,
+            0.0,
+            1188.719970703125
+          ],
+          "max_world_cm": [
+            -243.83999633789062,
+            0.0,
+            1219.199951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            670.5599975585938,
+            0.0,
+            574.0399780273438
+          ],
+          "max_world_cm": [
+            762.0,
+            0.0,
+            579.1199951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            335.2799987792969,
+            0.0,
+            1417.3199462890625
+          ],
+          "max_world_cm": [
+            340.3599853515625,
+            0.0,
+            1432.56005859375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            335.2799987792969,
+            0.0,
+            1031.239990234375
+          ],
+          "max_world_cm": [
+            350.5199890136719,
+            0.0,
+            1036.3199462890625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            1305.56005859375
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            1310.6400146484375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            1183.6400146484375
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            1188.719970703125
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            1092.199951171875
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            1097.280029296875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            1000.760009765625
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            1005.8400268554688
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_lane_space_marks",
+          "triangles": 2,
+          "min_world_cm": [
+            243.83999633789062,
+            0.0,
+            1188.719970703125
+          ],
+          "max_world_cm": [
+            259.0799865722656,
+            0.0,
+            1219.199951171875
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            762.0,
+            0.0,
+            -127.0
+          ],
+          "max_world_cm": [
+            853.4400024414062,
+            0.0,
+            -121.91999816894531
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_white_lines",
+          "triangles": 2,
+          "min_world_cm": [
+            762.0,
+            0.0,
+            121.91999816894531
+          ],
+          "max_world_cm": [
+            853.4400024414062,
+            0.0,
+            127.0
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_pale_paint_r5",
+          "triangles": 7757,
+          "min_world_cm": [
+            -182.73756408691406,
+            2.9023394176874717e-07,
+            -182.87600708007812
+          ],
+          "max_world_cm": [
+            182.73756408691406,
+            4.119977177197143e-07,
+            182.87600708007812
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 7757,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_pale_paint_r5",
+          "triangles": 12478,
+          "min_world_cm": [
+            -238.75987243652344,
+            0.0,
+            -1432.5599365234375
+          ],
+          "max_world_cm": [
+            238.75987243652344,
+            4.76837158203125e-07,
+            -858.5201416015625
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 12478,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_pale_paint_r5",
+          "triangles": 1553,
+          "min_world_cm": [
+            -177.78016662597656,
+            4.76837158203125e-07,
+            -853.4398803710938
+          ],
+          "max_world_cm": [
+            177.78016662597656,
+            4.76837158203125e-07,
+            -678.1801147460938
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 1553,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_pale_paint_r5",
+          "triangles": 16167,
+          "min_world_cm": [
+            -238.75987243652344,
+            0.0,
+            858.5201416015625
+          ],
+          "max_world_cm": [
+            238.75987243652344,
+            4.76837158203125e-07,
+            1432.5599365234375
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 16167,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:court_pale_paint_r5",
+          "triangles": 2731,
+          "min_world_cm": [
+            -177.78016662597656,
+            4.76837158203125e-07,
+            678.1801147460938
+          ],
+          "max_world_cm": [
+            177.78016662597656,
+            4.76837158203125e-07,
+            853.4398803710938
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2731,
+          "downward_triangles": 0
+        }
+      ]
+    },
+    {
+      "model": "venice_v3:promenade",
+      "object": "venice_v3:promenade",
+      "object_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_format": {
+        "Format": "R16G16B16A16_UNORM",
+        "Offset": [
+          -8950.0,
+          -6500.35,
+          -6500.0,
+          0.0
+        ],
+        "Scale": [
+          13000.0,
+          13000.0,
+          13000.0,
+          1.0
+        ]
+      },
+      "world_min_cm": [
+        -6000.080109864957,
+        -0.4491836423285349,
+        -6500.0
+      ],
+      "world_max_cm": [
+        1100.0801098649572,
+        -0.2508163576721927,
+        6500.0
+      ],
+      "primitives": [
+        {
+          "material": "venice_v3:concrete",
+          "triangles": 8,
+          "min_world_cm": [
+            -6000.080109864957,
+            -0.4491836423285349,
+            -6500.0
+          ],
+          "max_world_cm": [
+            1100.0801098649572,
+            -0.4491836423285349,
+            6500.0
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 8,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:dark_metal",
+          "triangles": 944,
+          "min_world_cm": [
+            -5999.485008010986,
+            -0.4491836423285349,
+            -6500.0
+          ],
+          "max_world_cm": [
+            -974.4449530785068,
+            -0.2508163576721927,
+            6500.0
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 236,
+          "downward_triangles": 236
+        }
+      ]
+    },
+    {
+      "model": "venice_v3:grass_terraces",
+      "object": "venice_v3:grass_terraces",
+      "object_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_format": {
+        "Format": "R16G16B16A16_UNORM",
+        "Offset": [
+          -5400.0,
+          -7950.05,
+          -8000.0,
+          0.0
+        ],
+        "Scale": [
+          16000.0,
+          16000.0,
+          16000.0,
+          1.0
+        ]
+      },
+      "world_min_cm": [
+        1100.0991836423282,
+        -0.4658083466847529,
+        -8000.0
+      ],
+      "world_max_cm": [
+        4099.900816357671,
+        100.36580834668439,
+        8000.0
+      ],
+      "primitives": [
+        {
+          "material": "venice_v3:grass",
+          "triangles": 4494,
+          "min_world_cm": [
+            1100.0991836423282,
+            -0.4658083466847529,
+            -8000.0
+          ],
+          "max_world_cm": [
+            4099.900816357671,
+            100.36580834668439,
+            8000.0
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 4494,
+          "downward_triangles": 0
+        },
+        {
+          "material": "venice_v3:concrete",
+          "triangles": 7134,
+          "min_world_cm": [
+            1100.0991836423282,
+            -0.4658083466847529,
+            -8000.0
+          ],
+          "max_world_cm": [
+            2452.9030289158463,
+            100.36580834668439,
+            8000.0
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 3392,
+          "downward_triangles": 0
+        }
+      ]
+    },
+    {
+      "model": "venice_v3:coast",
+      "object": "venice_v3:coast",
+      "object_matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "position_format": {
+        "Format": "R16G16B16A16_UNORM",
+        "Offset": [
+          -97500.0,
+          -159967.85,
+          -160000.0,
+          0.0
+        ],
+        "Scale": [
+          320000.0,
+          320000.0,
+          320000.0,
+          1.0
+        ]
+      },
+      "world_min_cm": [
+        -24998.893720912485,
+        -33.768974593724124,
+        -160000.0
+      ],
+      "world_max_cm": [
+        149998.89372091249,
+        98.06897459371248,
+        160000.0
+      ],
+      "primitives": [
+        {
+          "material": "venice_v3:concrete",
+          "triangles": 2,
+          "min_world_cm": [
+            4098.229953459973,
+            98.06897459371248,
+            -9997.711146715505
+          ],
+          "max_world_cm": [
+            4498.626688029297,
+            98.06897459371248,
+            9997.711146715505
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0,
+          "actual_world_triangles_cm": [
+            [
+              [
+                4098.229953459973,
+                98.06897459371248,
+                -9997.711146715505
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                9997.711146715505
+              ],
+              [
+                4498.626688029297,
+                98.06897459371248,
+                9997.711146715505
+              ]
+            ],
+            [
+              [
+                4098.229953459973,
+                98.06897459371248,
+                -9997.711146715505
+              ],
+              [
+                4498.626688029297,
+                98.06897459371248,
+                9997.711146715505
+              ],
+              [
+                4498.626688029297,
+                98.06897459371248,
+                -9997.711146715505
+              ]
+            ]
+          ]
+        },
+        {
+          "material": "venice_v3:sand",
+          "triangles": 8,
+          "min_world_cm": [
+            -24998.893720912485,
+            -33.768974593724124,
+            -24997.94003204396
+          ],
+          "max_world_cm": [
+            8497.71114671549,
+            98.06897459371248,
+            24997.94003204393
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 8,
+          "downward_triangles": 0,
+          "actual_world_triangles_cm": [
+            [
+              [
+                4498.626688029297,
+                98.06897459371248,
+                -19997.863736934465
+              ],
+              [
+                4498.626688029297,
+                98.06897459371248,
+                19997.863736934465
+              ],
+              [
+                8497.71114671549,
+                -33.768974593724124,
+                19997.863736934465
+              ]
+            ],
+            [
+              [
+                4498.626688029297,
+                98.06897459371248,
+                -19997.863736934465
+              ],
+              [
+                8497.71114671549,
+                -33.768974593724124,
+                19997.863736934465
+              ],
+              [
+                8497.71114671549,
+                -33.768974593724124,
+                -19997.863736934465
+              ]
+            ],
+            [
+              [
+                -24998.893720912485,
+                0.41123445486300625,
+                -24997.94003204396
+              ],
+              [
+                -24998.893720912485,
+                0.41123445486300625,
+                24997.94003204393
+              ],
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                24997.94003204393
+              ]
+            ],
+            [
+              [
+                -24998.893720912485,
+                0.41123445486300625,
+                -24997.94003204396
+              ],
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                24997.94003204393
+              ],
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                -24997.94003204396
+              ]
+            ],
+            [
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                -24997.94003204396
+              ],
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                -6501.5640497443965
+              ],
+              [
+                4098.229953459973,
+                0.41123445486300625,
+                -6501.5640497443965
+              ]
+            ],
+            [
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                -24997.94003204396
+              ],
+              [
+                4098.229953459973,
+                0.41123445486300625,
+                -6501.5640497443965
+              ],
+              [
+                4098.229953459973,
+                0.41123445486300625,
+                -24997.94003204396
+              ]
+            ],
+            [
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                6501.564049744426
+              ],
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                24997.94003204393
+              ],
+              [
+                4098.229953459973,
+                0.41123445486300625,
+                24997.94003204393
+              ]
+            ],
+            [
+              [
+                -5999.580376897851,
+                0.41123445486300625,
+                6501.564049744426
+              ],
+              [
+                4098.229953459973,
+                0.41123445486300625,
+                24997.94003204393
+              ],
+              [
+                4098.229953459973,
+                0.41123445486300625,
+                6501.564049744426
+              ]
+            ]
+          ]
+        },
+        {
+          "material": "venice_v3:ocean",
+          "triangles": 2,
+          "min_world_cm": [
+            8497.71114671549,
+            -33.768974593724124,
+            -160000.0
+          ],
+          "max_world_cm": [
+            149998.89372091249,
+            -33.768974593724124,
+            160000.0
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 2,
+          "downward_triangles": 0,
+          "actual_world_triangles_cm": [
+            [
+              [
+                8497.71114671549,
+                -33.768974593724124,
+                -160000.0
+              ],
+              [
+                8497.71114671549,
+                -33.768974593724124,
+                160000.0
+              ],
+              [
+                149998.89372091249,
+                -33.768974593724124,
+                160000.0
+              ]
+            ],
+            [
+              [
+                8497.71114671549,
+                -33.768974593724124,
+                -160000.0
+              ],
+              [
+                149998.89372091249,
+                -33.768974593724124,
+                160000.0
+              ],
+              [
+                149998.89372091249,
+                -33.768974593724124,
+                -160000.0
+              ]
+            ]
+          ]
+        },
+        {
+          "material": "venice_v3:grass",
+          "triangles": 4,
+          "min_world_cm": [
+            1100.137331197082,
+            98.06897459371248,
+            -24997.94003204396
+          ],
+          "max_world_cm": [
+            4098.229953459973,
+            98.06897459371248,
+            24997.94003204393
+          ],
+          "degenerate_triangles": 0,
+          "upward_triangles": 4,
+          "downward_triangles": 0,
+          "actual_world_triangles_cm": [
+            [
+              [
+                1100.137331197082,
+                98.06897459371248,
+                -24997.94003204396
+              ],
+              [
+                1100.137331197082,
+                98.06897459371248,
+                -8000.610360875871
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                -8000.610360875871
+              ]
+            ],
+            [
+              [
+                1100.137331197082,
+                98.06897459371248,
+                -24997.94003204396
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                -8000.610360875871
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                -24997.94003204396
+              ]
+            ],
+            [
+              [
+                1100.137331197082,
+                98.06897459371248,
+                8000.610360875871
+              ],
+              [
+                1100.137331197082,
+                98.06897459371248,
+                24997.94003204393
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                24997.94003204393
+              ]
+            ],
+            [
+              [
+                1100.137331197082,
+                98.06897459371248,
+                8000.610360875871
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                24997.94003204393
+              ],
+              [
+                4098.229953459973,
+                98.06897459371248,
+                8000.610360875871
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "vertical_coverage_samples": [
+    {
+      "xz_cm": [
+        4300,
+        -9000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4300,
+        -15000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        4300,
+        -24000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        6500,
+        -19000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 32.08963463864453,
+      "hits": [
+        {
+          "y_cm": 32.08963463864453,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        6500,
+        -22500
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        3000,
+        -30000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        4300,
+        -30000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        6500,
+        -30000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        9000,
+        -30000
+      ],
+      "ground_hit": true,
+      "top_y_cm": -33.768974593724124,
+      "hits": [
+        {
+          "y_cm": -33.768974593724124,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:ocean"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        3000,
+        -7999
+      ],
+      "ground_hit": true,
+      "top_y_cm": 100.36580834668439,
+      "hits": [
+        {
+          "y_cm": 100.36580834668439,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        },
+        {
+          "y_cm": 0.41123445486300625,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        3000,
+        -8000.3
+      ],
+      "ground_hit": true,
+      "top_y_cm": 0.41123445486300625,
+      "hits": [
+        {
+          "y_cm": 0.41123445486300625,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        3000,
+        -8001
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:grass"
+        },
+        {
+          "y_cm": 0.41123445486300625,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        -3000,
+        -6500.5
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        1100.09,
+        -5500
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        1101,
+        -5500
+      ],
+      "ground_hit": true,
+      "top_y_cm": -0.4658083466847529,
+      "hits": [
+        {
+          "y_cm": -0.4658083466847529,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        1500,
+        -5500
+      ],
+      "ground_hit": true,
+      "top_y_cm": -0.4658083466847529,
+      "hits": [
+        {
+          "y_cm": -0.4658083466847529,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        2300,
+        -6499
+      ],
+      "ground_hit": true,
+      "top_y_cm": 15.351144054470707,
+      "hits": [
+        {
+          "y_cm": 15.351144054470707,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4099,
+        -6000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 100.1216639963377,
+      "hits": [
+        {
+          "y_cm": 100.1216639963377,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        },
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4100,
+        -6000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4498.626688029297,
+        -9000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        },
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        8497.71114671549,
+        -19000
+      ],
+      "ground_hit": true,
+      "top_y_cm": -33.768974593724124,
+      "hits": [
+        {
+          "y_cm": -33.768974593724124,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        },
+        {
+          "y_cm": -33.768974593724124,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:ocean"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4300,
+        9000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4300,
+        15000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        4300,
+        24000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        6500,
+        19000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 32.089634638644526,
+      "hits": [
+        {
+          "y_cm": 32.089634638644526,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        6500,
+        22500
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        3000,
+        30000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        4300,
+        30000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        6500,
+        30000
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        9000,
+        30000
+      ],
+      "ground_hit": true,
+      "top_y_cm": -33.768974593724124,
+      "hits": [
+        {
+          "y_cm": -33.768974593724124,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:ocean"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        3000,
+        7999
+      ],
+      "ground_hit": true,
+      "top_y_cm": 100.36580834668439,
+      "hits": [
+        {
+          "y_cm": 100.36580834668439,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        },
+        {
+          "y_cm": 0.41123445486300625,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        3000,
+        8000.3
+      ],
+      "ground_hit": true,
+      "top_y_cm": 0.41123445486300625,
+      "hits": [
+        {
+          "y_cm": 0.41123445486300625,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        3000,
+        8001
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:grass"
+        },
+        {
+          "y_cm": 0.41123445486300625,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        -3000,
+        6500.5
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        1100.09,
+        5500
+      ],
+      "ground_hit": false,
+      "top_y_cm": null,
+      "hits": []
+    },
+    {
+      "xz_cm": [
+        1101,
+        5500
+      ],
+      "ground_hit": true,
+      "top_y_cm": -0.4658083466847529,
+      "hits": [
+        {
+          "y_cm": -0.4658083466847529,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        1500,
+        5500
+      ],
+      "ground_hit": true,
+      "top_y_cm": -0.4658083466847529,
+      "hits": [
+        {
+          "y_cm": -0.4658083466847529,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        2300,
+        6499
+      ],
+      "ground_hit": true,
+      "top_y_cm": 15.35101586285357,
+      "hits": [
+        {
+          "y_cm": 15.35101586285357,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4099,
+        6000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 100.1216639963377,
+      "hits": [
+        {
+          "y_cm": 100.1216639963377,
+          "model": "venice_v3:grass_terraces",
+          "object": "venice_v3:grass_terraces",
+          "material": "venice_v3:grass"
+        },
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4100,
+        6000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        4498.626688029297,
+        9000
+      ],
+      "ground_hit": true,
+      "top_y_cm": 98.06897459371248,
+      "hits": [
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:concrete"
+        },
+        {
+          "y_cm": 98.06897459371248,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    },
+    {
+      "xz_cm": [
+        8497.71114671549,
+        19000
+      ],
+      "ground_hit": true,
+      "top_y_cm": -33.768974593724124,
+      "hits": [
+        {
+          "y_cm": -33.768974593724124,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:ocean"
+        },
+        {
+          "y_cm": -33.76897459372413,
+          "model": "venice_v3:coast",
+          "object": "venice_v3:coast",
+          "material": "venice_v3:sand"
+        }
+      ]
+    }
+  ],
+  "terrain_only_view_rays": [
+    {
+      "origin_cm": [
+        0.0,
+        850.0,
+        2200.0
+      ],
+      "aim_cm": [
+        4300.0,
+        98.0,
+        -15000.0
+      ],
+      "direction": [
+        0.24231774879328705,
+        -0.04237742955640741,
+        -0.9692709951731482
+      ],
+      "terrain_hit_within_80000_cm": false,
+      "scope": "terrain only, double-sided; does not assert visibility through props or exact game camera"
+    },
+    {
+      "origin_cm": [
+        0.0,
+        850.0,
+        2200.0
+      ],
+      "aim_cm": [
+        6500.0,
+        30.0,
+        -22500.0
+      ],
+      "direction": [
+        0.2543622409968465,
+        -0.03208877501806371,
+        -0.9665765157880167
+      ],
+      "terrain_hit_within_80000_cm": false,
+      "scope": "terrain only, double-sided; does not assert visibility through props or exact game camera"
+    },
+    {
+      "origin_cm": [
+        0.0,
+        850.0,
+        2200.0
+      ],
+      "aim_cm": [
+        3000.0,
+        98.0,
+        -30000.0
+      ],
+      "direction": [
+        0.09274088737515392,
+        -0.02324704910203858,
+        -0.995418857826652
+      ],
+      "terrain_hit_within_80000_cm": false,
+      "scope": "terrain only, double-sided; does not assert visibility through props or exact game camera"
+    },
+    {
+      "origin_cm": [
+        0.0,
+        850.0,
+        2200.0
+      ],
+      "aim_cm": [
+        4300.0,
+        98.0,
+        -9000.0
+      ],
+      "direction": [
+        0.3577184073492842,
+        -0.06255912612247946,
+        -0.9317316656539495
+      ],
+      "terrain_hit_within_80000_cm": true,
+      "scope": "terrain only, double-sided; does not assert visibility through props or exact game camera",
+      "nearest_hit": {
+        "distance_cm": 12019.525719303409,
+        "point_cm": [
+          4299.605597402974,
+          98.06897459371237,
+          -8998.972718817051
+        ],
+        "model": "venice_v3:coast",
+        "object": "venice_v3:coast",
+        "material": "venice_v3:concrete"
+      }
+    },
+    {
+      "origin_cm": [
+        0.0,
+        850.0,
+        2200.0
+      ],
+      "aim_cm": [
+        6500.0,
+        30.0,
+        -19000.0
+      ],
+      "direction": [
+        0.2929347653956945,
+        -0.03695484732684146,
+        -0.9554180040598037
+      ],
+      "terrain_hit_within_80000_cm": true,
+      "scope": "terrain only, double-sided; does not assert visibility through props or exact game camera",
+      "nearest_hit": {
+        "distance_cm": 22112.69067347932,
+        "point_cm": [
+          6477.5758547032265,
+          32.82889217590059,
+          -18926.86278764745
+        ],
+        "model": "venice_v3:coast",
+        "object": "venice_v3:coast",
+        "material": "venice_v3:sand"
+      }
+    },
+    {
+      "origin_cm": [
+        0.0,
+        850.0,
+        2200.0
+      ],
+      "aim_cm": [
+        9000.0,
+        -33.768974593724124,
+        -30000.0
+      ],
+      "direction": [
+        0.26909214225211525,
+        -0.026423920736597824,
+        -0.9627518867242345
+      ],
+      "terrain_hit_within_80000_cm": true,
+      "scope": "terrain only, double-sided; does not assert visibility through props or exact game camera",
+      "nearest_hit": {
+        "distance_cm": 33445.79267412352,
+        "point_cm": [
+          9000.0,
+          -33.768974593724124,
+          -30000.0
+        ],
+        "model": "venice_v3:coast",
+        "object": "venice_v3:coast",
+        "material": "venice_v3:ocean"
+      }
+    }
+  ],
+  "near_terrace_regression_grid": {
+    "samples": 1375,
+    "uncovered": 0,
+    "missing_samples": []
+  },
+  "native_missing_regions": [
+    {
+      "name": "missing_walkway_past_100m",
+      "x_cm": [
+        4098.229953459973,
+        4498.626688029297
+      ],
+      "abs_z_cm": [
+        9997.711146715505,
+        24997.94003204396
+      ],
+      "both_ends_missing_area_cm2": 12012085.326955916
+    },
+    {
+      "name": "missing_dune_past_200m",
+      "x_cm": [
+        4498.626688029297,
+        8497.71114671549
+      ],
+      "abs_z_cm": [
+        19997.863736934465,
+        24997.94003204396
+      ],
+      "both_ends_missing_area_cm2": 39991454.80803524
+    },
+    {
+      "name": "land_end_while_ocean_continues",
+      "x_cm": [
+        -24998.893720912485,
+        8497.71114671549
+      ],
+      "abs_z_cm": [
+        24997.94003204396,
+        160000.0
+      ],
+      "note": "No audited land terrain beyond the finite land ends; ocean begins at x8497.71114671549 only."
+    }
+  ],
+  "seams": {
+    "terrace_far_grass_z_gap_cm": 0.6103608758712653,
+    "terrace_far_grass_height_step_cm": 2.2968337529719065,
+    "terrace_walkway_x_overlap_cm": 1.6708628976975888,
+    "promenade_terrace_x_gap_cm": 0.01907377737097704,
+    "promenade_outer_sand_z_gap_cm": 1.5640497443964705,
+    "shoreline_sand_ocean_position_identical": true,
+    "coast_native_position_step_cm": 4.882887006942855,
+    "terraces_native_position_step_cm": 0.24414435034714274,
+    "promenade_native_position_step_cm": 0.19836728465705347
+  },
+  "cached_resources_used": []
+}

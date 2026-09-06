@@ -27,3 +27,12 @@ nba2k-arena/build/revision5/paint/textures/*.tld
 nba2k-arena/build/revision5/paint/textures/*_source.png
 nba2k-arena/build/revision5/paint/textures/*_decoded.png
 nba2k-arena/build/revision5/preview/
+# Revision 6: retain the shipping ZIP and audits, regenerate native/preview caches.
+nba2k-arena/output/revision6/*.iff
+nba2k-arena/output/revision6/*.tmp
+nba2k-arena/build/revision6/*.iff
+nba2k-arena/build/revision6/preview/
+nba2k-arena/build/revision6/building/*.npz
+nba2k-arena/build/revision6/building/textures/*.tld
+nba2k-arena/build/revision6/building/textures/*_source.png
+nba2k-arena/build/revision6/building/textures/*_decoded.png

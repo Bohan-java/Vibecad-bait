@@ -1,0 +1,309 @@
+{
+  "changed_model_keys": [
+    "venice_v3:service_building"
+  ],
+  "changed_object_keys": [],
+  "preserved_building_objects": [
+    "venice_v3:service_building"
+  ],
+  "model": {
+    "model": "venice_v3:service_building",
+    "vertices": 588,
+    "triangles": 196,
+    "parts": 3,
+    "bounds_min": [
+      -490.0,
+      0.0,
+      -3530.0
+    ],
+    "bounds_max": [
+      730.0,
+      308.0,
+      -2890.0
+    ],
+    "max_normal_error_degrees": 0.07936181844649444,
+    "max_tangent_error_degrees": 0.09799374777866723,
+    "handedness_mismatches": 0,
+    "max_position_error": 0.009308003357091366,
+    "max_uv_error": 0.00013959166234300824,
+    "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+    "donor_frame_samples_used": 0,
+    "game_render_verified": false
+  },
+  "native_validation": {
+    "decoded_recess_cm": 0.5957122148474809,
+    "minimum_native_triangle_double_area_cm2": 1.0757089113458471,
+    "minimum_native_normal_dot": 0.9999990407144758,
+    "index_format": "R16_UINT",
+    "native_triangle_count": 196,
+    "zero_area_triangles": 0,
+    "coplanar_front_overlay_sheets": 0
+  },
+  "added_materials": [
+    "venice_v3:building_r6_wall",
+    "venice_v3:building_r6_joint",
+    "venice_v3:building_r6_roof"
+  ],
+  "added_textures": [
+    {
+      "key": "venice_v3:building_r6_wall",
+      "binary": "venice_v3_building_r6_wall.dac2f5c3803a628c.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4096,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "dac2f5c3803a628c919b6cc12cca185ff1f5b2ea562bb7d69dc3e6a6fe85b6ff",
+      "decoded_rgba_min": [
+        107,
+        109,
+        107,
+        255
+      ],
+      "decoded_rgba_max": [
+        132,
+        134,
+        132,
+        255
+      ],
+      "decoded_rgba_mean": [
+        117.37131,
+        118.30837,
+        116.89956,
+        255.0
+      ]
+    },
+    {
+      "key": "venice_v3:building_r6_joint",
+      "binary": "venice_v3_building_r6_joint.40f8be9b94bb2c9e.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4096,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "40f8be9b94bb2c9e3fe94064c8d94f5a1f74214bc64961132fb68d61803b4eba",
+      "decoded_rgba_min": [
+        132,
+        134,
+        132,
+        255
+      ],
+      "decoded_rgba_max": [
+        156,
+        158,
+        156,
+        255
+      ],
+      "decoded_rgba_mean": [
+        142.63008,
+        143.87526,
+        140.59643,
+        255.0
+      ]
+    },
+    {
+      "key": "venice_v3:building_r6_roof",
+      "binary": "venice_v3_building_r6_roof.e64a8751a43ed30b.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4096,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "e64a8751a43ed30b2c3d25952a4053deee889f757fb9401ed0517df68e09b16e",
+      "decoded_rgba_min": [
+        99,
+        97,
+        99,
+        255
+      ],
+      "decoded_rgba_max": [
+        123,
+        121,
+        123,
+        255
+      ],
+      "decoded_rgba_mean": [
+        105.53861,
+        107.82992,
+        105.54174,
+        255.0
+      ]
+    }
+  ],
+  "added_binary_resources": [
+    "IndexBuffer.a0091920d89296f9.bin",
+    "VertexBuffer.0d5094d74c7bad42.bin",
+    "VertexBuffer.266e8d8ef92781c5.bin",
+    "VertexBuffer.441a092b64485d0d.bin",
+    "venice_v3_building_r6_joint.40f8be9b94bb2c9e.tld",
+    "venice_v3_building_r6_roof.e64a8751a43ed30b.tld",
+    "venice_v3_building_r6_wall.dac2f5c3803a628c.tld"
+  ],
+  "materials": {
+    "textures": [
+      {
+        "key": "venice_v3:building_r6_wall",
+        "binary": "venice_v3_building_r6_wall.dac2f5c3803a628c.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4096,
+          4096
+        ],
+        "mips": 13,
+        "all_mips_decoded": true,
+        "sha256": "dac2f5c3803a628c919b6cc12cca185ff1f5b2ea562bb7d69dc3e6a6fe85b6ff",
+        "decoded_rgba_min": [
+          107,
+          109,
+          107,
+          255
+        ],
+        "decoded_rgba_max": [
+          132,
+          134,
+          132,
+          255
+        ],
+        "decoded_rgba_mean": [
+          117.37131,
+          118.30837,
+          116.89956,
+          255.0
+        ]
+      },
+      {
+        "key": "venice_v3:building_r6_joint",
+        "binary": "venice_v3_building_r6_joint.40f8be9b94bb2c9e.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4096,
+          4096
+        ],
+        "mips": 13,
+        "all_mips_decoded": true,
+        "sha256": "40f8be9b94bb2c9e3fe94064c8d94f5a1f74214bc64961132fb68d61803b4eba",
+        "decoded_rgba_min": [
+          132,
+          134,
+          132,
+          255
+        ],
+        "decoded_rgba_max": [
+          156,
+          158,
+          156,
+          255
+        ],
+        "decoded_rgba_mean": [
+          142.63008,
+          143.87526,
+          140.59643,
+          255.0
+        ]
+      },
+      {
+        "key": "venice_v3:building_r6_roof",
+        "binary": "venice_v3_building_r6_roof.e64a8751a43ed30b.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4096,
+          4096
+        ],
+        "mips": 13,
+        "all_mips_decoded": true,
+        "sha256": "e64a8751a43ed30b2c3d25952a4053deee889f757fb9401ed0517df68e09b16e",
+        "decoded_rgba_min": [
+          99,
+          97,
+          99,
+          255
+        ],
+        "decoded_rgba_max": [
+          123,
+          121,
+          123,
+          255
+        ],
+        "decoded_rgba_mean": [
+          105.53861,
+          107.82992,
+          105.54174,
+          255.0
+        ]
+      }
+    ],
+    "source_albedo_texture": "local/venice_v3/concrete",
+    "source_albedo_sha256": "e7992ab62832ad2b3319e0a8bc6ab4daceb04bc0b7ace267a08415e3fae5389e",
+    "source_resolution_preserved": [
+      4096,
+      4096
+    ],
+    "normal_texture_reused_unchanged": "local/venice_v3/concrete_normal",
+    "normal_sha256": "3ee04e9f1807ea218aebde7910b1ac97f8f49b941308bb8e35c793bf56f3da9d",
+    "roughness_alpha_decoded_range": [
+      0.9372549019607843,
+      0.9607843137254902
+    ],
+    "normal_height": 0.08,
+    "encoded_color_targets": {
+      "wall": [
+        118,
+        119,
+        117
+      ],
+      "joint": [
+        143,
+        144,
+        140
+      ],
+      "roof": [
+        106,
+        108,
+        106
+      ]
+    },
+    "original_concrete_material_and_textures_preserved": true,
+    "existing_effect_and_pass_bindings_copied_unchanged": "venice_v3:unbaked_layer_base_CLOD"
+  },
+  "body_bounds_min_cm": [
+    -480.0,
+    0.0,
+    -3520.0
+  ],
+  "body_bounds_max_cm": [
+    720.0,
+    300.0,
+    -2900.0
+  ],
+  "roof_bounds_min_cm": [
+    -490.0,
+    300.0,
+    -3530.0
+  ],
+  "roof_bounds_max_cm": [
+    730.0,
+    308.0,
+    -2890.0
+  ],
+  "recess_design_cm": 0.6,
+  "line_width_design_cm": 1.8,
+  "added_doors_handles_windows_or_signs": 0,
+  "all_other_original_scene_values_preserved": true,
+  "all_existing_binary_resources_preserved": true,
+  "new_collision_resources": 0,
+  "prior_model_spec_sha256": "80da0fa1d3b013a7bea1d982d5f25f111bb70dbe80bb65a86c2b7cf2ae68dfd7",
+  "reference_images": [
+    "arena_reference_02.png",
+    "arena_reference_03.png",
+    "arena_reference_04.png",
+    "arena_reference_05.png"
+  ],
+  "dimensions_color_and_recess_are_design_approximations": true,
+  "game_render_verified": false
+}

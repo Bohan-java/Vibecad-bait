@@ -1,0 +1,3011 @@
+{
+  "status": "STATIC_VALIDATED_GAME_UNTESTED",
+  "base_sha256": "2fd02c8cfb3d771947cd4fe655db1f64f1ecf51a598bc1a8656ba16e1a670a3d",
+  "coast": {
+    "changed_existing_models": [
+      "venice_v3:coast"
+    ],
+    "new_models": [
+      "venice_v3:coast_r6_land_x-02_z-10",
+      "venice_v3:coast_r6_land_x-02_z-09",
+      "venice_v3:coast_r6_land_x-02_z-08",
+      "venice_v3:coast_r6_land_x-02_z-07",
+      "venice_v3:coast_r6_land_x-02_z-06",
+      "venice_v3:coast_r6_land_x-02_z-05",
+      "venice_v3:coast_r6_land_x-02_z-04",
+      "venice_v3:coast_r6_land_x-02_z-03",
+      "venice_v3:coast_r6_land_x-02_z-02",
+      "venice_v3:coast_r6_land_x-02_z-01",
+      "venice_v3:coast_r6_land_x-02_z+00",
+      "venice_v3:coast_r6_land_x-02_z+01",
+      "venice_v3:coast_r6_land_x-02_z+02",
+      "venice_v3:coast_r6_land_x-02_z+03",
+      "venice_v3:coast_r6_land_x-02_z+04",
+      "venice_v3:coast_r6_land_x-02_z+05",
+      "venice_v3:coast_r6_land_x-02_z+06",
+      "venice_v3:coast_r6_land_x-02_z+07",
+      "venice_v3:coast_r6_land_x-02_z+08",
+      "venice_v3:coast_r6_land_x-02_z+09",
+      "venice_v3:coast_r6_land_x-02_z+10",
+      "venice_v3:coast_r6_land_x-01_z-10",
+      "venice_v3:coast_r6_land_x-01_z-09",
+      "venice_v3:coast_r6_land_x-01_z-08",
+      "venice_v3:coast_r6_land_x-01_z-07",
+      "venice_v3:coast_r6_land_x-01_z-06",
+      "venice_v3:coast_r6_land_x-01_z-05",
+      "venice_v3:coast_r6_land_x-01_z-04",
+      "venice_v3:coast_r6_land_x-01_z-03",
+      "venice_v3:coast_r6_land_x-01_z-02",
+      "venice_v3:coast_r6_land_x-01_z-01",
+      "venice_v3:coast_r6_land_x-01_z+00",
+      "venice_v3:coast_r6_land_x-01_z+01",
+      "venice_v3:coast_r6_land_x-01_z+02",
+      "venice_v3:coast_r6_land_x-01_z+03",
+      "venice_v3:coast_r6_land_x-01_z+04",
+      "venice_v3:coast_r6_land_x-01_z+05",
+      "venice_v3:coast_r6_land_x-01_z+06",
+      "venice_v3:coast_r6_land_x-01_z+07",
+      "venice_v3:coast_r6_land_x-01_z+08",
+      "venice_v3:coast_r6_land_x-01_z+09",
+      "venice_v3:coast_r6_land_x-01_z+10",
+      "venice_v3:coast_r6_land_x+00_z-10",
+      "venice_v3:coast_r6_land_x+00_z-09",
+      "venice_v3:coast_r6_land_x+00_z-08",
+      "venice_v3:coast_r6_land_x+00_z-07",
+      "venice_v3:coast_r6_land_x+00_z-06",
+      "venice_v3:coast_r6_land_x+00_z-05",
+      "venice_v3:coast_r6_land_x+00_z-04",
+      "venice_v3:coast_r6_land_x+00_z-03",
+      "venice_v3:coast_r6_land_x+00_z-02",
+      "venice_v3:coast_r6_land_x+00_z-01",
+      "venice_v3:coast_r6_land_x+00_z+00",
+      "venice_v3:coast_r6_land_x+00_z+01",
+      "venice_v3:coast_r6_land_x+00_z+02",
+      "venice_v3:coast_r6_land_x+00_z+03",
+      "venice_v3:coast_r6_land_x+00_z+04",
+      "venice_v3:coast_r6_land_x+00_z+05",
+      "venice_v3:coast_r6_land_x+00_z+06",
+      "venice_v3:coast_r6_land_x+00_z+07",
+      "venice_v3:coast_r6_land_x+00_z+08",
+      "venice_v3:coast_r6_land_x+00_z+09",
+      "venice_v3:coast_r6_land_x+00_z+10"
+    ],
+    "new_objects": [
+      "venice_v3:coast_r6_land_x-02_z-10",
+      "venice_v3:coast_r6_land_x-02_z-09",
+      "venice_v3:coast_r6_land_x-02_z-08",
+      "venice_v3:coast_r6_land_x-02_z-07",
+      "venice_v3:coast_r6_land_x-02_z-06",
+      "venice_v3:coast_r6_land_x-02_z-05",
+      "venice_v3:coast_r6_land_x-02_z-04",
+      "venice_v3:coast_r6_land_x-02_z-03",
+      "venice_v3:coast_r6_land_x-02_z-02",
+      "venice_v3:coast_r6_land_x-02_z-01",
+      "venice_v3:coast_r6_land_x-02_z+00",
+      "venice_v3:coast_r6_land_x-02_z+01",
+      "venice_v3:coast_r6_land_x-02_z+02",
+      "venice_v3:coast_r6_land_x-02_z+03",
+      "venice_v3:coast_r6_land_x-02_z+04",
+      "venice_v3:coast_r6_land_x-02_z+05",
+      "venice_v3:coast_r6_land_x-02_z+06",
+      "venice_v3:coast_r6_land_x-02_z+07",
+      "venice_v3:coast_r6_land_x-02_z+08",
+      "venice_v3:coast_r6_land_x-02_z+09",
+      "venice_v3:coast_r6_land_x-02_z+10",
+      "venice_v3:coast_r6_land_x-01_z-10",
+      "venice_v3:coast_r6_land_x-01_z-09",
+      "venice_v3:coast_r6_land_x-01_z-08",
+      "venice_v3:coast_r6_land_x-01_z-07",
+      "venice_v3:coast_r6_land_x-01_z-06",
+      "venice_v3:coast_r6_land_x-01_z-05",
+      "venice_v3:coast_r6_land_x-01_z-04",
+      "venice_v3:coast_r6_land_x-01_z-03",
+      "venice_v3:coast_r6_land_x-01_z-02",
+      "venice_v3:coast_r6_land_x-01_z-01",
+      "venice_v3:coast_r6_land_x-01_z+00",
+      "venice_v3:coast_r6_land_x-01_z+01",
+      "venice_v3:coast_r6_land_x-01_z+02",
+      "venice_v3:coast_r6_land_x-01_z+03",
+      "venice_v3:coast_r6_land_x-01_z+04",
+      "venice_v3:coast_r6_land_x-01_z+05",
+      "venice_v3:coast_r6_land_x-01_z+06",
+      "venice_v3:coast_r6_land_x-01_z+07",
+      "venice_v3:coast_r6_land_x-01_z+08",
+      "venice_v3:coast_r6_land_x-01_z+09",
+      "venice_v3:coast_r6_land_x-01_z+10",
+      "venice_v3:coast_r6_land_x+00_z-10",
+      "venice_v3:coast_r6_land_x+00_z-09",
+      "venice_v3:coast_r6_land_x+00_z-08",
+      "venice_v3:coast_r6_land_x+00_z-07",
+      "venice_v3:coast_r6_land_x+00_z-06",
+      "venice_v3:coast_r6_land_x+00_z-05",
+      "venice_v3:coast_r6_land_x+00_z-04",
+      "venice_v3:coast_r6_land_x+00_z-03",
+      "venice_v3:coast_r6_land_x+00_z-02",
+      "venice_v3:coast_r6_land_x+00_z-01",
+      "venice_v3:coast_r6_land_x+00_z+00",
+      "venice_v3:coast_r6_land_x+00_z+01",
+      "venice_v3:coast_r6_land_x+00_z+02",
+      "venice_v3:coast_r6_land_x+00_z+03",
+      "venice_v3:coast_r6_land_x+00_z+04",
+      "venice_v3:coast_r6_land_x+00_z+05",
+      "venice_v3:coast_r6_land_x+00_z+06",
+      "venice_v3:coast_r6_land_x+00_z+07",
+      "venice_v3:coast_r6_land_x+00_z+08",
+      "venice_v3:coast_r6_land_x+00_z+09",
+      "venice_v3:coast_r6_land_x+00_z+10"
+    ],
+    "old_objects_preserved": true,
+    "old_materials_and_game_fields_preserved": true,
+    "models": [
+      {
+        "model": "venice_v3:coast",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 2,
+        "bounds_min": [
+          -97500.0,
+          -38.651861600666976,
+          -160000.0
+        ],
+        "bounds_max": [
+          149998.89372091249,
+          -33.768974593724124,
+          160000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 2.9103830456733704e-11,
+        "max_uv_error": 0.0033240932021811886,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 4.882887006942855,
+        "shared_lattice_max_error_cm": 1.8332002582610585e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-10",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -160000.12207217517
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -152000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.06103701893789548,
+        "max_uv_error": 1.1368683772161603e-13,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-09",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -152000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -136000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-08",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -136000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -120000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.1368683772161603e-13,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-07",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -120000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -104000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 5.684341886080802e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-06",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -104000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -88000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-05",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -88000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -72000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 5.684341886080802e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-04",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -72000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -56000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 2.842170943040401e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-03",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -56000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -40000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-02",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -40000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -24000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 2.842170943040401e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z-01",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -24000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          -8000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+00",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          -8000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          8000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+01",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          8000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          24000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+02",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          24000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          40000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 2.842170943040401e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+03",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          40000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          56000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+04",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          56000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          72000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 2.842170943040401e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+05",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          72000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          88000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 5.684341886080802e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+06",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          88000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          104000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+07",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          104000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          120000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 5.684341886080802e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+08",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          120000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          136000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.1368683772161603e-13,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+09",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          136000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          152000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 1.4210854715202004e-14,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-02_z+10",
+        "vertices": 6,
+        "triangles": 2,
+        "parts": 1,
+        "bounds_min": [
+          -24998.93186846723,
+          0.5107690547029051,
+          152000.0
+        ],
+        "bounds_max": [
+          -21400.0,
+          0.5107690547029051,
+          160000.12207217517
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.06103701893789548,
+        "max_uv_error": 1.1368683772161603e-13,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 3.637978807091713e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-10",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -160000.12207217517
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -152000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-09",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -152000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -136000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-08",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -136000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -120000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-07",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -120000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -104000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-06",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -104000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -88000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-05",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -88000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -72000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-04",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -72000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -56000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-03",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -56000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -40000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-02",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -40000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -24000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z-01",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          -24000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          -8000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+00",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          -0.9540970473799462,
+          -8000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          8000.0
+        ],
+        "max_normal_error_degrees": 0.08190757637809397,
+        "max_tangent_error_degrees": 0.08668038699060013,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517425306,
+        "max_uv_error": 9.540284287368195e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+01",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          8000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          24000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+02",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          24000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          40000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+03",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          40000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          56000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+04",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          56000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          72000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+05",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          72000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          88000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+06",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          88000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          104000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+07",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          104000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          120000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+08",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          120000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          136000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+09",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          136000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          152000.0
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x-01_z+10",
+        "vertices": 12,
+        "triangles": 4,
+        "parts": 1,
+        "bounds_min": [
+          -21400.0,
+          0.5107690547029051,
+          152000.0
+        ],
+        "bounds_max": [
+          -5400.0,
+          0.5107690547029051,
+          160000.12207217517
+        ],
+        "max_normal_error_degrees": 0.05606238867571658,
+        "max_tangent_error_degrees": 0.0,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.12207217517334357,
+        "max_uv_error": 3.8154928052591686e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 9.094947017729282e-13,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-10",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -160000.12207217517
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -152000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.08182477319132886,
+        "max_uv_error": 0.0018020282195720938,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-09",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -152000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -136000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0018187798576718706,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-08",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -136000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -120000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0016954727487927812,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-07",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -120000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -104000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0012947246444809934,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-06",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -104000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -88000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0015259254737429728,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-05",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -88000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -72000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270437746627,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0013563781989205381,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-04",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -72000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -56000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270437746627,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0011868309240981034,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-03",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -56000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -40000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.001017283649247247,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-02",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -40000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -24000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0008014962084530453,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z-01",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -24000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          -8000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0006781890994815853,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+00",
+        "vertices": 7692,
+        "triangles": 2564,
+        "parts": 2,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          -8000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          8000.0
+        ],
+        "max_normal_error_degrees": 0.10071160060861603,
+        "max_tangent_error_degrees": 0.08668038699060013,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.000554873523515198,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+01",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          8000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          24000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0006781890994815853,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+02",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          24000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          40000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0008014962084530453,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+03",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          40000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          56000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.001017283649247247,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+04",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          56000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          72000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270437746627,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0011868309240981034,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+05",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          72000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          88000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270437746627,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0013563781989205381,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+06",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          88000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          104000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0015259254737429728,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+07",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          104000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          120000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0012947246444809934,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+08",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          120000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          136000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0016954727487927812,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+09",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          136000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          152000.0
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 1.8189894035458565e-12,
+        "max_uv_error": 0.0018187798576718706,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      },
+      {
+        "model": "venice_v3:coast_r6_land_x+00_z+10",
+        "vertices": 30,
+        "triangles": 10,
+        "parts": 3,
+        "bounds_min": [
+          -5400.0,
+          -34.15772869459124,
+          152000.0
+        ],
+        "bounds_max": [
+          8498.405432211795,
+          100.36580834668439,
+          160000.12207217517
+        ],
+        "max_normal_error_degrees": 0.08130632330993647,
+        "max_tangent_error_degrees": 0.026379270451562957,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.08182477319132886,
+        "max_uv_error": 0.0018020282195720938,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false,
+        "native_position_step_cm": 0.24414435034714274,
+        "shared_lattice_max_error_cm": 1.8189894035458565e-12,
+        "all_exported_triangles_upward": true
+      }
+    ],
+    "tile_count": 63,
+    "native_grid_span_cm": 16000.0,
+    "native_grid_step_cm": 0.24414435034714274,
+    "uniform_scale_shader_evidence": "VS.3e4e8775aa14fa50: %91 and %375..380 use one XYZ scale",
+    "coverage": [
+      {
+        "xz_cm": [
+          4300,
+          -15000
+        ],
+        "height_cm": 100.36580834668439,
+        "minimum_expected_height_cm": 99
+      },
+      {
+        "xz_cm": [
+          6500,
+          -22500
+        ],
+        "height_cm": 33.42403378059607,
+        "minimum_expected_height_cm": 20
+      },
+      {
+        "xz_cm": [
+          3000,
+          -30000
+        ],
+        "height_cm": 100.36580834668439,
+        "minimum_expected_height_cm": 99
+      },
+      {
+        "xz_cm": [
+          3000,
+          -8000.3
+        ],
+        "height_cm": 100.36580834668439,
+        "minimum_expected_height_cm": 99
+      },
+      {
+        "xz_cm": [
+          -3000,
+          -6500.5
+        ],
+        "height_cm": -0.4025458290848812,
+        "minimum_expected_height_cm": -2
+      },
+      {
+        "xz_cm": [
+          1100.09,
+          -5500
+        ],
+        "height_cm": -0.9540970473790367,
+        "minimum_expected_height_cm": -2
+      },
+      {
+        "xz_cm": [
+          4300,
+          15000
+        ],
+        "height_cm": 100.36580834668439,
+        "minimum_expected_height_cm": 99
+      },
+      {
+        "xz_cm": [
+          6500,
+          22500
+        ],
+        "height_cm": 33.42403378059606,
+        "minimum_expected_height_cm": 20
+      },
+      {
+        "xz_cm": [
+          3000,
+          30000
+        ],
+        "height_cm": 100.36580834668439,
+        "minimum_expected_height_cm": 99
+      },
+      {
+        "xz_cm": [
+          3000,
+          8000.3
+        ],
+        "height_cm": 100.36580834668439,
+        "minimum_expected_height_cm": 99
+      },
+      {
+        "xz_cm": [
+          -3000,
+          6500.5
+        ],
+        "height_cm": -0.4025458290850038,
+        "minimum_expected_height_cm": -2
+      },
+      {
+        "xz_cm": [
+          1100.09,
+          5500
+        ],
+        "height_cm": -0.9540970473790367,
+        "minimum_expected_height_cm": -2
+      }
+    ],
+    "near_terrace_points_unchanged": 1375,
+    "main_view_terrain_rays": [
+      {
+        "aim_cm": [
+          4300,
+          98,
+          -15000
+        ],
+        "hit": true
+      },
+      {
+        "aim_cm": [
+          6500,
+          30,
+          -22500
+        ],
+        "hit": true
+      },
+      {
+        "aim_cm": [
+          3000,
+          98,
+          -30000
+        ],
+        "hit": true
+      },
+      {
+        "aim_cm": [
+          -35000,
+          -38,
+          -60000
+        ],
+        "hit": true
+      }
+    ],
+    "native_ocean_preserved": true,
+    "ocean_left_x_cm": 8497.71114671549,
+    "ocean_level_y_cm": -33.768974593724124,
+    "toe_x_cm": 8498.405432211795,
+    "toe_y_cm": -34.15772869459124,
+    "toe_submergence_cm": 0.3887541008671178,
+    "foundation_y_cm": -38.651861600666976,
+    "foundation_below_ocean_cm": 4.882887006942852,
+    "land_extent_abs_z_cm": 160000.12207217517,
+    "original_coast_position_step_cm": 4.882887006942855,
+    "new_binary_resources": [
+      "IndexBuffer.64e3b57ea5907fb4.bin",
+      "IndexBuffer.a46b67c8fb1c4c35.bin",
+      "IndexBuffer.c933b00a5ea7b3b0.bin",
+      "IndexBuffer.d19c56fe954b4adb.bin",
+      "VertexBuffer.0200aace3827dd6e.bin",
+      "VertexBuffer.081da58bcfbcb381.bin",
+      "VertexBuffer.090a9629fa17abf2.bin",
+      "VertexBuffer.0a6dac917e614379.bin",
+      "VertexBuffer.1a8690b17384a33c.bin",
+      "VertexBuffer.2138862ea18c26c5.bin",
+      "VertexBuffer.230fb5c9e676d138.bin",
+      "VertexBuffer.267325be49cf08d7.bin",
+      "VertexBuffer.27759e16c96705b4.bin",
+      "VertexBuffer.2b18f2f32f96da7c.bin",
+      "VertexBuffer.2c2b01ba1d14c9e6.bin",
+      "VertexBuffer.36b6ebdf556efffc.bin",
+      "VertexBuffer.37391ac36eec26df.bin",
+      "VertexBuffer.41d0e2d5f4cbcc8d.bin",
+      "VertexBuffer.42b372ca19c07a27.bin",
+      "VertexBuffer.49c588075747236d.bin",
+      "VertexBuffer.4f218cd0a18072d9.bin",
+      "VertexBuffer.4fced363d412014d.bin",
+      "VertexBuffer.5058b7e502ff299e.bin",
+      "VertexBuffer.53a8630b07e81aca.bin",
+      "VertexBuffer.5cb56f22cc4ca688.bin",
+      "VertexBuffer.6082badacac0d0b6.bin",
+      "VertexBuffer.6237403bf5cfdcd4.bin",
+      "VertexBuffer.6472e0a1570fa7fd.bin",
+      "VertexBuffer.6a67e3bc25fdd638.bin",
+      "VertexBuffer.77f67a6a87c4ee67.bin",
+      "VertexBuffer.7d272ad61692c6bb.bin",
+      "VertexBuffer.7d4aae7add5f81cc.bin",
+      "VertexBuffer.8572176492f6524c.bin",
+      "VertexBuffer.87e39f0f89183da1.bin",
+      "VertexBuffer.8ba1260280df4591.bin",
+      "VertexBuffer.90166f6d67a0fa21.bin",
+      "VertexBuffer.91002bf68e7d7e77.bin",
+      "VertexBuffer.96d0daf23fa27139.bin",
+      "VertexBuffer.9d655278a5a26227.bin",
+      "VertexBuffer.9d7cef252090bcc7.bin",
+      "VertexBuffer.a0de6cadb2945fd4.bin",
+      "VertexBuffer.a12fd3b3158f9194.bin",
+      "VertexBuffer.a3c3fd5006cb82cd.bin",
+      "VertexBuffer.a3f80a65e1a7e1be.bin",
+      "VertexBuffer.ac35512b230ea8b1.bin",
+      "VertexBuffer.b02d5296016bea99.bin",
+      "VertexBuffer.b3798e42a71cbcd8.bin",
+      "VertexBuffer.b39188ca925180e8.bin",
+      "VertexBuffer.b3f1d5a3bfaa3c8d.bin",
+      "VertexBuffer.b6295db3d1ece0c2.bin",
+      "VertexBuffer.b696357d2a762717.bin",
+      "VertexBuffer.b69acdd6a4735598.bin",
+      "VertexBuffer.b7619fbe20288a51.bin",
+      "VertexBuffer.bc5b6b6531843590.bin",
+      "VertexBuffer.bffaffeba4918fba.bin",
+      "VertexBuffer.c5f08dac57ca7911.bin",
+      "VertexBuffer.c620fc85d317a24f.bin",
+      "VertexBuffer.c665deb4c4d04f64.bin",
+      "VertexBuffer.c925424f2e74c106.bin",
+      "VertexBuffer.c9749ec9d7dc2042.bin",
+      "VertexBuffer.cc3633cb705ba006.bin",
+      "VertexBuffer.d1a08aedff1fab75.bin",
+      "VertexBuffer.d8a5869d618e7064.bin",
+      "VertexBuffer.dd8632bcbb20b087.bin",
+      "VertexBuffer.ddc631515ffd818b.bin",
+      "VertexBuffer.de0904b30116430b.bin",
+      "VertexBuffer.dfc54eafb65fff29.bin",
+      "VertexBuffer.e14415cc1df9544c.bin",
+      "VertexBuffer.e22d90139692c2cb.bin",
+      "VertexBuffer.e2b354d6cb134a6e.bin",
+      "VertexBuffer.e52a55cf36a33434.bin",
+      "VertexBuffer.e8c6cf2d00551733.bin",
+      "VertexBuffer.e9a3f2843b96204b.bin",
+      "VertexBuffer.ec0dd6cefe2867f8.bin",
+      "VertexBuffer.f996389c65265305.bin",
+      "VertexBuffer.fd53eba3a5c59a78.bin"
+    ],
+    "game_runtime_verified": false
+  },
+  "building": {
+    "changed_model_keys": [
+      "venice_v3:service_building"
+    ],
+    "changed_object_keys": [],
+    "preserved_building_objects": [
+      "venice_v3:service_building"
+    ],
+    "model": {
+      "model": "venice_v3:service_building",
+      "vertices": 588,
+      "triangles": 196,
+      "parts": 3,
+      "bounds_min": [
+        -490.0,
+        0.0,
+        -3530.0
+      ],
+      "bounds_max": [
+        730.0,
+        308.0,
+        -2890.0
+      ],
+      "max_normal_error_degrees": 0.07936181844649444,
+      "max_tangent_error_degrees": 0.09799374777866723,
+      "handedness_mismatches": 0,
+      "max_position_error": 0.009308003357091366,
+      "max_uv_error": 0.00013959166234300824,
+      "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+      "donor_frame_samples_used": 0,
+      "game_render_verified": false
+    },
+    "native_validation": {
+      "decoded_recess_cm": 0.5957122148474809,
+      "minimum_native_triangle_double_area_cm2": 1.0757089113458471,
+      "minimum_native_normal_dot": 0.9999990407144758,
+      "index_format": "R16_UINT",
+      "native_triangle_count": 196,
+      "zero_area_triangles": 0,
+      "coplanar_front_overlay_sheets": 0
+    },
+    "added_materials": [
+      "venice_v3:building_r6_wall",
+      "venice_v3:building_r6_joint",
+      "venice_v3:building_r6_roof"
+    ],
+    "added_textures": [
+      {
+        "key": "venice_v3:building_r6_wall",
+        "binary": "venice_v3_building_r6_wall.dac2f5c3803a628c.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4096,
+          4096
+        ],
+        "mips": 13,
+        "all_mips_decoded": true,
+        "sha256": "dac2f5c3803a628c919b6cc12cca185ff1f5b2ea562bb7d69dc3e6a6fe85b6ff",
+        "decoded_rgba_min": [
+          107,
+          109,
+          107,
+          255
+        ],
+        "decoded_rgba_max": [
+          132,
+          134,
+          132,
+          255
+        ],
+        "decoded_rgba_mean": [
+          117.37131,
+          118.30837,
+          116.89956,
+          255.0
+        ]
+      },
+      {
+        "key": "venice_v3:building_r6_joint",
+        "binary": "venice_v3_building_r6_joint.40f8be9b94bb2c9e.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4096,
+          4096
+        ],
+        "mips": 13,
+        "all_mips_decoded": true,
+        "sha256": "40f8be9b94bb2c9e3fe94064c8d94f5a1f74214bc64961132fb68d61803b4eba",
+        "decoded_rgba_min": [
+          132,
+          134,
+          132,
+          255
+        ],
+        "decoded_rgba_max": [
+          156,
+          158,
+          156,
+          255
+        ],
+        "decoded_rgba_mean": [
+          142.63008,
+          143.87526,
+          140.59643,
+          255.0
+        ]
+      },
+      {
+        "key": "venice_v3:building_r6_roof",
+        "binary": "venice_v3_building_r6_roof.e64a8751a43ed30b.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4096,
+          4096
+        ],
+        "mips": 13,
+        "all_mips_decoded": true,
+        "sha256": "e64a8751a43ed30b2c3d25952a4053deee889f757fb9401ed0517df68e09b16e",
+        "decoded_rgba_min": [
+          99,
+          97,
+          99,
+          255
+        ],
+        "decoded_rgba_max": [
+          123,
+          121,
+          123,
+          255
+        ],
+        "decoded_rgba_mean": [
+          105.53861,
+          107.82992,
+          105.54174,
+          255.0
+        ]
+      }
+    ],
+    "added_binary_resources": [
+      "IndexBuffer.a0091920d89296f9.bin",
+      "VertexBuffer.0d5094d74c7bad42.bin",
+      "VertexBuffer.266e8d8ef92781c5.bin",
+      "VertexBuffer.441a092b64485d0d.bin",
+      "venice_v3_building_r6_joint.40f8be9b94bb2c9e.tld",
+      "venice_v3_building_r6_roof.e64a8751a43ed30b.tld",
+      "venice_v3_building_r6_wall.dac2f5c3803a628c.tld"
+    ],
+    "materials": {
+      "textures": [
+        {
+          "key": "venice_v3:building_r6_wall",
+          "binary": "venice_v3_building_r6_wall.dac2f5c3803a628c.tld",
+          "format": "BC1_UNORM",
+          "size": [
+            4096,
+            4096
+          ],
+          "mips": 13,
+          "all_mips_decoded": true,
+          "sha256": "dac2f5c3803a628c919b6cc12cca185ff1f5b2ea562bb7d69dc3e6a6fe85b6ff",
+          "decoded_rgba_min": [
+            107,
+            109,
+            107,
+            255
+          ],
+          "decoded_rgba_max": [
+            132,
+            134,
+            132,
+            255
+          ],
+          "decoded_rgba_mean": [
+            117.37131,
+            118.30837,
+            116.89956,
+            255.0
+          ]
+        },
+        {
+          "key": "venice_v3:building_r6_joint",
+          "binary": "venice_v3_building_r6_joint.40f8be9b94bb2c9e.tld",
+          "format": "BC1_UNORM",
+          "size": [
+            4096,
+            4096
+          ],
+          "mips": 13,
+          "all_mips_decoded": true,
+          "sha256": "40f8be9b94bb2c9e3fe94064c8d94f5a1f74214bc64961132fb68d61803b4eba",
+          "decoded_rgba_min": [
+            132,
+            134,
+            132,
+            255
+          ],
+          "decoded_rgba_max": [
+            156,
+            158,
+            156,
+            255
+          ],
+          "decoded_rgba_mean": [
+            142.63008,
+            143.87526,
+            140.59643,
+            255.0
+          ]
+        },
+        {
+          "key": "venice_v3:building_r6_roof",
+          "binary": "venice_v3_building_r6_roof.e64a8751a43ed30b.tld",
+          "format": "BC1_UNORM",
+          "size": [
+            4096,
+            4096
+          ],
+          "mips": 13,
+          "all_mips_decoded": true,
+          "sha256": "e64a8751a43ed30b2c3d25952a4053deee889f757fb9401ed0517df68e09b16e",
+          "decoded_rgba_min": [
+            99,
+            97,
+            99,
+            255
+          ],
+          "decoded_rgba_max": [
+            123,
+            121,
+            123,
+            255
+          ],
+          "decoded_rgba_mean": [
+            105.53861,
+            107.82992,
+            105.54174,
+            255.0
+          ]
+        }
+      ],
+      "source_albedo_texture": "local/venice_v3/concrete",
+      "source_albedo_sha256": "e7992ab62832ad2b3319e0a8bc6ab4daceb04bc0b7ace267a08415e3fae5389e",
+      "source_resolution_preserved": [
+        4096,
+        4096
+      ],
+      "normal_texture_reused_unchanged": "local/venice_v3/concrete_normal",
+      "normal_sha256": "3ee04e9f1807ea218aebde7910b1ac97f8f49b941308bb8e35c793bf56f3da9d",
+      "roughness_alpha_decoded_range": [
+        0.9372549019607843,
+        0.9607843137254902
+      ],
+      "normal_height": 0.08,
+      "encoded_color_targets": {
+        "wall": [
+          118,
+          119,
+          117
+        ],
+        "joint": [
+          143,
+          144,
+          140
+        ],
+        "roof": [
+          106,
+          108,
+          106
+        ]
+      },
+      "original_concrete_material_and_textures_preserved": true,
+      "existing_effect_and_pass_bindings_copied_unchanged": "venice_v3:unbaked_layer_base_CLOD"
+    },
+    "body_bounds_min_cm": [
+      -480.0,
+      0.0,
+      -3520.0
+    ],
+    "body_bounds_max_cm": [
+      720.0,
+      300.0,
+      -2900.0
+    ],
+    "roof_bounds_min_cm": [
+      -490.0,
+      300.0,
+      -3530.0
+    ],
+    "roof_bounds_max_cm": [
+      730.0,
+      308.0,
+      -2890.0
+    ],
+    "recess_design_cm": 0.6,
+    "line_width_design_cm": 1.8,
+    "added_doors_handles_windows_or_signs": 0,
+    "all_other_original_scene_values_preserved": true,
+    "all_existing_binary_resources_preserved": true,
+    "new_collision_resources": 0,
+    "prior_model_spec_sha256": "80da0fa1d3b013a7bea1d982d5f25f111bb70dbe80bb65a86c2b7cf2ae68dfd7",
+    "reference_images": [
+      "arena_reference_02.png",
+      "arena_reference_03.png",
+      "arena_reference_04.png",
+      "arena_reference_05.png"
+    ],
+    "dimensions_color_and_recess_are_design_approximations": true,
+    "game_render_verified": false
+  },
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 195182112,
+      "sha256": "cb4d51d0287f98751fb5605f641c753b8c33391edeb0eafb27559c8d8f72f49e"
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  },
+  "validation": {
+    "changed_original_archive_entries": [
+      "level.SCNE",
+      "level_floor_lightmaps.SCNE",
+      "crowd.SCNE"
+    ],
+    "all_original_binary_resources_byte_identical": true,
+    "original_objects_except_time_of_day_byte_equivalent": true,
+    "all_original_compiled_effects_unchanged": true,
+    "preserved_gameplay_archive_entries": [
+      "level_collisions.Coll",
+      "speedtree_collisions.Coll",
+      "baskets.SCNE",
+      "baskets_collisions.Coll",
+      "MAIN.Coll",
+      "crowd_seats_vertex.674a68d9eb68bc7a.bin",
+      "crowd.CrowdData"
+    ],
+    "visible_original_level_objects": [
+      "__floor00__"
+    ],
+    "all_hidden_geometry_zero_area_in_every_lod": true,
+    "all_new_index_ranges_and_stream_sizes_valid": true,
+    "duplicate_archive_names": 0,
+    "game_runtime_verified": false,
+    "game_directory_modified": false,
+    "status": "STATIC_VALIDATED_GAME_UNTESTED",
+    "artifacts": {
+      "arena_700_int.iff": {
+        "bytes": 195182112,
+        "sha256": "cb4d51d0287f98751fb5605f641c753b8c33391edeb0eafb27559c8d8f72f49e"
+      },
+      "arena_700_int_floor.iff": {
+        "bytes": 445558,
+        "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+      }
+    },
+    "base_revision5_sha256": "2fd02c8cfb3d771947cd4fe655db1f64f1ecf51a598bc1a8656ba16e1a670a3d",
+    "changed_revision5_archive_entries": [
+      "level.SCNE"
+    ],
+    "changed_existing_revision5_scene_records": [
+      {
+        "category": "Model",
+        "name": "venice_v3:coast"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:service_building"
+      }
+    ],
+    "added_scene_records": [
+      {
+        "category": "Texture",
+        "name": "venice_v3:building_r6_joint"
+      },
+      {
+        "category": "Texture",
+        "name": "venice_v3:building_r6_roof"
+      },
+      {
+        "category": "Texture",
+        "name": "venice_v3:building_r6_wall"
+      },
+      {
+        "category": "Material",
+        "name": "venice_v3:building_r6_joint"
+      },
+      {
+        "category": "Material",
+        "name": "venice_v3:building_r6_roof"
+      },
+      {
+        "category": "Material",
+        "name": "venice_v3:building_r6_wall"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+00"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+01"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+02"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+03"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+04"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+05"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+06"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+07"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+08"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+09"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z+10"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-01"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-02"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-03"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-04"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-05"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-06"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-07"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-08"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-09"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x+00_z-10"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+00"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+01"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+02"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+03"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+04"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+05"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+06"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+07"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+08"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+09"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z+10"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-01"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-02"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-03"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-04"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-05"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-06"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-07"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-08"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-09"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-01_z-10"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+00"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+01"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+02"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+03"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+04"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+05"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+06"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+07"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+08"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+09"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z+10"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-01"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-02"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-03"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-04"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-05"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-06"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-07"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-08"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-09"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:coast_r6_land_x-02_z-10"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+00"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+01"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+02"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+03"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+04"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+05"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+06"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+07"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+08"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+09"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z+10"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-01"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-02"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-03"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-04"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-05"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-06"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-07"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-08"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-09"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x+00_z-10"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+00"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+01"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+02"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+03"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+04"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+05"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+06"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+07"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+08"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+09"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z+10"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-01"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-02"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-03"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-04"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-05"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-06"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-07"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-08"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-09"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-01_z-10"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+00"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+01"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+02"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+03"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+04"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+05"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+06"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+07"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+08"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+09"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z+10"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-01"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-02"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-03"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-04"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-05"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-06"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-07"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-08"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-09"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:coast_r6_land_x-02_z-10"
+      }
+    ],
+    "all_existing_revision5_records_except_two_scenery_models_preserved": true,
+    "all_existing_revision5_objects_and_transforms_preserved": true,
+    "all_existing_revision5_materials_and_textures_preserved": true,
+    "all_existing_revision5_binary_resources_byte_identical": true,
+    "paired_floor_byte_identical_to_revision5": true,
+    "new_binary_resources": 83,
+    "byte_identical_existing_resources_reused": [],
+    "shared_validator_environment_audit_revision3_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99"
+  },
+  "shipping_zip": {
+    "name": "venice_court_revision6.zip",
+    "bytes": 102983372,
+    "sha256": "0102fb57b6fb6b439383ce824940a851d629f43be18105576e3fb4c0062d919f"
+  }
+}

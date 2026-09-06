@@ -1,0 +1,48 @@
+{
+  "source_sha256": "cb4d51d0287f98751fb5605f641c753b8c33391edeb0eafb27559c8d8f72f49e",
+  "kind": "EXPORTED_GEOMETRY_AND_ALBEDO_NOT_NBA2K_RENDER",
+  "browser_viewport_px": [
+    1471,
+    827
+  ],
+  "cameras_visually_checked": [
+    "全场",
+    "灰色建筑",
+    "北侧远岸",
+    "南侧远岸",
+    "草台与海岸接缝",
+    "涂装俯视",
+    "罚球区细节"
+  ],
+  "rendered_objects": 137,
+  "placeholder_objects": 6,
+  "hidden_degenerate_objects": 791,
+  "browser_error_and_warning_log": [],
+  "native_resource_issues": [
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:basket",
+      "reason": "Missing resource: IndexBuffer.2faa94a692eecb55.gz"
+    },
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:glass",
+      "reason": "Native skinned basket: bone weights/pose not decoded; showing authoring bounds under actual Object.Matrix"
+    },
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:rimr",
+      "reason": "Native basket rig/reflection transform unresolved; showing authoring bounds under actual Object.Matrix"
+    }
+  ],
+  "observations": [
+    "Previously open far shoreline bands are continuous in both checked directions.",
+    "Grey building has restrained recessed panel lines, without black doors or handles.",
+    "No open grass/shore gap observed at the checked z=8000 connection.",
+    "Existing center/key paint and white markings remain visible; previously diagnosed paint depth gap not observed.",
+    "Minor neutral-preview shadow aliasing remains under the roof; this viewer does not run native NBA 2K lighting.",
+    "Three missing basket models remain six visible placeholder bounding boxes; not claimed as completed basket replacement."
+  ],
+  "geometry_material_depth_or_normal_overrides_used": false,
+  "game_runtime_verified": false
+}
