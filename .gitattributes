@@ -1,0 +1,8 @@
+*.iff binary
+*.tld binary
+*.bin binary
+*.gz binary
+*.dds binary
+*.png binary
+# Preserve the exact snapshot bytes, including hashes recorded in the manifest.
+* -text

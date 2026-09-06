@@ -1,0 +1,154 @@
+{
+  "original_sha256": "42865ecaf8dd923c4d901509263af3b242c00975f4284b917ba79ce8fbbced46",
+  "archive_test": "PASS",
+  "original_entry_count": 2221,
+  "output_entry_count": 2227,
+  "added_entries": [
+    "venice_aluminum.101f6443788ccd38.tld",
+    "venice_asphalt.d474de137bc405ad.tld",
+    "venice_concrete.070f5f2a7c87e382.tld",
+    "venice_dark_metal.e52182244aa34c8e.tld",
+    "venice_grass.5aeb8970a9ab48ed.tld",
+    "venice_sky.043965257e09e9da.tld"
+  ],
+  "changed_original_entries": [
+    "level.SCNE"
+  ],
+  "level_structural_sections": {
+    "Light": {
+      "before": "b17bcf9280bdcb35c634bbd018624188bc300404edb5c5b3af8862a444788584",
+      "after": "b17bcf9280bdcb35c634bbd018624188bc300404edb5c5b3af8862a444788584",
+      "unchanged": true
+    },
+    "Model": {
+      "before": "b54ed045349f75147eb9410cf31ddf5bef8594e3250427734fcd3c8fa48d2c5b",
+      "after": "b54ed045349f75147eb9410cf31ddf5bef8594e3250427734fcd3c8fa48d2c5b",
+      "unchanged": true
+    },
+    "Object": {
+      "before": "568cc1f1206b025d05499da4153b0090f3fcfeb1700392b69f762360a4d79dcd",
+      "after": "568cc1f1206b025d05499da4153b0090f3fcfeb1700392b69f762360a4d79dcd",
+      "unchanged": true
+    }
+  },
+  "critical_entries_unchanged": {
+    "baskets.SCNE": true,
+    "baskets_collisions.Coll": true,
+    "level_collisions.Coll": true,
+    "MAIN.Coll": true,
+    "crowd.CrowdData": true,
+    "crowd.SCNE": true
+  },
+  "local_textures": {
+    "local/venice/asphalt_basecolor.png": {
+      "binary": "venice_asphalt.d474de137bc405ad.tld",
+      "header": {
+        "zero": 0,
+        "kind": 4,
+        "format_code": 71,
+        "mips": 10,
+        "flags": 31,
+        "width": 512,
+        "height": 512,
+        "depth": 1,
+        "block_words": 1,
+        "pixel_data_size": 174776,
+        "pixel_data_size_copy": 174776,
+        "file_size": 174808
+      },
+      "valid": true
+    },
+    "local/venice/concrete_basecolor.png": {
+      "binary": "venice_concrete.070f5f2a7c87e382.tld",
+      "header": {
+        "zero": 0,
+        "kind": 4,
+        "format_code": 71,
+        "mips": 1,
+        "flags": 31,
+        "width": 1,
+        "height": 1,
+        "depth": 1,
+        "block_words": 1,
+        "pixel_data_size": 8,
+        "pixel_data_size_copy": 8,
+        "file_size": 40
+      },
+      "valid": true
+    },
+    "local/venice/grass_basecolor.png": {
+      "binary": "venice_grass.5aeb8970a9ab48ed.tld",
+      "header": {
+        "zero": 0,
+        "kind": 4,
+        "format_code": 71,
+        "mips": 1,
+        "flags": 31,
+        "width": 1,
+        "height": 1,
+        "depth": 1,
+        "block_words": 1,
+        "pixel_data_size": 8,
+        "pixel_data_size_copy": 8,
+        "file_size": 40
+      },
+      "valid": true
+    },
+    "local/venice/sky_basecolor.png": {
+      "binary": "venice_sky.043965257e09e9da.tld",
+      "header": {
+        "zero": 0,
+        "kind": 4,
+        "format_code": 71,
+        "mips": 1,
+        "flags": 31,
+        "width": 1,
+        "height": 1,
+        "depth": 1,
+        "block_words": 1,
+        "pixel_data_size": 8,
+        "pixel_data_size_copy": 8,
+        "file_size": 40
+      },
+      "valid": true
+    },
+    "local/venice/aluminum_basecolor.png": {
+      "binary": "venice_aluminum.101f6443788ccd38.tld",
+      "header": {
+        "zero": 0,
+        "kind": 4,
+        "format_code": 71,
+        "mips": 1,
+        "flags": 31,
+        "width": 1,
+        "height": 1,
+        "depth": 1,
+        "block_words": 1,
+        "pixel_data_size": 8,
+        "pixel_data_size_copy": 8,
+        "file_size": 40
+      },
+      "valid": true
+    },
+    "local/venice/dark_metal_basecolor.png": {
+      "binary": "venice_dark_metal.e52182244aa34c8e.tld",
+      "header": {
+        "zero": 0,
+        "kind": 4,
+        "format_code": 71,
+        "mips": 1,
+        "flags": 31,
+        "width": 1,
+        "height": 1,
+        "depth": 1,
+        "block_words": 1,
+        "pixel_data_size": 8,
+        "pixel_data_size_copy": 8,
+        "file_size": 40
+      },
+      "valid": true
+    }
+  },
+  "status": "PASS",
+  "failures": []
+}

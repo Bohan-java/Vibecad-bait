@@ -1,0 +1,965 @@
+You are working locally on an NBA 2K arena / gym mod project.
+
+There is already a donor `.iff` file inside the current local project folder.
+
+I will send several reference photos directly in this Codex chat.
+
+These photos are NOT standardized architectural photographs. They may be taken from random angles, different distances, different heights, with perspective distortion, incomplete coverage, and inconsistent lighting.
+
+That is intentional.
+
+Your job is NOT to reconstruct the real building dimensions from the photos.
+
+Your job is to use the existing donor IFF as the complete structural and dimensional base, while changing its visual appearance so that it resembles the gym / arena shown in my reference photos.
+
+---
+
+# ABSOLUTE RULE 1 — DONOR CONTROLS ALL GEOMETRY
+
+The donor IFF is authoritative for:
+
+- arena dimensions
+- court dimensions
+- court scale
+- court position
+- court orientation
+- wall positions
+- ceiling height
+- arena footprint
+- basket positions
+- basket height
+- baseline positions
+- sideline positions
+- gameplay coordinates
+- player coordinates
+- camera compatibility
+- collision
+- scene origin
+- object transforms
+- scene hierarchy
+- gameplay anchors
+- crowd-related locations
+- bench-related locations
+- scorer-table locations
+- NBA 2K structural compatibility
+
+DO NOT derive new dimensions from the photographs.
+
+DO NOT use photogrammetry to override donor geometry.
+
+DO NOT rescale the donor arena based on photo perspective.
+
+DO NOT move baskets because they appear differently positioned in a photograph.
+
+DO NOT change court dimensions.
+
+DO NOT rebuild the arena from scratch.
+
+If donor geometry and the real gym shown in the photos are different, KEEP THE DONOR GEOMETRY.
+
+---
+
+# ABSOLUTE RULE 2 — PHOTOS CONTROL APPEARANCE
+
+The reference photos are authoritative for visual appearance.
+
+Use them to determine:
+
+- colors
+- wall paint
+- floor color
+- wood appearance
+- logos
+- school/team branding
+- wall graphics
+- banners
+- signs
+- advertisements
+- padding
+- seating colors
+- bleacher colors
+- door appearance
+- ceiling colors
+- visible surface finishes
+- scoreboard graphics
+- material appearance
+- texture patterns
+- trim
+- decorative details
+- overall visual identity
+
+Think of the task as:
+
+DONOR IFF
+=
+geometry + scale + coordinates + gameplay compatibility
+
+REFERENCE PHOTOS
+=
+textures + materials + colors + graphics + visual identity
+
+---
+
+# ABSOLUTE RULE 3 — LOCAL ONLY
+
+This project must remain completely local.
+
+DO NOT:
+
+- create a GitHub repository
+- push anything to GitHub
+- use GitHub Actions
+- upload assets to any cloud service
+- use Google Drive
+- use Dropbox
+- use OneDrive
+- use external hosting
+- publish the mod
+- upload donor assets anywhere
+
+Do not set up Git unless it is already required by an existing local workflow.
+
+Treat the entire project as a LOCAL WORKSPACE.
+
+All files should stay inside the current computer.
+
+If backups are needed, create local backup folders only.
+
+---
+
+# PROJECT GOAL
+
+Modify the donor arena so that:
+
+1. NBA 2K still recognizes and loads it correctly.
+2. Gameplay geometry remains compatible.
+3. The donor keeps its structural dimensions.
+4. The visual identity is changed to match my reference photos as closely as practical.
+5. The process is reproducible locally.
+
+The end result should be a usable NBA 2K arena mod derived from the donor IFF.
+
+---
+
+# PHASE 1 — INSPECT THE CURRENT LOCAL FOLDER
+
+Before changing anything, inspect the current project folder.
+
+Find:
+
+- donor `.iff`
+- extracted donor resources
+- `.scene` files
+- court files
+- arena files
+- DDS textures
+- PNG/TGA textures
+- material files
+- geometry files
+- archive files
+- Blender files
+- Python scripts
+- conversion utilities
+- NBA 2K modding tools
+- documentation
+- existing build scripts
+
+Do not assume filenames.
+
+Inspect what actually exists.
+
+---
+
+# PHASE 2 — PROTECT THE DONOR
+
+The donor must remain untouched.
+
+Create a local backup if one does not already exist.
+
+For example:
+
+donor/
+    original/
+        donor_original.iff
+
+working/
+    donor_working.iff
+
+Never overwrite the only donor file.
+
+Never make destructive changes directly to the original donor.
+
+---
+
+# PHASE 3 — ANALYZE THE DONOR STRUCTURE
+
+Inspect or extract the donor IFF using the available local tools.
+
+Identify as much as possible:
+
+- arena scene
+- court scene
+- floor
+- walls
+- stands
+- ceiling
+- basket-related objects
+- scorer's table
+- advertising boards
+- LED boards
+- banners
+- scoreboard
+- tunnels
+- doors
+- seating
+- crowd-related objects
+- collision-related objects
+- materials
+- shaders
+- textures
+- UV maps
+- normal maps
+- roughness/specular maps
+- lightmaps
+- texture atlases
+- mesh names
+- mesh IDs
+- material IDs
+- texture references
+- object transforms
+- scene hierarchy
+
+Do not delete unknown resources.
+
+If you do not understand what a resource does, preserve it.
+
+---
+
+# PHASE 4 — CREATE A DONOR RESOURCE MAP
+
+Before replacing textures, determine:
+
+which texture
+→ controls which material
+
+which material
+→ appears on which mesh
+
+which mesh
+→ represents which physical part of the donor arena
+
+Create a local document:
+
+docs/DONOR_STRUCTURE.md
+
+Document mappings such as:
+
+wall_main.dds
+→ wall material
+→ east/west wall mesh
+
+court_floor.dds
+→ court material
+→ court floor
+
+padding.dds
+→ lower-wall padding
+
+etc.
+
+If exact mappings cannot be determined immediately, continue investigation instead of blindly replacing files.
+
+---
+
+# PHASE 5 — ANALYZE MY CHAT PHOTOS
+
+I will send several photos directly in this Codex conversation.
+
+Use ALL useful photos together.
+
+They may be taken from:
+
+- random angles
+- corners
+- sidelines
+- bleachers
+- upper levels
+- near the basket
+- diagonal viewpoints
+
+This is acceptable.
+
+DO NOT require standardized front/side/top views.
+
+DO NOT repeatedly ask me for exact measurements.
+
+I do not have reliable architectural measurements.
+
+Dimensions already come from the donor.
+
+Use the photos only to extract visual information.
+
+---
+
+# PHOTO ANALYSIS TARGETS
+
+For each photo, identify:
+
+- visible wall colors
+- floor colors
+- logo placement
+- center-court design
+- baseline lettering
+- wall lettering
+- banners
+- school name
+- mascot graphics
+- signs
+- padding
+- door colors
+- seating
+- bleachers
+- ceiling appearance
+- structural colors
+- lights
+- scoreboard visual style
+- advertisements
+- trim
+- patterns
+- textures
+- surface finish
+- material roughness
+- glossiness
+- reflection level
+
+Use multiple photos to resolve ambiguous appearance.
+
+---
+
+# DO NOT USE PHOTO PERSPECTIVE AS SCALE
+
+This is extremely important.
+
+The photos may visually make objects appear:
+
+- wider
+- narrower
+- taller
+- shorter
+- closer
+- farther away
+
+because of camera perspective.
+
+Ignore those differences for geometry.
+
+For example:
+
+If the real photo wall looks shorter than the donor wall:
+
+DO NOT shorten the donor wall.
+
+Instead:
+
+apply the real wall's texture/material appearance to the donor wall.
+
+If the real bleachers look closer to the court:
+
+DO NOT move the donor stands.
+
+Apply the bleacher appearance onto the donor seating/stand geometry.
+
+---
+
+# VISUAL MAPPING PRINCIPLE
+
+Map real-world visual features onto the nearest equivalent donor surfaces.
+
+Example:
+
+photo wall
+→ donor wall
+
+photo bleachers
+→ donor stands
+
+photo lower-wall padding
+→ donor lower-wall material
+
+photo banners
+→ donor banner surfaces
+
+photo scoreboard graphics
+→ donor scoreboard surfaces
+
+photo school logo
+→ donor signage or wall decal surfaces
+
+photo floor design
+→ donor court texture
+
+photo ceiling appearance
+→ donor ceiling surfaces
+
+The donor determines WHERE.
+
+The photos determine HOW IT LOOKS.
+
+---
+
+# PRIORITY ORDER FOR MODIFICATION
+
+Always prefer the least invasive method.
+
+Priority:
+
+1. texture replacement
+2. material replacement
+3. material parameter adjustment
+4. decals
+5. texture atlas modification
+6. UV adjustment
+7. small decorative geometry additions
+8. major geometry changes only if absolutely unavoidable
+
+The project should be primarily TEXTURE / MATERIAL driven.
+
+---
+
+# COURT FLOOR
+
+The court floor is one of the highest-priority visual assets.
+
+Recreate from the photos:
+
+- wood color
+- wood grain style
+- plank appearance
+- center logo
+- school/team name
+- baseline graphics
+- sideline graphics
+- paint area colors
+- sponsor graphics
+- decorative court graphics
+
+However:
+
+KEEP THE DONOR'S PHYSICAL COURT SIZE.
+
+KEEP THE DONOR'S COURT POSITION.
+
+KEEP THE DONOR'S LINE GEOMETRY / MAPPING STRUCTURE unless the donor workflow safely supports texture-only replacement.
+
+Do not redesign physical court dimensions.
+
+---
+
+# TEXTURE CREATION RULES
+
+When extracting visual information from photos:
+
+Do not simply paste the entire perspective photo onto the donor.
+
+Instead, create clean textures.
+
+Correct where practical:
+
+- perspective distortion
+- rotation
+- uneven lighting
+- shadows
+- glare
+- color cast
+- lens distortion
+- low contrast
+
+For signs and logos:
+
+prefer clean reconstruction over a badly distorted photograph crop.
+
+For example:
+
+photo of wall logo
+→ rectify perspective
+→ isolate logo
+→ clean edges
+→ apply as decal / texture
+
+Do not invent unreadable text.
+
+If text cannot be confidently identified, leave it simplified rather than hallucinating detailed lettering.
+
+---
+
+# MATERIAL MATCHING
+
+Match visual material properties, not only color.
+
+Determine whether surfaces look like:
+
+- polished hardwood
+- matte paint
+- glossy paint
+- painted metal
+- plastic
+- vinyl padding
+- fabric
+- concrete
+- acoustic ceiling panels
+- glass
+- reflective signage
+
+Reuse donor material systems whenever possible.
+
+Avoid introducing unsupported shaders.
+
+Prefer changing:
+
+- diffuse/albedo
+- normal
+- specular
+- roughness
+- gloss
+- emission
+
+using formats already supported by the donor.
+
+---
+
+# DDS / TEXTURE FORMAT SAFETY
+
+Before replacing any texture, inspect:
+
+- dimensions
+- mipmaps
+- compression
+- alpha
+- channel layout
+- color space
+- DDS format
+
+Preserve donor-compatible formats.
+
+Do not arbitrarily convert all DDS files to a different compression format.
+
+If the donor texture uses:
+
+BC1
+BC3
+BC5
+BC7
+
+or another format,
+
+determine the correct replacement format first.
+
+---
+
+# TEXTURE ATLASES
+
+If the donor uses texture atlases:
+
+DO NOT replace the entire atlas blindly.
+
+Determine:
+
+- which region controls which surface
+- UV boundaries
+- unused regions
+- shared areas
+
+Rebuild only the required regions.
+
+Preserve unrelated donor atlas content where necessary.
+
+Document this in:
+
+docs/TEXTURE_MAPPING.md
+
+---
+
+# UNKNOWN AREAS
+
+Some donor surfaces will not be visible in my photos.
+
+For those:
+
+use conservative visual continuation.
+
+Example:
+
+If visible gym walls are mostly beige:
+
+use the same beige on unseen donor walls.
+
+If the visible ceiling is dark gray:
+
+continue that appearance on unseen donor ceiling surfaces.
+
+Do not invent an entirely different architectural style.
+
+---
+
+# GEOMETRY CHANGES
+
+Avoid structural geometry replacement.
+
+Only add small decorative geometry when texture-only reconstruction cannot represent an important feature.
+
+Allowed examples:
+
+- thin banner
+- wall sign
+- shallow padding
+- decorative panel
+- small trim
+- simple logo board
+
+Any added geometry must NOT interfere with:
+
+- player movement
+- court
+- baskets
+- collision
+- camera
+- bench
+- crowd
+- scorer table
+- gameplay
+
+Do not alter donor dimensions.
+
+---
+
+# PRESERVE GAME-CRITICAL OBJECTS
+
+Never casually delete, rename, move, or rescale:
+
+- basket objects
+- hoop anchors
+- gameplay floor
+- collision
+- camera anchors
+- scene root
+- player anchors
+- bench anchors
+- scorer table anchors
+- crowd-related hooks
+- court origin
+- major scene nodes
+
+If uncertain:
+
+KEEP THE OBJECT.
+
+---
+
+# LOCAL TOOLING
+
+Use tools already available locally.
+
+Potential tools may include:
+
+- NBA2K Explorer
+- 2KVenueLab
+- Blender
+- Blender Python
+- Python
+- ImageMagick
+- DDS utilities
+- 7-Zip
+- archive tools
+- existing NBA 2K mod tools
+
+Do not assume any particular program exists.
+
+Inspect the environment first.
+
+If a required tool is missing, choose another local approach where possible.
+
+Do NOT upload files to a website for conversion.
+
+---
+
+# BLENDER
+
+If Blender is useful:
+
+prefer reproducible Blender Python scripts where practical.
+
+Use Blender mainly for:
+
+- inspecting geometry
+- inspecting UVs
+- identifying materials
+- adding small decorative geometry
+- checking surface assignments
+
+Do not rebuild the entire donor arena in Blender unless absolutely necessary.
+
+---
+
+# LOCAL PROJECT STRUCTURE
+
+Keep everything local.
+
+A reasonable structure is:
+
+project/
+    donor/
+        original/
+        working/
+    extracted/
+    textures/
+        source/
+        processed/
+        final/
+    scripts/
+    tools/
+    docs/
+    blender/
+    build/
+    output/
+    backups/
+
+Adapt this to existing files.
+
+Do not unnecessarily move files that already work.
+
+---
+
+# BUILD AUTOMATION
+
+Automate repetitive local operations where useful.
+
+Possible scripts:
+
+scripts/extract_donor.py
+
+scripts/process_textures.py
+
+scripts/build_mod.py
+
+scripts/validate_mod.py
+
+scripts/install_mod.py
+
+The exact implementation depends on the available toolchain.
+
+The ideal workflow is eventually:
+
+extract donor
+→ apply custom textures
+→ rebuild mod
+→ validate
+→ place output in local mod folder
+
+Do not require me to manually repeat dozens of steps every iteration.
+
+---
+
+# NO GITHUB
+
+Do not initialize GitHub.
+
+Do not ask for a GitHub URL.
+
+Do not use:
+
+git push
+
+gh repo create
+
+GitHub API
+
+GitHub Releases
+
+GitHub Actions
+
+or any cloud repository.
+
+All development is local.
+
+If the current folder happens to already contain `.git`, do not push it anywhere.
+
+Git is not required for this task.
+
+---
+
+# LOCAL BACKUPS
+
+Before destructive operations, make a local backup.
+
+For example:
+
+backups/
+    001_before_texture_replacement/
+    002_before_repack/
+    003_before_geometry_change/
+
+Do not use cloud backup.
+
+---
+
+# VALIDATION
+
+Before considering the project finished, verify as much as possible:
+
+- donor dimensions unchanged
+- court dimensions unchanged
+- basket transforms unchanged
+- scene origin unchanged
+- critical object names unchanged
+- critical object transforms unchanged
+- texture references valid
+- material references valid
+- texture formats compatible
+- DDS compression compatible
+- mipmaps valid where required
+- archive structure valid
+- IFF repacks successfully
+- modified arena loads through the available toolchain
+- there are no obviously missing assets
+- no unknown donor resource was accidentally removed
+
+---
+
+# VISUAL TARGET
+
+Do not try to create a geometrically exact digital twin of the real gym.
+
+That is NOT the task.
+
+The target is:
+
+When viewed during NBA 2K gameplay, the donor arena should visually feel like the real gym shown in my photos.
+
+Focus on:
+
+- floor
+- walls
+- logos
+- colors
+- signs
+- banners
+- padding
+- seating
+- ceiling
+- scoreboard
+- visual identity
+
+---
+
+# TRUST HIERARCHY
+
+Always follow this rule:
+
+GEOMETRY / DIMENSIONS / POSITION:
+DONOR IFF > PHOTOS
+
+COLORS / TEXTURES / MATERIALS / LOGOS:
+PHOTOS > DONOR IFF
+
+UNKNOWN AREAS:
+DONOR GEOMETRY + CONSERVATIVE VISUAL CONTINUATION
+
+Do not violate this hierarchy.
+
+---
+
+# UNCERTAINTY
+
+Do not repeatedly stop and ask me questions because the photographs are incomplete.
+
+That is expected.
+
+If something is ambiguous:
+
+1. preserve donor geometry
+2. infer the safest visual interpretation
+3. document uncertainty
+4. continue
+
+Create:
+
+docs/PHOTO_INTERPRETATION.md
+
+Use confidence labels:
+
+HIGH
+MEDIUM
+LOW
+
+---
+
+# WORK AUTONOMOUSLY
+
+Do not only explain how I could do the mod.
+
+Actually work on the local files.
+
+Do not stop after writing a plan.
+
+Do not stop after identifying the donor.
+
+Do not stop after extracting textures.
+
+Continue through as many implementation steps as the available local tooling permits.
+
+---
+
+# FIRST RESPONSE AFTER INSPECTION
+
+After inspecting the current folder and the photos, briefly tell me:
+
+1. which donor IFF you found
+2. what major arena resources it contains
+3. what parts of the photos clearly correspond to donor surfaces
+4. which textures/materials should be replaced first
+5. which assets appear gameplay-critical and should not be touched
+6. whether any small decorative geometry is likely needed
+
+Then continue working.
+
+Do NOT wait for approval unless an action would permanently destroy data.
+
+---
+
+# FINAL TARGET
+
+Use the donor as the complete NBA 2K-compatible skeleton.
+
+Do not change its dimensions.
+
+Do not reconstruct dimensions from the photos.
+
+Use my chat photos to replace:
+
+- textures
+- colors
+- logos
+- materials
+- signage
+- branding
+- decorative appearance
+
+Keep all work LOCAL.
+
+No GitHub.
+
+No cloud.
+
+No online asset upload.
+
+No structural rebuild unless absolutely necessary.
+
+The simplest summary is:
+
+KEEP THE DONOR'S GEOMETRY.
+KEEP THE DONOR'S DIMENSIONS.
+KEEP THE DONOR'S GAMEPLAY STRUCTURE.
+
+REPLACE ITS VISUAL APPEARANCE USING MY PHOTOS.
+
+BUILD AND TEST EVERYTHING LOCALLY.

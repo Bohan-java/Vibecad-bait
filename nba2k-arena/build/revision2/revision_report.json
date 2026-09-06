@@ -1,0 +1,620 @@
+{
+  "status": "STATIC_CHECKS_PASSED_GAME_UNTESTED",
+  "donor_sha256": "42865ecaf8dd923c4d901509263af3b242c00975f4284b917ba79ce8fbbced46",
+  "arena_sha256": "5d74fdab31ee29e0fe888af10c7370efc329ecc76ceb72c2f1d3eb6aa92bd499",
+  "floor_sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce",
+  "donor_model_count": 67,
+  "added_palm_models": 3,
+  "added_palm_instances": 14,
+  "all_original_models_and_objects_unchanged": true,
+  "all_original_lights_effects_unchanged": true,
+  "donor_floor_vertices_verified": 3231,
+  "donor_floor_bounds_verified": true,
+  "stock_700_floor_scene_overridden": true,
+  "floor_origin_matrix": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "geometry_preview_is_game_capture": false,
+  "game_directory_modified": false,
+  "placements": [
+    {
+      "object": "venice_v2:palm_00",
+      "model": "venice_v2:palm_model_0",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        -1650.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_01",
+      "model": "venice_v2:palm_model_1",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        -1100.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_02",
+      "model": "venice_v2:palm_model_2",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        -550.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_03",
+      "model": "venice_v2:palm_model_0",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        0.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_04",
+      "model": "venice_v2:palm_model_1",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        550.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_05",
+      "model": "venice_v2:palm_model_2",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        1100.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_06",
+      "model": "venice_v2:palm_model_0",
+      "position": [
+        -1445.3603520000001,
+        0.0,
+        1650.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_07",
+      "model": "venice_v2:palm_model_1",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        -1650.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_08",
+      "model": "venice_v2:palm_model_2",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        -1100.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_09",
+      "model": "venice_v2:palm_model_0",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        -550.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_10",
+      "model": "venice_v2:palm_model_1",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        0.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_11",
+      "model": "venice_v2:palm_model_2",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        550.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_12",
+      "model": "venice_v2:palm_model_0",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        1100.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    },
+    {
+      "object": "venice_v2:palm_13",
+      "model": "venice_v2:palm_model_1",
+      "position": [
+        1445.3603520000001,
+        0.0,
+        1650.0
+      ],
+      "collision_added": false,
+      "court_bounds_source": "donor __floor00__"
+    }
+  ],
+  "textures": {
+    "asphalt": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_asphalt.dcf7b2682231bc3a.tld"
+    },
+    "concrete": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_concrete.31192a939c29cc19.tld"
+    },
+    "grass": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_grass.70d732feb6eeeb7e.tld"
+    },
+    "sky": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_sky.944f433a3c64cdb6.tld"
+    },
+    "aluminum": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_aluminum.d19cd61cfc94da97.tld"
+    },
+    "dark_metal": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_dark_metal.101fd9212e0a7612.tld"
+    },
+    "line_white": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_line_white.3532505eab078cf9.tld"
+    },
+    "no_logo": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC3_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 48,
+      "Binary": "venice_v2_no_logo.109e52abebdc70c5.tld"
+    },
+    "matte_base": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC3_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 48,
+      "Binary": "venice_v2_matte_base.453b91c690e444aa.tld",
+      "TexelUsage": "LINEAR"
+    },
+    "floor_normal_rough_cone": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC3_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 48,
+      "Binary": "venice_v2_floor_normal_rough_cone.421e328cde31920f.tld",
+      "TexelUsage": "LINEAR"
+    },
+    "surface_normal_rough": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC3_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 48,
+      "Binary": "venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+      "TexelUsage": "LINEAR"
+    },
+    "palm_trunk": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_palm_trunk.7d30c3cc72bbe9dd.tld"
+    },
+    "palm_leaf": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_palm_leaf.7615cd2690c0d9ec.tld"
+    },
+    "palm_leaf_light": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_palm_leaf_light.0ea6190c147589b7.tld"
+    },
+    "palm_leaf_dark": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_palm_leaf_dark.be81b7a64dbb5768.tld"
+    },
+    "palm_dead": {
+      "Width": 4,
+      "Height": 4,
+      "Mips": 3,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 24,
+      "Binary": "venice_v2_palm_dead.b0589f27c3f1f5be.tld"
+    },
+    "palm_backdrop_1": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_palm_backdrop_1.b90cd424fa1bfdf0.tld"
+    },
+    "palm_backdrop_2": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_palm_backdrop_2.6f815d639f53587b.tld"
+    },
+    "palm_backdrop_3": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_palm_backdrop_3.5b5a7572dcc834f4.tld"
+    },
+    "palm_backdrop_4": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_palm_backdrop_4.1e26212f5c9d5d23.tld"
+    },
+    "palm_backdrop_5": {
+      "Width": 512,
+      "Height": 512,
+      "Mips": 10,
+      "Format": "BC1_UNORM",
+      "Min": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "PixelDataSize": 174776,
+      "Binary": "venice_v2_palm_backdrop_5.89464006e1821a1e.tld"
+    }
+  },
+  "changed_original_entries": [
+    "level.SCNE"
+  ],
+  "all_palm_bounds_outside_donor_floor": true,
+  "archive_entry_count": 2251
+}

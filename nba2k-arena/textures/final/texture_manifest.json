@@ -1,0 +1,134 @@
+{
+  "asphalt": {
+    "logical_name": "local/venice/asphalt_basecolor.png",
+    "binary": "venice_asphalt.d474de137bc405ad.tld",
+    "png": "textures/final/venice_asphalt.png",
+    "width": 512,
+    "height": 512,
+    "mips": 10,
+    "format": "BC1_UNORM",
+    "pixel_data_size": 174776,
+    "min": [
+      0.063010018,
+      0.072271851,
+      0.074213568,
+      1.0
+    ],
+    "max": [
+      0.2158605,
+      0.234550582,
+      0.238397574,
+      1.0
+    ]
+  },
+  "concrete": {
+    "logical_name": "local/venice/concrete_basecolor.png",
+    "binary": "venice_concrete.070f5f2a7c87e382.tld",
+    "png": "textures/final/venice_concrete.png",
+    "width": 1,
+    "height": 1,
+    "mips": 1,
+    "format": "BC1_UNORM",
+    "pixel_data_size": 8,
+    "min": [
+      0.337163615,
+      0.3515326,
+      0.327778098,
+      1.0
+    ],
+    "max": [
+      0.337163615,
+      0.3515326,
+      0.327778098,
+      1.0
+    ]
+  },
+  "grass": {
+    "logical_name": "local/venice/grass_basecolor.png",
+    "binary": "venice_grass.5aeb8970a9ab48ed.tld",
+    "png": "textures/final/venice_grass.png",
+    "width": 1,
+    "height": 1,
+    "mips": 1,
+    "format": "BC1_UNORM",
+    "pixel_data_size": 8,
+    "min": [
+      0.05612849,
+      0.116970668,
+      0.027320892,
+      1.0
+    ],
+    "max": [
+      0.05612849,
+      0.116970668,
+      0.027320892,
+      1.0
+    ]
+  },
+  "sky": {
+    "logical_name": "local/venice/sky_basecolor.png",
+    "binary": "venice_sky.043965257e09e9da.tld",
+    "png": "textures/final/venice_sky.png",
+    "width": 1,
+    "height": 1,
+    "mips": 1,
+    "format": "BC1_UNORM",
+    "pixel_data_size": 8,
+    "min": [
+      0.03688945,
+      0.205078736,
+      0.623960392,
+      1.0
+    ],
+    "max": [
+      0.03688945,
+      0.205078736,
+      0.623960392,
+      1.0
+    ]
+  },
+  "aluminum": {
+    "logical_name": "local/venice/aluminum_basecolor.png",
+    "binary": "venice_aluminum.101f6443788ccd38.tld",
+    "png": "textures/final/venice_aluminum.png",
+    "width": 1,
+    "height": 1,
+    "mips": 1,
+    "format": "BC1_UNORM",
+    "pixel_data_size": 8,
+    "min": [
+      0.274677312,
+      0.309468923,
+      0.327778098,
+      1.0
+    ],
+    "max": [
+      0.274677312,
+      0.309468923,
+      0.327778098,
+      1.0
+    ]
+  },
+  "dark_metal": {
+    "logical_name": "local/venice/dark_metal_basecolor.png",
+    "binary": "venice_dark_metal.e52182244aa34c8e.tld",
+    "png": "textures/final/venice_dark_metal.png",
+    "width": 1,
+    "height": 1,
+    "mips": 1,
+    "format": "BC1_UNORM",
+    "pixel_data_size": 8,
+    "min": [
+      0.019382361,
+      0.024157632,
+      0.026241222,
+      1.0
+    ],
+    "max": [
+      0.019382361,
+      0.024157632,
+      0.026241222,
+      1.0
+    ]
+  }
+}

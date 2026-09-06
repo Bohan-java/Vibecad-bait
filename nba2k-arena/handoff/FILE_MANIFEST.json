@@ -1,0 +1,782 @@
+[
+  {
+    "path": "build/local_game_reference/levels/arena_020_int_floor.iff",
+    "bytes": 606343,
+    "sha256": "f59a0d1f586aa80e74c37e9b5c9969ca69e55cb3f0f12f488b838d37cdd7c4b9"
+  },
+  {
+    "path": "build/local_game_reference/levels/arena_700_int_floor.iff",
+    "bytes": 721467,
+    "sha256": "d5c90d99da2776b3e6613d8ff6cb0ebd1bb8f532cf8356e7ba0bf947d440c327"
+  },
+  {
+    "path": "build/local_game_reference/shared/0f/vertexbuffer.0f3b6fcaf86b59a6.gz",
+    "bytes": 90468,
+    "sha256": "6aed1f28fdd729b52c415ba2a07245395299d0095fe7ba4b5c31216c7555af54"
+  },
+  {
+    "path": "build/revision2/court_and_palms_layout.png",
+    "bytes": 372052,
+    "sha256": "509bb1b9b925d666c4ab829aee1b9e6d8e856e16a2c3f6834af51a4658fbe7ea"
+  },
+  {
+    "path": "build/revision2/level.SCNE",
+    "bytes": 3572825,
+    "sha256": "1d213428e4559a8f74a969a4787e250ef10e81e187c974aa7aad127ba1904237"
+  },
+  {
+    "path": "build/revision2/mesh_validation.json",
+    "bytes": 453,
+    "sha256": "cd3889f5bf9b0ba84797ac051c8450f7db6086f7529d18c07f2c0a3baa3ecf36"
+  },
+  {
+    "path": "build/revision2/palm_model_0.png",
+    "bytes": 160184,
+    "sha256": "acee9d351c1e2dd05bd9ac7180b1f899016df7235eacc936ae9bd6d51596ff22"
+  },
+  {
+    "path": "build/revision2/palm_model_1.png",
+    "bytes": 155546,
+    "sha256": "fcb4674eaae921ee33d72b9e458d1dae243ee1f37e5efb558d2bebecc7128e6d"
+  },
+  {
+    "path": "build/revision2/palm_model_2.png",
+    "bytes": 153458,
+    "sha256": "c26c5879b8f93d2d0a9722f8c895887ea3b66dbd3c03e8c65e4015e7a1a35634"
+  },
+  {
+    "path": "build/revision2/palm_models_preview.png",
+    "bytes": 371839,
+    "sha256": "81be0b49a3b55947361cb2c0b1a2e2867bdaa68d6a869b981971b5be10c53bab"
+  },
+  {
+    "path": "build/revision2/revision_report.json",
+    "bytes": 12786,
+    "sha256": "246975d9e39e355b4986a386d049cdc291613ee48e00847f70a040b22ccf9b20"
+  },
+  {
+    "path": "build/revision2/textures/aluminum.dds",
+    "bytes": 136,
+    "sha256": "48b39bc139eedf6240dee35e582b0ffa00dc8456beaa28c8f8dd7c8fb14d8adb"
+  },
+  {
+    "path": "build/revision2/textures/aluminum_decoded.png",
+    "bytes": 76,
+    "sha256": "0630d301b870e6337d3479b46b40e87898fa7c4d42cfa252985198d66769fc92"
+  },
+  {
+    "path": "build/revision2/textures/aluminum_source.png",
+    "bytes": 76,
+    "sha256": "f5fccb9a46ea302865f57569b9f8e61bc49eae850ce87b3cdc433e7430b1c3d4"
+  },
+  {
+    "path": "build/revision2/textures/asphalt.dds",
+    "bytes": 131200,
+    "sha256": "7032d6c822ee50826779fab2e9159f07f5057834ec13d5faffe192219daec7f4"
+  },
+  {
+    "path": "build/revision2/textures/asphalt_decoded.png",
+    "bytes": 233319,
+    "sha256": "7e7c8c79d27feb3b6878b9964987832fa5cfdafe42138745ce30728a8be0cec7"
+  },
+  {
+    "path": "build/revision2/textures/asphalt_source.png",
+    "bytes": 188879,
+    "sha256": "3322f0df328b83844e94e67a3de4cf91393ee5d39a7e147eb3a15e1d203e52c7"
+  },
+  {
+    "path": "build/revision2/textures/concrete.dds",
+    "bytes": 131200,
+    "sha256": "0c64938ced02f1bff38c75882a0bdc3e8313bab408df372dbf21c2ddff63ab50"
+  },
+  {
+    "path": "build/revision2/textures/concrete_decoded.png",
+    "bytes": 221215,
+    "sha256": "a1e33779e4086f36e4bdc0fe21ffad82d4a7940626a4cac584a7719c1a7859b5"
+  },
+  {
+    "path": "build/revision2/textures/concrete_source.png",
+    "bytes": 188496,
+    "sha256": "5986412acde5da233635e9fb0556e9978267efe6ebe23152031e95696a26131f"
+  },
+  {
+    "path": "build/revision2/textures/dark_metal.dds",
+    "bytes": 136,
+    "sha256": "98131d991708423770f804f39b67015903393b0b57fbea9ef628dec98cd4fd0b"
+  },
+  {
+    "path": "build/revision2/textures/dark_metal_decoded.png",
+    "bytes": 76,
+    "sha256": "6a9276a13f18ea7414391e7d9584ba1e3e328eb79014c52013eff38d059a4e2e"
+  },
+  {
+    "path": "build/revision2/textures/dark_metal_source.png",
+    "bytes": 76,
+    "sha256": "352fd9e4e8a675a29e0116f23b3ff18b59fe98095c8d31e78c8318ded0d48b63"
+  },
+  {
+    "path": "build/revision2/textures/floor_normal_rough_cone.dds",
+    "bytes": 144,
+    "sha256": "45afa0e2f43d17ea520134f95de1388ba72ed4e737cd22ecec5affe93130d33a"
+  },
+  {
+    "path": "build/revision2/textures/floor_normal_rough_cone_decoded.png",
+    "bytes": 78,
+    "sha256": "16599c1a7727317a9158666ce3d6e3410623f91caf97d59d7eb6b10dbe40d0e3"
+  },
+  {
+    "path": "build/revision2/textures/floor_normal_rough_cone_source.png",
+    "bytes": 78,
+    "sha256": "9b67f439769f8d26a926cde56e82602a8dcc03238c5deeca3485bd82d9114f52"
+  },
+  {
+    "path": "build/revision2/textures/grass.dds",
+    "bytes": 131200,
+    "sha256": "1d755ecf4b3eb8b2135d2e5e034518866a5d11b0da9843e0d38e95697b705eaa"
+  },
+  {
+    "path": "build/revision2/textures/grass_decoded.png",
+    "bytes": 327338,
+    "sha256": "f647711202c0c0a1974f85892a38951deba98e3f0df73e16f5b2ca10f101e201"
+  },
+  {
+    "path": "build/revision2/textures/grass_source.png",
+    "bytes": 277065,
+    "sha256": "d9e6853b09377fc3e1c399768caeffa58225835eae42ca5c9ebc8828c7b9ded6"
+  },
+  {
+    "path": "build/revision2/textures/line_white.dds",
+    "bytes": 136,
+    "sha256": "bd1fef75492a97ea24d73d429932cc054be3eb5fd290ae12e3660b487f06d2e3"
+  },
+  {
+    "path": "build/revision2/textures/line_white_decoded.png",
+    "bytes": 76,
+    "sha256": "c5eadc4e6ee3412206c49e78664e088855ef81b6bf06134708eeb0ab79edade6"
+  },
+  {
+    "path": "build/revision2/textures/line_white_source.png",
+    "bytes": 76,
+    "sha256": "3be1e493c75bfaac2a011c87a63c1d0d75b8218c9eb9807b7851c384f718c446"
+  },
+  {
+    "path": "build/revision2/textures/matte_base.dds",
+    "bytes": 144,
+    "sha256": "201508ad7e6f375020a0315d20df339828ce3ce3ce474c55ee5cae906591a219"
+  },
+  {
+    "path": "build/revision2/textures/matte_base_decoded.png",
+    "bytes": 78,
+    "sha256": "b2dfbc532fb57de027c9ed745a3b74caacaff1c8181c83e7570f7a562eebeac7"
+  },
+  {
+    "path": "build/revision2/textures/matte_base_source.png",
+    "bytes": 78,
+    "sha256": "f1dc8f18ea5503b75da1a3f1843238011d6d87686e053d7adc4f7cf7211b2e88"
+  },
+  {
+    "path": "build/revision2/textures/no_logo.dds",
+    "bytes": 144,
+    "sha256": "be63066291864da91c5a88eb4d0d9a682fa547ebd9b291e6b422ba7b701ae312"
+  },
+  {
+    "path": "build/revision2/textures/no_logo_decoded.png",
+    "bytes": 77,
+    "sha256": "29f7cfecca75c1fb12dace8e1a99b33f293a4d0cc7e8377edf0f7051291b8fa7"
+  },
+  {
+    "path": "build/revision2/textures/no_logo_source.png",
+    "bytes": 77,
+    "sha256": "29f7cfecca75c1fb12dace8e1a99b33f293a4d0cc7e8377edf0f7051291b8fa7"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_1.dds",
+    "bytes": 131200,
+    "sha256": "9be7a2cff975d82bb006c537ee8a282a94a700efdd42fc8a5b6d23beb91e49b7"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_1_decoded.png",
+    "bytes": 37737,
+    "sha256": "734eae2904515141ebea512395bb85168f631564e2eaf62a9091e0b50923ffb0"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_1_source.png",
+    "bytes": 53056,
+    "sha256": "e7a2226f99f8895a2c3dc751e7249ebca143f5390e00f81619e89454d802e129"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_2.dds",
+    "bytes": 131200,
+    "sha256": "a144a6d18e6b54b3d3ecdc77dc4956e9ac015c47646f542458ca8b5d7a733103"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_2_decoded.png",
+    "bytes": 41320,
+    "sha256": "77f524094d664a564b65802d6463f81a4be46f7026ee735324e7473e5545d967"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_2_source.png",
+    "bytes": 58233,
+    "sha256": "11a423adb19bd71779ff6a896de4fd2f143bef21bfa11ccd6f41dcde29762b0d"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_3.dds",
+    "bytes": 131200,
+    "sha256": "04326cf8d24d088da0bfb9477c91fb75b89716b40c86f6990773efb5052e0eab"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_3_decoded.png",
+    "bytes": 31732,
+    "sha256": "2683738a153332db5cee2864c3940c46ef71c360ec88f033aa17971dec6e98d7"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_3_source.png",
+    "bytes": 44859,
+    "sha256": "6c8df5810b48415e8235b411799129346d5dee7bec47ee90e0adc52ca03ac29a"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_4.dds",
+    "bytes": 131200,
+    "sha256": "7909f581a1efb4a9c0da1aa5c4ae462324c54f7c4f04907c5da7021e0a8fcf20"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_4_decoded.png",
+    "bytes": 29108,
+    "sha256": "9a8008f166024730ebe38ca003a5abbe88c9a46ca796b0fdf361708ba294db50"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_4_source.png",
+    "bytes": 40137,
+    "sha256": "0c3aaeb6e0b3a6a9a9feebc2ae87f319ec10280b1702bafeb9f7b99a31d56a3c"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_5.dds",
+    "bytes": 131200,
+    "sha256": "1e72df352334b432fc30e4c03027d46db2c954998400352d5aabd8b286a5a33f"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_5_decoded.png",
+    "bytes": 36612,
+    "sha256": "0f7ec11c3e6aaf48957ddb5cb47259b927091f057ac861adfe9a9096b817bebb"
+  },
+  {
+    "path": "build/revision2/textures/palm_backdrop_5_source.png",
+    "bytes": 51503,
+    "sha256": "38f6f192cd46d1604017ba9e5e0ea3e7443a64f6c2745f7815055ec5c527a4f6"
+  },
+  {
+    "path": "build/revision2/textures/palm_dead.dds",
+    "bytes": 136,
+    "sha256": "83ba83fc02d00de8f87890f857129e1559c31ccceb24c22d72929d7163687771"
+  },
+  {
+    "path": "build/revision2/textures/palm_dead_decoded.png",
+    "bytes": 76,
+    "sha256": "610e68207e7de14ec3584d2a50f8de9eff8802ff61ee585a560db95310c769b5"
+  },
+  {
+    "path": "build/revision2/textures/palm_dead_source.png",
+    "bytes": 76,
+    "sha256": "b4b3b77c5b65ed11479fd9644f1a0dd394ed1c3e1da0e80d68f3c509b3defa7e"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf.dds",
+    "bytes": 136,
+    "sha256": "2c78464de967d64c3248115c50fac0f73f4474c72417f5c005ba8d37d6b207b2"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_dark.dds",
+    "bytes": 136,
+    "sha256": "c80e89d663e5d8ad59ff64be8c6435ef302df47a44259360ad3be93d0910ecbe"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_dark_decoded.png",
+    "bytes": 76,
+    "sha256": "c6659b643188b6d5486fd2cf9ed3e7d93c2ae8197e1cc6d392c881a977efdd6f"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_dark_source.png",
+    "bytes": 76,
+    "sha256": "5863d078bbec0c8f565178225ca8ffaa7570060c3e48d342ecef9be4ef1c1af8"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_decoded.png",
+    "bytes": 76,
+    "sha256": "a9315870aaec06858f677339ab07f19abbb060dc3fd1932cc5016978e9dcd4d6"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_light.dds",
+    "bytes": 136,
+    "sha256": "534794aa39aece32a3af7bcc1d6dc27e6f73752de7545102c427d0de494e72bd"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_light_decoded.png",
+    "bytes": 76,
+    "sha256": "2c87cc3a88355b89fa9c9532ae456fcdcfb985d5085fe89e6763049f7033e41c"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_light_source.png",
+    "bytes": 76,
+    "sha256": "944a9ccaff34294ef0d93d32748a4f084df069525d53d327a244ef21382caa75"
+  },
+  {
+    "path": "build/revision2/textures/palm_leaf_source.png",
+    "bytes": 76,
+    "sha256": "fd756861abe3a8a1bdee3cc439ae2833de20940bc63b1c590b94734941e770de"
+  },
+  {
+    "path": "build/revision2/textures/palm_panorama_source.png",
+    "bytes": 191514,
+    "sha256": "2569caf9edf016435a502f1fd691c3ac8d33322ca8586ea03534b3ff714ff907"
+  },
+  {
+    "path": "build/revision2/textures/palm_trunk.dds",
+    "bytes": 136,
+    "sha256": "92d8bf1706ba93b092ad60cf86d8d185e0be55c9cc07e9c9817439569c09802a"
+  },
+  {
+    "path": "build/revision2/textures/palm_trunk_decoded.png",
+    "bytes": 76,
+    "sha256": "1f6e3a082d2e81790a0f47739884c4ceaacca7aacdbb7cd562e049c29bd56cbb"
+  },
+  {
+    "path": "build/revision2/textures/palm_trunk_source.png",
+    "bytes": 76,
+    "sha256": "1d5e15acf1db2ce1bdb7013bacfa91e6c215796723f8e02438ecf9e52cd41c75"
+  },
+  {
+    "path": "build/revision2/textures/sky.dds",
+    "bytes": 136,
+    "sha256": "3c0210bc5cde8c32074be38d292fcca5a52da97dd1559245ff205f94651d0a29"
+  },
+  {
+    "path": "build/revision2/textures/sky_decoded.png",
+    "bytes": 76,
+    "sha256": "e4ca3724c740c7cee5d7f444ab7f52466a3d618f8c1faa1a6151a9c75eb7f68d"
+  },
+  {
+    "path": "build/revision2/textures/sky_source.png",
+    "bytes": 76,
+    "sha256": "6f0922a6bad5168536960c49255aa0ee0b6fd973a9f0e4182a2681006d3ad94e"
+  },
+  {
+    "path": "build/revision2/textures/surface_normal_rough.dds",
+    "bytes": 144,
+    "sha256": "791a9ca7d68a4a226f98feee2217f802204f102103d715ec8a80abe676d6e64a"
+  },
+  {
+    "path": "build/revision2/textures/surface_normal_rough_decoded.png",
+    "bytes": 78,
+    "sha256": "d652e2e938b07598c7145adf40891b5600a7f833d2276c6bd99f00e522cc8468"
+  },
+  {
+    "path": "build/revision2/textures/surface_normal_rough_source.png",
+    "bytes": 78,
+    "sha256": "21132c5f04bb3baa65c905195ef854d4dca5c77a34225bb6d5d0a2dd71bfd925"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_aluminum.d19cd61cfc94da97.tld",
+    "bytes": 56,
+    "sha256": "d19cd61cfc94da97a5438c436ee67b89e86202d504747ccf5df2d10e25c78615"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_asphalt.dcf7b2682231bc3a.tld",
+    "bytes": 174808,
+    "sha256": "dcf7b2682231bc3a20f99f62a3559cb1ccbf394761db4001cc12ddd471e9384f"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_concrete.31192a939c29cc19.tld",
+    "bytes": 174808,
+    "sha256": "31192a939c29cc19a493c15fbba148002c87ef2a99c3c00a8b869134ecd16454"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_dark_metal.101fd9212e0a7612.tld",
+    "bytes": 56,
+    "sha256": "101fd9212e0a76126845486bb1e43292b37d84014eba6080e0ea80848d7961a3"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_floor_normal_rough_cone.421e328cde31920f.tld",
+    "bytes": 80,
+    "sha256": "421e328cde31920fe614ec5b26d33e4c35dc88573d3a54c27b25dbdf88b7b95d"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_grass.70d732feb6eeeb7e.tld",
+    "bytes": 174808,
+    "sha256": "70d732feb6eeeb7e01131da90cd1204e240c159afa1f244b08c16270ad53baf7"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_line_white.3532505eab078cf9.tld",
+    "bytes": 56,
+    "sha256": "3532505eab078cf983e421cad5e94be35a313b3032cb484bd3dd59b3f477c829"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_matte_base.453b91c690e444aa.tld",
+    "bytes": 80,
+    "sha256": "453b91c690e444aa024976fc15f0db9d01ec1726cd2949fd39fe1079315075c2"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_no_logo.109e52abebdc70c5.tld",
+    "bytes": 80,
+    "sha256": "109e52abebdc70c5312468a214def2c7db8b921afde46537563169de69b45831"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_1.25887b02e9ebf92d.tld",
+    "bytes": 174808,
+    "sha256": "25887b02e9ebf92dc944275f0aad3285dcbf00431d0db85287eeb3805a7486e4"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_1.b90cd424fa1bfdf0.tld",
+    "bytes": 174808,
+    "sha256": "b90cd424fa1bfdf03586a248daa50bf676958e921551e536b981c8dec260db76"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_2.6f815d639f53587b.tld",
+    "bytes": 174808,
+    "sha256": "6f815d639f53587b81d590cbd9c6d2352ec7553534f87eadcc0adb4885951ea2"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_2.cff6c2c5329cff47.tld",
+    "bytes": 174808,
+    "sha256": "cff6c2c5329cff47db5d9b6b30c9bc80ccbefda91bf3bcfb1b3d08579246f387"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_3.5b5a7572dcc834f4.tld",
+    "bytes": 174808,
+    "sha256": "5b5a7572dcc834f4688e4a1f291b808bbbf65f56465361cb671517f708622eb2"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_3.679925fffe0bcf5e.tld",
+    "bytes": 174808,
+    "sha256": "679925fffe0bcf5e78815c3f42e856cce0ceecece483b4d9fd28b2cd86759f90"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_4.1e26212f5c9d5d23.tld",
+    "bytes": 174808,
+    "sha256": "1e26212f5c9d5d2332ac9141b7d28cac113075765d2dfc0319e4150cf70d12ac"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_4.da2a022be4941a31.tld",
+    "bytes": 174808,
+    "sha256": "da2a022be4941a312f2f136fef268296dabf3382ca0cefa70b53dde0f438e11b"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_5.09833b38eb77aca1.tld",
+    "bytes": 174808,
+    "sha256": "09833b38eb77aca15fcdf5b4aa18fbb26015a875a8401dd352062e33ec16b1af"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_backdrop_5.89464006e1821a1e.tld",
+    "bytes": 174808,
+    "sha256": "89464006e1821a1e3301766626df06432a755f6965080db1bd4f830309f2284b"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_dead.b0589f27c3f1f5be.tld",
+    "bytes": 56,
+    "sha256": "b0589f27c3f1f5be041ee9c3dee1a3cfccb4c9bd87ecaba6d09c2b3bfb59a283"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_leaf.7615cd2690c0d9ec.tld",
+    "bytes": 56,
+    "sha256": "7615cd2690c0d9eca53b0b7d0a9c8c90bb89fa8f154bb93b95e19f410b242bdd"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_leaf_dark.be81b7a64dbb5768.tld",
+    "bytes": 56,
+    "sha256": "be81b7a64dbb5768f4dd97e96e48101d6c7b33ad6e52e53e1517e0b346de2849"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_leaf_light.0ea6190c147589b7.tld",
+    "bytes": 56,
+    "sha256": "0ea6190c147589b7c2173bf49ea282383da95a05850c4e57853963219e38882b"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_palm_trunk.7d30c3cc72bbe9dd.tld",
+    "bytes": 56,
+    "sha256": "7d30c3cc72bbe9dd121bcb2a103f11b639b1701df1398061d1f1b7c0f0503c2c"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_sky.944f433a3c64cdb6.tld",
+    "bytes": 56,
+    "sha256": "944f433a3c64cdb6b542f4fce09190e4953ec9f76e81eded776cb7bd65cbf478"
+  },
+  {
+    "path": "build/revision2/textures/venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+    "bytes": 80,
+    "sha256": "db15aef19e7f0af26a8629654ef8996208cef070be893756951dff13c70c66fc"
+  },
+  {
+    "path": "docs/DONOR_STRUCTURE.md",
+    "bytes": 2553,
+    "sha256": "98d3eee7562064f8c6563528946bca2a7410c1a0cc5e008ef55bf0f63cb5fef0"
+  },
+  {
+    "path": "docs/INSTALLATION_REPORT.md",
+    "bytes": 1200,
+    "sha256": "21c3a75afaa26d665271e89e2a8456295ecb3fe5b49aa0ecaa6f655aabba7507"
+  },
+  {
+    "path": "docs/LOCAL_WORKFLOW.md",
+    "bytes": 2147,
+    "sha256": "b38a0c80fdb80b66aec0798a1e841984cb62986c616b867ef0cae5351b1cc2ca"
+  },
+  {
+    "path": "docs/material_inventory.csv",
+    "bytes": 75542,
+    "sha256": "bd72d7fbae71f6568467896096ea8b8da7b05d384e63d3c926f92ec2120f45c2"
+  },
+  {
+    "path": "docs/model_primitive_inventory.csv",
+    "bytes": 103982,
+    "sha256": "7e04d96e93f8f6f151a87e92cff7f46eddcf2d2534b79d570e12f9bc3266674b"
+  },
+  {
+    "path": "docs/object_inventory.csv",
+    "bytes": 376931,
+    "sha256": "b35cd8e80b9eda1b5a456a020f44e9577f6f47f06e22cd1fba2a6cb55f9a010d"
+  },
+  {
+    "path": "docs/PHOTO_INTERPRETATION.md",
+    "bytes": 2100,
+    "sha256": "3a63c683f0daa34c67d90e8d2db9005c1c99bb648c41fd2f822f817a9616bb63"
+  },
+  {
+    "path": "docs/REVISION2_REPORT.md",
+    "bytes": 1779,
+    "sha256": "4ec565523f68248dbb3783c9a06a64b4481209012dfaca4a3cea32ad88f60af3"
+  },
+  {
+    "path": "docs/scene_summary.csv",
+    "bytes": 693,
+    "sha256": "b92827e422bac43602b6612a96d5a142761056fe6ae031eb902711aac508f4b0"
+  },
+  {
+    "path": "docs/texture_inventory.csv",
+    "bytes": 493459,
+    "sha256": "93d2aed8da52d8d46cf7e02021a7d4eb3b9942aef89012a3c7ea7739f53c90e5"
+  },
+  {
+    "path": "docs/TEXTURE_MAPPING.md",
+    "bytes": 2984,
+    "sha256": "31147b9ce888c45d7528af20bec508920d3213fe8f38ce9b1c51b06574036602"
+  },
+  {
+    "path": "docs/VALIDATION_REPORT.json",
+    "bytes": 4244,
+    "sha256": "6e2dc9e1d4006543715fae43c7761a6ddcd36f093b3255a85d7712820189810a"
+  },
+  {
+    "path": "docs/VALIDATION_REPORT.md",
+    "bytes": 398,
+    "sha256": "122940b8c6abed2914abbf21e75f6f4d188b4ce5f0e625afbcd89e7528699d2f"
+  },
+  {
+    "path": "donor/original/arena_020_int_original.iff",
+    "bytes": 45028875,
+    "sha256": "42865ecaf8dd923c4d901509263af3b242c00975f4284b917ba79ce8fbbced46"
+  },
+  {
+    "path": "evidence/user_game_screenshot_revision2_REJECTED.png",
+    "bytes": 2415754,
+    "sha256": "aae6e51ee75c429b3379f9c5769a666d0b3df0b71417e0abdacde544e37f6813"
+  },
+  {
+    "path": "handoff/cache/VertexBuffer.0f3b6fcaf86b59a6.decoded.bin",
+    "bytes": 90468,
+    "sha256": "6aed1f28fdd729b52c415ba2a07245395299d0095fe7ba4b5c31216c7555af54"
+  },
+  {
+    "path": "handoff/cache/VertexBuffer.0f3b6fcaf86b59a6.original_vcz.gz",
+    "bytes": 26927,
+    "sha256": "88815fc28fd7a0308bc16dcdbfb615754a586439a5b5796f7fdafd7c5c011101"
+  },
+  {
+    "path": "handoff/HANDOFF_ZH.md",
+    "bytes": 16131,
+    "sha256": "e9f958576d49c550af3264bddedb18391be801b6e750c2558646ff54fb7b25d7"
+  },
+  {
+    "path": "handoff/original_user_request.txt",
+    "bytes": 17841,
+    "sha256": "7602d2a94e1a8dad095bce2bae013e68faf3e9d0d2c0b30b1cac58a05b20f45a"
+  },
+  {
+    "path": "handoff/reproduce_revision2.py",
+    "bytes": 2228,
+    "sha256": "dfd82da150d449d54a3602ad4ae604c92858e7691926bca97a3dd91cf680e0b0"
+  },
+  {
+    "path": "handoff/requirements.txt",
+    "bytes": 28,
+    "sha256": "d0524439f7a0da67c1283d44683e00fcc795a0657e726f22087cfcbe198f7c89"
+  },
+  {
+    "path": "output/legacy/arena_700_int_v1_REJECTED.iff",
+    "bytes": 45203907,
+    "sha256": "89a657faaf4df2e47e47a67ed5e739facc0af467900d50582a6c9b3af3f74217"
+  },
+  {
+    "path": "output/revision2/arena_700_int.iff",
+    "bytes": 48674580,
+    "sha256": "5d74fdab31ee29e0fe888af10c7370efc329ecc76ceb72c2f1d3eb6aa92bd499"
+  },
+  {
+    "path": "output/revision2/arena_700_int_floor.iff",
+    "bytes": 445558,
+    "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+  },
+  {
+    "path": "scripts/apply_visual_pass.py",
+    "bytes": 7552,
+    "sha256": "4231d8737c416e85fcad63ac8dfc1b96a3a930b3b164f3e25b67190e8d8beb3f"
+  },
+  {
+    "path": "scripts/audit_revision.py",
+    "bytes": 3618,
+    "sha256": "a7a4d0d43ed82f28242a1b3123e218621ebf7a8f1734fe6380fce728150a32f3"
+  },
+  {
+    "path": "scripts/build_mod.py",
+    "bytes": 2580,
+    "sha256": "8248283989576a50c178cb67b7519ac0efd6fbf23994ddebe94d8513a924bc5e"
+  },
+  {
+    "path": "scripts/build_revision2.py",
+    "bytes": 10837,
+    "sha256": "04322a49c2619686f31ef8cc77cd2da9e2d86411fb157b8dc719e96088b343e7"
+  },
+  {
+    "path": "scripts/create_visual_textures.py",
+    "bytes": 3559,
+    "sha256": "2ae8c8b0c8d2dca2248eee5aed033214518b7cad9a8411f9bd07636877ec1ac7"
+  },
+  {
+    "path": "scripts/export_resource_map.py",
+    "bytes": 6095,
+    "sha256": "c721308a2f38d347699b8a459d8739729fa53567b7c2e7ee42995fb6349ffd52"
+  },
+  {
+    "path": "scripts/install_mod.py",
+    "bytes": 2913,
+    "sha256": "a295ca83434144791a20a025e73d90724e0f26d7de889798113e1dc3d235c0a3"
+  },
+  {
+    "path": "scripts/palm_geometry.py",
+    "bytes": 10480,
+    "sha256": "6587cac6da5b37dbb8b32ec00bb9d30c6b5f1a5d99a7bf8c389d44a6366e70a8"
+  },
+  {
+    "path": "scripts/preview_revision2.py",
+    "bytes": 5809,
+    "sha256": "52947b79d77ab95749bd65776bb7238d58c223116a5625db60016c8ded37ea0a"
+  },
+  {
+    "path": "scripts/read_game_resource.py",
+    "bytes": 3254,
+    "sha256": "bf292d6e8b28f2287715f45f028d271bcd5f4d07e3b7c22c788bb4018bf04c4e"
+  },
+  {
+    "path": "scripts/revision_textures.py",
+    "bytes": 6309,
+    "sha256": "60d79c86902646934b865aed393e194523533b2db7db95edf591824edcafcc3b"
+  },
+  {
+    "path": "scripts/tld_texture.py",
+    "bytes": 7071,
+    "sha256": "3cf1ac04b4aa970bc8f98933969a1802eb21d24f48dfc9bc703cd1fb2dc38347"
+  },
+  {
+    "path": "scripts/validate_mod.py",
+    "bytes": 6319,
+    "sha256": "4bf54d6c7db78afda6f6b8140e8439cb765def71206fd5cf6b36586032627b16"
+  },
+  {
+    "path": "textures/final/texture_manifest.json",
+    "bytes": 2851,
+    "sha256": "54d78e48bc1cc03c102bd926f89319c826471b0190a4a408eaadfef74b43ddf4"
+  },
+  {
+    "path": "textures/final/venice_aluminum.png",
+    "bytes": 69,
+    "sha256": "c7b79eaeb6e35fd1d05fd9065efe3c5da08a66b2374ddee46a36b9f2dcdd9f68"
+  },
+  {
+    "path": "textures/final/venice_aluminum_preview.png",
+    "bytes": 762,
+    "sha256": "d4ec49fc3c9a3ca7d908003de9bf0db0376e296961c9cdf7b9a35e390523fa74"
+  },
+  {
+    "path": "textures/final/venice_asphalt.png",
+    "bytes": 199856,
+    "sha256": "800630416ccdcbe6d8e8bb714ff5bd17a97e62f9540b1e9625ee704b8581930b"
+  },
+  {
+    "path": "textures/final/venice_asphalt_preview.png",
+    "bytes": 199856,
+    "sha256": "800630416ccdcbe6d8e8bb714ff5bd17a97e62f9540b1e9625ee704b8581930b"
+  },
+  {
+    "path": "textures/final/venice_concrete.png",
+    "bytes": 69,
+    "sha256": "75ddd1e1029a912439d7f1af43bd1318771bc5c3f9b5ef790473445a96063d5b"
+  },
+  {
+    "path": "textures/final/venice_concrete_preview.png",
+    "bytes": 762,
+    "sha256": "5eb9f95ab2df326b33ff49c1cc6e2ee3c224138a11b5c8b31a0730db655de919"
+  },
+  {
+    "path": "textures/final/venice_dark_metal.png",
+    "bytes": 69,
+    "sha256": "61e460c757a3f92037e55d107a3dc540f4d694fe294e1916071c6fc36ab9fc50"
+  },
+  {
+    "path": "textures/final/venice_dark_metal_preview.png",
+    "bytes": 762,
+    "sha256": "9d3d4cc0300e09eba4e44cec0c4b1ace47b9f319738b16659e21b724e8dcb211"
+  },
+  {
+    "path": "textures/final/venice_grass.png",
+    "bytes": 69,
+    "sha256": "33e351bdd2848bc6b7efc918fd2ae7261e0bc2aef8d7da7d3b32668c7567f2ec"
+  },
+  {
+    "path": "textures/final/venice_grass_preview.png",
+    "bytes": 762,
+    "sha256": "2cf9732a0d01117f681d3ad40ca8af4b5b447be8a1270f5ceec8985a88b145a7"
+  },
+  {
+    "path": "textures/final/venice_sky.png",
+    "bytes": 69,
+    "sha256": "06b29abf7bdadb41fb994af6455cf9ef3b282ddf46b8b85a703e9b7be697b5ea"
+  },
+  {
+    "path": "textures/final/venice_sky_preview.png",
+    "bytes": 761,
+    "sha256": "f82523651b8c9d245c0b8dcfbe28cd030365bbedb47381838dd515803f2d501f"
+  },
+  {
+    "path": "textures/source/references/arena_reference_01.png",
+    "bytes": 368198,
+    "sha256": "c8f7cfe66c3acd42fe438cae87a63b5fc3544f533b0ba5e4af1c4313bb620b11"
+  },
+  {
+    "path": "textures/source/references/arena_reference_02.png",
+    "bytes": 286680,
+    "sha256": "633e85fd66f5a17c814aca7539ec895b47e42277e193ad962014bc07970fbc2b"
+  },
+  {
+    "path": "textures/source/references/arena_reference_03.png",
+    "bytes": 344026,
+    "sha256": "bd2e21be64dd80490c2d9f0d71d693ae9b16276a6e3672ce29e785d95335b518"
+  },
+  {
+    "path": "textures/source/references/arena_reference_04.png",
+    "bytes": 358131,
+    "sha256": "8c4fbef210bce126f94f69f91cf5f71a5ec27db5315678dea906e2b27fab6099"
+  },
+  {
+    "path": "textures/source/references/arena_reference_05.png",
+    "bytes": 384520,
+    "sha256": "d6cd40f59d7345f5e62ca840d7089ad7678d8407bdcd633eab6809ce3334df39"
+  }
+]

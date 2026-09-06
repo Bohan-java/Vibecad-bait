@@ -1,0 +1,20 @@
+[
+  {
+    "name": "venice_v2:palm_model_0",
+    "vertices": 24216,
+    "triangles": 8072,
+    "quantization_max_error": 0.005263544211800308
+  },
+  {
+    "name": "venice_v2:palm_model_1",
+    "vertices": 24216,
+    "triangles": 8072,
+    "quantization_max_error": 0.00966276587610082
+  },
+  {
+    "name": "venice_v2:palm_model_2",
+    "vertices": 24216,
+    "triangles": 8072,
+    "quantization_max_error": 0.00846308382270422
+  }
+]
