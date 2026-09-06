@@ -1,0 +1,48 @@
+{
+  "status": "RUNTIME_REPAIR_CANDIDATE_GAME_UNTESTED",
+  "base_revision": 6,
+  "input_game_result": "REJECTED_WHITE_COURT_AND_BLACK_SCENERY",
+  "game_runtime_verified": false,
+  "game_directory_modified": false,
+  "file_digests_computed": false,
+  "changed_existing_archive_members": [
+    "level.SCNE",
+    "level_floor_lightmaps.SCNE"
+  ],
+  "new_binary_resources": [
+    "venice_r7_floor_no_indoor_lights.tld",
+    "venice_r7_scenery_ambient.tld",
+    "venice_r7_scenery_no_indoor_lights.tld"
+  ],
+  "archive_members": 2498,
+  "repaired_scenery": {
+    "materials": 16,
+    "models": 83,
+    "objects": 136
+  },
+  "native_shader_stage_references_present": 54,
+  "all_existing_binary_resources_byte_identical": true,
+  "all_original_effects_byte_identical": true,
+  "all_existing_geometry_buffers_byte_identical": true,
+  "all_existing_object_transforms_preserved": true,
+  "court_markings_materials_gameplay_and_collision_preserved": true,
+  "paired_floor_byte_identical_to_revision6": true,
+  "scene_scope_check_passed": true,
+  "fixed_ev100": 15.0,
+  "scenery_ambient_texture": "venice_r7_scenery_ambient.tld",
+  "scenery_and_floor_indoor_linelight_visibility": 0.0,
+  "limitations": [
+    "Runtime descriptor resolution and static technique selection require a new NBA 2K capture.",
+    "Fixed EV15 is an initial noon exposure setting, not a measured game calibration.",
+    "Constant ambient fill is an approximation, not a spatial lighting bake.",
+    "The original indoor basket geometry remains; this repair targets lighting only."
+  ],
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 195512145
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558
+    }
+  }
+}

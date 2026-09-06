@@ -36,3 +36,7 @@ nba2k-arena/build/revision6/building/*.npz
 nba2k-arena/build/revision6/building/textures/*.tld
 nba2k-arena/build/revision6/building/textures/*_source.png
 nba2k-arena/build/revision6/building/textures/*_decoded.png
+# Revision 7 ships the repair package; native IFFs remain local build products.
+nba2k-arena/output/revision7/*.iff
+nba2k-arena/output/revision7/*.tmp
+nba2k-arena/build/revision7/runtime_repair_*/
