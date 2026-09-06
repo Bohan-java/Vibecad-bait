@@ -1,0 +1,985 @@
+{
+  "status": "STATIC_VALIDATED_GAME_UNTESTED",
+  "base_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99",
+  "fixtures": {
+    "model": {
+      "model": "venice_v3:coastal_double_lamp",
+      "vertices": 16416,
+      "triangles": 5472,
+      "parts": 2,
+      "bounds_min": [
+        -111.0,
+        0.0,
+        -33.0
+      ],
+      "bounds_max": [
+        111.0,
+        579.2276716458368,
+        33.0
+      ],
+      "max_normal_error_degrees": 0.21911182971924567,
+      "max_tangent_error_degrees": 0.2961035714599813,
+      "handedness_mismatches": 0,
+      "max_position_error": 0.004419223862391086,
+      "max_uv_error": 4.190587565036652e-05,
+      "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+      "donor_frame_samples_used": 0,
+      "game_render_verified": false
+    },
+    "placements": [
+      {
+        "object": "venice_v3:coastal_double_lamp_0",
+        "model": "venice_v3:coastal_double_lamp",
+        "position": [
+          2900.0,
+          100.0,
+          -1600.0
+        ],
+        "yaw_radians": 1.5707963267948966
+      },
+      {
+        "object": "venice_v3:coastal_double_lamp_1",
+        "model": "venice_v3:coastal_double_lamp",
+        "position": [
+          2900.0,
+          100.0,
+          750.0
+        ],
+        "yaw_radians": 1.5707963267948966
+      },
+      {
+        "object": "venice_v3:coastal_double_lamp_2",
+        "model": "venice_v3:coastal_double_lamp",
+        "position": [
+          2900.0,
+          100.0,
+          3050.0
+        ],
+        "yaw_radians": 1.5707963267948966
+      }
+    ],
+    "world_bounds": [
+      {
+        "min": [
+          2867.0,
+          100.0,
+          -1711.0
+        ],
+        "max": [
+          2933.0,
+          679.2276716458368,
+          -1489.0
+        ],
+        "court_aabb_clearance_cm": 1891.6396479999999
+      },
+      {
+        "min": [
+          2867.0,
+          100.0,
+          639.0
+        ],
+        "max": [
+          2933.0,
+          679.2276716458368,
+          861.0
+        ],
+        "court_aabb_clearance_cm": 1891.6396479999999
+      },
+      {
+        "min": [
+          2867.0,
+          100.0,
+          2939.0
+        ],
+        "max": [
+          2933.0,
+          679.2276716458368,
+          3161.0
+        ],
+        "court_aabb_clearance_cm": 2163.1470395007277
+      }
+    ],
+    "reference_images": [
+      "arena_reference_01.png",
+      "arena_reference_02.png",
+      "arena_reference_03.png"
+    ],
+    "evidence": "Paired downward lamp shades on curved silver arms beside the grass/palms",
+    "dimensions_are_design_parameters_not_photo_measurements": true,
+    "pole_height_cm": 520.0,
+    "arm_reach_cm": 78.0,
+    "shade_radius_cm": 33.0,
+    "court_clearance_cm": 60.0,
+    "new_light_objects": 0,
+    "new_collision_resources": 0,
+    "original_scene_values_preserved": true,
+    "game_render_verified": false
+  },
+  "props": {
+    "changed_model_keys": [
+      "venice_v3:bins",
+      "venice_v3:bleachers"
+    ],
+    "models": [
+      {
+        "model": "venice_v3:bins",
+        "vertices": 53184,
+        "triangles": 17728,
+        "parts": 4,
+        "bounds_min": [
+          -35.13996826801478,
+          0.0,
+          -35.31730922213956
+        ],
+        "bounds_max": [
+          111.3,
+          127.0,
+          35.49758090140173
+        ],
+        "max_normal_error_degrees": 0.22305077839023335,
+        "max_tangent_error_degrees": 0.3084787323271532,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.001117216450566616,
+        "max_uv_error": 1.0286645100276992e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false
+      },
+      {
+        "model": "venice_v3:bleachers",
+        "vertices": 18480,
+        "triangles": 6160,
+        "parts": 1,
+        "bounds_min": [
+          -321.5,
+          0.0,
+          -537.8
+        ],
+        "bounds_max": [
+          37.5,
+          291.8,
+          537.8
+        ],
+        "max_normal_error_degrees": 0.18660737469907163,
+        "max_tangent_error_degrees": 0.260111763427405,
+        "handedness_mismatches": 0,
+        "max_position_error": 0.008206301976088364,
+        "max_uv_error": 6.117039988029482e-05,
+        "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+        "donor_frame_samples_used": 0,
+        "game_render_verified": false
+      }
+    ],
+    "added_materials": [
+      "venice_v3:prop_bin_green",
+      "venice_v3:prop_bin_inside",
+      "venice_v3:prop_liner"
+    ],
+    "added_textures": [
+      {
+        "key": "local/venice_v3/prop_bin_green",
+        "binary": "venice_v3_prop_bin_green.5b902f1882a39182.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4,
+          4
+        ],
+        "mips": 3,
+        "all_mips_decoded": true,
+        "sha256": "5b902f1882a391825d77ac38ce56135ddeb18b13afc5d3a638a52732d05cad4a",
+        "decoded_rgba_min": [
+          33,
+          65,
+          49,
+          255
+        ],
+        "decoded_rgba_max": [
+          33,
+          65,
+          49,
+          255
+        ],
+        "decoded_rgba_mean": [
+          33.0,
+          65.0,
+          49.0,
+          255.0
+        ]
+      },
+      {
+        "key": "local/venice_v3/prop_bin_green_normal",
+        "binary": "venice_v3_prop_bin_green_normal.3b55fc91f9daa32a.tld",
+        "format": "BC3_UNORM",
+        "size": [
+          4,
+          4
+        ],
+        "mips": 3,
+        "all_mips_decoded": true,
+        "sha256": "3b55fc91f9daa32abb7c40bdd6e8fa663e2c68b0a4d9a7a75ffed6014b4b3355",
+        "decoded_rgba_min": [
+          132,
+          130,
+          0,
+          235
+        ],
+        "decoded_rgba_max": [
+          132,
+          130,
+          0,
+          235
+        ],
+        "decoded_rgba_mean": [
+          132.0,
+          130.0,
+          0.0,
+          235.0
+        ]
+      },
+      {
+        "key": "local/venice_v3/prop_bin_inside",
+        "binary": "venice_v3_prop_bin_inside.2b53b4924ad6e741.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4,
+          4
+        ],
+        "mips": 3,
+        "all_mips_decoded": true,
+        "sha256": "2b53b4924ad6e741b77e7e97cd0d8c67715807a27d6221240ff0ea426e121833",
+        "decoded_rgba_min": [
+          16,
+          28,
+          16,
+          255
+        ],
+        "decoded_rgba_max": [
+          16,
+          28,
+          16,
+          255
+        ],
+        "decoded_rgba_mean": [
+          16.0,
+          28.0,
+          16.0,
+          255.0
+        ]
+      },
+      {
+        "key": "local/venice_v3/prop_bin_inside_normal",
+        "binary": "venice_v3_prop_bin_inside_normal.76aa21c0bfcb7fc3.tld",
+        "format": "BC3_UNORM",
+        "size": [
+          4,
+          4
+        ],
+        "mips": 3,
+        "all_mips_decoded": true,
+        "sha256": "76aa21c0bfcb7fc327c61ced2ac8c0182532332d0d554d68303ce5014f1d3620",
+        "decoded_rgba_min": [
+          132,
+          130,
+          0,
+          250
+        ],
+        "decoded_rgba_max": [
+          132,
+          130,
+          0,
+          250
+        ],
+        "decoded_rgba_mean": [
+          132.0,
+          130.0,
+          0.0,
+          250.0
+        ]
+      },
+      {
+        "key": "local/venice_v3/prop_liner",
+        "binary": "venice_v3_prop_liner.c5ce6c58698d73c6.tld",
+        "format": "BC1_UNORM",
+        "size": [
+          4,
+          4
+        ],
+        "mips": 3,
+        "all_mips_decoded": true,
+        "sha256": "c5ce6c58698d73c66635a9221756477b38bbcf7e039e7db004bf598935e90834",
+        "decoded_rgba_min": [
+          181,
+          182,
+          173,
+          255
+        ],
+        "decoded_rgba_max": [
+          181,
+          182,
+          173,
+          255
+        ],
+        "decoded_rgba_mean": [
+          181.0,
+          182.0,
+          173.0,
+          255.0
+        ]
+      },
+      {
+        "key": "local/venice_v3/prop_liner_normal",
+        "binary": "venice_v3_prop_liner_normal.1b168dd7e354a3e0.tld",
+        "format": "BC3_UNORM",
+        "size": [
+          4,
+          4
+        ],
+        "mips": 3,
+        "all_mips_decoded": true,
+        "sha256": "1b168dd7e354a3e037e92eae6daeddcee4bcc28c3af20bb2dadc132779740ca2",
+        "decoded_rgba_min": [
+          132,
+          130,
+          0,
+          219
+        ],
+        "decoded_rgba_max": [
+          132,
+          130,
+          0,
+          219
+        ],
+        "decoded_rgba_mean": [
+          132.0,
+          130.0,
+          0.0,
+          219.0
+        ]
+      }
+    ],
+    "added_binary_resources": [
+      "IndexBuffer.10a3471bb661ea79.bin",
+      "IndexBuffer.f544b4730b658673.bin",
+      "VertexBuffer.615bf7e23ee231fb.bin",
+      "VertexBuffer.8d8ba52b26c8d1e5.bin",
+      "VertexBuffer.92ab71faaa279931.bin",
+      "VertexBuffer.b7528e5d17d7bbd8.bin",
+      "VertexBuffer.b7cf5f045647619a.bin",
+      "VertexBuffer.bdbb4172c202dce3.bin",
+      "venice_v3_prop_bin_green.5b902f1882a39182.tld",
+      "venice_v3_prop_bin_green_normal.3b55fc91f9daa32a.tld",
+      "venice_v3_prop_bin_inside.2b53b4924ad6e741.tld",
+      "venice_v3_prop_bin_inside_normal.76aa21c0bfcb7fc3.tld",
+      "venice_v3_prop_liner.c5ce6c58698d73c6.tld",
+      "venice_v3_prop_liner_normal.1b168dd7e354a3e0.tld"
+    ],
+    "preserved_object_names": [
+      "venice_v3:bleachers_0",
+      "venice_v3:bleachers_1",
+      "venice_v3:bins_0",
+      "venice_v3:bins_1"
+    ],
+    "changed_object_keys": [
+      "venice_v3:bins_2"
+    ],
+    "object_changes": {
+      "venice_v3:bins_2": {
+        "before_matrix": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          1110.0,
+          0.0,
+          2650.0,
+          1.0
+        ],
+        "after_matrix": [
+          1.0,
+          0.0,
+          -0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          940.0,
+          0.0,
+          2650.0,
+          1.0
+        ],
+        "only_changed_matrix_index": 12,
+        "before_x_cm": 1110.0,
+        "after_x_cm": 940.0,
+        "new_world_bounds_min": [
+          904.8600317319853,
+          0.0,
+          2614.6826907778604
+        ],
+        "new_world_bounds_max": [
+          1051.3,
+          127.0,
+          2685.4975809014018
+        ],
+        "grounding_basis": "Known R3 first grass terrace starts at x=1100 and is 30 cm high; relocated complete pair is below x=1052, on the y=-0.4 paved plane with its original y=0 base retained"
+      }
+    },
+    "all_original_donor_object_values_preserved": true,
+    "all_other_original_scene_values_preserved": true,
+    "existing_binary_resources_preserved": true,
+    "prior_model_spec_sha256": {
+      "venice_v3:bins": "c1ca25af8de68ebdc0493f1ae0651592e6789729cc7138e4fa66f3dd7e4a1314",
+      "venice_v3:bleachers": "30393240d74c60055a49d3b1cb3c96ff9a70c76cec31313de244db27f3edefa3"
+    },
+    "reference_images": [
+      "arena_reference_04.png",
+      "arena_reference_05.png"
+    ],
+    "bin_shell_wall_thickness_cm": "approximately 1 to 3.5; separate interior wall and bottom",
+    "liner_material": "new pale rough dielectric on explicit folded front/back geometry; opaque shader path",
+    "liner_transmission_simulated": false,
+    "concrete_dome_uses_metal_material": false,
+    "bleacher_rows": 5,
+    "bleacher_metal_material": "venice_v3:aluminum",
+    "new_light_objects": 0,
+    "new_collision_resources": 0,
+    "dimensions_and_folds_are_design_choices": true,
+    "game_render_verified": false
+  },
+  "terraces": {
+    "model": {
+      "model": "venice_v3:grass_terraces",
+      "vertices": 34884,
+      "triangles": 11628,
+      "parts": 2,
+      "bounds_min": [
+        1100.0991836423282,
+        -0.4658083466847529,
+        -8000.0
+      ],
+      "bounds_max": [
+        4099.900816357671,
+        100.36580834668439,
+        8000.0
+      ],
+      "max_normal_error_degrees": 0.18504065978165005,
+      "max_tangent_error_degrees": 0.16729810210589205,
+      "handedness_mismatches": 0,
+      "max_position_error": 0.0,
+      "max_uv_error": 0.0006103608758667178,
+      "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+      "donor_frame_samples_used": 0,
+      "game_render_verified": false
+    },
+    "geometry": {
+      "samples_along_z": 639,
+      "native_zero_area_slivers_removed": 16,
+      "native_position_step_cm": 0.24414435034714274
+    },
+    "changed_models": [
+      "venice_v3:grass_terraces"
+    ],
+    "changed_objects": [],
+    "changed_other_scene_sections": [],
+    "new_binary_resources": [
+      "IndexBuffer.b99724b7dd248866.bin",
+      "VertexBuffer.19c17cf483773428.bin",
+      "VertexBuffer.624dd8cdd357bd2d.bin",
+      "VertexBuffer.a25c0802f497c56b.bin"
+    ],
+    "old_binary_resources_modified": false,
+    "new_collision_resources": 0,
+    "reference_images": [
+      "arena_reference_02.png",
+      "arena_reference_04.png"
+    ],
+    "dimensions_are_design_parameters_not_photo_measurements": true,
+    "tier_heights_cm": [
+      30.0,
+      65.0,
+      100.0
+    ],
+    "straight_front_x_cm": [
+      1100.0,
+      1545.0,
+      1990.0
+    ],
+    "return_center_x_cm": 2435.0,
+    "return_start_abs_z_cm": 4000.0,
+    "return_radii_cm": [
+      1335.0,
+      890.0,
+      445.0
+    ],
+    "far_grass_tie_in_abs_z_cm": [
+      6000,
+      8000.0
+    ],
+    "old_uncovered_ground_cm": {
+      "x": [
+        1100,
+        2435
+      ],
+      "abs_z": [
+        5050,
+        6500
+      ]
+    },
+    "old_gap_closed_by_continuous_ground_surface": true,
+    "coverage_rays_passed": 1375,
+    "all_exported_faces_nondegenerate": true,
+    "projected_coverage_area_cm2": 47996826.12344548,
+    "rectangular_domain_area_cm2": 47996826.12344548,
+    "minimum_normal_winding_dot": 0.9999947849473345,
+    "grounding": [
+      {
+        "objects": [
+          "venice_v3:palm_00_section_0",
+          "venice_v3:palm_00_section_1",
+          "venice_v3:palm_00_section_2"
+        ],
+        "position_cm": [
+          1860.0,
+          65.0,
+          -2400.0
+        ],
+        "exported_ground_y": 64.96487754634927,
+        "base_error_cm": 0.03512245365072886,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_01_section_0",
+          "venice_v3:palm_01_section_1",
+          "venice_v3:palm_01_section_2"
+        ],
+        "position_cm": [
+          2210.0,
+          100.0,
+          -1700.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_02_section_0",
+          "venice_v3:palm_02_section_1",
+          "venice_v3:palm_02_section_2"
+        ],
+        "position_cm": [
+          1780.0,
+          65.0,
+          -940.0
+        ],
+        "exported_ground_y": 64.96487754634927,
+        "base_error_cm": 0.03512245365072886,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_03_section_0",
+          "venice_v3:palm_03_section_1",
+          "venice_v3:palm_03_section_2"
+        ],
+        "position_cm": [
+          2200.0,
+          100.0,
+          -170.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_04_section_0",
+          "venice_v3:palm_04_section_1",
+          "venice_v3:palm_04_section_2"
+        ],
+        "position_cm": [
+          1720.0,
+          65.0,
+          650.0
+        ],
+        "exported_ground_y": 64.96487754634927,
+        "base_error_cm": 0.03512245365072886,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_05_section_0",
+          "venice_v3:palm_05_section_1",
+          "venice_v3:palm_05_section_2"
+        ],
+        "position_cm": [
+          2160.0,
+          100.0,
+          1410.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_06_section_0",
+          "venice_v3:palm_06_section_1",
+          "venice_v3:palm_06_section_2"
+        ],
+        "position_cm": [
+          1770.0,
+          65.0,
+          2200.0
+        ],
+        "exported_ground_y": 64.96487754634927,
+        "base_error_cm": 0.03512245365072886,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_07_section_0",
+          "venice_v3:palm_07_section_1",
+          "venice_v3:palm_07_section_2"
+        ],
+        "position_cm": [
+          2430.0,
+          100.0,
+          2910.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_08_section_0",
+          "venice_v3:palm_08_section_1",
+          "venice_v3:palm_08_section_2"
+        ],
+        "position_cm": [
+          1850.0,
+          65.0,
+          3650.0
+        ],
+        "exported_ground_y": 64.96487754634927,
+        "base_error_cm": 0.03512245365072886,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_09_section_0",
+          "venice_v3:palm_09_section_1",
+          "venice_v3:palm_09_section_2"
+        ],
+        "position_cm": [
+          2960.0,
+          100.0,
+          -3460.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_10_section_0",
+          "venice_v3:palm_10_section_1",
+          "venice_v3:palm_10_section_2"
+        ],
+        "position_cm": [
+          3330.0,
+          100.0,
+          -2500.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_11_section_0",
+          "venice_v3:palm_11_section_1",
+          "venice_v3:palm_11_section_2"
+        ],
+        "position_cm": [
+          2960.0,
+          100.0,
+          -780.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_12_section_0",
+          "venice_v3:palm_12_section_1",
+          "venice_v3:palm_12_section_2"
+        ],
+        "position_cm": [
+          3430.0,
+          100.0,
+          380.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_13_section_0",
+          "venice_v3:palm_13_section_1",
+          "venice_v3:palm_13_section_2"
+        ],
+        "position_cm": [
+          3030.0,
+          100.0,
+          2110.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:palm_14_section_0",
+          "venice_v3:palm_14_section_1",
+          "venice_v3:palm_14_section_2"
+        ],
+        "position_cm": [
+          3300.0,
+          100.0,
+          3750.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 27.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:stacked_stone"
+        ],
+        "position_cm": [
+          3330.0,
+          100.0,
+          1510.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 48.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:coastal_double_lamp_0"
+        ],
+        "position_cm": [
+          2900.0,
+          100.0,
+          -1600.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 23.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:coastal_double_lamp_1"
+        ],
+        "position_cm": [
+          2900.0,
+          100.0,
+          750.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 23.0,
+        "footprint_supported": true
+      },
+      {
+        "objects": [
+          "venice_v3:coastal_double_lamp_2"
+        ],
+        "position_cm": [
+          2900.0,
+          100.0,
+          3050.0
+        ],
+        "exported_ground_y": 100.1216639963377,
+        "base_error_cm": -0.12166399633770197,
+        "support_radius_cm": 23.0,
+        "footprint_supported": true
+      }
+    ],
+    "unchanged_palms_outside_this_model": [
+      {
+        "position_cm": [
+          -2960.0,
+          0.0,
+          -2450.0
+        ],
+        "objects": [
+          "venice_v3:palm_15_section_0",
+          "venice_v3:palm_15_section_1",
+          "venice_v3:palm_15_section_2"
+        ]
+      },
+      {
+        "position_cm": [
+          -3310.0,
+          0.0,
+          -3380.0
+        ],
+        "objects": [
+          "venice_v3:palm_16_section_0",
+          "venice_v3:palm_16_section_1",
+          "venice_v3:palm_16_section_2"
+        ]
+      },
+      {
+        "position_cm": [
+          -2930.0,
+          0.0,
+          2510.0
+        ],
+        "objects": [
+          "venice_v3:palm_17_section_0",
+          "venice_v3:palm_17_section_1",
+          "venice_v3:palm_17_section_2"
+        ]
+      },
+      {
+        "position_cm": [
+          -4070.0,
+          0.0,
+          3310.0
+        ],
+        "objects": [
+          "venice_v3:palm_18_section_0",
+          "venice_v3:palm_18_section_1",
+          "venice_v3:palm_18_section_2"
+        ]
+      },
+      {
+        "position_cm": [
+          -4220.0,
+          0.0,
+          -4080.0
+        ],
+        "objects": [
+          "venice_v3:palm_19_section_0",
+          "venice_v3:palm_19_section_1",
+          "venice_v3:palm_19_section_2"
+        ]
+      }
+    ],
+    "all_original_object_matrices_preserved": true,
+    "preview": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision4/terraces/terraces_exported.png",
+    "game_render_verified": false
+  },
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 147813619,
+      "sha256": "a080b341e194a8f670ad0d26e524e64dbd6ac6d88e51173e32be54d803ea96bd"
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  },
+  "validation": {
+    "changed_original_archive_entries": [
+      "level.SCNE",
+      "level_floor_lightmaps.SCNE",
+      "crowd.SCNE"
+    ],
+    "all_original_binary_resources_byte_identical": true,
+    "original_objects_except_time_of_day_byte_equivalent": true,
+    "all_original_compiled_effects_unchanged": true,
+    "preserved_gameplay_archive_entries": [
+      "level_collisions.Coll",
+      "speedtree_collisions.Coll",
+      "baskets.SCNE",
+      "baskets_collisions.Coll",
+      "MAIN.Coll",
+      "crowd_seats_vertex.674a68d9eb68bc7a.bin",
+      "crowd.CrowdData"
+    ],
+    "visible_original_level_objects": [
+      "__floor00__"
+    ],
+    "all_hidden_geometry_zero_area_in_every_lod": true,
+    "all_new_index_ranges_and_stream_sizes_valid": true,
+    "duplicate_archive_names": 0,
+    "game_runtime_verified": false,
+    "game_directory_modified": false,
+    "status": "STATIC_VALIDATED_GAME_UNTESTED",
+    "artifacts": {
+      "arena_700_int.iff": {
+        "bytes": 147813619,
+        "sha256": "a080b341e194a8f670ad0d26e524e64dbd6ac6d88e51173e32be54d803ea96bd"
+      },
+      "arena_700_int_floor.iff": {
+        "bytes": 445558,
+        "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+      }
+    },
+    "base_revision3_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99",
+    "changed_revision3_archive_entries": [
+      "level.SCNE"
+    ],
+    "changed_existing_revision3_scene_records": [
+      {
+        "category": "Model",
+        "name": "venice_v3:grass_terraces"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:bleachers"
+      },
+      {
+        "category": "Model",
+        "name": "venice_v3:bins"
+      },
+      {
+        "category": "Object",
+        "name": "venice_v3:bins_2"
+      }
+    ],
+    "existing_revision3_materials_preserved": true,
+    "original_donor_object_transforms_preserved": true,
+    "added_fixture_instances": 3,
+    "added_fixture_triangles_per_prototype": 5472,
+    "texture_resolution_and_payloads_unchanged": true
+  }
+}

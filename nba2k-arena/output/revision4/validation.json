@@ -1,0 +1,65 @@
+{
+  "changed_original_archive_entries": [
+    "level.SCNE",
+    "level_floor_lightmaps.SCNE",
+    "crowd.SCNE"
+  ],
+  "all_original_binary_resources_byte_identical": true,
+  "original_objects_except_time_of_day_byte_equivalent": true,
+  "all_original_compiled_effects_unchanged": true,
+  "preserved_gameplay_archive_entries": [
+    "level_collisions.Coll",
+    "speedtree_collisions.Coll",
+    "baskets.SCNE",
+    "baskets_collisions.Coll",
+    "MAIN.Coll",
+    "crowd_seats_vertex.674a68d9eb68bc7a.bin",
+    "crowd.CrowdData"
+  ],
+  "visible_original_level_objects": [
+    "__floor00__"
+  ],
+  "all_hidden_geometry_zero_area_in_every_lod": true,
+  "all_new_index_ranges_and_stream_sizes_valid": true,
+  "duplicate_archive_names": 0,
+  "game_runtime_verified": false,
+  "game_directory_modified": false,
+  "status": "STATIC_VALIDATED_GAME_UNTESTED",
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 147813619,
+      "sha256": "a080b341e194a8f670ad0d26e524e64dbd6ac6d88e51173e32be54d803ea96bd"
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  },
+  "base_revision3_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99",
+  "changed_revision3_archive_entries": [
+    "level.SCNE"
+  ],
+  "changed_existing_revision3_scene_records": [
+    {
+      "category": "Model",
+      "name": "venice_v3:grass_terraces"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:bleachers"
+    },
+    {
+      "category": "Model",
+      "name": "venice_v3:bins"
+    },
+    {
+      "category": "Object",
+      "name": "venice_v3:bins_2"
+    }
+  ],
+  "existing_revision3_materials_preserved": true,
+  "original_donor_object_transforms_preserved": true,
+  "added_fixture_instances": 3,
+  "added_fixture_triangles_per_prototype": 5472,
+  "texture_resolution_and_payloads_unchanged": true
+}

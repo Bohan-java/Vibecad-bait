@@ -12,3 +12,8 @@ nba2k-arena/build/revision3/textures/*_source.png
 nba2k-arena/build/revision3/textures/*_decoded.png
 # The inspection viewer is regenerated from the delivered archive.
 nba2k-arena/build/revision3/preview/
+# Revision 4 has a separate lossless shipping ZIP and regenerated inspection files.
+nba2k-arena/output/revision4/*.iff
+nba2k-arena/output/revision4/*.tmp
+nba2k-arena/build/revision4/*.iff
+nba2k-arena/build/revision4/preview/

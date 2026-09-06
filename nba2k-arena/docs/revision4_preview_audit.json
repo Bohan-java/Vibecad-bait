@@ -1,0 +1,52 @@
+{
+  "source": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/output/revision4/arena_700_int.iff",
+  "source_sha256": "a080b341e194a8f670ad0d26e524e64dbd6ac6d88e51173e32be54d803ea96bd",
+  "output": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision4/preview",
+  "stats": {
+    "objects": 871,
+    "decoded_models": 21,
+    "placeholder_models": 3,
+    "hidden_degenerate_models": 66,
+    "hidden_degenerate_objects": 791,
+    "decoded_triangles_per_prototype": 240000,
+    "texture_files": 16,
+    "issues": 3
+  },
+  "cached_resources_used": [],
+  "three_version": "0.180.0",
+  "kind": "EXPORTED_GEOMETRY_AND_ALBEDO_NOT_NBA2K_RENDER",
+  "source_archives_modified": false,
+  "issues": [
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:basket",
+      "reason": "Missing resource: IndexBuffer.2faa94a692eecb55.gz"
+    },
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:glass",
+      "reason": "Native skinned basket: bone weights/pose not decoded; showing authoring bounds under actual Object.Matrix"
+    },
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:rimr",
+      "reason": "Native basket rig/reflection transform unresolved; showing authoring bounds under actual Object.Matrix"
+    }
+  ],
+  "inspection_date": "2026-09-06",
+  "inspected_in_browser": true,
+  "browser_console_errors_or_warnings": [],
+  "visual_observations": [
+    "Full court and standard center markings visible; original 791 enclosure instances remain index-degenerate",
+    "Former blue ground wedge beyond grass terraces is covered by continuous terrain",
+    "Curved terrace ends, existing palm bases and new lamp bases connect to ground",
+    "Bin liner smooth shading is continuous; concrete dome and green shell are visible",
+    "Bleacher support members use the same pale metal family as the seats"
+  ],
+  "limits": [
+    "Neutral WebGL albedo/geometry preview does not execute NBA 2K shaders",
+    "3 native basket models remain placeholders, totaling 6 instances",
+    "Actual game sky, lighting, shadows, material dispatch and gameplay remain unverified",
+    "Pale center disk and lane paint regions visible in references remain a separate follow-up"
+  ]
+}

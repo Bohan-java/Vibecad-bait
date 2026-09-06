@@ -1,0 +1,449 @@
+{
+  "model": {
+    "model": "venice_v3:grass_terraces",
+    "vertices": 34884,
+    "triangles": 11628,
+    "parts": 2,
+    "bounds_min": [
+      1100.0991836423282,
+      -0.4658083466847529,
+      -8000.0
+    ],
+    "bounds_max": [
+      4099.900816357671,
+      100.36580834668439,
+      8000.0
+    ],
+    "max_normal_error_degrees": 0.18504065978165005,
+    "max_tangent_error_degrees": 0.16729810210589205,
+    "handedness_mismatches": 0,
+    "max_position_error": 0.0,
+    "max_uv_error": 0.0006103608758667178,
+    "codec": "donor_DXIL_octahedral10x2_axis2_cos8_sign1_hand1",
+    "donor_frame_samples_used": 0,
+    "game_render_verified": false
+  },
+  "geometry": {
+    "samples_along_z": 639,
+    "native_zero_area_slivers_removed": 16,
+    "native_position_step_cm": 0.24414435034714274
+  },
+  "changed_models": [
+    "venice_v3:grass_terraces"
+  ],
+  "changed_objects": [],
+  "changed_other_scene_sections": [],
+  "new_binary_resources": [
+    "IndexBuffer.b99724b7dd248866.bin",
+    "VertexBuffer.19c17cf483773428.bin",
+    "VertexBuffer.624dd8cdd357bd2d.bin",
+    "VertexBuffer.a25c0802f497c56b.bin"
+  ],
+  "old_binary_resources_modified": false,
+  "new_collision_resources": 0,
+  "reference_images": [
+    "arena_reference_02.png",
+    "arena_reference_04.png"
+  ],
+  "dimensions_are_design_parameters_not_photo_measurements": true,
+  "tier_heights_cm": [
+    30.0,
+    65.0,
+    100.0
+  ],
+  "straight_front_x_cm": [
+    1100.0,
+    1545.0,
+    1990.0
+  ],
+  "return_center_x_cm": 2435.0,
+  "return_start_abs_z_cm": 4000.0,
+  "return_radii_cm": [
+    1335.0,
+    890.0,
+    445.0
+  ],
+  "far_grass_tie_in_abs_z_cm": [
+    6000,
+    8000.0
+  ],
+  "old_uncovered_ground_cm": {
+    "x": [
+      1100,
+      2435
+    ],
+    "abs_z": [
+      5050,
+      6500
+    ]
+  },
+  "old_gap_closed_by_continuous_ground_surface": true,
+  "coverage_rays_passed": 1375,
+  "all_exported_faces_nondegenerate": true,
+  "projected_coverage_area_cm2": 47996826.12344548,
+  "rectangular_domain_area_cm2": 47996826.12344548,
+  "minimum_normal_winding_dot": 0.9999947849473345,
+  "grounding": [
+    {
+      "objects": [
+        "venice_v3:palm_00_section_0",
+        "venice_v3:palm_00_section_1",
+        "venice_v3:palm_00_section_2"
+      ],
+      "position_cm": [
+        1860.0,
+        65.0,
+        -2400.0
+      ],
+      "exported_ground_y": 64.96487754634927,
+      "base_error_cm": 0.03512245365072886,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_01_section_0",
+        "venice_v3:palm_01_section_1",
+        "venice_v3:palm_01_section_2"
+      ],
+      "position_cm": [
+        2210.0,
+        100.0,
+        -1700.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_02_section_0",
+        "venice_v3:palm_02_section_1",
+        "venice_v3:palm_02_section_2"
+      ],
+      "position_cm": [
+        1780.0,
+        65.0,
+        -940.0
+      ],
+      "exported_ground_y": 64.96487754634927,
+      "base_error_cm": 0.03512245365072886,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_03_section_0",
+        "venice_v3:palm_03_section_1",
+        "venice_v3:palm_03_section_2"
+      ],
+      "position_cm": [
+        2200.0,
+        100.0,
+        -170.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_04_section_0",
+        "venice_v3:palm_04_section_1",
+        "venice_v3:palm_04_section_2"
+      ],
+      "position_cm": [
+        1720.0,
+        65.0,
+        650.0
+      ],
+      "exported_ground_y": 64.96487754634927,
+      "base_error_cm": 0.03512245365072886,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_05_section_0",
+        "venice_v3:palm_05_section_1",
+        "venice_v3:palm_05_section_2"
+      ],
+      "position_cm": [
+        2160.0,
+        100.0,
+        1410.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_06_section_0",
+        "venice_v3:palm_06_section_1",
+        "venice_v3:palm_06_section_2"
+      ],
+      "position_cm": [
+        1770.0,
+        65.0,
+        2200.0
+      ],
+      "exported_ground_y": 64.96487754634927,
+      "base_error_cm": 0.03512245365072886,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_07_section_0",
+        "venice_v3:palm_07_section_1",
+        "venice_v3:palm_07_section_2"
+      ],
+      "position_cm": [
+        2430.0,
+        100.0,
+        2910.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_08_section_0",
+        "venice_v3:palm_08_section_1",
+        "venice_v3:palm_08_section_2"
+      ],
+      "position_cm": [
+        1850.0,
+        65.0,
+        3650.0
+      ],
+      "exported_ground_y": 64.96487754634927,
+      "base_error_cm": 0.03512245365072886,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_09_section_0",
+        "venice_v3:palm_09_section_1",
+        "venice_v3:palm_09_section_2"
+      ],
+      "position_cm": [
+        2960.0,
+        100.0,
+        -3460.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_10_section_0",
+        "venice_v3:palm_10_section_1",
+        "venice_v3:palm_10_section_2"
+      ],
+      "position_cm": [
+        3330.0,
+        100.0,
+        -2500.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_11_section_0",
+        "venice_v3:palm_11_section_1",
+        "venice_v3:palm_11_section_2"
+      ],
+      "position_cm": [
+        2960.0,
+        100.0,
+        -780.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_12_section_0",
+        "venice_v3:palm_12_section_1",
+        "venice_v3:palm_12_section_2"
+      ],
+      "position_cm": [
+        3430.0,
+        100.0,
+        380.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_13_section_0",
+        "venice_v3:palm_13_section_1",
+        "venice_v3:palm_13_section_2"
+      ],
+      "position_cm": [
+        3030.0,
+        100.0,
+        2110.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:palm_14_section_0",
+        "venice_v3:palm_14_section_1",
+        "venice_v3:palm_14_section_2"
+      ],
+      "position_cm": [
+        3300.0,
+        100.0,
+        3750.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 27.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:stacked_stone"
+      ],
+      "position_cm": [
+        3330.0,
+        100.0,
+        1510.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 48.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:coastal_double_lamp_0"
+      ],
+      "position_cm": [
+        2900.0,
+        100.0,
+        -1600.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 23.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:coastal_double_lamp_1"
+      ],
+      "position_cm": [
+        2900.0,
+        100.0,
+        750.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 23.0,
+      "footprint_supported": true
+    },
+    {
+      "objects": [
+        "venice_v3:coastal_double_lamp_2"
+      ],
+      "position_cm": [
+        2900.0,
+        100.0,
+        3050.0
+      ],
+      "exported_ground_y": 100.1216639963377,
+      "base_error_cm": -0.12166399633770197,
+      "support_radius_cm": 23.0,
+      "footprint_supported": true
+    }
+  ],
+  "unchanged_palms_outside_this_model": [
+    {
+      "position_cm": [
+        -2960.0,
+        0.0,
+        -2450.0
+      ],
+      "objects": [
+        "venice_v3:palm_15_section_0",
+        "venice_v3:palm_15_section_1",
+        "venice_v3:palm_15_section_2"
+      ]
+    },
+    {
+      "position_cm": [
+        -3310.0,
+        0.0,
+        -3380.0
+      ],
+      "objects": [
+        "venice_v3:palm_16_section_0",
+        "venice_v3:palm_16_section_1",
+        "venice_v3:palm_16_section_2"
+      ]
+    },
+    {
+      "position_cm": [
+        -2930.0,
+        0.0,
+        2510.0
+      ],
+      "objects": [
+        "venice_v3:palm_17_section_0",
+        "venice_v3:palm_17_section_1",
+        "venice_v3:palm_17_section_2"
+      ]
+    },
+    {
+      "position_cm": [
+        -4070.0,
+        0.0,
+        3310.0
+      ],
+      "objects": [
+        "venice_v3:palm_18_section_0",
+        "venice_v3:palm_18_section_1",
+        "venice_v3:palm_18_section_2"
+      ]
+    },
+    {
+      "position_cm": [
+        -4220.0,
+        0.0,
+        -4080.0
+      ],
+      "objects": [
+        "venice_v3:palm_19_section_0",
+        "venice_v3:palm_19_section_1",
+        "venice_v3:palm_19_section_2"
+      ]
+    }
+  ],
+  "all_original_object_matrices_preserved": true,
+  "preview": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision4/terraces/terraces_exported.png",
+  "game_render_verified": false
+}
