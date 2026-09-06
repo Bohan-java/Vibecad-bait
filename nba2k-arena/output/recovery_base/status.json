@@ -1,0 +1,24 @@
+{
+  "status": "HISTORICAL_VISIBLE_BASE_RESTORED_CURRENT_GAME_CONFIRMATION_PENDING",
+  "source_revision": "fde9489",
+  "source_directory": "nba2k-arena/output/checkpoint1/line_fix",
+  "slot": "700 tutorial court",
+  "source_is_011": false,
+  "iff_rebuilt_or_repacked": false,
+  "extracted_files_equal_repository_bytes": true,
+  "changed_resources": [],
+  "historical_visual_evidence": "evidence/user_game_screenshot_checkpoint1_REJECTED.png",
+  "historical_limitations": [
+    "Indoor enclosure, cyan border, dark palms and glossy floor remain.",
+    "The screenshot establishes visibility, not a full gameplay test."
+  ],
+  "current_game_verified": false,
+  "files": {
+    "arena_700_int.iff": {
+      "bytes": 48674919
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558
+    }
+  }
+}

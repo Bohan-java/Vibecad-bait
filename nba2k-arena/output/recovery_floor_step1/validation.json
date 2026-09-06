@@ -1,0 +1,94 @@
+{
+  "status": "FLOOR_ONLY_CANDIDATE_PREPARED_GAME_UNTESTED",
+  "court_complete": false,
+  "game_runtime_verified": false,
+  "base": {
+    "revision": "fde9489",
+    "directory": "nba2k-arena/output/checkpoint1/line_fix",
+    "source_is_011": false,
+    "source_is_r7": false
+  },
+  "reused_assets": {
+    "archive": "output/revision4/venice_court_revision4.zip",
+    "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+    "geometry": {
+      "primitives": 74,
+      "vertices": 28041,
+      "indices": 26820,
+      "bounds_and_vertex_format_preserved": true,
+      "floor_object_preserved": true,
+      "finite_positions_and_valid_index_ranges": true,
+      "pale_paint_overlay_included": false,
+      "index_buffer_checksum_metadata_copied_without_recalculation": true
+    }
+  },
+  "changed_original_archive_members": [
+    "level.SCNE"
+  ],
+  "added_archive_members": [
+    {
+      "name": "venice_v3_court_vertices.bbe0a4f4e2d86711.bin",
+      "bytes": 785148
+    },
+    {
+      "name": "venice_v3_court_indices.1522708c3f60c5e3.bin",
+      "bytes": 53640
+    },
+    {
+      "name": "venice_v3_court_white.26304f5448bf7686.tld",
+      "bytes": 56
+    },
+    {
+      "name": "venice_v3_court_lane_marks.8bb644d306cc6def.tld",
+      "bytes": 56
+    },
+    {
+      "name": "venice_v3_court_concrete.f32598e4be1bc5a6.tld",
+      "bytes": 11184856
+    }
+  ],
+  "changed_existing_model_fields": [
+    "Prim",
+    "VertexStream",
+    "IndexBuffer",
+    "IndexBufferCrc32"
+  ],
+  "changed_existing_material_slots": [
+    "floor_clutchtime_court:area_1_mat.Resource.DetailAlbedoTexture"
+  ],
+  "added_materials": [
+    "venice_v3:court_white_lines",
+    "venice_v3:court_lane_space_marks"
+  ],
+  "added_textures": [
+    "local/venice_v3/court_white",
+    "local/venice_v3/court_lane_marks",
+    "local/venice_v3/court_concrete"
+  ],
+  "preserved": {
+    "all_original_members_except_level_scene_byte_identical": true,
+    "all_scene_fields_outside_whitelist": true,
+    "all_light_exposure_postprocess_and_floor_lightmap_data": true,
+    "floor_object_userdata_bounds_vertex_format_and_gameplay_anchors": true,
+    "all_existing_shader_effects_and_techniques": true,
+    "baseline_base_normal_reflection_logo_textures_and_material_parameters": true,
+    "companion_floor_byte_identical_to_repository": true
+  },
+  "file_digests_computed": false,
+  "game_directory_modified": false,
+  "files": {
+    "arena_700_int.iff": {
+      "bytes": 60722949
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558
+    }
+  },
+  "limitations": [
+    "Prepared for a later local floor-only test; the exact restored base is being tested first.",
+    "The indoor enclosure, cyan border, dark palms and prior reflection behavior remain.",
+    "The added center/standard court markings change visible geometry, not scoring rules.",
+    "No R5 pale-paint overlay, R7 scene data, global DDS conversion or new lighting is included.",
+    "Static validation does not establish game visibility or playable behavior."
+  ]
+}

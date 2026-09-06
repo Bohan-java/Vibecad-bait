@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-06",
+  "package": "repo_base_floor_step1_700.zip",
+  "package_bytes": 34271790,
+  "main_iff_bytes": 60722949,
+  "floor_iff_bytes": 445558,
+  "user_feedback": "地板是正常的，下一步",
+  "user_accepted_floor": true,
+  "discord_observation": [
+    "Colored players, hoop and grey textured court are visible.",
+    "New free-throw arc and dashed markings are visible.",
+    "Shot timing feedback and a 7.17 m shot distance appeared in the game."
+  ],
+  "complete_outdoor_court_accepted": false,
+  "remaining": [
+    "Indoor roof, screen, walls and cyan border remain.",
+    "Original floor reflection and dark palms remain.",
+    "The full court and gameplay have not received a separate complete acceptance pass."
+  ],
+  "note": "This records actual feedback on the named output, separately from the build-time structural report."
+}

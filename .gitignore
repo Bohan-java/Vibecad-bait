@@ -40,3 +40,15 @@ nba2k-arena/build/revision6/building/textures/*_decoded.png
 nba2k-arena/output/revision7/*.iff
 nba2k-arena/output/revision7/*.tmp
 nba2k-arena/build/revision7/runtime_repair_*/
+nba2k-arena/output/revision7_1/*.iff
+nba2k-arena/build/revision7_1/exposure_rollback_*/
+nba2k-arena/output/revision7_2/*.iff
+nba2k-arena/build/revision7_2/native_lights_*/
+# User-supplied working reference and local recovery artifacts.
+nba2k-arena/build/recovery011/source/
+nba2k-arena/output/revision7_3/*.iff
+nba2k-arena/build/revision7_3/stage_*/
+nba2k-arena/output/.DS_Store
+nba2k-arena/output/recovery_base/*.iff
+nba2k-arena/output/recovery_floor_step1/*.iff
+nba2k-arena/output/recovery_floor_step1/stage_*/
