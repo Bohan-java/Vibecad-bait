@@ -1,0 +1,53 @@
+{
+  "paint_triangle_count": 40686,
+  "marking_triangle_count": 8270,
+  "max_overlap_area_cm2": 5.1619397581775806e-06,
+  "total_overlap_area_cm2": 0.0006151671320118319,
+  "total_area_semantics": "sum_of_pair_intersections_not_union; overlapping_markings_may_double_count",
+  "area_threshold_cm2": 1e-05,
+  "over_threshold_pair_count": 0,
+  "paint_triangles_over_threshold_count": 0,
+  "marking_triangles_over_threshold": [],
+  "worst_pair": {
+    "paint_triangle": 2597,
+    "marking_triangle": 44,
+    "overlap_area_cm2": 5.1619397581775806e-06,
+    "paint_triangle_xz_cm": [
+      [
+        169.57089233398438,
+        53.465457916259766
+      ],
+      [
+        170.03099060058594,
+        51.98369598388672
+      ],
+      [
+        62.98346710205078,
+        19.858610153198242
+      ]
+    ],
+    "marking_triangle_xz_cm": [
+      [
+        174.88900756835938,
+        53.468936920166016
+      ],
+      [
+        170.03099060058594,
+        51.98368835449219
+      ],
+      [
+        169.5708770751953,
+        53.465492248535156
+      ]
+    ]
+  },
+  "bbox_candidate_pairs_audited": 20743,
+  "full_cartesian_pair_count": 336473220,
+  "grid_cell_cm": 64.0,
+  "occupied_grid_cells": 464,
+  "oversized_marking_triangles": 0,
+  "max_coordinate_float32_ulp_cm": 0.0001220703125,
+  "intersection_method": "independent_contained_vertices_and_segment_intersections",
+  "inputs_modified": false,
+  "all_pairs_below_threshold": true
+}

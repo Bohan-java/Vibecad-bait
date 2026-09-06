@@ -17,3 +17,13 @@ nba2k-arena/output/revision4/*.iff
 nba2k-arena/output/revision4/*.tmp
 nba2k-arena/build/revision4/*.iff
 nba2k-arena/build/revision4/preview/
+# Revision 5 keeps the shipping ZIP; geometry/texture inspection caches regenerate.
+nba2k-arena/output/revision5/*.iff
+nba2k-arena/output/revision5/*.tmp
+nba2k-arena/build/revision5/*.iff
+nba2k-arena/build/revision5/*.npz
+nba2k-arena/build/revision5/paint/*.npz
+nba2k-arena/build/revision5/paint/textures/*.tld
+nba2k-arena/build/revision5/paint/textures/*_source.png
+nba2k-arena/build/revision5/paint/textures/*_decoded.png
+nba2k-arena/build/revision5/preview/

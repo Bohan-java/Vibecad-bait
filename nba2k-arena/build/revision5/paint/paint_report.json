@@ -1,0 +1,249 @@
+{
+  "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+  "material": "venice_v3:court_pale_paint_r5",
+  "regions": [
+    {
+      "name": "center_disk",
+      "domain_area_cm2": 105069.52927010422,
+      "visible_paint_area_cm2": 95531.85426728001,
+      "markings_cut_out_cm2": 9537.67500282421,
+      "marking_triangle_candidates": 2882,
+      "clipped_pairs": 88544,
+      "triangles": 8825,
+      "final_triangles": 7757,
+      "final_area_cm2": 95531.85177206654
+    },
+    {
+      "name": "paint_lane_-1",
+      "domain_area_cm2": 281186.53440000006,
+      "visible_paint_area_cm2": 269822.9831417784,
+      "markings_cut_out_cm2": 11363.551258221676,
+      "marking_triangle_candidates": 1238,
+      "clipped_pairs": 40256,
+      "triangles": 12574,
+      "final_triangles": 12478,
+      "final_area_cm2": 269823.003439372
+    },
+    {
+      "name": "paint_semicircle_-1",
+      "domain_area_cm2": 52534.764635052234,
+      "visible_paint_area_cm2": 48753.38247962846,
+      "markings_cut_out_cm2": 3781.382155423773,
+      "marking_triangle_candidates": 722,
+      "clipped_pairs": 23860,
+      "triangles": 1570,
+      "final_triangles": 1553,
+      "final_area_cm2": 48753.40299139294
+    },
+    {
+      "name": "paint_lane_1",
+      "domain_area_cm2": 281186.53440000006,
+      "visible_paint_area_cm2": 269822.9831420858,
+      "markings_cut_out_cm2": 11363.551257914281,
+      "marking_triangle_candidates": 1238,
+      "clipped_pairs": 28207,
+      "triangles": 16431,
+      "final_triangles": 16167,
+      "final_area_cm2": 269823.05946196767
+    },
+    {
+      "name": "paint_semicircle_1",
+      "domain_area_cm2": 52534.76463505226,
+      "visible_paint_area_cm2": 48753.382482902525,
+      "markings_cut_out_cm2": 3781.3821521497375,
+      "marking_triangle_candidates": 722,
+      "clipped_pairs": 15466,
+      "triangles": 2742,
+      "final_triangles": 2731,
+      "final_area_cm2": 48753.390396249844
+    }
+  ],
+  "texture": {
+    "key": "local/venice_v3/court_pale_paint_r5",
+    "binary": "venice_v3_court_pale_paint_r5.5db0bc0f950445b3.tld",
+    "format": "BC1_UNORM",
+    "size": [
+      4096,
+      4096
+    ],
+    "mips": 13,
+    "all_mips_decoded": true,
+    "sha256": "5db0bc0f950445b3c61314b615e4f1e3bae7da82197b3bb363dd7c74abe76633",
+    "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision5/paint/textures/court_pale_paint_r5_source.png",
+    "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision5/paint/textures/court_pale_paint_r5_decoded.png",
+    "decoded_rgba_min": [
+      107,
+      113,
+      115,
+      255
+    ],
+    "decoded_rgba_max": [
+      189,
+      195,
+      198,
+      255
+    ],
+    "decoded_rgba_mean": [
+      142.56077,
+      146.4685,
+      147.71686,
+      255.0
+    ]
+  },
+  "source": {
+    "asset": "concrete_floor_02",
+    "map": "Diffuse",
+    "resolution": "4k",
+    "file": "concrete_floor_02_diff_4k.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/concrete_floor_02/concrete_floor_02_diff_4k.jpg",
+    "bytes": 12425225,
+    "md5": "48169d69989257ba6ab15dec3e2a7c62",
+    "sha256": "a583f2b42e921e9e85be823cc5fd59e32ab4a94a7866e196287e6651d12187d5",
+    "license": "CC0-1.0",
+    "source": "https://polyhaven.com/a/concrete_floor_02"
+  },
+  "encoded_rgb_target": [
+    143,
+    147,
+    148
+  ],
+  "total_vertices": 63641,
+  "vertices_added": 35600,
+  "indices_added": 122058,
+  "triangles_added": 40686,
+  "uv_max_quantization_error": {
+    "TEXCOORD0": 4.942922826223217e-05,
+    "TEXCOORD1": 7.629154947674799e-06,
+    "TEXCOORD2": 0.00022527030501307,
+    "TEXCOORD3": 0.0
+  },
+  "quantization_discarded_slivers": [
+    {
+      "name": "center_disk",
+      "triangles": 1068,
+      "area_cm2": 0.0026717803637142552,
+      "maximum_altitude_cm": 7.997432072550091e-06
+    },
+    {
+      "name": "paint_lane_-1",
+      "triangles": 96,
+      "area_cm2": 0.00882643251420702,
+      "maximum_altitude_cm": 6.295284399641948e-05
+    },
+    {
+      "name": "paint_semicircle_-1",
+      "triangles": 17,
+      "area_cm2": 0.0067387548422426155,
+      "maximum_altitude_cm": 1.9867622406395447e-05
+    },
+    {
+      "name": "paint_lane_1",
+      "triangles": 264,
+      "area_cm2": 0.03242742955389281,
+      "maximum_altitude_cm": 6.108959146134003e-05
+    },
+    {
+      "name": "paint_semicircle_1",
+      "triangles": 11,
+      "area_cm2": 0.0015759792321320808,
+      "maximum_altitude_cm": 2.613218752922042e-05
+    }
+  ],
+  "existing_vertex_prefix_preserved": true,
+  "marking_clearance_cm_per_axis": 0.000125,
+  "independent_overlap_audit": {
+    "paint_triangle_count": 40686,
+    "marking_triangle_count": 8270,
+    "max_overlap_area_cm2": 5.1619397581775806e-06,
+    "total_overlap_area_cm2": 0.0006151671320118319,
+    "total_area_semantics": "sum_of_pair_intersections_not_union; overlapping_markings_may_double_count",
+    "area_threshold_cm2": 1e-05,
+    "over_threshold_pair_count": 0,
+    "paint_triangles_over_threshold_count": 0,
+    "marking_triangles_over_threshold": [],
+    "worst_pair": {
+      "paint_triangle": 2597,
+      "marking_triangle": 44,
+      "overlap_area_cm2": 5.1619397581775806e-06,
+      "paint_triangle_xz_cm": [
+        [
+          169.57089233398438,
+          53.465457916259766
+        ],
+        [
+          170.03099060058594,
+          51.98369598388672
+        ],
+        [
+          62.98346710205078,
+          19.858610153198242
+        ]
+      ],
+      "marking_triangle_xz_cm": [
+        [
+          174.88900756835938,
+          53.468936920166016
+        ],
+        [
+          170.03099060058594,
+          51.98368835449219
+        ],
+        [
+          169.5708770751953,
+          53.465492248535156
+        ]
+      ]
+    },
+    "bbox_candidate_pairs_audited": 20743,
+    "full_cartesian_pair_count": 336473220,
+    "grid_cell_cm": 64.0,
+    "occupied_grid_cells": 464,
+    "oversized_marking_triangles": 0,
+    "max_coordinate_float32_ulp_cm": 0.0001220703125,
+    "intersection_method": "independent_contained_vertices_and_segment_intersections",
+    "inputs_modified": false,
+    "all_pairs_below_threshold": true
+  },
+  "guarded_marking_triangle_count": 3908,
+  "precision_iterations": [
+    {
+      "iteration": 0,
+      "guarded_markings": 0,
+      "over_threshold_pairs": 186,
+      "maximum_overlap_area_cm2": 4.1121817174579606e-05
+    },
+    {
+      "iteration": 1,
+      "guarded_markings": 3908,
+      "over_threshold_pairs": 0,
+      "maximum_overlap_area_cm2": 5.1619397598151595e-06
+    }
+  ],
+  "existing_index_prefix_preserved": true,
+  "existing_primitive_records_preserved": true,
+  "floor_bounds_and_object_preserved": true,
+  "all_new_triangles_upward": true,
+  "depth_bias_candidate": -4,
+  "slope_depth_bias_candidate": 0,
+  "depth_paths": {
+    "Default": [
+      "Default",
+      "ProjectTexture",
+      "StoryScene",
+      "StorySceneHard",
+      "GBuffer",
+      "DepthNormalPrepass"
+    ],
+    "Prepass": [
+      "Default",
+      "DepthNormalPrepass"
+    ],
+    "Mirror": [
+      "UseHardShadowMaps"
+    ],
+    "Movie": [
+      "Default"
+    ]
+  },
+  "game_runtime_verified": false
+}

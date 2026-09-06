@@ -1,0 +1,84 @@
+{
+  "paint_triangle_count": 34005,
+  "marking_triangle_count": 8270,
+  "max_overlap_area_cm2": 4.1121817174579606e-05,
+  "total_overlap_area_cm2": 0.006432003316811745,
+  "total_area_semantics": "sum_of_pair_intersections_not_union; overlapping_markings_may_double_count",
+  "area_threshold_cm2": 1e-05,
+  "over_threshold_pair_count": 186,
+  "paint_triangles_over_threshold_count": 186,
+  "worst_pair": {
+    "paint_triangle": 31389,
+    "marking_triangle": 8035,
+    "overlap_area_cm2": 4.1121817174579606e-05,
+    "paint_triangle_xz_cm": [
+      [
+        16.546703338623047,
+        1146.6226806640625
+      ],
+      [
+        15.576543807983398,
+        1146.19580078125
+      ],
+      [
+        15.630687713623047,
+        1146.5062255859375
+      ]
+    ],
+    "marking_triangle_xz_cm": [
+      [
+        16.576826095581055,
+        1146.62646484375
+      ],
+      [
+        15.47740650177002,
+        1146.4866943359375
+      ],
+      [
+        14.85831069946289,
+        1151.52880859375
+      ]
+    ]
+  },
+  "bbox_candidate_pairs_audited": 14346,
+  "full_cartesian_pair_count": 281221350,
+  "grid_cell_cm": 64.0,
+  "occupied_grid_cells": 464,
+  "oversized_marking_triangles": 0,
+  "max_coordinate_float32_ulp_cm": 0.0001220703125,
+  "intersection_method": "independent_contained_vertices_and_segment_intersections",
+  "inputs_modified": false,
+  "all_pairs_below_threshold": false,
+  "elapsed_seconds": 0.40471208300004946,
+  "source": "nba2k-arena/build/revision5/paint/native_paint_geometry.npz",
+  "float32_roundtrip_max_displacement_cm": {
+    "paint": 0.0,
+    "markings": 0.0
+  },
+  "worst_pair_exact_rational_check": {
+    "method": "exact Fraction dyadic input and rational segment intersections; centroid angular boundary order",
+    "overlap_area_cm2": 4.112181715596721e-05,
+    "area_fraction": "58054526178581927270075/1411769474057826473024159744",
+    "float64_absolute_error_cm2": 1.8612397051104984e-14,
+    "intersection_polygon_xz_cm": [
+      [
+        15.630687713623047,
+        1146.5062255859375
+      ],
+      [
+        15.630679788641965,
+        1146.5061801494164
+      ],
+      [
+        16.546558356347074,
+        1146.6226168704131
+      ],
+      [
+        16.546703338623047,
+        1146.6226806640625
+      ]
+    ],
+    "minimum_width_of_overlap_polygon_cm": 4.4999537201780015e-05,
+    "maximum_pairwise_span_cm": 0.9234021410158982
+  }
+}

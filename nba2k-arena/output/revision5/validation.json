@@ -1,0 +1,67 @@
+{
+  "changed_original_archive_entries": [
+    "level.SCNE",
+    "level_floor_lightmaps.SCNE",
+    "crowd.SCNE"
+  ],
+  "all_original_binary_resources_byte_identical": true,
+  "original_objects_except_time_of_day_byte_equivalent": true,
+  "all_original_compiled_effects_unchanged": true,
+  "preserved_gameplay_archive_entries": [
+    "level_collisions.Coll",
+    "speedtree_collisions.Coll",
+    "baskets.SCNE",
+    "baskets_collisions.Coll",
+    "MAIN.Coll",
+    "crowd_seats_vertex.674a68d9eb68bc7a.bin",
+    "crowd.CrowdData"
+  ],
+  "visible_original_level_objects": [
+    "__floor00__"
+  ],
+  "all_hidden_geometry_zero_area_in_every_lod": true,
+  "all_new_index_ranges_and_stream_sizes_valid": true,
+  "duplicate_archive_names": 0,
+  "game_runtime_verified": false,
+  "game_directory_modified": false,
+  "status": "STATIC_VALIDATED_GAME_UNTESTED",
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 161083810,
+      "sha256": "2fd02c8cfb3d771947cd4fe655db1f64f1ecf51a598bc1a8656ba16e1a670a3d"
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  },
+  "base_revision4_sha256": "a080b341e194a8f670ad0d26e524e64dbd6ac6d88e51173e32be54d803ea96bd",
+  "changed_revision4_archive_entries": [
+    "level.SCNE"
+  ],
+  "changed_existing_revision4_scene_records": [
+    {
+      "category": "Model",
+      "name": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low"
+    }
+  ],
+  "added_scene_records": [
+    {
+      "category": "Texture",
+      "name": "local/venice_v3/court_pale_paint_r5"
+    },
+    {
+      "category": "Material",
+      "name": "venice_v3:court_pale_paint_r5"
+    }
+  ],
+  "modified_floor_model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+  "all_existing_revision4_records_except_floor_model_preserved": true,
+  "all_existing_revision4_materials_and_textures_preserved": true,
+  "all_existing_revision4_objects_and_transforms_preserved": true,
+  "all_existing_revision4_binary_resources_byte_identical": true,
+  "paired_floor_byte_identical_to_revision4": true,
+  "original_donor_binary_resources_and_gameplay_preserved": true,
+  "shared_validator_environment_audit_revision3_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99",
+  "new_binary_resources": 3
+}

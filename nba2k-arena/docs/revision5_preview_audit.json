@@ -1,0 +1,30 @@
+{
+  "source_sha256": "2fd02c8cfb3d771947cd4fe655db1f64f1ecf51a598bc1a8656ba16e1a670a3d",
+  "kind": "EXPORTED_GEOMETRY_AND_ALBEDO_NOT_NBA2K_RENDER",
+  "browser": "CUA local browser tab 5",
+  "stats": {
+    "objects": 871,
+    "decoded_models": 21,
+    "placeholder_models": 3,
+    "hidden_degenerate_models": 66,
+    "hidden_degenerate_objects": 791,
+    "decoded_triangles_per_prototype": 280686,
+    "texture_files": 17,
+    "issues": 3
+  },
+  "browser_visible_entities": 74,
+  "browser_placeholder_instances": 6,
+  "browser_errors_and_warnings": [],
+  "cameras_reviewed": [
+    "涂装俯视",
+    "中圈细节",
+    "罚球区细节"
+  ],
+  "visual_observations": [
+    "Center disk and inner/outer/division lines are continuous in close view",
+    "Both lane rectangles and forward semicircles use pale scanned concrete",
+    "Observed depth artifact below a free-throw dash is absent with final native -4/0 paint states",
+    "Final viewer restores original shadow/normal/material/depth behavior; no diagnostic overrides remain"
+  ],
+  "game_runtime_verified": false
+}
