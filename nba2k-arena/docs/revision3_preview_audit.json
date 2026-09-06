@@ -1,0 +1,57 @@
+{
+  "source": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/output/revision3/arena_700_int.iff",
+  "source_sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99",
+  "output": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/preview",
+  "stats": {
+    "objects": 868,
+    "decoded_models": 20,
+    "placeholder_models": 3,
+    "hidden_degenerate_models": 66,
+    "hidden_degenerate_objects": 791,
+    "decoded_triangles_per_prototype": 205052,
+    "texture_files": 13,
+    "issues": 3
+  },
+  "cached_resources_used": [],
+  "three_version": "0.180.0",
+  "kind": "EXPORTED_GEOMETRY_AND_ALBEDO_NOT_NBA2K_RENDER",
+  "source_archives_modified": false,
+  "issues": [
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:basket",
+      "reason": "Missing resource: IndexBuffer.2faa94a692eecb55.gz"
+    },
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:glass",
+      "reason": "Native skinned basket: bone weights/pose not decoded; showing authoring bounds under actual Object.Matrix"
+    },
+    {
+      "kind": "geometry",
+      "name": "baskets:arena_clutchtime_int_master@GameObjects@MAIN@basket0:rimr",
+      "reason": "Native basket rig/reflection transform unresolved; showing authoring bounds under actual Object.Matrix"
+    }
+  ],
+  "inspection": {
+    "browser": "Codex in-app WebGL viewer",
+    "geometry_views_inspected": [
+      "full court",
+      "sideline",
+      "overview of final archive"
+    ],
+    "not_game_capture": true,
+    "checks": [
+      "center line and both center circles visible",
+      "standard line geometry continuous after native depth bias mapping",
+      "original donor enclosure has zero-area indices",
+      "nonuniform 60-frond palms have continuous UVs and front/back faces",
+      "court and surrounding concrete have distinct albedo"
+    ],
+    "limitations": [
+      "6 original basket rig/reflector instances shown as explicit bounds, not rendered basket geometry",
+      "viewer uses neutral Three.js light and albedo, not native game shaders",
+      "runtime CLOD material scheduling, sky, shadows and exposure remain game-unverified"
+    ]
+  }
+}

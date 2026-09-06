@@ -1,0 +1,1099 @@
+{
+  "textures": {
+    "concrete": "local/venice_v3/concrete",
+    "concrete_normal": "local/venice_v3/concrete_normal",
+    "court_concrete": "local/venice_v3/court_concrete",
+    "court_concrete_normal": "local/venice_v3/court_concrete_normal",
+    "floor_normal": "local/venice_v3/floor_normal",
+    "grass": "local/venice_v3/grass",
+    "grass_normal": "local/venice_v3/grass_normal",
+    "bark": "local/venice_v3/bark",
+    "bark_normal": "local/venice_v3/bark_normal",
+    "sand": "local/venice_v3/sand",
+    "sand_normal": "local/venice_v3/sand_normal",
+    "leaf": "local/venice_v3/leaf",
+    "leaf_normal": "local/venice_v3/leaf_normal",
+    "leaf_light": "local/venice_v3/leaf_light",
+    "leaf_light_normal": "local/venice_v3/leaf_light_normal",
+    "leaf_dead": "local/venice_v3/leaf_dead",
+    "leaf_dead_normal": "local/venice_v3/leaf_dead_normal",
+    "aluminum": "local/venice_v3/aluminum",
+    "aluminum_normal": "local/venice_v3/aluminum_normal",
+    "dark_metal": "local/venice_v3/dark_metal",
+    "dark_metal_normal": "local/venice_v3/dark_metal_normal",
+    "line_white": "local/venice_v3/line_white",
+    "line_white_normal": "local/venice_v3/line_white_normal",
+    "ocean": "local/venice_v3/ocean",
+    "ocean_normal": "local/venice_v3/ocean_normal",
+    "floor_base": "local/venice_v3/floor_base",
+    "no_logo": "local/venice_v3/no_logo"
+  },
+  "assets": {
+    "concrete": {
+      "key": "local/venice_v3/concrete",
+      "binary": "venice_v3_concrete.e7992ab62832ad2b.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4096,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "e7992ab62832ad2b3319e0a8bc6ab4daceb04bc0b7ace267a08415e3fae5389e",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/concrete_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/concrete_decoded.png",
+      "decoded_rgba_min": [
+        115,
+        113,
+        99,
+        255
+      ],
+      "decoded_rgba_max": [
+        222,
+        215,
+        206,
+        255
+      ],
+      "decoded_rgba_mean": [
+        157.86681,
+        153.44797,
+        141.4328,
+        255.0
+      ]
+    },
+    "concrete_normal": {
+      "key": "local/venice_v3/concrete_normal",
+      "binary": "venice_v3_concrete_normal.3ee04e9f1807ea21.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_decoded": true,
+      "sha256": "3ee04e9f1807ea218aebde7910b1ac97f8f49b941308bb8e35c793bf56f3da9d",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/concrete_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/concrete_normal_decoded.png",
+      "decoded_rgba_min": [
+        99,
+        101,
+        0,
+        239
+      ],
+      "decoded_rgba_max": [
+        156,
+        150,
+        0,
+        245
+      ],
+      "decoded_rgba_mean": [
+        127.67818,
+        127.38445,
+        0.0,
+        240.93067
+      ]
+    },
+    "court_concrete": {
+      "key": "local/venice_v3/court_concrete",
+      "binary": "venice_v3_court_concrete.f32598e4be1bc5a6.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4096,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "f32598e4be1bc5a692d178e8564db0ebebe1841e3d73636fcfb9a829f085bf1e",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/court_concrete_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/court_concrete_decoded.png",
+      "decoded_rgba_min": [
+        57,
+        60,
+        57,
+        255
+      ],
+      "decoded_rgba_max": [
+        140,
+        142,
+        140,
+        255
+      ],
+      "decoded_rgba_mean": [
+        89.03135,
+        93.7564,
+        95.20128,
+        255.0
+      ]
+    },
+    "court_concrete_normal": {
+      "key": "local/venice_v3/court_concrete_normal",
+      "binary": "venice_v3_court_concrete_normal.3ee04e9f1807ea21.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_decoded": true,
+      "sha256": "3ee04e9f1807ea218aebde7910b1ac97f8f49b941308bb8e35c793bf56f3da9d",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/court_concrete_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/court_concrete_normal_decoded.png",
+      "decoded_rgba_min": [
+        99,
+        101,
+        0,
+        239
+      ],
+      "decoded_rgba_max": [
+        156,
+        150,
+        0,
+        245
+      ],
+      "decoded_rgba_mean": [
+        127.67818,
+        127.38445,
+        0.0,
+        240.93067
+      ]
+    },
+    "floor_normal": {
+      "key": "local/venice_v3/floor_normal",
+      "binary": "venice_v3_floor_normal.453b8be67bfb3597.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_decoded": true,
+      "sha256": "453b8be67bfb3597a533be527e2be2b7f18c9184347226115e0a730ee570db00",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/floor_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/floor_normal_decoded.png",
+      "decoded_rgba_min": [
+        99,
+        101,
+        239,
+        15
+      ],
+      "decoded_rgba_max": [
+        156,
+        150,
+        247,
+        15
+      ],
+      "decoded_rgba_mean": [
+        127.67732,
+        127.38374,
+        246.99387,
+        15.0
+      ]
+    },
+    "grass": {
+      "key": "local/venice_v3/grass",
+      "binary": "venice_v3_grass.e25f9d5f451803e3.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_decoded": true,
+      "sha256": "e25f9d5f451803e38de19da2f2d5e54f887fe515a4f05315f48f2378893e3a0c",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/grass_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/grass_decoded.png",
+      "decoded_rgba_min": [
+        0,
+        24,
+        0,
+        255
+      ],
+      "decoded_rgba_max": [
+        165,
+        195,
+        165,
+        255
+      ],
+      "decoded_rgba_mean": [
+        76.17018,
+        98.14094,
+        46.41353,
+        255.0
+      ]
+    },
+    "grass_normal": {
+      "key": "local/venice_v3/grass_normal",
+      "binary": "venice_v3_grass_normal.7f27374ccc54759e.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_decoded": true,
+      "sha256": "7f27374ccc54759e266d948f62dd51745be501090399a81c9c48f2abb11e4e19",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/grass_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/grass_normal_decoded.png",
+      "decoded_rgba_min": [
+        74,
+        77,
+        0,
+        238
+      ],
+      "decoded_rgba_max": [
+        181,
+        178,
+        0,
+        243
+      ],
+      "decoded_rgba_mean": [
+        128.82168,
+        127.65164,
+        0.0,
+        240.75962
+      ]
+    },
+    "bark": {
+      "key": "local/venice_v3/bark",
+      "binary": "venice_v3_bark.46cbdd87299cb9ed.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        2048,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "46cbdd87299cb9eddd6b2714057945e6752a91b8ff9620fbe56904b3d0315258",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/bark_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/bark_decoded.png",
+      "decoded_rgba_min": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "decoded_rgba_max": [
+        222,
+        215,
+        198,
+        255
+      ],
+      "decoded_rgba_mean": [
+        121.57239,
+        111.5382,
+        91.81253,
+        255.0
+      ]
+    },
+    "bark_normal": {
+      "key": "local/venice_v3/bark_normal",
+      "binary": "venice_v3_bark_normal.c2089dc86c26a420.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        2048,
+        4096
+      ],
+      "mips": 13,
+      "all_mips_decoded": true,
+      "sha256": "c2089dc86c26a42023cc83155369f254f18697ee672ece2a014c0f78c20a6b0c",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/bark_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/bark_normal_decoded.png",
+      "decoded_rgba_min": [
+        66,
+        73,
+        0,
+        232
+      ],
+      "decoded_rgba_max": [
+        181,
+        174,
+        0,
+        248
+      ],
+      "decoded_rgba_mean": [
+        128.276,
+        127.5379,
+        0.0,
+        239.58148
+      ]
+    },
+    "sand": {
+      "key": "local/venice_v3/sand",
+      "binary": "venice_v3_sand.9f2872020c8c55dc.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "all_mips_decoded": true,
+      "sha256": "9f2872020c8c55dc1c231d599e78f8aae1138edc2345bd984df5bb63a2a5eb19",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/sand_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/sand_decoded.png",
+      "decoded_rgba_min": [
+        123,
+        117,
+        99,
+        255
+      ],
+      "decoded_rgba_max": [
+        231,
+        223,
+        206,
+        255
+      ],
+      "decoded_rgba_mean": [
+        184.07034,
+        177.08118,
+        155.25807,
+        255.0
+      ]
+    },
+    "sand_normal": {
+      "key": "local/venice_v3/sand_normal",
+      "binary": "venice_v3_sand_normal.b49921d3a428fe2e.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "b49921d3a428fe2e1676f856b4898b33f5f8ec7012f5493a78e2ffe609d21073",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/sand_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/sand_normal_decoded.png",
+      "decoded_rgba_min": [
+        90,
+        93,
+        0,
+        248
+      ],
+      "decoded_rgba_max": [
+        165,
+        162,
+        0,
+        250
+      ],
+      "decoded_rgba_mean": [
+        127.81718,
+        127.80244,
+        0.0,
+        248.93649
+      ]
+    },
+    "leaf": {
+      "key": "local/venice_v3/leaf",
+      "binary": "venice_v3_leaf.06306ae6a69690c9.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "06306ae6a69690c9f8663a12c40d74e74c96c9ffa482b73dfafbc997d08be399",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_decoded.png",
+      "decoded_rgba_min": [
+        49,
+        81,
+        24,
+        255
+      ],
+      "decoded_rgba_max": [
+        66,
+        101,
+        41,
+        255
+      ],
+      "decoded_rgba_mean": [
+        59.01195,
+        94.69633,
+        36.31928,
+        255.0
+      ]
+    },
+    "leaf_normal": {
+      "key": "local/venice_v3/leaf_normal",
+      "binary": "venice_v3_leaf_normal.3eaf303c1acda5ed.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "3eaf303c1acda5ed66a21f4cfc5b00e90ebd4e54292fd69e9083ef8bba7556c1",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_normal_decoded.png",
+      "decoded_rgba_min": [
+        123,
+        125,
+        0,
+        224
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        224
+      ],
+      "decoded_rgba_mean": [
+        128.26697,
+        129.87659,
+        0.0,
+        224.0
+      ]
+    },
+    "leaf_light": {
+      "key": "local/venice_v3/leaf_light",
+      "binary": "venice_v3_leaf_light.d75415d8204d2274.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "d75415d8204d227485c6264effe8ca37c7d038469290135c935d786c7f75be26",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_light_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_light_decoded.png",
+      "decoded_rgba_min": [
+        74,
+        105,
+        41,
+        255
+      ],
+      "decoded_rgba_max": [
+        90,
+        125,
+        49,
+        255
+      ],
+      "decoded_rgba_mean": [
+        83.54978,
+        117.65395,
+        47.22166,
+        255.0
+      ]
+    },
+    "leaf_light_normal": {
+      "key": "local/venice_v3/leaf_light_normal",
+      "binary": "venice_v3_leaf_light_normal.031a77823472b027.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "031a77823472b0276845a87b3b6b0711e5f8dcce959b65ba94c85bf11b7f6149",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_light_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_light_normal_decoded.png",
+      "decoded_rgba_min": [
+        123,
+        125,
+        0,
+        224
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        224
+      ],
+      "decoded_rgba_mean": [
+        128.25461,
+        129.87659,
+        0.0,
+        224.0
+      ]
+    },
+    "leaf_dead": {
+      "key": "local/venice_v3/leaf_dead",
+      "binary": "venice_v3_leaf_dead.581e367cc3a78238.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "581e367cc3a782389cb296a5c37efc93beba48b0fcfd517f5823a1ce0c75da2f",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_dead_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_dead_decoded.png",
+      "decoded_rgba_min": [
+        123,
+        97,
+        57,
+        255
+      ],
+      "decoded_rgba_max": [
+        140,
+        117,
+        74,
+        255
+      ],
+      "decoded_rgba_mean": [
+        132.95521,
+        108.52324,
+        67.34448,
+        255.0
+      ]
+    },
+    "leaf_dead_normal": {
+      "key": "local/venice_v3/leaf_dead_normal",
+      "binary": "venice_v3_leaf_dead_normal.a4cdbf1469226fcc.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "all_mips_decoded": true,
+      "sha256": "a4cdbf1469226fcca289b8db169c52d9b50915cb9be3f5dad7a913d5d38d0cee",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_dead_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/leaf_dead_normal_decoded.png",
+      "decoded_rgba_min": [
+        123,
+        126,
+        0,
+        224
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        224
+      ],
+      "decoded_rgba_mean": [
+        128.2545,
+        129.88621,
+        0.0,
+        224.0
+      ]
+    },
+    "aluminum": {
+      "key": "local/venice_v3/aluminum",
+      "binary": "venice_v3_aluminum.7b607a143b55de56.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "7b607a143b55de56d9089d6db05db44b403baadf013764aed3996f67d2c3c662",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/aluminum_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/aluminum_decoded.png",
+      "decoded_rgba_min": [
+        156,
+        166,
+        165,
+        255
+      ],
+      "decoded_rgba_max": [
+        156,
+        166,
+        165,
+        255
+      ],
+      "decoded_rgba_mean": [
+        156.0,
+        166.0,
+        165.0,
+        255.0
+      ]
+    },
+    "aluminum_normal": {
+      "key": "local/venice_v3/aluminum_normal",
+      "binary": "venice_v3_aluminum_normal.72e1f0939e274f45.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "72e1f0939e274f45675d903b631273994b7df35ff13cb57d5b947670b7861753",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/aluminum_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/aluminum_normal_decoded.png",
+      "decoded_rgba_min": [
+        132,
+        130,
+        0,
+        199
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        199
+      ],
+      "decoded_rgba_mean": [
+        132.0,
+        130.0,
+        0.0,
+        199.0
+      ]
+    },
+    "dark_metal": {
+      "key": "local/venice_v3/dark_metal",
+      "binary": "venice_v3_dark_metal.101fd9212e0a7612.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "101fd9212e0a76126845486bb1e43292b37d84014eba6080e0ea80848d7961a3",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/dark_metal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/dark_metal_decoded.png",
+      "decoded_rgba_min": [
+        41,
+        48,
+        49,
+        255
+      ],
+      "decoded_rgba_max": [
+        41,
+        48,
+        49,
+        255
+      ],
+      "decoded_rgba_mean": [
+        41.0,
+        48.0,
+        49.0,
+        255.0
+      ]
+    },
+    "dark_metal_normal": {
+      "key": "local/venice_v3/dark_metal_normal",
+      "binary": "venice_v3_dark_metal_normal.3b55fc91f9daa32a.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "3b55fc91f9daa32abb7c40bdd6e8fa663e2c68b0a4d9a7a75ffed6014b4b3355",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/dark_metal_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/dark_metal_normal_decoded.png",
+      "decoded_rgba_min": [
+        132,
+        130,
+        0,
+        235
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        235
+      ],
+      "decoded_rgba_mean": [
+        132.0,
+        130.0,
+        0.0,
+        235.0
+      ]
+    },
+    "line_white": {
+      "key": "local/venice_v3/line_white",
+      "binary": "venice_v3_line_white.ececebf7280fa319.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "ececebf7280fa319b11996652c698ec4061f28fb976a6f8375b4215b38b2ec01",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/line_white_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/line_white_decoded.png",
+      "decoded_rgba_min": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "decoded_rgba_max": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "decoded_rgba_mean": [
+        255.0,
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    "line_white_normal": {
+      "key": "local/venice_v3/line_white_normal",
+      "binary": "venice_v3_line_white_normal.3b55fc91f9daa32a.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "3b55fc91f9daa32abb7c40bdd6e8fa663e2c68b0a4d9a7a75ffed6014b4b3355",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/line_white_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/line_white_normal_decoded.png",
+      "decoded_rgba_min": [
+        132,
+        130,
+        0,
+        235
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        235
+      ],
+      "decoded_rgba_mean": [
+        132.0,
+        130.0,
+        0.0,
+        235.0
+      ]
+    },
+    "ocean": {
+      "key": "local/venice_v3/ocean",
+      "binary": "venice_v3_ocean.07c3e44dd2389f22.tld",
+      "format": "BC1_UNORM",
+      "size": [
+        512,
+        512
+      ],
+      "mips": 10,
+      "all_mips_decoded": true,
+      "sha256": "07c3e44dd2389f2248f7b92bd39d94aa98619a902bd4bfd2af54c3724e164eaf",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/ocean_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/ocean_decoded.png",
+      "decoded_rgba_min": [
+        49,
+        97,
+        115,
+        255
+      ],
+      "decoded_rgba_max": [
+        57,
+        105,
+        123,
+        255
+      ],
+      "decoded_rgba_mean": [
+        55.24212,
+        99.08975,
+        118.4442,
+        255.0
+      ]
+    },
+    "ocean_normal": {
+      "key": "local/venice_v3/ocean_normal",
+      "binary": "venice_v3_ocean_normal.571ed2b6a11be42e.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "571ed2b6a11be42e0dbe52ff98a186d0e6b0701f4d9069d849b862db592f412d",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/ocean_normal_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/ocean_normal_decoded.png",
+      "decoded_rgba_min": [
+        132,
+        130,
+        0,
+        143
+      ],
+      "decoded_rgba_max": [
+        132,
+        130,
+        0,
+        143
+      ],
+      "decoded_rgba_mean": [
+        132.0,
+        130.0,
+        0.0,
+        143.0
+      ]
+    },
+    "floor_base": {
+      "key": "local/venice_v3/floor_base",
+      "binary": "venice_v3_floor_base.fdf1b35c3593ca8a.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "fdf1b35c3593ca8add858176dda37fbe84827f1467386656128e61dfa24679db",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/floor_base_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/floor_base_decoded.png",
+      "decoded_rgba_min": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "decoded_rgba_max": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "decoded_rgba_mean": [
+        0.0,
+        0.0,
+        0.0,
+        255.0
+      ]
+    },
+    "no_logo": {
+      "key": "local/venice_v3/no_logo",
+      "binary": "venice_v3_no_logo.560ac3bbecbf53bf.tld",
+      "format": "BC3_UNORM",
+      "size": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "all_mips_decoded": true,
+      "sha256": "560ac3bbecbf53bfe3b836d681b445ed59d876c93da8abeea456c4706e48e5ca",
+      "source_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/no_logo_source.png",
+      "decoded_png": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures/no_logo_decoded.png",
+      "decoded_rgba_min": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "decoded_rgba_max": [
+        255,
+        255,
+        255,
+        0
+      ],
+      "decoded_rgba_mean": [
+        255.0,
+        255.0,
+        255.0,
+        0.0
+      ]
+    }
+  },
+  "source_assets": [
+    {
+      "asset": "concrete_floor_02",
+      "map": "Diffuse",
+      "resolution": "4k",
+      "file": "concrete_floor_02_diff_4k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/concrete_floor_02/concrete_floor_02_diff_4k.jpg",
+      "bytes": 12425225,
+      "md5": "48169d69989257ba6ab15dec3e2a7c62",
+      "sha256": "a583f2b42e921e9e85be823cc5fd59e32ab4a94a7866e196287e6651d12187d5",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_02"
+    },
+    {
+      "asset": "concrete_floor_02",
+      "map": "nor_dx",
+      "resolution": "2k",
+      "file": "concrete_floor_02_nor_dx_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_02/concrete_floor_02_nor_dx_2k.jpg",
+      "bytes": 949083,
+      "md5": "b59b52b480577e6f20986d3660342696",
+      "sha256": "cc98ba150ecea05dbcc9708ec825d841dd69a9af311a66bed3c31f6d60173535",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_02"
+    },
+    {
+      "asset": "concrete_floor_02",
+      "map": "Rough",
+      "resolution": "2k",
+      "file": "concrete_floor_02_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_02/concrete_floor_02_rough_2k.jpg",
+      "bytes": 1417673,
+      "md5": "63b266940d40787b56822b7882819711",
+      "sha256": "cb539b0f8fdc8c63241683e01c923eb040fa701ec4c60cff27b674294746ae67",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/concrete_floor_02"
+    },
+    {
+      "asset": "leafy_grass",
+      "map": "Diffuse",
+      "resolution": "2k",
+      "file": "leafy_grass_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leafy_grass/leafy_grass_diff_2k.jpg",
+      "bytes": 4766204,
+      "md5": "8014f4dace676a62ed71b3dd76119dae",
+      "sha256": "8e1c6d21365d4b89bc5a35ab664da98a78dbc3ab9ba6100474881c8619a5b113",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/leafy_grass"
+    },
+    {
+      "asset": "leafy_grass",
+      "map": "nor_dx",
+      "resolution": "2k",
+      "file": "leafy_grass_nor_dx_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leafy_grass/leafy_grass_nor_dx_2k.jpg",
+      "bytes": 6049495,
+      "md5": "82936efe4dd20543414cb55d47a9f53c",
+      "sha256": "6ad4b29842cb68dd4ccadeaa14f76cc52e7717eded3bac41e537a166be07356b",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/leafy_grass"
+    },
+    {
+      "asset": "leafy_grass",
+      "map": "Rough",
+      "resolution": "2k",
+      "file": "leafy_grass_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/leafy_grass/leafy_grass_rough_2k.jpg",
+      "bytes": 2274652,
+      "md5": "b5c551ed91162aab5afbfb03b73ae3f5",
+      "sha256": "34e1733bf4064b6950a575ff57e78c8b7ff71b63749eb48a49221bd65de6fb4f",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/leafy_grass"
+    },
+    {
+      "asset": "palm_tree_bark",
+      "map": "Diffuse",
+      "resolution": "2k",
+      "file": "palm_tree_bark_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/palm_tree_bark/palm_tree_bark_diff_2k.jpg",
+      "bytes": 7622678,
+      "md5": "ce6ccdf926d67e1b1c629917635ae187",
+      "sha256": "808b70b2b1f94d292b689e71ca761b99e2c1593706883495c041b6bf36b6bab4",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/palm_tree_bark"
+    },
+    {
+      "asset": "palm_tree_bark",
+      "map": "nor_dx",
+      "resolution": "2k",
+      "file": "palm_tree_bark_nor_dx_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/palm_tree_bark/palm_tree_bark_nor_dx_2k.jpg",
+      "bytes": 6833446,
+      "md5": "fc89663390a12bb6a1e1ae195244f6fd",
+      "sha256": "ce3eeca1617e23851dfd86e541ed0f1fdf2d88bc526efa7fd0f35cf8e9ef58f0",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/palm_tree_bark"
+    },
+    {
+      "asset": "palm_tree_bark",
+      "map": "Rough",
+      "resolution": "2k",
+      "file": "palm_tree_bark_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/palm_tree_bark/palm_tree_bark_rough_2k.jpg",
+      "bytes": 5158632,
+      "md5": "b01ee4549efc1f93d0c83ae9e5ba67a4",
+      "sha256": "25b7b82a0218df0a3b778004855cf217665fc8b4e6874800819c296907fe7b23",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/palm_tree_bark"
+    },
+    {
+      "asset": "coast_sand_01",
+      "map": "Diffuse",
+      "resolution": "2k",
+      "file": "coast_sand_01_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/coast_sand_01/coast_sand_01_diff_2k.jpg",
+      "bytes": 3552676,
+      "md5": "bde59bb3bcdd8d4e9d6fcadc19f038fa",
+      "sha256": "e1c37ea8b4282fda612b0584d864ca4eef2da28c2fa9f3930cad9209414eb979",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/coast_sand_01"
+    },
+    {
+      "asset": "coast_sand_01",
+      "map": "nor_dx",
+      "resolution": "1k",
+      "file": "coast_sand_01_nor_dx_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_nor_dx_1k.jpg",
+      "bytes": 1146315,
+      "md5": "2e06aa55a1be8992fd43b31a1b1cb5e7",
+      "sha256": "8b34a218c1422bff76b434fa4f8af915b87c9c1141e25b4a895dd42575b67121",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/coast_sand_01"
+    },
+    {
+      "asset": "coast_sand_01",
+      "map": "Rough",
+      "resolution": "1k",
+      "file": "coast_sand_01_rough_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/coast_sand_01/coast_sand_01_rough_1k.jpg",
+      "bytes": 383892,
+      "md5": "978aca9e374cf988095392a91d3a4f71",
+      "sha256": "cbc3e0bf2214e04318a643c9dc81f50f33cc5f7b935a20016c5d9efd9a6d1696",
+      "license": "CC0-1.0",
+      "source": "https://polyhaven.com/a/coast_sand_01"
+    }
+  ],
+  "floor_materials_changed": [
+    "floor_clutchtime_court:area_1_mat",
+    "floor_clutchtime_court:floor_line_mat",
+    "floor_clutchtime_court:floor_line_mat1"
+  ],
+  "surface_materials_changed": [
+    "clutchtime_floor_apron:floor_mat",
+    "clutchtime_balcony_b:balcony_mat",
+    "clutchtime_balcony_b:balcony2_amt",
+    "clutchtime_balcony_b:balcony4_mat",
+    "clutchtime_stair_3step:steps_mat",
+    "clutchtime_balcony_railing:railing_mat",
+    "clutchtime_crowd_seating:chair"
+  ],
+  "floor_shader_channels": {
+    "RG": "subdued DirectX normal XY",
+    "B": "roughness",
+    "A": "strictly positive reflection gain",
+    "BaseR": 0
+  },
+  "floor_decoded_roughness_range": [
+    0.9372549019607843,
+    0.9686274509803922
+  ],
+  "floor_decoded_reflection_gain_range": [
+    0.058823529411764705,
+    0.058823529411764705
+  ],
+  "generic_shader_channels": {
+    "RG": "normal XY",
+    "B": "zero; unused by verified Default PS",
+    "A": "roughness"
+  },
+  "floor_uv_sampling": "Original TEXCOORD2 through script-derived affine; donor DetailMaterialScale/Offset preserved, physical tile size not inferred",
+  "scan_resolution_policy": "Original diffuse and normal source dimensions; max_size is an explicit test-only override",
+  "concrete_color_profiles": {
+    "court_concrete": {
+      "target_rgb": [
+        90,
+        94,
+        96
+      ],
+      "detail_contrast": 0.32
+    },
+    "concrete": {
+      "target_rgb": [
+        158,
+        154,
+        142
+      ],
+      "detail_contrast": 0.4
+    }
+  },
+  "original_binary_files_modified": false,
+  "game_runtime_verified": false,
+  "output_dir": "/Users/mingbowang/Documents/ChatGPT/3d model/nba2k-arena/build/revision3/textures"
+}

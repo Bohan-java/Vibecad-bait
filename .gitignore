@@ -3,3 +3,12 @@ __pycache__/
 .venv/
 .env
 .env.*
+# Revision 3 ships losslessly in its outer ZIP; native IFFs regenerate locally.
+nba2k-arena/output/revision3/*.iff
+nba2k-arena/output/revision3/*.tmp
+# Intermediate encoded textures are also embedded in the delivered IFF.
+nba2k-arena/build/revision3/textures/*.tld
+nba2k-arena/build/revision3/textures/*_source.png
+nba2k-arena/build/revision3/textures/*_decoded.png
+# The inspection viewer is regenerated from the delivered archive.
+nba2k-arena/build/revision3/preview/

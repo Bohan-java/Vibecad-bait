@@ -1,15 +1,24 @@
 # Vibecad-bait
 
-NBA 2K26 海边室外篮球场 MOD。以现有 donor 保持球场尺寸、篮筐位置、碰撞及玩法锚点，逐步修正标线、树木和室外环境。
+NBA 2K26 海边室外篮球场 MOD。五张照片作为同一个球场的综合参考，忽略人物；标准篮球标线、深灰哑光水泥、草坪台阶、金属看台与棕榈树共同组成一个开放场景。
 
-当前版本入口：[Checkpoint 1：标线修正候选与诊断](nba2k-arena/docs/checkpoint1/CHECKPOINT_ZH.md)。
+当前入口：[Revision 3 交接与验证边界](nba2k-arena/docs/REVISION3_ZH.md)。
 
-- [候选 IFF 文件及校验信息](nba2k-arena/output/checkpoint1/line_fix/)
-- [逐段标线图](nba2k-arena/docs/checkpoint1/floor_layers.png)
-- [原标线透明遮罩核查](nba2k-arena/docs/checkpoint1/line_mask_findings.md)
-- [黑树诊断](nba2k-arena/docs/checkpoint1/palm_audit.md)
-- [原始交接报告，记录失败 V1/V2](nba2k-arena/handoff/HANDOFF_ZH.md)
+- [下载 Revision 3 完整压缩包](nba2k-arena/output/revision3/venice_court_revision3.zip)：包含同编号的两份 IFF 及校验信息。
+- [产物校验](nba2k-arena/output/revision3/validation.json)
+- [原始五图](nba2k-arena/textures/source/references/)、[AI 增强辅助图与来源记录](nba2k-arena/textures/source/references/enhanced/README.md)
+- [材料来源及原着色器通道依据](nba2k-arena/docs/revision3_materials.md)
+- [Checkpoint 1 用户实测反证](nba2k-arena/evidence/user_game_screenshot_checkpoint1_REJECTED.png)
+- [历史 V1/V2 交接](nba2k-arena/handoff/HANDOFF_ZH.md)
 
-Checkpoint 1 已通过静态资源与变更范围检查，尚未经过游戏实测。当前尚未完成中线／中圈、室外场景和黑树修复。
+Revision 3 是完整室外场景的待游戏验收候选。静态资源检查和导出几何预览不等于 NBA 2K 游戏画面验收。原 donor、历史输出、原场地与篮筐变换、碰撞和玩法锚点均保留。开发过程不会安装建模软件或写入游戏目录。
 
-开发只生成项目内文件，由用户自行放入游戏测试。原 donor 与历史 V1/V2 输出保留。
+构建依赖 Python 3、NumPy、Pillow（支持 DDS 编码）：
+
+```sh
+python3 nba2k-arena/scripts/build_revision3.py
+python3 -m unittest discover -s nba2k-arena/tests -v
+python3 nba2k-arena/scripts/revision3_preview.py --three-dir /path/to/three
+```
+
+IFF 内仍使用原生 ZIP_STORED 资源结构，分发 ZIP 仅做外层无损压缩；解压分发包后使用两份 IFF，不要再解开 IFF 本身。

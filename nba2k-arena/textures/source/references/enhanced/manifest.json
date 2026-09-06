@@ -1,0 +1,57 @@
+[
+  {
+    "view": 1,
+    "file": "arena_reference_01_ai_enhanced.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "8f9f674ddceca52a0de73e25be0b8d3336fb4db71add8b392bffabd736cec8fd",
+    "source": "../arena_reference_01.png",
+    "generated_details_are_not_measured_evidence": true
+  },
+  {
+    "view": 2,
+    "file": "arena_reference_02_ai_enhanced.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "863801c24f1563a188fcc18375092c78859942433cc291e13d77964e6815388d",
+    "source": "../arena_reference_02.png",
+    "generated_details_are_not_measured_evidence": true
+  },
+  {
+    "view": 3,
+    "file": "arena_reference_03_ai_enhanced.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "7e3f9a29fdfae1dc7239f614e2cc5437ed2e300c2586c40aa61fb28da149bab6",
+    "source": "../arena_reference_03.png",
+    "generated_details_are_not_measured_evidence": true
+  },
+  {
+    "view": 4,
+    "file": "arena_reference_04_ai_enhanced.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "eb508939efab555ba8436efb653164646fb92e68e3237121c8f1768d97f8807a",
+    "source": "../arena_reference_04.png",
+    "generated_details_are_not_measured_evidence": true
+  },
+  {
+    "view": 5,
+    "file": "arena_reference_05_ai_enhanced.png",
+    "size": [
+      1448,
+      1086
+    ],
+    "sha256": "51a557cfd898edff4f0978599cf4222f98252887bfd48b83140aa6c30d479735",
+    "source": "../arena_reference_05.png",
+    "generated_details_are_not_measured_evidence": true
+  }
+]

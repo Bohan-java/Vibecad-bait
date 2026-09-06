@@ -1,0 +1,45 @@
+{
+  "changed_original_archive_entries": [
+    "level.SCNE",
+    "level_floor_lightmaps.SCNE",
+    "crowd.SCNE"
+  ],
+  "all_original_binary_resources_byte_identical": true,
+  "original_objects_except_time_of_day_byte_equivalent": true,
+  "all_original_compiled_effects_unchanged": true,
+  "preserved_gameplay_archive_entries": [
+    "level_collisions.Coll",
+    "speedtree_collisions.Coll",
+    "baskets.SCNE",
+    "baskets_collisions.Coll",
+    "MAIN.Coll",
+    "crowd_seats_vertex.674a68d9eb68bc7a.bin",
+    "crowd.CrowdData"
+  ],
+  "visible_original_level_objects": [
+    "__floor00__"
+  ],
+  "all_hidden_geometry_zero_area_in_every_lod": true,
+  "all_new_index_ranges_and_stream_sizes_valid": true,
+  "duplicate_archive_names": 0,
+  "game_runtime_verified": false,
+  "game_directory_modified": false,
+  "artifacts": {
+    "arena_700_int.iff": {
+      "bytes": 143616742,
+      "sha256": "9bdb9f341d40cbdc22d0285ce456fca8234ee32bec1854011213ea78c9f5cc99"
+    },
+    "arena_700_int_floor.iff": {
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  },
+  "status": "STATIC_VALIDATED_GAME_UNTESTED",
+  "new_model_count": 19,
+  "palm_instances": 20,
+  "hidden_original_models": 66,
+  "hidden_original_instances": 791,
+  "five_views_of_same_court": true,
+  "people_recreated": false,
+  "required_game_test": "Load both same-slot IFF files and compare center line, enclosure removal, lit palms and matte dry concrete against the reference set."
+}
