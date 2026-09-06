@@ -1,0 +1,49 @@
+{
+  "status": "STATICALLY_VERIFIED_DIAGNOSTIC_GAME_UNTESTED",
+  "purpose": "Remove four-point draw and restore donor line alpha-mask references; not a complete standard-court fix.",
+  "base": "output/revision2/arena_700_int.iff",
+  "base_sha256": "5d74fdab31ee29e0fe888af10c7370efc329ecc76ceb72c2f1d3eb6aa92bd499",
+  "removed_draw": {
+    "Mesh": "line_four_point_lowShape",
+    "Start": 3642,
+    "Count": 1236,
+    "Material": "floor_clutchtime_court:floor_line_mat"
+  },
+  "restored_line_slots": {
+    "floor_clutchtime_court:floor_line_mat": {
+      "Pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line.png"
+    },
+    "floor_clutchtime_court:floor_line_mat1": {
+      "Pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line.png"
+    }
+  },
+  "shared_resource_dependency": "Original floor_line texture bytes are not bundled; the game must resolve its donor shared resource. Mask shape and runtime appearance are unverified.",
+  "preserved_game_scoring_logic": "Unchanged; hiding a visible line does not change scoring rules.",
+  "files": [
+    {
+      "path": "output/checkpoint1/line_fix/arena_700_int.iff",
+      "bytes": 48674919,
+      "sha256": "4a26e97e332a91799dc6083e680d46202aed6a7f3b86f2426f9bbf187b72f6f0"
+    },
+    {
+      "path": "output/checkpoint1/line_fix/arena_700_int_floor.iff",
+      "bytes": 445558,
+      "sha256": "5f23522f783614d1572dca4f904132659f0d9ad4bd266b8148cbaacd333cf2ce"
+    }
+  ],
+  "checks": {
+    "archive_entries_preserved": true,
+    "changed_archive_entries": [
+      "level.SCNE"
+    ],
+    "only_floor_primitive_list_and_two_line_albedo_slots_changed": true,
+    "donor_alpha_bearing_line_texture_references_restored": true,
+    "retained_absolute_index_ranges_and_materials_unchanged": true,
+    "vertex_and_index_buffers_unchanged": true,
+    "all_objects_baskets_collisions_lights_and_trees_unchanged": true,
+    "companion_floor_byte_identical_to_v2": true,
+    "retained_primitives": 11,
+    "free_throw_circle_start": 4878,
+    "game_runtime_verified": false
+  }
+}

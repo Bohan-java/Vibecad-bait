@@ -1,0 +1,257 @@
+{
+  "source": "donor/original/arena_020_int_original.iff",
+  "donor_sha256": "42865ecaf8dd923c4d901509263af3b242c00975f4284b917ba79ce8fbbced46",
+  "decoded_vertex_cache_sha256": "6aed1f28fdd729b52c415ba2a07245395299d0095fe7ba4b5c31216c7555af54",
+  "floor_model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+  "units": "Original donor coordinate units; no dimensional standard inferred.",
+  "vertices": 3231,
+  "indices": 9126,
+  "layers": [
+    {
+      "number": 0,
+      "label": "00  Base surface / apron extent",
+      "mesh": "NBA_full_court_floor_low1Shape",
+      "start": 0,
+      "count": 2010,
+      "triangles": 670,
+      "material": "floor_clutchtime_court:area_1_mat",
+      "actual_min": [
+        -975.3603515625,
+        0.0,
+        -1889.760009765625
+      ],
+      "actual_max": [
+        975.3603515625,
+        4.76837158203125e-07,
+        1889.760009765625
+      ],
+      "color": "#45545b"
+    },
+    {
+      "number": 1,
+      "label": "01  Sideline tabs",
+      "mesh": "line_tab_lowShape",
+      "start": 2010,
+      "count": 24,
+      "triangles": 8,
+      "material": "floor_clutchtime_court:floor_line_mat",
+      "actual_min": [
+        -764.5419921875,
+        0.0,
+        -586.738525390625
+      ],
+      "actual_max": [
+        764.5419921875,
+        0.0,
+        586.738525390625
+      ],
+      "color": "#ffdd78"
+    },
+    {
+      "number": 2,
+      "label": "02  Inner lane tabs",
+      "mesh": "line_tab_lane_inner_lowShape",
+      "start": 2034,
+      "count": 144,
+      "triangles": 48,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -203.2001953125,
+        0.0,
+        -1234.4599609375
+      ],
+      "actual_max": [
+        203.2001953125,
+        0.0,
+        1234.4599609375
+      ],
+      "color": "#cf9dff"
+    },
+    {
+      "number": 3,
+      "label": "03  Inner lane lines",
+      "mesh": "line_lane_inner_lowShape",
+      "start": 2178,
+      "count": 24,
+      "triangles": 8,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -190.552978515625,
+        0.0,
+        -1435.10205078125
+      ],
+      "actual_max": [
+        190.552001953125,
+        0.0,
+        1435.10205078125
+      ],
+      "color": "#ff90b0"
+    },
+    {
+      "number": 4,
+      "label": "04  Outer lane tabs",
+      "mesh": "line_tab_lane_lowShape",
+      "start": 2202,
+      "count": 96,
+      "triangles": 32,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -264.16162109375,
+        0.0,
+        -1226.81787109375
+      ],
+      "actual_max": [
+        264.16064453125,
+        0.0,
+        1226.81787109375
+      ],
+      "color": "#8de3e0"
+    },
+    {
+      "number": 5,
+      "label": "05  Lane / free-throw lines",
+      "mesh": "line_lane_free_throw_lowShape",
+      "start": 2298,
+      "count": 36,
+      "triangles": 12,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -251.4580078125,
+        0.0,
+        -1435.10205078125
+      ],
+      "actual_max": [
+        251.45703125,
+        0.0,
+        1435.10205078125
+      ],
+      "color": "#7dc6ff"
+    },
+    {
+      "number": 6,
+      "label": "06  Midcourt side stubs",
+      "mesh": "line_midcourt_side_lowShape",
+      "start": 2334,
+      "count": 12,
+      "triangles": 4,
+      "material": "floor_clutchtime_court:floor_line_mat",
+      "actual_min": [
+        -764.5419921875,
+        0.0,
+        -10.157556533813477
+      ],
+      "actual_max": [
+        764.5419921875,
+        0.0,
+        10.157556533813477
+      ],
+      "color": "#eea764"
+    },
+    {
+      "number": 7,
+      "label": "07  Three-point lines",
+      "mesh": "NBA_line_three_point_lowShape",
+      "start": 2346,
+      "count": 1296,
+      "triangles": 432,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -678.1796875,
+        0.0,
+        -1435.124755859375
+      ],
+      "actual_max": [
+        678.1787109375,
+        0.0,
+        1435.124755859375
+      ],
+      "color": "#ffffff"
+    },
+    {
+      "number": 8,
+      "label": "08  FOUR-POINT LINES",
+      "mesh": "line_four_point_lowShape",
+      "start": 3642,
+      "count": 1236,
+      "triangles": 412,
+      "material": "floor_clutchtime_court:floor_line_mat",
+      "actual_min": [
+        -764.7863159179688,
+        0.0,
+        -924.23876953125
+      ],
+      "actual_max": [
+        764.785888671875,
+        0.0,
+        924.2388916015625
+      ],
+      "color": "#ff645e"
+    },
+    {
+      "number": 9,
+      "label": "09  Free-throw circles",
+      "mesh": "line_free_throw_circle_lowShape",
+      "start": 4878,
+      "count": 2808,
+      "triangles": 936,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -190.552978515625,
+        0.0,
+        -1043.9927978515625
+      ],
+      "actual_max": [
+        190.552001953125,
+        0.0,
+        1043.9927978515625
+      ],
+      "color": "#d3e882"
+    },
+    {
+      "number": 10,
+      "label": "10  Restricted-area arcs",
+      "mesh": "line_charge_circle_lowShape",
+      "start": 7686,
+      "count": 1416,
+      "triangles": 472,
+      "material": "floor_clutchtime_court:floor_line_mat1",
+      "actual_min": [
+        -134.6181640625,
+        0.0,
+        -1310.6806640625
+      ],
+      "actual_max": [
+        134.6171875,
+        0.0,
+        1310.6806640625
+      ],
+      "color": "#65d9a6"
+    },
+    {
+      "number": 11,
+      "label": "11  Sidelines / baselines",
+      "mesh": "line_side_base_lowShape",
+      "start": 9102,
+      "count": 24,
+      "triangles": 8,
+      "material": "floor_clutchtime_court:floor_line_mat",
+      "actual_min": [
+        -774.6995239257812,
+        0.0,
+        -1445.2576904296875
+      ],
+      "actual_max": [
+        774.7090454101562,
+        0.0,
+        1445.2576904296875
+      ],
+      "color": "#cbd5e1"
+    }
+  ],
+  "interpretation": [
+    "The model extent includes out-of-bounds surface. It is not the playing rectangle.",
+    "Four-point arcs are a distinct donor primitive (08), independent of an extra floor package.",
+    "The midcourt primitive (06) contains side stubs, not a continuous center line/circle.",
+    "This top-down triangle audit is not a rendered or in-game preview."
+  ]
+}

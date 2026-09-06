@@ -1,0 +1,968 @@
+{
+  "schema_version": 1,
+  "status": "DIAGNOSTIC_ONLY_GAME_VISUALS_UNVERIFIED",
+  "inputs": {
+    "donor": {
+      "path": "donor/original/arena_020_int_original.iff",
+      "sha256": "42865ecaf8dd923c4d901509263af3b242c00975f4284b917ba79ce8fbbced46"
+    },
+    "revision2": {
+      "path": "output/revision2/arena_700_int.iff",
+      "sha256": "5d74fdab31ee29e0fe888af10c7370efc329ecc76ceb72c2f1d3eb6aa92bd499"
+    }
+  },
+  "sampling": {
+    "sample_count": 1042,
+    "sampled_models": [
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@ceiling@clutchtime_ceiling_c:clutchtime_ceiling_c_low",
+        "samples": 61,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@doors@electrical_switch_double_1:light_switch_double_low",
+        "samples": 62,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@ceiling_panelslights@clutchtime_ceilingpanellight_b_4:clutchtime_ceilingpanellight_b_low",
+        "samples": 104,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@scorecube@clutchtime_scorecube_screensupport:clutchtime_scorecube_screensupport_low",
+        "samples": 61,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@walls@clutchtime_wall_b:clutchtime_wall_b_low",
+        "samples": 176,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@mural_lights@light_stage_spotlight_1:light_stage_spotlight_low",
+        "samples": 76,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@walls@clutchtime_wall_a:clutchtime_wall_a_low",
+        "samples": 176,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@ceiling_panelslights@clutchtime_ceilingpanellight_d_0:clutchtime_ceilingpanellight_d_low",
+        "samples": 104,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@walls@clutchtime_wall_corner_2:clutchtime_wall_corner_low",
+        "samples": 4,
+        "primitives_with_different_start": 0
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@clutchtime_mural_wall:clutchtime_mural_wall_low",
+        "samples": 218,
+        "primitives_with_different_start": 0
+      }
+    ],
+    "unique_opaque_frame_values": 335,
+    "cumulative_start_sample_count": 1042,
+    "cumulative_start_same_normals": true,
+    "cumulative_start_same_frames": true,
+    "cumulative_start_same_model_sequence": true,
+    "revision2_sampler_matches_donor": true,
+    "legacy_sampler_independently_reproduced": true,
+    "donor_nonzero_implicit_starts": [
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 1,
+        "legacy_start": 0,
+        "cumulative_start": 2010,
+        "count": 24,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 2,
+        "legacy_start": 0,
+        "cumulative_start": 2034,
+        "count": 144,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 3,
+        "legacy_start": 0,
+        "cumulative_start": 2178,
+        "count": 24,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 4,
+        "legacy_start": 0,
+        "cumulative_start": 2202,
+        "count": 96,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 5,
+        "legacy_start": 0,
+        "cumulative_start": 2298,
+        "count": 36,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 6,
+        "legacy_start": 0,
+        "cumulative_start": 2334,
+        "count": 12,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 7,
+        "legacy_start": 0,
+        "cumulative_start": 2346,
+        "count": 1296,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 8,
+        "legacy_start": 0,
+        "cumulative_start": 3642,
+        "count": 1236,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 9,
+        "legacy_start": 0,
+        "cumulative_start": 4878,
+        "count": 2808,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 10,
+        "legacy_start": 0,
+        "cumulative_start": 7686,
+        "count": 1416,
+        "position_format": "R32G32B32_FLOAT"
+      },
+      {
+        "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+        "primitive": 11,
+        "legacy_start": 0,
+        "cumulative_start": 9102,
+        "count": 24,
+        "position_format": "R32G32B32_FLOAT"
+      }
+    ]
+  },
+  "palms": [
+    {
+      "model": "venice_v2:palm_model_0",
+      "vertices": 24216,
+      "triangles": 8072,
+      "built_frames_match_legacy_generated_selection": false,
+      "frame_mismatches": 57,
+      "all_built_frames_near_best_source_normal": true,
+      "max_dot_gap_from_best": 1.1102230246251565e-16,
+      "faces_with_multiple_frame_candidates_near_best": 377,
+      "near_best_dot_tolerance": 1e-12,
+      "unique_opaque_frame_values": 237,
+      "max_position_quantization_error": 0.010286989580606587,
+      "source_face_normal_match_error_degrees": {
+        "min": 0.18219756742161522,
+        "median": 7.793814613138709,
+        "p95": 16.589020029406893,
+        "max": 22.924638473016955
+      },
+      "uv": {
+        "TEXCOORD0": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD1": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD2": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD3": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            0,
+            0
+          ],
+          "unique_coordinates": 1,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            0.0,
+            0.0
+          ],
+          "all_raw_zero": true
+        },
+        "TEXCOORD7": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            0,
+            0
+          ],
+          "unique_coordinates": 1,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            0.0,
+            0.0
+          ],
+          "all_raw_zero": true
+        }
+      },
+      "duv_keys": []
+    },
+    {
+      "model": "venice_v2:palm_model_1",
+      "vertices": 24216,
+      "triangles": 8072,
+      "built_frames_match_legacy_generated_selection": false,
+      "frame_mismatches": 93,
+      "all_built_frames_near_best_source_normal": true,
+      "max_dot_gap_from_best": 1.1102230246251565e-16,
+      "faces_with_multiple_frame_candidates_near_best": 333,
+      "near_best_dot_tolerance": 1e-12,
+      "unique_opaque_frame_values": 233,
+      "max_position_quantization_error": 0.011603090577409603,
+      "source_face_normal_match_error_degrees": {
+        "min": 0.0030131690824232995,
+        "median": 7.7797300515952585,
+        "p95": 16.396524642949554,
+        "max": 23.64783820081429
+      },
+      "uv": {
+        "TEXCOORD0": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD1": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD2": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD3": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            0,
+            0
+          ],
+          "unique_coordinates": 1,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            0.0,
+            0.0
+          ],
+          "all_raw_zero": true
+        },
+        "TEXCOORD7": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            0,
+            0
+          ],
+          "unique_coordinates": 1,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            0.0,
+            0.0
+          ],
+          "all_raw_zero": true
+        }
+      },
+      "duv_keys": []
+    },
+    {
+      "model": "venice_v2:palm_model_2",
+      "vertices": 24216,
+      "triangles": 8072,
+      "built_frames_match_legacy_generated_selection": false,
+      "frame_mismatches": 72,
+      "all_built_frames_near_best_source_normal": true,
+      "max_dot_gap_from_best": 1.1102230246251565e-16,
+      "faces_with_multiple_frame_candidates_near_best": 366,
+      "near_best_dot_tolerance": 1e-12,
+      "unique_opaque_frame_values": 229,
+      "max_position_quantization_error": 0.009434486480699888,
+      "source_face_normal_match_error_degrees": {
+        "min": 0.1561346533203039,
+        "median": 7.7507568784762,
+        "p95": 16.44429938323681,
+        "max": 23.086400225879256
+      },
+      "uv": {
+        "TEXCOORD0": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD1": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD2": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            32767,
+            32767
+          ],
+          "unique_coordinates": 3,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            1.0,
+            1.0
+          ],
+          "all_raw_zero": false
+        },
+        "TEXCOORD3": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            0,
+            0
+          ],
+          "unique_coordinates": 1,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            0.0,
+            0.0
+          ],
+          "all_raw_zero": true
+        },
+        "TEXCOORD7": {
+          "raw_min": [
+            0,
+            0
+          ],
+          "raw_max": [
+            0,
+            0
+          ],
+          "unique_coordinates": 1,
+          "decoded_min": [
+            0.0,
+            0.0
+          ],
+          "decoded_max": [
+            0.0,
+            0.0
+          ],
+          "all_raw_zero": true
+        }
+      },
+      "duv_keys": []
+    }
+  ],
+  "apron_template": {
+    "model": "arena_clutchtime_int_master@GameObjects@apron@clutchtime_floor_apron:clutchtime_floor_apron_low",
+    "uv": {
+      "TEXCOORD0": {
+        "raw_min": [
+          -32768,
+          -32768
+        ],
+        "raw_max": [
+          32767,
+          32767
+        ],
+        "unique_coordinates": 16,
+        "decoded_min": [
+          0.0009891389999999722,
+          0.0009917909999999641
+        ],
+        "decoded_max": [
+          0.826635361,
+          0.999023467
+        ],
+        "all_raw_zero": false
+      },
+      "TEXCOORD1": {
+        "raw_min": [
+          -32768,
+          -32768
+        ],
+        "raw_max": [
+          32767,
+          32767
+        ],
+        "unique_coordinates": 16,
+        "decoded_min": [
+          0.015637219000000036,
+          0.015639782000000046
+        ],
+        "decoded_max": [
+          0.817047239,
+          0.984375
+        ],
+        "all_raw_zero": false
+      },
+      "TEXCOORD2": {
+        "raw_min": [
+          -32768,
+          -32768
+        ],
+        "raw_max": [
+          32767,
+          32767
+        ],
+        "unique_coordinates": 16,
+        "decoded_min": [
+          -41.337106692999996,
+          -49.968025708
+        ],
+        "decoded_max": [
+          42.165998507,
+          50.969565892000006
+        ],
+        "all_raw_zero": false
+      },
+      "TEXCOORD3": {
+        "raw_min": [
+          0,
+          0
+        ],
+        "raw_max": [
+          0,
+          0
+        ],
+        "unique_coordinates": 1,
+        "decoded_min": [
+          0.0,
+          0.0
+        ],
+        "decoded_max": [
+          0.0,
+          0.0
+        ],
+        "all_raw_zero": true
+      },
+      "TEXCOORD7": {
+        "raw_min": [
+          -32768,
+          -32768
+        ],
+        "raw_max": [
+          32767,
+          32767
+        ],
+        "unique_coordinates": 16,
+        "decoded_min": [
+          0.0005215409999999865,
+          0.0004760619999999993
+        ],
+        "decoded_max": [
+          0.46810701499999996,
+          0.5149813299999999
+        ],
+        "all_raw_zero": false
+      }
+    },
+    "duv_keys": [
+      "Duv0",
+      "Duv1",
+      "Duv2",
+      "Duv7"
+    ],
+    "object_userdata_present": {
+      "arena_clutchtime_int_master@GameObjects@apron@clutchtime_floor_apron:clutchtime_floor_apron_low": true
+    }
+  },
+  "palm_instances": 14,
+  "palm_instances_with_userdata": 0,
+  "original_lights_equal": true,
+  "original_effects_equal": true,
+  "materials": {
+    "materials": [
+      {
+        "material": "venice_v2:palm_trunk",
+        "effect": "layer_base_CLOD.fx#72407e286031da1b",
+        "effect_matches_apron": true,
+        "script_matches_apron": true,
+        "script_embedded": true,
+        "techniques_match_apron": true,
+        "normal_height": 0.0,
+        "alpha_style": "OPAQUE",
+        "resources": {
+          "AlbedoMap": {
+            "texture": "local/venice_v2/palm_trunk",
+            "binary": "venice_v2_palm_trunk.7d30c3cc72bbe9dd.tld",
+            "sha256": "7d30c3cc72bbe9dd121bcb2a103f11b639b1701df1398061d1f1b7c0f0503c2c",
+            "format": "BC1_UNORM",
+            "texel_usage": null,
+            "decoded_rgba_min": [
+              115,
+              109,
+              90,
+              255
+            ],
+            "decoded_rgba_max": [
+              115,
+              109,
+              90,
+              255
+            ],
+            "texcoord_declared_by_effect": 2
+          },
+          "NormalAndRoughMap": {
+            "texture": "local/venice_v2/surface_normal_rough",
+            "binary": "venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+            "sha256": "db15aef19e7f0af26a8629654ef8996208cef070be893756951dff13c70c66fc",
+            "format": "BC3_UNORM",
+            "texel_usage": "LINEAR",
+            "decoded_rgba_min": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "decoded_rgba_max": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "texcoord_declared_by_effect": 2
+          }
+        }
+      },
+      {
+        "material": "venice_v2:palm_leaf",
+        "effect": "layer_base_CLOD.fx#72407e286031da1b",
+        "effect_matches_apron": true,
+        "script_matches_apron": true,
+        "script_embedded": true,
+        "techniques_match_apron": true,
+        "normal_height": 0.0,
+        "alpha_style": "OPAQUE",
+        "resources": {
+          "AlbedoMap": {
+            "texture": "local/venice_v2/palm_leaf",
+            "binary": "venice_v2_palm_leaf.7615cd2690c0d9ec.tld",
+            "sha256": "7615cd2690c0d9eca53b0b7d0a9c8c90bb89fa8f154bb93b95e19f410b242bdd",
+            "format": "BC1_UNORM",
+            "texel_usage": null,
+            "decoded_rgba_min": [
+              66,
+              97,
+              41,
+              255
+            ],
+            "decoded_rgba_max": [
+              66,
+              97,
+              41,
+              255
+            ],
+            "texcoord_declared_by_effect": 2
+          },
+          "NormalAndRoughMap": {
+            "texture": "local/venice_v2/surface_normal_rough",
+            "binary": "venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+            "sha256": "db15aef19e7f0af26a8629654ef8996208cef070be893756951dff13c70c66fc",
+            "format": "BC3_UNORM",
+            "texel_usage": "LINEAR",
+            "decoded_rgba_min": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "decoded_rgba_max": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "texcoord_declared_by_effect": 2
+          }
+        }
+      },
+      {
+        "material": "venice_v2:palm_leaf_light",
+        "effect": "layer_base_CLOD.fx#72407e286031da1b",
+        "effect_matches_apron": true,
+        "script_matches_apron": true,
+        "script_embedded": true,
+        "techniques_match_apron": true,
+        "normal_height": 0.0,
+        "alpha_style": "OPAQUE",
+        "resources": {
+          "AlbedoMap": {
+            "texture": "local/venice_v2/palm_leaf_light",
+            "binary": "venice_v2_palm_leaf_light.0ea6190c147589b7.tld",
+            "sha256": "0ea6190c147589b7c2173bf49ea282383da95a05850c4e57853963219e38882b",
+            "format": "BC1_UNORM",
+            "texel_usage": null,
+            "decoded_rgba_min": [
+              107,
+              130,
+              57,
+              255
+            ],
+            "decoded_rgba_max": [
+              107,
+              130,
+              57,
+              255
+            ],
+            "texcoord_declared_by_effect": 2
+          },
+          "NormalAndRoughMap": {
+            "texture": "local/venice_v2/surface_normal_rough",
+            "binary": "venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+            "sha256": "db15aef19e7f0af26a8629654ef8996208cef070be893756951dff13c70c66fc",
+            "format": "BC3_UNORM",
+            "texel_usage": "LINEAR",
+            "decoded_rgba_min": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "decoded_rgba_max": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "texcoord_declared_by_effect": 2
+          }
+        }
+      },
+      {
+        "material": "venice_v2:palm_leaf_dark",
+        "effect": "layer_base_CLOD.fx#72407e286031da1b",
+        "effect_matches_apron": true,
+        "script_matches_apron": true,
+        "script_embedded": true,
+        "techniques_match_apron": true,
+        "normal_height": 0.0,
+        "alpha_style": "OPAQUE",
+        "resources": {
+          "AlbedoMap": {
+            "texture": "local/venice_v2/palm_leaf_dark",
+            "binary": "venice_v2_palm_leaf_dark.be81b7a64dbb5768.tld",
+            "sha256": "be81b7a64dbb5768f4dd97e96e48101d6c7b33ad6e52e53e1517e0b346de2849",
+            "format": "BC1_UNORM",
+            "texel_usage": null,
+            "decoded_rgba_min": [
+              33,
+              65,
+              24,
+              255
+            ],
+            "decoded_rgba_max": [
+              33,
+              65,
+              24,
+              255
+            ],
+            "texcoord_declared_by_effect": 2
+          },
+          "NormalAndRoughMap": {
+            "texture": "local/venice_v2/surface_normal_rough",
+            "binary": "venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+            "sha256": "db15aef19e7f0af26a8629654ef8996208cef070be893756951dff13c70c66fc",
+            "format": "BC3_UNORM",
+            "texel_usage": "LINEAR",
+            "decoded_rgba_min": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "decoded_rgba_max": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "texcoord_declared_by_effect": 2
+          }
+        }
+      },
+      {
+        "material": "venice_v2:palm_dead",
+        "effect": "layer_base_CLOD.fx#72407e286031da1b",
+        "effect_matches_apron": true,
+        "script_matches_apron": true,
+        "script_embedded": true,
+        "techniques_match_apron": true,
+        "normal_height": 0.0,
+        "alpha_style": "OPAQUE",
+        "resources": {
+          "AlbedoMap": {
+            "texture": "local/venice_v2/palm_dead",
+            "binary": "venice_v2_palm_dead.b0589f27c3f1f5be.tld",
+            "sha256": "b0589f27c3f1f5be041ee9c3dee1a3cfccb4c9bd87ecaba6d09c2b3bfb59a283",
+            "format": "BC1_UNORM",
+            "texel_usage": null,
+            "decoded_rgba_min": [
+              90,
+              77,
+              41,
+              255
+            ],
+            "decoded_rgba_max": [
+              90,
+              77,
+              41,
+              255
+            ],
+            "texcoord_declared_by_effect": 2
+          },
+          "NormalAndRoughMap": {
+            "texture": "local/venice_v2/surface_normal_rough",
+            "binary": "venice_v2_surface_normal_rough.db15aef19e7f0af2.tld",
+            "sha256": "db15aef19e7f0af26a8629654ef8996208cef070be893756951dff13c70c66fc",
+            "format": "BC3_UNORM",
+            "texel_usage": "LINEAR",
+            "decoded_rgba_min": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "decoded_rgba_max": [
+              132,
+              130,
+              0,
+              215
+            ],
+            "texcoord_declared_by_effect": 2
+          }
+        }
+      }
+    ],
+    "apron_effect_default_pass_vertex_inputs": {
+      "Default": [
+        "POSITION0",
+        "TANGENTFRAME0",
+        "TEXCOORD0",
+        "TEXCOORD1",
+        "TEXCOORD2",
+        "SV_INSTANCEID0",
+        "SV_VERTEXID0"
+      ],
+      "HiresLightmap": [
+        "POSITION0",
+        "TANGENTFRAME0",
+        "TEXCOORD0",
+        "TEXCOORD1",
+        "TEXCOORD2",
+        "TEXCOORD3",
+        "TEXCOORD7",
+        "SV_INSTANCEID0",
+        "SV_VERTEXID0"
+      ],
+      "LoresLightmap": [
+        "POSITION0",
+        "TANGENTFRAME0",
+        "TEXCOORD0",
+        "TEXCOORD1",
+        "TEXCOORD2",
+        "TEXCOORD3",
+        "TEXCOORD7",
+        "SV_INSTANCEID0",
+        "SV_VERTEXID0"
+      ],
+      "ReflectionLightmap": [
+        "POSITION0",
+        "TANGENTFRAME0",
+        "TEXCOORD0",
+        "TEXCOORD1",
+        "TEXCOORD2",
+        "TEXCOORD3",
+        "TEXCOORD7",
+        "SV_INSTANCEID0",
+        "SV_VERTEXID0"
+      ]
+    }
+  },
+  "limitations": [
+    "R10G10B10A2_UINT words are treated as opaque values. No decoded normal/tangent is claimed.",
+    "Reported angular errors compare geometric face normals with source face normals, not shader-decoded frames.",
+    "TEXCOORD7 collapse and missing Object.UserData/Duv are measured differences; runtime meaning and causality are unknown.",
+    "Static input analysis cannot establish the active lightmap technique or reproduce GPU/game lighting.",
+    "No current game installation, capture, or in-game visual test was performed."
+  ],
+  "source_archives_unchanged": true
+}
