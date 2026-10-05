@@ -1,0 +1,134 @@
+{
+  "revision": "R12",
+  "output": "E:\\CodexData\\2karena\\zgc-court\\output\\arena_700_int.iff",
+  "output_bytes": 1680739509,
+  "build_report_sha256": "b336e63c516da4b236543711a3e34c84b7a5552ea04b1077148281c47b52530a",
+  "sha256_not_recomputed": true,
+  "scope": "Independent final basket rig, all LODs, native glass and basket resource closure",
+  "game_tested": false,
+  "vertices": 10094,
+  "primitives": 26,
+  "lod_count": 12,
+  "index_count": 267126,
+  "native_rim_lods_exact": 12,
+  "native_position_and_frame_weight_prefix_exact": true,
+  "native_four_bones_six_objects_glass_rimr_preserved": true,
+  "bone_hierarchy": [
+    {
+      "index": 0,
+      "name": "basketpivot",
+      "parent": null,
+      "rest_pivot_cm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "index": 1,
+      "name": "basepivot",
+      "parent": 0,
+      "rest_pivot_cm": [
+        0.0,
+        11.9270229,
+        -349.21701
+      ]
+    },
+    {
+      "index": 2,
+      "name": "rimpivot",
+      "parent": 1,
+      "rest_pivot_cm": [
+        0.0,
+        304.76402889999997,
+        -0.691314000000034
+      ]
+    },
+    {
+      "index": 3,
+      "name": "netpivot",
+      "parent": 2,
+      "rest_pivot_cm": [
+        8.38209276e-13,
+        307.23773251999995,
+        38.100014399999964
+      ]
+    }
+  ],
+  "weight_schema": "R32_UINT low8=count-1; rigid high24=bone; mixed high24=matrix uint32 index; matrix high16=bone, low16=UNORM16 weight",
+  "new_weight_distribution": {
+    "root_rigid": 306,
+    "base_rigid": 3434,
+    "two_bone": 288
+  },
+  "mixed_weights_integer_sums_65535": true,
+  "moved_static_parts_absent": 42,
+  "fixed_base_static_parts_present": 24,
+  "complete_dedicated_outdoor_glass_contract_verified": true,
+  "presentation_pass_and_15_native_shader_script_bytes_exact": true,
+  "glass_textures": [
+    {
+      "slot": "Albedo",
+      "dds": "zgc_r10_glass_albedo.5f37c65b8b33aae3.dds",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mips": 10,
+      "decoded_rgba": [
+        66,
+        66,
+        66,
+        10
+      ],
+      "exact_texture_min_max_metadata": [
+        0.05448027644244237,
+        0.05448027644244237,
+        0.05448027644244237,
+        0.0392156862745098
+      ]
+    },
+    {
+      "slot": "RoughnessTexture",
+      "dds": "zgc_r10_glass_roughness.c3ba3b9c08797332.dds",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mips": 10,
+      "decoded_rgba": [
+        16,
+        16,
+        16,
+        255
+      ],
+      "exact_texture_min_max_metadata": [
+        0.06274509803921569,
+        0.06274509803921569,
+        0.06274509803921569,
+        1.0
+      ]
+    }
+  ],
+  "basket_binary_references_resolved": 383,
+  "synthetic_pose_from_factory": {
+    "fixed_lower_vertices": 174,
+    "upper_frame_vertices_follow_glass_bone1": 3302,
+    "mixed_column_vertices": 288,
+    "column_total_vertices_after_transition_splits": 900,
+    "trial_base_rotation_degrees": 1.25,
+    "trial_base_translation_cm": [
+      0.0,
+      -0.4,
+      0.3
+    ],
+    "fixed_foot_max_displacement_cm": 0.0,
+    "upper_frame_max_rigid_pose_error_cm": 0.0,
+    "glass_frame_separation_max_change_cm": 4.1300296516055823e-14,
+    "passed": true
+  },
+  "limits": [
+    "Actual replay glass and hanging motion remain untested in game.",
+    "Full package hash, CRC and D3D resource creation are separately recorded by the root builder."
+  ]
+}

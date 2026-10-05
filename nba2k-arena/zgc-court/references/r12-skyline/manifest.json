@@ -1,0 +1,230 @@
+{
+  "scope": "中关村ARTPARK大融城Chili’s旁固定篮球场内或紧邻餐厅处向远楼看",
+  "created_utc": "2026-10-04",
+  "source_novelty": "本包是既有两条实拍来源按“远楼与球场关系”重新选择；没有宣称是新发现视频或现场新拍照片。",
+  "continuity": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+  "image_integrity": "全部原图未补画、去水印、锐化或AI重建；总览仅缩小排版。",
+  "geographic_directions": "未核实罗盘方位，不用东南西北命名。",
+  "source_urls": [
+    "https://www.douyin.com/video/7642712639428136228",
+    "https://www.bilibili.com/video/BV1ExqpBsEo2/"
+  ],
+  "building_reference_urls": [
+    "https://www.visitbeijing.com.cn/article/47Qlycb5tXH",
+    "https://commons.wikimedia.org/wiki/File:New_Oriental_South_Building,_Zhongguancun_(20220429161338).jpg",
+    "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg",
+    "https://mall.zol.com.cn/picture_78.html",
+    "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg",
+    "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+  ],
+  "items": [
+    {
+      "file": "原始截图/01_场内看新中关_00-20.50.png",
+      "title": "新中关｜场内正对围网",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 20.5,
+      "timestamp": "00:20.500",
+      "observed": "场内，长边围网、A牌、黄黑地面同框；后方新中关红色竖向标识清楚。",
+      "building_label": "新中关",
+      "identification_confidence": "高：红色标识可读，立面/顶层与北京文旅参考图相符",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a",
+      "building_identity_reference_urls": [
+        "https://www.visitbeijing.com.cn/article/47Qlycb5tXH"
+      ]
+    },
+    {
+      "file": "原始截图/02_新中关与篮筐端_00-14.80.png",
+      "title": "新中关｜篮筐端斜向",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 14.8,
+      "timestamp": "00:14.800",
+      "observed": "球场内斜看围网和篮筐端，远楼与Chili’s所在低层建筑相对位置同框。",
+      "building_label": "新中关",
+      "identification_confidence": "高",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30",
+      "building_identity_reference_urls": [
+        "https://www.visitbeijing.com.cn/article/47Qlycb5tXH"
+      ]
+    },
+    {
+      "file": "原始截图/03_新东方字样楼与圆盘棚_00-11.40.png",
+      "title": "新东方大厦南楼｜圆盘棚侧",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 11.4,
+      "timestamp": "00:11.400",
+      "observed": "场内向圆盘棚侧看；围网与A牌为近景，圆盘棚在网外，楼上有可读的新东方字样。",
+      "building_label": "新东方大厦南楼",
+      "identification_confidence": "高：新东方字样与原始实景照片的楼顶台阶、竖向分格吻合",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031",
+      "building_identity_reference_urls": [
+        "https://commons.wikimedia.org/wiki/File:New_Oriental_South_Building,_Zhongguancun_(20220429161338).jpg"
+      ]
+    },
+    {
+      "file": "原始截图/04_篮筐侧蓝玻璃楼群_00-24.25.png",
+      "title": "互联网金融中心｜篮筐侧",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 24.25,
+      "timestamp": "00:24.250",
+      "observed": "场内宽角度，地面图案、篮筐、围栏、低层商场和后方数栋蓝玻璃楼同框。右侧为新东方大厦南楼，左侧大体量蓝玻璃楼为互联网金融中心（外形比对）。",
+      "building_label": "左侧蓝玻璃高楼：互联网金融中心",
+      "identification_confidence": "高：同一立面的楼顶开口、窗格及前景商场外观与CoWorkingHub实景图库吻合；属于外形比对",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046",
+      "building_identity_reference_urls": [
+        "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+      ]
+    },
+    {
+      "file": "原始截图/05_蓝玻璃楼群相邻角度_00-23.10.png",
+      "title": "互联网金融中心｜相邻角度",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 23.1,
+      "timestamp": "00:23.100",
+      "observed": "场内另一较靠边角度，Chili’s竖向牌、篮筐和网柱可锚定；补充蓝玻璃楼体及商场层次。与24.25秒之间有剪辑，不能合成为连续转镜。",
+      "building_label": "左侧蓝玻璃高楼：互联网金融中心",
+      "identification_confidence": "高：同一立面的楼顶开口、窗格及前景商场外观与CoWorkingHub实景图库吻合；属于外形比对",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f",
+      "building_identity_reference_urls": [
+        "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+      ]
+    },
+    {
+      "file": "原始截图/06_篮下看高蓝玻璃塔楼_00-28.85.png",
+      "title": "篮下反看｜中钢国际广场",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 28.85,
+      "timestamp": "00:28.850",
+      "observed": "近景篮板、篮圈、围网和A牌；中景圆盘棚；远处高玻璃塔楼。塔楼大部分轮廓可见。",
+      "building_label": "中钢国际广场",
+      "identification_confidence": "高：塔楼错层顶部、侧面轮廓及竖向玻璃立面与原始实景照片相符",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c",
+      "building_identity_reference_urls": [
+        "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg"
+      ]
+    },
+    {
+      "file": "原始截图/07_场内向开放广场看_00-19.20.png",
+      "title": "开放广场侧｜中钢＋疑似e世界",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 19.2,
+      "timestamp": "00:19.200",
+      "observed": "黄黑球场与边界在近处，开放广场及绿化在中间，左侧高玻璃塔楼、右侧较低弧形玻璃楼在后方；高楼屋顶被画面裁断。",
+      "building_label": "左：中钢国际广场；右：疑似中关村e世界",
+      "identification_confidence": "中钢：高；e世界：外形比对推断，标识未读清；不据透视图估算距离",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661",
+      "building_identity_reference_urls": [
+        "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg",
+        "https://mall.zol.com.cn/picture_78.html",
+        "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg"
+      ]
+    },
+    {
+      "file": "原始截图/08_露台回看远楼_10-20.421.jpg",
+      "title": "露台补充｜疑似中关村e世界",
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "timestamp_seconds": 620.421,
+      "timestamp": "10:20.421",
+      "observed": "从Chili’s外摆露台看向浅绿玻璃楼与更远的蓝面浅色楼。近景有Chili’s字样、雨棚、喷泉及桌椅；不冒充站在球场内拍摄。",
+      "building_label": "浅绿玻璃楼：疑似中关村e世界；远处蓝面浅色楼未核实",
+      "identification_confidence": "e世界为立面、屋顶轮廓比对推断，未读清楼名；不是场内视角",
+      "source_resolution": [
+        640,
+        360
+      ],
+      "file_resolution": [
+        1180,
+        757
+      ],
+      "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+      "sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+      "building_identity_reference_urls": [
+        "https://mall.zol.com.cn/picture_78.html",
+        "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg"
+      ]
+    },
+    {
+      "file": "原始截图/09_球场与Chilis通道定位_04-46.478.jpg",
+      "title": "定位补充｜球场旁的餐厅通道",
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "timestamp_seconds": 286.478,
+      "timestamp": "04:46.478",
+      "observed": "球场围网、篮筐、Chili’s弧面店角与鸡尾酒灯牌同框；用于证明露台所属餐厅紧邻目标球场，不是远楼主体照片。",
+      "building_label": "背景楼未确认",
+      "identification_confidence": "定位用，不用于远楼身份确认",
+      "source_resolution": [
+        640,
+        360
+      ],
+      "file_resolution": [
+        1180,
+        757
+      ],
+      "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+      "sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+      "building_identity_reference_urls": []
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "revision": "R13",
+  "status": "passed_http_resources",
+  "iff_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+  "build_id": "iff-9e9cd0f73b1c-40723c272b13",
+  "glb_sha256": "40723c272b13bd33aeb71d11613eb808f3e810a496836c32cc16357cfbacb6a2",
+  "texture_count": 272,
+  "verified_http_image_count": 272,
+  "failures": [],
+  "game_world_yaw_degrees": 180,
+  "browser_gpu_verified": false,
+  "note": "Actual local HTTP image bytes checked by SHA256; not a browser screenshot or game test."
+}

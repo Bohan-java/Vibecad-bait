@@ -1,0 +1,129 @@
+{
+  "revision": "R11",
+  "checked_at_utc": "2026-10-04T18:23:15.239521+00:00",
+  "status": "backend_and_actual_asset_checks_passed",
+  "url": "http://127.0.0.1:4173",
+  "native_build_id": "iff-9d20d9d30663-f3f97e12aa86",
+  "source_build_id": "20261004T181321653Z-120846de",
+  "iff_sha256": "9d20d9d30663d1e1e08dae1aa2fa9bba7a138b072082f9a2dadf28f1a044eb24",
+  "reference_count": 50,
+  "new_references": [
+    {
+      "path": "/references/40.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/41.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "/references/42.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/43.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/44.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/45.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/46.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/47.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/48.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/49.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "/references/50.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    }
+  ],
+  "chilis_camera_presets": {
+    "chilis": {
+      "position": [
+        -17.2,
+        2.9,
+        4.2
+      ],
+      "target": [
+        -21.08,
+        2.25,
+        4.2
+      ],
+      "fov": 76
+    },
+    "chilis_terrace": {
+      "position": [
+        -27.2,
+        3.9,
+        24.6
+      ],
+      "target": [
+        -28.1,
+        2.1,
+        16.9
+      ],
+      "fov": 59
+    },
+    "chilis_walk": {
+      "position": [
+        -17.3,
+        1.85,
+        9.8
+      ],
+      "target": [
+        -23.1,
+        1.8,
+        14.5
+      ],
+      "fov": 60
+    },
+    "chilis_detail": {
+      "position": [
+        -25.3,
+        2.65,
+        21.8
+      ],
+      "target": [
+        -28.1,
+        1.15,
+        18.5
+      ],
+      "fov": 54
+    }
+  },
+  "browser_render_checked_this_round": false,
+  "browser_automation_limitation": "Browser runtime setup refers to a missing plugin browser-service.mjs; no browser screenshot or WebGL success claimed. Actual decoded GLB is independently rendered in Blender.",
+  "game_verified": false,
+  "actual_iff_offline_render_report": "validation/current-chilis-native-render.json",
+  "actual_iff_offline_view_count": 4,
+  "actual_iff_import_bounds_error_m": 0.0,
+  "effective_entry_fov_degrees": 90,
+  "entry_fov_note": "Frontend chooseView uses 90 degrees after actual-IFF framing inspection; source config camera remains the archived export input."
+}

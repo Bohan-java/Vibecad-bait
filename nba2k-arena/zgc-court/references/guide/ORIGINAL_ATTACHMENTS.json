@@ -1,0 +1,17 @@
+{
+  "source": "User-provided draft: NBA2K26 球场制作指南（Word + PDF）",
+  "items": [
+    {
+      "attachment": "NBA2K26_Chilis_球场制作指南.docx",
+      "project_path": "references/guide/NBA2K26_Chilis_Guide.docx",
+      "bytes": 145019,
+      "sha256": "fe26d76aad6616bbcab601011b9ad2414f56c045a092193f823cb0c65f617008"
+    },
+    {
+      "attachment": "NBA2K26_Chilis_球场制作指南.pdf",
+      "project_path": "references/guide/NBA2K26_Chilis_球场制作指南.pdf",
+      "bytes": 960843,
+      "sha256": "a2e143527ecd3e7ba98ac5170f28057fac33d325cbc82e9f297b783dc566fd0a"
+    }
+  ]
+}

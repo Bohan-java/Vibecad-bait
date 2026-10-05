@@ -1,54 +1,12 @@
-__pycache__/
-*.pyc
-.venv/
-.env
-.env.*
-# Revision 3 ships losslessly in its outer ZIP; native IFFs regenerate locally.
-nba2k-arena/output/revision3/*.iff
-nba2k-arena/output/revision3/*.tmp
-# Intermediate encoded textures are also embedded in the delivered IFF.
-nba2k-arena/build/revision3/textures/*.tld
-nba2k-arena/build/revision3/textures/*_source.png
-nba2k-arena/build/revision3/textures/*_decoded.png
-# The inspection viewer is regenerated from the delivered archive.
-nba2k-arena/build/revision3/preview/
-# Revision 4 has a separate lossless shipping ZIP and regenerated inspection files.
-nba2k-arena/output/revision4/*.iff
-nba2k-arena/output/revision4/*.tmp
-nba2k-arena/build/revision4/*.iff
-nba2k-arena/build/revision4/preview/
-# Revision 5 keeps the shipping ZIP; geometry/texture inspection caches regenerate.
-nba2k-arena/output/revision5/*.iff
-nba2k-arena/output/revision5/*.tmp
-nba2k-arena/build/revision5/*.iff
-nba2k-arena/build/revision5/*.npz
-nba2k-arena/build/revision5/paint/*.npz
-nba2k-arena/build/revision5/paint/textures/*.tld
-nba2k-arena/build/revision5/paint/textures/*_source.png
-nba2k-arena/build/revision5/paint/textures/*_decoded.png
-nba2k-arena/build/revision5/preview/
-# Revision 6: retain the shipping ZIP and audits, regenerate native/preview caches.
-nba2k-arena/output/revision6/*.iff
-nba2k-arena/output/revision6/*.tmp
-nba2k-arena/build/revision6/*.iff
-nba2k-arena/build/revision6/preview/
-nba2k-arena/build/revision6/building/*.npz
-nba2k-arena/build/revision6/building/textures/*.tld
-nba2k-arena/build/revision6/building/textures/*_source.png
-nba2k-arena/build/revision6/building/textures/*_decoded.png
-# Revision 7 ships the repair package; native IFFs remain local build products.
-nba2k-arena/output/revision7/*.iff
-nba2k-arena/output/revision7/*.tmp
-nba2k-arena/build/revision7/runtime_repair_*/
-nba2k-arena/output/revision7_1/*.iff
-nba2k-arena/build/revision7_1/exposure_rollback_*/
-nba2k-arena/output/revision7_2/*.iff
-nba2k-arena/build/revision7_2/native_lights_*/
-# User-supplied working reference and local recovery artifacts.
-nba2k-arena/build/recovery011/source/
-nba2k-arena/output/revision7_3/*.iff
-nba2k-arena/build/revision7_3/stage_*/
-nba2k-arena/output/.DS_Store
-nba2k-arena/output/recovery_base/*.iff
-nba2k-arena/output/recovery_floor_step1/*.iff
-nba2k-arena/output/recovery_floor_step1/stage_*/
+**/.preview-runtime/
+**/.build-staging/
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/.venv/
+**/.env
+**/.env.*
+**/*.blend1
+**/*.pending
+**/*.tmp
+.auth/

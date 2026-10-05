@@ -1,0 +1,702 @@
+{
+  "revision": "R12",
+  "status": "geometry_and_spacing_verified",
+  "objects": [
+    "R12 right bench frames",
+    "R12 right bench pads",
+    "R12 right bench feet",
+    "R12 right bench hardware"
+  ],
+  "chairs": [
+    {
+      "marker": "NBAHOMEHEADCOACH",
+      "team": "HOME",
+      "role": "HEADCOACH",
+      "source_position_m": [
+        -0.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -78.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH1",
+      "team": "HOME",
+      "role": "ASSTCOACH1",
+      "source_position_m": [
+        -1.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -138.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH2",
+      "team": "HOME",
+      "role": "ASSTCOACH2",
+      "source_position_m": [
+        -1.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -198.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH3",
+      "team": "HOME",
+      "role": "ASSTCOACH3",
+      "source_position_m": [
+        -2.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -258.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER1",
+      "team": "HOME",
+      "role": "PLAYER1",
+      "source_position_m": [
+        -3.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -318.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER2",
+      "team": "HOME",
+      "role": "PLAYER2",
+      "source_position_m": [
+        -3.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -378.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER3",
+      "team": "HOME",
+      "role": "PLAYER3",
+      "source_position_m": [
+        -4.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -438.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER4",
+      "team": "HOME",
+      "role": "PLAYER4",
+      "source_position_m": [
+        -4.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -498.00000000000006
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER5",
+      "team": "HOME",
+      "role": "PLAYER5",
+      "source_position_m": [
+        -5.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -558.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER6",
+      "team": "HOME",
+      "role": "PLAYER6",
+      "source_position_m": [
+        -6.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -618.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER7",
+      "team": "HOME",
+      "role": "PLAYER7",
+      "source_position_m": [
+        -6.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -678.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER8",
+      "team": "HOME",
+      "role": "PLAYER8",
+      "source_position_m": [
+        -7.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -738.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYERDEVCOACH",
+      "team": "HOME",
+      "role": "PLAYERDEVCOACH",
+      "source_position_m": [
+        -7.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -798.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH4",
+      "team": "HOME",
+      "role": "ASSTCOACH4",
+      "source_position_m": [
+        -8.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -858.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH5",
+      "team": "HOME",
+      "role": "ASSTCOACH5",
+      "source_position_m": [
+        -9.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -918.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH6",
+      "team": "HOME",
+      "role": "ASSTCOACH6",
+      "source_position_m": [
+        -9.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -977.9999999999999
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH7",
+      "team": "HOME",
+      "role": "ASSTCOACH7",
+      "source_position_m": [
+        -10.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -1038.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH8",
+      "team": "HOME",
+      "role": "ASSTCOACH8",
+      "source_position_m": [
+        -10.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -1098.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH9",
+      "team": "HOME",
+      "role": "ASSTCOACH9",
+      "source_position_m": [
+        -11.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -1158.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEHEADPHYSIO",
+      "team": "HOME",
+      "role": "HEADPHYSIO",
+      "source_position_m": [
+        -12.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -1218.0
+      ]
+    },
+    {
+      "marker": "NBAHOMETRAINER1",
+      "team": "HOME",
+      "role": "TRAINER1",
+      "source_position_m": [
+        -12.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -1278.0
+      ]
+    },
+    {
+      "marker": "NBAHOMETRAINER2",
+      "team": "HOME",
+      "role": "TRAINER2",
+      "source_position_m": [
+        -13.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        -1338.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYHEADCOACH",
+      "team": "AWAY",
+      "role": "HEADCOACH",
+      "source_position_m": [
+        0.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        78.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH1",
+      "team": "AWAY",
+      "role": "ASSTCOACH1",
+      "source_position_m": [
+        1.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        138.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH2",
+      "team": "AWAY",
+      "role": "ASSTCOACH2",
+      "source_position_m": [
+        1.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        198.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH3",
+      "team": "AWAY",
+      "role": "ASSTCOACH3",
+      "source_position_m": [
+        2.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        258.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER1",
+      "team": "AWAY",
+      "role": "PLAYER1",
+      "source_position_m": [
+        3.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        318.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER2",
+      "team": "AWAY",
+      "role": "PLAYER2",
+      "source_position_m": [
+        3.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        378.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER3",
+      "team": "AWAY",
+      "role": "PLAYER3",
+      "source_position_m": [
+        4.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        438.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER4",
+      "team": "AWAY",
+      "role": "PLAYER4",
+      "source_position_m": [
+        4.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        498.00000000000006
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER5",
+      "team": "AWAY",
+      "role": "PLAYER5",
+      "source_position_m": [
+        5.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        558.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER6",
+      "team": "AWAY",
+      "role": "PLAYER6",
+      "source_position_m": [
+        6.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        618.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER7",
+      "team": "AWAY",
+      "role": "PLAYER7",
+      "source_position_m": [
+        6.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        678.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER8",
+      "team": "AWAY",
+      "role": "PLAYER8",
+      "source_position_m": [
+        7.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        738.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYERDEVCOACH",
+      "team": "AWAY",
+      "role": "PLAYERDEVCOACH",
+      "source_position_m": [
+        7.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        798.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH4",
+      "team": "AWAY",
+      "role": "ASSTCOACH4",
+      "source_position_m": [
+        8.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        858.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH5",
+      "team": "AWAY",
+      "role": "ASSTCOACH5",
+      "source_position_m": [
+        9.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        918.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH6",
+      "team": "AWAY",
+      "role": "ASSTCOACH6",
+      "source_position_m": [
+        9.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        977.9999999999999
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH7",
+      "team": "AWAY",
+      "role": "ASSTCOACH7",
+      "source_position_m": [
+        10.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        1038.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH8",
+      "team": "AWAY",
+      "role": "ASSTCOACH8",
+      "source_position_m": [
+        10.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        1098.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH9",
+      "team": "AWAY",
+      "role": "ASSTCOACH9",
+      "source_position_m": [
+        11.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        1158.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYHEADPHYSIO",
+      "team": "AWAY",
+      "role": "HEADPHYSIO",
+      "source_position_m": [
+        12.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        1218.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYTRAINER1",
+      "team": "AWAY",
+      "role": "TRAINER1",
+      "source_position_m": [
+        12.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        1278.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYTRAINER2",
+      "team": "AWAY",
+      "role": "TRAINER2",
+      "source_position_m": [
+        13.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        860.0,
+        0.0,
+        1338.0
+      ]
+    }
+  ],
+  "chair_count": 44,
+  "teams": 2,
+  "chairs_per_team": 22,
+  "source_bounds_m": {
+    "min": [
+      -13.612000465393066,
+      8.317999839782715,
+      0.0
+    ],
+    "max": [
+      13.612000465393066,
+      8.881999969482422,
+      0.9010000228881836
+    ]
+  },
+  "seat_top_height_m": 0.475,
+  "chair_back_top_m": 0.905,
+  "centre_spacing_m": 0.6,
+  "minimum_chair_to_sideline_m": 0.6979998397827147,
+  "minimum_chair_to_fence_axis_m": 0.28800003051757805,
+  "group_clear_opening_m": 1.096,
+  "appearance": "Individual black padded folding chairs, satin black tubular steel, crossed legs, caps and pivots.",
+  "requested_addition_not_photo_claim": true,
+  "native_marker_height_cm": 0,
+  "geometry_unchanged_except_new_chairs": true,
+  "game_tested": false,
+  "runtime_limit": "The marker floor height and yaw are native conventions; seated skeleton placement on padding remains an in-game check.",
+  "vertices": 26400,
+  "triangles": 49104,
+  "protected_original_objects": 654
+}

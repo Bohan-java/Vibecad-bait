@@ -1,0 +1,167 @@
+{
+  "status": "passed",
+  "materials": [
+    {
+      "name": "black-powder-coat",
+      "effective_native_metallic": 0.019999999552965164,
+      "roughness_min": 0.44313725490196076,
+      "roughness_max": 0.4980392156862745,
+      "uv_set": 0
+    },
+    {
+      "name": "brushed-stainless",
+      "effective_native_metallic": 0.9200000166893005,
+      "roughness_min": 0.3137254901960784,
+      "roughness_max": 0.42745098039215684,
+      "uv_set": 0
+    },
+    {
+      "name": "warm-gold-metal",
+      "effective_native_metallic": 0.8700000047683716,
+      "roughness_min": 0.24313725490196078,
+      "roughness_max": 0.3568627450980392,
+      "uv_set": 1
+    },
+    {
+      "name": "cream-canvas",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.9098039215686274,
+      "roughness_max": 0.9725490196078431,
+      "uv_set": 0
+    },
+    {
+      "name": "grey-stone",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.8901960784313725,
+      "roughness_max": 0.9686274509803922,
+      "uv_set": 0
+    },
+    {
+      "name": "grey-stone-dark",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.9215686274509803,
+      "roughness_max": 0.9882352941176471,
+      "uv_set": 0
+    },
+    {
+      "name": "grey-stone-light",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.8823529411764706,
+      "roughness_max": 0.9607843137254902,
+      "uv_set": 0
+    },
+    {
+      "name": "cement-mortar",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.9294117647058824,
+      "roughness_max": 0.9882352941176471,
+      "uv_set": 0
+    },
+    {
+      "name": "unlit-opal-diffuser",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.5647058823529412,
+      "roughness_max": 0.5764705882352941,
+      "uv_set": 0
+    },
+    {
+      "name": "dark-stainless",
+      "effective_native_metallic": 0.8799999952316284,
+      "roughness_min": 0.39215686274509803,
+      "roughness_max": 0.5058823529411764,
+      "uv_set": 0
+    },
+    {
+      "name": "canvas-seam",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.9098039215686274,
+      "roughness_max": 0.9725490196078431,
+      "uv_set": 0
+    },
+    {
+      "name": "warm-plaster",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.9098039215686274,
+      "roughness_max": 0.9882352941176471,
+      "uv_set": 0
+    },
+    {
+      "name": "dark-interior-timber",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.7176470588235294,
+      "roughness_max": 0.8,
+      "uv_set": 0
+    },
+    {
+      "name": "mauve-coated-fascia",
+      "effective_native_metallic": 0.019999999552965164,
+      "roughness_min": 0.6901960784313725,
+      "roughness_max": 0.7490196078431373,
+      "uv_set": 0
+    },
+    {
+      "name": "terracotta-grout",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.8705882352941177,
+      "roughness_max": 0.9490196078431372,
+      "uv_set": 0
+    },
+    {
+      "name": "terracotta-glazed",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.39215686274509803,
+      "roughness_max": 0.4470588235294118,
+      "uv_set": 0
+    },
+    {
+      "name": "oak-cabinet",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.7098039215686275,
+      "roughness_max": 0.792156862745098,
+      "uv_set": 0
+    },
+    {
+      "name": "letter-back-casing",
+      "effective_native_metallic": 0.18000000715255737,
+      "roughness_min": 0.49019607843137253,
+      "roughness_max": 0.5490196078431373,
+      "uv_set": 0
+    },
+    {
+      "name": "acrylic-warm-channel",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.27450980392156865,
+      "roughness_max": 0.28627450980392155,
+      "uv_set": 0
+    },
+    {
+      "name": "acrylic-orange-face",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.29411764705882354,
+      "roughness_max": 0.3058823529411765,
+      "uv_set": 0
+    },
+    {
+      "name": "red-orange-letter-return",
+      "effective_native_metallic": 0.10000000149011612,
+      "roughness_min": 0.37254901960784315,
+      "roughness_max": 0.42745098039215684,
+      "uv_set": 0
+    },
+    {
+      "name": "rubber-weather-seal",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.8627450980392157,
+      "roughness_max": 0.9176470588235294,
+      "uv_set": 0
+    },
+    {
+      "name": "acrylic-green-pepper",
+      "effective_native_metallic": 0.0,
+      "roughness_min": 0.3058823529411765,
+      "roughness_max": 0.3176470588235294,
+      "uv_set": 0
+    }
+  ],
+  "source_sha256": "884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b"
+}

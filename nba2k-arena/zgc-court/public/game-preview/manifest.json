@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "kind": "native_iff",
+  "build_id": "iff-9e9cd0f73b1c-40723c272b13",
+  "game_world_yaw_degrees": 180,
+  "model_url": "/game-preview/current.glb",
+  "preview_version": "IFF-9e9cd0f7",
+  "source_version": "S-beefe91fc3",
+  "iff_version": "R13 · Chili’s 主立面细节与材质",
+  "game_verified_version": "R12-half-court-wrong-end",
+  "generated_at": "2026-10-05T05:13:38Z",
+  "iff": {
+    "file": "arena_700_int.iff",
+    "sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+    "bytes": 1685622410,
+    "mtime_ns": 1791176688163439800
+  },
+  "asset": {
+    "sha256": "40723c272b13bd33aeb71d11613eb808f3e810a496836c32cc16357cfbacb6a2",
+    "bytes": 160717792
+  },
+  "decoded": {
+    "meshes": 675,
+    "triangles": 2207700,
+    "textures": 272,
+    "max_preview_texture_size": 4096
+  },
+  "limitations": [
+    "网页使用近似日光和材质，游戏光照、反射与曝光仍以游戏为准。",
+    "篮圈和篮板为包内静止几何；动态球网、球员与碰撞不在网页中模拟。",
+    "原生地板另行加载；本地参考缺少顶点数据，网页无法复现它的红线与两侧线条。透明线贴图能否被外部地板选中仍需游戏确认。"
+  ]
+}

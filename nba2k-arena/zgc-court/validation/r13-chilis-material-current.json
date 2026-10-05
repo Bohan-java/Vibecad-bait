@@ -1,0 +1,580 @@
+{
+  "revision": "R13",
+  "status": "passed",
+  "game_verified": false,
+  "protected_objects": 835,
+  "changed_existing_objects": [
+    "R12 Chilis building elevator call plate",
+    "R12 Chilis building elevator deep metal jambs",
+    "R12 Chilis building elevator two brushed door leaves",
+    "R12 Chilis building entry CAFE AND BAR",
+    "R12 Chilis building entry concave rolled silver pilasters",
+    "R12 Chilis building entry cornice narrow reveal",
+    "R12 Chilis building entry cream retractable canvas and scalloped valance",
+    "R12 Chilis building entry door transom and narrow reveals",
+    "R12 Chilis building entry EST 1975",
+    "R12 Chilis building entry grey staggered stone course 0",
+    "R12 Chilis building entry grey staggered stone course 1",
+    "R12 Chilis building entry grey staggered stone course 2",
+    "R12 Chilis building entry hinged retractable awning frame",
+    "R12 Chilis building entry local grey stone mortar bedding",
+    "R12 Chilis building entry narrow vertical diffuser strips unlit",
+    "R12 Chilis building entry paired long door pulls hinges and threshold",
+    "R12 Chilis building entry pilaster folded seam flanges",
+    "R12 Chilis building entry sewn canvas seams",
+    "R12 Chilis building entry shallow interior dark mineral floor",
+    "R12 Chilis building entry shallow interior warm back plane",
+    "R12 Chilis building entry shallow interior warm timber planes",
+    "R12 Chilis building entry slender black window and double door frames",
+    "R12 Chilis building entry solid dusty mauve sign panel",
+    "R12 Chilis building entry three folded cornice rails",
+    "R12 Chilis building entry visible interior table legs",
+    "R12 Chilis building entry visible shallow wood table tops",
+    "R12 Chilis building fine vertical red terracotta tile joints",
+    "R12 Chilis building red terracotta recessed elevator walls",
+    "R12 Chilis building straight eaves with short radius corner returns",
+    "R12 Chilis building straight flank individual silver fins",
+    "R12 Chilis building straight flank slender glazing mullions",
+    "R12 Chilis terrace entry cabinet small feet",
+    "R12 Chilis terrace entry hinged menu stands",
+    "R12 Chilis terrace entry oak welcome cabinet",
+    "R12 Chilis terrace entry separate sloped menu lectern"
+  ],
+  "removed_superseded_objects": [
+    "R12 Chilis building entry logo warm orange letter bodies",
+    "R12 Chilis building entry logo fine golden edge",
+    "R12 Chilis building entry logo green pepper apostrophe"
+  ],
+  "new_objects": [
+    "R13 Chilis court facade channel letters deep rear casing",
+    "R13 Chilis court facade channel letters red orange return walls",
+    "R13 Chilis court facade channel letters inset amber acrylic faces",
+    "R13 Chilis court facade channel letters fine unlit diffuser outline",
+    "R13 Chilis court facade channel letters concealed standoffs",
+    "R13 Chilis court facade pepper apostrophe shaped acrylic front",
+    "R13 Chilis court facade pepper apostrophe extruded return",
+    "R13 Chilis court facade door pull escutcheons hinge pins and countersunk fixings",
+    "R13 Chilis court facade door closer articulated arms and threshold track",
+    "R13 Chilis court facade door leaf perimeter recessed weather seals",
+    "R13 Chilis court facade pilaster seam countersunk fastener heads",
+    "R13 Chilis court facade awning rectangular arms brackets and knuckle end caps",
+    "R13 Chilis court facade awning stainless pins and front rail end plates",
+    "R13 Chilis court facade awning rolled front hem and sewn end returns",
+    "R13 Chilis court facade entry stone exposed front tile bevel band",
+    "R13 Chilis court facade welcome cabinet small dark identity inlay"
+  ],
+  "unexpected_protected_changes": [],
+  "rectangular_layout_unchanged": true,
+  "lights_world_exposure_preserved": true,
+  "wrapped_nonfront_faces_keep_original_material": true,
+  "materials": {
+    "brushed-stainless": {
+      "metallic_scalar": 0.92,
+      "roughness_range": [
+        0.312558054489302,
+        0.4268842460531569
+      ],
+      "physical_tile_m": 0.625,
+      "emission": 0.0
+    },
+    "dark-stainless": {
+      "metallic_scalar": 0.88,
+      "roughness_range": [
+        0.3930932527756238,
+        0.5073188001170689
+      ],
+      "physical_tile_m": 0.625,
+      "emission": 0.0
+    },
+    "warm-gold-metal": {
+      "metallic_scalar": 0.87,
+      "roughness_range": [
+        0.24245342499290495,
+        0.35705559618092303
+      ],
+      "physical_tile_m": 0.5,
+      "emission": 0.0
+    },
+    "mauve-coated-fascia": {
+      "metallic_scalar": 0.02,
+      "roughness_range": [
+        0.6913849143481302,
+        0.7485709570943286
+      ],
+      "physical_tile_m": 0.5882352941176471,
+      "emission": 0.0
+    },
+    "acrylic-orange-face": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.294025080552238,
+        0.3059824144994263
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "acrylic-warm-channel": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.2740072624235416,
+        0.28598419735435815
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "red-orange-letter-return": {
+      "metallic_scalar": 0.1,
+      "roughness_range": [
+        0.3718025453394577,
+        0.42856735577391064
+      ],
+      "physical_tile_m": 0.5,
+      "emission": 0.0
+    },
+    "letter-back-casing": {
+      "metallic_scalar": 0.18,
+      "roughness_range": [
+        0.4917034303087909,
+        0.5484057678995198
+      ],
+      "physical_tile_m": 0.5,
+      "emission": 0.0
+    },
+    "acrylic-green-pepper": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.30403003815911855,
+        0.3159808355123387
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "black-powder-coat": {
+      "metallic_scalar": 0.02,
+      "roughness_range": [
+        0.4416932131860132,
+        0.498525208628153
+      ],
+      "physical_tile_m": 0.3846153846153846,
+      "emission": 0.0
+    },
+    "rubber-weather-seal": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.861590471889495,
+        0.918475475359522
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "cream-canvas": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.9080195693491034,
+        0.9719643907563549
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "canvas-seam": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.9081523717956205,
+        0.9719586666531228
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "grey-stone": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.8908437267160259,
+        0.9690040203544767
+      ],
+      "physical_tile_m": 0.47619047619047616,
+      "emission": 0.0
+    },
+    "grey-stone-light": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.8807279446985761,
+        0.9595010987476044
+      ],
+      "physical_tile_m": 0.47619047619047616,
+      "emission": 0.0
+    },
+    "grey-stone-dark": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.9207717034989203,
+        0.99
+      ],
+      "physical_tile_m": 0.47619047619047616,
+      "emission": 0.0
+    },
+    "cement-mortar": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.9307337711091507,
+        0.99
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "terracotta-glazed": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.3914644072777022,
+        0.44878926330902874
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "terracotta-grout": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.8706184640505247,
+        0.9496038292345944
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    },
+    "oak-cabinet": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.7082292847291449,
+        0.7917673172807017
+      ],
+      "physical_tile_m": 0.6666666666666666,
+      "emission": 0.0
+    },
+    "dark-interior-timber": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.7180808316219108,
+        0.8017342998489414
+      ],
+      "physical_tile_m": 0.5555555555555556,
+      "emission": 0.0
+    },
+    "warm-plaster": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.9110262428156931,
+        0.9888189912624696
+      ],
+      "physical_tile_m": 0.5,
+      "emission": 0.0
+    },
+    "unlit-opal-diffuser": {
+      "metallic_scalar": 0.0,
+      "roughness_range": [
+        0.5640110038763442,
+        0.5759774611892726
+      ],
+      "physical_tile_m": 0.3333333333333333,
+      "emission": 0.0
+    }
+  },
+  "textures": [
+    {
+      "path": "textures\\r13-chilis\\brushed-stainless-basecolor.png",
+      "sha256": "11b627320e3640d5fde5a08e53eff79fb3f6981fa43ff3cc8b4ae9c83b35dc72"
+    },
+    {
+      "path": "textures\\r13-chilis\\brushed-stainless-roughness.png",
+      "sha256": "4648945f0bd898b11a63c1ced3da587c928f68cf12f4201aaaccd7da28abcc33"
+    },
+    {
+      "path": "textures\\r13-chilis\\dark-stainless-basecolor.png",
+      "sha256": "f034cf419cee72eede26b1ce24afcce30e6bbbef6d338ce88c924dbf720e757f"
+    },
+    {
+      "path": "textures\\r13-chilis\\dark-stainless-roughness.png",
+      "sha256": "dee2ff644b5f8b6337bbb6a01bc8731783912b1d11dba05e2db3d96ff9013099"
+    },
+    {
+      "path": "textures\\r13-chilis\\warm-gold-metal-basecolor.png",
+      "sha256": "87096e342f86e59bdae43d14ecf2497beb46667b9b191cd6b7590a9943851c08"
+    },
+    {
+      "path": "textures\\r13-chilis\\warm-gold-metal-roughness.png",
+      "sha256": "c6670e7c83b9a485ec3a1d04b7eef420faa5390eac270a53d328fb8ff48dcd2f"
+    },
+    {
+      "path": "textures\\r13-chilis\\mauve-coated-fascia-basecolor.png",
+      "sha256": "ca45a866b575196e3ae9d02a66c768c12c8ff200ddf73cdc69009ee04cd746e6"
+    },
+    {
+      "path": "textures\\r13-chilis\\mauve-coated-fascia-roughness.png",
+      "sha256": "ed0c2445e8cc5cf07663d79aa1cc2f3e4ac807cbe241db70a12e35475ca14ab6"
+    },
+    {
+      "path": "textures\\r13-chilis\\acrylic-orange-face-basecolor.png",
+      "sha256": "f51e068d0ec7d76cd868bc4b5374eb07a0847626d1cc76bb705e5ae6f2d12e9e"
+    },
+    {
+      "path": "textures\\r13-chilis\\acrylic-orange-face-roughness.png",
+      "sha256": "58c0580643cc468e18605701f3b5f6062c41a8674731978eedf567b6338019e9"
+    },
+    {
+      "path": "textures\\r13-chilis\\acrylic-warm-channel-basecolor.png",
+      "sha256": "8f2d449853c2163cd49b2c2d7f7ca98422458cb2316d856331d16ed434d9a0fc"
+    },
+    {
+      "path": "textures\\r13-chilis\\acrylic-warm-channel-roughness.png",
+      "sha256": "2c981fc741cf540d7f8ecc64b87965b523d1cdaffc2ddf4741f6e4e31e460753"
+    },
+    {
+      "path": "textures\\r13-chilis\\red-orange-letter-return-basecolor.png",
+      "sha256": "6f86852ef9b5808e46abb786c96cb0b163e5ef14576272c9018b06bfd7d5fdef"
+    },
+    {
+      "path": "textures\\r13-chilis\\red-orange-letter-return-roughness.png",
+      "sha256": "3734f1026b4d8efa307b8372eb5862474935fcfe564ff99a66f1589f1505bf2e"
+    },
+    {
+      "path": "textures\\r13-chilis\\letter-back-casing-basecolor.png",
+      "sha256": "aba637c80a2f3eeeadaa9de4b725b70a2d610165dfe3b3048604294bdf7660f0"
+    },
+    {
+      "path": "textures\\r13-chilis\\letter-back-casing-roughness.png",
+      "sha256": "23b1febec41ac14b22edb26e0562a7c579b9cb3347e308bf90dc3cd4e61d982e"
+    },
+    {
+      "path": "textures\\r13-chilis\\acrylic-green-pepper-basecolor.png",
+      "sha256": "3bf4ed2b9139bd6a3124a35fca11e5227bd127cfd7d9fe60e465976d09f3d39f"
+    },
+    {
+      "path": "textures\\r13-chilis\\acrylic-green-pepper-roughness.png",
+      "sha256": "6ac96348c6d0892523a122092a9be49d3e1397667f0152780b7b4c236c6fc203"
+    },
+    {
+      "path": "textures\\r13-chilis\\black-powder-coat-basecolor.png",
+      "sha256": "c6eae3384055ab38193123d5373104ef66dcf88ca5862348165bcb9290593ffb"
+    },
+    {
+      "path": "textures\\r13-chilis\\black-powder-coat-roughness.png",
+      "sha256": "b834cbf5ac1677baefc0c4ad9f8199d675ecc2bfbff0fa785b0c4f99a94ae854"
+    },
+    {
+      "path": "textures\\r13-chilis\\rubber-weather-seal-basecolor.png",
+      "sha256": "2876ec4f0641b117e88d9c90f908e2692029f84550c2e6bd903d154d1016b56c"
+    },
+    {
+      "path": "textures\\r13-chilis\\rubber-weather-seal-roughness.png",
+      "sha256": "6ff1d54fb2f099fd3ebe3b446bcf779217bdccce32dc7a8805be9495d18cea35"
+    },
+    {
+      "path": "textures\\r13-chilis\\cream-canvas-basecolor.png",
+      "sha256": "97f7ecb691ed14bbcb2c66430507346ffd423edfd97d282ea441b15564aa1ac5"
+    },
+    {
+      "path": "textures\\r13-chilis\\cream-canvas-roughness.png",
+      "sha256": "0f6320acde5c98af97ed8dde95741aa7baecc9999f264af751ca45a1db505ed6"
+    },
+    {
+      "path": "textures\\r13-chilis\\canvas-seam-basecolor.png",
+      "sha256": "50e0c77127eba4f0d5ee18dea01bc8ac26f15e50c313e9e70c70b1a12d3d76a1"
+    },
+    {
+      "path": "textures\\r13-chilis\\canvas-seam-roughness.png",
+      "sha256": "1c8031f8351379dffb04ee5350a873d89ef243485498c5ee2415ee90c5fb24e2"
+    },
+    {
+      "path": "textures\\r13-chilis\\grey-stone-basecolor.png",
+      "sha256": "576873f0b52bf3e17bc1fa55e391bbdd6cc9fd7f554cd45c83de5ccff8a2ef25"
+    },
+    {
+      "path": "textures\\r13-chilis\\grey-stone-roughness.png",
+      "sha256": "c1e4e2bb9bfc3b8a7220c5f5eb727ceb06c04c7cfd5f02475f6e2988cd4e30f4"
+    },
+    {
+      "path": "textures\\r13-chilis\\grey-stone-light-basecolor.png",
+      "sha256": "cc1e46b2da5717f4f262cfeef6a7916faf31eaf7f109485406a96250669aff16"
+    },
+    {
+      "path": "textures\\r13-chilis\\grey-stone-light-roughness.png",
+      "sha256": "5ea0019d1bb55adb5b29064731d77e45c19f88b938d5827fea2f832e83b6a31c"
+    },
+    {
+      "path": "textures\\r13-chilis\\grey-stone-dark-basecolor.png",
+      "sha256": "1a251032dcc86a222a44d8fe6036b060eab4fff857623ec63a2bc3433d88db74"
+    },
+    {
+      "path": "textures\\r13-chilis\\grey-stone-dark-roughness.png",
+      "sha256": "85c18973d08ee87358364c993bab032bc2a7502a9cd404c0c317d6cc11bebee8"
+    },
+    {
+      "path": "textures\\r13-chilis\\cement-mortar-basecolor.png",
+      "sha256": "20a2b357129d7f97246205420c8544c602c9f12374580721a0f615740b631e52"
+    },
+    {
+      "path": "textures\\r13-chilis\\cement-mortar-roughness.png",
+      "sha256": "34c8d7cec1c2bf07da18f692bb8e03ddf1ff86e56a6ee081136f485c78836f87"
+    },
+    {
+      "path": "textures\\r13-chilis\\terracotta-glazed-basecolor.png",
+      "sha256": "3ef522ee08068a8dfb801be2c15d1032a293fd54bd7bdceee10b2b68a57c704c"
+    },
+    {
+      "path": "textures\\r13-chilis\\terracotta-glazed-roughness.png",
+      "sha256": "5c4130616b846d8cfc534bcec47569940ea35ebf0b322a7986ae0e059ef0c128"
+    },
+    {
+      "path": "textures\\r13-chilis\\terracotta-grout-basecolor.png",
+      "sha256": "e9dfeb325a60a01f78c7e2e793b2e37bce3bc8886ab37d204d016050bcf87b1d"
+    },
+    {
+      "path": "textures\\r13-chilis\\terracotta-grout-roughness.png",
+      "sha256": "49e72f93c30f6332bba390729ca265c18877248e4d541a2878818e75e338c780"
+    },
+    {
+      "path": "textures\\r13-chilis\\oak-cabinet-basecolor.png",
+      "sha256": "db387f5454240692683ac47487df27669118fd9f69d63f857a8525080a9fa407"
+    },
+    {
+      "path": "textures\\r13-chilis\\oak-cabinet-roughness.png",
+      "sha256": "29b97184e480dfeded73703b753d6445a2eecc715fd7ff31f3df64b1849a636d"
+    },
+    {
+      "path": "textures\\r13-chilis\\dark-interior-timber-basecolor.png",
+      "sha256": "726f2dcbeb90539ff4631e12b02394566ea6c6cfcf328b7a01d701864ea3e962"
+    },
+    {
+      "path": "textures\\r13-chilis\\dark-interior-timber-roughness.png",
+      "sha256": "8526c2cd3d93669fa3f124bf03f762c4b2c4ee4c8d043d9861e1546d694475e4"
+    },
+    {
+      "path": "textures\\r13-chilis\\warm-plaster-basecolor.png",
+      "sha256": "6ecac3c9515d3a67f10eacc2b11b24a2f71e0433423c85cf619a68137c397896"
+    },
+    {
+      "path": "textures\\r13-chilis\\warm-plaster-roughness.png",
+      "sha256": "59e60b8971a43a473a790f29a0281c90463503bb3fed34b636cc8c31ee2dc202"
+    },
+    {
+      "path": "textures\\r13-chilis\\unlit-opal-diffuser-basecolor.png",
+      "sha256": "d9898f88655f89c196942e3e9d738d232d86a0d8278541794976f7e4bd324f2d"
+    },
+    {
+      "path": "textures\\r13-chilis\\unlit-opal-diffuser-roughness.png",
+      "sha256": "5586e26efec68826f5fcde3bc02a291d21c00cb91a4d19cfaf2b28d5d7a65006"
+    }
+  ],
+  "sign_fabrication": {
+    "width_m": 3.02,
+    "height_m": 0.91,
+    "casing_depth_m": 0.111,
+    "acrylic_face_thickness_m": 0.008,
+    "diffuser_channel_diameter_m": 0.009,
+    "glyph_source": "Unchanged R11/R12 hand-shaped commercial contours from old.glyphs(); layered in original footprint",
+    "contour_sha256": "87ce709ae42bf75e0a9e1ae30bbd1b73a49451a32743ea48a2e0756df4deb3d5",
+    "no_emission": true,
+    "evidence": "references/chilis-detail/01_新增原图/02_主入口门窗与字位_iziRetail_2026年1月.png"
+  },
+  "explicit_uv_channel": "R13PhysicalFinish",
+  "references_actually_viewed": [
+    "references/chilis-detail/01_新增原图/02_主入口门窗与字位_iziRetail_2026年1月.png",
+    "references/chilis-detail/01_新增原图/03_侧棚字标与竖向 COFFEE 招牌.jpg",
+    "references/chilis-detail/01_新增原图/04_入口外两块落地广告牌.jpg",
+    "references/chilis-detail/01_新增原图/08_顺通道看门窗与雨棚连接.jpg",
+    "references/chilis-detail/01_新增原图/09_雨棚底部支撑近景.jpg",
+    "references/chilis-detail/01_新增原图/10_门内回看黑框玻璃门.jpg"
+  ],
+  "native_requirements": [
+    "baseColor and roughness image export",
+    "scalar metallic",
+    "native NormalHeight remains zero",
+    "all added emitters zero; acrylic is opaque unlit surface, not a simulated light source"
+  ],
+  "photo_mapping": [
+    {
+      "photo": "新增02",
+      "elements": "灰紫门头细竖纹、三层拉丝银檐、凹银柱、独立双门把手、厚灯箱字红橙侧壳/橙面/浅色内缘、小金字、灰色错缝门前石材、右侧迎宾台"
+    },
+    {
+      "photo": "新增08/09",
+      "elements": "米色织物雨棚前后双面、黑细支臂与金属关节、波浪布前沿、卷边缝线"
+    },
+    {
+      "photo": "新增10",
+      "elements": "门框内侧闭门机构和窄门楣细节；仅重建可见五金，不改变门位"
+    },
+    {
+      "photo": "原Chilis08",
+      "elements": "红褐窄砖凹口和竖拉丝不锈钢电梯，按釉砖处理而非水泥"
+    }
+  ],
+  "limits": [
+    "Exact millimetre construction details inferred from photo proportions, not a measured survey.",
+    "Seasonal snow, flowers, people and Christmas decorations remain excluded.",
+    "R13 changes only court-facing building/entry families; left terrace, all court/bench/native anchors protected.",
+    "Native static glass route unchanged; game-compatible opening geometry retained."
+  ],
+  "nba_validation": {
+    "source": "scene.blend actual evaluated coordinates",
+    "coordinate_system": "metres; X length; Y width; Z up; reference X<0",
+    "status": "passed",
+    "tolerance_m": 4e-06,
+    "game_geometry_mapping": "unverified",
+    "playing_surface": {
+      "expected_length_m": 28.651200000000003,
+      "measured_length_m": 28.651199340820312,
+      "expected_width_m": 15.24,
+      "measured_width_m": 15.239999771118164,
+      "surface_z_m": 0.0
+    },
+    "ground": {
+      "object": "court_surface",
+      "mesh_count": 1,
+      "connected_vertices": 16,
+      "vertices": 16,
+      "connected": true,
+      "apron_m": 4.0,
+      "centre_seam": false
+    },
+    "hoops": {
+      "reference": {
+        "rim_center_x_m": -12.7253999710083,
+        "expected_center_x_m": -12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962898,
+        "backboard_front_x_m": -13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": -13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      },
+      "open": {
+        "rim_center_x_m": 12.7253999710083,
+        "expected_center_x_m": 12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962881,
+        "backboard_front_x_m": 13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": 13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      }
+    },
+    "limits": [
+      "No NBA 2K game mesh, physics, scoring trigger, collision or animated net verified.",
+      "Support geometry is an editable provisional visual reconstruction.",
+      "Geometry validation does not establish donor compatibility."
+    ]
+  },
+  "output": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-chilis\\scene-chilis-material.blend",
+  "source_sha256": "884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b",
+  "published_source_sha256": "884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b"
+}

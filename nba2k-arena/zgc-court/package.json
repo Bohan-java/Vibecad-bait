@@ -1,0 +1,13 @@
+{
+  "name": "zgc-court-preview",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node tools/serve.mjs --open",
+    "preview": "node tools/serve.mjs",
+    "build": "node tools/watch_build.mjs --once"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "engines": { "node": ">=20.0.0" }
+}

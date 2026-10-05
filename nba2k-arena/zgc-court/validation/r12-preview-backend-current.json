@@ -1,0 +1,21 @@
+{
+  "revision": "R12",
+  "reference_count": 67,
+  "new_reference_http_sha256_all_match": true,
+  "view_config_and_buttons": [
+    "bench",
+    "left_shop",
+    "skyline",
+    "skyline_left",
+    "skyline_open",
+    "chilis_plan"
+  ],
+  "browser_webgl_checked": false,
+  "browser_limit": "Browser plugin bootstrap failed: missing configured browser-service.mjs. No alternative browser-control surface used. Actual IFF geometry renders and backend checks performed separately.",
+  "actual_iff_sha256": "b336e63c516da4b236543711a3e34c84b7a5552ea04b1077148281c47b52530a",
+  "native_glb_sha256": "0a0e1d393a57b331da5ee488d54aada9e536e055c1b0ba850eb509e36587ce47",
+  "native_build_id": "iff-b336e63c516d-0a0e1d393a57",
+  "native_status": "ready",
+  "texture_bundle_images": 234,
+  "texture_bundle_sha_matches": true
+}

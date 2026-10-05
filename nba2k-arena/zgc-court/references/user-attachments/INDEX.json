@@ -1,0 +1,149 @@
+{
+  "scope": "All 17 screenshot attachments and the original brief explicitly provided in this conversation",
+  "items": [
+    {
+      "order": 1,
+      "original_filename": "codex-clipboard-05329fb4-7387-4086-a634-c9681dde1b47.png",
+      "project_path": "references/guide/r03-user-black-screen.png",
+      "bytes": 168489,
+      "sha256": "11c93b92543a5230cd7c8088d010e6aad5c230992e82e708f210fad558470cc3",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 2,
+      "original_filename": "codex-clipboard-a71d807d-97d3-43b4-b624-82a783d5cdba.png",
+      "project_path": "references/user-attachments/codex-clipboard-a71d807d-97d3-43b4-b624-82a783d5cdba.png",
+      "bytes": 2542961,
+      "sha256": "bd57127d1ac8bd4bc318eae104a0a5c42d704750d485a5ac8efaf976988a0079",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 3,
+      "original_filename": "codex-clipboard-485becf2-b310-45cf-9c01-8247bdcfa75d.png",
+      "project_path": "references/user-attachments/codex-clipboard-485becf2-b310-45cf-9c01-8247bdcfa75d.png",
+      "bytes": 2086123,
+      "sha256": "87e415c50506fdea7c792c5236d8345ae022c1f816260f6a3944246a2e8693a6",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 4,
+      "original_filename": "codex-clipboard-2313529b-139a-4450-badb-a7be6c4a5433.png",
+      "project_path": "references/user-attachments/codex-clipboard-2313529b-139a-4450-badb-a7be6c4a5433.png",
+      "bytes": 481431,
+      "sha256": "51b4b903e86cf49f40e1f2a19d6cf421a84a404e5379bdd4ed03ce2e541d0831",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 5,
+      "original_filename": "codex-clipboard-27341c1f-1c8f-4b2f-a73e-1eac90aba66a.png",
+      "project_path": "references/user-attachments/codex-clipboard-27341c1f-1c8f-4b2f-a73e-1eac90aba66a.png",
+      "bytes": 2826504,
+      "sha256": "9fd0b966da588f8cec529e0abe4fbf6a4f27828e5165a2ea81c96fd81b1a7f14",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 6,
+      "original_filename": "codex-clipboard-61a6bd18-9805-4689-a8a3-9717d90a2546.png",
+      "project_path": "references/user-attachments/codex-clipboard-61a6bd18-9805-4689-a8a3-9717d90a2546.png",
+      "bytes": 1585452,
+      "sha256": "ed2bb495105ebd84f54c2f71961b20640908d20bfe8988f5697a4d12811157af",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 7,
+      "original_filename": "codex-clipboard-644bfb05-3282-41b0-9a32-ccd0ebb71fae.png",
+      "project_path": "references/user-attachments/codex-clipboard-644bfb05-3282-41b0-9a32-ccd0ebb71fae.png",
+      "bytes": 472580,
+      "sha256": "1400da84f3af04eea060a8081029e0ada0941952033734d309928e23ea18cae3",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 8,
+      "original_filename": "codex-clipboard-80f043d1-cff5-42ff-b42c-d540faf689f3.png",
+      "project_path": "references/user-attachments/codex-clipboard-80f043d1-cff5-42ff-b42c-d540faf689f3.png",
+      "bytes": 1348992,
+      "sha256": "60cbc9c923f44593e912f4b6db33da3db4e40d005651f3197f32b89ec0ceeea0",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 9,
+      "original_filename": "codex-clipboard-f15c401f-4524-4079-8425-6ec7d450ca58.png",
+      "project_path": "references/user-attachments/codex-clipboard-f15c401f-4524-4079-8425-6ec7d450ca58.png",
+      "bytes": 2391884,
+      "sha256": "64233c2ac1834f5835bd555b0d91c7b24c5e03318bac32933ea5da0ca6305c2b",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 10,
+      "original_filename": "codex-clipboard-ff71ed13-6be9-42fe-99a2-83e0dd1ea9e3.png",
+      "project_path": "references/user-attachments/codex-clipboard-ff71ed13-6be9-42fe-99a2-83e0dd1ea9e3.png",
+      "bytes": 873610,
+      "sha256": "4002b1e4f08fcb2195892cf411e560c95680c50d7c134b67a3514c2112f1756d",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 11,
+      "original_filename": "codex-clipboard-b48ccf7a-3245-47e3-be99-299f0851da0c.png",
+      "project_path": "references/feedback/current-replay-wide.png",
+      "bytes": 1493111,
+      "sha256": "323a0dca29d8444554ea97cce2e35f28663c568f72458c5f6d086f6bb0af9d14",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 12,
+      "original_filename": "codex-clipboard-15a5d105-aadd-409c-b35d-f7df39ef869e.png",
+      "project_path": "references/feedback/current-replay-close.png",
+      "bytes": 1629920,
+      "sha256": "f59a63c0b4af8b0d41a7808d069fa09f1f95fa3931b31f701db5426402df59a4",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 13,
+      "original_filename": "codex-clipboard-bcdf45f3-bf43-440d-8065-1251f4177adf.png",
+      "project_path": "references/feedback/current-open-floor.png",
+      "bytes": 1712715,
+      "sha256": "53d33a93647aac80d15afc839b934bbcb6ac295e3e81d2e8277a70bb2e37bddb",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 14,
+      "original_filename": "codex-clipboard-84dccdd6-4acd-45a1-ada0-2394acfa0aee.png",
+      "project_path": "references/feedback/current-reference-overview.png",
+      "bytes": 1640470,
+      "sha256": "f484e2ce4df9f24f1ec5215271c84bf16192f30ed760d9eab685d915386538de",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 15,
+      "original_filename": "codex-clipboard-c1e7d0e2-aa51-452c-bf6d-3d902806b88e.png",
+      "project_path": "references/user-attachments/codex-clipboard-c1e7d0e2-aa51-452c-bf6d-3d902806b88e.png",
+      "bytes": 2113758,
+      "sha256": "dcd158657b22051b0e6ccf4784fb4597ae76dabf57dac913111d45cd947dcbe7",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 16,
+      "original_filename": "codex-clipboard-0a3fb494-fb56-42bf-8d33-a1cf645e30d0.png",
+      "project_path": "references/user-attachments/codex-clipboard-0a3fb494-fb56-42bf-8d33-a1cf645e30d0.png",
+      "bytes": 2736150,
+      "sha256": "7213d707e242ea4548434f86448587f7e40ae961ef39654070aa6248197a280a",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 17,
+      "original_filename": "codex-clipboard-d4f72807-c066-4ebe-a0cd-a49329a300a3.png",
+      "project_path": "references/user-attachments/codex-clipboard-d4f72807-c066-4ebe-a0cd-a49329a300a3.png",
+      "bytes": 243440,
+      "sha256": "67d10670ce91d3a65f8947b6300a0027cfddea2d9a4ae42f36fbf37ef74c956c",
+      "kind": "user_feedback_screenshot"
+    },
+    {
+      "order": 18,
+      "original_filename": "Codex_NBA2K26_ZGC_Court_Brief.txt",
+      "project_path": "references/user-attachments/Codex_NBA2K26_ZGC_Court_Brief.txt",
+      "bytes": 23883,
+      "sha256": "3e00533a37e566c4c9dd2ae6ad9d197f419751895f957321e82f3bb563334c62",
+      "kind": "original_user_brief"
+    }
+  ]
+}

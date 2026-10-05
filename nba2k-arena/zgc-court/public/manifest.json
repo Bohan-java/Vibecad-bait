@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "build_id": "20261005T045109359Z-beefe91f",
+  "source_version": "S-beefe91fc3",
+  "preview_version": "S-beefe91fc3",
+  "iff_version": "R13 · Chili’s 主立面细节与材质",
+  "game_verified_version": "R12-half-court-wrong-end",
+  "model_url": "/builds/20261005T045109359Z-beefe91f/scene.glb",
+  "input_hash": "beefe91fc31185222f323e768413685f790245b62e92189ff9d7d5c78d532412",
+  "asset": {
+    "bytes": 134218284,
+    "sha256": "02a8bf6df7646a402b1e1d9c9e4a24e9fb4e03cb34ee52b19d486c9646295acd",
+    "meshes": 883,
+    "nodes": 895
+  },
+  "built_at": "2026-10-05T04:52:48.915Z",
+  "log_url": "/logs/20261005T045109359Z-beefe91f.log",
+  "iff": {
+    "revision": "R13",
+    "file": "output/arena_700_int.iff",
+    "bytes": 1685622410,
+    "sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+    "game_tested": false,
+    "game_visibility": "pending",
+    "source_version": "S-beefe91fc3",
+    "half_court_orientation": {
+      "revision": "R12.1",
+      "world_yaw_degrees": 180,
+      "static_instances_rotated": 671,
+      "seating_markers_rotated": 44,
+      "native_technical_markers_unchanged": 14,
+      "painted_half_native_z": "positive",
+      "gray_half_native_z": "negative",
+      "painted_rim_center_game_cm": [
+        0.0,
+        304.8,
+        1272.54
+      ],
+      "reason": "User confirms Blacktop half-court selects the former gray +Z end. Rotate the photographic scene to that existing end instead of guessing an engine selector.",
+      "source_blender_coordinates_unchanged": true,
+      "native_baskets_and_gameplay_anchors_unchanged": true,
+      "mesh_texture_material_and_lighting_data_unchanged": true,
+      "matrix_determinant": 1,
+      "already_applied": false,
+      "game_tested": false
+    }
+  },
+  "last_game_test": {
+    "revision": "R12",
+    "game_visibility": "half_court_uses_gray_open_end",
+    "user_result": "用户确认街球半场选项进入灰色开放半场。本轮将整套自建场景换端，使黄黑涂装与Chili’s对应到该入口；尚待游戏确认。"
+  },
+  "latest_feedback": "用户认为模型大体可以；本轮聚焦朝场门店材质和篮板透明度、反光。"
+}

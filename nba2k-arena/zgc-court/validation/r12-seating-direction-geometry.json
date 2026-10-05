@@ -1,0 +1,649 @@
+{
+  "source_file": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r12-seating\\scene-seating.blend",
+  "source_four_batches": [
+    {
+      "object": "R12 right bench feet",
+      "world_min": [
+        -13.607000350952148,
+        8.317999839782715,
+        0.0
+      ],
+      "world_max": [
+        13.607000350952148,
+        8.881999969482422,
+        0.2709999978542328
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "R12 right bench frames",
+      "world_min": [
+        -13.601999282836914,
+        8.339737892150879,
+        0.02129700407385826
+      ],
+      "world_max": [
+        13.601999282836914,
+        8.860311508178711,
+        0.9010000228881836
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "R12 right bench hardware",
+      "world_min": [
+        -13.597999572753906,
+        8.576000213623047,
+        0.23200000822544098
+      ],
+      "world_max": [
+        13.597999572753906,
+        8.624000549316406,
+        0.2800000011920929
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": "R12 right bench pads",
+      "world_min": [
+        -13.612000465393066,
+        8.38700008392334,
+        0.42899999022483826
+      ],
+      "world_max": [
+        13.612000465393066,
+        8.835100173950195,
+        0.8690000176429749
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "count": 44,
+  "seat_fronts": [
+    {
+      "marker": "NBAHOMEHEADCOACH",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH1",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH2",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH3",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER1",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER2",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER3",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER4",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER5",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER6",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER7",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER8",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYERDEVCOACH",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH4",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH5",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH6",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH7",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH8",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH9",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMEHEADPHYSIO",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMETRAINER1",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAHOMETRAINER2",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYHEADCOACH",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH1",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH2",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH3",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER1",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER2",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER3",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER4",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER5",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER6",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER7",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER8",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYERDEVCOACH",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH4",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH5",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH6",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH7",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH8",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH9",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYHEADPHYSIO",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYTRAINER1",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "marker": "NBAAWAYTRAINER2",
+      "seat_y_mean": 8.599999944368998,
+      "back_y_min": 8.778972625732422,
+      "back_y_max": 8.835100173950195,
+      "front_direction_source": [
+        0,
+        -1,
+        0
+      ]
+    }
+  ],
+  "result": "Every chair back lies source +Y of its seat. Clear seat fronts point toward source -Y / native -X."
+}

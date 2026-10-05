@@ -1,0 +1,5221 @@
+[
+  {
+    "name": "Backboard.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | transparent backboard"
+    ]
+  },
+  {
+    "name": "Backboard.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | transparent backboard"
+    ]
+  },
+  {
+    "name": "backboard_front.open",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "backboard_front.reference",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "background",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "Base plate.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | brushed grey steel"
+    ]
+  },
+  {
+    "name": "Base plate.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | brushed grey steel"
+    ]
+  },
+  {
+    "name": "baseline_midpoint.open",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "baseline_midpoint.reference",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "court_center",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "court_surface",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "Ground | neutral mineral apron",
+      "Court | editable artwork"
+    ]
+  },
+  {
+    "name": "Current A banner badge outlines",
+    "type": "MESH",
+    "verts": 8208,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 0",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 1",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 2",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 3",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 4",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 5",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 6",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo End fence panel mark 7",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo North partial fence panel mark 0",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo North partial fence panel mark 1",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo North partial fence panel mark 2",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo North partial fence panel mark 3",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo North partial fence panel mark 4",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo South partial fence panel mark 0",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo South partial fence panel mark 1",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo South partial fence panel mark 2",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo South partial fence panel mark 3",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo South partial fence panel mark 4",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current A logo South partial fence panel mark 5",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "Current cloth stitched hems",
+    "type": "MESH",
+    "verts": 1216,
+    "materials": [
+      "Current | cloth stitched seam"
+    ]
+  },
+  {
+    "name": "Daylight reference",
+    "type": "LIGHT",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "End fence diamond mesh",
+    "type": "MESH",
+    "verts": 1068,
+    "materials": [
+      "Fence | fine steel mesh"
+    ]
+  },
+  {
+    "name": "End fence horizontal 0.72",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence horizontal 2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence horizontal 3.68",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 0",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 1",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 2",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 3",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 4",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 5",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 6",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence NBA ATELIER panel 7",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "End fence panel mark 0",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 1",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 2",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 3",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 4",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 5",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 6",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence panel mark 7",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "End fence post 0",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 1",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 2",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 4",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 5",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 6",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 7",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "End fence post 8",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "fence",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "gameplay_anchors",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "Glazed tower silhouette",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | desaturated teal glazing"
+    ]
+  },
+  {
+    "name": "lights",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "North partial fence diamond mesh",
+    "type": "MESH",
+    "verts": 716,
+    "materials": [
+      "Fence | fine steel mesh"
+    ]
+  },
+  {
+    "name": "North partial fence horizontal 0.72",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence horizontal 2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence horizontal 3.68",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence NBA ATELIER panel 0",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "North partial fence NBA ATELIER panel 1",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "North partial fence NBA ATELIER panel 2",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "North partial fence NBA ATELIER panel 3",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "North partial fence NBA ATELIER panel 4",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "North partial fence panel mark 0",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "North partial fence panel mark 1",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "North partial fence panel mark 2",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "North partial fence panel mark 3",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "North partial fence panel mark 4",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "North partial fence post 0",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence post 1",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence post 2",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence post 3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence post 4",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "North partial fence post 5",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "open_half",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "Overview source camera",
+    "type": "CAMERA",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "preview_helpers",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "R02 anchor washer.open.-0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.open.-0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.open.0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.open.0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.reference.-0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.reference.-0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.reference.0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 anchor washer.reference.0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 arching ornamental grass",
+    "type": "MESH",
+    "verts": 48600,
+    "materials": [
+      "R02 environment | grass"
+    ]
+  },
+  {
+    "name": "R02 architecture Chilis lower storey conceptual glazing",
+    "type": "MESH",
+    "verts": 178,
+    "materials": [
+      "R02 architecture | lower_glass"
+    ]
+  },
+  {
+    "name": "R02 architecture Chilis lower storey sill",
+    "type": "MESH",
+    "verts": 308,
+    "materials": [
+      "R02 architecture | metal"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK glass corner fine mullions",
+    "type": "MESH",
+    "verts": 304,
+    "materials": [
+      "R02 architecture | link_corner_frame"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK independent upper red fascia",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R02 architecture | link_red"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK individual cladding tone link_stone",
+    "type": "MESH",
+    "verts": 1920,
+    "materials": [
+      "R02 architecture | link_stone"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK individual cladding tone link_stone_dark",
+    "type": "MESH",
+    "verts": 1440,
+    "materials": [
+      "R02 architecture | link_stone_dark"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK individual cladding tone link_stone_light",
+    "type": "MESH",
+    "verts": 1920,
+    "materials": [
+      "R02 architecture | link_stone_light"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK integrated glazed corner",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 architecture | link_corner_glass"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK rear high red band identity",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R02 architecture | link_letter"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK recessed glazing bays",
+    "type": "MESH",
+    "verts": 72,
+    "materials": [
+      "R02 architecture | link_glass"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK separate large pale mall volume",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 architecture | link_stone"
+    ]
+  },
+  {
+    "name": "R02 architecture LINK structural bays and projecting ledges",
+    "type": "MESH",
+    "verts": 392,
+    "materials": [
+      "R02 architecture | link_frame"
+    ]
+  },
+  {
+    "name": "R02 ART PARK garden sign",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R02 environment | sign_white"
+    ]
+  },
+  {
+    "name": "R02 bench dark supports",
+    "type": "MESH",
+    "verts": 96,
+    "materials": [
+      "R02 environment | bench_metal"
+    ]
+  },
+  {
+    "name": "R02 broadleaf canopy 0",
+    "type": "MESH",
+    "verts": 35530,
+    "materials": [
+      "R02 environment | leaf0"
+    ]
+  },
+  {
+    "name": "R02 broadleaf canopy 1",
+    "type": "MESH",
+    "verts": 46920,
+    "materials": [
+      "R02 environment | leaf1"
+    ]
+  },
+  {
+    "name": "R02 broadleaf canopy 2",
+    "type": "MESH",
+    "verts": 35230,
+    "materials": [
+      "R02 environment | leaf2"
+    ]
+  },
+  {
+    "name": "R02 broadleaf canopy 3",
+    "type": "MESH",
+    "verts": 11820,
+    "materials": [
+      "R02 environment | leaf3"
+    ]
+  },
+  {
+    "name": "R02 continuous low garden groundcover",
+    "type": "MESH",
+    "verts": 6245,
+    "materials": [
+      "R02 environment | groundcover"
+    ]
+  },
+  {
+    "name": "R02 continuous pale plaza ground",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 environment | pale_paving",
+      "Court | editable artwork"
+    ]
+  },
+  {
+    "name": "R02 curb expansion joints",
+    "type": "MESH",
+    "verts": 960,
+    "materials": [
+      "R02 environment | joint"
+    ]
+  },
+  {
+    "name": "R02 curved bench timber slats",
+    "type": "MESH",
+    "verts": 640,
+    "materials": [
+      "R02 environment | timber"
+    ]
+  },
+  {
+    "name": "R02 curved funnel shelters",
+    "type": "MESH",
+    "verts": 4800,
+    "materials": [
+      "R02 environment | canopy_metal"
+    ]
+  },
+  {
+    "name": "R02 curving raised stone edges",
+    "type": "MESH",
+    "verts": 2880,
+    "materials": [
+      "R02 environment | curb"
+    ]
+  },
+  {
+    "name": "R02 disk roof fine perimeter lips",
+    "type": "MESH",
+    "verts": 960,
+    "materials": [
+      "R02 environment | canopy_lip"
+    ]
+  },
+  {
+    "name": "R02 disk roof recessed undersides",
+    "type": "MESH",
+    "verts": 1280,
+    "materials": [
+      "R02 environment | canopy_shade"
+    ]
+  },
+  {
+    "name": "R02 distant poster abstract printed detail",
+    "type": "MESH",
+    "verts": 160,
+    "materials": [
+      "R02 environment | poster_ink"
+    ]
+  },
+  {
+    "name": "R02 distant poster faces poster_blue",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R02 environment | poster_blue"
+    ]
+  },
+  {
+    "name": "R02 distant poster faces poster_cream",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R02 environment | poster_cream"
+    ]
+  },
+  {
+    "name": "R02 distant poster faces poster_dark",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R02 environment | poster_dark"
+    ]
+  },
+  {
+    "name": "R02 distant poster faces poster_red",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R02 environment | poster_red"
+    ]
+  },
+  {
+    "name": "R02 distant poster faces poster_warm",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R02 environment | poster_warm"
+    ]
+  },
+  {
+    "name": "R02 exterior stone fine joints",
+    "type": "MESH",
+    "verts": 13472,
+    "materials": [
+      "R02 environment | paving_joint"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 0.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 0.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 0.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 1.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 1.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 1.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 10.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 10.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 10.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 11.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 11.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 11.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 12.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 12.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 12.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 13.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 13.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 13.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 14.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 14.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 14.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 15.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 15.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 15.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 16.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 16.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 16.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 17.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 17.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 17.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 18.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 18.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 18.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 19.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 19.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 19.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 2.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 2.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 2.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 20.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 20.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 20.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 21.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 21.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 21.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 3.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 3.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 3.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 4.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 4.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 4.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 5.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 5.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 5.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 6.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 6.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 6.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 7.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 7.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 7.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 8.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 8.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 8.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 9.0.74",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 9.2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence clamp 9.3.62",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 0",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 1",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 10",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 11",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 12",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 13",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 14",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 15",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 16",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 17",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 18",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 19",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 2",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 20",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 21",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 4",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 5",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 6",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 7",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 8",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fence weighted foot 9",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R02 | weathered concrete feet"
+    ]
+  },
+  {
+    "name": "R02 fine white flower florets",
+    "type": "MESH",
+    "verts": 234624,
+    "materials": [
+      "R02 environment | flower_white"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.open.-0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.open.-0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.open.0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.open.0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.reference.-0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.reference.-0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.reference.0.175.-0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 floor anchor.reference.0.175.0.215",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R02 | galvanized bolt heads"
+    ]
+  },
+  {
+    "name": "R02 flowerbed natural stones",
+    "type": "MESH",
+    "verts": 1080,
+    "materials": [
+      "R02 environment | rock"
+    ]
+  },
+  {
+    "name": "R02 grass warm tips",
+    "type": "MESH",
+    "verts": 10800,
+    "materials": [
+      "R02 environment | dry_grass"
+    ]
+  },
+  {
+    "name": "R02 layered disk roof shells",
+    "type": "MESH",
+    "verts": 2880,
+    "materials": [
+      "R02 environment | canopy_metal"
+    ]
+  },
+  {
+    "name": "R02 low groundcover leaf clusters 0",
+    "type": "MESH",
+    "verts": 56673,
+    "materials": [
+      "R02 environment | groundleaf0"
+    ]
+  },
+  {
+    "name": "R02 low groundcover leaf clusters 1",
+    "type": "MESH",
+    "verts": 55476,
+    "materials": [
+      "R02 environment | groundleaf1"
+    ]
+  },
+  {
+    "name": "R02 low groundcover leaf clusters 2",
+    "type": "MESH",
+    "verts": 55782,
+    "materials": [
+      "R02 environment | groundleaf2"
+    ]
+  },
+  {
+    "name": "R02 net -1.0.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.0.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.0.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.0.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.0.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.0.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.1.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.1.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.1.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.1.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.1.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.1.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.10.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.10.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.10.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.10.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.10.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.10.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.11.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.11.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.11.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.11.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.11.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.11.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.2.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.2.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.2.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.2.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.2.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.2.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.3.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.3.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.3.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.3.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.3.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.3.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.4.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.4.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.4.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.4.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.4.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.4.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.5.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.5.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.5.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.5.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.5.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.5.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.6.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.6.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.6.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.6.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.6.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.6.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.7.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.7.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.7.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.7.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.7.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.7.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.8.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.8.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.8.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.8.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.8.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.8.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.9.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.9.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net -1.9.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.9.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net -1.9.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net -1.9.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.0.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.0.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.0.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.0.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.0.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.0.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.1.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.1.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.1.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.1.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.1.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.1.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.10.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.10.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.10.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.10.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.10.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.10.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.11.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.11.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.11.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.11.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.11.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.11.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.2.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.2.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.2.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.2.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.2.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.2.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.3.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.3.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.3.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.3.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.3.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.3.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.4.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.4.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.4.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.4.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.4.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.4.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.5.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.5.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.5.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.5.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.5.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.5.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.6.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.6.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.6.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.6.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.6.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.6.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.7.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.7.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.7.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.7.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.7.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.7.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.8.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.8.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.8.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.8.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.8.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.8.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.9.0.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.9.0.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net off white"
+    ]
+  },
+  {
+    "name": "R02 net 1.9.1.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.9.1.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net muted red"
+    ]
+  },
+  {
+    "name": "R02 net 1.9.2.open",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net 1.9.2.reference",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "R02 | net navy"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.0",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.1",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.10",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.11",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.2",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.3",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.4",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.5",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.6",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.7",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.8",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.open.9",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.0",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.1",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.10",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.11",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.2",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.3",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.4",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.5",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.6",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.7",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.8",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 net hook.reference.9",
+    "type": "CURVE",
+    "verts": 0,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "R02 observed low plaza wave outside court",
+    "type": "MESH",
+    "verts": 865,
+    "materials": [
+      "R02 environment | ivory_wave"
+    ]
+  },
+  {
+    "name": "R02 organic planted ground",
+    "type": "MESH",
+    "verts": 480,
+    "materials": [
+      "R02 environment | soil"
+    ]
+  },
+  {
+    "name": "R02 pale signage and sculptural loop",
+    "type": "MESH",
+    "verts": 2400,
+    "materials": [
+      "R02 environment | sign_white"
+    ]
+  },
+  {
+    "name": "R02 plaza discreet fixtures",
+    "type": "MESH",
+    "verts": 792,
+    "materials": [
+      "R02 environment | fixture"
+    ]
+  },
+  {
+    "name": "R02 plaza metal tables and stools",
+    "type": "MESH",
+    "verts": 2880,
+    "materials": [
+      "R02 environment | furniture"
+    ]
+  },
+  {
+    "name": "R02 scattered grey stone inserts",
+    "type": "MESH",
+    "verts": 512,
+    "materials": [
+      "R02 environment | stone_insert"
+    ]
+  },
+  {
+    "name": "R02 shelter bright thin lips",
+    "type": "MESH",
+    "verts": 1296,
+    "materials": [
+      "R02 environment | canopy_lip"
+    ]
+  },
+  {
+    "name": "R02 shrub leaves 0",
+    "type": "MESH",
+    "verts": 31075,
+    "materials": [
+      "R02 environment | shrub0"
+    ]
+  },
+  {
+    "name": "R02 shrub leaves 1",
+    "type": "MESH",
+    "verts": 29870,
+    "materials": [
+      "R02 environment | shrub1"
+    ]
+  },
+  {
+    "name": "R02 shrub leaves 2",
+    "type": "MESH",
+    "verts": 30430,
+    "materials": [
+      "R02 environment | shrub2"
+    ]
+  },
+  {
+    "name": "R02 shrub twig structure",
+    "type": "MESH",
+    "verts": 3400,
+    "materials": [
+      "R02 environment | twig"
+    ]
+  },
+  {
+    "name": "R02 slender circular canopy posts",
+    "type": "MESH",
+    "verts": 1088,
+    "materials": [
+      "R02 environment | canopy_metal"
+    ]
+  },
+  {
+    "name": "R02 soft grey plaza transition",
+    "type": "MESH",
+    "verts": 130,
+    "materials": [
+      "R02 environment | silver_paving",
+      "Court | editable artwork"
+    ]
+  },
+  {
+    "name": "R02 trees branching trunks",
+    "type": "MESH",
+    "verts": 3836,
+    "materials": [
+      "R02 environment | bark"
+    ]
+  },
+  {
+    "name": "R02 white allium flower stems",
+    "type": "MESH",
+    "verts": 64672,
+    "materials": [
+      "R02 environment | flower_stem"
+    ]
+  },
+  {
+    "name": "R02 willow branches",
+    "type": "MESH",
+    "verts": 716,
+    "materials": [
+      "R02 environment | willow_bark"
+    ]
+  },
+  {
+    "name": "R02 willow hanging filaments",
+    "type": "MESH",
+    "verts": 27456,
+    "materials": [
+      "R02 environment | twig"
+    ]
+  },
+  {
+    "name": "R02 willow leaves 0",
+    "type": "MESH",
+    "verts": 56700,
+    "materials": [
+      "R02 environment | willow0"
+    ]
+  },
+  {
+    "name": "R02 willow leaves 1",
+    "type": "MESH",
+    "verts": 56475,
+    "materials": [
+      "R02 environment | willow1"
+    ]
+  },
+  {
+    "name": "R02 willow leaves 2",
+    "type": "MESH",
+    "verts": 56315,
+    "materials": [
+      "R02 environment | willow2"
+    ]
+  },
+  {
+    "name": "R03 allium fallen petal highlights",
+    "type": "MESH",
+    "verts": 175,
+    "materials": [
+      "R03 | flower soft ivory"
+    ]
+  },
+  {
+    "name": "R03 bolt head recess marks.open",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R03 | machining recess"
+    ]
+  },
+  {
+    "name": "R03 bolt head recess marks.reference",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R03 | machining recess"
+    ]
+  },
+  {
+    "name": "R03 canopy bench recessed fasteners",
+    "type": "MESH",
+    "verts": 1280,
+    "materials": [
+      "R03 | steel edge highlights"
+    ]
+  },
+  {
+    "name": "R03 canopy bench screw slots",
+    "type": "MESH",
+    "verts": 640,
+    "materials": [
+      "R03 | machining recess"
+    ]
+  },
+  {
+    "name": "R03 machined collars and hex heads.open",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R03 | steel edge highlights"
+    ]
+  },
+  {
+    "name": "R03 machined collars and hex heads.reference",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R03 | steel edge highlights"
+    ]
+  },
+  {
+    "name": "R03 plaza drain dark slots",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R03 | drain recess"
+    ]
+  },
+  {
+    "name": "R03 plaza drain grate bars",
+    "type": "MESH",
+    "verts": 432,
+    "materials": [
+      "R03 | drain cast iron"
+    ]
+  },
+  {
+    "name": "R03 small fallen olive leaves",
+    "type": "MESH",
+    "verts": 60,
+    "materials": [
+      "R03 | leaf dry olive"
+    ]
+  },
+  {
+    "name": "R03 small fallen tan leaves",
+    "type": "MESH",
+    "verts": 60,
+    "materials": [
+      "R03 | leaf warm tan"
+    ]
+  },
+  {
+    "name": "R03 small flowerbed aggregate",
+    "type": "MESH",
+    "verts": 1680,
+    "materials": [
+      "R03 | small bed stones"
+    ]
+  },
+  {
+    "name": "R03 support weld beads.open",
+    "type": "MESH",
+    "verts": 1032,
+    "materials": [
+      "R03 | weld grey"
+    ]
+  },
+  {
+    "name": "R03 support weld beads.reference",
+    "type": "MESH",
+    "verts": 1032,
+    "materials": [
+      "R03 | weld grey"
+    ]
+  },
+  {
+    "name": "R03 woven net filament band 0.open",
+    "type": "MESH",
+    "verts": 8064,
+    "materials": [
+      "R03 | braid off white"
+    ]
+  },
+  {
+    "name": "R03 woven net filament band 0.reference",
+    "type": "MESH",
+    "verts": 8064,
+    "materials": [
+      "R03 | braid off white"
+    ]
+  },
+  {
+    "name": "R03 woven net filament band 1.open",
+    "type": "MESH",
+    "verts": 11328,
+    "materials": [
+      "R03 | braid red"
+    ]
+  },
+  {
+    "name": "R03 woven net filament band 1.reference",
+    "type": "MESH",
+    "verts": 11328,
+    "materials": [
+      "R03 | braid red"
+    ]
+  },
+  {
+    "name": "R03 woven net filament band 2.open",
+    "type": "MESH",
+    "verts": 6720,
+    "materials": [
+      "R03 | braid navy"
+    ]
+  },
+  {
+    "name": "R03 woven net filament band 2.reference",
+    "type": "MESH",
+    "verts": 6720,
+    "materials": [
+      "R03 | braid navy"
+    ]
+  },
+  {
+    "name": "R08 board corner safety pad 0.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | charcoal moulded lower board padding"
+    ]
+  },
+  {
+    "name": "R08 board corner safety pad 0.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | charcoal moulded lower board padding"
+    ]
+  },
+  {
+    "name": "R08 board corner safety pad 1.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | charcoal moulded lower board padding"
+    ]
+  },
+  {
+    "name": "R08 board corner safety pad 1.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | charcoal moulded lower board padding"
+    ]
+  },
+  {
+    "name": "R08 board lower safety pad.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | charcoal moulded lower board padding"
+    ]
+  },
+  {
+    "name": "R08 board lower safety pad.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | charcoal moulded lower board padding"
+    ]
+  },
+  {
+    "name": "R08 board lower structural rail.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board lower structural rail.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board rear mounting saddle.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board rear mounting saddle.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board side frame +0.8501.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | slim satin silver board frame"
+    ]
+  },
+  {
+    "name": "R08 board side frame +0.8513.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | slim satin silver board frame"
+    ]
+  },
+  {
+    "name": "R08 board side frame -0.8501.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | slim satin silver board frame"
+    ]
+  },
+  {
+    "name": "R08 board side frame -0.8513.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | slim satin silver board frame"
+    ]
+  },
+  {
+    "name": "R08 board top frame.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | slim satin silver board frame"
+    ]
+  },
+  {
+    "name": "R08 board top frame.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | slim satin silver board frame"
+    ]
+  },
+  {
+    "name": "R08 board V brace -1.open",
+    "type": "MESH",
+    "verts": 40,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board V brace -1.reference",
+    "type": "MESH",
+    "verts": 40,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board V brace 1.open",
+    "type": "MESH",
+    "verts": 40,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 board V brace 1.reference",
+    "type": "MESH",
+    "verts": 40,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 connected board fasteners.open",
+    "type": "MESH",
+    "verts": 200,
+    "materials": [
+      "R08 | small dull steel fasteners"
+    ]
+  },
+  {
+    "name": "R08 connected board fasteners.reference",
+    "type": "MESH",
+    "verts": 200,
+    "materials": [
+      "R08 | small dull steel fasteners"
+    ]
+  },
+  {
+    "name": "R08 lower post brace.open",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 lower post brace.reference",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 rear connection lugs.open",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 rear connection lugs.reference",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 round main reach.open",
+    "type": "MESH",
+    "verts": 96,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 round main reach.reference",
+    "type": "MESH",
+    "verts": 96,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 round rear stay -1.open",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 round rear stay -1.reference",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 round rear stay 1.open",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 round rear stay 1.reference",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R08 | muted grey tubular steel"
+    ]
+  },
+  {
+    "name": "R08 seated glass gaskets.open",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R08 | restrained dark board seals"
+    ]
+  },
+  {
+    "name": "R08 seated glass gaskets.reference",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R08 | restrained dark board seals"
+    ]
+  },
+  {
+    "name": "R08 single printed board target.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | flat white board paint"
+    ]
+  },
+  {
+    "name": "R08 single printed board target.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R08 | flat white board paint"
+    ]
+  },
+  {
+    "name": "R08 threaded rear stay end -1.open",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R08 | small dull steel fasteners"
+    ]
+  },
+  {
+    "name": "R08 threaded rear stay end -1.reference",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R08 | small dull steel fasteners"
+    ]
+  },
+  {
+    "name": "R08 threaded rear stay end 1.open",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R08 | small dull steel fasteners"
+    ]
+  },
+  {
+    "name": "R08 threaded rear stay end 1.reference",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R08 | small dull steel fasteners"
+    ]
+  },
+  {
+    "name": "R09 A capsule enclosure.left",
+    "type": "MESH",
+    "verts": 164,
+    "materials": [
+      "R09 | A sign charcoal enclosure"
+    ]
+  },
+  {
+    "name": "R09 A capsule enclosure.right",
+    "type": "MESH",
+    "verts": 164,
+    "materials": [
+      "R09 | A sign charcoal enclosure"
+    ]
+  },
+  {
+    "name": "R09 A inner letter channel.left",
+    "type": "MESH",
+    "verts": 110,
+    "materials": [
+      "R09 | A sign dark strip channel"
+    ]
+  },
+  {
+    "name": "R09 A inner letter channel.right",
+    "type": "MESH",
+    "verts": 110,
+    "materials": [
+      "R09 | A sign dark strip channel"
+    ]
+  },
+  {
+    "name": "R09 A inner white diffuser.left",
+    "type": "MESH",
+    "verts": 110,
+    "materials": [
+      "R09 | A sign unlit white diffuser"
+    ]
+  },
+  {
+    "name": "R09 A inner white diffuser.right",
+    "type": "MESH",
+    "verts": 110,
+    "materials": [
+      "R09 | A sign unlit white diffuser"
+    ]
+  },
+  {
+    "name": "R09 A recessed channel -1.left",
+    "type": "MESH",
+    "verts": 792,
+    "materials": [
+      "R09 | A sign dark strip channel"
+    ]
+  },
+  {
+    "name": "R09 A recessed channel -1.right",
+    "type": "MESH",
+    "verts": 792,
+    "materials": [
+      "R09 | A sign dark strip channel"
+    ]
+  },
+  {
+    "name": "R09 A recessed channel 1.left",
+    "type": "MESH",
+    "verts": 792,
+    "materials": [
+      "R09 | A sign dark strip channel"
+    ]
+  },
+  {
+    "name": "R09 A recessed channel 1.right",
+    "type": "MESH",
+    "verts": 792,
+    "materials": [
+      "R09 | A sign dark strip channel"
+    ]
+  },
+  {
+    "name": "R09 A stand-off brackets.left",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R09 | A sign brackets"
+    ]
+  },
+  {
+    "name": "R09 A stand-off brackets.right",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R09 | A sign brackets"
+    ]
+  },
+  {
+    "name": "R09 A unlit diffuser -1.left",
+    "type": "MESH",
+    "verts": 726,
+    "materials": [
+      "R09 | A sign unlit white diffuser"
+    ]
+  },
+  {
+    "name": "R09 A unlit diffuser -1.right",
+    "type": "MESH",
+    "verts": 726,
+    "materials": [
+      "R09 | A sign unlit white diffuser"
+    ]
+  },
+  {
+    "name": "R09 A unlit diffuser 1.left",
+    "type": "MESH",
+    "verts": 726,
+    "materials": [
+      "R09 | A sign unlit white diffuser"
+    ]
+  },
+  {
+    "name": "R09 A unlit diffuser 1.right",
+    "type": "MESH",
+    "verts": 726,
+    "materials": [
+      "R09 | A sign unlit white diffuser"
+    ]
+  },
+  {
+    "name": "R10 left tall floodlight housings and brackets",
+    "type": "MESH",
+    "verts": 360,
+    "materials": [
+      "R10 | floodlight dark metal housings"
+    ]
+  },
+  {
+    "name": "R10 left tall floodlight mechanical fixings",
+    "type": "MESH",
+    "verts": 176,
+    "materials": [
+      "R10 | floodlight small fixing metal"
+    ]
+  },
+  {
+    "name": "R10 left tall floodlight non-emitting lens faces",
+    "type": "MESH",
+    "verts": 40,
+    "materials": [
+      "R10 | floodlight unlit lens faces"
+    ]
+  },
+  {
+    "name": "R10 left tall floodlight tapered mast",
+    "type": "MESH",
+    "verts": 372,
+    "materials": [
+      "R10 | tall floodlight coated mast"
+    ]
+  },
+  {
+    "name": "R11 Chilis building alcove cafe descriptor",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R11 Chilis | warm lettering"
+    ]
+  },
+  {
+    "name": "R11 Chilis building alcove established date",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R11 Chilis | warm lettering"
+    ]
+  },
+  {
+    "name": "R11 Chilis building alcove logo fine golden edge",
+    "type": "MESH",
+    "verts": 3904,
+    "materials": [
+      "R11 Chilis | logo edge"
+    ]
+  },
+  {
+    "name": "R11 Chilis building alcove logo green pepper apostrophe",
+    "type": "MESH",
+    "verts": 580,
+    "materials": [
+      "R11 Chilis | logo green"
+    ]
+  },
+  {
+    "name": "R11 Chilis building alcove logo warm orange letter bodies",
+    "type": "MESH",
+    "verts": 488,
+    "materials": [
+      "R11 Chilis | logo orange"
+    ]
+  },
+  {
+    "name": "R11 Chilis building continuous original curved folded eaves",
+    "type": "MESH",
+    "verts": 3030,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building curved flank individual silver ribs",
+    "type": "MESH",
+    "verts": 928,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building curved flank slender mullions",
+    "type": "MESH",
+    "verts": 128,
+    "materials": [
+      "R11 Chilis | black frame"
+    ]
+  },
+  {
+    "name": "R11 Chilis building curved flank upper glazing",
+    "type": "MESH",
+    "verts": 330,
+    "materials": [
+      "R11 Chilis | upper glazing"
+    ]
+  },
+  {
+    "name": "R11 Chilis building elevator call plate",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis | black frame"
+    ]
+  },
+  {
+    "name": "R11 Chilis building elevator deep metal jambs",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building elevator two brushed door leaves",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R11 Chilis | elevator steel"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry CAFE AND BAR",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R11 Chilis | warm lettering"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry clear window and door perimeter seams",
+    "type": "MESH",
+    "verts": 296,
+    "materials": [
+      "R11 Chilis | clear weather screen"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry concave rolled silver pilasters",
+    "type": "MESH",
+    "verts": 164,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry cornice narrow reveal",
+    "type": "MESH",
+    "verts": 164,
+    "materials": [
+      "R11 Chilis | metal shadow"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry cream retractable canvas and scalloped valance",
+    "type": "MESH",
+    "verts": 405,
+    "materials": [
+      "R11 Chilis | canvas"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry door transom and narrow reveals",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis | metal shadow"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry EST 1975",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R11 Chilis | warm lettering"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry exact Chinese canvas inscription",
+    "type": "MESH",
+    "verts": 6560,
+    "materials": [
+      "R11 Chilis | letter black"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry grey staggered stone course 0",
+    "type": "MESH",
+    "verts": 152,
+    "materials": [
+      "R11 Chilis | entry stone 0"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry grey staggered stone course 1",
+    "type": "MESH",
+    "verts": 148,
+    "materials": [
+      "R11 Chilis | entry stone 1"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry grey staggered stone course 2",
+    "type": "MESH",
+    "verts": 148,
+    "materials": [
+      "R11 Chilis | entry stone 2"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry hinged retractable awning frame",
+    "type": "MESH",
+    "verts": 412,
+    "materials": [
+      "R11 Chilis | awning steel"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry local grey stone mortar bedding",
+    "type": "MESH",
+    "verts": 98,
+    "materials": [
+      "R11 Chilis | entry joint"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry logo fine golden edge",
+    "type": "MESH",
+    "verts": 3904,
+    "materials": [
+      "R11 Chilis | logo edge"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry logo green pepper apostrophe",
+    "type": "MESH",
+    "verts": 580,
+    "materials": [
+      "R11 Chilis | logo green"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry logo warm orange letter bodies",
+    "type": "MESH",
+    "verts": 488,
+    "materials": [
+      "R11 Chilis | logo orange"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry narrow vertical diffuser strips unlit",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R11 Chilis | diffuser"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry paired long door pulls hinges and threshold",
+    "type": "MESH",
+    "verts": 144,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry pilaster folded seam flanges",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R11 Chilis | silver dark"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry sewn canvas seams",
+    "type": "MESH",
+    "verts": 140,
+    "materials": [
+      "R11 Chilis | canvas seam"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry shallow interior dark mineral floor",
+    "type": "MESH",
+    "verts": 98,
+    "materials": [
+      "R11 Chilis | entry joint"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry shallow interior warm back plane",
+    "type": "MESH",
+    "verts": 130,
+    "materials": [
+      "R11 Chilis | interior warm wall"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry shallow interior warm timber planes",
+    "type": "MESH",
+    "verts": 322,
+    "materials": [
+      "R11 Chilis | interior wood"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry slender black window and double door frames",
+    "type": "MESH",
+    "verts": 144,
+    "materials": [
+      "R11 Chilis | black frame"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry solid dusty mauve sign panel",
+    "type": "MESH",
+    "verts": 122,
+    "materials": [
+      "R11 Chilis | mauve fascia"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry three folded cornice rails",
+    "type": "MESH",
+    "verts": 2136,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry visible interior table legs",
+    "type": "MESH",
+    "verts": 64,
+    "materials": [
+      "R11 Chilis | black frame"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry visible low green upholstered benches",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R11 Chilis | interior green upholstery"
+    ]
+  },
+  {
+    "name": "R11 Chilis building entry visible shallow wood table tops",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R11 Chilis | interior tabletop"
+    ]
+  },
+  {
+    "name": "R11 Chilis building fine vertical red terracotta tile joints",
+    "type": "MESH",
+    "verts": 480,
+    "materials": [
+      "R11 Chilis | terracotta grout"
+    ]
+  },
+  {
+    "name": "R11 Chilis building red terracotta recessed elevator walls",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R11 Chilis | terracotta"
+    ]
+  },
+  {
+    "name": "R11 Chilis building retained curved restaurant envelope",
+    "type": "MESH",
+    "verts": 119,
+    "materials": [
+      "R11 Chilis | roof stone"
+    ]
+  },
+  {
+    "name": "R11 Chilis building roof louvre fine reveal borders",
+    "type": "MESH",
+    "verts": 96,
+    "materials": [
+      "R11 Chilis | silver dark"
+    ]
+  },
+  {
+    "name": "R11 Chilis building roof louvre pitched blades",
+    "type": "MESH",
+    "verts": 108,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace CAFE AND BAR",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R11 Chilis | warm lettering"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace concave rolled silver pilasters",
+    "type": "MESH",
+    "verts": 164,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace continuous interior red floor",
+    "type": "MESH",
+    "verts": 4,
+    "materials": [
+      "R11 Chilis | interior red floor"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace cornice narrow reveal",
+    "type": "MESH",
+    "verts": 164,
+    "materials": [
+      "R11 Chilis | metal shadow"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace cream retractable canvas and scalloped valance",
+    "type": "MESH",
+    "verts": 405,
+    "materials": [
+      "R11 Chilis | canvas"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace EST 1975",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "R11 Chilis | warm lettering"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace exact Chinese canvas inscription",
+    "type": "MESH",
+    "verts": 6560,
+    "materials": [
+      "R11 Chilis | letter black"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace fin backing recessed shadow",
+    "type": "MESH",
+    "verts": 82,
+    "materials": [
+      "R11 Chilis | metal shadow"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace five wide weather screen edge strips",
+    "type": "MESH",
+    "verts": 160,
+    "materials": [
+      "R11 Chilis | clear weather screen"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace hinged retractable awning frame",
+    "type": "MESH",
+    "verts": 300,
+    "materials": [
+      "R11 Chilis | awning steel"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace individually folded vertical facade fins",
+    "type": "MESH",
+    "verts": 414,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace inner low wood wainscot",
+    "type": "MESH",
+    "verts": 4,
+    "materials": [
+      "R11 Chilis | interior wood"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace inner warm plaster return wall",
+    "type": "MESH",
+    "verts": 4,
+    "materials": [
+      "R11 Chilis | interior warm wall"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace logo fine golden edge",
+    "type": "MESH",
+    "verts": 3904,
+    "materials": [
+      "R11 Chilis | logo edge"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace logo green pepper apostrophe",
+    "type": "MESH",
+    "verts": 580,
+    "materials": [
+      "R11 Chilis | logo green"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace logo warm orange letter bodies",
+    "type": "MESH",
+    "verts": 488,
+    "materials": [
+      "R11 Chilis | logo orange"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace lower clear screen seams",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis | screen ivory"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace narrow vertical diffuser strips unlit",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R11 Chilis | diffuser"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace pilaster folded seam flanges",
+    "type": "MESH",
+    "verts": 48,
+    "materials": [
+      "R11 Chilis | silver dark"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace roof projection solid body and folded cap",
+    "type": "MESH",
+    "verts": 16,
+    "materials": [
+      "R11 Chilis | roof stone"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace sewn canvas seams",
+    "type": "MESH",
+    "verts": 100,
+    "materials": [
+      "R11 Chilis | canvas seam"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace slender ivory weather screen mullions",
+    "type": "MESH",
+    "verts": 64,
+    "materials": [
+      "R11 Chilis | screen ivory"
+    ]
+  },
+  {
+    "name": "R11 Chilis building terrace three folded cornice rails",
+    "type": "MESH",
+    "verts": 2136,
+    "materials": [
+      "R11 Chilis | brushed silver"
+    ]
+  },
+  {
+    "name": "R11 Chilis building three roof louvre framed recesses",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R11 Chilis | roof recess"
+    ]
+  },
+  {
+    "name": "R11 Chilis building unmodified extent flank curved glass",
+    "type": "MESH",
+    "verts": 330,
+    "materials": [
+      "R11 Chilis | store glazing"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace clipped planter foliage",
+    "type": "MESH",
+    "verts": 2100,
+    "materials": [
+      "R11 Chilis terrace | topiary leaves"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace curved chair champagne tube frames",
+    "type": "MESH",
+    "verts": 5248,
+    "materials": [
+      "R11 Chilis terrace | champagne chair frames"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace curved chair pale diagonal weave",
+    "type": "MESH",
+    "verts": 16896,
+    "materials": [
+      "R11 Chilis terrace | woven cream filaments"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace curved chair woven red bodies",
+    "type": "MESH",
+    "verts": 3728,
+    "materials": [
+      "R11 Chilis terrace | red wicker"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry advertising broad pale shapes",
+    "type": "MESH",
+    "verts": 36,
+    "materials": [
+      "R11 Chilis terrace | poster pale print"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry advertising broad red shapes",
+    "type": "MESH",
+    "verts": 24,
+    "materials": [
+      "R11 Chilis terrace | poster red print"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry cabinet restrained wood grain",
+    "type": "MESH",
+    "verts": 168,
+    "materials": [
+      "R11 Chilis terrace | host desk subtle grain"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry cabinet small feet",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R11 Chilis terrace | black coated metal"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry hinged menu stands",
+    "type": "MESH",
+    "verts": 324,
+    "materials": [
+      "R11 Chilis terrace | black coated metal"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry lectern fine page divisions",
+    "type": "MESH",
+    "verts": 56,
+    "materials": [
+      "R11 Chilis terrace | poster coffee panel"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry lectern pale menu paper",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis terrace | poster pale print"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry oak welcome cabinet",
+    "type": "MESH",
+    "verts": 40,
+    "materials": [
+      "R11 Chilis terrace | host desk oak"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry poster panel 0",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis terrace | poster warm panel"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry poster panel 1",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis terrace | poster coffee panel"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry poster panel 2",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "R11 Chilis terrace | poster coffee panel"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace entry separate sloped menu lectern",
+    "type": "MESH",
+    "verts": 32,
+    "materials": [
+      "R11 Chilis terrace | black coated metal"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace fountain small blue inner mosaic",
+    "type": "MESH",
+    "verts": 1624,
+    "materials": [
+      "R11 Chilis terrace | fountain blue tiles"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace fountain small pale inner mosaic",
+    "type": "MESH",
+    "verts": 1960,
+    "materials": [
+      "R11 Chilis terrace | fountain pale tiles"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace fountain still recessed basin",
+    "type": "MESH",
+    "verts": 144,
+    "materials": [
+      "R11 Chilis terrace | still basin water"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace parasol beige summer canvas",
+    "type": "MESH",
+    "verts": 56,
+    "materials": [
+      "R11 Chilis terrace | beige parasol canvas"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace parasol cantilever masts ribs and fixed feet",
+    "type": "MESH",
+    "verts": 284,
+    "materials": [
+      "R11 Chilis terrace | black coated metal"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace parasol fine panel seams",
+    "type": "MESH",
+    "verts": 64,
+    "materials": [
+      "R11 Chilis terrace | parasol canvas seams"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace parasol visible floor anchors",
+    "type": "MESH",
+    "verts": 96,
+    "materials": [
+      "R11 Chilis terrace | brushed fixing bolts"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace sage vase planters",
+    "type": "MESH",
+    "verts": 448,
+    "materials": [
+      "R11 Chilis terrace | planter sage ceramic"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace square mosaic table black frames",
+    "type": "MESH",
+    "verts": 1376,
+    "materials": [
+      "R11 Chilis terrace | black coated metal"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace square mosaic table dark inserts",
+    "type": "MESH",
+    "verts": 1728,
+    "materials": [
+      "R11 Chilis terrace | table tile deep red"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace square mosaic table fine grout",
+    "type": "MESH",
+    "verts": 64,
+    "materials": [
+      "R11 Chilis terrace | table tile light grid"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace square mosaic table ochre inserts",
+    "type": "MESH",
+    "verts": 3456,
+    "materials": [
+      "R11 Chilis terrace | table tile ochre"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace three tier fountain carved limestone",
+    "type": "MESH",
+    "verts": 5664,
+    "materials": [
+      "R11 Chilis terrace | fountain limestone"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace warm red square terrace tile variants",
+    "type": "MESH",
+    "verts": 180,
+    "materials": [
+      "R11 Chilis terrace | terrace brick variation"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace warm red square terrace tiles",
+    "type": "MESH",
+    "verts": 716,
+    "materials": [
+      "R11 Chilis terrace | terrace warm brick"
+    ]
+  },
+  {
+    "name": "R11 Chilis terrace warm red terrace grout bed",
+    "type": "MESH",
+    "verts": 80,
+    "materials": [
+      "R11 Chilis terrace | terrace red grout"
+    ]
+  },
+  {
+    "name": "reference_half",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "Rim connector.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "Rim connector.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "Rim mounting plate.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "Rim mounting plate.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "Rim.open",
+    "type": "MESH",
+    "verts": 1152,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "Rim.reference",
+    "type": "MESH",
+    "verts": 1152,
+    "materials": [
+      "Hoops | vermilion rim"
+    ]
+  },
+  {
+    "name": "rim_top_center.open",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "rim_top_center.reference",
+    "type": "EMPTY",
+    "verts": 0,
+    "materials": []
+  },
+  {
+    "name": "South partial fence diamond mesh",
+    "type": "MESH",
+    "verts": 816,
+    "materials": [
+      "Fence | fine steel mesh"
+    ]
+  },
+  {
+    "name": "South partial fence horizontal 0.72",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence horizontal 2.04",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence horizontal 3.68",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence NBA ATELIER panel 0",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "South partial fence NBA ATELIER panel 1",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "South partial fence NBA ATELIER panel 2",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "South partial fence NBA ATELIER panel 3",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "South partial fence NBA ATELIER panel 4",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "South partial fence NBA ATELIER panel 5",
+    "type": "MESH",
+    "verts": 522,
+    "materials": [
+      "Fence | near-black NBA panels"
+    ]
+  },
+  {
+    "name": "South partial fence panel mark 0",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "South partial fence panel mark 1",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "South partial fence panel mark 2",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "South partial fence panel mark 3",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "South partial fence panel mark 4",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "South partial fence panel mark 5",
+    "type": "FONT",
+    "verts": 0,
+    "materials": [
+      "Hoops | white board markings"
+    ]
+  },
+  {
+    "name": "South partial fence post 0",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence post 1",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence post 2",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence post 3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence post 4",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence post 5",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "South partial fence post 6",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Fence | grey framework"
+    ]
+  },
+  {
+    "name": "Support upright.open",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | brushed grey steel"
+    ]
+  },
+  {
+    "name": "Support upright.reference",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Hoops | brushed grey steel"
+    ]
+  },
+  {
+    "name": "Tower fine vertical -3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower fine vertical -6",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower fine vertical 0",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower fine vertical 3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower fine vertical 6",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 12",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 15",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 18",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 21",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 24",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 27",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 3",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 30",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 33",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 36",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 6",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  },
+  {
+    "name": "Tower horizontal 9",
+    "type": "MESH",
+    "verts": 8,
+    "materials": [
+      "Skyline | muted window divisions"
+    ]
+  }
+]

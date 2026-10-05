@@ -1,0 +1,54 @@
+{
+  "gmail_message_id": "1a10806ad9e1199b",
+  "original_filename": "左长围栏_旧源局部连续8图.zip",
+  "source": "Original Gmail raw MIME; original attachment preserved",
+  "bytes": 5009100,
+  "sha256": "d68bd195ccdc36116a12e2071b0ea1f2f2290faf9884539335ee6553ec95e679",
+  "crc": "passed",
+  "entries": [
+    {
+      "name": "selected/05_B段_沿左围栏右移_00-20.75.png",
+      "bytes": 582096
+    },
+    {
+      "name": "selected/01_A段_斜看左围栏与篮筐_00-14.30.png",
+      "bytes": 693776
+    },
+    {
+      "name": "selected/08_泥靴外观补充_03-32.525.jpg",
+      "bytes": 104588
+    },
+    {
+      "name": "selected/07_C段_另一斜角固定围栏关系_00-26.35.png",
+      "bytes": 590833
+    },
+    {
+      "name": "selected/03_A段_篮下斜向看左围网_00-16.25.png",
+      "bytes": 652166
+    },
+    {
+      "name": "selected/04_B段_正对左围栏全幅_00-20.25.png",
+      "bytes": 567065
+    },
+    {
+      "name": "selected/06_B段_左围栏接篮筐端_00-21.25.png",
+      "bytes": 574371
+    },
+    {
+      "name": "selected/02_A段_左围栏到篮下转角_00-15.30.png",
+      "bytes": 638238
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 8558
+    },
+    {
+      "name": "来源与方位说明.txt",
+      "bytes": 2101
+    },
+    {
+      "name": "左长围栏_连续帧总览.jpg",
+      "bytes": 636653
+    }
+  ]
+}

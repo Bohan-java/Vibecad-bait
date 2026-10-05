@@ -1,0 +1,114 @@
+{
+  "revision": "R12",
+  "game_tested": false,
+  "bench_marker_reference_scne_sha256": "8aaf539ce26d77f6b1511075b30bb7baa18c3430469b20a408b93303485e15b6",
+  "native_unrotated_player_and_chair": {
+    "path": "../build/high_hoop/reference/gamedata.iff",
+    "scene": "centercourt_chair.SCNE",
+    "scene_sha256": "b68076a1bb4a7c9304d000f39515fa99750d47cc062547231d78e0a68002043d",
+    "player_marker": {
+      "Type": "MARKER",
+      "Target": "myplayer_markerShape",
+      "Color": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "UserText": "cameraman03",
+      "Transform": "myplayer_marker",
+      "Rotate": [
+        0.0,
+        -6.3108871e-32,
+        0.0
+      ],
+      "Translate": [
+        0.0046171248,
+        0.0,
+        5.0962553
+      ],
+      "Scale": [
+        25.0,
+        25.0,
+        25.0
+      ]
+    },
+    "chair_object": {
+      "Type": "OBJECT",
+      "Target": "foldingchair_group"
+    },
+    "high_back_bounds_cm": [
+      [
+        -28.57759666442871,
+        61.80166244506836,
+        -48.09023666381836
+      ],
+      [
+        28.464736938476562,
+        89.91178131103516,
+        -15.654531478881836
+      ]
+    ],
+    "seat_bounds_cm": [
+      [
+        -27.35593032836914,
+        38.014888763427734,
+        -19.425159454345703
+      ],
+      [
+        27.396060943603516,
+        50.35380172729492,
+        28.764049530029297
+      ]
+    ],
+    "observation": "Unrotated folding chair and zero-yaw myplayer marker coexist. Its high back is entirely at negative local Z; the seat extends forward toward +Z."
+  },
+  "native_spectator_chair_crosscheck": {
+    "model": "arena_clutchtime_int_master@arena_clutchtime_int_shared_layout@GameObjects@balcony_chairs@chair_arenacrowd_seatbackcushion_85:chair_arenacrowd_seatbackcushion_low",
+    "back_z_mean_cm": -13.200870614946071,
+    "seat_z_mean_cm": 9.787325293740164,
+    "observation": "Independent native spectator chair has back centroid -13.20cm Z and seat centroid +9.79cm Z; +Z is its visible seat-front side."
+  },
+  "original_named_bench_roles": {
+    "count": 44,
+    "native_x_rows_cm": [
+      1128.88,
+      1222.88
+    ],
+    "yaw_values_rad": [
+      -1.57079637
+    ],
+    "ground_y_values_cm": [
+      0.0
+    ],
+    "court_lateral_center_x_cm": 0.0,
+    "observation": "All 44 role anchors lie on positive game X side and retain the same -pi/2 yaw. Inward from their row is -game X."
+  },
+  "rotation_mapping": {
+    "local_front_native": [
+      0,
+      0,
+      1
+    ],
+    "right_handed_yaw_rad": -1.57079637,
+    "front_game": [
+      -0.9999999999999991,
+      0.0,
+      -4.320510343363759e-08
+    ],
+    "front_source": [
+      -4.320510343363759e-08,
+      -0.9999999999999991,
+      0.0
+    ],
+    "target_source": [
+      0,
+      -1,
+      0
+    ],
+    "angular_error_degrees": 2.4148365394514667e-06
+  },
+  "source_geometry_audit": "validation/r12-seating-direction-geometry.json",
+  "conclusion": "Native chair geometry establishes a +Z local front; the original bench-role location/yaw consistently points toward court -X. That maps to source -Y, which matches all 44 new chairs. No change of yaw or chair geometry is indicated.",
+  "remaining_limit": "A rendered substitute skeleton is not in the cached scene. Blacktop consuming these role markers, character animation forward-axis interpretation, and seated pelvis height cannot be proven from static assets; retain one game check rather than claiming runtime verification."
+}

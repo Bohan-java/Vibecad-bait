@@ -1,0 +1,170 @@
+{
+  "revision": "R12",
+  "status": "passed",
+  "existing_50_entries_unchanged": true,
+  "total": 67,
+  "new_original_byte_copies": 17,
+  "range_left": [
+    51,
+    58
+  ],
+  "range_skyline": [
+    59,
+    67
+  ],
+  "checks": [
+    {
+      "number": 51,
+      "path": "/references/51.png",
+      "sha256": "fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 52,
+      "path": "/references/52.png",
+      "sha256": "fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 53,
+      "path": "/references/53.png",
+      "sha256": "3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 54,
+      "path": "/references/54.png",
+      "sha256": "c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 55,
+      "path": "/references/55.png",
+      "sha256": "387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 56,
+      "path": "/references/56.png",
+      "sha256": "2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 57,
+      "path": "/references/57.png",
+      "sha256": "cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 58,
+      "path": "/references/58.jpg",
+      "sha256": "bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc",
+      "dimensions": [
+        1180,
+        757
+      ]
+    },
+    {
+      "number": 59,
+      "path": "/references/59.png",
+      "sha256": "7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 60,
+      "path": "/references/60.png",
+      "sha256": "7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 61,
+      "path": "/references/61.png",
+      "sha256": "62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 62,
+      "path": "/references/62.png",
+      "sha256": "0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 63,
+      "path": "/references/63.png",
+      "sha256": "221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 64,
+      "path": "/references/64.png",
+      "sha256": "fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 65,
+      "path": "/references/65.png",
+      "sha256": "01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661",
+      "dimensions": [
+        576,
+        1024
+      ]
+    },
+    {
+      "number": 66,
+      "path": "/references/66.jpg",
+      "sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+      "dimensions": [
+        1180,
+        757
+      ]
+    },
+    {
+      "number": 67,
+      "path": "/references/67.jpg",
+      "sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+      "dimensions": [
+        1180,
+        757
+      ]
+    }
+  ]
+}

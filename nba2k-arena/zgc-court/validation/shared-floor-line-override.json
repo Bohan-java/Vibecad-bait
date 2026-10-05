@@ -1,0 +1,202 @@
+{
+  "strategy": "One-main-IFF candidate overriding external shared line texture alpha",
+  "cross_package_selection_verified": false,
+  "game_tested": false,
+  "resources": [
+    "floor_line.71af6dc754935e49.dds",
+    "floor_line_thin.b8e9b0535e40bbaf.dds",
+    "floor_line_double.b070a8a6acc12d69.dds"
+  ],
+  "texture_dictionary_keys": [
+    "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line.png",
+    "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line_thin.png",
+    "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line_double.png"
+  ],
+  "bytes_per_resource": 349700,
+  "payload_sha256": "878afa26b172b4fc04d587c215e3e533414caa13b0ac4a058c94b0616752cf20",
+  "format": "BC7_UNORM",
+  "mips": [
+    {
+      "mip": 0,
+      "width": 512,
+      "height": 512,
+      "payload_bytes": 262144,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 1,
+      "width": 256,
+      "height": 256,
+      "payload_bytes": 65536,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 2,
+      "width": 128,
+      "height": 128,
+      "payload_bytes": 16384,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 3,
+      "width": 64,
+      "height": 64,
+      "payload_bytes": 4096,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 4,
+      "width": 32,
+      "height": 32,
+      "payload_bytes": 1024,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 5,
+      "width": 16,
+      "height": 16,
+      "payload_bytes": 256,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 6,
+      "width": 8,
+      "height": 8,
+      "payload_bytes": 64,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 7,
+      "width": 4,
+      "height": 4,
+      "payload_bytes": 16,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 8,
+      "width": 2,
+      "height": 2,
+      "payload_bytes": 16,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "mip": 9,
+      "width": 1,
+      "height": 1,
+      "payload_bytes": 16,
+      "decoded_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    }
+  ],
+  "native_texture_descriptors_copied_exactly": true,
+  "original_line_materials_expected_affected": [
+    {
+      "material": "floor_700_court:line_2_mat",
+      "pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line_double.png",
+      "alpha_blend": [
+        "SRCALPHA",
+        "INVSRCALPHA"
+      ],
+      "depth_write": 0
+    },
+    {
+      "material": "floor_700_court:line_3_mat",
+      "pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line.png",
+      "alpha_blend": [
+        "SRCALPHA",
+        "INVSRCALPHA"
+      ],
+      "depth_write": 0
+    },
+    {
+      "material": "floor_700_court:line_1_mat",
+      "pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line.png",
+      "alpha_blend": [
+        "SRCALPHA",
+        "INVSRCALPHA"
+      ],
+      "depth_write": 0
+    },
+    {
+      "material": "floor_700_court:line_4_mat",
+      "pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line_thin.png",
+      "alpha_blend": [
+        "SRCALPHA",
+        "INVSRCALPHA"
+      ],
+      "depth_write": 0
+    },
+    {
+      "material": "floor_700_court:line_5_mat",
+      "pixelmap": "%databuild_art_root%/material_library/_generic_textures/courts_shared/floor_line_thin.png",
+      "alpha_blend": [
+        "SRCALPHA",
+        "INVSRCALPHA"
+      ],
+      "depth_write": 0
+    }
+  ],
+  "depth_geometry_shader_and_marker_changes": false,
+  "do_not_rename_native_resource_stems": true,
+  "integration": "Register returned Texture entries in level.SCNE level.Texture and add the three exact-named DDS resources. Do not add a second floor IFF, change floor SCNE or retain the R07 ground depth bias.",
+  "evidence": [
+    "The cached original 700 floor Texture entries point to these three shared TLD resources; its ZIP contains no corresponding TLD/DDS payloads.",
+    "Native floor line materials use source-alpha blending and disable depth writes; transparent albedo alpha is a plausible way to remove color without hiding player markers.",
+    "Every mip decodes to white RGB with zero alpha in an independent Pillow BC7 decoder."
+  ],
+  "limitations": [
+    "Main-IFF registration may not supersede a shared texture already loaded through the separate floor package; no loader code or runtime experiment establishes its priority.",
+    "Native floor HLSL has not been decompiled; alpha usage is inferred from its texture range, named albedo slot and native blend states.",
+    "Other simultaneously loaded courts that use these same shared texture IDs may also lose their lines if the override is global.",
+    "This is a low-impact resource-selection candidate, not a claim that the single-file external-floor problem is solved."
+  ]
+}

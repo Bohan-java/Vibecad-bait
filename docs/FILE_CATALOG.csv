@@ -1,0 +1,424 @@
+﻿path,bytes,sha256,purpose
+nba2k-arena/zgc-court/artwork/ARTWORK_NOTES.txt,1204,6e7ac7a9b435f7caef09b1be58c54c9d45aa5fe5d50ea4fb8af5b86f4cff5e99,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/court.png,6565154,205b66efd7975f278a0d93cffefc2f97a81f2e118be5870edbaee0a9426ebdf7,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/court.svg,42262,67283ea8e589f34f3dcebeb904b5d577a4a76af81fa350ea2521d97b8d166f07,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/paving-atlas.png,26785585,9c3a95e97db046f3d9bfc195a7b9a75960f1745288762554e06a76850097e8d6,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/paving-atlas.svg,60526,3143fe7f76e87bcc082a2fcf2c89a502068aeff65f07679f300d57b5704c52c0,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/paving-context.svg,18271,79893cec6d2e8af0430deb8c5196e09a2ebea1412467b94ec67b1e05fcd104e6,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/PAVING_ATLAS_NOTES.txt,1927,edc7b31a30509b202e03e78fa585a2c1b7772994eb4f0000f5ad941674b3f29d,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/artwork/R02_NOTES.txt,2668,73b09cd74f16cc772f3ad6bd03b5842359148d93bb49ea7a6fd251d6e16fe32b,可编辑地面 SVG、栅格化图案和铺地合成图。
+nba2k-arena/zgc-court/config/project.json,7526,a4e04d6898f5120068d4669e127ee164a8dad10152be5477418ad175bbdb3022,项目尺度、路径、构建及相机配置；迁移时需调整本机工具路径。
+nba2k-arena/zgc-court/logs/20261005T045109359Z-beefe91f.log,105121,749fecd7c9ca540054fe6f93fbdde148ca1467cb57b03f9adfd7edd42e68e42c,当前源模型导出日志，用于定位导出错误。
+nba2k-arena/zgc-court/output/arena_700_int.iff,1685622410,9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622,唯一当前游戏交付；只将此 arena_700_int.iff 放入用户使用的 levels。
+nba2k-arena/zgc-court/package-lock.json,562,4f96169c93aea0d01dd2aa9fe62d7ae6ac6e862c2a5bb7a0ae5a3add3b7bca3a,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/package.json,326,91f93d3c7507bc3cfd4fb8b3d2896d7975700f3970776328833c7ba2867279a3,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/preview/app.js,30941,c36f256298d7bbdd82c06e1ed88675ca6c6951f0f962379c5a014f6a33070f36,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/index.html,7845,05b4cafe3f8887ba943e08caab772aff3cad037d40beaed919aa08bf7e7a09a8,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/style.css,12097,7ccd0d4bd020891d1822c34d384a573e143081ff8ce901e85fa34fea1a469c82,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/texture-pipeline.js,5900,6b5e61464e43bc09ad911ff84f847a24f74a106b11ad3852ac4381a38972096b,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/texture-runtime-report.json,218649,d66ddf449ecdaa1e5455f4f015e35444c9595b0572f26d79ee64449c2b50a415,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/build/three.core.js,1403455,eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/build/three.module.js,603113,c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/examples/jsm/controls/OrbitControls.js,38703,b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/examples/jsm/loaders/GLTFLoader.js,114739,67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/examples/jsm/utils/BufferGeometryUtils.js,35539,fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/LICENSE,1081,bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three/package.json,4635,aa42494664dba4cf76d89c6975ee38321a402f09a048672e190bad6f13beec93,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/vendor/three-0.180.0.tgz,7750248,ad66d724565ee29a2467277fa84daa5ed0211d6b8d446e9ef29f6bae0cd14144,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/preview/verify-texture-pipeline.mjs,5821,0d15984008e807e5da1b40a24f1c2e087c7835c51662d68add68d65ec0e16109,本地网页界面、Three.js 依赖、照片对照和相机控制。
+nba2k-arena/zgc-court/PROJECT_STATUS.txt,2093,468902bc0130e4ffc414a540f3d5c2062b676ac8345c7073ab370d10802729fa,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/public/builds/20261005T045109359Z-beefe91f/build.json,2358,7d0771395b93798d2b7c0a234b7b23a31d1bf827639d57d2926c09d9387e93e4,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/builds/20261005T045109359Z-beefe91f/scene.glb,134218284,02a8bf6df7646a402b1e1d9c9e4a24e9fb4e03cb34ee52b19d486c9646295acd,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/game-preview/current.glb,160717792,40723c272b13bd33aeb71d11613eb808f3e810a496836c32cc16357cfbacb6a2,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/game-preview/manifest.json,1273,13054f234429271467dbc6626dc83054408428a4e4341ffef1d5ea152a363a4a,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/manifest.json,2251,1f821efeafd58a6e5e0185b451305d69a6d8aeae2f2e389a326b778512365631,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/01.jpg,45189,7d0a773b6163ed01f3eafdd124fa7aa2ed1e1bf86d29ee02ed7710f561626709,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/02.jpg,73372,64f1662ea2ebf5189aed266ad5da33caeb5b55ff5586841eafdc3f5e651f5f53,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/03.jpg,80747,9d914baf0d35031ba673f43693aee2a0d2444f9fd9e82df5c6d82acbedd621d4,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/04.jpg,95866,4c1da56da6d9d2f15c586ceb03c1b0dd53a4f8dba8feef3a931c06f343149887,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/05.jpg,103294,d4c665027117f7f71ced8366ed5a6614f85f0cbe6438e16910ceb817bc7d82ac,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/06.jpg,108282,fac5d1d6817b81b1b7524e4e322c72d90b2ba8a84b02aa94e1e1c4310504b324,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/07.jpg,94956,aade3cee063b7adc745c2f2da4a1dd66b14ef1dbbb801f34e2e85ec877d6e164,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/08.jpg,74570,1eee69138eed2d76f5856ff95aa723bee27f13fa139101d6feed6201f0947cb8,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/09.jpg,76714,d1dc67e9c773dff2221cffefb2268d5a6a2ebefbca3439e273034c9ba9b4c0f8,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/10.jpg,84937,1ccb417262763b0fbc2d7b866123aca351f49acfdcee4b4bcb03ae022a71bf6f,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/11.jpg,83449,3d3d98a5f12228a32e6ca42051f9b031afe3fce21c954ed6ebc250dd5a9a583d,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/12.jpg,82514,cd368d9ff6508f8a68bbe91ec15b7a4a5b31e9cce5b1d24f05042953112a0a01,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/13.jpg,81142,8c8829d3fe6264bd137b772d0316c6d01684579d786c1306f73a36f4b49a5b7b,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/14.jpg,71042,aad851659386c64c28d3b3dda2a2010af674c5300b31a23022ada0198b349369,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/15.jpg,78833,f8f78760755284bbbdfd015062eafefb61ddc34b4330974952fccc7034adb741,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/16.jpg,71624,bfa068b52bd8401252d91c1d64acf84b9cb02f09900f181ddea8e1d403a81186,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/17.jpg,69928,2dd6a5e58a7987310b9f6fb4aac6fc5c029eb0e2b9b4f021b894a61287e46fb3,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/18.jpg,66617,eeb706b4dbc59e6ca9307c02d1b22e2d7cdba4eabedafacab1a52377f65f4d40,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/19.jpg,149104,8a6bf960d0c519e7dba8f97df0215468ba15c2ed1e3f5eca6c8672f51bd922f5,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/20.jpg,124588,2ae649fa512ea741220beb1d3404873b0cbdbca28aaf44241294e18066eae8dc,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/21.jpg,64717,65f34ed852641aab609f4f27ff0635b31f7b771f82ba41aa72113ac014015ed6,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/22.jpg,112706,d59b698145ddfac82562fedbcae662fd97d7b29d91afe431b728ea2b1622dc5e,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/23.jpg,105493,cb0dd382fb41396850162513d10289a3dae0221f849bc0eaa0f08ec1554a4453,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/24.jpg,110250,492491342d4070b1417a8d56e702a24af01fcbe838f5d7e6001598e01a1ace66,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/25.jpg,132585,6c3f5d185fa52601038f09bcf8a54418039a54d6f4ffd65f6b42e99ac3ebbbc1,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/26.jpg,119153,e52ad183d5654b1c4e60a3ceda96922b3bdc1ac08120a229559387513ea253b1,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/27.jpg,107388,996091a18a7d227bec72179603719de289b873a11db79bcf5bf97bfb386854ab,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/28.jpg,133259,60932d6d91851590c6d863c59a0d56bc4c5d94d1cae246a779dcc431961bafbf,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/29.jpg,138205,724c240891a2fedae5ccaa8499d1b4fbe71cdee45621dfbe1390f7302aea1b6c,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/30.jpg,121466,dfca5cec1e68854071df31a8eded35717b1994d0e54fd09ecc63ce297997985e,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/31.jpg,132501,f4c0d6231811319c82e963c9748e6c7624db1a86e899ed5f55c0f3ef911e8b89,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/32.jpg,146250,e139babb567ce023972e5623660d88896a59bbe0ca282b0275f1f3e6344f2def,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/33.jpg,158353,2bc5abac372d19e4265e9b8ffee4ef9b62c0ff198e3253f9fcb805db3560dbe8,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/34.jpg,149089,17af1d9cec21fbcbad69d1fd2ecf88ae2043cd3b0112dd9ff76645d54cc57b41,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/35.jpg,252003,5aa2baafe05031f2e8624c285f5ddb99c603507ff2105304988855b69630f573,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/36.jpg,173990,cc0fa57aeb67747d46e1c4eebbee7c9799a0129cfa21fcf84e55a1a259ee178c,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/37.jpg,250059,3f6ac2d8c0367c5a3872704d688336caf66412ada281a8d1e905089c011c80d3,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/38.jpg,323167,699f796246ecf6b5e91c0f89cf0972af2193de8a93e53f5e3a01380e924dd179,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/39.jpg,141119,0d70765fef9095f39fbf7d627c73f727225517243cfa06b810572615376d1e40,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/40.jpg,231005,5b36559af0f306cf4e36aad635e67cd0e5cbe3d528e5b5a498a106f64bd2141d,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/41.png,810841,2c618e7bd7ebc833584b5311035ccb8e6a82b6c533f93cf8ff2839945bd7d512,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/42.jpg,127166,6e663d03df441805dfaa274d7edfee507d552bf68fde200caee4a89395b1b005,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/43.jpg,105935,3e6752b069d62fc7f06edcdb5bf9f2b4846604ec20294f90512b35728216f537,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/44.jpg,118554,24cf34843e7507644420383b54f5f3fd2fff2dcc93cd1542ed406f335465513e,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/45.jpg,71843,b3b1be93e2311da403be2a473fb082bc5b6461008d70d5daffa82172220b60da,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/46.jpg,111362,c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/47.jpg,105487,fdd9c5f7b44e888a250dd05bcd17e86574d2b7b0bfb43b85514f62df817aa841,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/48.jpg,78579,45b829341520bb0912d20bf822a24a5b75b44b8957e06f07ceb1560a56fe51e8,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/49.jpg,70073,d88f12775829ab7f8ee04b65e0ac459d1a43e93e1e46483dabbb39a2054852c9,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/50.jpg,113180,f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/51.png,693776,fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/52.png,638238,fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/53.png,652166,3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/54.png,567065,c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/55.png,582096,387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/56.png,574371,2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/57.png,590833,cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/58.jpg,104588,bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/59.png,636345,7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/60.png,666201,7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/61.png,526947,62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/62.png,705510,0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/63.png,698036,221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/64.png,596811,fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/65.png,627001,01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/66.jpg,113180,f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/67.jpg,111362,c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/public/references/index.json,86262,8d08afc71c4bc1c687d401471f8873cc6ea2cf8332edad17cbc8c7a0fe6ac8ea,当前源预览或最终 IFF 解码预览；GLB 不是游戏包。
+nba2k-arena/zgc-court/references/archives.json,309,86dba05206b8357420c9eeb73b2aca18c02320f44cc1ecacbcd970506a47af70,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/00_总览/Chilis建筑与LINK_8图总览.jpg,810142,05d59f17a7eb44aeb5f46004a7b3262177cf8cd77bd0820f7179a1e2d0e94f79,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/00_总览/周边补充_5张总览.jpg,573694,08f700cdd58e99f81e73b161c857c819f0bfb2a2019fb421ccefca31022ac735,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/01_南入口看双层弧形建筑.jpg,73773,2e12235bf926b5d5bfd858a18cb525f405b01bdca7b15aec3407aa1029183590,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/02_Chilis正面招牌及檐口_0259.jpg,94356,5a1da72c661d689d5a618982e4ec6b0ec197c2cf1f50f7f11070dfed8ef4e085,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/03_Chilis弧形转角与球场围网_0301.jpg,99493,9d122b081e25acd373e502aa1e9820c8ca500270adab0b7f912ea699c5ed4eb3,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/04_沿弧形转角看露台步道_0308.jpg,87425,e59a840d7195d517fd9682a91065dc54e860a646c65c1d81568d22b66757635f,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/05_Chilis露台与LINK同框_0308.jpg,95356,ce8e5462a28eee4fc574c05b205d132efbbf37119425a851a7272fbb0aa105e6,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/06_较低活动区仰看LINK与弧形建筑_0248.jpg,91671,7abe2beaf2857c0dac15787a663812ab3d1b28c226f484a67e7aefc0ba3523a4,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/07_Chilis正面与屋顶突出体_0334.jpg,107369,997b3cc83e17189cf5d718f638ef4e95577c8dcfa1cfbb1b6df65491c02c50d4,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/01_Chilis建筑与空间关系/08_Chilis电梯凹口与侧墙_0304.jpg,103565,caee0c97323bedb9eacfe6e7da15d1cb205ae27966c512cc11fc3ebc7dfbf728,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/02_LINK与俯视参照/01_领展建筑_官方外立面.jpg,165903,fcaf4ad0506fc96f9d7f16592d82cfb48cdbf23814b8ed24cdf4d55b61687e3c,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/02_LINK与俯视参照/02_领展建筑_官方玻璃转角.jpg,109399,7535fefabdd30bdc8e930a7230a0fb0dd7fc1012d4d49b113d3d59bd60366bd5,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/02_LINK与俯视参照/03_项目边界_官方旧卫星底图.png,818969,afcd3e17f5edd0dba07ff7b4cd923a603649f81ba232167cf319d2671d6af142,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/02_LINK与俯视参照/04_空间规划_官方标注图.png,1216887,cd7598919e1674ba18739fb03265ec97c6a7c49483cac61a583ce5c88b94e580,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/02_LINK与俯视参照/05_BIAD总平面图_2026发表.jpg,106104,ce1adaa03cb24bd32c549b7c42d18054e04af24e4f9428a7a109cb950b1f3252,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis/说明与来源.txt,6144,34a406c7013f52ee276ae371fc3239edd85dde9471b485a579f2af19681c4ff2,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-archive.json,2157,f5e4af7d6239a05c6601d69a89801243495fb1e2c86b63594ba80d5c16b36577,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/00_总览/新增细节总览_01.jpg,732444,efb254288a372fb5fc761d9ebd166301f90c6a4463052a838b59a3065d93f6af,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/00_总览/新增细节总览_02.jpg,521170,3cb27bfa23d96dbde7ae7c3aa53765bc745acdaf03b8d7c9ece2e05303844f24,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/01_露台正立面与招牌_Tripadvisor管理方_2026年6月.jpg,231005,5b36559af0f306cf4e36aad635e67cd0e5cbe3d528e5b5a498a106f64bd2141d,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/02_主入口门窗与字位_iziRetail_2026年1月.png,810841,2c618e7bd7ebc833584b5311035ccb8e6a82b6c533f93cf8ff2839945bd7d512,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/03_侧棚字标与竖向 COFFEE 招牌.jpg,127166,6e663d03df441805dfaa274d7edfee507d552bf68fde200caee4a89395b1b005,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/04_入口外两块落地广告牌.jpg,105935,3e6752b069d62fc7f06edcdb5bf9f2b4846604ec20294f90512b35728216f537,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/05_喷泉、桌椅、透明围护同框.jpg,118554,24cf34843e7507644420383b54f5f3fd2fff2dcc93cd1542ed406f335465513e,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/06_并排桌面与椅背纹样.jpg,71843,b3b1be93e2311da403be2a473fb082bc5b6461008d70d5daffa82172220b60da,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/07_篮球场与店侧的步行通道.jpg,111362,c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/08_顺通道看门窗与雨棚连接.jpg,105487,fdd9c5f7b44e888a250dd05bcd17e86574d2b7b0bfb43b85514f62df817aa841,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/09_雨棚底部支撑近景.jpg,78579,45b829341520bb0912d20bf822a24a5b75b44b8957e06f07ceb1560a56fe51e8,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/10_门内回看黑框玻璃门.jpg,70073,d88f12775829ab7f8ee04b65e0ac459d1a43e93e1e46483dabbb39a2054852c9,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/01_新增原图/11_反向看露台桌椅及伞座.jpg,113180,f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail/说明与来源.txt,10054,a3ee3d05d5b88cdb61ab770d65b83984e1060f874528675a555d03b13d350654,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/chilis-detail-archive.json,1760,248e1afdacaad82b6a2a7060c446739eff6784bad0ba3a14d97f2b89058cccd9,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/contact-1.jpg,333065,335c10a9780404ea904bbfba8d53dbcc2377f8ef59e7ba34667e23b7a46ba5e1,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/contact-2.jpg,297876,1ad9173520a288589cdb7907bb19506485b2276bf6b8c9e24b03bdc1c4eba95b,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/feedback/current-open-floor.png,1712715,53d33a93647aac80d15afc839b934bbcb6ac295e3e81d2e8277a70bb2e37bddb,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/feedback/current-reference-overview.png,1640470,f484e2ce4df9f24f1ec5215271c84bf16192f30ed760d9eab685d915386538de,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/feedback/current-replay-close.png,1629920,f59a63c0b4af8b0d41a7808d069fa09f1f95fa3931b31f701db5426402df59a4,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/feedback/current-replay-wide.png,1493111,323a0dca29d8444554ea97cce2e35f28663c568f72458c5f6d086f6bb0af9d14,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/guide/guide-text.txt,24842,a55ff96c620afa17abeac8925d05a44f333de6a3b479dfabf6ffcf873493f783,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/guide/NBA2K26_Chilis_Guide.docx,145019,fe26d76aad6616bbcab601011b9ad2414f56c045a092193f823cb0c65f617008,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/guide/NBA2K26_Chilis_球场制作指南.pdf,960843,a2e143527ecd3e7ba98ac5170f28057fac33d325cbc82e9f297b783dc566fd0a,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/guide/ORIGINAL_ATTACHMENTS.json,623,7881a2a090806ad5e240ab42c1522802571374ca5af5c08020e391abed03a738,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/guide/r03-user-black-screen.png,168489,11c93b92543a5230cd7c8088d010e6aad5c230992e82e708f210fad558470cc3,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/original-chilis-detail.zip,3070445,465e36d80aea54beea76d5392e4e7dd54e5023b085a40ef4cdd11581404569ed,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/original-chilis.zip,4460447,de55d4a3685d4c186855d9d1f803a9ac91293e6f4b1181c41097c942596cf3b6,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/original-part1.zip,8090054,60b57858fdff0253fc3e7e2baac2d1063d2a5c7e2eac4028daa7f29cc2256ed9,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/original-part2.zip,4589388,468bfa15f8e10778a0e0ad2e17c00742cdda233d4db948ac886ded5a114785f7,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/original-r12-left.zip,5009100,d68bd195ccdc36116a12e2071b0ea1f2f2290faf9884539335ee6553ec95e679,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/original-r12-skyline.zip,5442538,2f8ecd1cf0cd04b5f9c98d710e23c4c5108209c3c3589dbf780ff7eb8d36dd46,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/01_黄黑地面与图案_00-00.15.png,245752,2c9b59c91831d842ff3d96d1f0966cbd284980b990fdf259043befa441edba11,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/02_广场方向的半场_00-10.70.png,652043,87fc0d3e9434c08edc1b4ab709b090d89e371a7e149238944dbd9b8bbb62ae7b,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/03_开放广场方向宽景_00-19.20.png,627001,01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/04_远端篮架与边界_00-22.15.png,726724,51032dcff3211fab07668afee318ae269de33e29260e905e65d743678bd31bf1,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/05_边线大幅地面图案_00-23.10.png,698036,221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/06_球场斜向纵深_00-24.25.png,705510,0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/07_篮架正面与商场_00-12.45.png,731818,9d21c3a93688b97bac8a8cd6df87b30819f8a9c6df7b2cd8b24fc2de06f4ab98,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/08_斜向Chilis门头_00-13.85.png,630251,8dae780adff3bc0cc0e94bdc8326e1eb114dbaf4388a619cf712af42a75e5203,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/09_弧线与Chilis背景_00-17.50.png,592156,d6a592c99e6ca7d3cac49284a175b2b9f6191a627f56ef82a2f5d5c28acd7f7e,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/10_侧看篮架与商场楼体_00-27.80.png,592954,dada3d130e8c80b264a0c62716d5b2092140d3344b46c04e3122a9b3ccb41a69,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/11_低角度看篮板_00-04.90.png,626319,205f34a7d3becf489d0b4131a831219c524035a8864961a146041d7a2e8c1dce,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/12_篮下向外看围网_00-16.20.png,663282,eb14783b65de9e02d00ed55d894a3847adfb37858cb3758f9ffc8f193c18287f,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/13_围网转角与建筑_00-20.70.png,603207,9397c2c3f59fe0bdf30467f2f69cc71c8fbe5aaee1869aa7818eac1867788acf,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/SHA256校验.txt,2780,fa8bc54144c40744635064ad553e4ce427fa0dcb2b7603bc91b61de6a458b909,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part1/来源说明.txt,5853,ce28f1e634109223661b38ea1dc075eaf4109bd808f3f8d9ca88129e19ba4ce4,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/14_篮板篮圈和围网细节_00-21.40.png,576900,d6d884f35bbebc01a2bbc3e1df39a188c7ff7c957a79fa2cd4ff80be5b66ea67,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/15_篮下仰视与圆形棚_00-28.95.png,612274,3be9dd39e125ec0cf7ca5e2b11cbd04acb8199c65bc580b038431bf5a240ca4a,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/16_篮下另一侧与绿化_00-29.80.png,552359,17bc1cdf861c6edc3f694a79b19c16472ff4746f6c276c6e5bdc6c208e59ac83,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/17_黑白边界涂装细节_00-04.10.png,540369,54055187074c6d3e2b49bc85874abfe9add56003bdaffcb270522c0e28297976,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/18_黄色区域及围网边界_00-11.55.png,518046,970cb06e5ec94018a216e499f463c075b43f18ec857ec847f19b049be75e65ca,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/19_篮筐与Chili’s同框.jpg,146805,fa8c1e870dbcfbbb687e92920e146b7d117640a7bb63a1be124ff57fab76e96b,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/20_从休息区望向球场.jpg,119945,797c76a0199951fb77b9e03d227f1d653350cf648ec1dd9e0835c3548244925d,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/21_日照下的场地与圆形棚.png,431790,b94526d87cc33f95a4054ad4a712594b927ceb88ee9d27691d09bad7ef3a8276,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/22_对面开放广场_柳树与起伏铺地_00-06.05.jpg,218111,80770152b9b99a0301eb0cdec7b0177900a11ba23abc3c3142ba76c40001f165,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/23_开放侧左缘_ART-PARK标识_00-10.73.jpg,203878,46636191e855196c91e68edc86d641fe4c92c8eebc86f4a09941b2029d5bc530,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/24_同一广场右缘_园路与树池_00-01.07.jpg,212969,4ce91ae852ff95c3c4198567b5888219062b1ff3424c81232884645895ab4f5c,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/25_广场边缘_花境与桌椅_01-55.35.jpg,255313,49de8d583b4c2d85d3412d3a55fad26a8e5aede9817fe45ea264a27b00247433,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/26_对面广场右半部_展板与凉亭_00-03.91.jpg,229703,956da67e66ccbee8869d2f17e9f0de9c112e7ffc96c7056dba0b5bcd6efcb62d,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/SHA256校验.txt,2780,fa8bc54144c40744635064ad553e4ce427fa0dcb2b7603bc91b61de6a458b909,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/part2/来源说明.txt,5853,ce28f1e634109223661b38ea1dc075eaf4109bd808f3f8d9ca88129e19ba4ce4,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/manifest.json,8558,a7362a83243028010157eb0c7e7841e2f4d8bb81b4f20d14093966ae1ec74e9e,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/01_A段_斜看左围栏与篮筐_00-14.30.png,693776,fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/02_A段_左围栏到篮下转角_00-15.30.png,638238,fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/03_A段_篮下斜向看左围网_00-16.25.png,652166,3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/04_B段_正对左围栏全幅_00-20.25.png,567065,c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/05_B段_沿左围栏右移_00-20.75.png,582096,387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/06_B段_左围栏接篮筐端_00-21.25.png,574371,2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/07_C段_另一斜角固定围栏关系_00-26.35.png,590833,cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/selected/08_泥靴外观补充_03-32.525.jpg,104588,bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/左长围栏_连续帧总览.jpg,636653,b394c314929717ec5ea4537af3a232746e1ac4c943076c884b77421afb18e113,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left/来源与方位说明.txt,2101,d5683578cef761768f6d4166d516f5d32e317923801a90cf3bbd1b7418b0d4dc,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-left-archive.json,1436,b9ebe49b4ee43c4a9a03de276975cda080d7168a7f7888b06cde8a0cfaf72be0,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/manifest.json,10874,a4ddadd80eccdffa08a7b12bbe6334ecf24baaf2689a520170354bca2a1dbe9c,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/01_场内看新中关_00-20.50.png,636345,7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/02_新中关与篮筐端_00-14.80.png,666201,7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/03_新东方字样楼与圆盘棚_00-11.40.png,526947,62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/04_篮筐侧蓝玻璃楼群_00-24.25.png,705510,0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/05_蓝玻璃楼群相邻角度_00-23.10.png,698036,221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/06_篮下看高蓝玻璃塔楼_00-28.85.png,596811,fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/07_场内向开放广场看_00-19.20.png,627001,01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/08_露台回看远楼_10-20.421.jpg,113180,f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/原始截图/09_球场与Chilis通道定位_04-46.478.jpg,111362,c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/来源与视角说明.txt,4426,d402f525ada3e72dd7478185cfbfdcecbc1a6e4dd427250a3ab993625cd696f3,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline/球场看远楼_9图总览.jpg,787307,34181d0107a2fd5796af0597967c75d6a29c1017a8c7c4cca0a1e7ad317acb81,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/r12-skyline-archive.json,1546,83aa026065e958a3bf109a67677012c34111b35317d96e38549df28cb054fb94,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/reference-index.json,86262,8d08afc71c4bc1c687d401471f8873cc6ea2cf8332edad17cbc8c7a0fe6ac8ea,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-0a3fb494-fb56-42bf-8d33-a1cf645e30d0.png,2736150,7213d707e242ea4548434f86448587f7e40ae961ef39654070aa6248197a280a,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-2313529b-139a-4450-badb-a7be6c4a5433.png,481431,51b4b903e86cf49f40e1f2a19d6cf421a84a404e5379bdd4ed03ce2e541d0831,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-27341c1f-1c8f-4b2f-a73e-1eac90aba66a.png,2826504,9fd0b966da588f8cec529e0abe4fbf6a4f27828e5165a2ea81c96fd81b1a7f14,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-485becf2-b310-45cf-9c01-8247bdcfa75d.png,2086123,87e415c50506fdea7c792c5236d8345ae022c1f816260f6a3944246a2e8693a6,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-61a6bd18-9805-4689-a8a3-9717d90a2546.png,1585452,ed2bb495105ebd84f54c2f71961b20640908d20bfe8988f5697a4d12811157af,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-644bfb05-3282-41b0-9a32-ccd0ebb71fae.png,472580,1400da84f3af04eea060a8081029e0ada0941952033734d309928e23ea18cae3,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-80f043d1-cff5-42ff-b42c-d540faf689f3.png,1348992,60cbc9c923f44593e912f4b6db33da3db4e40d005651f3197f32b89ec0ceeea0,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-a71d807d-97d3-43b4-b624-82a783d5cdba.png,2542961,bd57127d1ac8bd4bc318eae104a0a5c42d704750d485a5ac8efaf976988a0079,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-c1e7d0e2-aa51-452c-bf6d-3d902806b88e.png,2113758,dcd158657b22051b0e6ccf4784fb4597ae76dabf57dac913111d45cd947dcbe7,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-d4f72807-c066-4ebe-a0cd-a49329a300a3.png,243440,67d10670ce91d3a65f8947b6300a0027cfddea2d9a4ae42f36fbf37ef74c956c,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-f15c401f-4524-4079-8425-6ec7d450ca58.png,2391884,64233c2ac1834f5835bd555b0d91c7b24c5e03318bac32933ea5da0ca6305c2b,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/codex-clipboard-ff71ed13-6be9-42fe-99a2-83e0dd1ea9e3.png,873610,4002b1e4f08fcb2195892cf411e560c95680c50d7c134b67a3514c2112f1756d,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/Codex_NBA2K26_ZGC_Court_Brief.txt,23883,3e00533a37e566c4c9dd2ae6ad9d197f419751895f957321e82f3bb563334c62,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/references/user-attachments/INDEX.json,6813,04b7a85fbf7a76d9787fcc6a0a89a09868f7b0da50f22675a2e6b68ce9024d21,用户原图、附件、指南、游戏反馈或来源索引；不作为新操作指令。
+nba2k-arena/zgc-court/source/BUILD_NOTES.txt,5499,7294ce241f883b15a9e09d830c46c1d948e1ca27e743ce6f72cb8d8e612d3348,当前可编辑 Blender 场景及建模依据；历史说明需对照当前状态。
+nba2k-arena/zgc-court/source/geometry_validation.json,2335,443b8ceb9bb419bd20c5ea6b34ab49769a888134690621ee3ce9797ac2ad46a5,当前可编辑 Blender 场景及建模依据；历史说明需对照当前状态。
+nba2k-arena/zgc-court/source/reconstruction_notes.json,3366,0c982c540f611e119fc1ed4b51f3274f5396f3ce736b441cfe3eb518e40ed4d4,当前可编辑 Blender 场景及建模依据；历史说明需对照当前状态。
+nba2k-arena/zgc-court/source/scene.blend,65428978,884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b,当前可编辑 Blender 场景及建模依据；历史说明需对照当前状态。
+nba2k-arena/zgc-court/Start_Preview.bat,492,ffdab8a1308ceea2c68edfd830da2a4ad7070f9cd9703e3dcc33e3cb237abc95,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/Stop_Preview.bat,402,28aa579337670a618e4db2268afe90c65aa364d97e9d7b15ce901f6541c96e7f,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/textures/current/fence-cloth-basecolor.png,137860,60d04361b2a23f16cb24a6da999f73dffa95ba7eb0343498e9cd39eda802f5f0,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/current/living-groundcover-basecolor.png,229267,74ff0df3014cee7d90cba56e8a00a901ce8fe1eb59a3a7725abd5a36a82389d4,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/backboard-clear-rgba.png,1847,449325d3500f8461282c810ecfa79716e954687b6b7a3bef13227a6db3bb8674,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/bench-timber-basecolor.png,104945,9a9d02adf4e103faab154d07d465a31cfa77e5875aea7ef75c6b82c45cd09d1f,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/curb-basecolor.png,139243,21124b85aa8c1fa1b1f1a1159b009947d37acb0c0cb6ca0a187edaa2ab1b0d71,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/rim-paint-basecolor.png,93686,4d5b4ba9ef57eded8faaa97d983001bf2b79324d6b2390f5b6936c90ab376498,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/rim-paint-orm.png,89454,eb76c69313b15ee80727bec48e95461674e2130b4d50932d61b8a37ae0a91a29,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/steel-basecolor.png,194585,9fa81c7d8e7c919177e61d3032cb51f189e8791aa98e56775c660b1caa3d5c07,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/steel-normal.png,235617,c6f124d26ccea6388c3bd5c3c9b539114af06acdd27c8d6aab7c6458f15bc6b4,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r03/steel-orm.png,132675,aa3f91a2b54912e34de11e5032c4662ed207e70358cfe78da36d11ea6385040c,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/acrylic-green-pepper-basecolor.png,1509,3bf4ed2b9139bd6a3124a35fca11e5227bd127cfd7d9fe60e465976d09f3d39f,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/acrylic-green-pepper-roughness.png,35667,6ac96348c6d0892523a122092a9be49d3e1397667f0152780b7b4c236c6fc203,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/acrylic-orange-face-basecolor.png,1509,f51e068d0ec7d76cd868bc4b5374eb07a0847626d1cc76bb705e5ae6f2d12e9e,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/acrylic-orange-face-roughness.png,39177,58c0580643cc468e18605701f3b5f6062c41a8674731978eedf567b6338019e9,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/acrylic-warm-channel-basecolor.png,1503,8f2d449853c2163cd49b2c2d7f7ca98422458cb2316d856331d16ed434d9a0fc,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/acrylic-warm-channel-roughness.png,38692,2c981fc741cf540d7f8ecc64b87965b523d1cdaffc2ddf4741f6e4e31e460753,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/black-powder-coat-basecolor.png,57764,c6eae3384055ab38193123d5373104ef66dcf88ca5862348165bcb9290593ffb,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/black-powder-coat-roughness.png,127263,b834cbf5ac1677baefc0c4ad9f8199d675ecc2bfbff0fa785b0c4f99a94ae854,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/brushed-stainless-basecolor.png,52234,11b627320e3640d5fde5a08e53eff79fb3f6981fa43ff3cc8b4ae9c83b35dc72,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/brushed-stainless-roughness.png,122335,4648945f0bd898b11a63c1ced3da587c928f68cf12f4201aaaccd7da28abcc33,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/canvas-seam-basecolor.png,69481,50e0c77127eba4f0d5ee18dea01bc8ac26f15e50c313e9e70c70b1a12d3d76a1,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/canvas-seam-roughness.png,86448,1c8031f8351379dffb04ee5350a873d89ef243485498c5ee2415ee90c5fb24e2,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/cement-mortar-basecolor.png,144738,20a2b357129d7f97246205420c8544c602c9f12374580721a0f615740b631e52,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/cement-mortar-roughness.png,148518,34c8d7cec1c2bf07da18f692bb8e03ddf1ff86e56a6ee081136f485c78836f87,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/cream-canvas-basecolor.png,69121,97f7ecb691ed14bbcb2c66430507346ffd423edfd97d282ea441b15564aa1ac5,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/cream-canvas-roughness.png,86415,0f6320acde5c98af97ed8dde95741aa7baecc9999f264af751ca45a1db505ed6,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/dark-interior-timber-basecolor.png,94057,726f2dcbeb90539ff4631e12b02394566ea6c6cfcf328b7a01d701864ea3e962,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/dark-interior-timber-roughness.png,73185,8526c2cd3d93669fa3f124bf03f762c4b2c4ee4c8d043d9861e1546d694475e4,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/dark-stainless-basecolor.png,52770,f034cf419cee72eede26b1ce24afcce30e6bbbef6d338ce88c924dbf720e757f,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/dark-stainless-roughness.png,121952,dee2ff644b5f8b6337bbb6a01bc8731783912b1d11dba05e2db3d96ff9013099,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/grey-stone-basecolor.png,144666,576873f0b52bf3e17bc1fa55e391bbdd6cc9fd7f554cd45c83de5ccff8a2ef25,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/grey-stone-dark-basecolor.png,144671,1a251032dcc86a222a44d8fe6036b060eab4fff857623ec63a2bc3433d88db74,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/grey-stone-dark-roughness.png,157115,85c18973d08ee87358364c993bab032bc2a7502a9cd404c0c317d6cc11bebee8,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/grey-stone-light-basecolor.png,144684,cc1e46b2da5717f4f262cfeef6a7916faf31eaf7f109485406a96250669aff16,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/grey-stone-light-roughness.png,159116,5ea0019d1bb55adb5b29064731d77e45c19f88b938d5827fea2f832e83b6a31c,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/grey-stone-roughness.png,159243,c1e4e2bb9bfc3b8a7220c5f5eb727ceb06c04c7cfd5f02475f6e2988cd4e30f4,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/letter-back-casing-basecolor.png,56744,aba637c80a2f3eeeadaa9de4b725b70a2d610165dfe3b3048604294bdf7660f0,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/letter-back-casing-roughness.png,126561,23b1febec41ac14b22edb26e0562a7c579b9cb3347e308bf90dc3cd4e61d982e,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/mauve-coated-fascia-basecolor.png,57024,ca45a866b575196e3ae9d02a66c768c12c8ff200ddf73cdc69009ee04cd746e6,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/mauve-coated-fascia-roughness.png,126843,ed0c2445e8cc5cf07663d79aa1cc2f3e4ac807cbe241db70a12e35475ca14ab6,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/oak-cabinet-basecolor.png,93822,db387f5454240692683ac47487df27669118fd9f69d63f857a8525080a9fa407,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/oak-cabinet-roughness.png,73505,29b97184e480dfeded73703b753d6445a2eecc715fd7ff31f3df64b1849a636d,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/red-orange-letter-return-basecolor.png,57757,6f86852ef9b5808e46abb786c96cb0b163e5ef14576272c9018b06bfd7d5fdef,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/red-orange-letter-return-roughness.png,126843,3734f1026b4d8efa307b8372eb5862474935fcfe564ff99a66f1589f1505bf2e,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/rubber-weather-seal-basecolor.png,57054,2876ec4f0641b117e88d9c90f908e2692029f84550c2e6bd903d154d1016b56c,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/rubber-weather-seal-roughness.png,126330,6ff1d54fb2f099fd3ebe3b446bcf779217bdccce32dc7a8805be9495d18cea35,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/terracotta-glazed-basecolor.png,57331,3ef522ee08068a8dfb801be2c15d1032a293fd54bd7bdceee10b2b68a57c704c,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/terracotta-glazed-roughness.png,127434,5c4130616b846d8cfc534bcec47569940ea35ebf0b322a7986ae0e059ef0c128,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/terracotta-grout-basecolor.png,145116,e9dfeb325a60a01f78c7e2e793b2e37bce3bc8886ab37d204d016050bcf87b1d,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/terracotta-grout-roughness.png,159364,49e72f93c30f6332bba390729ca265c18877248e4d541a2878818e75e338c780,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/unlit-opal-diffuser-basecolor.png,1511,d9898f88655f89c196942e3e9d738d232d86a0d8278541794976f7e4bd324f2d,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/unlit-opal-diffuser-roughness.png,38709,5586e26efec68826f5fcde3bc02a291d21c00cb91a4d19cfaf2b28d5d7a65006,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/warm-gold-metal-basecolor.png,51767,87096e342f86e59bdae43d14ecf2497beb46667b9b191cd6b7590a9943851c08,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/warm-gold-metal-roughness.png,122073,c6670e7c83b9a485ec3a1d04b7eef420faa5390eac270a53d328fb8ff48dcd2f,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/warm-plaster-basecolor.png,144936,6ecac3c9515d3a67f10eacc2b11b24a2f71e0433423c85cf619a68137c397896,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/textures/r13-chilis/warm-plaster-roughness.png,159149,59e60b8971a43a473a790f29a0281c90463503bb3fed34b636cc8c31ee2dc202,当前模型引用的材质输入：基色、粗糙度等。
+nba2k-arena/zgc-court/tools/analyze_floor_badge.py,4510,cb3f52131e8a91e7e76f96fcbeffb94c02a659e1f1f31d2423fa5741ee7fc4a3,"工具：Sensitivity analysis of the reference floor badge on a ground plane. This is a read-only measurement, not a texture generator. Board dimensions and camera focal lengths are stated assumptions; the photograph has no calibration."
+nba2k-arena/zgc-court/tools/audit_chilis_iff_current.py,23928,67cd252281148ad3b5acf417d019e5f1f0c035b6b35ddd1135998a7aeb515491,"工具：R11 native-package audit; model names identify resources, never replace them. --capture-baseline records the still-published R10 package before replacement. All streams, index buffers, object transforms, native material contracts and DDS payloads of non-Chilis custom models must remain equal after e"
+nba2k-arena/zgc-court/tools/audit_context_iff_current.py,16533,e2c6cdb858270bb3f27d02cf93c4585e3bfaacf14a0b3d9d31a3daeb50a7df04,"工具：R12 native archive audit. Capture R11 before publication, audit R12 after. Source names identify native parts; all protected geometry and resources are compared using the actual final IFF bytes, not source metadata. The only allowed non-geometric difference in a protected part is demonstrable Prim D"
+nba2k-arena/zgc-court/tools/audit_fence_iff_current.py,11307,8d135f7a6020176bb6645d61bc991f9eb05c58fa4a4341bcc33a9841ea4c6461,"工具：Read-only final-IFF fence audit; source labels are names, never geometry. All positions, indices, matrices, material bindings and DDS samples below are read from the delivered ZIP/IFF. No Blender source or source GLB is loaded."
+nba2k-arena/zgc-court/tools/audit_floor_current.py,23675,cdb6098dcb97210e56e7ac49789a9dc55b32de0b4200af7e3491053e0336ac9b,"工具：Independently read the published R10 IFF ground, UVs and final DDS pixels. This never writes source art, meshes or IFF files. The source-build report is used only to locate the named court model, not as geometry or image evidence."
+nba2k-arena/zgc-court/tools/audit_native_basket.py,12297,bc9f14c66b145f4b34985c78b878587a5b0ad942bffcc1914b8896ec0c528f82,工具：Read the final package and audit the current basket; never rewrite an IFF.
+nba2k-arena/zgc-court/tools/audit_r13_duv_metadata.py,8709,45f56662dd6d0bebe43815270fa8eae53cbd88d2ff33fdd30fd75b896c3ec4df,"工具：Prove exact R13 preservation apart from bounded, derived Duv float drift. Read-only for both IFF files. No tolerance applies to buffers, vertex formats, bounds, object/material contracts, or any Model field other than named Duv streaming hints. The output explicitly records every tolerated scalar ch"
+nba2k-arena/zgc-court/tools/audit_r13_native.py,7271,e33d800dc598125322b0c0bebbe0142cd4bc0914df14d4d54edfe01dc69846be,工具：Preserve the existing site and prove the facade material transfer in the IFF.
+nba2k-arena/zgc-court/tools/audit_streetlight_iff_current.py,11423,ec1bc89d67152985ab3b3b451db47153a85bf89761694b8ad82493e8954f44cc,"工具：Audit R10 geometry and solid albedo from final native IFF, never source GLB. The source-name JSON only identifies models. All geometry, matrices, native materials and DDS pixels are independently decoded from the delivered archive."
+nba2k-arena/zgc-court/tools/build_current_iff.py,1514,77a9422fe3f871e40be5fa2193135937463788322415362110623203e7e3a416,工具：Rebuild the latest native candidate from the current published source GLB. An intermediate with legacy material bindings stays in staging and is repaired before the one deliverable is published. No game installation is accessed.
+nba2k-arena/zgc-court/tools/build_source_iff.py,11983,35f8c68c604586d53890e9d7e97bef2cc046f2909e510de02c9b664d00fed21e,工具：Internal source-to-native intermediate used by build_current_iff.py. This intermediate must pass repair_iff.py before being published for game use. Original visible donor instances are replaced; native basket runtime anchors and animated rim are retained. No game installation is read or written.
+nba2k-arena/zgc-court/tools/chilis_terrace_details.py,26399,e7ecc5a26854ecd9dfbf5230d21b8df6901efbb0eb19168f4927de6ab66a13a9,"工具：Photo-grounded R11 Chili's terrace furniture, fountain and floor module. No file is saved by this module. The architecture builder supplies ``facade_frame(face, u, z, offset) -> (point, outward_normal, tangent)``. Geometry is made in metre-scale local coordinates, then placed rigidly in that frame. "
+nba2k-arena/zgc-court/tools/cleanup_current.ps1,9242,377d8d8c6e63b7e869e9b4eecf4e5305a8343e271ed9d595c54c107cb8a3431c,制作、导出、验证或清理工具；查看脚本说明后执行。
+nba2k-arena/zgc-court/tools/create_artwork_r02.mjs,13696,cbc2eecde68fd3be4f9a22159b555a8210431c46e21a6bc9316ba561ab4117ba,制作、导出、验证或清理工具；查看脚本说明后执行。
+nba2k-arena/zgc-court/tools/create_scene.py,31116,b89cf37ea0b7edcfef8b3f21022bffdd9a473e97aec0b3ad7c3c627634f9b7d6,"工具：Create the editable ZGC source scene. Run with Blender --background --python. Source coordinates are metres: X length, Y width, Z up. The photo end is X < 0. No donor geometry is used. Anchors in this file are design coordinates, not verified NBA 2K collision/score/animation components."
+nba2k-arena/zgc-court/tools/export_game_assets.py,9666,5f79b4707690713ee298fd3f35013a32d24ffbe58b563da009c8e8d41a582c35,"工具：Decode the published, source-derived GLB into native-IFF builder inputs. No invented proxy geometry: positions, split normals, UVs and materials come from the actual exported asset. Game conversion is (Blender Y,Z,X)*100 cm."
+nba2k-arena/zgc-court/tools/export_native_preview.py,19195,5c53bbc141b3c7aaa41944fd43042360d0d91231475fdd7cbc1030b086184661,"工具：Decode the delivered IFF into a browser GLB, without reading source geometry. Python + numpy + Pillow only. The IFF remains read-only. Runtime cloth, custom game shaders and independently loaded game assets are not simulated."
+nba2k-arena/zgc-court/tools/export_scene.py,4302,d6c392a21d403a4055a972442dfcf7ff89d13b7e476c71f232835d5f892d1f25,工具：Export the OPEN saved .blend to GLB; never build replacement geometry here. Blender --background source/scene.blend --python tools/export_scene.py -- --output absolute/path.glb --project absolute/config/project.json The preview builder publishes this output atomically after export succeeds.
+nba2k-arena/zgc-court/tools/finalize_current_iff.py,16211,386967613338f45e9ddd5603eddeec7dd38d1606674751af48b66a7708892053,工具：Publish current delivery metadata without changing watched source inputs.
+nba2k-arena/zgc-court/tools/ground_depth_policy.py,4302,e3c1918330265ee541db12a2c863ffbe534a8ef68b7744a30dac61a690b5f1c3,工具：Restore unbiased ground depth after R07 occluded player indicators.
+nba2k-arena/zgc-court/tools/half_court_orientation.py,4485,df1cf818913e027ce43588692acdeffa00ed57d9aefa120089f13eaeb1f93979,"工具：Put the painted end at the Blacktop half-court end observed in gameplay. Source photography stays in its existing coordinate system. Only native static instances and their seating anchors rotate. Native dynamic baskets, court identities, lighting and all mesh/texture payloads remain untouched."
+nba2k-arena/zgc-court/tools/iff_codec.py,13124,9f405010ca7a506acaecb6f9f7fb58f341bf9dcfd75aa7048ce471d233b791de,工具：Native NBA 2K26 static SCNE geometry codecs. No game files are read by this module. Normals occupy the low 20 bits of TANGENTFRAME0 (octahedral UNORM10); the upper 12 bits are opaque here. For new isotropic meshes we use a native upper-bit value with neutral normal maps. This is NOT an implementatio
+nba2k-arena/zgc-court/tools/iff_probe.py,8256,800ddd93da06938eca38d79d597048e596cde597974df44ade4d1fdf627eabc1,工具：Read local Blacktop donor and measure native codec round trips.
+nba2k-arena/zgc-court/tools/manage_preview.ps1,5991,cd4fa4e313dd09522835eeaae3af58c95e1d71838bb927c1fd3b107e61f27c95,制作、导出、验证或清理工具；查看脚本说明后执行。
+nba2k-arena/zgc-court/tools/native_archive.py,3477,a4bd7b24a221d9a9aad8707d03287352d3d92cb949417c86b60a860a8e75f857,工具：Preserve donor local ZIP records and order while replacing selected entries. Only ordinary seekable ZIP32 packages are supported. Unchanged compressed records are copied byte-for-byte; Python's zip writer creates the final central directory and compresses only changed/new entries. No external archiv
+nba2k-arena/zgc-court/tools/native_basket_rig.py,27287,791a32bfd12980d06c775e9ff0723699ea5bb7aee7fac262cbb3d9242bb0a634,"工具：Attach source hoops to the existing, runtime-bound NBA 2K26 basket model. Factory only: no IFF or blend is written. Call after repair_glass(): report = attach_custom_basket(level, current_zip, donor_zip, extra, source_models=labels) The native four-bone hierarchy, six object identities and MAIN bind"
+nba2k-arena/zgc-court/tools/native_floor_overlay.py,16547,2d6272f79e788d8d7bab49dcc94d0917f917ab527ed7080cbb4b2a193494823c,"工具：Targeted native 700 floor-overlay inspection and in-memory patch factory. Reads the already-cached workspace floor package. Does not read the game, write an IFF, or change the custom scene. The offending draw is in the separately loaded arena_700_int_floor resource, not the R06 arena main IFF. The r"
+nba2k-arena/zgc-court/tools/native_textures.py,5271,33cfbb9da8c8a623070bce63a3cbea4bd61c8e9a741e189af65dca7f336a41f3,工具：Native BC1/BC3 DDS + unsegmented TLD resources with complete mip chains.
+nba2k-arena/zgc-court/tools/patch_half_court_current.py,4848,ea8f733566e7fc5daa278e1716d0aa2103dd3424bd07318022ace42df24b3058,"工具：Fast, checked SCNE-only correction of the current package's selected end."
+nba2k-arena/zgc-court/tools/r04_glass.py,15984,ed54fe4308feaae4cd19ea68c0c049d4bdbe752e02c0a1a473ba700cbf1a2e99,"工具：Evidence-led audit and factory for R04 native dynamic glass compatibility. This module never modifies an IFF, source blend, or game installation itself. The root builder may call a verified factory after inspecting its audit report."
+nba2k-arena/zgc-court/tools/r04_materials.py,5549,eb71a9f54e071e766aeab210b3df41b1d9e19a94077a18a055cb9b1c53686d31,"工具：Repair only new opaque materials using a native non-lightmapped path. The evidence is the Rucker trashcan crumpled-paper-cup object: its static 8/4/12 model has no Object.UserData, no Object.Transform, and its material contains real AssetHires/AssetLores GBuffer shaders in addition to lightmap varia"
+nba2k-arena/zgc-court/tools/r12_seating.py,12458,72285b13c953fb4a9ee58ef30dfcbf51507b097b7ffc760dfd33494c1fd1747f,"工具：Evidence-based NBA bench-marker transplant; no package is written here. The local untouched arena_020 donor supplies the exact 44 engine marker names, Type, Rotate and ground-height conventions. Rucker and the shipped R11 package have none of these markers. Missing role anchors are a supported expla"
+nba2k-arena/zgc-court/tools/r12_seating_geometry.py,8836,0c015c54a2a06a5c6a46f536e2fafceaafcfd89f89e38ba49f4ee54b47fd7e2c,"工具：Black individual bench chairs aligned to r12_seating native role anchors. This is a user-requested practical addition, not a claimed object in the site photographs. All seats share a straight right-side row; no source object moves."
+nba2k-arena/zgc-court/tools/rasterize_artwork.mjs,3437,43e03f4da513a1f5a278dd20a5f2e63f487d0dfdfad18ce599b165f9816ae70b,制作、导出、验证或清理工具；查看脚本说明后执行。
+nba2k-arena/zgc-court/tools/refine_architecture_r02.py,28134,6037db29c07cf72a0dc62041b07896656caadb6fcee2ba819ef98c9e88b4eee2,"工具：Incrementally correct Chili's / LINK architecture from the 13 new references. Open the current .blend first. Default output is a staging file. Court, hoops, fence and the completed garden are protected by before/after geometry hashes. The drawings in the supplied reference pack are NOT treated as cu"
+nba2k-arena/zgc-court/tools/refine_chilis_current.py,34349,3c28a15aee0011e389128a325a5fb11612974094e677a098de45d9afee356330,"工具：R11 incremental Chili's facade reconstruction from the supplied photographs. Only the explicit Chili's object family is replaceable. The two visible facade types are independent modules: entry (mauve sign, black double door) and terrace (open silver fins, large letters). Terrace side/rotation is an "
+nba2k-arena/zgc-court/tools/refine_chilis_material_current.py,26423,a7071a177c88722cb78699596547305b0c4d203bf0d3ceb87d9005b936a2bca5,"工具：R13 photo-led material/fabrication pass, restricted to the court-facing Chili's. Open the saved source first. Writes a staged blend only. Original photographs are read-only evidence; material PNGs below are newly authored procedural material maps, not edits to photos. Uses exportable base-color/roug"
+nba2k-arena/zgc-court/tools/refine_chilis_rect_current.py,14368,35730dc4980ba339d6bb112d076505b268b66594aac37010148aa5c4ec1b0e92,"工具：R12: rectangular Chili's plan, retaining the R11 photo-derived detail work. Call build() after opening the current source. This module never publishes the editable source or an IFF. It replaces only Chili's-owned meshes. R11's detail builders run in planar facade frames, without changing their sourc"
+nba2k-arena/zgc-court/tools/refine_context_current.py,3488,81d782a74bb5cdc97a00e42b8ea8a4d07c03390a08746129e87b56c8eb906eef,"工具：Assemble R12 against the current R11 editable scene, only into staging."
+nba2k-arena/zgc-court/tools/refine_court_r02.py,10040,002f4bdfa3a51561baab0aea3eaa1c13a2661161cdcae9f0832a66d49b210778,"工具：Photo-based incremental R02 court detailing, applied to an open .blend. All sources, backups and outputs stay inside this project. No game package writes. Run after refine_environment_r02.py; it leaves the NBA design anchors untouched."
+nba2k-arena/zgc-court/tools/refine_details_current.py,21751,284eea598f17ff63a887025cf2a6e55fb3b4845c182e5d92f2b26ac766896b92,"工具：Photo-supported detail pass on the current OPEN Blender source. This is incremental: no court/architecture generator is run and no artwork, game IFF, runtime rim/net, layout, or gameplay anchor is edited."
+nba2k-arena/zgc-court/tools/refine_details_r03.py,24953,c953400e952047f42f79b2d42445ca6bfef8c7a7fbad6643b4e19ac6858c67cb,"工具：R03 incremental material/fabrication detail pass on the OPEN source .blend. Writes only project-local texture assets and a staging .blend. Existing geometry, NBA anchors, court art, paving atlas and architecture layout remain protected. The textures are actual PNGs with explicit R03Finish / R03Glass"
+nba2k-arena/zgc-court/tools/refine_environment_r02.py,34476,1a6f11a98fd2a064b2cb5e1e004905900779d131cb15b2614bd9ac084408d3df,工具：Incremental R02 environment refinement of the OPEN .blend. Never regenerates court/hoop/fence geometry. The default save is a staging file. Run: blender --background source/scene.blend --python-exit-code 1 --python tools/refine_environment_r02.py -- --output <staging.blend> Optional --render writes 
+nba2k-arena/zgc-court/tools/refine_fence_current.py,16740,f29c10d40aae54305e52c3c73734adb2c0663cd74d3018812c9de265cb27cf6c,"工具：R09 photo-based fence orientation and unlit fabricated A signs. Incremental current-source edit only. The court, atlas mapping, baskets and all anchors are protected. Artwork and runtime basket changes belong to other tools."
+nba2k-arena/zgc-court/tools/refine_hoop_current.py,17160,7afdde000cdeb37a71c12719420fa775faa03b563b73b7b43585ced25eeb8dd4,"工具：Incrementally align photo-based supports to the one verified native glass. Run only on the current saved source. Never regenerate the court, scenery, or runtime rim/net. Native glass is retained by the parent IFF adapter; this source sheet is its bounds-matched preview placeholder. Photographs estab"
+nba2k-arena/zgc-court/tools/refine_left_context_current.py,23037,f8cedd603d07a56d7922553a635c401016555acff28afe7a2448ecada1c8cf3b,"工具：R12 photo-grounded left-side low shop and forecourt. Staging only. Coordinates use Blender metres. Facing the Chili's hoop, -Y is left. The photographs confirm the side and features, not a surveyed footprint."
+nba2k-arena/zgc-court/tools/refine_paving_r02.py,7571,04849c7cac08b16f0eeb6ba53ffd872d4260285dfd831e698fdbb77147c6cad3,"工具：Bind a shared world-XY paving atlas to existing ground meshes only. Blender --background existing-stage.blend --python tools/refine_paving_r02.py -- --output project/.build-staging/paving-stage.blend --report ...json No vertices, faces, object transforms, anchors or raised environment are changed."
+nba2k-arena/zgc-court/tools/refine_skyline_current.py,15593,f810e3f98e8f2b6a7e7792f063946bfb1c79f7613a2e3ad412fdf657a27bcaff,"工具：R12 photographic skyline directions; economical opaque facade geometry. The supplied frames establish relative bearings, facade silhouettes and overlap, not surveyed dimensions. No compass claim or invented exact site coordinates."
+nba2k-arena/zgc-court/tools/refine_streetlight_current.py,13076,760383a86987aac1c11669dec996d612c4b69b54fc0260a0068f25b759191980,"工具：R10 incremental, unlit photo-based left floodlight and mineral paving. No original object geometry, transform, UV, illumination or exposure changes. Photo21 establishes the high-pole form; absolute dimensions are inferred."
+nba2k-arena/zgc-court/tools/render_chilis_native_current.py,11398,7c668e8b62d279c420717032b5dd09bd16e385f7ea4c232aa21c69a13d278ea3,工具：Render Chili's views from the GLB decoded from the actual current game IFF. Run with Blender --background --python tools/render_chilis_native_current.py. This never opens source/scene.blend and never rebuilds source geometry. The GLB's bytes must match the native-IFF preview manifest. Scene import a
+nba2k-arena/zgc-court/tools/render_context_native_current.py,11833,b9083741381b49edea17757602c78daad3a5de01da685696602deeb7680cca0f,"工具：Render R12 inspection views from the GLB decoded from the actual final IFF. Blender --background --python tools/render_context_native_current.py -- ... This refuses R11 or source-GLB input, reads no source blend, never saves a blend, and never alters an imported material. Lighting exists only in thi"
+nba2k-arena/zgc-court/tools/render_r13_material_current.py,18324,8332c947311be2e8a43daf6a53dc32d45bdce1de16d2028aff8a3a1217c02862,"工具：Six material/detail views of the GLB decoded from the published R13 IFF. Blender --background --python tools/render_r13_material_current.py -- --views entry,sign,hardware,awning,paving,backboard No source blend is opened or saved. Imported meshes/materials are untouched. Only disposable viewing ligh"
+nba2k-arena/zgc-court/tools/render_views.py,2091,0c204e2bca7b9f4a198d147a3517feddd82787bde49a7694c227c9a072a01baf,工具：Render review cameras from the saved scene; never generate alternate geometry.
+nba2k-arena/zgc-court/tools/repair_iff.py,14710,1ba36674f7f1258e010aaaf0615a5d450cfcd05f4ef820eaa60d9a86af42bbe1,"工具：Current compatibility repair: keep source art and validate engine resources. This is an engine-oriented candidate, not an assertion of a successful game run. Only the project directory is modified. The user's actual Blacktop slot is 700."
+nba2k-arena/zgc-court/tools/serve.mjs,17009,524edbe2ffc92ca28124383f4c8a1b7ac659c4ec78c2177f71f73b1215ab1527,制作、导出、验证或清理工具；查看脚本说明后执行。
+nba2k-arena/zgc-court/tools/shared_floor_line_override.py,7569,3cce6ff12eaa35b21c29a4fc1a2a8f2af4517719228f6f95a3a913280a4a0b83,"工具：Prepare an explicitly unverified cross-package floor-line texture candidate. API: resources, texture_entries, report = prepare_shared_line_override(floor_level) The caller may register texture_entries in main_level['Texture'] and add the resources to the one main IFF. This module never opens or writ"
+nba2k-arena/zgc-court/tools/specialized_basket_glass.py,10492,278b4572856a512ee5178a47b0b1caf4c02cd040be462e23c5d5d5f042ab9d56,"工具：Whole native outdoor basket_glass pipeline, including Presentation. Read-only template + in-memory factory. Keeps the Rucker glass geometry, four-joint skeleton and runtime object identities; supplies dedicated native glass shaders instead of the general dual-source asset-glass variant."
+nba2k-arena/zgc-court/tools/validate_d3d_textures.py,3911,4d21b02cd86aa633d02bcf966e83cc504cad682867dfffc506a44659408e384c,"工具：Validate BC DDS resources using the installed Windows Direct3D 11 runtime. This creates and immediately releases offscreen resources. It does not open, read, inject into, or alter the game. No window or swapchain is created."
+nba2k-arena/zgc-court/tools/watch_build.mjs,12301,1790be3572790d6913735650ef2628e643299f1833c4f008f399bb3766e3c3a3,制作、导出、验证或清理工具；查看脚本说明后执行。
+nba2k-arena/zgc-court/TRANSFER_GUIDE.md,29911,f0f8ef71b5ad22a9ff62a4a6f9b43934538e7db7a30128aa007a8fca6f3157c0,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/validation/bench-seating-current.json,31875,7fca703af558e5973bcb67ea4f8218531f06b502f273bb941768bc7b877b3a47,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/chilis-building-current.json,62723,9ce8133f81b4de0ebeba44261e720de626ada6956d3127f9918615bda1a2ddd2,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/chilis-photo-current.json,6576,e28880236a866993cd27d69d3e30cafda82544e2712bca41378c68af15a63513,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/chilis-protected-metadata-deltas.json,16371,b33aa5d55818f90bd83ed388ff398580f90a08c2ec47027a359ddc1a3ee5ff20,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/chilis-protected-native-baseline.json,999565,0ac4ce232caf7cdd124fccc883bce0e94af9755c227846f70f9c4b2781857c01,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/cleanup-current.json,5986,95a5764c6e60381f6cc0680cde1b3e99e0eb3ef6679fc89f4dafec370da7388c,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/context-current.json,167332,d055c74b8f783accdd841e18faa401043d8a2115381ae97fcb511b6eb0745e75,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/context-native-current.json,966858,e66869f700b54b574b4789c0e9ac7fb0c7e375e1e14481eb329c0d3851ed023d,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/context-protected-native-baseline.json,1112087,116a505f104627ce55e671424dfb793a08ccfec748ffc1974d1fa9a03396057e,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-chilis-iff-audit.json,262376,4c8734d4b7949163c2a76122c0817121b234a1a1a7588023406be214ccc1b72e,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-chilis-native-render.json,5276,8f858ba05a7c33fc68e670e92cced702787c7ac4807627c1d6f471631eef70fb,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-chilis-terrace-details.json,14810,8ea5744bbcf13847f767055875f2d67f192b219d288ed42c53603e73a8f26b96,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-fence-detail.json,6701,ae84522b06d9f600d8013adaf199fd5a0f48c7d538c8020c2472b22f4195d4da,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-fence-iff-audit.json,288052,eb8f32ba383b4419dfaf54aab7ca66daa15fab5b640313a09d4d6a77afc94393,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-ground-material-audit.json,15735,5fe990cae7100898493e3f093bccb8f32004737735955e66e4a1fd76511ac93c,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-hoop-alignment.json,10873,d5dbf83bd13ab7b026d301b4ad2b3aaa85df6423f4582d87c207f5fa41bab8d2,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-r13-awning.png,1966579,9607f9d872b3663649a4ed641eb49e2701167704c0251946e3dc0beccf501be8,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-r13-backboard.png,2381502,8f4b65884ba4e2e4943bb9d8fdb32d61d7cf97510fff48652ea2357a06e71961,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-r13-entry.png,1924819,d344b62606236c8eb1bd6656781b7476f8aa2977503341a47254428e6e456d4a,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-r13-hardware.png,1741375,18d1c99ca3809046c1d002a87075af3e78922510cfc2a7122ea5c7e65a3cce81,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-r13-paving.png,1939881,f53b4f4573b7821c49fbff0a41f7a4f5a5f360ce6f95932bedcc3185969d57a1,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-r13-sign.png,1876712,4d331b77b2a245c6e763a5e5feb41bc0018d8edb5b399de6a75871cffc5b537d,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-streetlight-detail.json,6336,71f43d11cd9d61cb1cc6b6e7098d7573945f24e6c1f1d6ed07e8df0ece52b982,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/current-streetlight-iff-audit.json,29422,f6f9ed5f8c48f7558834433d5df0cc40073ff60837f0925fbd82e9703178dd69,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/floor-alignment-current.json,75362,49141c61304c4baeff47190998b2011f5f4c6926204259be3a10c41a79d422b3,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/floor-artwork-current.json,22496,0991a87b51c3ce22332c350444c9f2abea5c1985266dc85ef8e450724060735b,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/floor-badge-perspective-current.json,2930,8cdb4b009797d74ea41e7139b2bd75ec58900680d590b16050933d5906543640,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/floor-runtime-removal-audit.json,4053,3c682e32d4e55217dd2510245171d82eb2549b3cb3a3affae70a2393083172fc,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/glass-current-audit.json,9069,aca3027d15e133ec048f95d73681523469e3f4521047870c6438b3590d2aece7,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/ground-depth-current.json,558,cdb5749e3066a7e0e51bfd5b8ec5f89d39d50cb83b18c2ee0fccb37658e2cc6b,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/half-court-current.json,1228,e9b67ef60e75aaa9aadb557264e08394fffd3befbe837ad6c889d99c51325675,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/handoff-file-inventory.json,95979,709d5c3a1028a26bf4452a5d86642823aaf0f5f85338cbdb6f6cb148ec70497e,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/iff-current-independent.json,3538,61c6f8cc053a80c59789838bc704f3a670cfa4841d435ffdc7ea40f7fc77cab7,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/iff-current.json,234399,c907c47b86be1eaef177c9435beff992190ec8d2f837637eb5d229e9292700a2,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/indicator-depth-height-audit.json,4183,01bd7cd56e5855fe742749e7e204e018ed9479826a2c7c76de684695ca92351a,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-basket-alignment.json,6313746,eed1ff16d991b5f87102ef20bea57c910672684ee0ee1e28cde613722555a42e,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-basket-rig-current.json,16990,05ec36e3329296b5e702475a2316b665339888e49f257e0d07d1fb16275ee5d9,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-d3d-texture-validation.json,57174,48117f59635ed602f6943971b383978433ce1edd2f5b8a9050b92ece39fd279d,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-floor-reference.json,391398,6892e254980a7f47476a6cfcde5290642eaa523580425f80761da2ecb5c20f60,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-lane-tabs-current.json,5980,ffb8565a1477e2119766e53be056e71236eb0fdc50b46317ad2e45ab2b1e7e50,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-nba-line-reference.json,49740,997161d888fb9b2a2f7e933995f32ca4dab8feeda0115c6d511a7f7531cefdca,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-preview-current.json,399048,1bf5b2d49547b51f59cc46fcd781f1778e91414c86fc2a1447e69ba04baf3e3b,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/native-source-build.json,566184,67481234806be3835421bd1c489932ed98c239e72d26cdc29da73e53d3fcfd93,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/preview-current.json,3007,158555344cbf58f78b4d32b65f9b84f6d7bf9c40a76a8d0a4199c6a4e34b4359,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r10-glass-candidate.json,4771,109743f1153b786260cbb93385022f1c3c1c9bcaacae20d36b87e0cd7a60725f,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r10-glass-shader-audit.json,102195,01570ba10ecbf62269f987938598dbf1d959a337d2233b6cab1e3121e5526b07,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-chilis-rect.json,62650,2307802e1326aec662336dd98d6e40a2d5017a61e749574198125a2056f1c97d,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-left-context-current.json,11385,5faabce44ef304769bf3c5a3869db90a327d079e03648a5318ce894cca8ae8df,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-left-source-inventory.json,104428,d8d98242855dfcc30abb5cd030e3146ccc7385c3bdd0621c2516e84db47bf306,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-preview-backend-current.json,831,ddede96fc642065af57b85d73ddbfa2b2c963e79292410e0ade5167f7f4bec7e,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-preview-views.json,2364,1bd103c7d335a8aa18d87d724587e8c506bd0603f48d2592e5e42efb7e69e068,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-reference-preview.json,3956,bb86c24688fe1bbd902b2abd5687d829f005e76707c982765d4bb7b82d724678,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-seating-direction-evidence.json,3583,b5747f802d81d8d6b4e422631d3414517cc9504a158663005c18e5cb9b9ef155,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-seating-direction-geometry.json,14088,c132fa915b54fc5dd547442a53f6d84465931ea5fa4ed17e292bad0be185a18a,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-seating-evidence.json,26390,3b674612818d0ef1db7ec7b7f275cfec7eeb981c1fcf76b1bd7cb7e528e8bc69,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-seating-geometry.json,13142,6fd651b863c53d26ccd73851787cf7804cf5862a562d7e8a5a427c1a073451ae,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r12-seating-native-current.json,16566,8ded3dedb6b96c4bd55ae2935877a22736291c67dc86f8e541ccc310447f474a,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-chilis-material-current.json,22369,ddb88fd3ebcee342194b0f70b585e9554366d9f0a3751dbfda7761c0358579f6,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-chilis-photo-audit.json,24455,fe95cc1739dcfd2ec9719d9ac860eec3cdae7dd22b59d12555d363107d32afef,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-glass-final-current.json,30343,8946784d049530de0e136b246a6d5ab3c981f90d4316e228a4711c99990303ae,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-glass-material.json,14099,30904c6c5f02facda9f27d71e35a0f96032e58b67056e9a3d4dfd983d40c3fcf,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-material-export-current.json,4803,8ddcf752b9cc0dea72b18a5c51a479661a5e1a03f6e49b233d058478d4b4831f,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-native-current.json,339624,933b454e20fa9ab90daa18a5b0ac1f08fe695a3ddd7aca9b2556aa4d49493ccb,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-native-duv-audit.json,314905,627bcff1730a740d9c073360b739aa2e4feb78018d02e9343c67018962291cb8,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-native-visual-validation.json,376374,e20a400555e8d69ebcafb726d72cc48f9051793c8fa2bbdddf36086c6e42c948,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-preview-http-current.json,520,54b9690ec8e456fbf69534ffc891c53793e3118cb493f8726c1222c24dfdfbe8,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/r13-protected-native-baseline.json,2283947,9477bc1375f02dda7761754e5d4acceed4dcc1dfa81d0ebb7175a1a11871ff76,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/validation/shared-floor-line-override.json,5560,44c7f09f498395e75eba745440f61ec134c752d6464ee7aece3d8dbb22e37b59,离线检查、实机问题证据、对应版本和资源身份；不是游戏通过保证。
+nba2k-arena/zgc-court/使用说明.txt,796,178b5a3d9d22b13174237fab22fe21908d5ff8bdfdb09ba73b520b2a346c16ab,项目入口、配置、使用说明或交接文档。
+nba2k-arena/zgc-court/排查与测试.txt,909,9bcc30f586f70acf5ff75716f0d05c5f6ef3b8aac9427e478d41eb6ed6581079,项目入口、配置、使用说明或交接文档。
+nba2k-arena/洛克公园/arena_blacktop_ext.iff,1629069247,cfff28ce8b84a551add4d813f67207e8637aa4f6bfe2bf058f520c75ca9c551f,制作依赖/技术底包，保持相对目录；不是另外要求安装的游戏交付。
+nba2k-arena/donor/original/arena_020_int_original.iff,45028875,42865ecaf8dd923c4d901509263af3b242c00975f4284b917ba79ce8fbbced46,制作依赖/技术底包，保持相对目录；不是另外要求安装的游戏交付。
+nba2k-arena/build/high_hoop/reference/arena_blacktop_ext.iff,420010838,f34774603d86efec7de1c85afa07a3eadf88770617e00f20ac025211b669cec7,制作依赖/技术底包，保持相对目录；不是另外要求安装的游戏交付。
+nba2k-arena/build/local_game_reference/levels/arena_700_int_floor.iff,721467,d5c90d99da2776b3e6613d8ff6cb0ebd1bb8f532cf8356e7ba0bf947d440c327,制作依赖/技术底包，保持相对目录；不是另外要求安装的游戏交付。
+nba2k-arena/build/local_game_reference/levels/arena_020_int_floor.iff,606343,f59a0d1f586aa80e74c37e9b5c9969ca69e55cb3f0f12f488b838d37cdd7c4b9,制作依赖/技术底包，保持相对目录；不是另外要求安装的游戏交付。
+nba2k-arena/build/local_game_reference/shared/0f/vertexbuffer.0f3b6fcaf86b59a6.gz,90468,6aed1f28fdd729b52c415ba2a07245395299d0095fe7ba4b5c31216c7555af54,交接说明、依赖来源、历史诊断证据或迁移辅助文件。
+nba2k-arena/洛克公园/篮板修复/修复说明.md,3035,790d16336962ee39bff573507ed7aff0500bc1f971c0cc1728c3d0b138266b0c,交接说明、依赖来源、历史诊断证据或迁移辅助文件。
+nba2k-arena/洛克公园/篮板修复/验证报告.json,4041,0be790abfc6205389b5dd682ce027ab823c1a921c565e9410ddf40e9d9fe7dd6,交接说明、依赖来源、历史诊断证据或迁移辅助文件。
+nba2k-arena/洛克公园/篮板修复/逐级贴图验证.json,3207,8b586a28676621d1891bb20c33a253f0a90a305edebc098c0a02fdffab3141f4,交接说明、依赖来源、历史诊断证据或迁移辅助文件。
+nba2k-arena/洛克公园/篮板修复/repair_backboard.py,9511,9d4392d3ccad9d774c4ac97cf94a3d2874936c8edd9bb66378e6cabd02895fac,交接说明、依赖来源、历史诊断证据或迁移辅助文件。

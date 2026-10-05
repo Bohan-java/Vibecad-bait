@@ -1,8 +1,11 @@
-*.iff binary
-*.tld binary
-*.bin binary
-*.gz binary
-*.dds binary
-*.png binary
-# Preserve the exact snapshot bytes, including hashes recorded in the manifest.
 * -text
+*.iff filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.dds binary
+*.zip binary
+*.pdf binary
+*.docx binary

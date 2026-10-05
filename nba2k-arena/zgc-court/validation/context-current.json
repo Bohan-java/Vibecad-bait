@@ -1,0 +1,6333 @@
+{
+  "revision": "R12",
+  "status": "passed",
+  "published_source_sha256": "dc91d9b41812c7e2aff3d77e5ac7704657c1e24c7ab8b01fdc90f2a6c1998258",
+  "stage_source": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r12-context\\scene.blend",
+  "components": {
+    "chilis": {
+      "revision": "R12",
+      "status": "passed",
+      "game_verified": false,
+      "parameters": {
+        "front_x": -21.05299186706543,
+        "rear_x": -31.6,
+        "left_y": -16.2,
+        "right_y": 14.6,
+        "corner_radius": 1.2,
+        "entry_center_y": -4.2,
+        "entry_width": 10.6,
+        "terrace_center_x": -28.1,
+        "terrace_width": 6.8
+      },
+      "facade_frames": {
+        "entry": {
+          "origin": [
+            -21.05299186706543,
+            -4.199999809265137,
+            0.0
+          ],
+          "outward_normal": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tangent": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "width_m": 10.6
+        },
+        "terrace": {
+          "origin": [
+            -28.100000381469727,
+            -16.209999084472656,
+            0.0
+          ],
+          "outward_normal": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "tangent": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "width_m": 6.8
+        }
+      },
+      "removed_old_building_objects": [
+        "R02 architecture Chilis lower storey conceptual glazing",
+        "R02 architecture Chilis lower storey sill",
+        "R11 Chilis building alcove cafe descriptor",
+        "R11 Chilis building alcove established date",
+        "R11 Chilis building alcove logo fine golden edge",
+        "R11 Chilis building alcove logo green pepper apostrophe",
+        "R11 Chilis building alcove logo warm orange letter bodies",
+        "R11 Chilis building continuous original curved folded eaves",
+        "R11 Chilis building curved flank individual silver ribs",
+        "R11 Chilis building curved flank slender mullions",
+        "R11 Chilis building curved flank upper glazing",
+        "R11 Chilis building elevator call plate",
+        "R11 Chilis building elevator deep metal jambs",
+        "R11 Chilis building elevator two brushed door leaves",
+        "R11 Chilis building entry CAFE AND BAR",
+        "R11 Chilis building entry clear window and door perimeter seams",
+        "R11 Chilis building entry concave rolled silver pilasters",
+        "R11 Chilis building entry cornice narrow reveal",
+        "R11 Chilis building entry cream retractable canvas and scalloped valance",
+        "R11 Chilis building entry door transom and narrow reveals",
+        "R11 Chilis building entry EST 1975",
+        "R11 Chilis building entry exact Chinese canvas inscription",
+        "R11 Chilis building entry grey staggered stone course 0",
+        "R11 Chilis building entry grey staggered stone course 1",
+        "R11 Chilis building entry grey staggered stone course 2",
+        "R11 Chilis building entry hinged retractable awning frame",
+        "R11 Chilis building entry local grey stone mortar bedding",
+        "R11 Chilis building entry logo fine golden edge",
+        "R11 Chilis building entry logo green pepper apostrophe",
+        "R11 Chilis building entry logo warm orange letter bodies",
+        "R11 Chilis building entry narrow vertical diffuser strips unlit",
+        "R11 Chilis building entry paired long door pulls hinges and threshold",
+        "R11 Chilis building entry pilaster folded seam flanges",
+        "R11 Chilis building entry sewn canvas seams",
+        "R11 Chilis building entry shallow interior dark mineral floor",
+        "R11 Chilis building entry shallow interior warm back plane",
+        "R11 Chilis building entry shallow interior warm timber planes",
+        "R11 Chilis building entry slender black window and double door frames",
+        "R11 Chilis building entry solid dusty mauve sign panel",
+        "R11 Chilis building entry three folded cornice rails",
+        "R11 Chilis building entry visible interior table legs",
+        "R11 Chilis building entry visible low green upholstered benches",
+        "R11 Chilis building entry visible shallow wood table tops",
+        "R11 Chilis building fine vertical red terracotta tile joints",
+        "R11 Chilis building red terracotta recessed elevator walls",
+        "R11 Chilis building retained curved restaurant envelope",
+        "R11 Chilis building roof louvre fine reveal borders",
+        "R11 Chilis building roof louvre pitched blades",
+        "R11 Chilis building terrace CAFE AND BAR",
+        "R11 Chilis building terrace concave rolled silver pilasters",
+        "R11 Chilis building terrace continuous interior red floor",
+        "R11 Chilis building terrace cornice narrow reveal",
+        "R11 Chilis building terrace cream retractable canvas and scalloped valance",
+        "R11 Chilis building terrace EST 1975",
+        "R11 Chilis building terrace exact Chinese canvas inscription",
+        "R11 Chilis building terrace fin backing recessed shadow",
+        "R11 Chilis building terrace five wide weather screen edge strips",
+        "R11 Chilis building terrace hinged retractable awning frame",
+        "R11 Chilis building terrace individually folded vertical facade fins",
+        "R11 Chilis building terrace inner low wood wainscot",
+        "R11 Chilis building terrace inner warm plaster return wall",
+        "R11 Chilis building terrace logo fine golden edge",
+        "R11 Chilis building terrace logo green pepper apostrophe",
+        "R11 Chilis building terrace logo warm orange letter bodies",
+        "R11 Chilis building terrace lower clear screen seams",
+        "R11 Chilis building terrace narrow vertical diffuser strips unlit",
+        "R11 Chilis building terrace pilaster folded seam flanges",
+        "R11 Chilis building terrace roof projection solid body and folded cap",
+        "R11 Chilis building terrace sewn canvas seams",
+        "R11 Chilis building terrace slender ivory weather screen mullions",
+        "R11 Chilis building terrace three folded cornice rails",
+        "R11 Chilis building three roof louvre framed recesses",
+        "R11 Chilis building unmodified extent flank curved glass"
+      ],
+      "new_building_objects": [
+        "R12 Chilis building entry exact Chinese canvas inscription",
+        "R12 Chilis building entry CAFE AND BAR",
+        "R12 Chilis building entry EST 1975",
+        "R12 Chilis building terrace exact Chinese canvas inscription",
+        "R12 Chilis building terrace CAFE AND BAR",
+        "R12 Chilis building terrace EST 1975",
+        "R12 Chilis building alcove cafe descriptor",
+        "R12 Chilis building alcove established date",
+        "R12 Chilis building rectangular restaurant roof and rear envelope",
+        "R12 Chilis building rectangular lower storey recessed glazing",
+        "R12 Chilis building straight eaves with short radius corner returns",
+        "R12 Chilis building straight flank and small corner glazing",
+        "R12 Chilis building straight upper flank and small corner glazing",
+        "R12 Chilis building straight flank individual silver fins",
+        "R12 Chilis building straight flank slender glazing mullions",
+        "R12 Chilis building terrace inner warm plaster return wall",
+        "R12 Chilis building terrace continuous interior red floor",
+        "R12 Chilis building terrace inner low wood wainscot",
+        "R12 Chilis building entry solid dusty mauve sign panel",
+        "R12 Chilis building entry concave rolled silver pilasters",
+        "R12 Chilis building entry pilaster folded seam flanges",
+        "R12 Chilis building entry narrow vertical diffuser strips unlit",
+        "R12 Chilis building entry three folded cornice rails",
+        "R12 Chilis building entry cornice narrow reveal",
+        "R12 Chilis building entry clear window and door perimeter seams",
+        "R12 Chilis building entry slender black window and double door frames",
+        "R12 Chilis building entry paired long door pulls hinges and threshold",
+        "R12 Chilis building entry door transom and narrow reveals",
+        "R12 Chilis building entry cream retractable canvas and scalloped valance",
+        "R12 Chilis building entry hinged retractable awning frame",
+        "R12 Chilis building entry sewn canvas seams",
+        "R12 Chilis building entry logo warm orange letter bodies",
+        "R12 Chilis building entry logo fine golden edge",
+        "R12 Chilis building entry logo green pepper apostrophe",
+        "R12 Chilis building terrace fin backing recessed shadow",
+        "R12 Chilis building terrace individually folded vertical facade fins",
+        "R12 Chilis building terrace concave rolled silver pilasters",
+        "R12 Chilis building terrace pilaster folded seam flanges",
+        "R12 Chilis building terrace narrow vertical diffuser strips unlit",
+        "R12 Chilis building terrace three folded cornice rails",
+        "R12 Chilis building terrace cornice narrow reveal",
+        "R12 Chilis building terrace five wide weather screen edge strips",
+        "R12 Chilis building terrace slender ivory weather screen mullions",
+        "R12 Chilis building terrace lower clear screen seams",
+        "R12 Chilis building terrace cream retractable canvas and scalloped valance",
+        "R12 Chilis building terrace hinged retractable awning frame",
+        "R12 Chilis building terrace sewn canvas seams",
+        "R12 Chilis building terrace logo warm orange letter bodies",
+        "R12 Chilis building terrace logo fine golden edge",
+        "R12 Chilis building terrace logo green pepper apostrophe",
+        "R12 Chilis building terrace roof projection solid body and folded cap",
+        "R12 Chilis building three roof louvre framed recesses",
+        "R12 Chilis building roof louvre fine reveal borders",
+        "R12 Chilis building roof louvre pitched blades",
+        "R12 Chilis building red terracotta recessed elevator walls",
+        "R12 Chilis building fine vertical red terracotta tile joints",
+        "R12 Chilis building elevator two brushed door leaves",
+        "R12 Chilis building elevator deep metal jambs",
+        "R12 Chilis building alcove logo warm orange letter bodies",
+        "R12 Chilis building alcove logo fine golden edge",
+        "R12 Chilis building alcove logo green pepper apostrophe",
+        "R12 Chilis building elevator call plate",
+        "R12 Chilis building entry local grey stone mortar bedding",
+        "R12 Chilis building entry grey staggered stone course 0",
+        "R12 Chilis building entry grey staggered stone course 1",
+        "R12 Chilis building entry grey staggered stone course 2",
+        "R12 Chilis building entry shallow interior warm back plane",
+        "R12 Chilis building entry shallow interior warm timber planes",
+        "R12 Chilis building entry shallow interior dark mineral floor",
+        "R12 Chilis building entry visible low green upholstered benches",
+        "R12 Chilis building entry visible interior table legs",
+        "R12 Chilis building entry visible shallow wood table tops"
+      ],
+      "protected_objects": 551,
+      "unexpected_changes": [],
+      "non_chilis_geometry_materials_transforms_uv_preserved": true,
+      "lights_world_exposure_preserved": true,
+      "facade_evidence": {
+        "entry": "New02 and court photo19: mauve board, black double door, small logo, scalloped awning, coved silver columns",
+        "terrace": "New01: larger logo directly over individual silver fins, no mauve sign panel, cream Chinese awning",
+        "awning": "New08/09/10: articulated slender black supports and scalloped valance",
+        "roof": "New01: three real horizontal louvre panels",
+        "footprint": "Explicit user correction: generally rectangular. New02/old02 show planar purple signboard; old03/04 show local rounded turn only; new07/08/09 show long straight court-side walk. r12 skyline08/09 anchor terrace and court; r12 left08 identifies The boots as a separate shop."
+      },
+      "layout_limits": [
+        "User confirmed generally rectangular form and fountain terrace around the left corner when facing the entry.",
+        "Exact metric size and 1.20 m corner radius are photographic estimates, not a measured survey.",
+        "Entry and terrace viewing apertures retain R11 perimeter-seam geometry; optical transparent sheets are not introduced.",
+        "R11 door/sign/awning/pilaster/fountain/furniture detail geometry is regenerated in corrected planar frames.",
+        "Courts, baskets, fences, LINK, other site modules, lighting and exposure are protected before/after."
+      ],
+      "furniture": {
+        "revision": "R11",
+        "objects": [
+          "R12 Chilis terrace warm red terrace grout bed",
+          "R12 Chilis terrace warm red square terrace tiles",
+          "R12 Chilis terrace warm red square terrace tile variants",
+          "R12 Chilis terrace three tier fountain carved limestone",
+          "R12 Chilis terrace fountain small blue inner mosaic",
+          "R12 Chilis terrace fountain small pale inner mosaic",
+          "R12 Chilis terrace fountain still recessed basin",
+          "R12 Chilis terrace square mosaic table black frames",
+          "R12 Chilis terrace square mosaic table fine grout",
+          "R12 Chilis terrace square mosaic table ochre inserts",
+          "R12 Chilis terrace square mosaic table dark inserts",
+          "R12 Chilis terrace curved chair champagne tube frames",
+          "R12 Chilis terrace curved chair woven red bodies",
+          "R12 Chilis terrace curved chair pale diagonal weave",
+          "R12 Chilis terrace parasol cantilever masts ribs and fixed feet",
+          "R12 Chilis terrace parasol beige summer canvas",
+          "R12 Chilis terrace parasol fine panel seams",
+          "R12 Chilis terrace parasol visible floor anchors",
+          "R12 Chilis terrace sage vase planters",
+          "R12 Chilis terrace clipped planter foliage",
+          "R12 Chilis terrace entry hinged menu stands",
+          "R12 Chilis terrace entry poster panel 0",
+          "R12 Chilis terrace entry advertising broad red shapes",
+          "R12 Chilis terrace entry advertising broad pale shapes",
+          "R12 Chilis terrace entry poster panel 1",
+          "R12 Chilis terrace entry poster panel 2",
+          "R12 Chilis terrace entry separate sloped menu lectern",
+          "R12 Chilis terrace entry lectern pale menu paper",
+          "R12 Chilis terrace entry lectern fine page divisions",
+          "R12 Chilis terrace entry oak welcome cabinet",
+          "R12 Chilis terrace entry cabinet restrained wood grain",
+          "R12 Chilis terrace entry cabinet small feet"
+        ],
+        "mesh_count": 32,
+        "vertices": 46656,
+        "triangles": 50132,
+        "world_bounds": {
+          "min": [
+            -31.50728416442871,
+            -19.894241333007812,
+            0.03400000184774399
+          ],
+          "max": [
+            -19.667991638183594,
+            -0.5569999814033508,
+            2.8318285942077637
+          ]
+        },
+        "anchors": [
+          {
+            "label": "three-tier-fountain",
+            "face": "terrace",
+            "u": 0.3,
+            "offset": 2.2,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.8248999999999999,
+                -0.8248999999999999,
+                0.02166
+              ],
+              "max": [
+                0.8248999999999999,
+                0.8248999999999999,
+                2.1010199999999997
+              ]
+            },
+            "world_origin": [
+              -27.799999237060547,
+              -18.40999984741211,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "paired-square-table-0",
+            "face": "terrace",
+            "u": -2.0,
+            "offset": 1.65,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.704,
+                -0.35,
+                0.018
+              ],
+              "max": [
+                0.704,
+                0.35,
+                0.768
+              ]
+            },
+            "world_origin": [
+              -30.100000381469727,
+              -17.860000610351562,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-0",
+            "face": "terrace",
+            "u": -2.35,
+            "offset": 1.0499999999999998,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -30.450000762939453,
+              -17.260000228881836,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-1",
+            "face": "terrace",
+            "u": -1.65,
+            "offset": 1.0499999999999998,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -29.75,
+              -17.260000228881836,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-2",
+            "face": "terrace",
+            "u": -2.35,
+            "offset": 2.25,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -30.450000762939453,
+              -18.459999084472656,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-3",
+            "face": "terrace",
+            "u": -1.65,
+            "offset": 2.25,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -29.75,
+              -18.459999084472656,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "paired-square-table-1",
+            "face": "terrace",
+            "u": 2.0,
+            "offset": 1.65,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.704,
+                -0.35,
+                0.018
+              ],
+              "max": [
+                0.704,
+                0.35,
+                0.768
+              ]
+            },
+            "world_origin": [
+              -26.100000381469727,
+              -17.860000610351562,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-4",
+            "face": "terrace",
+            "u": 1.65,
+            "offset": 1.0499999999999998,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -26.450000762939453,
+              -17.260000228881836,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-5",
+            "face": "terrace",
+            "u": 2.35,
+            "offset": 1.0499999999999998,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -25.75,
+              -17.260000228881836,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-6",
+            "face": "terrace",
+            "u": 1.65,
+            "offset": 2.25,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -26.450000762939453,
+              -18.459999084472656,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-7",
+            "face": "terrace",
+            "u": 2.35,
+            "offset": 2.25,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -25.75,
+              -18.459999084472656,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "paired-square-table-2",
+            "face": "terrace",
+            "u": -1.85,
+            "offset": -1.25,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.704,
+                -0.35,
+                0.018
+              ],
+              "max": [
+                0.704,
+                0.35,
+                0.768
+              ]
+            },
+            "world_origin": [
+              -29.950000762939453,
+              -14.960000038146973,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-8",
+            "face": "terrace",
+            "u": -2.2,
+            "offset": -1.85,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -30.299999237060547,
+              -14.359999656677246,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-9",
+            "face": "terrace",
+            "u": -1.5,
+            "offset": -1.85,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -29.600000381469727,
+              -14.359999656677246,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-10",
+            "face": "terrace",
+            "u": -2.2,
+            "offset": -0.65,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -30.299999237060547,
+              -15.5600004196167,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-11",
+            "face": "terrace",
+            "u": -1.5,
+            "offset": -0.65,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -29.600000381469727,
+              -15.5600004196167,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "paired-square-table-3",
+            "face": "terrace",
+            "u": 1.85,
+            "offset": -1.25,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.704,
+                -0.35,
+                0.018
+              ],
+              "max": [
+                0.704,
+                0.35,
+                0.768
+              ]
+            },
+            "world_origin": [
+              -26.25,
+              -14.960000038146973,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-12",
+            "face": "terrace",
+            "u": 1.5,
+            "offset": -1.85,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -26.600000381469727,
+              -14.359999656677246,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-13",
+            "face": "terrace",
+            "u": 2.2,
+            "offset": -1.85,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -25.899999618530273,
+              -14.359999656677246,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-14",
+            "face": "terrace",
+            "u": 1.5,
+            "offset": -0.65,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -26.600000381469727,
+              -15.5600004196167,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "woven-chair-15",
+            "face": "terrace",
+            "u": 2.2,
+            "offset": -0.65,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.22271350026130676,
+                -0.20960530638694763,
+                0.030898602679371834
+              ],
+              "max": [
+                0.22271350026130676,
+                0.31637105345726013,
+                0.9076062440872192
+              ]
+            },
+            "world_origin": [
+              -25.899999618530273,
+              -15.5600004196167,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "cantilever-parasol-0",
+            "face": "terrace",
+            "u": -2.1,
+            "offset": 2.6,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -1.0822460651397705,
+                -1.202246069908142,
+                0.010000000000000002
+              ],
+              "max": [
+                1.0822460651397705,
+                0.9622460007667542,
+                2.7978286743164062
+              ]
+            },
+            "world_origin": [
+              -30.200000762939453,
+              -18.809999465942383,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "cantilever-parasol-1",
+            "face": "terrace",
+            "u": 2.1,
+            "offset": 2.6,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -1.0822460651397705,
+                -1.202246069908142,
+                0.010000000000000002
+              ],
+              "max": [
+                1.0822460651397705,
+                0.9622460007667542,
+                2.7978286743164062
+              ]
+            },
+            "world_origin": [
+              -26.0,
+              -18.809999465942383,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "vase-planter",
+            "face": "terrace",
+            "u": -3.0,
+            "offset": 0.55,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.255,
+                -0.255,
+                0.02
+              ],
+              "max": [
+                0.255,
+                0.255,
+                0.705
+              ]
+            },
+            "world_origin": [
+              -31.100000381469727,
+              -16.760000228881836,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "vase-planter",
+            "face": "terrace",
+            "u": 3.0,
+            "offset": 0.55,
+            "z": 0.034,
+            "local_bounds": {
+              "min": [
+                -0.255,
+                -0.255,
+                0.02
+              ],
+              "max": [
+                0.255,
+                0.255,
+                0.705
+              ]
+            },
+            "world_origin": [
+              -25.100000381469727,
+              -16.760000228881836,
+              0.03400000184774399
+            ]
+          },
+          {
+            "label": "entry-menu-board-0",
+            "face": "entry",
+            "u": -2.9,
+            "offset": 1.05,
+            "z": 0.025,
+            "local_bounds": {
+              "min": [
+                -0.27799999713897705,
+                -0.22216905653476715,
+                0.021369537338614464
+              ],
+              "max": [
+                0.27799999713897705,
+                0.22216905653476715,
+                1.1804734468460083
+              ]
+            },
+            "world_origin": [
+              -20.002992630004883,
+              -7.099999904632568,
+              0.02500000037252903
+            ]
+          },
+          {
+            "label": "entry-menu-board-1",
+            "face": "entry",
+            "u": -2.24,
+            "offset": 1.05,
+            "z": 0.025,
+            "local_bounds": {
+              "min": [
+                -0.27799999713897705,
+                -0.22216905653476715,
+                0.021369537338614464
+              ],
+              "max": [
+                0.27799999713897705,
+                0.22216905653476715,
+                1.1804734468460083
+              ]
+            },
+            "world_origin": [
+              -20.002992630004883,
+              -6.440000057220459,
+              0.02500000037252903
+            ]
+          },
+          {
+            "label": "entry-menu-board-2",
+            "face": "entry",
+            "u": -1.58,
+            "offset": 1.05,
+            "z": 0.025,
+            "local_bounds": {
+              "min": [
+                -0.27799999713897705,
+                -0.22216905653476715,
+                0.021369537338614464
+              ],
+              "max": [
+                0.27799999713897705,
+                0.22216905653476715,
+                1.1804734468460083
+              ]
+            },
+            "world_origin": [
+              -20.002992630004883,
+              -5.78000020980835,
+              0.02500000037252903
+            ]
+          },
+          {
+            "label": "entry-sloped-menu-lectern",
+            "face": "entry",
+            "u": 2.5,
+            "offset": 1.2,
+            "z": 0.025,
+            "local_bounds": {
+              "min": [
+                -0.265,
+                -0.185,
+                0.012500000000000004
+              ],
+              "max": [
+                0.265,
+                0.185,
+                1.115
+              ]
+            },
+            "world_origin": [
+              -19.852991104125977,
+              -1.7000000476837158,
+              0.02500000037252903
+            ]
+          },
+          {
+            "label": "entry-oak-host-desk",
+            "face": "entry",
+            "u": 3.25,
+            "offset": 0.8,
+            "z": 0.025,
+            "local_bounds": {
+              "min": [
+                -0.393,
+                -0.27,
+                0.039999999999999925
+              ],
+              "max": [
+                0.393,
+                0.2755,
+                1.1275000000000002
+              ]
+            },
+            "world_origin": [
+              -20.252992630004883,
+              -0.949999988079071,
+              0.02500000037252903
+            ]
+          }
+        ],
+        "photo_evidence": {
+          "01": "Summer restaurant photo: warm red outdoor tile, paired square mosaic tables, ivory open umbrellas, three-tier fountain and blue/white basin.",
+          "04": "Two narrow black A-frame advertising stands outside entry. No invented prices or unreadable menu copy.",
+          "05": "Fountain basin wall and blue/white inner mosaic; three upper dishes; clear terrace screen behind; cafe chairs have curved woven red backs.",
+          "06": "Two square tables abut with a visible join; red curved backs carry narrow cream woven marks, champagne metal frame.",
+          "11": "Reverse terrace view: offset cantilever parasol mast, bolted feet, repeated paired tables, vase planter. Snow/seasonal decoration excluded."
+        },
+        "layout": {
+          "u_range": [
+            -3.4,
+            3.4
+          ],
+          "depth": 3.35,
+          "fountain_u": 0.3,
+          "fountain_offset": 2.2,
+          "tables": [
+            [
+              -2.0,
+              1.65,
+              0
+            ],
+            [
+              2.0,
+              1.65,
+              0
+            ]
+          ],
+          "interior_tables": [
+            [
+              -1.85,
+              -1.25,
+              0
+            ],
+            [
+              1.85,
+              -1.25,
+              0
+            ]
+          ],
+          "parasols": [
+            [
+              -2.1,
+              2.6,
+              true,
+              1.5707963267948966
+            ],
+            [
+              2.1,
+              2.6,
+              true,
+              -1.5707963267948966
+            ]
+          ],
+          "planters": [
+            [
+              -3.0,
+              0.55
+            ],
+            [
+              3.0,
+              0.55
+            ]
+          ]
+        },
+        "entry_layout": {
+          "menus": [
+            [
+              -2.9,
+              1.05
+            ],
+            [
+              -2.24,
+              1.05
+            ],
+            [
+              -1.58,
+              1.05
+            ]
+          ],
+          "welcome": true,
+          "lectern": [
+            2.5,
+            1.2
+          ],
+          "host_desk": [
+            3.25,
+            0.8
+          ]
+        },
+        "scale_status": "Relative photo reconstruction, metric dimensions inferred",
+        "excluded": [
+          "snow",
+          "Christmas decorations",
+          "invented menu prices",
+          "emissive lighting"
+        ],
+        "fountain_dimensions_m": {
+          "basin_diameter": 1.6498,
+          "stone_height": 2.10102,
+          "three_dishes": 3
+        },
+        "table_dimensions_m": {
+          "each_square_width": 0.7,
+          "pair_join": 0.008,
+          "height": 0.779
+        },
+        "deleted_old_objects": [
+          "R11 Chilis terrace clipped planter foliage",
+          "R11 Chilis terrace curved chair champagne tube frames",
+          "R11 Chilis terrace curved chair pale diagonal weave",
+          "R11 Chilis terrace curved chair woven red bodies",
+          "R11 Chilis terrace entry advertising broad pale shapes",
+          "R11 Chilis terrace entry advertising broad red shapes",
+          "R11 Chilis terrace entry cabinet restrained wood grain",
+          "R11 Chilis terrace entry cabinet small feet",
+          "R11 Chilis terrace entry hinged menu stands",
+          "R11 Chilis terrace entry lectern fine page divisions",
+          "R11 Chilis terrace entry lectern pale menu paper",
+          "R11 Chilis terrace entry oak welcome cabinet",
+          "R11 Chilis terrace entry poster panel 0",
+          "R11 Chilis terrace entry poster panel 1",
+          "R11 Chilis terrace entry poster panel 2",
+          "R11 Chilis terrace entry separate sloped menu lectern",
+          "R11 Chilis terrace fountain small blue inner mosaic",
+          "R11 Chilis terrace fountain small pale inner mosaic",
+          "R11 Chilis terrace fountain still recessed basin",
+          "R11 Chilis terrace parasol beige summer canvas",
+          "R11 Chilis terrace parasol cantilever masts ribs and fixed feet",
+          "R11 Chilis terrace parasol fine panel seams",
+          "R11 Chilis terrace parasol visible floor anchors",
+          "R11 Chilis terrace sage vase planters",
+          "R11 Chilis terrace square mosaic table black frames",
+          "R11 Chilis terrace square mosaic table dark inserts",
+          "R11 Chilis terrace square mosaic table fine grout",
+          "R11 Chilis terrace square mosaic table ochre inserts",
+          "R11 Chilis terrace three tier fountain carved limestone",
+          "R11 Chilis terrace warm red square terrace tile variants",
+          "R11 Chilis terrace warm red square terrace tiles",
+          "R11 Chilis terrace warm red terrace grout bed"
+        ],
+        "historical_removed_source_objects": [
+          "R02 architecture Chilis terrace side-walk glass guard"
+        ]
+      },
+      "nba_validation": {
+        "source": "scene.blend actual evaluated coordinates",
+        "coordinate_system": "metres; X length; Y width; Z up; reference X<0",
+        "status": "passed",
+        "tolerance_m": 4e-06,
+        "game_geometry_mapping": "unverified",
+        "playing_surface": {
+          "expected_length_m": 28.651200000000003,
+          "measured_length_m": 28.651199340820312,
+          "expected_width_m": 15.24,
+          "measured_width_m": 15.239999771118164,
+          "surface_z_m": 0.0
+        },
+        "ground": {
+          "object": "court_surface",
+          "mesh_count": 1,
+          "connected_vertices": 16,
+          "vertices": 16,
+          "connected": true,
+          "apron_m": 4.0,
+          "centre_seam": false
+        },
+        "hoops": {
+          "reference": {
+            "rim_center_x_m": -12.7253999710083,
+            "expected_center_x_m": -12.7254,
+            "rim_center_y_m": 0.0,
+            "rim_upper_surface_m": 3.0480000972747803,
+            "rim_inner_diameter_m": 0.4571990386962898,
+            "backboard_front_x_m": -13.10645866394043,
+            "backboard_width_m": 1.7014190554618835,
+            "backboard_height_m": 0.9499123096466064,
+            "backboard_bottom_m": 2.9043452739715576,
+            "backboard_expected_front_x_m": -13.10645866394043,
+            "backboard_expected_width_m": 1.7014190554618835,
+            "backboard_expected_height_m": 0.9499123096466064,
+            "backboard_expected_bottom_m": 2.9043452739715576,
+            "functional_in_game": "unverified"
+          },
+          "open": {
+            "rim_center_x_m": 12.7253999710083,
+            "expected_center_x_m": 12.7254,
+            "rim_center_y_m": 0.0,
+            "rim_upper_surface_m": 3.0480000972747803,
+            "rim_inner_diameter_m": 0.4571990386962881,
+            "backboard_front_x_m": 13.10645866394043,
+            "backboard_width_m": 1.7014190554618835,
+            "backboard_height_m": 0.9499123096466064,
+            "backboard_bottom_m": 2.9043452739715576,
+            "backboard_expected_front_x_m": 13.10645866394043,
+            "backboard_expected_width_m": 1.7014190554618835,
+            "backboard_expected_height_m": 0.9499123096466064,
+            "backboard_expected_bottom_m": 2.9043452739715576,
+            "functional_in_game": "unverified"
+          }
+        },
+        "limits": [
+          "No NBA 2K game mesh, physics, scoring trigger, collision or animated net verified.",
+          "Support geometry is an editable provisional visual reconstruction.",
+          "Geometry validation does not establish donor compatibility."
+        ]
+      },
+      "footprint": {
+        "type": "rectangle with two small front corner roundovers",
+        "long_straight_front_length_m": 28.4,
+        "straight_front_x_max_deviation_m": 0.0,
+        "body_width_m": 30.799999999999997,
+        "body_depth_m": 10.547008132934572,
+        "rounded_corner_radius_m": 1.2,
+        "full_facade_ellipse_removed": true,
+        "former_lower_storey_ellipse_removed": true,
+        "sampled_xy": [
+          [
+            -31.600000381469727,
+            -16.200000762939453
+          ],
+          [
+            -31.405271530151367,
+            -16.200000762939453
+          ],
+          [
+            -31.210540771484375,
+            -16.200000762939453
+          ],
+          [
+            -31.015811920166016,
+            -16.200000762939453
+          ],
+          [
+            -30.821083068847656,
+            -16.200000762939453
+          ],
+          [
+            -30.626354217529297,
+            -16.200000762939453
+          ],
+          [
+            -30.431623458862305,
+            -16.200000762939453
+          ],
+          [
+            -30.236894607543945,
+            -16.200000762939453
+          ],
+          [
+            -30.042165756225586,
+            -16.200000762939453
+          ],
+          [
+            -29.847436904907227,
+            -16.200000762939453
+          ],
+          [
+            -29.652706146240234,
+            -16.200000762939453
+          ],
+          [
+            -29.457977294921875,
+            -16.200000762939453
+          ],
+          [
+            -29.263248443603516,
+            -16.200000762939453
+          ],
+          [
+            -29.068517684936523,
+            -16.200000762939453
+          ],
+          [
+            -28.873788833618164,
+            -16.200000762939453
+          ],
+          [
+            -28.679059982299805,
+            -16.200000762939453
+          ],
+          [
+            -28.484331130981445,
+            -16.200000762939453
+          ],
+          [
+            -28.289600372314453,
+            -16.200000762939453
+          ],
+          [
+            -28.094871520996094,
+            -16.200000762939453
+          ],
+          [
+            -27.900142669677734,
+            -16.200000762939453
+          ],
+          [
+            -27.705413818359375,
+            -16.200000762939453
+          ],
+          [
+            -27.510683059692383,
+            -16.200000762939453
+          ],
+          [
+            -27.315954208374023,
+            -16.200000762939453
+          ],
+          [
+            -27.121225357055664,
+            -16.200000762939453
+          ],
+          [
+            -26.926496505737305,
+            -16.200000762939453
+          ],
+          [
+            -26.731765747070312,
+            -16.200000762939453
+          ],
+          [
+            -26.537036895751953,
+            -16.200000762939453
+          ],
+          [
+            -26.342308044433594,
+            -16.200000762939453
+          ],
+          [
+            -26.147579193115234,
+            -16.200000762939453
+          ],
+          [
+            -25.952848434448242,
+            -16.200000762939453
+          ],
+          [
+            -25.758119583129883,
+            -16.200000762939453
+          ],
+          [
+            -25.563390731811523,
+            -16.200000762939453
+          ],
+          [
+            -25.368661880493164,
+            -16.200000762939453
+          ],
+          [
+            -25.173931121826172,
+            -16.200000762939453
+          ],
+          [
+            -24.979202270507812,
+            -16.200000762939453
+          ],
+          [
+            -24.784473419189453,
+            -16.200000762939453
+          ],
+          [
+            -24.589744567871094,
+            -16.200000762939453
+          ],
+          [
+            -24.3950138092041,
+            -16.200000762939453
+          ],
+          [
+            -24.200284957885742,
+            -16.200000762939453
+          ],
+          [
+            -24.005556106567383,
+            -16.200000762939453
+          ],
+          [
+            -23.810827255249023,
+            -16.200000762939453
+          ],
+          [
+            -23.61609649658203,
+            -16.200000762939453
+          ],
+          [
+            -23.421367645263672,
+            -16.200000762939453
+          ],
+          [
+            -23.226638793945312,
+            -16.200000762939453
+          ],
+          [
+            -23.031909942626953,
+            -16.200000762939453
+          ],
+          [
+            -22.83717918395996,
+            -16.200000762939453
+          ],
+          [
+            -22.6424503326416,
+            -16.200000762939453
+          ],
+          [
+            -22.447721481323242,
+            -16.200000762939453
+          ],
+          [
+            -22.252992630004883,
+            -16.200000762939453
+          ],
+          [
+            -22.174509048461914,
+            -16.197431564331055
+          ],
+          [
+            -22.09636116027832,
+            -16.189733505249023
+          ],
+          [
+            -22.018882751464844,
+            -16.176942825317383
+          ],
+          [
+            -21.94240951538086,
+            -16.15911102294922
+          ],
+          [
+            -21.867263793945312,
+            -16.136316299438477
+          ],
+          [
+            -21.793771743774414,
+            -16.10865592956543
+          ],
+          [
+            -21.722246170043945,
+            -16.076248168945312
+          ],
+          [
+            -21.652992248535156,
+            -16.039230346679688
+          ],
+          [
+            -21.586307525634766,
+            -15.997763633728027
+          ],
+          [
+            -21.522478103637695,
+            -15.952024459838867
+          ],
+          [
+            -21.461776733398438,
+            -15.902207374572754
+          ],
+          [
+            -21.404462814331055,
+            -15.848527908325195
+          ],
+          [
+            -21.350784301757812,
+            -15.791214942932129
+          ],
+          [
+            -21.300968170166016,
+            -15.730513572692871
+          ],
+          [
+            -21.25522804260254,
+            -15.6666841506958
+          ],
+          [
+            -21.213762283325195,
+            -15.600000381469727
+          ],
+          [
+            -21.17674446105957,
+            -15.530746459960938
+          ],
+          [
+            -21.144336700439453,
+            -15.459219932556152
+          ],
+          [
+            -21.116676330566406,
+            -15.385726928710938
+          ],
+          [
+            -21.093881607055664,
+            -15.310583114624023
+          ],
+          [
+            -21.0760498046875,
+            -15.234107971191406
+          ],
+          [
+            -21.063257217407227,
+            -15.156631469726562
+          ],
+          [
+            -21.055561065673828,
+            -15.078483581542969
+          ],
+          [
+            -21.05299186706543,
+            -15.0
+          ],
+          [
+            -21.05299186706543,
+            -14.822500228881836
+          ],
+          [
+            -21.05299186706543,
+            -14.645000457763672
+          ],
+          [
+            -21.05299186706543,
+            -14.467499732971191
+          ],
+          [
+            -21.05299186706543,
+            -14.289999961853027
+          ],
+          [
+            -21.05299186706543,
+            -14.112500190734863
+          ],
+          [
+            -21.05299186706543,
+            -13.9350004196167
+          ],
+          [
+            -21.05299186706543,
+            -13.757499694824219
+          ],
+          [
+            -21.05299186706543,
+            -13.579999923706055
+          ],
+          [
+            -21.05299186706543,
+            -13.40250015258789
+          ],
+          [
+            -21.05299186706543,
+            -13.225000381469727
+          ],
+          [
+            -21.05299186706543,
+            -13.047499656677246
+          ],
+          [
+            -21.05299186706543,
+            -12.869999885559082
+          ],
+          [
+            -21.05299186706543,
+            -12.692500114440918
+          ],
+          [
+            -21.05299186706543,
+            -12.515000343322754
+          ],
+          [
+            -21.05299186706543,
+            -12.337499618530273
+          ],
+          [
+            -21.05299186706543,
+            -12.15999984741211
+          ],
+          [
+            -21.05299186706543,
+            -11.982500076293945
+          ],
+          [
+            -21.05299186706543,
+            -11.805000305175781
+          ],
+          [
+            -21.05299186706543,
+            -11.6274995803833
+          ],
+          [
+            -21.05299186706543,
+            -11.449999809265137
+          ],
+          [
+            -21.05299186706543,
+            -11.272500038146973
+          ],
+          [
+            -21.05299186706543,
+            -11.095000267028809
+          ],
+          [
+            -21.05299186706543,
+            -10.917499542236328
+          ],
+          [
+            -21.05299186706543,
+            -10.739999771118164
+          ],
+          [
+            -21.05299186706543,
+            -10.5625
+          ],
+          [
+            -21.05299186706543,
+            -10.385000228881836
+          ],
+          [
+            -21.05299186706543,
+            -10.207500457763672
+          ],
+          [
+            -21.05299186706543,
+            -10.029999732971191
+          ],
+          [
+            -21.05299186706543,
+            -9.852499961853027
+          ],
+          [
+            -21.05299186706543,
+            -9.675000190734863
+          ],
+          [
+            -21.05299186706543,
+            -9.4975004196167
+          ],
+          [
+            -21.05299186706543,
+            -9.319999694824219
+          ],
+          [
+            -21.05299186706543,
+            -9.142499923706055
+          ],
+          [
+            -21.05299186706543,
+            -8.96500015258789
+          ],
+          [
+            -21.05299186706543,
+            -8.787500381469727
+          ],
+          [
+            -21.05299186706543,
+            -8.609999656677246
+          ],
+          [
+            -21.05299186706543,
+            -8.432499885559082
+          ],
+          [
+            -21.05299186706543,
+            -8.255000114440918
+          ],
+          [
+            -21.05299186706543,
+            -8.077500343322754
+          ],
+          [
+            -21.05299186706543,
+            -7.900000095367432
+          ],
+          [
+            -21.05299186706543,
+            -7.722499847412109
+          ],
+          [
+            -21.05299186706543,
+            -7.545000076293945
+          ],
+          [
+            -21.05299186706543,
+            -7.367499828338623
+          ],
+          [
+            -21.05299186706543,
+            -7.190000057220459
+          ],
+          [
+            -21.05299186706543,
+            -7.012499809265137
+          ],
+          [
+            -21.05299186706543,
+            -6.835000038146973
+          ],
+          [
+            -21.05299186706543,
+            -6.65749979019165
+          ],
+          [
+            -21.05299186706543,
+            -6.480000019073486
+          ],
+          [
+            -21.05299186706543,
+            -6.302499771118164
+          ],
+          [
+            -21.05299186706543,
+            -6.125
+          ],
+          [
+            -21.05299186706543,
+            -5.947500228881836
+          ],
+          [
+            -21.05299186706543,
+            -5.769999980926514
+          ],
+          [
+            -21.05299186706543,
+            -5.59250020980835
+          ],
+          [
+            -21.05299186706543,
+            -5.414999961853027
+          ],
+          [
+            -21.05299186706543,
+            -5.237500190734863
+          ],
+          [
+            -21.05299186706543,
+            -5.059999942779541
+          ],
+          [
+            -21.05299186706543,
+            -4.882500171661377
+          ],
+          [
+            -21.05299186706543,
+            -4.704999923706055
+          ],
+          [
+            -21.05299186706543,
+            -4.527500152587891
+          ],
+          [
+            -21.05299186706543,
+            -4.349999904632568
+          ],
+          [
+            -21.05299186706543,
+            -4.172500133514404
+          ],
+          [
+            -21.05299186706543,
+            -3.994999885559082
+          ],
+          [
+            -21.05299186706543,
+            -3.817500114440918
+          ],
+          [
+            -21.05299186706543,
+            -3.640000104904175
+          ],
+          [
+            -21.05299186706543,
+            -3.4625000953674316
+          ],
+          [
+            -21.05299186706543,
+            -3.2850000858306885
+          ],
+          [
+            -21.05299186706543,
+            -3.1075000762939453
+          ],
+          [
+            -21.05299186706543,
+            -2.930000066757202
+          ],
+          [
+            -21.05299186706543,
+            -2.752500057220459
+          ],
+          [
+            -21.05299186706543,
+            -2.575000047683716
+          ],
+          [
+            -21.05299186706543,
+            -2.3975000381469727
+          ],
+          [
+            -21.05299186706543,
+            -2.2200000286102295
+          ],
+          [
+            -21.05299186706543,
+            -2.0425000190734863
+          ],
+          [
+            -21.05299186706543,
+            -1.8650000095367432
+          ],
+          [
+            -21.05299186706543,
+            -1.6875
+          ],
+          [
+            -21.05299186706543,
+            -1.5099999904632568
+          ],
+          [
+            -21.05299186706543,
+            -1.3324999809265137
+          ],
+          [
+            -21.05299186706543,
+            -1.1549999713897705
+          ],
+          [
+            -21.05299186706543,
+            -0.9775000214576721
+          ],
+          [
+            -21.05299186706543,
+            -0.800000011920929
+          ],
+          [
+            -21.05299186706543,
+            -0.6225000023841858
+          ],
+          [
+            -21.05299186706543,
+            -0.4449999928474426
+          ],
+          [
+            -21.05299186706543,
+            -0.26750001311302185
+          ],
+          [
+            -21.05299186706543,
+            -0.09000000357627869
+          ],
+          [
+            -21.05299186706543,
+            0.08749999850988388
+          ],
+          [
+            -21.05299186706543,
+            0.26499998569488525
+          ],
+          [
+            -21.05299186706543,
+            0.4424999952316284
+          ],
+          [
+            -21.05299186706543,
+            0.6200000047683716
+          ],
+          [
+            -21.05299186706543,
+            0.7975000143051147
+          ],
+          [
+            -21.05299186706543,
+            0.9750000238418579
+          ],
+          [
+            -21.05299186706543,
+            1.152500033378601
+          ],
+          [
+            -21.05299186706543,
+            1.3300000429153442
+          ],
+          [
+            -21.05299186706543,
+            1.5075000524520874
+          ],
+          [
+            -21.05299186706543,
+            1.684999942779541
+          ],
+          [
+            -21.05299186706543,
+            1.8624999523162842
+          ],
+          [
+            -21.05299186706543,
+            2.0399999618530273
+          ],
+          [
+            -21.05299186706543,
+            2.2174999713897705
+          ],
+          [
+            -21.05299186706543,
+            2.3949999809265137
+          ],
+          [
+            -21.05299186706543,
+            2.572499990463257
+          ],
+          [
+            -21.05299186706543,
+            2.75
+          ],
+          [
+            -21.05299186706543,
+            2.927500009536743
+          ],
+          [
+            -21.05299186706543,
+            3.1050000190734863
+          ],
+          [
+            -21.05299186706543,
+            3.2825000286102295
+          ],
+          [
+            -21.05299186706543,
+            3.4600000381469727
+          ],
+          [
+            -21.05299186706543,
+            3.637500047683716
+          ],
+          [
+            -21.05299186706543,
+            3.815000057220459
+          ],
+          [
+            -21.05299186706543,
+            3.992500066757202
+          ],
+          [
+            -21.05299186706543,
+            4.170000076293945
+          ],
+          [
+            -21.05299186706543,
+            4.347499847412109
+          ],
+          [
+            -21.05299186706543,
+            4.525000095367432
+          ],
+          [
+            -21.05299186706543,
+            4.702499866485596
+          ],
+          [
+            -21.05299186706543,
+            4.880000114440918
+          ],
+          [
+            -21.05299186706543,
+            5.057499885559082
+          ],
+          [
+            -21.05299186706543,
+            5.235000133514404
+          ],
+          [
+            -21.05299186706543,
+            5.412499904632568
+          ],
+          [
+            -21.05299186706543,
+            5.590000152587891
+          ],
+          [
+            -21.05299186706543,
+            5.767499923706055
+          ],
+          [
+            -21.05299186706543,
+            5.945000171661377
+          ],
+          [
+            -21.05299186706543,
+            6.122499942779541
+          ],
+          [
+            -21.05299186706543,
+            6.300000190734863
+          ],
+          [
+            -21.05299186706543,
+            6.477499961853027
+          ],
+          [
+            -21.05299186706543,
+            6.65500020980835
+          ],
+          [
+            -21.05299186706543,
+            6.832499980926514
+          ],
+          [
+            -21.05299186706543,
+            7.010000228881836
+          ],
+          [
+            -21.05299186706543,
+            7.1875
+          ],
+          [
+            -21.05299186706543,
+            7.364999771118164
+          ],
+          [
+            -21.05299186706543,
+            7.542500019073486
+          ],
+          [
+            -21.05299186706543,
+            7.71999979019165
+          ],
+          [
+            -21.05299186706543,
+            7.897500038146973
+          ],
+          [
+            -21.05299186706543,
+            8.074999809265137
+          ],
+          [
+            -21.05299186706543,
+            8.2524995803833
+          ],
+          [
+            -21.05299186706543,
+            8.430000305175781
+          ],
+          [
+            -21.05299186706543,
+            8.607500076293945
+          ],
+          [
+            -21.05299186706543,
+            8.78499984741211
+          ],
+          [
+            -21.05299186706543,
+            8.962499618530273
+          ],
+          [
+            -21.05299186706543,
+            9.140000343322754
+          ],
+          [
+            -21.05299186706543,
+            9.317500114440918
+          ],
+          [
+            -21.05299186706543,
+            9.494999885559082
+          ],
+          [
+            -21.05299186706543,
+            9.672499656677246
+          ],
+          [
+            -21.05299186706543,
+            9.850000381469727
+          ],
+          [
+            -21.05299186706543,
+            10.02750015258789
+          ],
+          [
+            -21.05299186706543,
+            10.204999923706055
+          ],
+          [
+            -21.05299186706543,
+            10.382499694824219
+          ],
+          [
+            -21.05299186706543,
+            10.5600004196167
+          ],
+          [
+            -21.05299186706543,
+            10.737500190734863
+          ],
+          [
+            -21.05299186706543,
+            10.914999961853027
+          ],
+          [
+            -21.05299186706543,
+            11.092499732971191
+          ],
+          [
+            -21.05299186706543,
+            11.270000457763672
+          ],
+          [
+            -21.05299186706543,
+            11.447500228881836
+          ],
+          [
+            -21.05299186706543,
+            11.625
+          ],
+          [
+            -21.05299186706543,
+            11.802499771118164
+          ],
+          [
+            -21.05299186706543,
+            11.979999542236328
+          ],
+          [
+            -21.05299186706543,
+            12.157500267028809
+          ],
+          [
+            -21.05299186706543,
+            12.335000038146973
+          ],
+          [
+            -21.05299186706543,
+            12.512499809265137
+          ],
+          [
+            -21.05299186706543,
+            12.6899995803833
+          ],
+          [
+            -21.05299186706543,
+            12.867500305175781
+          ],
+          [
+            -21.05299186706543,
+            13.045000076293945
+          ],
+          [
+            -21.05299186706543,
+            13.22249984741211
+          ],
+          [
+            -21.05299186706543,
+            13.399999618530273
+          ],
+          [
+            -21.055561065673828,
+            13.478484153747559
+          ],
+          [
+            -21.063257217407227,
+            13.556631088256836
+          ],
+          [
+            -21.0760498046875,
+            13.634108543395996
+          ],
+          [
+            -21.093881607055664,
+            13.710582733154297
+          ],
+          [
+            -21.116676330566406,
+            13.785727500915527
+          ],
+          [
+            -21.144336700439453,
+            13.859220504760742
+          ],
+          [
+            -21.17674446105957,
+            13.930746078491211
+          ],
+          [
+            -21.213762283325195,
+            14.0
+          ],
+          [
+            -21.25522804260254,
+            14.06668472290039
+          ],
+          [
+            -21.300968170166016,
+            14.130514144897461
+          ],
+          [
+            -21.350784301757812,
+            14.191214561462402
+          ],
+          [
+            -21.404462814331055,
+            14.248528480529785
+          ],
+          [
+            -21.461776733398438,
+            14.302207946777344
+          ],
+          [
+            -21.522478103637695,
+            14.35202407836914
+          ],
+          [
+            -21.586307525634766,
+            14.3977632522583
+          ],
+          [
+            -21.652992248535156,
+            14.439230918884277
+          ],
+          [
+            -21.722246170043945,
+            14.47624683380127
+          ],
+          [
+            -21.793771743774414,
+            14.508655548095703
+          ],
+          [
+            -21.867263793945312,
+            14.53631591796875
+          ],
+          [
+            -21.94240951538086,
+            14.559110641479492
+          ],
+          [
+            -22.018882751464844,
+            14.576942443847656
+          ],
+          [
+            -22.09636116027832,
+            14.589734077453613
+          ],
+          [
+            -22.174509048461914,
+            14.597431182861328
+          ],
+          [
+            -22.252992630004883,
+            14.600000381469727
+          ],
+          [
+            -22.447721481323242,
+            14.600000381469727
+          ],
+          [
+            -22.6424503326416,
+            14.600000381469727
+          ],
+          [
+            -22.83717918395996,
+            14.600000381469727
+          ],
+          [
+            -23.031909942626953,
+            14.600000381469727
+          ],
+          [
+            -23.226638793945312,
+            14.600000381469727
+          ],
+          [
+            -23.421367645263672,
+            14.600000381469727
+          ],
+          [
+            -23.61609649658203,
+            14.600000381469727
+          ],
+          [
+            -23.810827255249023,
+            14.600000381469727
+          ],
+          [
+            -24.005556106567383,
+            14.600000381469727
+          ],
+          [
+            -24.200284957885742,
+            14.600000381469727
+          ],
+          [
+            -24.3950138092041,
+            14.600000381469727
+          ],
+          [
+            -24.589744567871094,
+            14.600000381469727
+          ],
+          [
+            -24.784473419189453,
+            14.600000381469727
+          ],
+          [
+            -24.979202270507812,
+            14.600000381469727
+          ],
+          [
+            -25.173931121826172,
+            14.600000381469727
+          ],
+          [
+            -25.368661880493164,
+            14.600000381469727
+          ],
+          [
+            -25.563390731811523,
+            14.600000381469727
+          ],
+          [
+            -25.758119583129883,
+            14.600000381469727
+          ],
+          [
+            -25.952848434448242,
+            14.600000381469727
+          ],
+          [
+            -26.147579193115234,
+            14.600000381469727
+          ],
+          [
+            -26.342308044433594,
+            14.600000381469727
+          ],
+          [
+            -26.537036895751953,
+            14.600000381469727
+          ],
+          [
+            -26.731765747070312,
+            14.600000381469727
+          ],
+          [
+            -26.926496505737305,
+            14.600000381469727
+          ],
+          [
+            -27.121225357055664,
+            14.600000381469727
+          ],
+          [
+            -27.315954208374023,
+            14.600000381469727
+          ],
+          [
+            -27.510683059692383,
+            14.600000381469727
+          ],
+          [
+            -27.705413818359375,
+            14.600000381469727
+          ],
+          [
+            -27.900142669677734,
+            14.600000381469727
+          ],
+          [
+            -28.094871520996094,
+            14.600000381469727
+          ],
+          [
+            -28.289600372314453,
+            14.600000381469727
+          ],
+          [
+            -28.484331130981445,
+            14.600000381469727
+          ],
+          [
+            -28.679059982299805,
+            14.600000381469727
+          ],
+          [
+            -28.873788833618164,
+            14.600000381469727
+          ],
+          [
+            -29.068517684936523,
+            14.600000381469727
+          ],
+          [
+            -29.263248443603516,
+            14.600000381469727
+          ],
+          [
+            -29.457977294921875,
+            14.600000381469727
+          ],
+          [
+            -29.652706146240234,
+            14.600000381469727
+          ],
+          [
+            -29.847436904907227,
+            14.600000381469727
+          ],
+          [
+            -30.042165756225586,
+            14.600000381469727
+          ],
+          [
+            -30.236894607543945,
+            14.600000381469727
+          ],
+          [
+            -30.431623458862305,
+            14.600000381469727
+          ],
+          [
+            -30.626354217529297,
+            14.600000381469727
+          ],
+          [
+            -30.821083068847656,
+            14.600000381469727
+          ],
+          [
+            -31.015811920166016,
+            14.600000381469727
+          ],
+          [
+            -31.210540771484375,
+            14.600000381469727
+          ],
+          [
+            -31.405271530151367,
+            14.600000381469727
+          ],
+          [
+            -31.600000381469727,
+            14.600000381469727
+          ]
+        ]
+      },
+      "references_actually_viewed": [
+        "references/chilis-detail/00_总览/新增细节总览_01.jpg",
+        "references/chilis-detail/00_总览/新增细节总览_02.jpg",
+        "references/chilis/00_总览/Chilis建筑与LINK_8图总览.jpg",
+        "references/chilis/00_总览/周边补充_5张总览.jpg",
+        "references/r12-skyline/原始截图/08_露台回看远楼_10-20.421.jpg",
+        "references/r12-skyline/原始截图/09_球场与Chilis通道定位_04-46.478.jpg",
+        "references/r12-left/selected/08_泥靴外观补充_03-32.525.jpg"
+      ],
+      "published_source_sha256": "dc91d9b41812c7e2aff3d77e5ac7704657c1e24c7ab8b01fdc90f2a6c1998258"
+    },
+    "left": {
+      "revision": "R12",
+      "status": "passed",
+      "parameters": {
+        "building_x_min": -19.1,
+        "building_x_max": 2.5,
+        "facade_y": -16.3,
+        "building_back_y": -23.0,
+        "roof_height": 3.86,
+        "fence_y": -9.17,
+        "entry_x": -14.6,
+        "tree_pool": [
+          -3.4,
+          -13.4
+        ],
+        "old_planting_cut_x": 2.8,
+        "old_planting_cut_y": -12.0
+      },
+      "objects": [
+        "R12 left context The small word",
+        "R12 left context boots Chinese name",
+        "R12 left context rectangular low shop shell",
+        "R12 left context low continuous stone plinth",
+        "R12 left context deep silver bay frames and door surrounds",
+        "R12 left context window inset perimeter gaskets",
+        "R12 left context recessed lower glazing alternating 0",
+        "R12 left context upper dark transom glass",
+        "R12 left context recessed lower glazing alternating 1",
+        "R12 left context recessed lower glazing alternating 2",
+        "R12 left context flat horizontal metal grille cornice",
+        "R12 left context cornice recessed dark gaps",
+        "R12 left context boots sign slim dark ribbed panel",
+        "R12 left context boots rounded outlined dimensional lettering",
+        "R12 left context boots letter dark channel returns",
+        "R12 left context west end silver corner frames",
+        "R12 left context grey shop forecourt bedding",
+        "R12 left context near shop grey stone slab 0",
+        "R12 left context near shop grey stone slab 1",
+        "R12 left context slim linear entry drain grate",
+        "R12 left context drain cross bars",
+        "R12 left context retained garden new straight termination",
+        "R12 left context round grey tree well chamfered stone wall",
+        "R12 left context round tree well inner soil",
+        "R12 left context low dark guardrail around round tree well",
+        "R12 left context left forecourt single deciduous tree branches",
+        "R12 left context left forecourt deciduous foliage 0",
+        "R12 left context left forecourt deciduous foliage 1",
+        "R12 left context left forecourt deciduous foliage 2",
+        "R12 left context celadon ribbed round shop planters",
+        "R12 left context planter and tree pit soil",
+        "R12 left context shop topiary hidden stems",
+        "R12 left context shop clipped foliage 0",
+        "R12 left context shop clipped foliage 1",
+        "R12 left context shop clipped foliage 2",
+        "R12 left context striped parasol pole and weighted crossfoot",
+        "R12 left context folded red ivory parasol fabric umbrella ivory",
+        "R12 left context folded red ivory parasol fabric umbrella crimson",
+        "R12 left context two portable menu A frame rails",
+        "R12 left context two portable menu dark boards",
+        "R12 left context menu abstract untranscribed printed blocks"
+      ],
+      "protected_count": 634,
+      "unexpected_changes": [],
+      "lights_world_exposure_unchanged": true,
+      "trimmed_old_inferred_planting": [
+        {
+          "name": "R02 arching ornamental grass",
+          "faces_before": 19440,
+          "faces_after": 17571,
+          "far_region_unchanged": true,
+          "before": "920cc633eccefa2ede900fe0a2b72825c27546aca9676771d753074463ffee46",
+          "after": "035100a1158198e8d981e8dae5f205364769b8b5036d6bf70a6196dcab455c9b"
+        },
+        {
+          "name": "R02 broadleaf canopy 0",
+          "faces_before": 28424,
+          "faces_after": 24932,
+          "far_region_unchanged": true,
+          "before": "173d02451ffb5d84d0057f6b5e8df6ee31e68235ba2aee434156d1e892b1b23c",
+          "after": "8cc4d9f3e8d410c00816890850130479870511150ae4bc8b3004e5c77640c7cd"
+        },
+        {
+          "name": "R02 broadleaf canopy 1",
+          "faces_before": 37536,
+          "faces_after": 32662,
+          "far_region_unchanged": true,
+          "before": "89ac458244bc6b1f4d88a45dce3f69492c9420a1d1c4b897550d1057d066b82a",
+          "after": "71af323787c8d8fab2effee02087b5b2fcb5018e9de6e199ea92d2d6b64b328e"
+        },
+        {
+          "name": "R02 broadleaf canopy 2",
+          "faces_before": 28184,
+          "faces_after": 24410,
+          "far_region_unchanged": true,
+          "before": "bbc71e0594aa45946868ac9e7692238b54f7fbf5fc5c6505fdcce4e0c797c434",
+          "after": "7c28b535087ed4f30592585af13e41812555ed6099b7abb201c82fb30653f2d8"
+        },
+        {
+          "name": "R02 broadleaf canopy 3",
+          "faces_before": 9456,
+          "faces_after": 8143,
+          "far_region_unchanged": true,
+          "before": "0936a7a4d531b71aee3eeae812489b9814c3dabc3071ffce9da809574fac7f32",
+          "after": "f804c46e1526ffb9d24968637786b3c83003fbfe7489dcc6dac62724b090df3c"
+        },
+        {
+          "name": "R02 continuous low garden groundcover",
+          "faces_before": 6240,
+          "faces_after": 5815,
+          "far_region_unchanged": true,
+          "before": "5b3402242f532bc543b1cd646a57edfc8ccc7b7fedb5147c3dc65301bf794e72",
+          "after": "efb2c12390ebe29618edcd350800583dcd210ad826f00c43749fb2dcf6fa7283"
+        },
+        {
+          "name": "R02 curb expansion joints",
+          "faces_before": 720,
+          "faces_after": 654,
+          "far_region_unchanged": true,
+          "before": "e69af502be35e38f36cd4c794ae8861f496ebdab5d074171d987f18862c05adb",
+          "after": "ce95f6c0ae98b8b8352a68e6cba25408b4cdc73f43174ac7a6d08bd8e27e2106"
+        },
+        {
+          "name": "R02 curving raised stone edges",
+          "faces_before": 2880,
+          "faces_after": 2616,
+          "far_region_unchanged": true,
+          "before": "9e07faee2da2ac3968563381880f8b460fc55f27f4df9c0a26d1744d655a944e",
+          "after": "487b67ff69136f1801d790694615b0bcc8d3bce41784f02510c144ac243dae08"
+        },
+        {
+          "name": "R02 fine white flower florets",
+          "faces_before": 117312,
+          "faces_after": 105867,
+          "far_region_unchanged": true,
+          "before": "df5cdc66fe6bd4cff20f76b9cf17a3cd226885b37814fb1aeb9c0a8681d44235",
+          "after": "7a60821cac6ece7ded45d0f2d29c3333ae9f2c8b026b5fa524abd7ff1dbdcf88"
+        },
+        {
+          "name": "R02 flowerbed natural stones",
+          "faces_before": 864,
+          "faces_after": 508,
+          "far_region_unchanged": true,
+          "before": "2d10994595923320469c3d22140d7de388ba7cbcb3ac7b79edabdc9ae7b6f59c",
+          "after": "34a9c0c0e7c78f0c7c08ddefe98db811f4607bcf30701ce1b23849054452077c"
+        },
+        {
+          "name": "R02 grass warm tips",
+          "faces_before": 4320,
+          "faces_after": 3904,
+          "far_region_unchanged": true,
+          "before": "4291bcd99ebe29f07190fab68c0268f9de67815928b778e40cbb6d8c8b619e0f",
+          "after": "42dff77b1e11f0c3439fba03868914c642c58473116b1be0a3edda4937d43c4d"
+        },
+        {
+          "name": "R02 low groundcover leaf clusters 0",
+          "faces_before": 50376,
+          "faces_after": 44672,
+          "far_region_unchanged": true,
+          "before": "a509d68cc04bc789b13fdc1e9998b90bcb92e5111cecea8c00ed8de618191207",
+          "after": "ad76c5e62b005af04ae561be03283efe8e01b14756bc6a651aa28f8f7fd014db"
+        },
+        {
+          "name": "R02 low groundcover leaf clusters 1",
+          "faces_before": 49312,
+          "faces_after": 43960,
+          "far_region_unchanged": true,
+          "before": "90c2ab3e543343c3a5df73db4649889ccf7ad30825f9df8ec347d05ec1104b5d",
+          "after": "a894616372d45216b73d29f87755f416af4c80e19b602cf7b7f2835bbbafd302"
+        },
+        {
+          "name": "R02 low groundcover leaf clusters 2",
+          "faces_before": 49584,
+          "faces_after": 43644,
+          "far_region_unchanged": true,
+          "before": "6db5fd105f22b37ab5523bdbf087a85d0df7feb37410f05fab3116610a276502",
+          "after": "2213289acd5747ebb7cde5b51467ec30e67706f1150f55f505496e8ba8c1002d"
+        },
+        {
+          "name": "R02 organic planted ground",
+          "faces_before": 5,
+          "faces_after": 5,
+          "far_region_unchanged": true,
+          "before": "fc9cdb63749e674efb880544295136d5b036ac6832a9c2899203ef035c52c3e1",
+          "after": "6dfe31e52cdaf3ab935fdef8bb4638f657289f4d01c5a9f9b6b9efcaf5265e71"
+        },
+        {
+          "name": "R02 shrub leaves 0",
+          "faces_before": 24860,
+          "faces_after": 23970,
+          "far_region_unchanged": true,
+          "before": "76110bfa52acf026476120f9c1c1be3c90b380783daa7089b3dace17cc8dc3bc",
+          "after": "e241534c76935d028933689ed29ec54c4f407ce3867fd31d21c68743235b2307"
+        },
+        {
+          "name": "R02 shrub leaves 1",
+          "faces_before": 23896,
+          "faces_after": 22889,
+          "far_region_unchanged": true,
+          "before": "33efdb91ec1f7573a96c18fe1c7c35fac9fa15a31f1a5fb259334ce182bd8886",
+          "after": "0fd6cde5d125b9cbc4e4b5740c6e9dd5c1f901c893f7e8369a4c59d9a2e7d0c5"
+        },
+        {
+          "name": "R02 shrub leaves 2",
+          "faces_before": 24344,
+          "faces_after": 23503,
+          "far_region_unchanged": true,
+          "before": "d12c7d8dd63ee91f73269f7c2db44c28c5d97c23c0a9f3a5baa8cc649777b2eb",
+          "after": "ad3311f99787e86fd858ca3ee343fe319a4740a652706c6d50a02412ecb699b4"
+        },
+        {
+          "name": "R02 shrub twig structure",
+          "faces_before": 2550,
+          "faces_after": 2460,
+          "far_region_unchanged": true,
+          "before": "a6ce09d60741b62853fd767fc7e86d0ebbd07daf4e7449f4b83d71ae27f852fa",
+          "after": "d402e5bc3d9c6e09a6244d8e025e75be844373dc51522ee475f3aa9f7b9d48d6"
+        },
+        {
+          "name": "R02 trees branching trunks",
+          "faces_before": 2574,
+          "faces_after": 2290,
+          "far_region_unchanged": true,
+          "before": "ec18669fad09f427118958db0f1f4cf1f7ff2c8c8c1c88189d6e71675e4cdf1e",
+          "after": "4e8f8abf9363be6633c333a1a9824051619f8540f508a688cca399ee6d2dc335"
+        },
+        {
+          "name": "R02 white allium flower stems",
+          "faces_before": 53392,
+          "faces_after": 48203,
+          "far_region_unchanged": true,
+          "before": "629ccb725870cbf30439ec3b1755c2dc4288802db2a4c546938ba81418192c24",
+          "after": "ac458286b4b3946eba9e535d37c5f844e5d89a95284e289e8049f30620242d47"
+        }
+      ],
+      "game_verified": false,
+      "evidence": [
+        {
+          "images": "01,02,03",
+          "finding": "Left court fence and basket share one frame. Low metal/glass shop extends beyond the left fence, separate from Chilis."
+        },
+        {
+          "images": "04,05,06",
+          "finding": "Repeated fence posts and A sign preserve overlap; boots wordmark appears toward the basket end below Xinzhongguan tower."
+        },
+        {
+          "images": "07",
+          "finding": "Independent side angle supports the shop and left fence relationship; not a continuous camera track."
+        },
+        {
+          "images": "08",
+          "finding": "Flat horizontal cornice, vertical glass ribs, silver doors, boots sign, round stone tree well/low guardrail, striped folded parasol, ball topiary planters, two portable notice boards."
+        }
+      ],
+      "limits": [
+        "Exact setbacks, overall footprint, heights and individual object offsets are inferred from photo proportions; no surveyed dimensions.",
+        "Photo 08 seasonal snow is excluded. Summer foliage is reconstructed on the visible tree skeleton.",
+        "Native-safe opaque recessed glass representation does not reproduce optical glass transparency.",
+        "Foreground objects belong to the shop forecourt, not arbitrarily attached to the court fence.",
+        "Original basketball fence, high left lamp, Chili building, court and hoops are unchanged. Skyline is handled by the root module."
+      ],
+      "material_policy": "Native static opaque PBR, no emission, geometry lettering and details"
+    },
+    "seating": {
+      "revision": "R12",
+      "status": "geometry_and_spacing_verified",
+      "objects": [
+        "R12 right bench frames",
+        "R12 right bench pads",
+        "R12 right bench feet",
+        "R12 right bench hardware"
+      ],
+      "chairs": [
+        {
+          "marker": "NBAHOMEHEADCOACH",
+          "team": "HOME",
+          "role": "HEADCOACH",
+          "source_position_m": [
+            -0.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -78.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH1",
+          "team": "HOME",
+          "role": "ASSTCOACH1",
+          "source_position_m": [
+            -1.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -138.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH2",
+          "team": "HOME",
+          "role": "ASSTCOACH2",
+          "source_position_m": [
+            -1.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -198.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH3",
+          "team": "HOME",
+          "role": "ASSTCOACH3",
+          "source_position_m": [
+            -2.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -258.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER1",
+          "team": "HOME",
+          "role": "PLAYER1",
+          "source_position_m": [
+            -3.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -318.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER2",
+          "team": "HOME",
+          "role": "PLAYER2",
+          "source_position_m": [
+            -3.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -378.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER3",
+          "team": "HOME",
+          "role": "PLAYER3",
+          "source_position_m": [
+            -4.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -438.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER4",
+          "team": "HOME",
+          "role": "PLAYER4",
+          "source_position_m": [
+            -4.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -498.00000000000006
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER5",
+          "team": "HOME",
+          "role": "PLAYER5",
+          "source_position_m": [
+            -5.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -558.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER6",
+          "team": "HOME",
+          "role": "PLAYER6",
+          "source_position_m": [
+            -6.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -618.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER7",
+          "team": "HOME",
+          "role": "PLAYER7",
+          "source_position_m": [
+            -6.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -678.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYER8",
+          "team": "HOME",
+          "role": "PLAYER8",
+          "source_position_m": [
+            -7.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -738.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEPLAYERDEVCOACH",
+          "team": "HOME",
+          "role": "PLAYERDEVCOACH",
+          "source_position_m": [
+            -7.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -798.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH4",
+          "team": "HOME",
+          "role": "ASSTCOACH4",
+          "source_position_m": [
+            -8.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -858.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH5",
+          "team": "HOME",
+          "role": "ASSTCOACH5",
+          "source_position_m": [
+            -9.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -918.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH6",
+          "team": "HOME",
+          "role": "ASSTCOACH6",
+          "source_position_m": [
+            -9.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -977.9999999999999
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH7",
+          "team": "HOME",
+          "role": "ASSTCOACH7",
+          "source_position_m": [
+            -10.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -1038.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH8",
+          "team": "HOME",
+          "role": "ASSTCOACH8",
+          "source_position_m": [
+            -10.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -1098.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEASSTCOACH9",
+          "team": "HOME",
+          "role": "ASSTCOACH9",
+          "source_position_m": [
+            -11.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -1158.0
+          ]
+        },
+        {
+          "marker": "NBAHOMEHEADPHYSIO",
+          "team": "HOME",
+          "role": "HEADPHYSIO",
+          "source_position_m": [
+            -12.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -1218.0
+          ]
+        },
+        {
+          "marker": "NBAHOMETRAINER1",
+          "team": "HOME",
+          "role": "TRAINER1",
+          "source_position_m": [
+            -12.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -1278.0
+          ]
+        },
+        {
+          "marker": "NBAHOMETRAINER2",
+          "team": "HOME",
+          "role": "TRAINER2",
+          "source_position_m": [
+            -13.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            -1338.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYHEADCOACH",
+          "team": "AWAY",
+          "role": "HEADCOACH",
+          "source_position_m": [
+            0.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            78.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH1",
+          "team": "AWAY",
+          "role": "ASSTCOACH1",
+          "source_position_m": [
+            1.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            138.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH2",
+          "team": "AWAY",
+          "role": "ASSTCOACH2",
+          "source_position_m": [
+            1.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            198.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH3",
+          "team": "AWAY",
+          "role": "ASSTCOACH3",
+          "source_position_m": [
+            2.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            258.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER1",
+          "team": "AWAY",
+          "role": "PLAYER1",
+          "source_position_m": [
+            3.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            318.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER2",
+          "team": "AWAY",
+          "role": "PLAYER2",
+          "source_position_m": [
+            3.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            378.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER3",
+          "team": "AWAY",
+          "role": "PLAYER3",
+          "source_position_m": [
+            4.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            438.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER4",
+          "team": "AWAY",
+          "role": "PLAYER4",
+          "source_position_m": [
+            4.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            498.00000000000006
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER5",
+          "team": "AWAY",
+          "role": "PLAYER5",
+          "source_position_m": [
+            5.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            558.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER6",
+          "team": "AWAY",
+          "role": "PLAYER6",
+          "source_position_m": [
+            6.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            618.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER7",
+          "team": "AWAY",
+          "role": "PLAYER7",
+          "source_position_m": [
+            6.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            678.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYER8",
+          "team": "AWAY",
+          "role": "PLAYER8",
+          "source_position_m": [
+            7.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            738.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYPLAYERDEVCOACH",
+          "team": "AWAY",
+          "role": "PLAYERDEVCOACH",
+          "source_position_m": [
+            7.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            798.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH4",
+          "team": "AWAY",
+          "role": "ASSTCOACH4",
+          "source_position_m": [
+            8.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            858.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH5",
+          "team": "AWAY",
+          "role": "ASSTCOACH5",
+          "source_position_m": [
+            9.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            918.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH6",
+          "team": "AWAY",
+          "role": "ASSTCOACH6",
+          "source_position_m": [
+            9.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            977.9999999999999
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH7",
+          "team": "AWAY",
+          "role": "ASSTCOACH7",
+          "source_position_m": [
+            10.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            1038.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH8",
+          "team": "AWAY",
+          "role": "ASSTCOACH8",
+          "source_position_m": [
+            10.98,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            1098.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYASSTCOACH9",
+          "team": "AWAY",
+          "role": "ASSTCOACH9",
+          "source_position_m": [
+            11.58,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            1158.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYHEADPHYSIO",
+          "team": "AWAY",
+          "role": "HEADPHYSIO",
+          "source_position_m": [
+            12.18,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            1218.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYTRAINER1",
+          "team": "AWAY",
+          "role": "TRAINER1",
+          "source_position_m": [
+            12.78,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            1278.0
+          ]
+        },
+        {
+          "marker": "NBAAWAYTRAINER2",
+          "team": "AWAY",
+          "role": "TRAINER2",
+          "source_position_m": [
+            13.38,
+            8.6,
+            0.0
+          ],
+          "game_position_cm": [
+            860.0,
+            0.0,
+            1338.0
+          ]
+        }
+      ],
+      "chair_count": 44,
+      "teams": 2,
+      "chairs_per_team": 22,
+      "source_bounds_m": {
+        "min": [
+          -13.612000465393066,
+          8.317999839782715,
+          0.0
+        ],
+        "max": [
+          13.612000465393066,
+          8.881999969482422,
+          0.9010000228881836
+        ]
+      },
+      "seat_top_height_m": 0.475,
+      "chair_back_top_m": 0.905,
+      "centre_spacing_m": 0.6,
+      "minimum_chair_to_sideline_m": 0.6979998397827147,
+      "minimum_chair_to_fence_axis_m": 0.28800003051757805,
+      "group_clear_opening_m": 1.096,
+      "appearance": "Individual black padded folding chairs, satin black tubular steel, crossed legs, caps and pivots.",
+      "requested_addition_not_photo_claim": true,
+      "native_marker_height_cm": 0,
+      "geometry_unchanged_except_new_chairs": true,
+      "game_tested": false,
+      "runtime_limit": "The marker floor height and yaw are native conventions; seated skeleton placement on padding remains an in-game check.",
+      "vertices": 26400,
+      "triangles": 49104
+    },
+    "skyline": {
+      "revision": "R12",
+      "status": "passed",
+      "objects": [
+        "R12 skyline background foliage canopy side leaves_dark",
+        "R12 skyline background foliage canopy side leaves_light",
+        "R12 skyline background foliage canopy side leaves_mid",
+        "R12 skyline background foliage canopy understory leaves_dark",
+        "R12 skyline background foliage canopy understory leaves_light",
+        "R12 skyline background foliage canopy understory leaves_mid",
+        "R12 skyline background foliage horizon 0 leaves_dark",
+        "R12 skyline background foliage horizon 0 leaves_light",
+        "R12 skyline background foliage horizon 0 leaves_mid",
+        "R12 skyline background foliage horizon 1 leaves_dark",
+        "R12 skyline background foliage horizon 1 leaves_light",
+        "R12 skyline background foliage horizon 1 leaves_mid",
+        "R12 skyline background foliage horizon 2 leaves_dark",
+        "R12 skyline background foliage horizon 2 leaves_light",
+        "R12 skyline background foliage horizon 2 leaves_mid",
+        "R12 skyline background foliage horizon 3 leaves_dark",
+        "R12 skyline background foliage horizon 3 leaves_light",
+        "R12 skyline background foliage horizon 3 leaves_mid",
+        "R12 skyline background foliage horizon 4 leaves_dark",
+        "R12 skyline background foliage horizon 4 leaves_light",
+        "R12 skyline background foliage horizon 4 leaves_mid",
+        "R12 skyline background foliage horizon 5 leaves_dark",
+        "R12 skyline background foliage horizon 5 leaves_light",
+        "R12 skyline background foliage horizon 5 leaves_mid",
+        "R12 skyline background foliage horizon 6 leaves_dark",
+        "R12 skyline background foliage horizon 6 leaves_light",
+        "R12 skyline background foliage horizon 6 leaves_mid",
+        "R12 skyline background foliage horizon 7 leaves_dark",
+        "R12 skyline background foliage horizon 7 leaves_light",
+        "R12 skyline background foliage horizon 7 leaves_mid",
+        "R12 skyline background foliage horizon low 0 leaves_dark",
+        "R12 skyline background foliage horizon low 0 leaves_light",
+        "R12 skyline background foliage horizon low 0 leaves_mid",
+        "R12 skyline background foliage horizon low 1 leaves_dark",
+        "R12 skyline background foliage horizon low 1 leaves_light",
+        "R12 skyline background foliage horizon low 1 leaves_mid",
+        "R12 skyline background foliage horizon low 2 leaves_dark",
+        "R12 skyline background foliage horizon low 2 leaves_light",
+        "R12 skyline background foliage horizon low 2 leaves_mid",
+        "R12 skyline background foliage horizon low 3 leaves_dark",
+        "R12 skyline background foliage horizon low 3 leaves_light",
+        "R12 skyline background foliage horizon low 3 leaves_mid",
+        "R12 skyline background foliage horizon low 4 leaves_dark",
+        "R12 skyline background foliage horizon low 4 leaves_light",
+        "R12 skyline background foliage horizon low 4 leaves_mid",
+        "R12 skyline background foliage horizon low 5 leaves_dark",
+        "R12 skyline background foliage horizon low 5 leaves_light",
+        "R12 skyline background foliage horizon low 5 leaves_mid",
+        "R12 skyline background foliage horizon low 6 leaves_dark",
+        "R12 skyline background foliage horizon low 6 leaves_light",
+        "R12 skyline background foliage horizon low 6 leaves_mid",
+        "R12 skyline background foliage horizon low 7 leaves_dark",
+        "R12 skyline background foliage horizon low 7 leaves_light",
+        "R12 skyline background foliage horizon low 7 leaves_mid",
+        "R12 skyline background foliage left open end leaves_dark",
+        "R12 skyline background foliage left open end leaves_light",
+        "R12 skyline background foliage left open end leaves_mid",
+        "R12 skyline background foliage open plaza leaves_dark",
+        "R12 skyline background foliage open plaza leaves_light",
+        "R12 skyline background foliage open plaza leaves_mid",
+        "R12 skyline background foliage open understory leaves_dark",
+        "R12 skyline background foliage open understory leaves_light",
+        "R12 skyline background foliage open understory leaves_mid",
+        "R12 skyline background trunks canopy side tree_trunk",
+        "R12 skyline background trunks canopy understory tree_trunk",
+        "R12 skyline background trunks horizon 0 tree_trunk",
+        "R12 skyline background trunks horizon 1 tree_trunk",
+        "R12 skyline background trunks horizon 2 tree_trunk",
+        "R12 skyline background trunks horizon 3 tree_trunk",
+        "R12 skyline background trunks horizon 4 tree_trunk",
+        "R12 skyline background trunks horizon 5 tree_trunk",
+        "R12 skyline background trunks horizon 6 tree_trunk",
+        "R12 skyline background trunks horizon 7 tree_trunk",
+        "R12 skyline background trunks horizon low 0 tree_trunk",
+        "R12 skyline background trunks horizon low 1 tree_trunk",
+        "R12 skyline background trunks horizon low 2 tree_trunk",
+        "R12 skyline background trunks horizon low 3 tree_trunk",
+        "R12 skyline background trunks horizon low 4 tree_trunk",
+        "R12 skyline background trunks horizon low 5 tree_trunk",
+        "R12 skyline background trunks horizon low 6 tree_trunk",
+        "R12 skyline background trunks horizon low 7 tree_trunk",
+        "R12 skyline background trunks left open end tree_trunk",
+        "R12 skyline background trunks open plaza tree_trunk",
+        "R12 skyline background trunks open understory tree_trunk",
+        "R12 skyline blue_white body shadow",
+        "R12 skyline blue_white floor bands mullion",
+        "R12 skyline blue_white glazing glass",
+        "R12 skyline blue_white glazing glass_dark",
+        "R12 skyline blue_white glazing glass_light",
+        "R12 skyline blue_white pale ends white",
+        "R12 skyline blue_white plinth concrete",
+        "R12 skyline blue_white vertical fins mullion",
+        "R12 skyline curved_green crown glass_light",
+        "R12 skyline curved_green curved floors mullion",
+        "R12 skyline curved_green curved glazing glass_dark",
+        "R12 skyline curved_green curved glazing glass_green",
+        "R12 skyline curved_green curved glazing glass_light",
+        "R12 skyline curved_green curved glazing white",
+        "R12 skyline curved_green plinth concrete",
+        "R12 skyline curved_green rear volume glass_green",
+        "R12 skyline curved_green vertical crown fins mullion",
+        "R12 skyline ground tile 0-0 terrain",
+        "R12 skyline ground tile 0-1 terrain",
+        "R12 skyline ground tile 0-2 terrain",
+        "R12 skyline ground tile 0-3 terrain",
+        "R12 skyline ground tile 0-4 terrain",
+        "R12 skyline ground tile 0-5 terrain",
+        "R12 skyline ground tile 0-6 terrain",
+        "R12 skyline ground tile 0-7 terrain",
+        "R12 skyline ground tile 1-0 terrain",
+        "R12 skyline ground tile 1-1 terrain",
+        "R12 skyline ground tile 1-2 terrain",
+        "R12 skyline ground tile 1-3 terrain",
+        "R12 skyline ground tile 1-4 terrain",
+        "R12 skyline ground tile 1-5 terrain",
+        "R12 skyline ground tile 1-6 terrain",
+        "R12 skyline ground tile 1-7 terrain",
+        "R12 skyline ground tile 2-0 terrain",
+        "R12 skyline ground tile 2-1 terrain",
+        "R12 skyline ground tile 2-2 terrain",
+        "R12 skyline ground tile 2-3 terrain",
+        "R12 skyline ground tile 2-4 terrain",
+        "R12 skyline ground tile 2-5 terrain",
+        "R12 skyline ground tile 2-6 terrain",
+        "R12 skyline ground tile 2-7 terrain",
+        "R12 skyline ground tile 3-0 terrain",
+        "R12 skyline ground tile 3-1 terrain",
+        "R12 skyline ground tile 3-2 terrain",
+        "R12 skyline ground tile 3-3 terrain",
+        "R12 skyline ground tile 3-4 terrain",
+        "R12 skyline ground tile 3-5 terrain",
+        "R12 skyline ground tile 3-6 terrain",
+        "R12 skyline ground tile 3-7 terrain",
+        "R12 skyline ground tile 4-0 terrain",
+        "R12 skyline ground tile 4-1 terrain",
+        "R12 skyline ground tile 4-2 terrain",
+        "R12 skyline ground tile 4-3 terrain",
+        "R12 skyline ground tile 4-4 terrain",
+        "R12 skyline ground tile 4-5 terrain",
+        "R12 skyline ground tile 4-6 terrain",
+        "R12 skyline ground tile 4-7 terrain",
+        "R12 skyline ground tile 5-0 terrain",
+        "R12 skyline ground tile 5-1 terrain",
+        "R12 skyline ground tile 5-2 terrain",
+        "R12 skyline ground tile 5-3 terrain",
+        "R12 skyline ground tile 5-4 terrain",
+        "R12 skyline ground tile 5-5 terrain",
+        "R12 skyline ground tile 5-6 terrain",
+        "R12 skyline ground tile 5-7 terrain",
+        "R12 skyline ground tile 6-0 terrain",
+        "R12 skyline ground tile 6-1 terrain",
+        "R12 skyline ground tile 6-2 terrain",
+        "R12 skyline ground tile 6-3 terrain",
+        "R12 skyline ground tile 6-4 terrain",
+        "R12 skyline ground tile 6-5 terrain",
+        "R12 skyline ground tile 6-6 terrain",
+        "R12 skyline ground tile 6-7 terrain",
+        "R12 skyline ground tile 7-0 terrain",
+        "R12 skyline ground tile 7-1 terrain",
+        "R12 skyline ground tile 7-2 terrain",
+        "R12 skyline ground tile 7-3 terrain",
+        "R12 skyline ground tile 7-4 terrain",
+        "R12 skyline ground tile 7-5 terrain",
+        "R12 skyline ground tile 7-6 terrain",
+        "R12 skyline ground tile 7-7 terrain",
+        "R12 skyline ifc body shadow",
+        "R12 skyline ifc floor bands mullion",
+        "R12 skyline ifc glazing glass",
+        "R12 skyline ifc glazing glass_dark",
+        "R12 skyline ifc glazing glass_light",
+        "R12 skyline ifc open crown cap stone",
+        "R12 skyline ifc open roof loggia pier mullion",
+        "R12 skyline ifc plinth concrete",
+        "R12 skyline ifc sandstone side pier stone",
+        "R12 skyline ifc vertical fins mullion",
+        "R12 skyline new_oriental body shadow",
+        "R12 skyline new_oriental floor bands mullion",
+        "R12 skyline new_oriental glazing glass",
+        "R12 skyline new_oriental glazing glass_dark",
+        "R12 skyline new_oriental glazing glass_light",
+        "R12 skyline new_oriental identity",
+        "R12 skyline new_oriental pale edge fin mullion",
+        "R12 skyline new_oriental plinth concrete",
+        "R12 skyline new_oriental upper central step glass",
+        "R12 skyline new_oriental vertical fins mullion",
+        "R12 skyline new_zhongguan body shadow",
+        "R12 skyline new_zhongguan glass thin floor bands mullion",
+        "R12 skyline new_zhongguan glazing glass",
+        "R12 skyline new_zhongguan glazing glass_dark",
+        "R12 skyline new_zhongguan glazing glass_light",
+        "R12 skyline new_zhongguan identity",
+        "R12 skyline new_zhongguan plinth concrete",
+        "R12 skyline new_zhongguan stone crown stone",
+        "R12 skyline new_zhongguan stone edge stone",
+        "R12 skyline new_zhongguan stone paired floor bands stone",
+        "R12 skyline new_zhongguan vertical fins stone",
+        "R12 skyline sinosteel body shadow",
+        "R12 skyline sinosteel crown stone cheek stone",
+        "R12 skyline sinosteel floor bands sino_horizontal",
+        "R12 skyline sinosteel glazing glass_sino",
+        "R12 skyline sinosteel plinth concrete",
+        "R12 skyline sinosteel recessed narrow crown glass_dark",
+        "R12 skyline sinosteel upper unequal crown glass",
+        "R12 skyline sinosteel vertical fins mullion"
+      ],
+      "removed_placeholder_objects": [
+        "Glazed tower silhouette",
+        "Tower fine vertical -3",
+        "Tower fine vertical -6",
+        "Tower fine vertical 0",
+        "Tower fine vertical 3",
+        "Tower fine vertical 6",
+        "Tower horizontal 12",
+        "Tower horizontal 15",
+        "Tower horizontal 18",
+        "Tower horizontal 21",
+        "Tower horizontal 24",
+        "Tower horizontal 27",
+        "Tower horizontal 3",
+        "Tower horizontal 30",
+        "Tower horizontal 33",
+        "Tower horizontal 36",
+        "Tower horizontal 6",
+        "Tower horizontal 9"
+      ],
+      "building_specs": [
+        {
+          "id": "new_zhongguan",
+          "name": "新中关",
+          "centre": [
+            -54,
+            -88
+          ],
+          "width": 38,
+          "depth": 24,
+          "height": 49,
+          "angle": 2.7,
+          "photos": [
+            1,
+            2
+          ],
+          "identity": "Readable red vertical name; high confidence"
+        },
+        {
+          "id": "ifc",
+          "name": "互联网金融中心（外形比对）",
+          "centre": [
+            -105,
+            32
+          ],
+          "width": 51,
+          "depth": 27,
+          "height": 83,
+          "angle": 1.28,
+          "photos": [
+            4,
+            5
+          ],
+          "identity": "Shape attribution from supplied manifest, not measured"
+        },
+        {
+          "id": "new_oriental",
+          "name": "新东方南楼",
+          "centre": [
+            -12,
+            94
+          ],
+          "width": 33,
+          "depth": 23,
+          "height": 60,
+          "angle": 0.127,
+          "photos": [
+            3,
+            4
+          ],
+          "identity": "Readable roof lettering"
+        },
+        {
+          "id": "sinosteel",
+          "name": "中钢国际广场",
+          "centre": [
+            91,
+            101
+          ],
+          "width": 35,
+          "depth": 29,
+          "height": 113,
+          "angle": -0.735,
+          "photos": [
+            6,
+            7
+          ],
+          "identity": "Stepped crown and narrow blue-green elevation shape match"
+        },
+        {
+          "id": "curved_green",
+          "name": "浅绿弧面楼（疑似 e 世界）",
+          "centre": [
+            130,
+            24
+          ],
+          "width": 69,
+          "depth": 31,
+          "height": 50,
+          "angle": -1.388,
+          "photos": [
+            7,
+            8
+          ],
+          "identity": "Unconfirmed identity; no readable building name; label remains tentative"
+        },
+        {
+          "id": "blue_white",
+          "name": "露台照片远处蓝白楼（未确认）",
+          "centre": [
+            183,
+            -35
+          ],
+          "width": 29,
+          "depth": 25,
+          "height": 39,
+          "angle": -1.76,
+          "photos": [
+            8
+          ],
+          "identity": "Unidentified distant blue-white volume, not assigned a real name"
+        }
+      ],
+      "tree_centres_m": [
+        [
+          58.852,
+          -48.825,
+          9.925,
+          "open plaza"
+        ],
+        [
+          54.236,
+          -42.45,
+          8.365,
+          "open plaza"
+        ],
+        [
+          54.583,
+          -39.884,
+          13.442,
+          "open plaza"
+        ],
+        [
+          62.428,
+          -35.258,
+          10.417,
+          "open plaza"
+        ],
+        [
+          67.543,
+          -28.161,
+          13.861,
+          "open plaza"
+        ],
+        [
+          58.077,
+          -25.157,
+          12.885,
+          "open plaza"
+        ],
+        [
+          58.839,
+          -18.284,
+          5.337,
+          "open plaza"
+        ],
+        [
+          56.475,
+          -14.952,
+          5.516,
+          "open plaza"
+        ],
+        [
+          62.661,
+          -9.38,
+          11.359,
+          "open plaza"
+        ],
+        [
+          65.32,
+          -4.842,
+          8.548,
+          "open plaza"
+        ],
+        [
+          60.641,
+          -2.482,
+          12.813,
+          "open plaza"
+        ],
+        [
+          65.535,
+          1.37,
+          9.957,
+          "open plaza"
+        ],
+        [
+          65.612,
+          7.049,
+          11.94,
+          "open plaza"
+        ],
+        [
+          53.687,
+          13.233,
+          9.838,
+          "open plaza"
+        ],
+        [
+          59.124,
+          16.454,
+          13.493,
+          "open plaza"
+        ],
+        [
+          55.139,
+          19.283,
+          10.679,
+          "open plaza"
+        ],
+        [
+          52.596,
+          26.972,
+          8.158,
+          "open plaza"
+        ],
+        [
+          53.83,
+          28.1,
+          13.106,
+          "open plaza"
+        ],
+        [
+          57.931,
+          33.821,
+          6.427,
+          "open plaza"
+        ],
+        [
+          57.212,
+          40.23,
+          9.898,
+          "open plaza"
+        ],
+        [
+          61.757,
+          43.235,
+          13.14,
+          "open plaza"
+        ],
+        [
+          61.519,
+          47.987,
+          7.552,
+          "open plaza"
+        ],
+        [
+          63.307,
+          50.941,
+          11.591,
+          "open plaza"
+        ],
+        [
+          61.235,
+          57.467,
+          9.529,
+          "open plaza"
+        ],
+        [
+          -44.222,
+          59.391,
+          10.629,
+          "canopy side"
+        ],
+        [
+          -39.472,
+          57.144,
+          7.56,
+          "canopy side"
+        ],
+        [
+          -35.258,
+          60.047,
+          14.648,
+          "canopy side"
+        ],
+        [
+          -28.876,
+          55.185,
+          11.268,
+          "canopy side"
+        ],
+        [
+          -27.239,
+          58.213,
+          7.685,
+          "canopy side"
+        ],
+        [
+          -20.838,
+          66.365,
+          8.446,
+          "canopy side"
+        ],
+        [
+          -15.325,
+          67.361,
+          9.663,
+          "canopy side"
+        ],
+        [
+          -14.177,
+          56.902,
+          12.688,
+          "canopy side"
+        ],
+        [
+          -6.665,
+          56.893,
+          6.325,
+          "canopy side"
+        ],
+        [
+          -3.511,
+          54.668,
+          14.273,
+          "canopy side"
+        ],
+        [
+          0.288,
+          68.409,
+          11.514,
+          "canopy side"
+        ],
+        [
+          3.169,
+          54.246,
+          12.549,
+          "canopy side"
+        ],
+        [
+          7.444,
+          63.85,
+          10.802,
+          "canopy side"
+        ],
+        [
+          14.667,
+          58.914,
+          13.69,
+          "canopy side"
+        ],
+        [
+          17.623,
+          68.064,
+          8.497,
+          "canopy side"
+        ],
+        [
+          19.777,
+          56.913,
+          7.986,
+          "canopy side"
+        ],
+        [
+          24.073,
+          59.771,
+          5.063,
+          "canopy side"
+        ],
+        [
+          29.984,
+          62.015,
+          8.364,
+          "canopy side"
+        ],
+        [
+          7.11,
+          -45.659,
+          10.533,
+          "left open end"
+        ],
+        [
+          11.061,
+          -42.819,
+          6.599,
+          "left open end"
+        ],
+        [
+          14.703,
+          -45.364,
+          10.223,
+          "left open end"
+        ],
+        [
+          20.164,
+          -41.369,
+          11.195,
+          "left open end"
+        ],
+        [
+          24.488,
+          -39.179,
+          8.005,
+          "left open end"
+        ],
+        [
+          27.415,
+          -43.989,
+          6.993,
+          "left open end"
+        ],
+        [
+          32.153,
+          -43.604,
+          5.941,
+          "left open end"
+        ],
+        [
+          36.925,
+          -45.656,
+          11.703,
+          "left open end"
+        ],
+        [
+          39.757,
+          -37.626,
+          11.913,
+          "left open end"
+        ],
+        [
+          43.95,
+          -39.295,
+          10.538,
+          "left open end"
+        ],
+        [
+          53.806,
+          -48,
+          4.488,
+          "open understory"
+        ],
+        [
+          60.623,
+          -43,
+          3.744,
+          "open understory"
+        ],
+        [
+          49.046,
+          -38,
+          5.763,
+          "open understory"
+        ],
+        [
+          54.659,
+          -33,
+          4.861,
+          "open understory"
+        ],
+        [
+          53.381,
+          -28,
+          3.218,
+          "open understory"
+        ],
+        [
+          49.798,
+          -23,
+          5.076,
+          "open understory"
+        ],
+        [
+          60.14,
+          -18,
+          3.668,
+          "open understory"
+        ],
+        [
+          54.328,
+          -13,
+          4.659,
+          "open understory"
+        ],
+        [
+          54.374,
+          -8,
+          4.192,
+          "open understory"
+        ],
+        [
+          48.503,
+          -3,
+          5.532,
+          "open understory"
+        ],
+        [
+          56.063,
+          2,
+          4.564,
+          "open understory"
+        ],
+        [
+          58.387,
+          7,
+          5.606,
+          "open understory"
+        ],
+        [
+          54.099,
+          12,
+          4.086,
+          "open understory"
+        ],
+        [
+          60.263,
+          17,
+          4.019,
+          "open understory"
+        ],
+        [
+          48.296,
+          22,
+          4.915,
+          "open understory"
+        ],
+        [
+          55.407,
+          27,
+          5.414,
+          "open understory"
+        ],
+        [
+          55.287,
+          32,
+          3.176,
+          "open understory"
+        ],
+        [
+          57.757,
+          37,
+          2.835,
+          "open understory"
+        ],
+        [
+          58.3,
+          42,
+          4.431,
+          "open understory"
+        ],
+        [
+          59.382,
+          47,
+          3.203,
+          "open understory"
+        ],
+        [
+          54.449,
+          52,
+          5.615,
+          "open understory"
+        ],
+        [
+          60.426,
+          57,
+          4.218,
+          "open understory"
+        ],
+        [
+          -44,
+          60.566,
+          4.458,
+          "canopy understory"
+        ],
+        [
+          -39,
+          59.448,
+          4.199,
+          "canopy understory"
+        ],
+        [
+          -34,
+          51.288,
+          3.856,
+          "canopy understory"
+        ],
+        [
+          -29,
+          53.339,
+          4.694,
+          "canopy understory"
+        ],
+        [
+          -24,
+          56.468,
+          2.924,
+          "canopy understory"
+        ],
+        [
+          -19,
+          59.12,
+          3.625,
+          "canopy understory"
+        ],
+        [
+          -14,
+          59.559,
+          3.307,
+          "canopy understory"
+        ],
+        [
+          -9,
+          59.418,
+          6.058,
+          "canopy understory"
+        ],
+        [
+          -4,
+          54.284,
+          5.054,
+          "canopy understory"
+        ],
+        [
+          1,
+          58.388,
+          3.341,
+          "canopy understory"
+        ],
+        [
+          6,
+          52.483,
+          5.837,
+          "canopy understory"
+        ],
+        [
+          11,
+          55.794,
+          4.493,
+          "canopy understory"
+        ],
+        [
+          16,
+          55.791,
+          4.245,
+          "canopy understory"
+        ],
+        [
+          21,
+          53.73,
+          4.203,
+          "canopy understory"
+        ],
+        [
+          26,
+          59.498,
+          5.769,
+          "canopy understory"
+        ],
+        [
+          31,
+          57.859,
+          2.973,
+          "canopy understory"
+        ],
+        [
+          36,
+          57.446,
+          3.286,
+          "canopy understory"
+        ],
+        [
+          41,
+          56.697,
+          5.327,
+          "canopy understory"
+        ],
+        [
+          193.0,
+          0.0,
+          12.154,
+          "horizon 0"
+        ],
+        [
+          189.0,
+          0.0,
+          5.265,
+          "horizon low 0"
+        ],
+        [
+          195.079,
+          7.912,
+          18.901,
+          "horizon 0"
+        ],
+        [
+          191.083,
+          7.75,
+          5.637,
+          "horizon low 0"
+        ],
+        [
+          196.652,
+          15.978,
+          12.57,
+          "horizon 0"
+        ],
+        [
+          192.665,
+          15.654,
+          4.961,
+          "horizon low 0"
+        ],
+        [
+          197.547,
+          24.143,
+          18.697,
+          "horizon 0"
+        ],
+        [
+          193.577,
+          23.658,
+          4.031,
+          "horizon low 0"
+        ],
+        [
+          197.626,
+          32.328,
+          20.671,
+          "horizon 0"
+        ],
+        [
+          193.678,
+          31.682,
+          4.018,
+          "horizon low 0"
+        ],
+        [
+          196.795,
+          40.442,
+          12.798,
+          "horizon 0"
+        ],
+        [
+          192.877,
+          39.637,
+          6.826,
+          "horizon low 0"
+        ],
+        [
+          195.017,
+          48.39,
+          12.027,
+          "horizon 0"
+        ],
+        [
+          191.135,
+          47.427,
+          6.804,
+          "horizon low 0"
+        ],
+        [
+          192.309,
+          56.082,
+          13.682,
+          "horizon 0"
+        ],
+        [
+          188.469,
+          54.962,
+          5.915,
+          "horizon low 0"
+        ],
+        [
+          188.744,
+          63.448,
+          22.853,
+          "horizon 0"
+        ],
+        [
+          184.952,
+          62.174,
+          4.346,
+          "horizon low 0"
+        ],
+        [
+          184.442,
+          70.443,
+          15.4,
+          "horizon 0"
+        ],
+        [
+          180.705,
+          69.016,
+          6.586,
+          "horizon low 0"
+        ],
+        [
+          179.56,
+          77.055,
+          12.384,
+          "horizon 0"
+        ],
+        [
+          175.884,
+          75.478,
+          6.155,
+          "horizon low 0"
+        ],
+        [
+          174.275,
+          83.306,
+          20.806,
+          "horizon 0"
+        ],
+        [
+          170.666,
+          81.581,
+          4.648,
+          "horizon low 0"
+        ],
+        [
+          168.771,
+          89.25,
+          19.734,
+          "horizon 0"
+        ],
+        [
+          165.235,
+          87.38,
+          5.211,
+          "horizon low 0"
+        ],
+        [
+          163.218,
+          94.971,
+          19.382,
+          "horizon 0"
+        ],
+        [
+          159.761,
+          92.959,
+          6.582,
+          "horizon low 0"
+        ],
+        [
+          157.763,
+          100.568,
+          14.288,
+          "horizon 0"
+        ],
+        [
+          154.39,
+          98.418,
+          6.819,
+          "horizon low 0"
+        ],
+        [
+          152.512,
+          106.152,
+          20.522,
+          "horizon 0"
+        ],
+        [
+          149.229,
+          103.867,
+          4.976,
+          "horizon low 0"
+        ],
+        [
+          147.528,
+          111.823,
+          15.06,
+          "horizon 0"
+        ],
+        [
+          144.34,
+          109.407,
+          4.509,
+          "horizon low 0"
+        ],
+        [
+          142.822,
+          117.666,
+          15.645,
+          "horizon 0"
+        ],
+        [
+          139.735,
+          115.122,
+          5.452,
+          "horizon low 0"
+        ],
+        [
+          138.359,
+          123.735,
+          18.166,
+          "horizon 0"
+        ],
+        [
+          135.377,
+          121.069,
+          6.988,
+          "horizon low 0"
+        ],
+        [
+          134.062,
+          130.047,
+          19.238,
+          "horizon 0"
+        ],
+        [
+          131.191,
+          127.261,
+          5.067,
+          "horizon low 0"
+        ],
+        [
+          129.822,
+          136.573,
+          17.19,
+          "horizon 1"
+        ],
+        [
+          127.066,
+          133.673,
+          5.576,
+          "horizon low 1"
+        ],
+        [
+          125.513,
+          143.242,
+          13.25,
+          "horizon 1"
+        ],
+        [
+          122.876,
+          140.233,
+          5.007,
+          "horizon low 1"
+        ],
+        [
+          121.002,
+          149.942,
+          21.111,
+          "horizon 1"
+        ],
+        [
+          118.49,
+          146.829,
+          5.542,
+          "horizon low 1"
+        ],
+        [
+          116.167,
+          156.53,
+          15.629,
+          "horizon 1"
+        ],
+        [
+          113.783,
+          153.318,
+          4.948,
+          "horizon low 1"
+        ],
+        [
+          110.909,
+          162.842,
+          19.804,
+          "horizon 1"
+        ],
+        [
+          108.657,
+          159.536,
+          5.493,
+          "horizon low 1"
+        ],
+        [
+          105.157,
+          168.709,
+          13.255,
+          "horizon 1"
+        ],
+        [
+          103.041,
+          165.314,
+          5.319,
+          "horizon low 1"
+        ],
+        [
+          98.882,
+          173.972,
+          14.15,
+          "horizon 1"
+        ],
+        [
+          96.905,
+          170.494,
+          4.846,
+          "horizon low 1"
+        ],
+        [
+          92.091,
+          178.496,
+          21.415,
+          "horizon 1"
+        ],
+        [
+          90.257,
+          174.941,
+          5.82,
+          "horizon low 1"
+        ],
+        [
+          84.83,
+          182.186,
+          17.441,
+          "horizon 1"
+        ],
+        [
+          83.141,
+          178.559,
+          5.523,
+          "horizon low 1"
+        ],
+        [
+          77.176,
+          184.991,
+          22.201,
+          "horizon 1"
+        ],
+        [
+          75.636,
+          181.3,
+          4.928,
+          "horizon low 1"
+        ],
+        [
+          69.227,
+          186.919,
+          18.581,
+          "horizon 1"
+        ],
+        [
+          67.838,
+          183.168,
+          5.999,
+          "horizon low 1"
+        ],
+        [
+          61.093,
+          188.026,
+          19.461,
+          "horizon 1"
+        ],
+        [
+          59.857,
+          184.222,
+          5.364,
+          "horizon low 1"
+        ],
+        [
+          52.883,
+          188.422,
+          22.46,
+          "horizon 1"
+        ],
+        [
+          51.802,
+          184.571,
+          4.072,
+          "horizon low 1"
+        ],
+        [
+          44.692,
+          188.254,
+          15.812,
+          "horizon 1"
+        ],
+        [
+          43.768,
+          184.362,
+          5.017,
+          "horizon low 1"
+        ],
+        [
+          36.594,
+          187.697,
+          18.552,
+          "horizon 1"
+        ],
+        [
+          35.829,
+          183.771,
+          6.958,
+          "horizon low 1"
+        ],
+        [
+          28.638,
+          186.937,
+          19.241,
+          "horizon 1"
+        ],
+        [
+          28.032,
+          182.983,
+          6.163,
+          "horizon low 1"
+        ],
+        [
+          20.838,
+          186.152,
+          19.263,
+          "horizon 1"
+        ],
+        [
+          20.393,
+          182.177,
+          6.477,
+          "horizon low 1"
+        ],
+        [
+          13.181,
+          185.499,
+          17.113,
+          "horizon 1"
+        ],
+        [
+          12.898,
+          181.509,
+          4.533,
+          "horizon low 1"
+        ],
+        [
+          5.629,
+          185.095,
+          19.408,
+          "horizon 1"
+        ],
+        [
+          5.507,
+          181.097,
+          5.832,
+          "horizon low 1"
+        ],
+        [
+          -1.875,
+          185.011,
+          21.264,
+          "horizon 1"
+        ],
+        [
+          -1.834,
+          181.011,
+          4.405,
+          "horizon low 1"
+        ],
+        [
+          -9.395,
+          185.26,
+          12.85,
+          "horizon 2"
+        ],
+        [
+          -9.193,
+          181.265,
+          5.405,
+          "horizon low 2"
+        ],
+        [
+          -16.994,
+          185.8,
+          14.955,
+          "horizon 2"
+        ],
+        [
+          -16.629,
+          181.817,
+          4.539,
+          "horizon low 2"
+        ],
+        [
+          -24.718,
+          186.537,
+          22.635,
+          "horizon 2"
+        ],
+        [
+          -24.193,
+          182.572,
+          4.647,
+          "horizon low 2"
+        ],
+        [
+          -32.597,
+          187.331,
+          13.131,
+          "horizon 2"
+        ],
+        [
+          -31.911,
+          183.39,
+          4.83,
+          "horizon low 2"
+        ],
+        [
+          -40.628,
+          188.013,
+          13.415,
+          "horizon 2"
+        ],
+        [
+          -39.783,
+          184.103,
+          6.718,
+          "horizon low 2"
+        ],
+        [
+          -48.78,
+          188.398,
+          19.812,
+          "horizon 2"
+        ],
+        [
+          -47.777,
+          184.526,
+          4.069,
+          "horizon low 2"
+        ],
+        [
+          -56.991,
+          188.304,
+          15.906,
+          "horizon 2"
+        ],
+        [
+          -55.833,
+          184.476,
+          5.12,
+          "horizon low 2"
+        ],
+        [
+          -65.176,
+          187.569,
+          18.375,
+          "horizon 2"
+        ],
+        [
+          -63.863,
+          183.791,
+          6.625,
+          "horizon low 2"
+        ],
+        [
+          -73.231,
+          186.062,
+          14.226,
+          "horizon 2"
+        ],
+        [
+          -71.766,
+          182.34,
+          6.399,
+          "horizon low 2"
+        ],
+        [
+          -81.046,
+          183.7,
+          16.581,
+          "horizon 2"
+        ],
+        [
+          -79.431,
+          180.04,
+          6.705,
+          "horizon low 2"
+        ],
+        [
+          -88.515,
+          180.449,
+          15.662,
+          "horizon 2"
+        ],
+        [
+          -86.753,
+          176.858,
+          6.435,
+          "horizon low 2"
+        ],
+        [
+          -95.549,
+          176.333,
+          15.356,
+          "horizon 2"
+        ],
+        [
+          -93.643,
+          172.817,
+          5.996,
+          "horizon low 2"
+        ],
+        [
+          -102.085,
+          171.425,
+          17.932,
+          "horizon 2"
+        ],
+        [
+          -100.039,
+          167.988,
+          6.216,
+          "horizon low 2"
+        ],
+        [
+          -108.097,
+          165.841,
+          19.315,
+          "horizon 2"
+        ],
+        [
+          -105.913,
+          162.49,
+          5.209,
+          "horizon low 2"
+        ],
+        [
+          -113.596,
+          159.731,
+          13.402,
+          "horizon 2"
+        ],
+        [
+          -111.278,
+          156.471,
+          5.286,
+          "horizon low 2"
+        ],
+        [
+          -118.632,
+          153.26,
+          15.739,
+          "horizon 2"
+        ],
+        [
+          -116.183,
+          150.097,
+          6.256,
+          "horizon low 2"
+        ],
+        [
+          -123.29,
+          146.596,
+          21.485,
+          "horizon 2"
+        ],
+        [
+          -120.716,
+          143.535,
+          4.125,
+          "horizon low 2"
+        ],
+        [
+          -127.684,
+          139.895,
+          17.127,
+          "horizon 2"
+        ],
+        [
+          -124.988,
+          136.941,
+          5.099,
+          "horizon low 2"
+        ],
+        [
+          -131.942,
+          133.286,
+          15.303,
+          "horizon 2"
+        ],
+        [
+          -129.128,
+          130.444,
+          5.275,
+          "horizon low 2"
+        ],
+        [
+          -136.196,
+          126.861,
+          15.834,
+          "horizon 2"
+        ],
+        [
+          -133.269,
+          124.135,
+          6.333,
+          "horizon low 2"
+        ],
+        [
+          -140.564,
+          120.67,
+          12.137,
+          "horizon 3"
+        ],
+        [
+          -137.529,
+          118.065,
+          5.234,
+          "horizon low 3"
+        ],
+        [
+          -145.141,
+          114.719,
+          19.268,
+          "horizon 3"
+        ],
+        [
+          -142.003,
+          112.238,
+          6.93,
+          "horizon low 3"
+        ],
+        [
+          -149.985,
+          108.97,
+          22.716,
+          "horizon 3"
+        ],
+        [
+          -146.749,
+          106.619,
+          4.188,
+          "horizon low 3"
+        ],
+        [
+          -155.107,
+          103.355,
+          22.432,
+          "horizon 3"
+        ],
+        [
+          -151.778,
+          101.137,
+          4.507,
+          "horizon low 3"
+        ],
+        [
+          -160.471,
+          97.778,
+          15.964,
+          "horizon 3"
+        ],
+        [
+          -157.055,
+          95.697,
+          6.154,
+          "horizon low 3"
+        ],
+        [
+          -165.99,
+          92.132,
+          12.995,
+          "horizon 3"
+        ],
+        [
+          -162.493,
+          90.191,
+          5.099,
+          "horizon low 3"
+        ],
+        [
+          -171.539,
+          86.311,
+          16.695,
+          "horizon 3"
+        ],
+        [
+          -167.966,
+          84.514,
+          6.181,
+          "horizon low 3"
+        ],
+        [
+          -176.956,
+          80.223,
+          18.204,
+          "horizon 3"
+        ],
+        [
+          -173.313,
+          78.571,
+          4.846,
+          "horizon low 3"
+        ],
+        [
+          -182.062,
+          73.797,
+          22.968,
+          "horizon 3"
+        ],
+        [
+          -178.355,
+          72.294,
+          5.625,
+          "horizon low 3"
+        ],
+        [
+          -186.676,
+          66.994,
+          22.018,
+          "horizon 3"
+        ],
+        [
+          -182.911,
+          65.643,
+          5.52,
+          "horizon low 3"
+        ],
+        [
+          -190.627,
+          59.81,
+          22.226,
+          "horizon 3"
+        ],
+        [
+          -186.81,
+          58.612,
+          5.247,
+          "horizon low 3"
+        ],
+        [
+          -193.776,
+          52.273,
+          13.922,
+          "horizon 3"
+        ],
+        [
+          -189.914,
+          51.231,
+          4.739,
+          "horizon low 3"
+        ],
+        [
+          -196.025,
+          44.443,
+          22.787,
+          "horizon 3"
+        ],
+        [
+          -192.124,
+          43.558,
+          4.963,
+          "horizon low 3"
+        ],
+        [
+          -197.328,
+          36.4,
+          19.292,
+          "horizon 3"
+        ],
+        [
+          -193.394,
+          35.675,
+          5.521,
+          "horizon low 3"
+        ],
+        [
+          -197.695,
+          28.238,
+          19.195,
+          "horizon 3"
+        ],
+        [
+          -193.736,
+          27.673,
+          4.031,
+          "horizon low 3"
+        ],
+        [
+          -197.194,
+          20.053,
+          20.513,
+          "horizon 3"
+        ],
+        [
+          -193.215,
+          19.648,
+          4.138,
+          "horizon low 3"
+        ],
+        [
+          -195.94,
+          11.929,
+          18.206,
+          "horizon 3"
+        ],
+        [
+          -191.948,
+          11.686,
+          6.707,
+          "horizon low 3"
+        ],
+        [
+          -194.091,
+          3.934,
+          21.597,
+          "horizon 3"
+        ],
+        [
+          -190.092,
+          3.853,
+          6.98,
+          "horizon low 3"
+        ],
+        [
+          -191.829,
+          -3.889,
+          20.758,
+          "horizon 3"
+        ],
+        [
+          -187.83,
+          -3.808,
+          5.917,
+          "horizon low 3"
+        ],
+        [
+          -189.346,
+          -11.527,
+          13.022,
+          "horizon 3"
+        ],
+        [
+          -185.354,
+          -11.284,
+          6.878,
+          "horizon low 3"
+        ],
+        [
+          -186.826,
+          -18.998,
+          22.036,
+          "horizon 4"
+        ],
+        [
+          -182.846,
+          -18.594,
+          5.165,
+          "horizon low 4"
+        ],
+        [
+          -184.426,
+          -26.343,
+          13.445,
+          "horizon 4"
+        ],
+        [
+          -180.466,
+          -25.777,
+          6.315,
+          "horizon low 4"
+        ],
+        [
+          -182.268,
+          -33.622,
+          15.997,
+          "horizon 4"
+        ],
+        [
+          -178.334,
+          -32.897,
+          6.782,
+          "horizon low 4"
+        ],
+        [
+          -180.421,
+          -40.905,
+          20.402,
+          "horizon 4"
+        ],
+        [
+          -176.52,
+          -40.021,
+          6.351,
+          "horizon low 4"
+        ],
+        [
+          -178.902,
+          -48.261,
+          21.264,
+          "horizon 4"
+        ],
+        [
+          -175.041,
+          -47.219,
+          5.151,
+          "horizon low 4"
+        ],
+        [
+          -177.671,
+          -55.745,
+          22.473,
+          "horizon 4"
+        ],
+        [
+          -173.855,
+          -54.547,
+          4.875,
+          "horizon low 4"
+        ],
+        [
+          -176.637,
+          -63.391,
+          21.646,
+          "horizon 4"
+        ],
+        [
+          -172.872,
+          -62.04,
+          5.518,
+          "horizon low 4"
+        ],
+        [
+          -175.667,
+          -71.204,
+          21.716,
+          "horizon 4"
+        ],
+        [
+          -171.96,
+          -69.702,
+          6.253,
+          "horizon low 4"
+        ],
+        [
+          -174.604,
+          -79.156,
+          15.169,
+          "horizon 4"
+        ],
+        [
+          -170.961,
+          -77.505,
+          6.462,
+          "horizon low 4"
+        ],
+        [
+          -173.273,
+          -87.184,
+          17.758,
+          "horizon 4"
+        ],
+        [
+          -169.7,
+          -85.386,
+          6.866,
+          "horizon low 4"
+        ],
+        [
+          -171.507,
+          -95.194,
+          12.056,
+          "horizon 4"
+        ],
+        [
+          -168.01,
+          -93.253,
+          5.447,
+          "horizon low 4"
+        ],
+        [
+          -169.159,
+          -103.072,
+          12.236,
+          "horizon 4"
+        ],
+        [
+          -165.743,
+          -100.991,
+          6.743,
+          "horizon low 4"
+        ],
+        [
+          -166.112,
+          -110.688,
+          15.364,
+          "horizon 4"
+        ],
+        [
+          -162.783,
+          -108.47,
+          5.998,
+          "horizon low 4"
+        ],
+        [
+          -162.296,
+          -117.915,
+          22.611,
+          "horizon 4"
+        ],
+        [
+          -159.06,
+          -115.564,
+          4.511,
+          "horizon low 4"
+        ],
+        [
+          -157.688,
+          -124.635,
+          12.958,
+          "horizon 4"
+        ],
+        [
+          -154.55,
+          -122.155,
+          6.003,
+          "horizon low 4"
+        ],
+        [
+          -152.317,
+          -130.76,
+          15.47,
+          "horizon 4"
+        ],
+        [
+          -149.282,
+          -128.154,
+          4.715,
+          "horizon low 4"
+        ],
+        [
+          -146.255,
+          -136.231,
+          18.698,
+          "horizon 4"
+        ],
+        [
+          -143.328,
+          -133.505,
+          5.195,
+          "horizon low 4"
+        ],
+        [
+          -139.614,
+          -141.036,
+          20.85,
+          "horizon 4"
+        ],
+        [
+          -136.8,
+          -138.194,
+          6.014,
+          "horizon low 4"
+        ],
+        [
+          -132.532,
+          -145.207,
+          12.06,
+          "horizon 4"
+        ],
+        [
+          -129.836,
+          -142.253,
+          5.445,
+          "horizon low 4"
+        ],
+        [
+          -125.158,
+          -148.817,
+          21.595,
+          "horizon 4"
+        ],
+        [
+          -122.584,
+          -145.756,
+          4.984,
+          "horizon low 4"
+        ],
+        [
+          -117.641,
+          -151.98,
+          16.78,
+          "horizon 5"
+        ],
+        [
+          -115.193,
+          -148.817,
+          5.43,
+          "horizon low 5"
+        ],
+        [
+          -110.113,
+          -154.833,
+          13.031,
+          "horizon 5"
+        ],
+        [
+          -107.794,
+          -151.573,
+          4.091,
+          "horizon low 5"
+        ],
+        [
+          -102.68,
+          -157.53,
+          18.3,
+          "horizon 5"
+        ],
+        [
+          -100.496,
+          -154.179,
+          6.319,
+          "horizon low 5"
+        ],
+        [
+          -95.414,
+          -160.222,
+          19.861,
+          "horizon 5"
+        ],
+        [
+          -93.367,
+          -156.786,
+          4.562,
+          "horizon low 5"
+        ],
+        [
+          -88.348,
+          -163.045,
+          14.156,
+          "horizon 5"
+        ],
+        [
+          -86.443,
+          -159.528,
+          4.448,
+          "horizon low 5"
+        ],
+        [
+          -81.477,
+          -166.103,
+          20.556,
+          "horizon 5"
+        ],
+        [
+          -79.716,
+          -162.512,
+          6.434,
+          "horizon low 5"
+        ],
+        [
+          -74.762,
+          -169.457,
+          22.221,
+          "horizon 5"
+        ],
+        [
+          -73.148,
+          -165.797,
+          4.692,
+          "horizon low 5"
+        ],
+        [
+          -68.137,
+          -173.119,
+          20.133,
+          "horizon 5"
+        ],
+        [
+          -66.672,
+          -169.397,
+          5.632,
+          "horizon low 5"
+        ],
+        [
+          -61.52,
+          -177.046,
+          13.613,
+          "horizon 5"
+        ],
+        [
+          -60.207,
+          -173.267,
+          5.604,
+          "horizon low 5"
+        ],
+        [
+          -54.825,
+          -181.145,
+          12.521,
+          "horizon 5"
+        ],
+        [
+          -53.666,
+          -177.317,
+          6.378,
+          "horizon low 5"
+        ],
+        [
+          -47.972,
+          -185.28,
+          19.212,
+          "horizon 5"
+        ],
+        [
+          -46.97,
+          -181.408,
+          5.885,
+          "horizon low 5"
+        ],
+        [
+          -40.901,
+          -189.279,
+          12.214,
+          "horizon 5"
+        ],
+        [
+          -40.056,
+          -185.369,
+          4.497,
+          "horizon low 5"
+        ],
+        [
+          -33.575,
+          -192.955,
+          22.303,
+          "horizon 5"
+        ],
+        [
+          -32.89,
+          -189.014,
+          4.639,
+          "horizon low 5"
+        ],
+        [
+          -25.988,
+          -196.118,
+          22.266,
+          "horizon 5"
+        ],
+        [
+          -25.463,
+          -192.153,
+          5.41,
+          "horizon low 5"
+        ],
+        [
+          -18.164,
+          -198.595,
+          18.633,
+          "horizon 5"
+        ],
+        [
+          -17.799,
+          -194.612,
+          5.055,
+          "horizon low 5"
+        ],
+        [
+          -10.155,
+          -200.245,
+          19.196,
+          "horizon 5"
+        ],
+        [
+          -9.953,
+          -196.25,
+          5.667,
+          "horizon low 5"
+        ],
+        [
+          -2.037,
+          -200.97,
+          12.731,
+          "horizon 5"
+        ],
+        [
+          -1.996,
+          -196.97,
+          6.35,
+          "horizon low 5"
+        ],
+        [
+          6.104,
+          -200.727,
+          22.563,
+          "horizon 5"
+        ],
+        [
+          5.983,
+          -196.729,
+          6.733,
+          "horizon low 5"
+        ],
+        [
+          14.178,
+          -199.531,
+          18.489,
+          "horizon 5"
+        ],
+        [
+          13.895,
+          -195.541,
+          4.576,
+          "horizon low 5"
+        ],
+        [
+          22.103,
+          -197.452,
+          16.128,
+          "horizon 5"
+        ],
+        [
+          21.658,
+          -193.477,
+          6.274,
+          "horizon low 5"
+        ],
+        [
+          29.813,
+          -194.612,
+          14.63,
+          "horizon 6"
+        ],
+        [
+          29.208,
+          -190.658,
+          4.741,
+          "horizon low 6"
+        ],
+        [
+          37.271,
+          -191.169,
+          15.585,
+          "horizon 6"
+        ],
+        [
+          36.506,
+          -187.243,
+          5.996,
+          "horizon low 6"
+        ],
+        [
+          44.467,
+          -187.308,
+          12.123,
+          "horizon 6"
+        ],
+        [
+          43.543,
+          -183.416,
+          6.528,
+          "horizon low 6"
+        ],
+        [
+          51.422,
+          -183.218,
+          12.099,
+          "horizon 6"
+        ],
+        [
+          50.342,
+          -179.367,
+          5.059,
+          "horizon low 6"
+        ],
+        [
+          58.187,
+          -179.082,
+          19.615,
+          "horizon 6"
+        ],
+        [
+          56.951,
+          -175.278,
+          6.188,
+          "horizon low 6"
+        ],
+        [
+          64.833,
+          -175.054,
+          16.375,
+          "horizon 6"
+        ],
+        [
+          63.444,
+          -171.303,
+          5.78,
+          "horizon low 6"
+        ],
+        [
+          71.443,
+          -171.251,
+          12.693,
+          "horizon 6"
+        ],
+        [
+          69.903,
+          -167.559,
+          4.993,
+          "horizon low 6"
+        ],
+        [
+          78.104,
+          -167.741,
+          21.645,
+          "horizon 6"
+        ],
+        [
+          76.416,
+          -164.115,
+          6.787,
+          "horizon low 6"
+        ],
+        [
+          84.89,
+          -164.54,
+          21.46,
+          "horizon 6"
+        ],
+        [
+          83.056,
+          -160.985,
+          4.334,
+          "horizon low 6"
+        ],
+        [
+          91.855,
+          -161.61,
+          13.293,
+          "horizon 6"
+        ],
+        [
+          89.879,
+          -158.133,
+          5.559,
+          "horizon low 6"
+        ],
+        [
+          99.023,
+          -158.868,
+          15.214,
+          "horizon 6"
+        ],
+        [
+          96.907,
+          -155.473,
+          5.715,
+          "horizon low 6"
+        ],
+        [
+          106.379,
+          -156.191,
+          21.201,
+          "horizon 6"
+        ],
+        [
+          104.127,
+          -152.885,
+          6.338,
+          "horizon low 6"
+        ],
+        [
+          113.871,
+          -153.436,
+          17.676,
+          "horizon 6"
+        ],
+        [
+          111.487,
+          -150.223,
+          5.349,
+          "horizon low 6"
+        ],
+        [
+          121.409,
+          -150.446,
+          15.585,
+          "horizon 6"
+        ],
+        [
+          118.897,
+          -147.334,
+          4.786,
+          "horizon low 6"
+        ],
+        [
+          128.872,
+          -147.076,
+          14.061,
+          "horizon 6"
+        ],
+        [
+          126.236,
+          -144.068,
+          4.319,
+          "horizon low 6"
+        ],
+        [
+          136.119,
+          -143.197,
+          12.581,
+          "horizon 6"
+        ],
+        [
+          133.363,
+          -140.298,
+          5.481,
+          "horizon low 6"
+        ],
+        [
+          142.999,
+          -138.716,
+          22.746,
+          "horizon 6"
+        ],
+        [
+          140.128,
+          -135.931,
+          6.671,
+          "horizon low 6"
+        ],
+        [
+          149.366,
+          -133.579,
+          19.981,
+          "horizon 6"
+        ],
+        [
+          146.384,
+          -130.912,
+          6.493,
+          "horizon low 6"
+        ],
+        [
+          155.094,
+          -127.776,
+          18.544,
+          "horizon 6"
+        ],
+        [
+          152.007,
+          -125.233,
+          5.856,
+          "horizon low 6"
+        ],
+        [
+          160.09,
+          -121.345,
+          15.941,
+          "horizon 6"
+        ],
+        [
+          156.902,
+          -118.928,
+          5.831,
+          "horizon low 6"
+        ],
+        [
+          164.302,
+          -114.358,
+          13.708,
+          "horizon 7"
+        ],
+        [
+          161.019,
+          -112.073,
+          4.604,
+          "horizon low 7"
+        ],
+        [
+          167.728,
+          -106.921,
+          15.451,
+          "horizon 7"
+        ],
+        [
+          164.355,
+          -104.771,
+          4.562,
+          "horizon low 7"
+        ],
+        [
+          170.414,
+          -99.158,
+          21.749,
+          "horizon 7"
+        ],
+        [
+          166.957,
+          -97.146,
+          4.784,
+          "horizon low 7"
+        ],
+        [
+          172.454,
+          -91.198,
+          21.509,
+          "horizon 7"
+        ],
+        [
+          168.918,
+          -89.328,
+          6.36,
+          "horizon low 7"
+        ],
+        [
+          173.982,
+          -83.166,
+          13.515,
+          "horizon 7"
+        ],
+        [
+          170.374,
+          -81.441,
+          5.926,
+          "horizon low 7"
+        ],
+        [
+          175.158,
+          -75.166,
+          13.035,
+          "horizon 7"
+        ],
+        [
+          171.482,
+          -73.589,
+          6.529,
+          "horizon low 7"
+        ],
+        [
+          176.153,
+          -67.278,
+          16.241,
+          "horizon 7"
+        ],
+        [
+          172.417,
+          -65.851,
+          6.044,
+          "horizon low 7"
+        ],
+        [
+          177.137,
+          -59.546,
+          15.471,
+          "horizon 7"
+        ],
+        [
+          173.345,
+          -58.272,
+          5.245,
+          "horizon low 7"
+        ],
+        [
+          178.255,
+          -51.984,
+          14.704,
+          "horizon 7"
+        ],
+        [
+          174.415,
+          -50.864,
+          6.475,
+          "horizon low 7"
+        ],
+        [
+          179.622,
+          -44.57,
+          18.953,
+          "horizon 7"
+        ],
+        [
+          175.74,
+          -43.607,
+          4.739,
+          "horizon low 7"
+        ],
+        [
+          181.303,
+          -37.259,
+          21.677,
+          "horizon 7"
+        ],
+        [
+          177.385,
+          -36.454,
+          5.647,
+          "horizon low 7"
+        ],
+        [
+          183.311,
+          -29.987,
+          18.392,
+          "horizon 7"
+        ],
+        [
+          179.364,
+          -29.341,
+          4.234,
+          "horizon low 7"
+        ],
+        [
+          185.602,
+          -22.683,
+          17.592,
+          "horizon 7"
+        ],
+        [
+          181.632,
+          -22.198,
+          4.084,
+          "horizon low 7"
+        ],
+        [
+          188.08,
+          -15.282,
+          20.422,
+          "horizon 7"
+        ],
+        [
+          184.093,
+          -14.958,
+          4.773,
+          "horizon low 7"
+        ],
+        [
+          190.604,
+          -7.731,
+          18.916,
+          "horizon 7"
+        ],
+        [
+          186.607,
+          -7.569,
+          5.526,
+          "horizon low 7"
+        ]
+      ],
+      "terrain_bounds_m": [
+        [
+          -320,
+          -320,
+          -0.16
+        ],
+        [
+          320,
+          320,
+          -0.16
+        ]
+      ],
+      "reference_directory": "references/r12-skyline",
+      "all_offsets_are_inferred": true,
+      "measured_compass_bearings": false,
+      "relative_order_checks": {
+        "new_zhongguan_left_fence_side": true,
+        "ifc_behind_link": true,
+        "new_oriental_canopy_side": true,
+        "sinosteel_left_of_curved_building_looking_open_half": true
+      },
+      "horizon_limit": "Anonymous distant treeline closes unphotographed sectors; not a measured reconstruction of every tree. Camera views beyond the supplied range are approximate.",
+      "materials": "Opaque non-emitting facade panels/low-poly mullions, native DDS material resources; no skybox, transparency or exposure changes."
+    }
+  },
+  "unexpected_changes": [],
+  "changed_original_objects": [
+    "Glazed tower silhouette",
+    "R02 arching ornamental grass",
+    "R02 architecture Chilis lower storey conceptual glazing",
+    "R02 architecture Chilis lower storey sill",
+    "R02 broadleaf canopy 0",
+    "R02 broadleaf canopy 1",
+    "R02 broadleaf canopy 2",
+    "R02 broadleaf canopy 3",
+    "R02 continuous low garden groundcover",
+    "R02 curb expansion joints",
+    "R02 curving raised stone edges",
+    "R02 fine white flower florets",
+    "R02 flowerbed natural stones",
+    "R02 grass warm tips",
+    "R02 low groundcover leaf clusters 0",
+    "R02 low groundcover leaf clusters 1",
+    "R02 low groundcover leaf clusters 2",
+    "R02 organic planted ground",
+    "R02 shrub leaves 0",
+    "R02 shrub leaves 1",
+    "R02 shrub leaves 2",
+    "R02 shrub twig structure",
+    "R02 trees branching trunks",
+    "R02 white allium flower stems",
+    "R11 Chilis building alcove cafe descriptor",
+    "R11 Chilis building alcove established date",
+    "R11 Chilis building alcove logo fine golden edge",
+    "R11 Chilis building alcove logo green pepper apostrophe",
+    "R11 Chilis building alcove logo warm orange letter bodies",
+    "R11 Chilis building continuous original curved folded eaves",
+    "R11 Chilis building curved flank individual silver ribs",
+    "R11 Chilis building curved flank slender mullions",
+    "R11 Chilis building curved flank upper glazing",
+    "R11 Chilis building elevator call plate",
+    "R11 Chilis building elevator deep metal jambs",
+    "R11 Chilis building elevator two brushed door leaves",
+    "R11 Chilis building entry CAFE AND BAR",
+    "R11 Chilis building entry clear window and door perimeter seams",
+    "R11 Chilis building entry concave rolled silver pilasters",
+    "R11 Chilis building entry cornice narrow reveal",
+    "R11 Chilis building entry cream retractable canvas and scalloped valance",
+    "R11 Chilis building entry door transom and narrow reveals",
+    "R11 Chilis building entry EST 1975",
+    "R11 Chilis building entry exact Chinese canvas inscription",
+    "R11 Chilis building entry grey staggered stone course 0",
+    "R11 Chilis building entry grey staggered stone course 1",
+    "R11 Chilis building entry grey staggered stone course 2",
+    "R11 Chilis building entry hinged retractable awning frame",
+    "R11 Chilis building entry local grey stone mortar bedding",
+    "R11 Chilis building entry logo fine golden edge",
+    "R11 Chilis building entry logo green pepper apostrophe",
+    "R11 Chilis building entry logo warm orange letter bodies",
+    "R11 Chilis building entry narrow vertical diffuser strips unlit",
+    "R11 Chilis building entry paired long door pulls hinges and threshold",
+    "R11 Chilis building entry pilaster folded seam flanges",
+    "R11 Chilis building entry sewn canvas seams",
+    "R11 Chilis building entry shallow interior dark mineral floor",
+    "R11 Chilis building entry shallow interior warm back plane",
+    "R11 Chilis building entry shallow interior warm timber planes",
+    "R11 Chilis building entry slender black window and double door frames",
+    "R11 Chilis building entry solid dusty mauve sign panel",
+    "R11 Chilis building entry three folded cornice rails",
+    "R11 Chilis building entry visible interior table legs",
+    "R11 Chilis building entry visible low green upholstered benches",
+    "R11 Chilis building entry visible shallow wood table tops",
+    "R11 Chilis building fine vertical red terracotta tile joints",
+    "R11 Chilis building red terracotta recessed elevator walls",
+    "R11 Chilis building retained curved restaurant envelope",
+    "R11 Chilis building roof louvre fine reveal borders",
+    "R11 Chilis building roof louvre pitched blades",
+    "R11 Chilis building terrace CAFE AND BAR",
+    "R11 Chilis building terrace concave rolled silver pilasters",
+    "R11 Chilis building terrace continuous interior red floor",
+    "R11 Chilis building terrace cornice narrow reveal",
+    "R11 Chilis building terrace cream retractable canvas and scalloped valance",
+    "R11 Chilis building terrace EST 1975",
+    "R11 Chilis building terrace exact Chinese canvas inscription",
+    "R11 Chilis building terrace fin backing recessed shadow",
+    "R11 Chilis building terrace five wide weather screen edge strips",
+    "R11 Chilis building terrace hinged retractable awning frame",
+    "R11 Chilis building terrace individually folded vertical facade fins",
+    "R11 Chilis building terrace inner low wood wainscot",
+    "R11 Chilis building terrace inner warm plaster return wall",
+    "R11 Chilis building terrace logo fine golden edge",
+    "R11 Chilis building terrace logo green pepper apostrophe",
+    "R11 Chilis building terrace logo warm orange letter bodies",
+    "R11 Chilis building terrace lower clear screen seams",
+    "R11 Chilis building terrace narrow vertical diffuser strips unlit",
+    "R11 Chilis building terrace pilaster folded seam flanges",
+    "R11 Chilis building terrace roof projection solid body and folded cap",
+    "R11 Chilis building terrace sewn canvas seams",
+    "R11 Chilis building terrace slender ivory weather screen mullions",
+    "R11 Chilis building terrace three folded cornice rails",
+    "R11 Chilis building three roof louvre framed recesses",
+    "R11 Chilis building unmodified extent flank curved glass",
+    "R11 Chilis terrace clipped planter foliage",
+    "R11 Chilis terrace curved chair champagne tube frames",
+    "R11 Chilis terrace curved chair pale diagonal weave",
+    "R11 Chilis terrace curved chair woven red bodies",
+    "R11 Chilis terrace entry advertising broad pale shapes",
+    "R11 Chilis terrace entry advertising broad red shapes",
+    "R11 Chilis terrace entry cabinet restrained wood grain",
+    "R11 Chilis terrace entry cabinet small feet",
+    "R11 Chilis terrace entry hinged menu stands",
+    "R11 Chilis terrace entry lectern fine page divisions",
+    "R11 Chilis terrace entry lectern pale menu paper",
+    "R11 Chilis terrace entry oak welcome cabinet",
+    "R11 Chilis terrace entry poster panel 0",
+    "R11 Chilis terrace entry poster panel 1",
+    "R11 Chilis terrace entry poster panel 2",
+    "R11 Chilis terrace entry separate sloped menu lectern",
+    "R11 Chilis terrace fountain small blue inner mosaic",
+    "R11 Chilis terrace fountain small pale inner mosaic",
+    "R11 Chilis terrace fountain still recessed basin",
+    "R11 Chilis terrace parasol beige summer canvas",
+    "R11 Chilis terrace parasol cantilever masts ribs and fixed feet",
+    "R11 Chilis terrace parasol fine panel seams",
+    "R11 Chilis terrace parasol visible floor anchors",
+    "R11 Chilis terrace sage vase planters",
+    "R11 Chilis terrace square mosaic table black frames",
+    "R11 Chilis terrace square mosaic table dark inserts",
+    "R11 Chilis terrace square mosaic table fine grout",
+    "R11 Chilis terrace square mosaic table ochre inserts",
+    "R11 Chilis terrace three tier fountain carved limestone",
+    "R11 Chilis terrace warm red square terrace tile variants",
+    "R11 Chilis terrace warm red square terrace tiles",
+    "R11 Chilis terrace warm red terrace grout bed",
+    "Tower fine vertical -3",
+    "Tower fine vertical -6",
+    "Tower fine vertical 0",
+    "Tower fine vertical 3",
+    "Tower fine vertical 6",
+    "Tower horizontal 12",
+    "Tower horizontal 15",
+    "Tower horizontal 18",
+    "Tower horizontal 21",
+    "Tower horizontal 24",
+    "Tower horizontal 27",
+    "Tower horizontal 3",
+    "Tower horizontal 30",
+    "Tower horizontal 33",
+    "Tower horizontal 36",
+    "Tower horizontal 6",
+    "Tower horizontal 9"
+  ],
+  "protected_original_objects": 510,
+  "lights_world_exposure_preserved": true,
+  "game_tested": false
+}

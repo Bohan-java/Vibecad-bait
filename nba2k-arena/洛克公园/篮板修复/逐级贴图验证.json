@@ -1,0 +1,190 @@
+[
+  {
+    "file": "albedomapbc3.8195d23caeafe771.dds",
+    "status": "PASS",
+    "levels": [
+      {
+        "mip": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 1,
+        "size": [
+          512,
+          512
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 2,
+        "size": [
+          256,
+          256
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 3,
+        "size": [
+          128,
+          128
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 4,
+        "size": [
+          64,
+          64
+        ],
+        "max_rgb_channel_spread": 0
+      },
+      {
+        "mip": 5,
+        "size": [
+          32,
+          32
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 6,
+        "size": [
+          16,
+          16
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 7,
+        "size": [
+          8,
+          8
+        ],
+        "max_rgb_channel_spread": 0
+      },
+      {
+        "mip": 8,
+        "size": [
+          4,
+          4
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 9,
+        "size": [
+          2,
+          2
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 10,
+        "size": [
+          1,
+          1
+        ],
+        "max_rgb_channel_spread": 4
+      }
+    ]
+  },
+  {
+    "file": "glass_shader_mat_roughness.4d555f64a227659e.dds",
+    "status": "PASS",
+    "levels": [
+      {
+        "mip": 0,
+        "size": [
+          1024,
+          1024
+        ],
+        "max_rgb_channel_spread": 3
+      },
+      {
+        "mip": 1,
+        "size": [
+          512,
+          512
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 2,
+        "size": [
+          256,
+          256
+        ],
+        "max_rgb_channel_spread": 3
+      },
+      {
+        "mip": 3,
+        "size": [
+          128,
+          128
+        ],
+        "max_rgb_channel_spread": 4
+      },
+      {
+        "mip": 4,
+        "size": [
+          64,
+          64
+        ],
+        "max_rgb_channel_spread": 2
+      },
+      {
+        "mip": 5,
+        "size": [
+          32,
+          32
+        ],
+        "max_rgb_channel_spread": 3
+      },
+      {
+        "mip": 6,
+        "size": [
+          16,
+          16
+        ],
+        "max_rgb_channel_spread": 3
+      },
+      {
+        "mip": 7,
+        "size": [
+          8,
+          8
+        ],
+        "max_rgb_channel_spread": 2
+      },
+      {
+        "mip": 8,
+        "size": [
+          4,
+          4
+        ],
+        "max_rgb_channel_spread": 1
+      },
+      {
+        "mip": 9,
+        "size": [
+          2,
+          2
+        ],
+        "max_rgb_channel_spread": 3
+      },
+      {
+        "mip": 10,
+        "size": [
+          1,
+          1
+        ],
+        "max_rgb_channel_spread": 3
+      }
+    ]
+  }
+]

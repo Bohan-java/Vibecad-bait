@@ -1,0 +1,376 @@
+{
+  "revision": "R13",
+  "scope": "Factory dry-run against published R12.1 IFF; no IFF/source/model write by this audit",
+  "input_iff": "E:\\CodexData\\2karena\\zgc-court\\output\\arena_700_int.iff",
+  "input_iff_sha256": "9b792998b97ba726738c4d641b9ceea728b8f102b1672741a2e53096227b144e",
+  "game_tested": false,
+  "factory": "tools/specialized_basket_glass.py",
+  "changed_baskets_sections": [
+    "Texture"
+  ],
+  "unchanged_baskets_sections": [
+    "Attribute",
+    "Effect",
+    "Material",
+    "Model",
+    "Object"
+  ],
+  "new_scne_parameter_names": [],
+  "geometry_skeleton_object_identity_and_MAIN_unchanged": true,
+  "material_parameters_and_techniques_unchanged": true,
+  "effect_parameters_and_techniques_unchanged": true,
+  "presentation_contract_unchanged": true,
+  "native_Opacity_preserved": 1.0,
+  "native_AlphaCutOffForDepth_preserved": 0.9,
+  "texture_changes": [
+    {
+      "slot": "Albedo",
+      "pixelmap": "zgc_r10:glass_albedo",
+      "before_dds": "zgc_r10_glass_albedo.5f37c65b8b33aae3.dds",
+      "before_rgba": [
+        66,
+        66,
+        66,
+        10
+      ],
+      "before_sha256": "5f37c65b8b33aae31d7dad77237d190f283e25fa10df2fc06b8f6675390771da",
+      "after_dds": "zgc_r13_glass_albedo.d43d2428ec37147a.dds",
+      "after_rgba": [
+        66,
+        66,
+        66,
+        36
+      ],
+      "after_sha256": "d43d2428ec37147a740db8919cc70308097df08f3b1892e038ff092d730661ac",
+      "all_10_mips_decoded_and_verified": true
+    },
+    {
+      "slot": "RoughnessTexture",
+      "pixelmap": "zgc_r10:glass_roughness",
+      "before_dds": "zgc_r10_glass_roughness.c3ba3b9c08797332.dds",
+      "before_rgba": [
+        16,
+        16,
+        16,
+        255
+      ],
+      "before_sha256": "c3ba3b9c087973321a6c6cf4e3279d633325784a15e1d77655ede33cdc64075e",
+      "after_dds": "zgc_r13_glass_roughness.76c3fe4f32b4fec1.dds",
+      "after_rgba": [
+        82,
+        81,
+        82,
+        255
+      ],
+      "after_sha256": "76c3fe4f32b4fec14cdff8b481bb61f58a375ef50b63eb907ebe233961aa2228",
+      "all_10_mips_decoded_and_verified": true
+    }
+  ],
+  "opacity": {
+    "before": 0.0392156862745098,
+    "after": 0.1411764705882353,
+    "single_surface_destination_blend_weight_before": 0.9607843137254902,
+    "single_surface_destination_blend_weight_after": 0.8588235294117648,
+    "interpretation": "Increase sampled alpha with unchanged neutral RGB; less background contribution in native ONE/INVSRCALPHA blend. Not a physical transmission calibration."
+  },
+  "roughness": {
+    "before": 0.06274509803921569,
+    "after": 0.3215686274509804,
+    "channel": "R",
+    "interpretation": "Broader/softer reflected detail and highlights. This is not a confirmed reduction in total reflected energy.",
+    "independent_reflection_energy_control_evidenced": false,
+    "invented_reflectivity_fields": false
+  },
+  "shader_evidence": {
+    "existing_local_audit": "validation/r10-glass-shader-audit.json#specialized_candidate.color_shader_semantics",
+    "default_ps": "PS.66823e7969ce912a.shader",
+    "presentation_ps": "PS.c8eff3dddf2459dc.shader",
+    "default_presentation_alpha": "Albedo sample alpha directly",
+    "translucent_alpha": "Albedo sample alpha times native Opacity=1",
+    "roughness_texture": "R at effect resource offset24",
+    "depth": "All new albedo alpha=36/255 remains below native AlphaCutOffForDepth=0.9; transparent depth discard classification unchanged",
+    "global_lighting_postfx": "untouched"
+  },
+  "native_shader_and_script_checks": [
+    {
+      "name": "AHS.de9edc821ef26a76.shader",
+      "sha256": "efd0ff310619876a6f036900f7e7077b0d2f0802a7ba929fe45d9dfa88783b45",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.5fdd03ba1e6d1cd9.shader",
+      "sha256": "d451ce65a09c9a6c3feb5178807360ed92dbfbd59e7fa46e348b561e767c2c8f",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.66823e7969ce912a.shader",
+      "sha256": "afe144323fc24b9976e7ab289331b036dc6df2c39aa9add0afa71af145c707e0",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.70f809cbac1aa505.shader",
+      "sha256": "cee61e339ea8a12ba1b8d4c79882b7dad8c22b18f57051a3a85f9d5b6e19562e",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.964b07872198a129.shader",
+      "sha256": "9ace57e1999abeb093b7568019d255a3cfde888ba402b8ec0567b4461736e837",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.968c9803909ee4fb.shader",
+      "sha256": "bf442d71de863e960a8a4e9ebe7bb0b7212b720a791221e23a8ec7ede270ec97",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.a769dcdfe8ff13a1.shader",
+      "sha256": "43e323d7a692e2ca0b6c8e6fa8861cd7cc8bef6119ddcef40847ba5e9a7081cb",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.ab3b9850dc4a1574.shader",
+      "sha256": "c7b43b0c5c288a8764a8c17006d9e3d914558139e0266c105f3a78d9ca028817",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.b2b89af73987b43e.shader",
+      "sha256": "97dcc95cf7c359d06288565cac6dd54a9455cd00f55bb8ef8dd95ec47654326e",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.c8eff3dddf2459dc.shader",
+      "sha256": "afe6cd1fe8546585bd22fa58e3cc9270cbff4aa0a3aabb195161210f0a34d1c0",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.cfdadcf2e0b51fd2.shader",
+      "sha256": "5afcc1cf3d770a3d2365f7627fbf0a2f958f60e0830a6740e8a3ebb01c1cad89",
+      "byte_identical": true
+    },
+    {
+      "name": "PS.f7705409bcd0b193.shader",
+      "sha256": "fcbf9989ce23b020da826307696438ac633dff12534267b0f9735bf6110e8529",
+      "byte_identical": true
+    },
+    {
+      "name": "VS.0ec873e995e4dd69.shader",
+      "sha256": "bca782eb55949d9dfb92581de165d0a8ed7344c0308d732c2c3cfca9324fbab2",
+      "byte_identical": true
+    },
+    {
+      "name": "VS.7686a8a62e2bfb95.shader",
+      "sha256": "7d43f51391592cb14cd7190cba69de1ef2c6d6ea8ce9b4c66b0894d6e8d807c5",
+      "byte_identical": true
+    },
+    {
+      "name": "basket_glass.9c3a099189c7c26f.script",
+      "sha256": "ffbf2325904d118a69674d3e8f3a5134d8cc632086ed6cdf899c29481decc968",
+      "byte_identical": true
+    }
+  ],
+  "native_model_payloads": [
+    {
+      "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:basket",
+      "descriptor_and_transform_unchanged": true,
+      "binary_resources_unchanged": [
+        {
+          "member": "IndexBuffer.948236cc681c0c6c.bin",
+          "bytes": 534252,
+          "sha256": "948236cc681c0c6cb731a49b60caf178ba839de0f781fe00c4149b5ca278e57f"
+        },
+        {
+          "member": "MatrixWeightsBuffer.fee4b65e1c76c154.bin",
+          "bytes": 32,
+          "sha256": "fee4b65e1c76c1542623df59d640504a4de1c43dfbb64f4423be6a734cd94827"
+        },
+        {
+          "member": "VertexBuffer.8dbf46d36dbead74.bin",
+          "bytes": 80752,
+          "sha256": "8dbf46d36dbead74c80c4d96b1c338735a6931b9bf802bfcedb5b482e704c4b2"
+        },
+        {
+          "member": "VertexBuffer.9342541291b4697f.bin",
+          "bytes": 40376,
+          "sha256": "9342541291b4697f6d239bd8aec421ed5f9a4d1a66ebb9a0a599876739aaa394"
+        },
+        {
+          "member": "VertexBuffer.fa3507ec078ac341.bin",
+          "bytes": 80752,
+          "sha256": "fa3507ec078ac34195ccd3e6670d5c0ba19db212f4c48079c3839a79bdb988e7"
+        }
+      ]
+    },
+    {
+      "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:rimr",
+      "descriptor_and_transform_unchanged": true,
+      "binary_resources_unchanged": [
+        {
+          "member": "IndexBuffer.3cd7f9d8c0f8d9a1.bin",
+          "bytes": 25332,
+          "sha256": "fdbca23ad5be0f2ba532e0f57c72237895d92d8fcdea97aed30fdc1c9b11b721"
+        },
+        {
+          "member": "VertexBuffer.bb8866d1aa27b7a6.bin",
+          "bytes": 13980,
+          "sha256": "d5fbec2691da6765a5859cdfda1e81ea52b61d392aa925e36a68527fbbddd351"
+        },
+        {
+          "member": "VertexBuffer.cf24ba8d9ce22186.bin",
+          "bytes": 9320,
+          "sha256": "eaa0dbbcf97f3e4089bb742bf704e6a86319757c10ae78ec4f872ecf7948a475"
+        }
+      ]
+    },
+    {
+      "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+      "descriptor_and_transform_unchanged": true,
+      "binary_resources_unchanged": [
+        {
+          "member": "IndexBuffer.8847cadfb80874a2.bin",
+          "bytes": 311640,
+          "sha256": "3e842371756a275fccfe4f3bc32b2ed8c686251f6654ed8461e5d36712cc919c"
+        },
+        {
+          "member": "MatrixWeightsBuffer.f4a586351e1b9f4b.bin",
+          "bytes": 4,
+          "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+        },
+        {
+          "member": "VertexBuffer.2b8ec81dc22b7e81.bin",
+          "bytes": 96388,
+          "sha256": "9e5cb9196b58bbad99d24919f984f287d548de4c721b982bf8a909f2133b26af"
+        },
+        {
+          "member": "VertexBuffer.456bf2f1547d5609.bin",
+          "bytes": 192776,
+          "sha256": "2e33256a46e08d976f02fb4113326ccc4a704772d695d01d0ad16b46b9b1c47d"
+        },
+        {
+          "member": "VertexBuffer.b2baa9cf50c1ce45.bin",
+          "bytes": 192776,
+          "sha256": "4a8db2e75d1d679fbcc7340b735d474367e6ab618199e0f17cb5955387028bb2"
+        }
+      ]
+    }
+  ],
+  "preview": {
+    "exporter": "tools/export_native_preview.py",
+    "change_required": false,
+    "evidence": "Existing material() uses native Albedo alpha and RoughnessTexture; texture() maps native roughness R to glTF roughness G.",
+    "limit": "Standard PBR browser alpha blending does not reproduce all native IBL/replay passes."
+  },
+  "factory_report": {
+    "revision": "R13",
+    "game_tested": false,
+    "template_archive": "E:\\CodexData\\2karena\\build\\high_hoop\\reference\\arena_blacktop_ext.iff",
+    "template_material": "basket_stanchiond_outdoor:glass_shader",
+    "effect": "basket_glass.fx#fbbf6988cee09674",
+    "script": "basket_glass.9c3a099189c7c26f.script",
+    "full_native_dependencies_copied": [
+      "AHS.de9edc821ef26a76.shader",
+      "PS.5fdd03ba1e6d1cd9.shader",
+      "PS.66823e7969ce912a.shader",
+      "PS.70f809cbac1aa505.shader",
+      "PS.964b07872198a129.shader",
+      "PS.968c9803909ee4fb.shader",
+      "PS.a769dcdfe8ff13a1.shader",
+      "PS.ab3b9850dc4a1574.shader",
+      "PS.b2b89af73987b43e.shader",
+      "PS.c8eff3dddf2459dc.shader",
+      "PS.cfdadcf2e0b51fd2.shader",
+      "PS.f7705409bcd0b193.shader",
+      "VS.0ec873e995e4dd69.shader",
+      "VS.7686a8a62e2bfb95.shader",
+      "basket_glass.9c3a099189c7c26f.script"
+    ],
+    "material_changes": [
+      {
+        "material": "basket_stanchiont_outdoor:glass_shader_mat",
+        "old_effect": "basket_glass.fx#fbbf6988cee09674",
+        "new_effect": "basket_glass.fx#fbbf6988cee09674"
+      },
+      {
+        "material": "basket_stanchiont_outdoor:glasshole_shader_mat",
+        "old_effect": "basket_glass.fx#fbbf6988cee09674",
+        "new_effect": "basket_glass.fx#fbbf6988cee09674"
+      }
+    ],
+    "textures": [
+      {
+        "slot": "Albedo",
+        "pixelmap": "zgc_r10:glass_albedo",
+        "dds": "zgc_r13_glass_albedo.d43d2428ec37147a.dds",
+        "format": "BC7_UNORM",
+        "size": [
+          512,
+          512
+        ],
+        "mips": 10,
+        "decoded_rgba_all_mips": [
+          66,
+          66,
+          66,
+          36
+        ],
+        "dds_sha256": "d43d2428ec37147a740db8919cc70308097df08f3b1892e038ff092d730661ac"
+      },
+      {
+        "slot": "RoughnessTexture",
+        "pixelmap": "zgc_r10:glass_roughness",
+        "dds": "zgc_r13_glass_roughness.76c3fe4f32b4fec1.dds",
+        "format": "BC1_UNORM",
+        "size": [
+          512,
+          512
+        ],
+        "mips": 10,
+        "decoded_rgba_all_mips": [
+          82,
+          81,
+          82,
+          255
+        ],
+        "dds_sha256": "76c3fe4f32b4fec14cdff8b481bb61f58a375ef50b63eb907ebe233961aa2228"
+      }
+    ],
+    "native_geometry_skeleton_instances_unchanged": true,
+    "native_opacity_preserved": 1.0,
+    "native_depth_alpha_cutoff_preserved": 0.9,
+    "material_adjustment": {
+      "previous_albedo_rgba": [
+        66,
+        66,
+        66,
+        10
+      ],
+      "current_albedo_rgba": [
+        66,
+        66,
+        66,
+        36
+      ],
+      "previous_roughness_r": 0.06274509803921569,
+      "current_roughness_r": 0.3215686274509804,
+      "purpose": "Less transparent neutral glass; softer reflected detail and less sharp highlights.",
+      "reflection_energy_multiplier_changed": false,
+      "reason": "No independent reflectivity-intensity parameter is evidenced in the native basket_glass effect."
+    },
+    "blend_contract": "Shader premultiplies straight Albedo RGB by A; ONE/INVSRCALPHA; explicit Presentation pass",
+    "shader_evidence": [
+      "Default and Presentation output Albedo.A directly.",
+      "Translucent multiplies its output by native Opacity.",
+      "ZPrepass discards when Albedo.A is below AlphaCutOffForDepth; no OneOverIoR condition.",
+      "RoughnessTexture uses R."
+    ],
+    "limits": [
+      "Actual replay pass selection and visual outcome require game validation.",
+      "Roughness changes reflection sharpness and distribution; it is not proof of reduced total reflected energy.",
+      "The original perforated glass topology is retained; this change replaces its entire render contract.",
+      "The white target remains separate geometry 0.517596 mm in front of the native front glass."
+    ]
+  },
+  "limitations": [
+    "Actual gameplay/replay look still needs a game observation. No claim of replay repair.",
+    "No evidenced independent native reflection-intensity control was modified; reflection softening is documented precisely."
+  ]
+}

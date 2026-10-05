@@ -1,0 +1,3174 @@
+{
+  "schema": "zgc-handoff-file-inventory-v1",
+  "generated_at_utc": "2026-10-05T21:43:55.557659+00:00",
+  "scope": "E:\\CodexData\\2karena\\zgc-court",
+  "read_only_source_audit": true,
+  "total_files": 675,
+  "total_bytes": 2259651163,
+  "categories": {
+    ".preview-runtime": {
+      "files": 276,
+      "bytes": 24707607
+    },
+    "artwork": {
+      "files": 10,
+      "bytes": 59446070
+    },
+    "config": {
+      "files": 1,
+      "bytes": 7526
+    },
+    "logs": {
+      "files": 1,
+      "bytes": 105121
+    },
+    "output": {
+      "files": 1,
+      "bytes": 1685622410
+    },
+    "(project root files)": {
+      "files": 7,
+      "bytes": 5580
+    },
+    "preview": {
+      "files": 15,
+      "bytes": 10232766
+    },
+    "public": {
+      "files": 73,
+      "bytes": 310645292
+    },
+    "references": {
+      "files": 104,
+      "bytes": 69234118
+    },
+    "source": {
+      "files": 4,
+      "bytes": 65440178
+    },
+    "textures": {
+      "files": 56,
+      "bytes": 5602885
+    },
+    "tools": {
+      "files": 59,
+      "bytes": 803626
+    },
+    "validation": {
+      "files": 68,
+      "bytes": 27797984
+    }
+  },
+  "category_purposes": {
+    "source": "Editable current Blender source scene, build notes and source geometry validation; scene.blend is primary model.",
+    "artwork": "Editable SVG artwork and current raster maps for painted court and gray paving.",
+    "textures": "Current photo-derived/procedural material texture inputs, packed in Blender as applicable.",
+    "references": "Original photo archives, extracted images, indexed photo descriptions, user guides and gameplay issue screenshots.",
+    "tools": "Build/export/repair/audit/preview scripts; historical refinement scripts kept as provenance, do not rerun all blindly.",
+    "validation": "Current evidence reports, native resource/geometry audits and material renders; reports do not prove runtime game success.",
+    "public": "Current generated source GLB and actual-IFF decoded preview GLB plus manifests; keep to make handoff preview immediately available.",
+    "preview": "Web viewer UI and local Three.js vendor source; use with local service.",
+    "config": "Project dimensions, game slot, coordinate conversions, preview camera presets and machine-specific tool configuration.",
+    "output": "Exactly one latest game deliverable arena_700_int.iff."
+  },
+  "large_files_over_50_MiB": [
+    {
+      "path": "output/arena_700_int.iff",
+      "bytes": 1685622410
+    },
+    {
+      "path": "public/builds/20261005T045109359Z-beefe91f/scene.glb",
+      "bytes": 134218284
+    },
+    {
+      "path": "public/game-preview/current.glb",
+      "bytes": 160717792
+    },
+    {
+      "path": "source/scene.blend",
+      "bytes": 65428978
+    }
+  ],
+  "parent_dependencies": [
+    {
+      "workspace_relative_path": "洛克公园/arena_blacktop_ext.iff",
+      "exists": true,
+      "bytes": 1629069247,
+      "required_for_current_rebuild": true,
+      "purpose": "Technical donor for compatible native level, baskets, skeletons, resource conventions. Not the visual model.",
+      "evidence": "tools/build_source_iff.py:26; tools/repair_iff.py:19",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "donor/original/arena_020_int_original.iff",
+      "exists": true,
+      "bytes": 45028875,
+      "required_for_current_rebuild": true,
+      "purpose": "Original stadium marker names/schema for distinct 44 bench and coach anchors.",
+      "evidence": "tools/r12_seating.py:19",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "build/high_hoop/reference/arena_blacktop_ext.iff",
+      "exists": true,
+      "bytes": 420010838,
+      "required_for_current_rebuild": true,
+      "purpose": "Native outdoor basket_glass material/effect/script/Presentation pipeline.",
+      "evidence": "tools/specialized_basket_glass.py:19",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "build/local_game_reference/levels/arena_700_int_floor.iff",
+      "exists": true,
+      "bytes": 721467,
+      "required_for_current_rebuild": true,
+      "purpose": "Cached native floor scene supplies shared line references for transparent aliases.",
+      "evidence": "tools/repair_iff.py:71; tools/native_floor_overlay.py:308",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "build/local_game_reference/levels/arena_020_int_floor.iff",
+      "exists": true,
+      "bytes": 606343,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical comparison reference, not required by current native pipeline.",
+      "evidence": "local permitted cached native reference",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "build/local_game_reference/shared/0f/vertexbuffer.0f3b6fcaf86b59a6.gz",
+      "exists": true,
+      "bytes": 90468,
+      "required_for_current_rebuild": false,
+      "purpose": "Existing cached external native resource; useful provenance, not referenced by current rebuild scripts.",
+      "evidence": "local permitted cached native reference",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/修复说明.md",
+      "exists": true,
+      "bytes": 3035,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor backboard repair provenance, include under archive if preserving supplied guides.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/验证报告.json",
+      "exists": true,
+      "bytes": 4041,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor backboard diagnosis/verification provenance.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/逐级贴图验证.json",
+      "exists": true,
+      "bytes": 3207,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor mipmap validation provenance.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/repair_backboard.py",
+      "exists": true,
+      "bytes": 9511,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor repair script; current build instead uses specialized_basket_glass.py.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    }
+  ],
+  "explicit_user_attachments": [
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-05329fb4-7387-4086-a634-c9681dde1b47.png",
+      "exists": true,
+      "bytes": 168489,
+      "reference_exact_matches": [
+        "references/guide/r03-user-black-screen.png"
+      ],
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "status": "already_archived_exactly"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-a71d807d-97d3-43b4-b624-82a783d5cdba.png",
+      "exists": true,
+      "bytes": 2542961,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-485becf2-b310-45cf-9c01-8247bdcfa75d.png",
+      "exists": true,
+      "bytes": 2086123,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-2313529b-139a-4450-badb-a7be6c4a5433.png",
+      "exists": true,
+      "bytes": 481431,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        677,
+        612
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-27341c1f-1c8f-4b2f-a73e-1eac90aba66a.png",
+      "exists": true,
+      "bytes": 2826504,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-61a6bd18-9805-4689-a8a3-9717d90a2546.png",
+      "exists": true,
+      "bytes": 1585452,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1378,
+        870
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-644bfb05-3282-41b0-9a32-ccd0ebb71fae.png",
+      "exists": true,
+      "bytes": 472580,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        889,
+        552
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-80f043d1-cff5-42ff-b42c-d540faf689f3.png",
+      "exists": true,
+      "bytes": 1348992,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1052,
+        971
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-f15c401f-4524-4079-8425-6ec7d450ca58.png",
+      "exists": true,
+      "bytes": 2391884,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-ff71ed13-6be9-42fe-99a2-83e0dd1ea9e3.png",
+      "exists": true,
+      "bytes": 873610,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        802,
+        871
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-b48ccf7a-3245-47e3-be99-299f0851da0c.png",
+      "exists": true,
+      "bytes": 1493111,
+      "reference_exact_matches": [
+        "references/feedback/current-replay-wide.png"
+      ],
+      "pixel_dimensions": [
+        1555,
+        783
+      ],
+      "status": "already_archived_exactly"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-15a5d105-aadd-409c-b35d-f7df39ef869e.png",
+      "exists": true,
+      "bytes": 1629920,
+      "reference_exact_matches": [
+        "references/feedback/current-replay-close.png"
+      ],
+      "pixel_dimensions": [
+        1638,
+        821
+      ],
+      "status": "already_archived_exactly"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-bcdf45f3-bf43-440d-8065-1251f4177adf.png",
+      "exists": true,
+      "bytes": 1712715,
+      "reference_exact_matches": [
+        "references/feedback/current-open-floor.png"
+      ],
+      "pixel_dimensions": [
+        1617,
+        800
+      ],
+      "status": "already_archived_exactly"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-84dccdd6-4acd-45a1-ada0-2394acfa0aee.png",
+      "exists": true,
+      "bytes": 1640470,
+      "reference_exact_matches": [
+        "references/feedback/current-reference-overview.png"
+      ],
+      "pixel_dimensions": [
+        1626,
+        720
+      ],
+      "status": "already_archived_exactly"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-c1e7d0e2-aa51-452c-bf6d-3d902806b88e.png",
+      "exists": true,
+      "bytes": 2113758,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1874,
+        827
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-0a3fb494-fb56-42bf-8d33-a1cf645e30d0.png",
+      "exists": true,
+      "bytes": 2736150,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1920,
+        1080
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/AppData/Local/Temp/codex-clipboard-d4f72807-c066-4ebe-a0cd-a49329a300a3.png",
+      "exists": true,
+      "bytes": 243440,
+      "reference_exact_matches": [],
+      "pixel_dimensions": [
+        1912,
+        956
+      ],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    },
+    {
+      "provided_path": "C:/Users/Administrator/Downloads/Codex_NBA2K26_ZGC_Court_Brief.txt",
+      "exists": true,
+      "bytes": 23883,
+      "reference_exact_matches": [],
+      "status": "present_but_not_in_references_copy_this_explicit_attachment"
+    }
+  ],
+  "exclusions": [
+    {
+      "path": ".preview-runtime/",
+      "reason": "Derived browser texture cache plus PID/port/server control-token state. Exclude entire directory; no contents/secrets copied."
+    },
+    {
+      "path": ".build-staging/",
+      "reason": "Temporary old/base build products; not the canonical final IFF or original source."
+    },
+    {
+      "path": "**/__pycache__/",
+      "reason": "Python bytecode regenerated locally."
+    },
+    {
+      "path": "logs/",
+      "reason": "Regenerable local execution logs; selected evidence already in validation JSON. Can retain latest log only if deliberately desired."
+    },
+    {
+      "path": "preview/texture-runtime-report.json",
+      "reason": "Local browser capability/texture runtime state, not portable project input."
+    },
+    {
+      "path": "**/node_modules/",
+      "reason": "Install via npm; bundled preview/vendor/three is already source-distributed and should be retained with license."
+    },
+    {
+      "path": "../build/high_hoop/deps/",
+      "reason": "Installed numpy/Pillow Windows environment. Declare dependencies and install them; avoid machine-specific binary dependencies."
+    },
+    {
+      "path": "../洛克公园/篮板修复/原始备份/arena_blacktop_ext.iff",
+      "reason": "Historical 1.63GB backup, not current rebuild donor; latest-only user preference does not require upload of redundant old mod versions."
+    },
+    {
+      "path": "../handoff-upload/; ../handoff-upload.zip; ../backups/; ../output/; unrelated mods",
+      "reason": "Historical handoff/builds and unrelated work outside current court scope. Do not clear or upload these by inference."
+    },
+    {
+      "path": "External Blender/Node/Python executables and C:/Windows/Fonts/msyh.ttc",
+      "reason": "Install dependencies separately; system font is read by skyline regeneration, not part of project-owned source."
+    }
+  ],
+  "portability_findings": [
+    {
+      "location": "config/project.json tools.blender_path",
+      "issue": "D:/Blender/blender.exe is workstation-specific. Configure installed Blender 5.2.2 LTS-compatible executable. Do not upload Blender program."
+    },
+    {
+      "location": "config/project.json tools.node_path/tools.sharp_module",
+      "issue": "Codex runtime absolute paths. Node launcher has PATH fallback; Sharp module path must be changed or provided through normal local dependency resolution."
+    },
+    {
+      "location": "config/project.json workspace_write_boundary/game_root",
+      "issue": "Machine-specific metadata; install_to_game=false. Do not infer permission to read/write game directory."
+    },
+    {
+      "location": "tools/refine_skyline_current.py:219",
+      "issue": "C:/Windows/Fonts/msyh.ttc optional China-text font input. Existing mesh/source needs no installed font to preview; rerun requires available substitute or configurable font path."
+    },
+    {
+      "location": "tools/audit_chilis_iff_current.py:21; audit_fence_iff_current.py:18; audit_context_iff_current.py:21; audit_streetlight_iff_current.py:15",
+      "issue": "Old parent build/high_hoop/deps sys.path insertion. Remove/ignore when Python environment includes compatible numpy and Pillow; do not silently ship environment."
+    },
+    {
+      "location": "tools/serve.mjs gamePreviewState",
+      "issue": "Preview freshness compares IFF size and mtime to manifest. Git checkout changes mtime; export_native_preview.py may need rerun or portable hash-aware check despite identical bytes."
+    },
+    {
+      "location": "tools/build_current_iff.py",
+      "issue": "Build requires published source GLB/manifest inputs; wait for watcher export after changing config/source. Intermediate must pass repair_iff.py before game output."
+    },
+    {
+      "location": "tools/iff_codec.py load_scne",
+      "issue": "Parser rejects duplicate keys, never silently rewrites them. Binary floor SCNE uses separate BinaryScene decoder."
+    }
+  ],
+  "all_project_files": [
+    {
+      "path": ".preview-runtime/server-4173.json",
+      "bytes": 283
+    },
+    {
+      "path": ".preview-runtime/service-142d1386c7d14633a2e2b584a3f7417c.stderr.log",
+      "bytes": 0
+    },
+    {
+      "path": ".preview-runtime/service-142d1386c7d14633a2e2b584a3f7417c.stdout.log",
+      "bytes": 180
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/0-1880f48d36536af69dba.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/1-293c375745cd708b0078.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/10-02960697b7b46820a461.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/100-53b4d26cc08ae59a3117.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/101-9a0f879d51a027f34c0a.png",
+      "bytes": 43774
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/102-a2d00b4cddfe944fa982.png",
+      "bytes": 97450
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/103-a9e9f1239318c9e0623b.png",
+      "bytes": 46885
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/104-83d4383b77a13946b7e9.png",
+      "bytes": 57383
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/105-657e0391f69419be7820.png",
+      "bytes": 43205
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/106-e0159430ccc73fc786e8.png",
+      "bytes": 56288
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/107-8fede10ae07d80ce0ca5.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/108-620d142664db7113cd96.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/109-e43a348a8c483637e2d1.png",
+      "bytes": 125643
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/11-7d5447716d16405060fa.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/110-8d0d9026e245e9556824.png",
+      "bytes": 102973
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/111-613b63a8c1257c827fd6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/112-009f30f00f7b4ad13a19.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/113-95fc3b3afcaf8dede90a.png",
+      "bytes": 235074
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/114-be0d8aa42a648c2b8b45.png",
+      "bytes": 152704
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/115-385072caec8dc0c58feb.png",
+      "bytes": 235843
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/116-0ec04e7f62b67c07381e.png",
+      "bytes": 151655
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/117-b9417ae600bfdc2ef423.png",
+      "bytes": 237913
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/118-56d917b97d4087b0b517.png",
+      "bytes": 152592
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/119-14c54ce0746cb0d18986.png",
+      "bytes": 238690
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/12-93fdb0b41b7562b6353c.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/120-4d2b5cd8b4a2838f57a6.png",
+      "bytes": 146893
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/121-2a425d4216e1ad0e9ce5.png",
+      "bytes": 2202
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/122-fdfb99d0e414bb3f1db2.png",
+      "bytes": 27981
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/123-71045ff190068bcfaa4f.png",
+      "bytes": 35959
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/124-1e6680e9288ab6406a58.png",
+      "bytes": 56442
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/125-7f1f7f99c676e4e295ba.png",
+      "bytes": 145613
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/126-6d34b5196fbc50e1c616.png",
+      "bytes": 102422
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/127-12576d11d3d6f83f23f4.png",
+      "bytes": 225078
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/128-6699dd133ca1775f3d47.png",
+      "bytes": 152396
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/129-42499534d84898e3eb11.png",
+      "bytes": 142976
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/13-5597d565003e4c20ba59.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/130-fc12106b937914bf92b6.png",
+      "bytes": 65815
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/131-8cceae6d6349bceec1b8.png",
+      "bytes": 56172
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/132-bc690194ad1433b9d51f.png",
+      "bytes": 97328
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/133-91ab16dee7f4f877e3eb.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/134-0f144e0abcb4ba9f1099.png",
+      "bytes": 241862
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/135-018ce9e8edf8851634e8.png",
+      "bytes": 152497
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/136-2b411a2f29d972e58e21.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/137-bd03b86c22f48dbcd751.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/138-6e9f13a5ac621b701a2c.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/139-be4b891cbef372e92d20.png",
+      "bytes": 70466
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/14-ae5930e54e097403ca43.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/140-85a38cb0ee1c589f89b0.png",
+      "bytes": 97232
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/141-e3b64a6b58d3b30ac891.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/142-e31ea80eb99de9a09d95.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/143-dd9c243cf0819d57004d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/144-223cd12b06d17f442d4a.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/145-3e81f3621a376600976a.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/146-5c37443b3e15a44b5831.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/147-9b45b0d49471b530dbcc.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/148-19190edc3db38b88f5e6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/149-1d5f1043d71fe0937bb4.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/15-a9f01d39b0d7b1df8ed9.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/150-d09511a9e327638e4d51.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/151-d52baf7e37bdc92f7db3.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/152-8ece80f92a0c370e86f0.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/153-99bd01fe9a238b5ce71b.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/154-c6de10e7a1632c7f91a0.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/155-8f6293b7d7c8e9ceafae.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/156-341588d29fde63858883.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/157-4ab0b82adef53f6f8cbe.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/158-53cdbfd21eb4f8aeece7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/159-bd415f0af964bc17c6e9.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/16-d8059733550620d9a46c.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/160-55c589cf01dc56ae7e0a.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/161-4ad5bf44fe79d173fb68.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/162-f4a1163aa1a83a8f189d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/163-c25437724abbc7dacd81.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/164-76dc03a978f44b82bcf2.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/165-e755232f86336d3bd0be.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/166-4fd94dcf450074628888.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/167-76de06f222a6a05a6857.png",
+      "bytes": 136856
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/168-86e05c3a1fbcc41e841b.png",
+      "bytes": 65714
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/169-c5c625829027b237877f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/17-483e6df39ee3b7963f4d.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/170-eb637d1bcfc037759ca5.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/171-450e714aac41a9c92430.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/172-41e4f9e5c8b028558014.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/173-a2cc5713d29cc1878c18.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/174-164a005b069ca2d78670.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/175-ebae6115f24f45699af1.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/176-1c15835f5b62336a76d9.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/177-45f901880597d68fd898.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/178-e633dccc9c6cfa5d14f1.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/179-099df136ce938ad1a204.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/18-f1f769d6bfa8afeee5da.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/180-bd3e64a3b1185ba9287e.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/181-56552eaa594535f3cf14.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/182-37fb0dc2eff408b731c3.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/183-575efce399ab53267c61.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/184-bb072808132d62a30f41.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/185-6bc978169878721c1e7f.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/186-f959dc25721d0b60e763.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/187-df1af3c4a1b229c10eb0.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/188-6d38c6d1c2ac131977ea.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/189-0713d5ba3f144322d27f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/19-efa55bfcaf6224adb4dd.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/190-57c2894ae1eb027ec29e.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/191-2547db2031c52969c781.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/192-7986038fc6bb781021ff.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/193-fda9f3b1e3b885ff74b6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/194-52ff8f525b20c8f7b66f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/195-5db3e3f11a2c7abc9360.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/196-06f4dfc16099bbe361af.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/197-fdf9e7cde68a944b95cb.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/198-6229498d111c3110c78a.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/199-521077ef0166010f4e96.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/2-47404411996a0ccb416d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/20-e54e1d3a924eb7b89a5f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/200-634f5c12411a3822eb8f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/201-e7bdc6cab03c53164e9a.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/202-6f45d15d78c5c517baf6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/203-14d7f012995ae8e62388.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/204-ee60819687ede3052756.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/205-84b073f462be198bca41.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/206-c10e13203921c5d19533.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/207-f7db78c1838f8c34139f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/208-3b67daa92eacbc087b13.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/209-59bd6fe9a67d50745fbf.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/21-3cfcc845c2a4e1b1574b.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/210-4f944025ec4a3ccca24f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/211-34d0b962f9707dabb685.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/212-4141c6927614580660bd.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/213-4ff54c0758d92d9a31df.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/214-b11bd45e3bd935bb8393.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/215-6c69b504fb39a8e4323d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/216-52144e943f920a932961.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/217-0de3d31d62b4779a1632.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/218-b11dd76d85adb266abcc.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/219-a9aa3f0317e33529e277.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/22-cb491abd9700159ce2c7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/220-2ae40c9ac5fcbd286fca.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/221-867cfc3d068794dc2912.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/222-7ffae6df8c22b317b2b6.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/223-4d6b011a045530e2c8a4.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/224-a9d77c2bab3dd632724c.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/225-5eec916dd02773e246c6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/226-0858c7a09a7cd4777413.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/227-798bad4630a3a748dcef.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/228-90d25ae5897b0da6eac6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/229-8ad6ab6e6515d3b88b52.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/23-50a22a76629f91f2f7c7.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/230-216a82388cc3c25cd03f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/231-44bfec07f126bfc88acf.png",
+      "bytes": 46271
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/232-f5488a7a4ae0c797e8d9.png",
+      "bytes": 96969
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/233-ec1a4031056b98c32953.png",
+      "bytes": 2231
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/234-317d375160b358442dcc.png",
+      "bytes": 28490
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/235-2111da3486a8e58b7738.png",
+      "bytes": 2201
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/236-42b2b5f1acb7e4f4e51d.png",
+      "bytes": 28784
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/237-58123e796367f7c6132c.png",
+      "bytes": 34565
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/238-2611e466979e5b69c9cb.png",
+      "bytes": 97153
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/239-1a782c77fd558caf294d.png",
+      "bytes": 21379
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/24-8948cc4ff8e0ccbc6d96.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/240-b60d6c04e1511c6921f1.png",
+      "bytes": 96447
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/241-f0aebeac118e24aa68c4.png",
+      "bytes": 2201
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/242-c91bb95229911b5b4969.png",
+      "bytes": 24649
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/243-c49f8c91d2af3c4c28ac.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/244-f2d07ac3b1a3a7e82166.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/245-92c6c75fe5da6be819cb.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/246-fc4f01203f7a55fc9dca.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/247-8cf5a2a0fd4574469e7f.png",
+      "bytes": 105391
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/248-3d9edb6400d7a46c74f2.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/249-fad62089aad81474b151.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/25-93887903f1183d742ab6.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/250-337cbffc09466f3354c4.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/251-41667bd026ccaecdbd03.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/252-082b72f2c702d0b0196e.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/253-a5fb18b1ed2c75f6358e.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/254-c8f57a2fbf0f22564f94.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/255-7deea5068ba38102d3ca.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/256-b2317e7d8b165c637eb7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/257-935e6a5a775f06564422.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/258-cbe649f15345073e04d8.png",
+      "bytes": 10882
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/259-9a3f0a35f803f5687295.png",
+      "bytes": 216733
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/26-6910432f2b402d1139b8.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/260-05168c636ccb2d133770.png",
+      "bytes": 75
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/261-2dd91187559eb2773f11.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/262-76d60b4e426832a3fcb4.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/263-d91e73ba6e74ca282f8c.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/264-9c64781e26ddf114a3fe.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/265-9b6c831d1da6e2a32c7e.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/266-b07b84a018ee2362bb7d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/267-6061151d10a7c01fd8fd.png",
+      "bytes": 75
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/268-3b79b10017f2a48fb732.png",
+      "bytes": 75
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/269-015cbb609c3d502efdd8.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/27-d3053e7c90d32bbdaf7d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/270-fbdb3725f42f63f583b3.png",
+      "bytes": 2200
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/271-4be1f93b4d893ab1c9a1.png",
+      "bytes": 1878
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/28-b8c8cbc687278a1ad53e.png",
+      "bytes": 226751
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/29-817baac41643286a39b0.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/3-d6d7fb5e5fc6e771588f.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/30-cd0750159fcf39f8d45a.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/31-23e871ee6191bb10abc0.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/32-a06c3c05288c43a7a191.png",
+      "bytes": 19147887
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/33-80fb6d27b09deeeac0a5.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/34-322782ae92f1530634ec.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/35-0bca30f0dc687b28b476.png",
+      "bytes": 108447
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/36-824417573249ea56df17.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/37-ad41990db52a64c8eb2f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/38-0bfaeac04e63dcc75339.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/39-570cd6651a5969d62799.png",
+      "bytes": 222810
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/4-e25dd0a62f2eef6d5812.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/40-753289564c183e669ab6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/41-c113a7d0bee417242bb9.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/42-fb51990b9929c8f6ceda.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/43-fa36a08c6453c6230881.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/44-e06a00010bb745f125e0.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/45-c023917651ada50ba906.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/46-b5df82bf287b91dce6eb.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/47-123ad31cad07be07ea61.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/48-9f280995082be7b145fa.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/49-cd6faa77d2cc12eca649.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/5-7084ad465af7507702c2.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/50-9487722e03ed152f573d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/51-d5f07d30c428d534c8b5.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/52-2a7f7c6e83a9e995f916.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/53-c40d292a20d891d7255f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/54-29d3ce309f7051cab918.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/55-48c67136e1a27f959d58.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/56-cc77d1cfaf5d1bc8f613.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/57-08e25a4051d0ddc40ad0.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/58-f8553ac985027bfcee39.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/59-9e37fd324d6eb5c1e3b9.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/6-ccb3ee93a9f967079676.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/60-04d78702e2ad139fd8b7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/61-3adc8a054ec215c33921.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/62-25bd373e02ad5e981634.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/63-a3599bb8469b9b9a2f1b.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/64-6a9d74651a40fbbbe64f.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/65-99553da0be12c40284e7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/66-adde9329a0f74b2ed7d0.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/67-1ba0969bd12cf7c6192e.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/68-f375b27caa2458242024.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/69-c58419ca437f0724ca04.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/7-04a6d4be62bd0941220b.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/70-1e6afa0462af72367529.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/71-aafd0bc7ad331fed9db5.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/72-57c01f578f977b3762c6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/73-b368ecba5a31e3de8630.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/74-9d6fdc60104910c647ce.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/75-3cb017c392fe5c0bda3a.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/76-3d420cac887e93dcc9e1.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/77-b6f9aa8dc743df65d910.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/78-35d1ebcc946916b3ccba.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/79-f3681414f8b5f4978fb7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/8-ec6d8c7d1651ac01c1ad.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/80-eb9b0221f4c599d2263f.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/81-9a3d36cf7f4aebf3702e.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/82-ca83c8a003917ee85439.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/83-e7b9a4270a39da5cff67.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/84-1f83fc00910403ef024f.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/85-e40b165ecd150f2cecf5.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/86-5fea7e56fb26e01b1793.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/87-7107167217fd176e2115.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/88-df6da783d84c400a9cf6.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/89-6c5b519102aac39b32b0.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/9-075c909193d9b1fd9db7.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/90-ba84f25cb797952a29d8.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/91-6fc2564a44ffe98b1556.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/92-4fc1b7ad2d95886e620f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/93-8c9ef757e581f64e4d5f.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/94-4718df3c9ff6109bde3a.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/95-ee8f112b0fa6c0891f44.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/96-571df04ab600084ae9d0.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/97-44de63b5bd0738455e4d.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/98-6a616cc261385a1f5efe.png",
+      "bytes": 76
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/99-70c664f0f64bfa3e8664.png",
+      "bytes": 79
+    },
+    {
+      "path": ".preview-runtime/textures/iff-9e9cd0f73b1c-40723c272b13/4096/index.json",
+      "bytes": 165901
+    },
+    {
+      "path": "artwork/ARTWORK_NOTES.txt",
+      "bytes": 1204
+    },
+    {
+      "path": "artwork/court.png",
+      "bytes": 6565154
+    },
+    {
+      "path": "artwork/court.svg",
+      "bytes": 42262
+    },
+    {
+      "path": "artwork/paving-atlas.png",
+      "bytes": 26785585
+    },
+    {
+      "path": "artwork/paving-atlas.png.22136.tmp",
+      "bytes": 574342
+    },
+    {
+      "path": "artwork/paving-atlas.png.24404.tmp",
+      "bytes": 25394131
+    },
+    {
+      "path": "artwork/paving-atlas.svg",
+      "bytes": 60526
+    },
+    {
+      "path": "artwork/paving-context.svg",
+      "bytes": 18271
+    },
+    {
+      "path": "artwork/PAVING_ATLAS_NOTES.txt",
+      "bytes": 1927
+    },
+    {
+      "path": "artwork/R02_NOTES.txt",
+      "bytes": 2668
+    },
+    {
+      "path": "config/project.json",
+      "bytes": 7526
+    },
+    {
+      "path": "logs/20261005T045109359Z-beefe91f.log",
+      "bytes": 105121
+    },
+    {
+      "path": "output/arena_700_int.iff",
+      "bytes": 1685622410
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 562
+    },
+    {
+      "path": "package.json",
+      "bytes": 326
+    },
+    {
+      "path": "preview/app.js",
+      "bytes": 30941
+    },
+    {
+      "path": "preview/index.html",
+      "bytes": 7845
+    },
+    {
+      "path": "preview/style.css",
+      "bytes": 12097
+    },
+    {
+      "path": "preview/texture-pipeline.js",
+      "bytes": 5900
+    },
+    {
+      "path": "preview/texture-runtime-report.json",
+      "bytes": 218649
+    },
+    {
+      "path": "preview/texture-runtime-report.json.3e36ae0e-282c-40b9-8f62-d1f7df33d92d.tmp",
+      "bytes": 0
+    },
+    {
+      "path": "preview/vendor/three/build/three.core.js",
+      "bytes": 1403455
+    },
+    {
+      "path": "preview/vendor/three/build/three.module.js",
+      "bytes": 603113
+    },
+    {
+      "path": "preview/vendor/three/examples/jsm/controls/OrbitControls.js",
+      "bytes": 38703
+    },
+    {
+      "path": "preview/vendor/three/examples/jsm/loaders/GLTFLoader.js",
+      "bytes": 114739
+    },
+    {
+      "path": "preview/vendor/three/examples/jsm/utils/BufferGeometryUtils.js",
+      "bytes": 35539
+    },
+    {
+      "path": "preview/vendor/three/LICENSE",
+      "bytes": 1081
+    },
+    {
+      "path": "preview/vendor/three/package.json",
+      "bytes": 4635
+    },
+    {
+      "path": "preview/vendor/three-0.180.0.tgz",
+      "bytes": 7750248
+    },
+    {
+      "path": "preview/verify-texture-pipeline.mjs",
+      "bytes": 5821
+    },
+    {
+      "path": "PROJECT_STATUS.txt",
+      "bytes": 2093
+    },
+    {
+      "path": "public/builds/20261005T045109359Z-beefe91f/build.json",
+      "bytes": 2358
+    },
+    {
+      "path": "public/builds/20261005T045109359Z-beefe91f/scene.glb",
+      "bytes": 134218284
+    },
+    {
+      "path": "public/game-preview/current.glb",
+      "bytes": 160717792
+    },
+    {
+      "path": "public/game-preview/manifest.json",
+      "bytes": 1273
+    },
+    {
+      "path": "public/manifest.json",
+      "bytes": 2251
+    },
+    {
+      "path": "public/references/01.jpg",
+      "bytes": 45189
+    },
+    {
+      "path": "public/references/02.jpg",
+      "bytes": 73372
+    },
+    {
+      "path": "public/references/03.jpg",
+      "bytes": 80747
+    },
+    {
+      "path": "public/references/04.jpg",
+      "bytes": 95866
+    },
+    {
+      "path": "public/references/05.jpg",
+      "bytes": 103294
+    },
+    {
+      "path": "public/references/06.jpg",
+      "bytes": 108282
+    },
+    {
+      "path": "public/references/07.jpg",
+      "bytes": 94956
+    },
+    {
+      "path": "public/references/08.jpg",
+      "bytes": 74570
+    },
+    {
+      "path": "public/references/09.jpg",
+      "bytes": 76714
+    },
+    {
+      "path": "public/references/10.jpg",
+      "bytes": 84937
+    },
+    {
+      "path": "public/references/11.jpg",
+      "bytes": 83449
+    },
+    {
+      "path": "public/references/12.jpg",
+      "bytes": 82514
+    },
+    {
+      "path": "public/references/13.jpg",
+      "bytes": 81142
+    },
+    {
+      "path": "public/references/14.jpg",
+      "bytes": 71042
+    },
+    {
+      "path": "public/references/15.jpg",
+      "bytes": 78833
+    },
+    {
+      "path": "public/references/16.jpg",
+      "bytes": 71624
+    },
+    {
+      "path": "public/references/17.jpg",
+      "bytes": 69928
+    },
+    {
+      "path": "public/references/18.jpg",
+      "bytes": 66617
+    },
+    {
+      "path": "public/references/19.jpg",
+      "bytes": 149104
+    },
+    {
+      "path": "public/references/20.jpg",
+      "bytes": 124588
+    },
+    {
+      "path": "public/references/21.jpg",
+      "bytes": 64717
+    },
+    {
+      "path": "public/references/22.jpg",
+      "bytes": 112706
+    },
+    {
+      "path": "public/references/23.jpg",
+      "bytes": 105493
+    },
+    {
+      "path": "public/references/24.jpg",
+      "bytes": 110250
+    },
+    {
+      "path": "public/references/25.jpg",
+      "bytes": 132585
+    },
+    {
+      "path": "public/references/26.jpg",
+      "bytes": 119153
+    },
+    {
+      "path": "public/references/27.jpg",
+      "bytes": 107388
+    },
+    {
+      "path": "public/references/28.jpg",
+      "bytes": 133259
+    },
+    {
+      "path": "public/references/29.jpg",
+      "bytes": 138205
+    },
+    {
+      "path": "public/references/30.jpg",
+      "bytes": 121466
+    },
+    {
+      "path": "public/references/31.jpg",
+      "bytes": 132501
+    },
+    {
+      "path": "public/references/32.jpg",
+      "bytes": 146250
+    },
+    {
+      "path": "public/references/33.jpg",
+      "bytes": 158353
+    },
+    {
+      "path": "public/references/34.jpg",
+      "bytes": 149089
+    },
+    {
+      "path": "public/references/35.jpg",
+      "bytes": 252003
+    },
+    {
+      "path": "public/references/36.jpg",
+      "bytes": 173990
+    },
+    {
+      "path": "public/references/37.jpg",
+      "bytes": 250059
+    },
+    {
+      "path": "public/references/38.jpg",
+      "bytes": 323167
+    },
+    {
+      "path": "public/references/39.jpg",
+      "bytes": 141119
+    },
+    {
+      "path": "public/references/40.jpg",
+      "bytes": 231005
+    },
+    {
+      "path": "public/references/41.png",
+      "bytes": 810841
+    },
+    {
+      "path": "public/references/42.jpg",
+      "bytes": 127166
+    },
+    {
+      "path": "public/references/43.jpg",
+      "bytes": 105935
+    },
+    {
+      "path": "public/references/44.jpg",
+      "bytes": 118554
+    },
+    {
+      "path": "public/references/45.jpg",
+      "bytes": 71843
+    },
+    {
+      "path": "public/references/46.jpg",
+      "bytes": 111362
+    },
+    {
+      "path": "public/references/47.jpg",
+      "bytes": 105487
+    },
+    {
+      "path": "public/references/48.jpg",
+      "bytes": 78579
+    },
+    {
+      "path": "public/references/49.jpg",
+      "bytes": 70073
+    },
+    {
+      "path": "public/references/50.jpg",
+      "bytes": 113180
+    },
+    {
+      "path": "public/references/51.png",
+      "bytes": 693776
+    },
+    {
+      "path": "public/references/52.png",
+      "bytes": 638238
+    },
+    {
+      "path": "public/references/53.png",
+      "bytes": 652166
+    },
+    {
+      "path": "public/references/54.png",
+      "bytes": 567065
+    },
+    {
+      "path": "public/references/55.png",
+      "bytes": 582096
+    },
+    {
+      "path": "public/references/56.png",
+      "bytes": 574371
+    },
+    {
+      "path": "public/references/57.png",
+      "bytes": 590833
+    },
+    {
+      "path": "public/references/58.jpg",
+      "bytes": 104588
+    },
+    {
+      "path": "public/references/59.png",
+      "bytes": 636345
+    },
+    {
+      "path": "public/references/60.png",
+      "bytes": 666201
+    },
+    {
+      "path": "public/references/61.png",
+      "bytes": 526947
+    },
+    {
+      "path": "public/references/62.png",
+      "bytes": 705510
+    },
+    {
+      "path": "public/references/63.png",
+      "bytes": 698036
+    },
+    {
+      "path": "public/references/64.png",
+      "bytes": 596811
+    },
+    {
+      "path": "public/references/65.png",
+      "bytes": 627001
+    },
+    {
+      "path": "public/references/66.jpg",
+      "bytes": 113180
+    },
+    {
+      "path": "public/references/67.jpg",
+      "bytes": 111362
+    },
+    {
+      "path": "public/references/index.json",
+      "bytes": 86262
+    },
+    {
+      "path": "references/archives.json",
+      "bytes": 309
+    },
+    {
+      "path": "references/chilis/00_总览/Chilis建筑与LINK_8图总览.jpg",
+      "bytes": 810142
+    },
+    {
+      "path": "references/chilis/00_总览/周边补充_5张总览.jpg",
+      "bytes": 573694
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/01_南入口看双层弧形建筑.jpg",
+      "bytes": 73773
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/02_Chilis正面招牌及檐口_0259.jpg",
+      "bytes": 94356
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/03_Chilis弧形转角与球场围网_0301.jpg",
+      "bytes": 99493
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/04_沿弧形转角看露台步道_0308.jpg",
+      "bytes": 87425
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/05_Chilis露台与LINK同框_0308.jpg",
+      "bytes": 95356
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/06_较低活动区仰看LINK与弧形建筑_0248.jpg",
+      "bytes": 91671
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/07_Chilis正面与屋顶突出体_0334.jpg",
+      "bytes": 107369
+    },
+    {
+      "path": "references/chilis/01_Chilis建筑与空间关系/08_Chilis电梯凹口与侧墙_0304.jpg",
+      "bytes": 103565
+    },
+    {
+      "path": "references/chilis/02_LINK与俯视参照/01_领展建筑_官方外立面.jpg",
+      "bytes": 165903
+    },
+    {
+      "path": "references/chilis/02_LINK与俯视参照/02_领展建筑_官方玻璃转角.jpg",
+      "bytes": 109399
+    },
+    {
+      "path": "references/chilis/02_LINK与俯视参照/03_项目边界_官方旧卫星底图.png",
+      "bytes": 818969
+    },
+    {
+      "path": "references/chilis/02_LINK与俯视参照/04_空间规划_官方标注图.png",
+      "bytes": 1216887
+    },
+    {
+      "path": "references/chilis/02_LINK与俯视参照/05_BIAD总平面图_2026发表.jpg",
+      "bytes": 106104
+    },
+    {
+      "path": "references/chilis/说明与来源.txt",
+      "bytes": 6144
+    },
+    {
+      "path": "references/chilis-archive.json",
+      "bytes": 2157
+    },
+    {
+      "path": "references/chilis-detail/00_总览/新增细节总览_01.jpg",
+      "bytes": 732444
+    },
+    {
+      "path": "references/chilis-detail/00_总览/新增细节总览_02.jpg",
+      "bytes": 521170
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/01_露台正立面与招牌_Tripadvisor管理方_2026年6月.jpg",
+      "bytes": 231005
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/02_主入口门窗与字位_iziRetail_2026年1月.png",
+      "bytes": 810841
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/03_侧棚字标与竖向 COFFEE 招牌.jpg",
+      "bytes": 127166
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/04_入口外两块落地广告牌.jpg",
+      "bytes": 105935
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/05_喷泉、桌椅、透明围护同框.jpg",
+      "bytes": 118554
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/06_并排桌面与椅背纹样.jpg",
+      "bytes": 71843
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/07_篮球场与店侧的步行通道.jpg",
+      "bytes": 111362
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/08_顺通道看门窗与雨棚连接.jpg",
+      "bytes": 105487
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/09_雨棚底部支撑近景.jpg",
+      "bytes": 78579
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/10_门内回看黑框玻璃门.jpg",
+      "bytes": 70073
+    },
+    {
+      "path": "references/chilis-detail/01_新增原图/11_反向看露台桌椅及伞座.jpg",
+      "bytes": 113180
+    },
+    {
+      "path": "references/chilis-detail/说明与来源.txt",
+      "bytes": 10054
+    },
+    {
+      "path": "references/chilis-detail-archive.json",
+      "bytes": 1760
+    },
+    {
+      "path": "references/contact-1.jpg",
+      "bytes": 333065
+    },
+    {
+      "path": "references/contact-2.jpg",
+      "bytes": 297876
+    },
+    {
+      "path": "references/feedback/current-open-floor.png",
+      "bytes": 1712715
+    },
+    {
+      "path": "references/feedback/current-reference-overview.png",
+      "bytes": 1640470
+    },
+    {
+      "path": "references/feedback/current-replay-close.png",
+      "bytes": 1629920
+    },
+    {
+      "path": "references/feedback/current-replay-wide.png",
+      "bytes": 1493111
+    },
+    {
+      "path": "references/guide/guide-text.txt",
+      "bytes": 24842
+    },
+    {
+      "path": "references/guide/NBA2K26_Chilis_Guide.docx",
+      "bytes": 145019
+    },
+    {
+      "path": "references/guide/r03-user-black-screen.png",
+      "bytes": 168489
+    },
+    {
+      "path": "references/original-chilis-detail.zip",
+      "bytes": 3070445
+    },
+    {
+      "path": "references/original-chilis.zip",
+      "bytes": 4460447
+    },
+    {
+      "path": "references/original-part1.zip",
+      "bytes": 8090054
+    },
+    {
+      "path": "references/original-part2.zip",
+      "bytes": 4589388
+    },
+    {
+      "path": "references/original-r12-left.zip",
+      "bytes": 5009100
+    },
+    {
+      "path": "references/original-r12-skyline.zip",
+      "bytes": 5442538
+    },
+    {
+      "path": "references/part1/01_黄黑地面与图案_00-00.15.png",
+      "bytes": 245752
+    },
+    {
+      "path": "references/part1/02_广场方向的半场_00-10.70.png",
+      "bytes": 652043
+    },
+    {
+      "path": "references/part1/03_开放广场方向宽景_00-19.20.png",
+      "bytes": 627001
+    },
+    {
+      "path": "references/part1/04_远端篮架与边界_00-22.15.png",
+      "bytes": 726724
+    },
+    {
+      "path": "references/part1/05_边线大幅地面图案_00-23.10.png",
+      "bytes": 698036
+    },
+    {
+      "path": "references/part1/06_球场斜向纵深_00-24.25.png",
+      "bytes": 705510
+    },
+    {
+      "path": "references/part1/07_篮架正面与商场_00-12.45.png",
+      "bytes": 731818
+    },
+    {
+      "path": "references/part1/08_斜向Chilis门头_00-13.85.png",
+      "bytes": 630251
+    },
+    {
+      "path": "references/part1/09_弧线与Chilis背景_00-17.50.png",
+      "bytes": 592156
+    },
+    {
+      "path": "references/part1/10_侧看篮架与商场楼体_00-27.80.png",
+      "bytes": 592954
+    },
+    {
+      "path": "references/part1/11_低角度看篮板_00-04.90.png",
+      "bytes": 626319
+    },
+    {
+      "path": "references/part1/12_篮下向外看围网_00-16.20.png",
+      "bytes": 663282
+    },
+    {
+      "path": "references/part1/13_围网转角与建筑_00-20.70.png",
+      "bytes": 603207
+    },
+    {
+      "path": "references/part1/SHA256校验.txt",
+      "bytes": 2780
+    },
+    {
+      "path": "references/part1/来源说明.txt",
+      "bytes": 5853
+    },
+    {
+      "path": "references/part2/14_篮板篮圈和围网细节_00-21.40.png",
+      "bytes": 576900
+    },
+    {
+      "path": "references/part2/15_篮下仰视与圆形棚_00-28.95.png",
+      "bytes": 612274
+    },
+    {
+      "path": "references/part2/16_篮下另一侧与绿化_00-29.80.png",
+      "bytes": 552359
+    },
+    {
+      "path": "references/part2/17_黑白边界涂装细节_00-04.10.png",
+      "bytes": 540369
+    },
+    {
+      "path": "references/part2/18_黄色区域及围网边界_00-11.55.png",
+      "bytes": 518046
+    },
+    {
+      "path": "references/part2/19_篮筐与Chili’s同框.jpg",
+      "bytes": 146805
+    },
+    {
+      "path": "references/part2/20_从休息区望向球场.jpg",
+      "bytes": 119945
+    },
+    {
+      "path": "references/part2/21_日照下的场地与圆形棚.png",
+      "bytes": 431790
+    },
+    {
+      "path": "references/part2/22_对面开放广场_柳树与起伏铺地_00-06.05.jpg",
+      "bytes": 218111
+    },
+    {
+      "path": "references/part2/23_开放侧左缘_ART-PARK标识_00-10.73.jpg",
+      "bytes": 203878
+    },
+    {
+      "path": "references/part2/24_同一广场右缘_园路与树池_00-01.07.jpg",
+      "bytes": 212969
+    },
+    {
+      "path": "references/part2/25_广场边缘_花境与桌椅_01-55.35.jpg",
+      "bytes": 255313
+    },
+    {
+      "path": "references/part2/26_对面广场右半部_展板与凉亭_00-03.91.jpg",
+      "bytes": 229703
+    },
+    {
+      "path": "references/part2/SHA256校验.txt",
+      "bytes": 2780
+    },
+    {
+      "path": "references/part2/来源说明.txt",
+      "bytes": 5853
+    },
+    {
+      "path": "references/r12-left/manifest.json",
+      "bytes": 8558
+    },
+    {
+      "path": "references/r12-left/selected/01_A段_斜看左围栏与篮筐_00-14.30.png",
+      "bytes": 693776
+    },
+    {
+      "path": "references/r12-left/selected/02_A段_左围栏到篮下转角_00-15.30.png",
+      "bytes": 638238
+    },
+    {
+      "path": "references/r12-left/selected/03_A段_篮下斜向看左围网_00-16.25.png",
+      "bytes": 652166
+    },
+    {
+      "path": "references/r12-left/selected/04_B段_正对左围栏全幅_00-20.25.png",
+      "bytes": 567065
+    },
+    {
+      "path": "references/r12-left/selected/05_B段_沿左围栏右移_00-20.75.png",
+      "bytes": 582096
+    },
+    {
+      "path": "references/r12-left/selected/06_B段_左围栏接篮筐端_00-21.25.png",
+      "bytes": 574371
+    },
+    {
+      "path": "references/r12-left/selected/07_C段_另一斜角固定围栏关系_00-26.35.png",
+      "bytes": 590833
+    },
+    {
+      "path": "references/r12-left/selected/08_泥靴外观补充_03-32.525.jpg",
+      "bytes": 104588
+    },
+    {
+      "path": "references/r12-left/左长围栏_连续帧总览.jpg",
+      "bytes": 636653
+    },
+    {
+      "path": "references/r12-left/来源与方位说明.txt",
+      "bytes": 2101
+    },
+    {
+      "path": "references/r12-left-archive.json",
+      "bytes": 1436
+    },
+    {
+      "path": "references/r12-skyline/manifest.json",
+      "bytes": 10874
+    },
+    {
+      "path": "references/r12-skyline/原始截图/01_场内看新中关_00-20.50.png",
+      "bytes": 636345
+    },
+    {
+      "path": "references/r12-skyline/原始截图/02_新中关与篮筐端_00-14.80.png",
+      "bytes": 666201
+    },
+    {
+      "path": "references/r12-skyline/原始截图/03_新东方字样楼与圆盘棚_00-11.40.png",
+      "bytes": 526947
+    },
+    {
+      "path": "references/r12-skyline/原始截图/04_篮筐侧蓝玻璃楼群_00-24.25.png",
+      "bytes": 705510
+    },
+    {
+      "path": "references/r12-skyline/原始截图/05_蓝玻璃楼群相邻角度_00-23.10.png",
+      "bytes": 698036
+    },
+    {
+      "path": "references/r12-skyline/原始截图/06_篮下看高蓝玻璃塔楼_00-28.85.png",
+      "bytes": 596811
+    },
+    {
+      "path": "references/r12-skyline/原始截图/07_场内向开放广场看_00-19.20.png",
+      "bytes": 627001
+    },
+    {
+      "path": "references/r12-skyline/原始截图/08_露台回看远楼_10-20.421.jpg",
+      "bytes": 113180
+    },
+    {
+      "path": "references/r12-skyline/原始截图/09_球场与Chilis通道定位_04-46.478.jpg",
+      "bytes": 111362
+    },
+    {
+      "path": "references/r12-skyline/来源与视角说明.txt",
+      "bytes": 4426
+    },
+    {
+      "path": "references/r12-skyline/球场看远楼_9图总览.jpg",
+      "bytes": 787307
+    },
+    {
+      "path": "references/r12-skyline-archive.json",
+      "bytes": 1546
+    },
+    {
+      "path": "references/reference-index.json",
+      "bytes": 86262
+    },
+    {
+      "path": "source/BUILD_NOTES.txt",
+      "bytes": 5499
+    },
+    {
+      "path": "source/geometry_validation.json",
+      "bytes": 2335
+    },
+    {
+      "path": "source/reconstruction_notes.json",
+      "bytes": 3366
+    },
+    {
+      "path": "source/scene.blend",
+      "bytes": 65428978
+    },
+    {
+      "path": "Start_Preview.bat",
+      "bytes": 492
+    },
+    {
+      "path": "Stop_Preview.bat",
+      "bytes": 402
+    },
+    {
+      "path": "textures/current/fence-cloth-basecolor.png",
+      "bytes": 137860
+    },
+    {
+      "path": "textures/current/living-groundcover-basecolor.png",
+      "bytes": 229267
+    },
+    {
+      "path": "textures/r03/backboard-clear-rgba.png",
+      "bytes": 1847
+    },
+    {
+      "path": "textures/r03/bench-timber-basecolor.png",
+      "bytes": 104945
+    },
+    {
+      "path": "textures/r03/curb-basecolor.png",
+      "bytes": 139243
+    },
+    {
+      "path": "textures/r03/rim-paint-basecolor.png",
+      "bytes": 93686
+    },
+    {
+      "path": "textures/r03/rim-paint-orm.png",
+      "bytes": 89454
+    },
+    {
+      "path": "textures/r03/steel-basecolor.png",
+      "bytes": 194585
+    },
+    {
+      "path": "textures/r03/steel-normal.png",
+      "bytes": 235617
+    },
+    {
+      "path": "textures/r03/steel-orm.png",
+      "bytes": 132675
+    },
+    {
+      "path": "textures/r13-chilis/acrylic-green-pepper-basecolor.png",
+      "bytes": 1509
+    },
+    {
+      "path": "textures/r13-chilis/acrylic-green-pepper-roughness.png",
+      "bytes": 35667
+    },
+    {
+      "path": "textures/r13-chilis/acrylic-orange-face-basecolor.png",
+      "bytes": 1509
+    },
+    {
+      "path": "textures/r13-chilis/acrylic-orange-face-roughness.png",
+      "bytes": 39177
+    },
+    {
+      "path": "textures/r13-chilis/acrylic-warm-channel-basecolor.png",
+      "bytes": 1503
+    },
+    {
+      "path": "textures/r13-chilis/acrylic-warm-channel-roughness.png",
+      "bytes": 38692
+    },
+    {
+      "path": "textures/r13-chilis/black-powder-coat-basecolor.png",
+      "bytes": 57764
+    },
+    {
+      "path": "textures/r13-chilis/black-powder-coat-roughness.png",
+      "bytes": 127263
+    },
+    {
+      "path": "textures/r13-chilis/brushed-stainless-basecolor.png",
+      "bytes": 52234
+    },
+    {
+      "path": "textures/r13-chilis/brushed-stainless-roughness.png",
+      "bytes": 122335
+    },
+    {
+      "path": "textures/r13-chilis/canvas-seam-basecolor.png",
+      "bytes": 69481
+    },
+    {
+      "path": "textures/r13-chilis/canvas-seam-roughness.png",
+      "bytes": 86448
+    },
+    {
+      "path": "textures/r13-chilis/cement-mortar-basecolor.png",
+      "bytes": 144738
+    },
+    {
+      "path": "textures/r13-chilis/cement-mortar-roughness.png",
+      "bytes": 148518
+    },
+    {
+      "path": "textures/r13-chilis/cream-canvas-basecolor.png",
+      "bytes": 69121
+    },
+    {
+      "path": "textures/r13-chilis/cream-canvas-roughness.png",
+      "bytes": 86415
+    },
+    {
+      "path": "textures/r13-chilis/dark-interior-timber-basecolor.png",
+      "bytes": 94057
+    },
+    {
+      "path": "textures/r13-chilis/dark-interior-timber-roughness.png",
+      "bytes": 73185
+    },
+    {
+      "path": "textures/r13-chilis/dark-stainless-basecolor.png",
+      "bytes": 52770
+    },
+    {
+      "path": "textures/r13-chilis/dark-stainless-roughness.png",
+      "bytes": 121952
+    },
+    {
+      "path": "textures/r13-chilis/grey-stone-basecolor.png",
+      "bytes": 144666
+    },
+    {
+      "path": "textures/r13-chilis/grey-stone-dark-basecolor.png",
+      "bytes": 144671
+    },
+    {
+      "path": "textures/r13-chilis/grey-stone-dark-roughness.png",
+      "bytes": 157115
+    },
+    {
+      "path": "textures/r13-chilis/grey-stone-light-basecolor.png",
+      "bytes": 144684
+    },
+    {
+      "path": "textures/r13-chilis/grey-stone-light-roughness.png",
+      "bytes": 159116
+    },
+    {
+      "path": "textures/r13-chilis/grey-stone-roughness.png",
+      "bytes": 159243
+    },
+    {
+      "path": "textures/r13-chilis/letter-back-casing-basecolor.png",
+      "bytes": 56744
+    },
+    {
+      "path": "textures/r13-chilis/letter-back-casing-roughness.png",
+      "bytes": 126561
+    },
+    {
+      "path": "textures/r13-chilis/mauve-coated-fascia-basecolor.png",
+      "bytes": 57024
+    },
+    {
+      "path": "textures/r13-chilis/mauve-coated-fascia-roughness.png",
+      "bytes": 126843
+    },
+    {
+      "path": "textures/r13-chilis/oak-cabinet-basecolor.png",
+      "bytes": 93822
+    },
+    {
+      "path": "textures/r13-chilis/oak-cabinet-roughness.png",
+      "bytes": 73505
+    },
+    {
+      "path": "textures/r13-chilis/red-orange-letter-return-basecolor.png",
+      "bytes": 57757
+    },
+    {
+      "path": "textures/r13-chilis/red-orange-letter-return-roughness.png",
+      "bytes": 126843
+    },
+    {
+      "path": "textures/r13-chilis/rubber-weather-seal-basecolor.png",
+      "bytes": 57054
+    },
+    {
+      "path": "textures/r13-chilis/rubber-weather-seal-roughness.png",
+      "bytes": 126330
+    },
+    {
+      "path": "textures/r13-chilis/terracotta-glazed-basecolor.png",
+      "bytes": 57331
+    },
+    {
+      "path": "textures/r13-chilis/terracotta-glazed-roughness.png",
+      "bytes": 127434
+    },
+    {
+      "path": "textures/r13-chilis/terracotta-grout-basecolor.png",
+      "bytes": 145116
+    },
+    {
+      "path": "textures/r13-chilis/terracotta-grout-roughness.png",
+      "bytes": 159364
+    },
+    {
+      "path": "textures/r13-chilis/unlit-opal-diffuser-basecolor.png",
+      "bytes": 1511
+    },
+    {
+      "path": "textures/r13-chilis/unlit-opal-diffuser-roughness.png",
+      "bytes": 38709
+    },
+    {
+      "path": "textures/r13-chilis/warm-gold-metal-basecolor.png",
+      "bytes": 51767
+    },
+    {
+      "path": "textures/r13-chilis/warm-gold-metal-roughness.png",
+      "bytes": 122073
+    },
+    {
+      "path": "textures/r13-chilis/warm-plaster-basecolor.png",
+      "bytes": 144936
+    },
+    {
+      "path": "textures/r13-chilis/warm-plaster-roughness.png",
+      "bytes": 159149
+    },
+    {
+      "path": "tools/analyze_floor_badge.py",
+      "bytes": 4510
+    },
+    {
+      "path": "tools/audit_chilis_iff_current.py",
+      "bytes": 23928
+    },
+    {
+      "path": "tools/audit_context_iff_current.py",
+      "bytes": 16533
+    },
+    {
+      "path": "tools/audit_fence_iff_current.py",
+      "bytes": 11307
+    },
+    {
+      "path": "tools/audit_floor_current.py",
+      "bytes": 23675
+    },
+    {
+      "path": "tools/audit_native_basket.py",
+      "bytes": 12297
+    },
+    {
+      "path": "tools/audit_r13_duv_metadata.py",
+      "bytes": 8709
+    },
+    {
+      "path": "tools/audit_r13_native.py",
+      "bytes": 7271
+    },
+    {
+      "path": "tools/audit_streetlight_iff_current.py",
+      "bytes": 11423
+    },
+    {
+      "path": "tools/build_current_iff.py",
+      "bytes": 1514
+    },
+    {
+      "path": "tools/build_source_iff.py",
+      "bytes": 11983
+    },
+    {
+      "path": "tools/chilis_terrace_details.py",
+      "bytes": 26399
+    },
+    {
+      "path": "tools/cleanup_current.ps1",
+      "bytes": 9242
+    },
+    {
+      "path": "tools/create_artwork_r02.mjs",
+      "bytes": 13696
+    },
+    {
+      "path": "tools/create_scene.py",
+      "bytes": 31116
+    },
+    {
+      "path": "tools/export_game_assets.py",
+      "bytes": 9666
+    },
+    {
+      "path": "tools/export_native_preview.py",
+      "bytes": 19195
+    },
+    {
+      "path": "tools/export_scene.py",
+      "bytes": 4302
+    },
+    {
+      "path": "tools/finalize_current_iff.py",
+      "bytes": 16211
+    },
+    {
+      "path": "tools/ground_depth_policy.py",
+      "bytes": 4302
+    },
+    {
+      "path": "tools/half_court_orientation.py",
+      "bytes": 4485
+    },
+    {
+      "path": "tools/iff_codec.py",
+      "bytes": 13124
+    },
+    {
+      "path": "tools/iff_probe.py",
+      "bytes": 8256
+    },
+    {
+      "path": "tools/manage_preview.ps1",
+      "bytes": 5991
+    },
+    {
+      "path": "tools/native_archive.py",
+      "bytes": 3477
+    },
+    {
+      "path": "tools/native_basket_rig.py",
+      "bytes": 27287
+    },
+    {
+      "path": "tools/native_floor_overlay.py",
+      "bytes": 16547
+    },
+    {
+      "path": "tools/native_textures.py",
+      "bytes": 5271
+    },
+    {
+      "path": "tools/patch_half_court_current.py",
+      "bytes": 4848
+    },
+    {
+      "path": "tools/r04_glass.py",
+      "bytes": 15984
+    },
+    {
+      "path": "tools/r04_materials.py",
+      "bytes": 5549
+    },
+    {
+      "path": "tools/r12_seating.py",
+      "bytes": 12458
+    },
+    {
+      "path": "tools/r12_seating_geometry.py",
+      "bytes": 8836
+    },
+    {
+      "path": "tools/rasterize_artwork.mjs",
+      "bytes": 3437
+    },
+    {
+      "path": "tools/refine_architecture_r02.py",
+      "bytes": 28134
+    },
+    {
+      "path": "tools/refine_chilis_current.py",
+      "bytes": 34349
+    },
+    {
+      "path": "tools/refine_chilis_material_current.py",
+      "bytes": 26423
+    },
+    {
+      "path": "tools/refine_chilis_rect_current.py",
+      "bytes": 14368
+    },
+    {
+      "path": "tools/refine_context_current.py",
+      "bytes": 3488
+    },
+    {
+      "path": "tools/refine_court_r02.py",
+      "bytes": 10040
+    },
+    {
+      "path": "tools/refine_details_current.py",
+      "bytes": 21751
+    },
+    {
+      "path": "tools/refine_details_r03.py",
+      "bytes": 24953
+    },
+    {
+      "path": "tools/refine_environment_r02.py",
+      "bytes": 34476
+    },
+    {
+      "path": "tools/refine_fence_current.py",
+      "bytes": 16740
+    },
+    {
+      "path": "tools/refine_hoop_current.py",
+      "bytes": 17160
+    },
+    {
+      "path": "tools/refine_left_context_current.py",
+      "bytes": 23037
+    },
+    {
+      "path": "tools/refine_paving_r02.py",
+      "bytes": 7571
+    },
+    {
+      "path": "tools/refine_skyline_current.py",
+      "bytes": 15593
+    },
+    {
+      "path": "tools/refine_streetlight_current.py",
+      "bytes": 13076
+    },
+    {
+      "path": "tools/render_chilis_native_current.py",
+      "bytes": 11398
+    },
+    {
+      "path": "tools/render_context_native_current.py",
+      "bytes": 11833
+    },
+    {
+      "path": "tools/render_r13_material_current.py",
+      "bytes": 18324
+    },
+    {
+      "path": "tools/render_views.py",
+      "bytes": 2091
+    },
+    {
+      "path": "tools/repair_iff.py",
+      "bytes": 14710
+    },
+    {
+      "path": "tools/serve.mjs",
+      "bytes": 17009
+    },
+    {
+      "path": "tools/shared_floor_line_override.py",
+      "bytes": 7569
+    },
+    {
+      "path": "tools/specialized_basket_glass.py",
+      "bytes": 10492
+    },
+    {
+      "path": "tools/validate_d3d_textures.py",
+      "bytes": 3911
+    },
+    {
+      "path": "tools/watch_build.mjs",
+      "bytes": 12301
+    },
+    {
+      "path": "validation/__pycache__/r10_bitcode_probe.cpython-313.pyc",
+      "bytes": 13731
+    },
+    {
+      "path": "validation/bench-seating-current.json",
+      "bytes": 31875
+    },
+    {
+      "path": "validation/chilis-building-current.json",
+      "bytes": 62723
+    },
+    {
+      "path": "validation/chilis-photo-current.json",
+      "bytes": 6576
+    },
+    {
+      "path": "validation/chilis-protected-metadata-deltas.json",
+      "bytes": 16371
+    },
+    {
+      "path": "validation/chilis-protected-native-baseline.json",
+      "bytes": 999565
+    },
+    {
+      "path": "validation/cleanup-current.json",
+      "bytes": 5986
+    },
+    {
+      "path": "validation/context-current.json",
+      "bytes": 167332
+    },
+    {
+      "path": "validation/context-native-current.json",
+      "bytes": 966858
+    },
+    {
+      "path": "validation/context-protected-native-baseline.json",
+      "bytes": 1112087
+    },
+    {
+      "path": "validation/current-chilis-iff-audit.json",
+      "bytes": 262376
+    },
+    {
+      "path": "validation/current-chilis-native-render.json",
+      "bytes": 5276
+    },
+    {
+      "path": "validation/current-chilis-terrace-details.json",
+      "bytes": 14810
+    },
+    {
+      "path": "validation/current-fence-detail.json",
+      "bytes": 6701
+    },
+    {
+      "path": "validation/current-fence-iff-audit.json",
+      "bytes": 288052
+    },
+    {
+      "path": "validation/current-ground-material-audit.json",
+      "bytes": 15735
+    },
+    {
+      "path": "validation/current-hoop-alignment.json",
+      "bytes": 10873
+    },
+    {
+      "path": "validation/current-r13-awning.png",
+      "bytes": 1966579
+    },
+    {
+      "path": "validation/current-r13-backboard.png",
+      "bytes": 2381502
+    },
+    {
+      "path": "validation/current-r13-entry.png",
+      "bytes": 1924819
+    },
+    {
+      "path": "validation/current-r13-hardware.png",
+      "bytes": 1741375
+    },
+    {
+      "path": "validation/current-r13-paving.png",
+      "bytes": 1939881
+    },
+    {
+      "path": "validation/current-r13-sign.png",
+      "bytes": 1876712
+    },
+    {
+      "path": "validation/current-streetlight-detail.json",
+      "bytes": 6336
+    },
+    {
+      "path": "validation/current-streetlight-iff-audit.json",
+      "bytes": 29422
+    },
+    {
+      "path": "validation/floor-alignment-current.json",
+      "bytes": 75362
+    },
+    {
+      "path": "validation/floor-artwork-current.json",
+      "bytes": 22496
+    },
+    {
+      "path": "validation/floor-badge-perspective-current.json",
+      "bytes": 2930
+    },
+    {
+      "path": "validation/floor-runtime-removal-audit.json",
+      "bytes": 4053
+    },
+    {
+      "path": "validation/glass-current-audit.json",
+      "bytes": 9069
+    },
+    {
+      "path": "validation/ground-depth-current.json",
+      "bytes": 558
+    },
+    {
+      "path": "validation/half-court-current.json",
+      "bytes": 1228
+    },
+    {
+      "path": "validation/iff-current-independent.json",
+      "bytes": 3538
+    },
+    {
+      "path": "validation/iff-current.json",
+      "bytes": 234399
+    },
+    {
+      "path": "validation/indicator-depth-height-audit.json",
+      "bytes": 4183
+    },
+    {
+      "path": "validation/native-basket-alignment.json",
+      "bytes": 6313746
+    },
+    {
+      "path": "validation/native-basket-rig-current.json",
+      "bytes": 16990
+    },
+    {
+      "path": "validation/native-d3d-texture-validation.json",
+      "bytes": 57174
+    },
+    {
+      "path": "validation/native-floor-reference.json",
+      "bytes": 391398
+    },
+    {
+      "path": "validation/native-lane-tabs-current.json",
+      "bytes": 5980
+    },
+    {
+      "path": "validation/native-nba-line-reference.json",
+      "bytes": 49740
+    },
+    {
+      "path": "validation/native-preview-current.json",
+      "bytes": 399048
+    },
+    {
+      "path": "validation/native-source-build.json",
+      "bytes": 566184
+    },
+    {
+      "path": "validation/preview-current.json",
+      "bytes": 3007
+    },
+    {
+      "path": "validation/r10-glass-candidate.json",
+      "bytes": 4771
+    },
+    {
+      "path": "validation/r10-glass-shader-audit.json",
+      "bytes": 102195
+    },
+    {
+      "path": "validation/r12-chilis-rect.json",
+      "bytes": 62650
+    },
+    {
+      "path": "validation/r12-left-context-current.json",
+      "bytes": 11385
+    },
+    {
+      "path": "validation/r12-left-source-inventory.json",
+      "bytes": 104428
+    },
+    {
+      "path": "validation/r12-preview-backend-current.json",
+      "bytes": 831
+    },
+    {
+      "path": "validation/r12-preview-views.json",
+      "bytes": 2364
+    },
+    {
+      "path": "validation/r12-reference-preview.json",
+      "bytes": 3956
+    },
+    {
+      "path": "validation/r12-seating-direction-evidence.json",
+      "bytes": 3583
+    },
+    {
+      "path": "validation/r12-seating-direction-geometry.json",
+      "bytes": 14088
+    },
+    {
+      "path": "validation/r12-seating-evidence.json",
+      "bytes": 26390
+    },
+    {
+      "path": "validation/r12-seating-geometry.json",
+      "bytes": 13142
+    },
+    {
+      "path": "validation/r12-seating-native-current.json",
+      "bytes": 16566
+    },
+    {
+      "path": "validation/r13-chilis-material-current.json",
+      "bytes": 22369
+    },
+    {
+      "path": "validation/r13-chilis-photo-audit.json",
+      "bytes": 24455
+    },
+    {
+      "path": "validation/r13-glass-final-current.json",
+      "bytes": 30343
+    },
+    {
+      "path": "validation/r13-glass-material.json",
+      "bytes": 14099
+    },
+    {
+      "path": "validation/r13-material-export-current.json",
+      "bytes": 4803
+    },
+    {
+      "path": "validation/r13-native-current.json",
+      "bytes": 339624
+    },
+    {
+      "path": "validation/r13-native-duv-audit.json",
+      "bytes": 314905
+    },
+    {
+      "path": "validation/r13-native-visual-validation.json",
+      "bytes": 376374
+    },
+    {
+      "path": "validation/r13-preview-http-current.json",
+      "bytes": 520
+    },
+    {
+      "path": "validation/r13-protected-native-baseline.json",
+      "bytes": 2283947
+    },
+    {
+      "path": "validation/shared-floor-line-override.json",
+      "bytes": 5560
+    },
+    {
+      "path": "使用说明.txt",
+      "bytes": 796
+    },
+    {
+      "path": "排查与测试.txt",
+      "bytes": 909
+    }
+  ],
+  "limitations": [
+    "Snapshot reflects files present at audit time, before handoff additions; inventory excludes its own future file.",
+    "Only explicit user attachment paths and project reference directory were searched; no mailbox/global filesystem sweep performed.",
+    "Secrets review here identifies known runtime state paths, not a complete content-based secret scan.",
+    "Original photograph ZIPs and extracted copies are retained intentionally for provenance, not obsolete versions."
+  ]
+}

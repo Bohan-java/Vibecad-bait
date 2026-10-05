@@ -1,0 +1,37 @@
+{
+  "stage": "R02 court artwork, open paving and garden detail pass",
+  "revision_notes": "R02_NOTES.txt; artwork/R02_NOTES.txt",
+  "geometry_authority": "source/scene.blend",
+  "photo_orientation": "Reference end at negative X; open extension at positive X",
+  "donor_used_for_visuals": false,
+  "artwork": "Editable court.svg retains exact court coordinates; paving-context.svg extends neutral plaza curves. Shared paving-atlas.png uses world XY UVs on the existing continuous court/apron and plaza base without changing geometry.",
+  "observed_features": [
+    {"feature": "Grey hoops, transparent board, orange rim", "references": [7, 10, 11, 12, 14, 15, 16, 19], "status": "R02 slender supports, rear bracing, lower board pads, fixings and red-white-blue static nets; NBA metric anchors; no game functional components"},
+    {"feature": "Metal reference-end and partial side fence with dark NBA ATELIER panels", "references": [7, 12, 13, 14, 18, 19], "status": "Visible form reconstructed; exact segment lengths, heights and gaps inferred"},
+    {"feature": "Low curved Chili's glass frontage, metal cornice, brown sign, canvas awning and terrace", "references": [7, 10, 19, 20, 27, 28, 29, 30, 31, 33, 34], "status": "Replaces the incorrect shared straight mall frontage; curvature, height and setback inferred; upper court/terrace kept level and full site elevation changes remain incomplete"},
+    {"feature": "Overlapping circular plaza canopy roofs and seating", "references": [15, 18, 20, 21, 23], "status": "Primary visible silhouette; roof count, spacing, proportions and exact side placement inferred"},
+    {"feature": "Trees, curved planting islands, open-side funnel canopies and pale mounds", "references": [2, 3, 4, 5, 6, 15, 18, 22, 23, 24, 25, 26], "status": "R02 layered leaf clusters, willow curtains, flower beds and grasses outside gameplay; exact layout inferred"},
+    {"feature": "Separate taller pale and red-band LINK mall behind lower Chili's", "references": [7, 10, 31, 32, 35, 36], "status": "Distinct physical building volumes with a gap. Relative layering supported by supplied images; exact distances inferred. Existing glazed tower identity unconfirmed. References 37-39 are not current aerial photographs."}
+  ],
+  "preserved_constraints": [
+    "One connected court/apron mesh with exact 28.6512 by 15.24 metre central playing face",
+    "Neutral 1.8 metre apron shares vertices and height with playing surface",
+    "No added game lines or mirrored yellow-black art on positive-X half; neutral plaza paving follows current user feedback",
+    "No fencing around positive-X half and no mirrored mall/canopy",
+    "Both rim upper edges at 3.048 metres, inner diameter 0.4572 metres",
+    "No game installation, game launch or donor modification"
+  ],
+  "preview_export": {
+    "source": "Saved scene.blend geometry plus freshly loaded external artwork",
+    "conversion": "Blender standard glTF Y-up: (x,y,z) to (x,z,-y), scale one",
+    "geometry_regeneration_during_export": false,
+    "helpers_exported_as_meshes": false,
+    "image_embedded_in_glb": true
+  },
+  "not_verified": [
+    "Game donor coordinate conversion",
+    "Game collision, scoring, net animation, spawn positions and camera behavior",
+    "IFF import/edit/export route and technical gates A, B and C",
+    "Single-IFF packaging and Blacktop loading"
+  ]
+}

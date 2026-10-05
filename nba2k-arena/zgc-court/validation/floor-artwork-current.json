@@ -1,0 +1,859 @@
+{
+  "revision": "R10",
+  "artwork": "artwork\\court.svg",
+  "artwork_sha256": "edc862c28632181006c31fd5c72ccbaa4e94e1ed3a350d5b3a54aa3606188fd1",
+  "yellow_boundary": {
+    "basis": "NBA official outside painted edge; checked against native carrier centreline dimensions",
+    "basket_center_svg_cm": [
+      160.02,
+      762.0
+    ],
+    "outside_arc_radius_cm": 723.9,
+    "outside_corner_offset_cm": 670.56,
+    "native_centerline_radius_cm": 721.36,
+    "native_corner_centerline_offset_cm": 668.02,
+    "half_standard_ink_width_cm": 2.54,
+    "straight_to_arc_junction_svg_cm": [
+      [
+        432.7478797629609,
+        91.44000000000005
+      ],
+      [
+        432.7478797629609,
+        1432.56
+      ]
+    ],
+    "max_length_svg_cm": 883.92,
+    "inherited_red_or_side_lines_painted_into_svg": false,
+    "single_reference_end_only": true,
+    "official_source": "https://cms.nba.com/wp-content/uploads/sites/4/2025/10/2025-26-NBA-Officials-Guide.pdf",
+    "source_labels": [
+      "22 FEET (outside)",
+      "23 FEET 9 INCHES (outside)",
+      "ALL LINES SHALL BE 2 INCHES WIDE"
+    ],
+    "native_evidence": "validation/native-nba-line-reference.json",
+    "limitations": "Native 020 geometry corroborates 700 carrier descriptor bounds; 700 vertices and visible line alpha are not byte-verified. NBA 2K scoring logic is not reverse-engineered or game-tested by this artwork change.",
+    "border_illustration_clipped_out_of_yellow": true
+  },
+  "a_badge": {
+    "center_svg_cm": [
+      304,
+      762
+    ],
+    "rotation_degrees": -90,
+    "outline_envelope_width_cm": 231.5,
+    "outline_envelope_length_cm": 342.76,
+    "outline_length_to_width": 1.4806047516198704,
+    "letter_width_cm": 131.12,
+    "letter_length_cm": 237.38,
+    "letter_length_to_width": 1.8104026845637582,
+    "previous_approx_outline_length_to_width": 0.9311663479923518,
+    "uniform_border_stroke_cm": [
+      11.5,
+      10.5
+    ],
+    "calibrated_measurement": false,
+    "basis": "User correction and visible elongated letter/brand silhouette. Ground-plane camera sensitivity check is separately recorded; unknown focal length prevents unique real ratio.",
+    "perspective_analysis": "validation/floor-badge-perspective-current.json",
+    "references_reviewed": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "09",
+      "17",
+      "18",
+      "21"
+    ],
+    "preserved": [
+      "logo centre",
+      "R08 elongated dimensions",
+      "broken outer border",
+      "black paint rectangle"
+    ],
+    "apex_direction": "negative source X, toward Chili's reference hoop",
+    "orientation_evidence": "Reference07 shows readable upright A when looking toward basket; user R08 game screenshot shows inverted A in same direction. Previous SVG rotate(90) pointed apex to +X. Rotation corrected without resizing."
+  },
+  "validation": {
+    "xml": "passed",
+    "reference_end_protected_groups_sha256": "identical to R09",
+    "svg_dimensions_and_world_mapping": "unchanged",
+    "open_end_white_lines": "passed: five independent stroke locations render white, nominal coordinates listed in report",
+    "rasterized_palette": "passed: sampled open-end background channels 143–164, median RGB149/154/149; white-line cores RGB230/229/220",
+    "final_IFF_audit": {
+      "status": "passed",
+      "report": "validation/floor-alignment-current.json",
+      "checks": 21,
+      "iff_sha256": "d1bbe8f2c269e26b48a806bbbec00091383571523c1d01b0d9847470a0748777",
+      "open_end_white_samples": 65,
+      "max_white_stroke_edge_offset_mm": 1.427418422487956,
+      "game_tested": false
+    },
+    "gameplay_confirmation": "pending"
+  },
+  "paving_context_sha256": "663432818f9f9c7b62c4e2e901d475653738dcab1e1349894c6113e9d2d194f4",
+  "previous_artwork_sha256": "3078c550df408a8467ad6bb216df3a9e482d4c5b3f8b35b9b54b2170b8c0deb6",
+  "previous_paving_context_sha256": "f69a886d6159ad6128d361b36500b1426dbefa3094c73627f57869132d4907bd",
+  "free_throw_arc": {
+    "old_center_svg_cm": [
+      581.66,
+      762
+    ],
+    "black_key_front_segment_cm": [
+      [
+        597,
+        517
+      ],
+      [
+        595,
+        1009
+      ]
+    ],
+    "new_center_svg_cm": [
+      596.0040650406504,
+      762
+    ],
+    "rotation_degrees": 0.23290838992052318,
+    "radius_cm": 182.88,
+    "old_center_intrusion_cm": 14.344065040650435,
+    "line_cap": "butt",
+    "clip": "half-plane beyond the actual black-key front",
+    "refs": [
+      "01",
+      "03",
+      "04",
+      "05",
+      "09"
+    ],
+    "evidence": "Photos show faint arc meeting front edge; prior SVG started 14.34 cm inside black key. Arc radius and black-key dimensions are inherited reconstruction, not measured on site."
+  },
+  "lane_tabs": {
+    "count": 8,
+    "native_longitudinal_centers_preserved": true,
+    "marks": [
+      {
+        "side": "top",
+        "svg_x_cm": 215.89972167968745,
+        "black_edge_y_cm": 511.8931285987228,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -1216.6602783203125
+      },
+      {
+        "side": "bottom",
+        "svg_x_cm": 215.89972167968745,
+        "black_edge_y_cm": 1014.7342899241728,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -1216.6602783203125
+      },
+      {
+        "side": "top",
+        "svg_x_cm": 241.29840332031245,
+        "black_edge_y_cm": 512.2334794414783,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -1191.2615966796875
+      },
+      {
+        "side": "bottom",
+        "svg_x_cm": 241.29840332031245,
+        "black_edge_y_cm": 1014.3501081850709,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -1191.2615966796875
+      },
+      {
+        "side": "top",
+        "svg_x_cm": 337.82098632812495,
+        "black_edge_y_cm": 513.5269143896567,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -1094.739013671875
+      },
+      {
+        "side": "bottom",
+        "svg_x_cm": 337.82098632812495,
+        "black_edge_y_cm": 1012.8901027278099,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -1094.739013671875
+      },
+      {
+        "side": "top",
+        "svg_x_cm": 434.3399987792968,
+        "black_edge_y_cm": 514.8203014911799,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -998.2200012207031
+      },
+      {
+        "side": "bottom",
+        "svg_x_cm": 434.3399987792968,
+        "black_edge_y_cm": 1011.4301512789687,
+        "length_cm": 20.32,
+        "width_cm": 5.08,
+        "source_native_game_z_cm": -998.2200012207031
+      }
+    ],
+    "geometry_basis": "Native clutchtime line_tab_lane_lowShape (same Count/Min/Max/Radius as cached700), longitudinal component centres from actual uncompressed position/index buffers. Two closely spaced first marks are retained.",
+    "width_length_basis": "2-inch width and native 8-inch outward lane-mark extent; tab carrier Z-band 20.32 cm is NOT visible stroke width.",
+    "photo_limit": "Individual marks are not reliably legible in refs03/05/09. Added per explicit current user request. Lateral starts conform to existing reconstructed sloped black-key sides; not exact native lateral coordinates.",
+    "native_component_evidence": "validation/native-lane-tabs-current.json"
+  },
+  "requested_boundary": {
+    "rect_svg_cm": [
+      0,
+      0,
+      2865.12,
+      1524
+    ],
+    "ink_inside_bounds": true,
+    "stroke_cm": 5.08,
+    "color": "#e5dfca",
+    "basis": "Existing gameplay rectangle and explicit user request; not an assertion that all boundary lines are readable in reference photos.",
+    "no_new_centreline_or_second_painted_key": true
+  },
+  "fence_apron": {
+    "fence_centerlines_world_m": {
+      "back_x": -16.08,
+      "side_y": [
+        -9.17,
+        9.17
+      ]
+    },
+    "old_pale_gap_m": {
+      "side": 1.55,
+      "back": 1.7544
+    },
+    "replacement": "Dark painted apron at hoop back; black/white slash continuation on sides. Near-fence outside walkway warm grey; open-plaza grey/cream curves retained.",
+    "references": {
+      "07": "Black hoop-end ground continues to black fence banners.",
+      "17": "Black/white diagonal paint directly adjoins fence foot; outside path is grey.",
+      "18": "Curved yellow, black/white edge reaches fence; outside concrete is grey.",
+      "21/22/24/25": "Open garden paving is grey with warmer pale low waves, not another painted half."
+    },
+    "color_note": "R10 darkened neutral/warm grey; approximate sRGB material colours, not a calibrated photo colour survey.",
+    "near_stone": "#91968e",
+    "central_svg_dimensions_and_world_uv_unchanged": true
+  },
+  "previous_revision": "R09",
+  "grey_cement": {
+    "basis": "User R09 in-game screenshot shows near-white open ground. Reference22/23/24/25/26 shows grey cement/stone paving with low-contrast curves and pale low waves. Different light/exposure prevents a calibrated material reflectance measurement.",
+    "source_screenshot": "references/feedback/current-open-floor.png",
+    "palette_replacements": {
+      "#c1c2b7": "#949994",
+      "#bbbbb2": "#90958f",
+      "#c8c8bd": "#9a9e97",
+      "#cbcbc0": "#a1a49b",
+      "#b6b8ac": "#8b9188",
+      "#cfcec3": "#9b9f97",
+      "#a4a69b": "#91968e"
+    },
+    "new_base_srgb": [
+      148,
+      153,
+      148
+    ],
+    "reference_end_colours_changed": false,
+    "texture_finish": {
+      "vector_pattern_world_cm": [
+        277,
+        239
+      ],
+      "fine_mineral_flecks": 120,
+      "fine_ellipse_radii_cm": [
+        0.22,
+        1.45
+      ],
+      "larger_tonal_patches": 18,
+      "larger_patch_opacity": 0.016,
+      "paving_joint_opacity_old": 0.37,
+      "paving_joint_opacity_new": 0.22,
+      "global_lighting_change": false
+    },
+    "root_pipeline_requirement": "rasterize_artwork.mjs outer 32px guard must match [148,153,148]; external to this SVG-only change",
+    "limits": "Photos support material family and tone contrast, not exact RGB measurements. In-game final brightness requires inspection.",
+    "base_linear_luminance_before": 0.5333992680559787,
+    "base_linear_luminance_after": 0.31216483523842753,
+    "base_linear_luminance_reduction_percent": 41.47632853413163,
+    "SVG_raster_samples": {
+      "source": "validation/floor-open-end-current.png",
+      "stage": "vector SVG before final DDS compression; not game lighting",
+      "grey_samples": [
+        {
+          "svg_cm": [
+            1600,
+            150
+          ],
+          "rgb": [
+            155,
+            159,
+            152
+          ]
+        },
+        {
+          "svg_cm": [
+            1600,
+            350
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1600,
+            700
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1600,
+            900
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1600,
+            1180
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1600,
+            1340
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1750,
+            150
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1750,
+            350
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1750,
+            700
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            1750,
+            900
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            1750,
+            1180
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            1750,
+            1340
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            2000,
+            150
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            2000,
+            350
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            2000,
+            700
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            2000,
+            1180
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            2000,
+            1340
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            2250,
+            150
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            2250,
+            350
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            2250,
+            700
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            2250,
+            900
+          ],
+          "rgb": [
+            161,
+            164,
+            155
+          ]
+        },
+        {
+          "svg_cm": [
+            2250,
+            1180
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2250,
+            1340
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2450,
+            150
+          ],
+          "rgb": [
+            154,
+            158,
+            151
+          ]
+        },
+        {
+          "svg_cm": [
+            2450,
+            350
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            2450,
+            700
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2450,
+            900
+          ],
+          "rgb": [
+            149,
+            154,
+            149
+          ]
+        },
+        {
+          "svg_cm": [
+            2450,
+            1180
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2450,
+            1340
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2700,
+            150
+          ],
+          "rgb": [
+            161,
+            164,
+            156
+          ]
+        },
+        {
+          "svg_cm": [
+            2700,
+            350
+          ],
+          "rgb": [
+            144,
+            149,
+            143
+          ]
+        },
+        {
+          "svg_cm": [
+            2700,
+            700
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2700,
+            900
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2700,
+            1180
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        },
+        {
+          "svg_cm": [
+            2700,
+            1340
+          ],
+          "rgb": [
+            148,
+            153,
+            148
+          ]
+        }
+      ],
+      "grey_median_rgb": [
+        149.0,
+        154.0,
+        149.0
+      ],
+      "grey_min_rgb": [
+        144,
+        149,
+        143
+      ],
+      "grey_max_rgb": [
+        161,
+        164,
+        156
+      ],
+      "white_line_samples": [
+        {
+          "kind": "three_point_tip",
+          "svg_cm": [
+            1983.74,
+            762
+          ],
+          "rgb": [
+            230,
+            229,
+            220
+          ]
+        },
+        {
+          "kind": "three_point_corner",
+          "svg_cm": [
+            2660,
+            93.98
+          ],
+          "rgb": [
+            230,
+            229,
+            220
+          ]
+        },
+        {
+          "kind": "free_throw_bar",
+          "svg_cm": [
+            2288.54,
+            700
+          ],
+          "rgb": [
+            230,
+            229,
+            220
+          ]
+        },
+        {
+          "kind": "key_side",
+          "svg_cm": [
+            2500,
+            520.7
+          ],
+          "rgb": [
+            230,
+            229,
+            220
+          ]
+        },
+        {
+          "kind": "free_throw_arc_tip",
+          "svg_cm": [
+            2105.66,
+            762
+          ],
+          "rgb": [
+            230,
+            229,
+            220
+          ]
+        }
+      ]
+    }
+  },
+  "open_end_white_lines": {
+    "requested_by_user": true,
+    "copied_from_site_photos": false,
+    "source_units": "cm",
+    "game_basket_center_xz_cm": [
+      0,
+      1272.54
+    ],
+    "svg_basket_center_cm": [
+      2705.1,
+      762
+    ],
+    "stroke_cm": 5.08,
+    "line_srgb": "#e6e5dc",
+    "three_point": {
+      "centerline_radius_cm": 721.36,
+      "outside_radius_cm": 723.9,
+      "corner_centerline_abs_game_x_cm": 668.02,
+      "corner_outside_abs_game_x_cm": 670.56,
+      "centerline_junction_svg_x_cm": 2432.8693455909124,
+      "centerline_junction_game_z_cm": 1000.3093455909125,
+      "svg_centerline_side_y_cm": [
+        93.98,
+        1430.02
+      ]
+    },
+    "key": {
+      "outline_only": true,
+      "outside_width_cm": 487.68,
+      "side_centerline_abs_game_x_cm": 241.3,
+      "free_throw_bar_centerline_game_z_cm": 855.98,
+      "free_throw_bar_outside_game_z_cm": 853.44,
+      "baseline_game_z_cm": 1432.56,
+      "outside_baseline_to_free_throw_cm": 579.12,
+      "svg_three_sides": [
+        [
+          2862.58,
+          520.7
+        ],
+        [
+          2288.54,
+          520.7
+        ],
+        [
+          2288.54,
+          1003.3
+        ],
+        [
+          2862.58,
+          1003.3
+        ]
+      ]
+    },
+    "free_throw_arc": {
+      "center_game_xz_cm": [
+        0,
+        853.44
+      ],
+      "center_svg_cm": [
+        2286,
+        762
+      ],
+      "centerline_radius_cm": 180.34,
+      "outside_radius_cm": 182.88,
+      "outer_semicircle_only": true
+    },
+    "omitted": [
+      "coloured key fill",
+      "second A/logo",
+      "inner dashed semicircle",
+      "charge circle",
+      "extra sidecourt markings"
+    ],
+    "native_evidence": {
+      "descriptor_source": "../build/high_hoop/level.SCNE.json",
+      "model": "arena_clutchtime_int_master@GameObjects@CourtFloor:floor_clutchtime_court_low",
+      "vertex_source": "../build/local_game_reference/shared/0f/vertexbuffer.0f3b6fcaf86b59a6.gz",
+      "index_source": "../extracted/donor/IndexBuffer.3ebaba4dd3080a92.bin",
+      "native_lane_free_throw_primitive_indices": [
+        2298,
+        36
+      ],
+      "native_free_throw_circle_indices": [
+        4878,
+        2808
+      ],
+      "note": "Actual cached carrier positions corroborate nominal center/outer-edge dimensions; transparent carrier-band width is not interpreted as visible paint width."
+    }
+  },
+  "protected_r09_groups": {
+    "hashes": {
+      "painted-black-ground": "6bc8aac0b3db7b3c69171d707121ce9c0c7a4c481425a678a77e39c76afc123e",
+      "perimeter-brush-strokes": "94c0531b0c7c8b303f01d4ac07531622f32794708a854d1844f30abb53002c35",
+      "gold-play-zone": "fbb3ae9d6d48926ea39030cebc31eb2070b8737c003203f1276def723d7b41ee",
+      "one-end-white-court-lines": "e2036f9e2a9f23973ad3dd4c2b47fe6b6378f55e5657af34b1e87ed6efa2e96d",
+      "atelier-a-badge": "ef7b0036c708950979772ed63a91bd355c2c570d97ae94a02b96a1b4f51ad88e",
+      "large-net-drawing": "98a62d5f475918f70ca92d83b895aacf22892793d71c80b22ba006cc8fcc2cc2",
+      "white-contour-illustration": "7d4bc24f2460a3fca42696d071f7717821d9810fe633b9c450b1b3c67a2bd0e8",
+      "basketball-and-swipe": "8371e2bf48002cbf431194274852f4e5c72a53fb705c349f1b6fe645d0bcce31",
+      "brush-letterforms": "2298b35e63286287a841c82b8aaa677714323c55461dbcb37c6ee2b220e5dc2d",
+      "spark-dots-hatching": "ebf110f0c45ca92bc9d96c823908db1c165066bbce497483e677363dec6561f8",
+      "requested-gameplay-boundary": "b0544b10dea8e3bb2e788100f946401bdd18dc63780bd6b75321486273564fed",
+      "fine-mineral-aggregate": "eb8cdb4d36d7e91b76ccc1b9826c2987c96687da48401bfe01271266edba677c"
+    },
+    "unchanged": true,
+    "note": "Includes original art, yellow/key, corrected faint arc and 4 tabs/side, A, R09 sideline/baseline and existing fine aggregate."
+  }
+}

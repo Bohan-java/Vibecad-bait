@@ -1,0 +1,177 @@
+{
+  "revision": "R11",
+  "validation_type": "offline_actual_iff_decoded_geometry_render",
+  "input_file": "E:\\CodexData\\2karena\\zgc-court\\public\\game-preview\\current.glb",
+  "input_sha256": "f3f97e12aa86933bd280d31e8705c26c4617208fdf02ee8923e2c62605fe0294",
+  "input_bytes": 78691220,
+  "iff_sha256": "9d20d9d30663d1e1e08dae1aa2fa9bba7a138b072082f9a2dadf28f1a044eb24",
+  "iff_bytes": 1663700475,
+  "native_build_id": "iff-9d20d9d30663-f3f97e12aa86",
+  "manifest_sha256": "b60d6b7ab42098171ef0e746266d697ba6354b314ff9ebe0c2678127b55e8eb7",
+  "source_geometry_read": false,
+  "source_blend_saved": false,
+  "input_materials_modified": false,
+  "glb_generator": "ZGC final IFF decoder",
+  "imported_meshes": 425,
+  "r11_chilis_node_count": 103,
+  "coordinates": {
+    "glTF": "(sourceX,sourceZ,-sourceY)",
+    "Blender_import": "(glTF.x,-glTF.z,glTF.y) = source X/Y/Z",
+    "expected_bounds_m": [
+      [
+        -51.0,
+        -32.00041198730469,
+        -3.9000802040100098
+      ],
+      [
+        45.0,
+        54.00041198730469,
+        38.0
+      ]
+    ],
+    "imported_bounds_m": [
+      [
+        -51.0,
+        -32.00041198730469,
+        -3.9000802040100098
+      ],
+      [
+        45.0,
+        54.00041198730469,
+        38.0
+      ]
+    ],
+    "maximum_bounds_error_m": 0.0,
+    "passed": true
+  },
+  "temporary_lighting": {
+    "world_strength": 0.65,
+    "sun_energy": 2.4,
+    "exposure": 0
+  },
+  "capture_origin": "Blender offline render of actual-IFF decoded GLB, not a browser screenshot",
+  "browser_automation_status": "Browser automatic capture unavailable this round because its plugin service file is missing; this does not claim the webpage itself failed.",
+  "limitations": [
+    "Offline Blender lighting and glTF materials approximate the game.",
+    "No evidence here establishes replay glass or game animation correctness.",
+    "This test reads the decoded IFF GLB, not source scene.blend."
+  ],
+  "views": {
+    "entry": {
+      "preview_position": [
+        -17.2,
+        2.9,
+        4.2
+      ],
+      "preview_target": [
+        -21.08,
+        2.25,
+        4.2
+      ],
+      "blender_position": [
+        -17.200000762939453,
+        -4.199999809265137,
+        2.9000000953674316
+      ],
+      "blender_target": [
+        -21.079999923706055,
+        -4.199999809265137,
+        2.25
+      ],
+      "vertical_fov_degrees": 90.0,
+      "path": "E:\\CodexData\\2karena\\zgc-court\\validation\\current-chilis-native-entry.png",
+      "sha256": "1e02835d07c403841222760cb73aacd8291faed6d1483d7ae7f67afe0c081040",
+      "width": 1600,
+      "height": 1000,
+      "camera_override": {
+        "config_vertical_fov": 76,
+        "override_vertical_fov": 90.0,
+        "reason": "Widen frame to include both facade columns and EST.1975; match preview app override without changing source/export config."
+      }
+    },
+    "terrace": {
+      "preview_position": [
+        -27.2,
+        3.9,
+        24.6
+      ],
+      "preview_target": [
+        -28.1,
+        2.1,
+        16.9
+      ],
+      "blender_position": [
+        -27.200000762939453,
+        -24.600000381469727,
+        3.9000000953674316
+      ],
+      "blender_target": [
+        -28.100000381469727,
+        -16.899999618530273,
+        2.0999999046325684
+      ],
+      "vertical_fov_degrees": 59,
+      "path": "E:\\CodexData\\2karena\\zgc-court\\validation\\current-chilis-native-terrace.png",
+      "sha256": "1817f6720942a5d308df33965a39eca1b52fe181026b6bee78fb9a26d308c7b2",
+      "width": 1600,
+      "height": 1000
+    },
+    "corner": {
+      "preview_position": [
+        -17.3,
+        1.85,
+        9.8
+      ],
+      "preview_target": [
+        -23.1,
+        1.8,
+        14.5
+      ],
+      "blender_position": [
+        -17.299999237060547,
+        -9.800000190734863,
+        1.850000023841858
+      ],
+      "blender_target": [
+        -23.100000381469727,
+        -14.5,
+        1.7999999523162842
+      ],
+      "vertical_fov_degrees": 60,
+      "path": "E:\\CodexData\\2karena\\zgc-court\\validation\\current-chilis-native-corner.png",
+      "sha256": "617650ed907d37914f73dd002c48916ae3f89d335cbe3df728f25fa3c237586a",
+      "width": 1600,
+      "height": 1000
+    },
+    "relationship": {
+      "preview_position": [
+        -12.59000015258789,
+        10.175000190734863,
+        24.549999237060547
+      ],
+      "preview_target": [
+        -24.59000015258789,
+        2.174999952316284,
+        10.549999237060547
+      ],
+      "blender_position": [
+        -12.59000015258789,
+        -24.549999237060547,
+        10.175000190734863
+      ],
+      "blender_target": [
+        -24.59000015258789,
+        -10.549999237060547,
+        2.174999952316284
+      ],
+      "vertical_fov_degrees": 55,
+      "path": "E:\\CodexData\\2karena\\zgc-court\\validation\\current-chilis-native-relationship.png",
+      "sha256": "670dd79ba57e9daf34ec8aeb6c9019ad62b95a31a314909614bdac2da5494506",
+      "width": 1600,
+      "height": 1000
+    }
+  },
+  "game_verified": false,
+  "completed_at_utc": "2026-10-04T18:26:19.976245+00:00",
+  "status": "passed_offline_import_and_render"
+}

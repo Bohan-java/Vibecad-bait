@@ -1,0 +1,164 @@
+{
+  "target": "站在场内面向Chili’s前篮筐时，左手长围栏及网外可见物体",
+  "as_of": "2026-10-04",
+  "orientation_note": "店侧04:46通道在篮筐后方一边，已排除；圆盘凉亭/高蓝玻璃楼方向为另一长边/开放端参考，已排除。没有按地理方位猜测。",
+  "continuity_note": "A段与B段各自有相邻重叠帧；A/B/C之间是原视频剪辑，不能当作一条连续步行轨迹。仅是局部连续转镜，未获得左长围栏全长外侧走拍。",
+  "items": [
+    {
+      "file": "selected/01_A段_斜看左围栏与篮筐_00-14.30.png",
+      "title": "A段_斜看左围栏与篮筐_00-14.30",
+      "timestamp_seconds": 14.3,
+      "timestamp": "00:14.30",
+      "sequence": "A段",
+      "caption": "左长围栏在画面左侧；Chili’s及篮筐在右，用于固定“面筐左手”的方向",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7"
+    },
+    {
+      "file": "selected/02_A段_左围栏到篮下转角_00-15.30.png",
+      "title": "A段_左围栏到篮下转角_00-15.30",
+      "timestamp_seconds": 15.3,
+      "timestamp": "00:15.30",
+      "sequence": "A段",
+      "caption": "左侧黑白A牌、低灰色建筑与篮筐后围网同框；外侧细节有球员和网格遮挡",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960"
+    },
+    {
+      "file": "selected/03_A段_篮下斜向看左围网_00-16.25.png",
+      "title": "A段_篮下斜向看左围网_00-16.25",
+      "timestamp_seconds": 16.25,
+      "timestamp": "00:16.25",
+      "sequence": "A段",
+      "caption": "同一进攻镜头继续移动到篮下；左侧护网后可见低矮屋面和远楼",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1"
+    },
+    {
+      "file": "selected/04_B段_正对左围栏全幅_00-20.25.png",
+      "title": "B段_正对左围栏全幅_00-20.25",
+      "timestamp_seconds": 20.25,
+      "timestamp": "00:20.25",
+      "sequence": "B段",
+      "caption": "主画面为指定左长围栏；可见黑色矮挡板、A牌、外侧低矮灰色构筑物和远处方格立面楼",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6"
+    },
+    {
+      "file": "selected/05_B段_沿左围栏右移_00-20.75.png",
+      "title": "B段_沿左围栏右移_00-20.75",
+      "timestamp_seconds": 20.75,
+      "timestamp": "00:20.75",
+      "sequence": "B段",
+      "caption": "与上一帧重叠；护网外低矮灰色横格和玻璃立面相对位置延续",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d"
+    },
+    {
+      "file": "selected/06_B段_左围栏接篮筐端_00-21.25.png",
+      "title": "B段_左围栏接篮筐端_00-21.25",
+      "timestamp_seconds": 21.25,
+      "timestamp": "00:21.25",
+      "sequence": "B段",
+      "caption": "镜头向篮筐转角抬起；网后 boots 字样出现，可与泥靴外观图核对",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec"
+    },
+    {
+      "file": "selected/07_C段_另一斜角固定围栏关系_00-26.35.png",
+      "title": "C段_另一斜角固定围栏关系_00-26.35",
+      "timestamp_seconds": 26.35,
+      "timestamp": "00:26.35",
+      "sequence": "独立补充角度",
+      "caption": "另一段活动镜头，左长边、A牌、Chili’s立面并列；不能接在B段假装连续",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c"
+    },
+    {
+      "file": "selected/08_泥靴外观补充_03-32.525.jpg",
+      "title": "泥靴建筑外观补充",
+      "timestamp_seconds": 212.525,
+      "timestamp": "03:32.525",
+      "sequence": "独立补充角度",
+      "caption": "从Chili’s露台看The boots：灰色立面/横格、发光字、玻璃门、红白收拢伞、绿球盆栽、圆形树池、低栏杆和两块落地牌。只能定位为同一周边商户，不能声称这些小物件全部位于左长围栏紧贴外侧",
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "creator": "我是峻范",
+      "published": "2025-12-18",
+      "capture_method": "2026-10-04 在云端浏览器播放器新截取；时间读取video.currentTime，约有小于0.1秒截屏延迟",
+      "source_resolution": [
+        640,
+        360
+      ],
+      "screenshot_resolution": [
+        1180,
+        757
+      ],
+      "location_confidence": "同一商圈和建筑身份高；各小物件与左围栏精确距离未证实",
+      "coverage_limitation": "短暂独立回看镜头，不与活动视频拼接成连续路线",
+      "sha256": "bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc"
+    }
+  ]
+}

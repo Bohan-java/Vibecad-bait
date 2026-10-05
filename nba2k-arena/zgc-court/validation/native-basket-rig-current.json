@@ -1,0 +1,641 @@
+{
+  "revision": "R10",
+  "game_tested": false,
+  "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:basket",
+  "source_parts_removed_from_level": 42,
+  "source_models_removed": [
+    "zgc_r03:part-0746",
+    "zgc_r03:part-0747",
+    "zgc_r03:part-0748",
+    "zgc_r03:part-0749",
+    "zgc_r03:part-0750",
+    "zgc_r03:part-0751",
+    "zgc_r03:part-0752",
+    "zgc_r03:part-0753",
+    "zgc_r03:part-0754",
+    "zgc_r03:part-0755",
+    "zgc_r03:part-0756",
+    "zgc_r03:part-0757",
+    "zgc_r03:part-0758",
+    "zgc_r03:part-0759",
+    "zgc_r03:part-0760",
+    "zgc_r03:part-0761",
+    "zgc_r03:part-0762",
+    "zgc_r03:part-0763",
+    "zgc_r03:part-0764",
+    "zgc_r03:part-0765",
+    "zgc_r03:part-0769",
+    "zgc_r03:part-0871",
+    "zgc_r03:part-0872",
+    "zgc_r03:part-0873",
+    "zgc_r03:part-0874",
+    "zgc_r03:part-0875",
+    "zgc_r03:part-0876",
+    "zgc_r03:part-0877",
+    "zgc_r03:part-0878",
+    "zgc_r03:part-0879",
+    "zgc_r03:part-0880",
+    "zgc_r03:part-0881",
+    "zgc_r03:part-0882",
+    "zgc_r03:part-0883",
+    "zgc_r03:part-0884",
+    "zgc_r03:part-0885",
+    "zgc_r03:part-0886",
+    "zgc_r03:part-0887",
+    "zgc_r03:part-0888",
+    "zgc_r03:part-0889",
+    "zgc_r03:part-0890",
+    "zgc_r03:part-0894"
+  ],
+  "fixed_base_models_kept_exactly_static": [
+    "zgc_r03:part-0647",
+    "zgc_r03:part-0648",
+    "zgc_r03:part-0649",
+    "zgc_r03:part-0650",
+    "zgc_r03:part-0651",
+    "zgc_r03:part-0652",
+    "zgc_r03:part-0653",
+    "zgc_r03:part-0654",
+    "zgc_r03:part-0655",
+    "zgc_r03:part-0740",
+    "zgc_r03:part-0741",
+    "zgc_r03:part-0742",
+    "zgc_r03:part-0771",
+    "zgc_r03:part-0773",
+    "zgc_r03:part-0774",
+    "zgc_r03:part-0775",
+    "zgc_r03:part-0776",
+    "zgc_r03:part-0777",
+    "zgc_r03:part-0778",
+    "zgc_r03:part-0779",
+    "zgc_r03:part-0780",
+    "zgc_r03:part-0865",
+    "zgc_r03:part-0866",
+    "zgc_r03:part-0867"
+  ],
+  "shared_instances": 2,
+  "source_canonical_side": "reference_half",
+  "symmetry": [
+    {
+      "material": "zgc_r03:material_189",
+      "max_geometry_difference_cm": 1.976256837608279e-05
+    },
+    {
+      "material": "zgc_r03:material_198",
+      "max_geometry_difference_cm": 7.700489033723685e-06
+    },
+    {
+      "material": "zgc_r03:material_199",
+      "max_geometry_difference_cm": 0.003267321907164345
+    },
+    {
+      "material": "zgc_r03:material_200",
+      "max_geometry_difference_cm": 7.554546214195464e-06
+    },
+    {
+      "material": "zgc_r03:material_201",
+      "max_geometry_difference_cm": 0.0026246604828883647
+    },
+    {
+      "material": "zgc_r03:material_202",
+      "max_geometry_difference_cm": 6.839041520563303e-05
+    },
+    {
+      "material": "zgc_r03:material_203",
+      "max_geometry_difference_cm": 2.664649001455353e-06
+    }
+  ],
+  "native_vertices_preserved": 6066,
+  "total_vertices": 10094,
+  "primitive_count": 26,
+  "lod_count": 12,
+  "native_position_bytes_preserved": true,
+  "native_tangent_weight_bytes_preserved": true,
+  "native_matrix_weight_prefix_preserved": true,
+  "native_rim_index_sequences_preserved_all_lods": true,
+  "native_rim_uv_max_error": 7.608618030396919e-06,
+  "native_object_and_transform_bindings_preserved": true,
+  "weighted_materials": {
+    "zgc_r03:material_198": "zgc_r09:skinned_material_198",
+    "zgc_r03:material_199": "zgc_r09:skinned_material_199",
+    "zgc_r03:material_200": "zgc_r09:skinned_material_200",
+    "zgc_r03:material_201": "zgc_r09:skinned_material_201",
+    "zgc_r03:material_202": "zgc_r09:skinned_material_202",
+    "zgc_r03:material_203": "zgc_r09:skinned_material_203",
+    "zgc_r03:material_189": "zgc_r09:skinned_material_189"
+  },
+  "weighted_effect": "asset.fx#af5fe6aa8a3a361d",
+  "stream_strides": [
+    8,
+    4,
+    8
+  ],
+  "weight_bits": 16,
+  "weight_curve_height_cm_and_bone1_fraction": [
+    [
+      11.9270229,
+      0.0
+    ],
+    [
+      130.9031480612955,
+      0.5019607843137255
+    ],
+    [
+      147.51501142520792,
+      0.5411764705882353
+    ],
+    [
+      228.36258408894486,
+      1.0
+    ]
+  ],
+  "synthetic_pose_check": {
+    "fixed_lower_vertices": 174,
+    "upper_frame_vertices_follow_glass_bone1": 3302,
+    "mixed_column_vertices": 288,
+    "column_total_vertices_after_transition_splits": 900,
+    "trial_base_rotation_degrees": 1.25,
+    "trial_base_translation_cm": [
+      0.0,
+      -0.4,
+      0.3
+    ],
+    "fixed_foot_max_displacement_cm": 0.0,
+    "upper_frame_max_rigid_pose_error_cm": 0.0,
+    "glass_frame_separation_max_change_cm": 4.1300296516055823e-14,
+    "passed": true
+  },
+  "parts": [
+    {
+      "source_object": "R08 board corner safety pad 0.reference",
+      "source_model": "zgc_r03:part-0871",
+      "vertices_before": 221,
+      "vertices": 221,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004364139303235027,
+      "min": [
+        -88.0339831148699,
+        289.13203843488213,
+        -3.872249984710436
+      ],
+      "max": [
+        -82.23112748023192,
+        317.53392508105594,
+        2.2278830902266122
+      ]
+    },
+    {
+      "source_object": "R08 board corner safety pad 1.reference",
+      "source_model": "zgc_r03:part-0872",
+      "vertices_before": 221,
+      "vertices": 221,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.0043495076067920175,
+      "min": [
+        82.10978706590376,
+        289.13203843488213,
+        -3.872249984710436
+      ],
+      "max": [
+        87.9066971517357,
+        317.53392508105594,
+        2.2278830902266122
+      ]
+    },
+    {
+      "source_object": "R08 board lower safety pad.reference",
+      "source_model": "zgc_r03:part-0873",
+      "vertices_before": 263,
+      "vertices": 263,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004446264557061463,
+      "min": [
+        -87.93290878516821,
+        287.1818984265202,
+        -3.8246855942625757
+      ],
+      "max": [
+        87.81156837084004,
+        293.08582839085983,
+        2.1743731509727695
+      ]
+    },
+    {
+      "source_object": "R08 board lower structural rail.reference",
+      "source_model": "zgc_r03:part-0874",
+      "vertices_before": 284,
+      "vertices": 284,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.00427788083190889,
+      "min": [
+        -85.13255529755092,
+        289.3876970335393,
+        -3.4441704706798077
+      ],
+      "max": [
+        85.01121488322272,
+        292.08103064264895,
+        -0.043316553658371504
+      ]
+    },
+    {
+      "source_object": "R08 board rear mounting saddle.reference",
+      "source_model": "zgc_r03:part-0875",
+      "vertices_before": 236,
+      "vertices": 236,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004435852514911393,
+      "min": [
+        -7.798801978149072,
+        292.5982933887694,
+        -4.092235290531789
+      ],
+      "max": [
+        7.802318088746489,
+        309.40041431447315,
+        -1.3929561326161775
+      ]
+    },
+    {
+      "source_object": "R08 board side frame +0.8501.reference",
+      "source_model": "zgc_r03:part-0876",
+      "vertices_before": 237,
+      "vertices": 237,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.003908400866837571,
+      "min": [
+        83.75670408516064,
+        289.185548374136,
+        -2.421536076050984
+      ],
+      "max": [
+        86.25978013247882,
+        384.177581647303,
+        0.7771691815671034
+      ]
+    },
+    {
+      "source_object": "R08 board side frame -0.8513.reference",
+      "source_model": "zgc_r03:part-0877",
+      "vertices_before": 237,
+      "vertices": 237,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004222544272993536,
+      "min": [
+        -86.38112054680704,
+        289.185548374136,
+        -2.421536076050984
+      ],
+      "max": [
+        -83.8839900482948,
+        384.177581647303,
+        0.7771691815671034
+      ]
+    },
+    {
+      "source_object": "R08 board top frame.reference",
+      "source_model": "zgc_r03:part-0878",
+      "vertices_before": 285,
+      "vertices": 285,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004635400518229383,
+      "min": [
+        -86.38112054680704,
+        384.177581647303,
+        -2.4274816248569664
+      ],
+      "max": [
+        86.25978013247882,
+        386.67471214581525,
+        0.7771691815671034
+      ]
+    },
+    {
+      "source_object": "R08 board V brace 1.reference",
+      "source_model": "zgc_r03:part-0879",
+      "vertices_before": 80,
+      "vertices": 80,
+      "triangles": 76,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.0040798075698118335,
+      "min": [
+        -0.6819800573891541,
+        308.3004877853666,
+        -7.29094054814982
+      ],
+      "max": [
+        78.1916704027619,
+        376.0262342343023,
+        -3.1944574208285417
+      ]
+    },
+    {
+      "source_object": "R08 board V brace -1.reference",
+      "source_model": "zgc_r03:part-0880",
+      "vertices_before": 80,
+      "vertices": 80,
+      "triangles": 76,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004553338409270312,
+      "min": [
+        -78.3130108170901,
+        308.3004877853666,
+        -7.29094054814982
+      ],
+      "max": [
+        0.6795506191805885,
+        376.0262342343023,
+        -3.1944574208285417
+      ]
+    },
+    {
+      "source_object": "R08 connected board fasteners.reference",
+      "source_model": "zgc_r03:part-0881",
+      "vertices_before": 200,
+      "vertices": 200,
+      "triangles": 360,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004527242767474516,
+      "min": [
+        -83.83048010904096,
+        312.7120849994049,
+        -11.886849775173573
+      ],
+      "max": [
+        83.70913969471277,
+        376.22838289370566,
+        0.693931498283348
+      ]
+    },
+    {
+      "source_object": "R08 lower post brace.reference",
+      "source_model": "zgc_r03:part-0882",
+      "vertices_before": 96,
+      "vertices": 96,
+      "triangles": 92,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004120617420985262,
+      "min": [
+        -3.1969472023193646,
+        267.1216167551385,
+        -218.3222498676585
+      ],
+      "max": [
+        3.200463312916753,
+        311.37433651805907,
+        -136.51744384615856
+      ]
+    },
+    {
+      "source_object": "R08 rear connection lugs.reference",
+      "source_model": "zgc_r03:part-0883",
+      "vertices_before": 96,
+      "vertices": 96,
+      "triangles": 48,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004005289738576834,
+      "min": [
+        -84.98391657740139,
+        311.1840789562677,
+        -5.846172188296293
+      ],
+      "max": [
+        84.85663061426717,
+        377.5245125334096,
+        -0.8935300329137021
+      ]
+    },
+    {
+      "source_object": "R08 round main reach.reference",
+      "source_model": "zgc_r03:part-0884",
+      "vertices_before": 192,
+      "vertices": 192,
+      "triangles": 188,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004339918530619506,
+      "min": [
+        -7.697727648447369,
+        293.31175924548717,
+        -217.35312541228353
+      ],
+      "max": [
+        7.701243759044814,
+        320.6850659482261,
+        -3.2122940672464892
+      ]
+    },
+    {
+      "source_object": "R08 round rear stay 1.reference",
+      "source_model": "zgc_r03:part-0885",
+      "vertices_before": 96,
+      "vertices": 96,
+      "triangles": 92,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004789668777588231,
+      "min": [
+        -1.3716637188830134,
+        312.26022329015035,
+        -194.5222179973144
+      ],
+      "max": [
+        81.18822700097658,
+        315.9999734891127,
+        -11.530116846814678
+      ]
+    },
+    {
+      "source_object": "R08 round rear stay -1.reference",
+      "source_model": "zgc_r03:part-0886",
+      "vertices_before": 96,
+      "vertices": 96,
+      "triangles": 92,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004322837390801939,
+      "min": [
+        -81.30956741530478,
+        312.26022329015035,
+        -194.5222179973144
+      ],
+      "max": [
+        1.3751798294804303,
+        315.9999734891127,
+        -11.530116846814678
+      ]
+    },
+    {
+      "source_object": "R08 seated glass gaskets.reference",
+      "source_model": "zgc_r03:part-0887",
+      "vertices_before": 72,
+      "vertices": 72,
+      "triangles": 36,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.0040312102166623716,
+      "min": [
+        -84.13370309814603,
+        292.1345405819028,
+        -1.2918818029144745
+      ],
+      "max": [
+        84.00641713501184,
+        384.42729469715425,
+        -0.5903070438086502
+      ]
+    },
+    {
+      "source_object": "R08 single printed board target.reference",
+      "source_model": "zgc_r03:part-0888",
+      "vertices_before": 8,
+      "vertices": 8,
+      "triangles": 8,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004235643150925261,
+      "min": [
+        -30.481070672968627,
+        301.8020029404288,
+        0.04586667843136638
+      ],
+      "max": [
+        30.47864123476009,
+        347.5173277096209,
+        0.04586667843136638
+      ]
+    },
+    {
+      "source_object": "R08 threaded rear stay end 1.reference",
+      "source_model": "zgc_r03:part-0889",
+      "vertices_before": 64,
+      "vertices": 64,
+      "triangles": 60,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.004092799519378454,
+      "min": [
+        78.56623997753874,
+        312.9855802444801,
+        -13.718078807415907
+      ],
+      "max": [
+        83.39402560799576,
+        314.51358628761733,
+        -5.239726210086189
+      ]
+    },
+    {
+      "source_object": "R08 threaded rear stay end -1.reference",
+      "source_model": "zgc_r03:part-0890",
+      "vertices_before": 64,
+      "vertices": 64,
+      "triangles": 60,
+      "role": "board/base bone 1",
+      "bone_weight_words": [
+        256
+      ],
+      "position_error_cm": 0.003970530033522784,
+      "min": [
+        -83.52131157112993,
+        312.9855802444801,
+        -13.718078807415907
+      ],
+      "max": [
+        -78.68758039186693,
+        314.51358628761733,
+        -5.239726210086189
+      ]
+    },
+    {
+      "source_object": "Support upright.reference",
+      "source_model": "zgc_r03:part-0894",
+      "vertices_before": 160,
+      "vertices": 900,
+      "triangles": 300,
+      "role": "authored root/base blend using native support profile",
+      "bone_weight_words": [
+        0,
+        256,
+        1025,
+        1537
+      ],
+      "position_error_cm": 0.0041269436474965365,
+      "min": [
+        -9.49922893665979,
+        3.0025021470206763,
+        -225.9206612417029
+      ],
+      "max": [
+        9.496799498451225,
+        321.0001800349432,
+        -207.92348500599678
+      ]
+    }
+  ],
+  "limits": [
+    "Runtime playback/hanging test is still required.",
+    "Column weight curve is an authored adaptation of measured native support weights.",
+    "Native shared basket instances replace source-side geometry differences below 0.10 cm.",
+    "Rim UV values are re-quantized to include source UV range; native rim positions and skin bytes are exact."
+  ]
+}

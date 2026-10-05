@@ -1,0 +1,1823 @@
+{
+  "status": "native_schema_and_unique_positions_verified",
+  "game_tested": false,
+  "reference": "E:\\CodexData\\2karena\\donor\\original\\arena_020_int_original.iff",
+  "reference_scne_sha256": "8aaf539ce26d77f6b1511075b30bb7baa18c3430469b20a408b93303485e15b6",
+  "original_reference_markers": {
+    "NBAAWAYHEADPHYSIO": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1008.0
+      ]
+    },
+    "NBAAWAYASSTCOACH1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1065.0
+      ]
+    },
+    "NBAAWAYHEADCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1122.0
+      ]
+    },
+    "NBAAWAYASSTCOACH2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1179.0
+      ]
+    },
+    "NBAAWAYASSTCOACH3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1236.0
+      ]
+    },
+    "NBAAWAYPLAYER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1293.0
+      ]
+    },
+    "NBAAWAYPLAYER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1350.0
+      ]
+    },
+    "NBAAWAYPLAYER3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1407.0
+      ]
+    },
+    "NBAAWAYPLAYER4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1464.0
+      ]
+    },
+    "NBAAWAYPLAYER5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1521.0
+      ]
+    },
+    "NBAAWAYPLAYER6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1578.0
+      ]
+    },
+    "NBAAWAYPLAYER7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1635.0
+      ]
+    },
+    "NBAAWAYPLAYER8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        1692.0
+      ]
+    },
+    "NBAAWAYPLAYERDEVCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1004.0
+      ]
+    },
+    "NBAAWAYASSTCOACH4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1054.0
+      ]
+    },
+    "NBAAWAYASSTCOACH5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1104.0
+      ]
+    },
+    "NBAAWAYASSTCOACH6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1154.0
+      ]
+    },
+    "NBAAWAYASSTCOACH7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1204.0
+      ]
+    },
+    "NBAAWAYASSTCOACH8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1254.0
+      ]
+    },
+    "NBAAWAYASSTCOACH9": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1304.0
+      ]
+    },
+    "NBAAWAYTRAINER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1585.0
+      ]
+    },
+    "NBAAWAYTRAINER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        1635.0
+      ]
+    },
+    "NBAHOMEHEADPHYSIO": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1008.0
+      ]
+    },
+    "NBAHOMEASSTCOACH1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1065.0
+      ]
+    },
+    "NBAHOMEHEADCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1122.0
+      ]
+    },
+    "NBAHOMEASSTCOACH2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1179.0
+      ]
+    },
+    "NBAHOMEASSTCOACH3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1236.0
+      ]
+    },
+    "NBAHOMEPLAYER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1293.0
+      ]
+    },
+    "NBAHOMEPLAYER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1350.0
+      ]
+    },
+    "NBAHOMEPLAYER3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1407.0
+      ]
+    },
+    "NBAHOMEPLAYER4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1464.0
+      ]
+    },
+    "NBAHOMEPLAYER5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1521.0
+      ]
+    },
+    "NBAHOMEPLAYER6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1578.0
+      ]
+    },
+    "NBAHOMEPLAYER7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1635.0
+      ]
+    },
+    "NBAHOMEPLAYER8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1128.88,
+        0.0,
+        -1692.0
+      ]
+    },
+    "NBAHOMEPLAYERDEVCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1004.0
+      ]
+    },
+    "NBAHOMEASSTCOACH4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1054.0
+      ]
+    },
+    "NBAHOMEASSTCOACH5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1104.0
+      ]
+    },
+    "NBAHOMEASSTCOACH6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1154.0
+      ]
+    },
+    "NBAHOMEASSTCOACH7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1204.0
+      ]
+    },
+    "NBAHOMEASSTCOACH8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1254.0
+      ]
+    },
+    "NBAHOMEASSTCOACH9": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1304.0
+      ]
+    },
+    "NBAHOMETRAINER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1585.0
+      ]
+    },
+    "NBAHOMETRAINER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        -1.57079637,
+        0.0
+      ],
+      "Translate": [
+        1222.88,
+        0.0,
+        -1635.0
+      ]
+    }
+  },
+  "installed_markers": {
+    "NBAHOMEHEADCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        78.0
+      ]
+    },
+    "NBAHOMEASSTCOACH1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        138.0
+      ]
+    },
+    "NBAHOMEASSTCOACH2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        198.0
+      ]
+    },
+    "NBAHOMEASSTCOACH3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        258.0
+      ]
+    },
+    "NBAHOMEPLAYER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        318.0
+      ]
+    },
+    "NBAHOMEPLAYER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        378.0
+      ]
+    },
+    "NBAHOMEPLAYER3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        438.0
+      ]
+    },
+    "NBAHOMEPLAYER4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        498.00000000000006
+      ]
+    },
+    "NBAHOMEPLAYER5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        558.0
+      ]
+    },
+    "NBAHOMEPLAYER6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        618.0
+      ]
+    },
+    "NBAHOMEPLAYER7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        678.0
+      ]
+    },
+    "NBAHOMEPLAYER8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        738.0
+      ]
+    },
+    "NBAHOMEPLAYERDEVCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        798.0
+      ]
+    },
+    "NBAHOMEASSTCOACH4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        858.0
+      ]
+    },
+    "NBAHOMEASSTCOACH5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        918.0
+      ]
+    },
+    "NBAHOMEASSTCOACH6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        977.9999999999999
+      ]
+    },
+    "NBAHOMEASSTCOACH7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        1038.0
+      ]
+    },
+    "NBAHOMEASSTCOACH8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        1098.0
+      ]
+    },
+    "NBAHOMEASSTCOACH9": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        1158.0
+      ]
+    },
+    "NBAHOMEHEADPHYSIO": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        1218.0
+      ]
+    },
+    "NBAHOMETRAINER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        1278.0
+      ]
+    },
+    "NBAHOMETRAINER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        1338.0
+      ]
+    },
+    "NBAAWAYHEADCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -78.0
+      ]
+    },
+    "NBAAWAYASSTCOACH1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -138.0
+      ]
+    },
+    "NBAAWAYASSTCOACH2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -198.0
+      ]
+    },
+    "NBAAWAYASSTCOACH3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -258.0
+      ]
+    },
+    "NBAAWAYPLAYER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -318.0
+      ]
+    },
+    "NBAAWAYPLAYER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -378.0
+      ]
+    },
+    "NBAAWAYPLAYER3": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -438.0
+      ]
+    },
+    "NBAAWAYPLAYER4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -498.00000000000006
+      ]
+    },
+    "NBAAWAYPLAYER5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -558.0
+      ]
+    },
+    "NBAAWAYPLAYER6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -618.0
+      ]
+    },
+    "NBAAWAYPLAYER7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -678.0
+      ]
+    },
+    "NBAAWAYPLAYER8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -738.0
+      ]
+    },
+    "NBAAWAYPLAYERDEVCOACH": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -798.0
+      ]
+    },
+    "NBAAWAYASSTCOACH4": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -858.0
+      ]
+    },
+    "NBAAWAYASSTCOACH5": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -918.0
+      ]
+    },
+    "NBAAWAYASSTCOACH6": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -977.9999999999999
+      ]
+    },
+    "NBAAWAYASSTCOACH7": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -1038.0
+      ]
+    },
+    "NBAAWAYASSTCOACH8": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -1098.0
+      ]
+    },
+    "NBAAWAYASSTCOACH9": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -1158.0
+      ]
+    },
+    "NBAAWAYHEADPHYSIO": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -1218.0
+      ]
+    },
+    "NBAAWAYTRAINER1": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -1278.0
+      ]
+    },
+    "NBAAWAYTRAINER2": {
+      "Type": "MARKER",
+      "Rotate": [
+        0.0,
+        1.57079637,
+        0.0
+      ],
+      "Translate": [
+        -860.0,
+        0.0,
+        -1338.0
+      ]
+    }
+  },
+  "layout": [
+    {
+      "marker": "NBAHOMEHEADCOACH",
+      "team": "HOME",
+      "role": "HEADCOACH",
+      "source_position_m": [
+        -0.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        78.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH1",
+      "team": "HOME",
+      "role": "ASSTCOACH1",
+      "source_position_m": [
+        -1.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        138.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH2",
+      "team": "HOME",
+      "role": "ASSTCOACH2",
+      "source_position_m": [
+        -1.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        198.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH3",
+      "team": "HOME",
+      "role": "ASSTCOACH3",
+      "source_position_m": [
+        -2.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        258.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER1",
+      "team": "HOME",
+      "role": "PLAYER1",
+      "source_position_m": [
+        -3.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        318.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER2",
+      "team": "HOME",
+      "role": "PLAYER2",
+      "source_position_m": [
+        -3.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        378.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER3",
+      "team": "HOME",
+      "role": "PLAYER3",
+      "source_position_m": [
+        -4.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        438.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER4",
+      "team": "HOME",
+      "role": "PLAYER4",
+      "source_position_m": [
+        -4.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        498.00000000000006
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER5",
+      "team": "HOME",
+      "role": "PLAYER5",
+      "source_position_m": [
+        -5.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        558.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER6",
+      "team": "HOME",
+      "role": "PLAYER6",
+      "source_position_m": [
+        -6.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        618.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER7",
+      "team": "HOME",
+      "role": "PLAYER7",
+      "source_position_m": [
+        -6.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        678.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYER8",
+      "team": "HOME",
+      "role": "PLAYER8",
+      "source_position_m": [
+        -7.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        738.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEPLAYERDEVCOACH",
+      "team": "HOME",
+      "role": "PLAYERDEVCOACH",
+      "source_position_m": [
+        -7.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        798.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH4",
+      "team": "HOME",
+      "role": "ASSTCOACH4",
+      "source_position_m": [
+        -8.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        858.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH5",
+      "team": "HOME",
+      "role": "ASSTCOACH5",
+      "source_position_m": [
+        -9.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        918.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH6",
+      "team": "HOME",
+      "role": "ASSTCOACH6",
+      "source_position_m": [
+        -9.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        977.9999999999999
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH7",
+      "team": "HOME",
+      "role": "ASSTCOACH7",
+      "source_position_m": [
+        -10.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        1038.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH8",
+      "team": "HOME",
+      "role": "ASSTCOACH8",
+      "source_position_m": [
+        -10.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        1098.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEASSTCOACH9",
+      "team": "HOME",
+      "role": "ASSTCOACH9",
+      "source_position_m": [
+        -11.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        1158.0
+      ]
+    },
+    {
+      "marker": "NBAHOMEHEADPHYSIO",
+      "team": "HOME",
+      "role": "HEADPHYSIO",
+      "source_position_m": [
+        -12.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        1218.0
+      ]
+    },
+    {
+      "marker": "NBAHOMETRAINER1",
+      "team": "HOME",
+      "role": "TRAINER1",
+      "source_position_m": [
+        -12.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        1278.0
+      ]
+    },
+    {
+      "marker": "NBAHOMETRAINER2",
+      "team": "HOME",
+      "role": "TRAINER2",
+      "source_position_m": [
+        -13.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        1338.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYHEADCOACH",
+      "team": "AWAY",
+      "role": "HEADCOACH",
+      "source_position_m": [
+        0.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -78.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH1",
+      "team": "AWAY",
+      "role": "ASSTCOACH1",
+      "source_position_m": [
+        1.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -138.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH2",
+      "team": "AWAY",
+      "role": "ASSTCOACH2",
+      "source_position_m": [
+        1.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -198.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH3",
+      "team": "AWAY",
+      "role": "ASSTCOACH3",
+      "source_position_m": [
+        2.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -258.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER1",
+      "team": "AWAY",
+      "role": "PLAYER1",
+      "source_position_m": [
+        3.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -318.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER2",
+      "team": "AWAY",
+      "role": "PLAYER2",
+      "source_position_m": [
+        3.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -378.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER3",
+      "team": "AWAY",
+      "role": "PLAYER3",
+      "source_position_m": [
+        4.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -438.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER4",
+      "team": "AWAY",
+      "role": "PLAYER4",
+      "source_position_m": [
+        4.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -498.00000000000006
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER5",
+      "team": "AWAY",
+      "role": "PLAYER5",
+      "source_position_m": [
+        5.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -558.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER6",
+      "team": "AWAY",
+      "role": "PLAYER6",
+      "source_position_m": [
+        6.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -618.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER7",
+      "team": "AWAY",
+      "role": "PLAYER7",
+      "source_position_m": [
+        6.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -678.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYER8",
+      "team": "AWAY",
+      "role": "PLAYER8",
+      "source_position_m": [
+        7.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -738.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYPLAYERDEVCOACH",
+      "team": "AWAY",
+      "role": "PLAYERDEVCOACH",
+      "source_position_m": [
+        7.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -798.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH4",
+      "team": "AWAY",
+      "role": "ASSTCOACH4",
+      "source_position_m": [
+        8.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -858.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH5",
+      "team": "AWAY",
+      "role": "ASSTCOACH5",
+      "source_position_m": [
+        9.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -918.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH6",
+      "team": "AWAY",
+      "role": "ASSTCOACH6",
+      "source_position_m": [
+        9.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -977.9999999999999
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH7",
+      "team": "AWAY",
+      "role": "ASSTCOACH7",
+      "source_position_m": [
+        10.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -1038.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH8",
+      "team": "AWAY",
+      "role": "ASSTCOACH8",
+      "source_position_m": [
+        10.98,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -1098.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYASSTCOACH9",
+      "team": "AWAY",
+      "role": "ASSTCOACH9",
+      "source_position_m": [
+        11.58,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -1158.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYHEADPHYSIO",
+      "team": "AWAY",
+      "role": "HEADPHYSIO",
+      "source_position_m": [
+        12.18,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -1218.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYTRAINER1",
+      "team": "AWAY",
+      "role": "TRAINER1",
+      "source_position_m": [
+        12.78,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -1278.0
+      ]
+    },
+    {
+      "marker": "NBAAWAYTRAINER2",
+      "team": "AWAY",
+      "role": "TRAINER2",
+      "source_position_m": [
+        13.38,
+        8.6,
+        0.0
+      ],
+      "game_position_cm": [
+        -860.0,
+        0.0,
+        -1338.0
+      ]
+    }
+  ],
+  "count": 44,
+  "seat_spacing_m": 0.6,
+  "seat_source_y_m": 8.6,
+  "group_centres_gap_m": 1.56,
+  "only_modified_fields": "Native role Translate and yaw follow the 180-degree photographic-world rotation; all 44 chairs and anchors stay aligned. Source coordinates in layout remain photographic coordinates.",
+  "runtime_limit": "Blacktop role-marker lookup and seated animation alignment still require one in-game check. No player, coach or crowd population resource is modified.",
+  "world_yaw_degrees": 180
+}

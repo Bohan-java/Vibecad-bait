@@ -1,0 +1,264 @@
+{
+  "revision": "R12",
+  "status": "passed",
+  "parameters": {
+    "building_x_min": -19.1,
+    "building_x_max": 2.5,
+    "facade_y": -16.3,
+    "building_back_y": -23.0,
+    "roof_height": 3.86,
+    "fence_y": -9.17,
+    "entry_x": -14.6,
+    "tree_pool": [
+      -3.4,
+      -13.4
+    ],
+    "old_planting_cut_x": 2.8,
+    "old_planting_cut_y": -12.0
+  },
+  "objects": [
+    "R12 left context The small word",
+    "R12 left context boots Chinese name",
+    "R12 left context rectangular low shop shell",
+    "R12 left context low continuous stone plinth",
+    "R12 left context deep silver bay frames and door surrounds",
+    "R12 left context window inset perimeter gaskets",
+    "R12 left context recessed lower glazing alternating 0",
+    "R12 left context upper dark transom glass",
+    "R12 left context recessed lower glazing alternating 1",
+    "R12 left context recessed lower glazing alternating 2",
+    "R12 left context flat horizontal metal grille cornice",
+    "R12 left context cornice recessed dark gaps",
+    "R12 left context boots sign slim dark ribbed panel",
+    "R12 left context boots rounded outlined dimensional lettering",
+    "R12 left context boots letter dark channel returns",
+    "R12 left context west end silver corner frames",
+    "R12 left context grey shop forecourt bedding",
+    "R12 left context near shop grey stone slab 0",
+    "R12 left context near shop grey stone slab 1",
+    "R12 left context slim linear entry drain grate",
+    "R12 left context drain cross bars",
+    "R12 left context retained garden new straight termination",
+    "R12 left context round grey tree well chamfered stone wall",
+    "R12 left context round tree well inner soil",
+    "R12 left context low dark guardrail around round tree well",
+    "R12 left context left forecourt single deciduous tree branches",
+    "R12 left context left forecourt deciduous foliage 0",
+    "R12 left context left forecourt deciduous foliage 1",
+    "R12 left context left forecourt deciduous foliage 2",
+    "R12 left context celadon ribbed round shop planters",
+    "R12 left context planter and tree pit soil",
+    "R12 left context shop topiary hidden stems",
+    "R12 left context shop clipped foliage 0",
+    "R12 left context shop clipped foliage 1",
+    "R12 left context shop clipped foliage 2",
+    "R12 left context striped parasol pole and weighted crossfoot",
+    "R12 left context folded red ivory parasol fabric umbrella ivory",
+    "R12 left context folded red ivory parasol fabric umbrella crimson",
+    "R12 left context two portable menu A frame rails",
+    "R12 left context two portable menu dark boards",
+    "R12 left context menu abstract untranscribed printed blocks"
+  ],
+  "protected_count": 635,
+  "unexpected_changes": [],
+  "lights_world_exposure_unchanged": true,
+  "trimmed_old_inferred_planting": [
+    {
+      "name": "R02 arching ornamental grass",
+      "faces_before": 19440,
+      "faces_after": 17571,
+      "far_region_unchanged": true,
+      "before": "920cc633eccefa2ede900fe0a2b72825c27546aca9676771d753074463ffee46",
+      "after": "035100a1158198e8d981e8dae5f205364769b8b5036d6bf70a6196dcab455c9b"
+    },
+    {
+      "name": "R02 broadleaf canopy 0",
+      "faces_before": 28424,
+      "faces_after": 24932,
+      "far_region_unchanged": true,
+      "before": "173d02451ffb5d84d0057f6b5e8df6ee31e68235ba2aee434156d1e892b1b23c",
+      "after": "8cc4d9f3e8d410c00816890850130479870511150ae4bc8b3004e5c77640c7cd"
+    },
+    {
+      "name": "R02 broadleaf canopy 1",
+      "faces_before": 37536,
+      "faces_after": 32662,
+      "far_region_unchanged": true,
+      "before": "89ac458244bc6b1f4d88a45dce3f69492c9420a1d1c4b897550d1057d066b82a",
+      "after": "71af323787c8d8fab2effee02087b5b2fcb5018e9de6e199ea92d2d6b64b328e"
+    },
+    {
+      "name": "R02 broadleaf canopy 2",
+      "faces_before": 28184,
+      "faces_after": 24410,
+      "far_region_unchanged": true,
+      "before": "bbc71e0594aa45946868ac9e7692238b54f7fbf5fc5c6505fdcce4e0c797c434",
+      "after": "7c28b535087ed4f30592585af13e41812555ed6099b7abb201c82fb30653f2d8"
+    },
+    {
+      "name": "R02 broadleaf canopy 3",
+      "faces_before": 9456,
+      "faces_after": 8143,
+      "far_region_unchanged": true,
+      "before": "0936a7a4d531b71aee3eeae812489b9814c3dabc3071ffce9da809574fac7f32",
+      "after": "f804c46e1526ffb9d24968637786b3c83003fbfe7489dcc6dac62724b090df3c"
+    },
+    {
+      "name": "R02 continuous low garden groundcover",
+      "faces_before": 6240,
+      "faces_after": 5815,
+      "far_region_unchanged": true,
+      "before": "5b3402242f532bc543b1cd646a57edfc8ccc7b7fedb5147c3dc65301bf794e72",
+      "after": "efb2c12390ebe29618edcd350800583dcd210ad826f00c43749fb2dcf6fa7283"
+    },
+    {
+      "name": "R02 curb expansion joints",
+      "faces_before": 720,
+      "faces_after": 654,
+      "far_region_unchanged": true,
+      "before": "e69af502be35e38f36cd4c794ae8861f496ebdab5d074171d987f18862c05adb",
+      "after": "ce95f6c0ae98b8b8352a68e6cba25408b4cdc73f43174ac7a6d08bd8e27e2106"
+    },
+    {
+      "name": "R02 curving raised stone edges",
+      "faces_before": 2880,
+      "faces_after": 2616,
+      "far_region_unchanged": true,
+      "before": "9e07faee2da2ac3968563381880f8b460fc55f27f4df9c0a26d1744d655a944e",
+      "after": "487b67ff69136f1801d790694615b0bcc8d3bce41784f02510c144ac243dae08"
+    },
+    {
+      "name": "R02 fine white flower florets",
+      "faces_before": 117312,
+      "faces_after": 105867,
+      "far_region_unchanged": true,
+      "before": "df5cdc66fe6bd4cff20f76b9cf17a3cd226885b37814fb1aeb9c0a8681d44235",
+      "after": "7a60821cac6ece7ded45d0f2d29c3333ae9f2c8b026b5fa524abd7ff1dbdcf88"
+    },
+    {
+      "name": "R02 flowerbed natural stones",
+      "faces_before": 864,
+      "faces_after": 508,
+      "far_region_unchanged": true,
+      "before": "2d10994595923320469c3d22140d7de388ba7cbcb3ac7b79edabdc9ae7b6f59c",
+      "after": "34a9c0c0e7c78f0c7c08ddefe98db811f4607bcf30701ce1b23849054452077c"
+    },
+    {
+      "name": "R02 grass warm tips",
+      "faces_before": 4320,
+      "faces_after": 3904,
+      "far_region_unchanged": true,
+      "before": "4291bcd99ebe29f07190fab68c0268f9de67815928b778e40cbb6d8c8b619e0f",
+      "after": "42dff77b1e11f0c3439fba03868914c642c58473116b1be0a3edda4937d43c4d"
+    },
+    {
+      "name": "R02 low groundcover leaf clusters 0",
+      "faces_before": 50376,
+      "faces_after": 44672,
+      "far_region_unchanged": true,
+      "before": "a509d68cc04bc789b13fdc1e9998b90bcb92e5111cecea8c00ed8de618191207",
+      "after": "ad76c5e62b005af04ae561be03283efe8e01b14756bc6a651aa28f8f7fd014db"
+    },
+    {
+      "name": "R02 low groundcover leaf clusters 1",
+      "faces_before": 49312,
+      "faces_after": 43960,
+      "far_region_unchanged": true,
+      "before": "90c2ab3e543343c3a5df73db4649889ccf7ad30825f9df8ec347d05ec1104b5d",
+      "after": "a894616372d45216b73d29f87755f416af4c80e19b602cf7b7f2835bbbafd302"
+    },
+    {
+      "name": "R02 low groundcover leaf clusters 2",
+      "faces_before": 49584,
+      "faces_after": 43644,
+      "far_region_unchanged": true,
+      "before": "6db5fd105f22b37ab5523bdbf087a85d0df7feb37410f05fab3116610a276502",
+      "after": "2213289acd5747ebb7cde5b51467ec30e67706f1150f55f505496e8ba8c1002d"
+    },
+    {
+      "name": "R02 organic planted ground",
+      "faces_before": 5,
+      "faces_after": 5,
+      "far_region_unchanged": true,
+      "before": "fc9cdb63749e674efb880544295136d5b036ac6832a9c2899203ef035c52c3e1",
+      "after": "6dfe31e52cdaf3ab935fdef8bb4638f657289f4d01c5a9f9b6b9efcaf5265e71"
+    },
+    {
+      "name": "R02 shrub leaves 0",
+      "faces_before": 24860,
+      "faces_after": 23970,
+      "far_region_unchanged": true,
+      "before": "76110bfa52acf026476120f9c1c1be3c90b380783daa7089b3dace17cc8dc3bc",
+      "after": "e241534c76935d028933689ed29ec54c4f407ce3867fd31d21c68743235b2307"
+    },
+    {
+      "name": "R02 shrub leaves 1",
+      "faces_before": 23896,
+      "faces_after": 22889,
+      "far_region_unchanged": true,
+      "before": "33efdb91ec1f7573a96c18fe1c7c35fac9fa15a31f1a5fb259334ce182bd8886",
+      "after": "0fd6cde5d125b9cbc4e4b5740c6e9dd5c1f901c893f7e8369a4c59d9a2e7d0c5"
+    },
+    {
+      "name": "R02 shrub leaves 2",
+      "faces_before": 24344,
+      "faces_after": 23503,
+      "far_region_unchanged": true,
+      "before": "d12c7d8dd63ee91f73269f7c2db44c28c5d97c23c0a9f3a5baa8cc649777b2eb",
+      "after": "ad3311f99787e86fd858ca3ee343fe319a4740a652706c6d50a02412ecb699b4"
+    },
+    {
+      "name": "R02 shrub twig structure",
+      "faces_before": 2550,
+      "faces_after": 2460,
+      "far_region_unchanged": true,
+      "before": "a6ce09d60741b62853fd767fc7e86d0ebbd07daf4e7449f4b83d71ae27f852fa",
+      "after": "d402e5bc3d9c6e09a6244d8e025e75be844373dc51522ee475f3aa9f7b9d48d6"
+    },
+    {
+      "name": "R02 trees branching trunks",
+      "faces_before": 2574,
+      "faces_after": 2290,
+      "far_region_unchanged": true,
+      "before": "ec18669fad09f427118958db0f1f4cf1f7ff2c8c8c1c88189d6e71675e4cdf1e",
+      "after": "4e8f8abf9363be6633c333a1a9824051619f8540f508a688cca399ee6d2dc335"
+    },
+    {
+      "name": "R02 white allium flower stems",
+      "faces_before": 53392,
+      "faces_after": 48203,
+      "far_region_unchanged": true,
+      "before": "629ccb725870cbf30439ec3b1755c2dc4288802db2a4c546938ba81418192c24",
+      "after": "ac458286b4b3946eba9e535d37c5f844e5d89a95284e289e8049f30620242d47"
+    }
+  ],
+  "game_verified": false,
+  "evidence": [
+    {
+      "images": "01,02,03",
+      "finding": "Left court fence and basket share one frame. Low metal/glass shop extends beyond the left fence, separate from Chilis."
+    },
+    {
+      "images": "04,05,06",
+      "finding": "Repeated fence posts and A sign preserve overlap; boots wordmark appears toward the basket end below Xinzhongguan tower."
+    },
+    {
+      "images": "07",
+      "finding": "Independent side angle supports the shop and left fence relationship; not a continuous camera track."
+    },
+    {
+      "images": "08",
+      "finding": "Flat horizontal cornice, vertical glass ribs, silver doors, boots sign, round stone tree well/low guardrail, striped folded parasol, ball topiary planters, two portable notice boards."
+    }
+  ],
+  "limits": [
+    "Exact setbacks, overall footprint, heights and individual object offsets are inferred from photo proportions; no surveyed dimensions.",
+    "Photo 08 seasonal snow is excluded. Summer foliage is reconstructed on the visible tree skeleton.",
+    "Native-safe opaque recessed glass representation does not reproduce optical glass transparency.",
+    "Foreground objects belong to the shop forecourt, not arbitrarily attached to the court fence.",
+    "Original basketball fence, high left lamp, Chili building, court and hoops are unchanged. Skyline is handled by the root module."
+  ],
+  "material_policy": "Native static opaque PBR, no emission, geometry lettering and details",
+  "output": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r12-left\\scene-left.blend",
+  "sha256": "081897e024660a69c5240a1b54c645793b583145f6852c505466f9578bce32c5"
+}

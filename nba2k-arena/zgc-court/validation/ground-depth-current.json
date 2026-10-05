@@ -1,0 +1,14 @@
+{
+  "policy": "R08 restore unbiased native opaque floor depth",
+  "model": "zgc_r03:part-0772",
+  "material": "zgc_r03:material_206",
+  "selection": "source_object court_surface with native geometry validation",
+  "removed": [],
+  "biased_camera_fields_remaining": 0,
+  "r07_feedback": "Player indicator disappears depending on position; -5 slope bias is withdrawn.",
+  "geometry_unchanged": true,
+  "game_tested": false,
+  "limitations": [
+    "External native court lines are independent; removing depth bias alone does not remove them."
+  ]
+}

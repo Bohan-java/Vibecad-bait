@@ -1,0 +1,86 @@
+{
+  "method": "Fit camera rotation/translation to a known-size vertical backboard at fixed focal lengths, then invert the ground-plane homography for the white badge pixels.",
+  "reference": "references\\part1\\04_远端篮架与边界_00-22.15.png",
+  "image_dimensions": [
+    576,
+    1024
+  ],
+  "board_corners_pixels_clockwise_from_top_left": [
+    [
+      167.0,
+      273.0
+    ],
+    [
+      317.0,
+      287.0
+    ],
+    [
+      314.0,
+      378.0
+    ],
+    [
+      162.0,
+      365.0
+    ]
+  ],
+  "assumptions": [
+    "Backboard outer reference rectangle 1.8288 x 1.0668 m, bottom 2.7432 m above ground.",
+    "Square pixels; principal point at image centre; no lens distortion.",
+    "Focal length is unknown; samples are sensitivity estimates, not recovered camera calibration."
+  ],
+  "limitations": [
+    "Frame edges are manually placed within approximately 2 pixels.",
+    "The board is nearly frontal and the photograph may be cropped, making focal length/ground aspect poorly constrained.",
+    "Ratios cannot be called measured real-world dimensions; compare other photographs and brand plaque silhouette."
+  ],
+  "samples": [
+    {
+      "assumed_focal_pixels": 550,
+      "board_reprojection_rms_pixels": 0.9301643014683622,
+      "camera_height_m": 1.621967099589674,
+      "badge_width_m": 2.4438504155170686,
+      "badge_length_m": 1.5083158163899886,
+      "length_to_width": 0.617188272577174
+    },
+    {
+      "assumed_focal_pixels": 650,
+      "board_reprojection_rms_pixels": 0.9137158958041507,
+      "camera_height_m": 1.6872514176242435,
+      "badge_width_m": 2.403931085640182,
+      "badge_length_m": 1.7800250428426514,
+      "length_to_width": 0.7404642560161493
+    },
+    {
+      "assumed_focal_pixels": 750,
+      "board_reprojection_rms_pixels": 0.8591656215468239,
+      "camera_height_m": 1.6700300611280157,
+      "badge_width_m": 2.3170958387599283,
+      "badge_length_m": 2.0822546405865534,
+      "length_to_width": 0.8986484744200058
+    },
+    {
+      "assumed_focal_pixels": 850,
+      "board_reprojection_rms_pixels": 0.7862300360512685,
+      "camera_height_m": 1.5949695150700154,
+      "badge_width_m": 2.215163545736132,
+      "badge_length_m": 2.4097654472585757,
+      "length_to_width": 1.0878499025035981
+    },
+    {
+      "assumed_focal_pixels": 950,
+      "board_reprojection_rms_pixels": 0.7134800688885578,
+      "camera_height_m": 1.4836178113354388,
+      "badge_width_m": 2.1055620741134407,
+      "badge_length_m": 2.7660398673983146,
+      "length_to_width": 1.3136824135488725
+    },
+    {
+      "assumed_focal_pixels": 1050,
+      "board_reprojection_rms_pixels": 0.6477502682477884,
+      "camera_height_m": 1.3513821662391132,
+      "badge_width_m": 1.9968417484995467,
+      "badge_length_m": 3.162954812820335,
+      "length_to_width": 1.5839787079757428
+    }
+  ]
+}

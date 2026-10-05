@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#171916">
+  <title>中关村大融城 · 球场工作室</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three/build/three.module.js","three/addons/":"/vendor/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="brand" href="/" aria-label="中关村大融城球场预览"><span class="brand-mark">Z</span><span>中关村大融城<small>COURT STUDY / 球场复原</small></span></a>
+    <div class="header-right"><span class="live-pill"><i id="connection-dot"></i><span id="connection-text">正在连接</span></span><span class="project-tag" id="preview-kind">NBA 2K26 · 游戏包预览</span></div>
+  </header>
+  <main>
+    <section class="workspace" aria-label="可旋转的球场三维预览">
+      <div id="viewport"></div>
+      <div class="viewport-title"><span class="eyebrow">02 / COURT &amp; PLAZA GARDEN</span><h1>球场与广场花园</h1><p>参考涂装 · 开放铺地 · 周边绿化</p></div>
+      <div class="view-top"><span id="view-name">全景</span><span class="daylight">白天基准光照</span></div>
+      <p id="view-evidence-note" class="view-evidence-note" hidden>远楼的轮廓和前后关系依据参考图；绝对距离仍为推定。</p>
+      <div id="empty-state" class="empty-state"><span class="loader"></span><strong>正在读取游戏包</strong><p>直接检查交付 IFF 中的模型与贴图。</p></div>
+      <div class="view-toolbar" role="group" aria-label="预设视角">
+        <button data-view="overview" class="active">全景</button><button data-view="top">俯视</button><button data-view="bench">右侧替补席</button><button data-view="left_shop">左侧门店</button><button data-view="skyline">周边楼群</button><button data-view="skyline_left">场内看左侧远楼</button><button data-view="skyline_open">场内看开放端远楼</button><button data-view="chilis_plan">矩形门店俯视</button><button data-view="open_floor">另一半场</button><button data-view="tall_lamp">左侧高路灯</button><button data-view="basket">篮架正面</button><button data-view="basket_side">篮架侧面</button><button data-view="basket_back">篮架背面</button><button data-view="fence_sign">围网 A 牌</button><button data-view="chilis">Chili’s 主入口</button><button data-view="chilis_sign">灯牌近看</button><button data-view="chilis_hardware">门框五金</button><button data-view="chilis_canopy">雨棚近看</button><button data-view="chilis_paving">门前灰石</button><button data-view="chilis_terrace">喷泉露台</button><button data-view="chilis_walk">店侧通道</button><button data-view="chilis_detail">露台细节</button><button data-view="sideline">侧线</button><button data-view="open">开放端</button><button data-view="garden">开放侧花园</button><button data-view="ground">地面近看</button>
+      </div>
+      <div class="interaction-hint">拖动旋转 <b>·</b> 滚轮缩放 <b>·</b> 右键平移</div>
+      <div class="viewport-bottom"><span>28.6512 × 15.24 m <i>/</i> 两端篮圈上沿 3.048 m</span><button id="reset-view" class="text-button">重置视角 ↗</button></div>
+      <div id="canvas-error" hidden></div>
+    </section>
+    <aside class="sidebar">
+      <section class="status-card">
+        <div class="section-heading"><h2>当前预览</h2><button id="rebuild" class="icon-button" title="刷新游戏包预览" aria-label="刷新当前预览">↻</button></div>
+        <div class="preview-mode" role="group" aria-label="预览内容"><button data-preview-mode="game" class="active" aria-pressed="true">游戏包预览</button><button data-preview-mode="source" aria-pressed="false">编辑源预览</button></div>
+        <div class="build-state" id="build-state" data-state="waiting"><span class="state-dot"></span><strong id="status-title">等待源模型</strong></div>
+        <p id="status-description">保存源模型或图案后，自动导出并替换预览。</p>
+        <dl class="versions"><div><dt>源工程</dt><dd id="source-version">读取中</dd></div><div><dt>当前预览</dt><dd id="preview-version">未显示</dd></div><div><dt>游戏 IFF</dt><dd id="iff-version">未生成</dd></div><div><dt>上次游戏确认</dt><dd id="game-version">未验证</dd></div></dl>
+        <p id="texture-status" class="texture-status" data-state="loading" role="status">地面贴图：等待检查</p>
+        <details id="error-details" hidden><summary>查看错误详情</summary><pre id="error-text"></pre></details>
+        <p class="small-note" id="preview-scope">模型和贴图直接来自交付 IFF。网页日光、反射和透明材质为近似显示，最终仍需一次游戏确认。</p>
+        <details class="preview-limits"><summary>预览范围</summary><p id="preview-limit-details">可检查地板图案、模型比例与材质。动态球网、球员与比赛行为不在网页模拟。</p></details>
+      </section>
+      <section class="layer-card">
+        <div class="section-heading"><h2>场景图层</h2><span>显示 / 隐藏</span></div>
+        <div class="layer-grid">
+          <label><input type="checkbox" data-layer="reference_half" checked><span>参考端设施</span></label>
+          <label><input type="checkbox" data-layer="open_half" checked><span>开放端篮架</span></label>
+          <label><input type="checkbox" data-category="ground" checked><span>连续地面</span></label>
+          <label><input type="checkbox" data-category="hoops" checked><span>两端篮架</span></label>
+          <label><input type="checkbox" data-layer="fence" checked><span>已有围网</span></label>
+          <label><input type="checkbox" data-layer="background" checked><span>商场与广场</span></label>
+        </div>
+        <div class="divider"></div>
+        <label class="wide-toggle"><span>线框检查</span><input id="wireframe" type="checkbox" role="switch"></label>
+        <p class="small-note">隐藏图层便于检查被遮挡的细节；不会改动游戏文件。</p>
+      </section>
+      <section class="reference-card">
+        <div class="section-heading"><h2>参考资料对照</h2><span id="reference-count">参考图</span></div>
+        <select id="reference-select" class="reference-select" aria-label="按编号选择参考资料" disabled><option value="">正在读取参考目录…</option></select>
+        <button id="reference-image-button" class="reference-image-button" disabled title="点击放大参考图"><img id="reference-image" alt="原始球场参考照片" hidden><span id="reference-placeholder">等待参考照片</span><span class="image-expand">↗</span></button>
+        <div class="reference-controls"><button id="reference-prev" aria-label="上一张参考图">←</button><span id="reference-caption">参考资料未加载</span><button id="reference-next" aria-label="下一张参考图">→</button></div>
+        <p class="small-note">原图40–50：Chili’s细节；51–58：左侧门店与围栏；59–67：周边远楼。远楼距离尚未实测，不同视频片段不能视为连续全景。</p>
+      </section>
+    </aside>
+  </main>
+  <footer><span>ZGC / COURT RECONSTRUCTION</span><span id="build-id">正在连接本地工程</span><span>本地运行 · 可切换两种预览</span></footer>
+  <dialog id="reference-dialog"><button id="close-reference" aria-label="关闭照片">×</button><img id="reference-large" alt="放大的原始参考照片"><p id="reference-large-caption"></p></dialog>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

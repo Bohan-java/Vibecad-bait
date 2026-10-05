@@ -1,0 +1,1954 @@
+[
+  {
+    "number": 1,
+    "title": "01_黄黑地面与图案_00-00.15",
+    "url": "/references/01.jpg",
+    "original": "references/part1/01_黄黑地面与图案_00-00.15.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "2c9b59c91831d842ff3d96d1f0966cbd284980b990fdf259043befa441edba11",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 2,
+    "title": "02_广场方向的半场_00-10.70",
+    "url": "/references/02.jpg",
+    "original": "references/part1/02_广场方向的半场_00-10.70.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "87fc0d3e9434c08edc1b4ab709b090d89e371a7e149238944dbd9b8bbb62ae7b",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 3,
+    "title": "03_开放广场方向宽景_00-19.20",
+    "url": "/references/03.jpg",
+    "original": "references/part1/03_开放广场方向宽景_00-19.20.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 4,
+    "title": "04_远端篮架与边界_00-22.15",
+    "url": "/references/04.jpg",
+    "original": "references/part1/04_远端篮架与边界_00-22.15.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "51032dcff3211fab07668afee318ae269de33e29260e905e65d743678bd31bf1",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 5,
+    "title": "05_边线大幅地面图案_00-23.10",
+    "url": "/references/05.jpg",
+    "original": "references/part1/05_边线大幅地面图案_00-23.10.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 6,
+    "title": "06_球场斜向纵深_00-24.25",
+    "url": "/references/06.jpg",
+    "original": "references/part1/06_球场斜向纵深_00-24.25.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 7,
+    "title": "07_篮架正面与商场_00-12.45",
+    "url": "/references/07.jpg",
+    "original": "references/part1/07_篮架正面与商场_00-12.45.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "9d21c3a93688b97bac8a8cd6df87b30819f8a9c6df7b2cd8b24fc2de06f4ab98",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 8,
+    "title": "08_斜向Chilis门头_00-13.85",
+    "url": "/references/08.jpg",
+    "original": "references/part1/08_斜向Chilis门头_00-13.85.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "8dae780adff3bc0cc0e94bdc8326e1eb114dbaf4388a619cf712af42a75e5203",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 9,
+    "title": "09_弧线与Chilis背景_00-17.50",
+    "url": "/references/09.jpg",
+    "original": "references/part1/09_弧线与Chilis背景_00-17.50.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "d6a592c99e6ca7d3cac49284a175b2b9f6191a627f56ef82a2f5d5c28acd7f7e",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 10,
+    "title": "10_侧看篮架与商场楼体_00-27.80",
+    "url": "/references/10.jpg",
+    "original": "references/part1/10_侧看篮架与商场楼体_00-27.80.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "dada3d130e8c80b264a0c62716d5b2092140d3344b46c04e3122a9b3ccb41a69",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 11,
+    "title": "11_低角度看篮板_00-04.90",
+    "url": "/references/11.jpg",
+    "original": "references/part1/11_低角度看篮板_00-04.90.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "205f34a7d3becf489d0b4131a831219c524035a8864961a146041d7a2e8c1dce",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 12,
+    "title": "12_篮下向外看围网_00-16.20",
+    "url": "/references/12.jpg",
+    "original": "references/part1/12_篮下向外看围网_00-16.20.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "eb14783b65de9e02d00ed55d894a3847adfb37858cb3758f9ffc8f193c18287f",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 13,
+    "title": "13_围网转角与建筑_00-20.70",
+    "url": "/references/13.jpg",
+    "original": "references/part1/13_围网转角与建筑_00-20.70.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "9397c2c3f59fe0bdf30467f2f69cc71c8fbe5aaee1869aa7818eac1867788acf",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 14,
+    "title": "14_篮板篮圈和围网细节_00-21.40",
+    "url": "/references/14.jpg",
+    "original": "references/part2/14_篮板篮圈和围网细节_00-21.40.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "d6d884f35bbebc01a2bbc3e1df39a188c7ff7c957a79fa2cd4ff80be5b66ea67",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 15,
+    "title": "15_篮下仰视与圆形棚_00-28.95",
+    "url": "/references/15.jpg",
+    "original": "references/part2/15_篮下仰视与圆形棚_00-28.95.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "3be9dd39e125ec0cf7ca5e2b11cbd04acb8199c65bc580b038431bf5a240ca4a",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 16,
+    "title": "16_篮下另一侧与绿化_00-29.80",
+    "url": "/references/16.jpg",
+    "original": "references/part2/16_篮下另一侧与绿化_00-29.80.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "17bc1cdf861c6edc3f694a79b19c16472ff4746f6c276c6e5bdc6c208e59ac83",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 17,
+    "title": "17_黑白边界涂装细节_00-04.10",
+    "url": "/references/17.jpg",
+    "original": "references/part2/17_黑白边界涂装细节_00-04.10.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "54055187074c6d3e2b49bc85874abfe9add56003bdaffcb270522c0e28297976",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 18,
+    "title": "18_黄色区域及围网边界_00-11.55",
+    "url": "/references/18.jpg",
+    "original": "references/part2/18_黄色区域及围网边界_00-11.55.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "970cb06e5ec94018a216e499f463c075b43f18ec857ec847f19b049be75e65ca",
+    "visible_subject": "地面图案",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "A"
+  },
+  {
+    "number": 19,
+    "title": "19_篮筐与Chili’s同框",
+    "url": "/references/19.jpg",
+    "original": "references/part2/19_篮筐与Chili’s同框.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "fa8c1e870dbcfbbb687e92920e146b7d117640a7bb63a1be124ff57fab76e96b",
+    "visible_subject": "篮架与围网",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "B"
+  },
+  {
+    "number": 20,
+    "title": "20_从休息区望向球场",
+    "url": "/references/20.jpg",
+    "original": "references/part2/20_从休息区望向球场.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "797c76a0199951fb77b9e03d227f1d653350cf648ec1dd9e0835c3548244925d",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "B"
+  },
+  {
+    "number": 21,
+    "title": "21_日照下的场地与圆形棚",
+    "url": "/references/21.jpg",
+    "original": "references/part2/21_日照下的场地与圆形棚.png",
+    "original_dimensions": [
+      510,
+      778
+    ],
+    "sha256": "b94526d87cc33f95a4054ad4a712594b927ceb88ee9d27691d09bad7ef3a8276",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "C"
+  },
+  {
+    "number": 22,
+    "title": "22_对面开放广场_柳树与起伏铺地_00-06.05",
+    "url": "/references/22.jpg",
+    "original": "references/part2/22_对面开放广场_柳树与起伏铺地_00-06.05.jpg",
+    "original_dimensions": [
+      1180,
+      632
+    ],
+    "sha256": "80770152b9b99a0301eb0cdec7b0177900a11ba23abc3c3142ba76c40001f165",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "D"
+  },
+  {
+    "number": 23,
+    "title": "23_开放侧左缘_ART-PARK标识_00-10.73",
+    "url": "/references/23.jpg",
+    "original": "references/part2/23_开放侧左缘_ART-PARK标识_00-10.73.jpg",
+    "original_dimensions": [
+      1180,
+      632
+    ],
+    "sha256": "46636191e855196c91e68edc86d641fe4c92c8eebc86f4a09941b2029d5bc530",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "D"
+  },
+  {
+    "number": 24,
+    "title": "24_同一广场右缘_园路与树池_00-01.07",
+    "url": "/references/24.jpg",
+    "original": "references/part2/24_同一广场右缘_园路与树池_00-01.07.jpg",
+    "original_dimensions": [
+      1180,
+      632
+    ],
+    "sha256": "4ce91ae852ff95c3c4198567b5888219062b1ff3424c81232884645895ab4f5c",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "D"
+  },
+  {
+    "number": 25,
+    "title": "25_广场边缘_花境与桌椅_01-55.35",
+    "url": "/references/25.jpg",
+    "original": "references/part2/25_广场边缘_花境与桌椅_01-55.35.jpg",
+    "original_dimensions": [
+      1180,
+      632
+    ],
+    "sha256": "49de8d583b4c2d85d3412d3a55fad26a8e5aede9817fe45ea264a27b00247433",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "D"
+  },
+  {
+    "number": 26,
+    "title": "26_对面广场右半部_展板与凉亭_00-03.91",
+    "url": "/references/26.jpg",
+    "original": "references/part2/26_对面广场右半部_展板与凉亭_00-03.91.jpg",
+    "original_dimensions": [
+      1180,
+      632
+    ],
+    "sha256": "956da67e66ccbee8869d2f17e9f0de9c112e7ffc96c7056dba0b5bcd6efcb62d",
+    "visible_subject": "商场与开放广场",
+    "confidence": "外观可见；空间尺度未知",
+    "source": "D"
+  },
+  {
+    "number": 27,
+    "title": "27 · 实景 · 南入口看双层弧形建筑",
+    "url": "/references/27.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/01_南入口看双层弧形建筑.jpg",
+    "original_dimensions": [
+      1080,
+      629
+    ],
+    "sha256": "2e12235bf926b5d5bfd858a18cb525f405b01bdca7b15aec3407aa1029183590",
+    "visible_subject": "弧形建筑上下层、Chili’s与Starbucks标识、南入口顶盖高差",
+    "confidence": "建筑外形可见；拍摄日期及精确空间尺度未知",
+    "source": "Chilis supplement",
+    "reference_type": "实景",
+    "source_url": "https://www.archiposition.com/items/a0e1323ee4",
+    "source_name": "有方 / BIAD；摄影：刘羽",
+    "published_date": "2026-08-31",
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1080,
+      629
+    ],
+    "preview_sha256": "996091a18a7d227bec72179603719de289b873a11db79bcf5bf97bfb386854ab",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 28,
+    "title": "28 · 视频截图 · Chili’s正面招牌及檐口（02:59.19）",
+    "url": "/references/28.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/02_Chilis正面招牌及檐口_0259.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "5a1da72c661d689d5a618982e4ec6b0ec197c2cf1f50f7f11070dfed8ef4e085",
+    "visible_subject": "连续金属檐口、玻璃立面、柱线、招牌与布雨篷",
+    "confidence": "冬季360P公开视频；保留水印字幕；外观细部有限",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "02:59.19",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "60932d6d91851590c6d863c59a0d56bc4c5d94d1cae246a779dcc431961bafbf",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 29,
+    "title": "29 · 视频截图 · Chili’s弧形转角与球场围网（03:00.98）",
+    "url": "/references/29.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/03_Chilis弧形转角与球场围网_0301.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "9d122b081e25acd373e502aa1e9820c8ca500270adab0b7f912ea699c5ed4eb3",
+    "visible_subject": "玻璃弧形转角与近处球场高围网的相对布置",
+    "confidence": "相对位置有画面依据；不能据透视直接测距",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:00.98",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "724c240891a2fedae5ccaa8499d1b4fbe71cdee45621dfbe1390f7302aea1b6c",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 30,
+    "title": "30 · 视频截图 · 沿弧形转角看露台步道（03:07.71）",
+    "url": "/references/30.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/04_沿弧形转角看露台步道_0308.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "e59a840d7195d517fd9682a91065dc54e860a646c65c1d81568d22b66757635f",
+    "visible_subject": "弧形玻璃外墙、室外用餐面、连续栏杆步道与The boots店铺",
+    "confidence": "可参考外轮廓与通行带关系；精确间距未知",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:07.71",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "dfca5cec1e68854071df31a8eded35717b1994d0e54fd09ecc63ce297997985e",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 31,
+    "title": "31 · 视频截图 · Chili’s露台与LINK同框（03:08.43）",
+    "url": "/references/31.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/05_Chilis露台与LINK同框_0308.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "ce8e5462a28eee4fc574c05b205d132efbbf37119425a851a7272fbb0aa105e6",
+    "visible_subject": "Chili’s露台与雨篷、The boots、后方LINK PLAZA的前后层次",
+    "confidence": "可核对遮挡关系；不直接测量建筑间距",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:08.43",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "f4c0d6231811319c82e963c9748e6c7624db1a86e899ed5f55c0f3ef911e8b89",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 32,
+    "title": "32 · 视频截图 · 较低活动区仰看LINK与弧形建筑（02:47.81）",
+    "url": "/references/32.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/06_较低活动区仰看LINK与弧形建筑_0248.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "7abe2beaf2857c0dac15787a663812ab3d1b28c226f484a67e7aefc0ba3523a4",
+    "visible_subject": "较低橙黄色活动区、玻璃栏杆、LINK与弧形建筑的高差层次",
+    "confidence": "层次与高差可见；不能凭单帧确认所有店铺",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "02:47.81",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "e139babb567ce023972e5623660d88896a59bbe0ca282b0275f1f3e6344f2def",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 33,
+    "title": "33 · 视频截图 · Chili’s正面与屋顶突出体（03:34.06）",
+    "url": "/references/33.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/07_Chilis正面与屋顶突出体_0334.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "997b3cc83e17189cf5d718f638ef4e95577c8dcfa1cfbb1b6df65491c02c50d4",
+    "visible_subject": "正面玻璃分格、上沿与后方矩形屋顶突出体",
+    "confidence": "顶部轮廓可见；下部受人物遮挡；突出体用途未知",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:34.06",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "2bc5abac372d19e4265e9b8ffee4ef9b62c0ff198e3253f9fcb805db3560dbe8",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 34,
+    "title": "34 · 视频截图 · Chili’s电梯凹口与侧墙（03:03.82）",
+    "url": "/references/34.jpg",
+    "original": "references/chilis/01_Chilis建筑与空间关系/08_Chilis电梯凹口与侧墙_0304.jpg",
+    "original_dimensions": [
+      1188,
+      761
+    ],
+    "sha256": "caee0c97323bedb9eacfe6e7da15d1cb205ae27966c512cc11fc3ebc7dfbf728",
+    "visible_subject": "橙棕色凹口、电梯门、顶棚分格与雨篷端部",
+    "confidence": "侧面构造可见；电梯服务楼层未知",
+    "source": "Chilis supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_name": "Bilibili / 我是峻范",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:03.82",
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1188,
+      761
+    ],
+    "preview_sha256": "17af1d9cec21fbcbad69d1fd2ecf88ae2043cd3b0112dd9ff76645d54cc57b41",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 35,
+    "title": "35 · 实景 · 领展建筑官方外立面",
+    "url": "/references/35.jpg",
+    "original": "references/chilis/02_LINK与俯视参照/01_领展建筑_官方外立面.jpg",
+    "original_dimensions": [
+      1000,
+      750
+    ],
+    "sha256": "fcaf4ad0506fc96f9d7f16592d82cfb48cdbf23814b8ed24cdf4d55b61687e3c",
+    "visible_subject": "红色横条、米色立面与LINK PLAZA标识",
+    "confidence": "建筑外立面实景；未包含球场；拍摄日期未知",
+    "source": "Chilis supplement",
+    "reference_type": "实景",
+    "source_url": "https://www.linkreit.com/sc/business/properties/link-plaza-zhongguancun/",
+    "source_name": "领展官方物业页面",
+    "published_date": null,
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1000,
+      750
+    ],
+    "preview_sha256": "5aa2baafe05031f2e8624c285f5ddb99c603507ff2105304988855b69630f573",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 36,
+    "title": "36 · 实景 · 领展建筑官方玻璃转角",
+    "url": "/references/36.jpg",
+    "original": "references/chilis/02_LINK与俯视参照/02_领展建筑_官方玻璃转角.jpg",
+    "original_dimensions": [
+      1000,
+      753
+    ],
+    "sha256": "7535fefabdd30bdc8e930a7230a0fb0dd7fc1012d4d49b113d3d59bd60366bd5",
+    "visible_subject": "玻璃转角、沿街体量与楼面标识",
+    "confidence": "建筑外立面实景；未包含球场或Chili’s；拍摄日期未知",
+    "source": "Chilis supplement",
+    "reference_type": "实景",
+    "source_url": "https://www.linkreit.com/sc/business/properties/link-plaza-zhongguancun/",
+    "source_name": "领展官方物业页面",
+    "published_date": null,
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1000,
+      753
+    ],
+    "preview_sha256": "cc0fa57aeb67747d46e1c4eebbee7c9799a0129cfa21fcf84e55a1a259ee178c",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 37,
+    "title": "37 · 旧卫星底图 · 项目边界与周边街块",
+    "url": "/references/37.jpg",
+    "original": "references/chilis/02_LINK与俯视参照/03_项目边界_官方旧卫星底图.png",
+    "original_dimensions": [
+      1080,
+      549
+    ],
+    "sha256": "afcd3e17f5edd0dba07ff7b4cd923a603649f81ba232167cf319d2671d6af142",
+    "visible_subject": "旧卫星底图及官方项目边界标注",
+    "confidence": "底图明显早于当前运营场景；仅参考边界与街块，不代表当前球场布局",
+    "source": "Chilis supplement",
+    "reference_type": "旧卫星底图",
+    "source_url": "https://xinwen.bjd.com.cn/content/s68f249d2d5de24ab68395981.html",
+    "source_name": "北京日报客户端 / 北京规划自然资源",
+    "published_date": "2025-10-17",
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1080,
+      549
+    ],
+    "preview_sha256": "3f6ac2d8c0367c5a3872704d688336caf66412ada281a8d1e905089c011c80d3",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 38,
+    "title": "38 · 规划叠图 · 官方空间规划标注图",
+    "url": "/references/38.jpg",
+    "original": "references/chilis/02_LINK与俯视参照/04_空间规划_官方标注图.png",
+    "original_dimensions": [
+      1080,
+      701
+    ],
+    "sha256": "cd7598919e1674ba18739fb03265ec97c6a7c49483cac61a583ce5c88b94e580",
+    "visible_subject": "中央舞台区、公园绿谷区等规划分区",
+    "confidence": "含设计示意，非实拍或现状测绘；不能据此确定当前围网位置",
+    "source": "Chilis supplement",
+    "reference_type": "规划叠图",
+    "source_url": "https://xinwen.bjd.com.cn/content/s68f249d2d5de24ab68395981.html",
+    "source_name": "北京日报客户端 / 北京规划自然资源",
+    "published_date": "2025-10-17",
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1080,
+      701
+    ],
+    "preview_sha256": "699f796246ecf6b5e91c0f89cf0972af2193de8a93e53f5e3a01380e924dd179",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 39,
+    "title": "39 · 设计总平面 · BIAD总平面图",
+    "url": "/references/39.jpg",
+    "original": "references/chilis/02_LINK与俯视参照/05_BIAD总平面图_2026发表.jpg",
+    "original_dimensions": [
+      1080,
+      731
+    ],
+    "sha256": "ce1adaa03cb24bd32c549b7c42d18054e04af24e4f9428a7a109cb950b1f3252",
+    "visible_subject": "建筑与路径几何、北向箭头及图纸50米比例尺",
+    "confidence": "设计图纸未直接标注Chili’s或固定半场；图纸比例尺不能证明照片中的建筑间距",
+    "source": "Chilis supplement",
+    "reference_type": "设计总平面",
+    "source_url": "https://www.archiposition.com/items/a0e1323ee4",
+    "source_name": "有方 / BIAD设计图纸",
+    "published_date": "2026-08-31",
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis/说明与来源.txt",
+    "preview_dimensions": [
+      1080,
+      731
+    ],
+    "preview_sha256": "0d70765fef9095f39fbf7d627c73f727225517243cfa06b810572615376d1e40",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 40,
+    "title": "40 · 新增 · 露台正立面与招牌_Tripadvisor管理方_2026年6月",
+    "url": "/references/40.jpg",
+    "original": "references/chilis-detail/01_新增原图/01_露台正立面与招牌_Tripadvisor管理方_2026年6月.jpg",
+    "original_dimensions": [
+      1000,
+      758
+    ],
+    "sha256": "5b36559af0f306cf4e36aad635e67cd0e5cbe3d528e5b5a498a106f64bd2141d",
+    "visible_subject": "露台正立面与招牌_Tripadvisor管理方_2026年6月",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "实景",
+    "source_url": "https://www.tripadvisor.com/Restaurant_Review-g294212-d34412995-Reviews-Chili_s_Cafe_and_Bar_ART_PARK-Beijing.html",
+    "published_date": "2026-06",
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1000,
+      758
+    ],
+    "preview_sha256": "5b36559af0f306cf4e36aad635e67cd0e5cbe3d528e5b5a498a106f64bd2141d",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 41,
+    "title": "41 · 新增 · 主入口门窗与字位_iziRetail_2026年1月",
+    "url": "/references/41.png",
+    "original": "references/chilis-detail/01_新增原图/02_主入口门窗与字位_iziRetail_2026年1月.png",
+    "original_dimensions": [
+      1080,
+      720
+    ],
+    "sha256": "2c618e7bd7ebc833584b5311035ccb8e6a82b6c533f93cf8ff2839945bd7d512",
+    "visible_subject": "主入口门窗与字位_iziRetail_2026年1月",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "实景",
+    "source_url": "https://www.sohu.com/a/978019233_121119292",
+    "published_date": "2026-01-20",
+    "captured_date": null,
+    "video_time": null,
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1080,
+      720
+    ],
+    "preview_sha256": "2c618e7bd7ebc833584b5311035ccb8e6a82b6c533f93cf8ff2839945bd7d512",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 42,
+    "title": "42 · 新增 · 侧棚字标与竖向 COFFEE 招牌",
+    "url": "/references/42.jpg",
+    "original": "references/chilis-detail/01_新增原图/03_侧棚字标与竖向 COFFEE 招牌.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "6e663d03df441805dfaa274d7edfee507d552bf68fde200caee4a89395b1b005",
+    "visible_subject": "侧棚字标与竖向 COFFEE 招牌",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:10.997",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "6e663d03df441805dfaa274d7edfee507d552bf68fde200caee4a89395b1b005",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 43,
+    "title": "43 · 新增 · 入口外两块落地广告牌",
+    "url": "/references/43.jpg",
+    "original": "references/chilis-detail/01_新增原图/04_入口外两块落地广告牌.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "3e6752b069d62fc7f06edcdb5bf9f2b4846604ec20294f90512b35728216f537",
+    "visible_subject": "入口外两块落地广告牌",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:21.866",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "3e6752b069d62fc7f06edcdb5bf9f2b4846604ec20294f90512b35728216f537",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 44,
+    "title": "44 · 新增 · 喷泉、桌椅、透明围护同框",
+    "url": "/references/44.jpg",
+    "original": "references/chilis-detail/01_新增原图/05_喷泉、桌椅、透明围护同框.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "24cf34843e7507644420383b54f5f3fd2fff2dcc93cd1542ed406f335465513e",
+    "visible_subject": "喷泉、桌椅、透明围护同框",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:23.581",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "24cf34843e7507644420383b54f5f3fd2fff2dcc93cd1542ed406f335465513e",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 45,
+    "title": "45 · 新增 · 并排桌面与椅背纹样",
+    "url": "/references/45.jpg",
+    "original": "references/chilis-detail/01_新增原图/06_并排桌面与椅背纹样.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "b3b1be93e2311da403be2a473fb082bc5b6461008d70d5daffa82172220b60da",
+    "visible_subject": "并排桌面与椅背纹样",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "03:25.303",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "b3b1be93e2311da403be2a473fb082bc5b6461008d70d5daffa82172220b60da",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 46,
+    "title": "46 · 新增 · 篮球场与店侧的步行通道",
+    "url": "/references/46.jpg",
+    "original": "references/chilis-detail/01_新增原图/07_篮球场与店侧的步行通道.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+    "visible_subject": "篮球场与店侧的步行通道",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "04:46.478",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 47,
+    "title": "47 · 新增 · 顺通道看门窗与雨棚连接",
+    "url": "/references/47.jpg",
+    "original": "references/chilis-detail/01_新增原图/08_顺通道看门窗与雨棚连接.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "fdd9c5f7b44e888a250dd05bcd17e86574d2b7b0bfb43b85514f62df817aa841",
+    "visible_subject": "顺通道看门窗与雨棚连接",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "04:48.760",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "fdd9c5f7b44e888a250dd05bcd17e86574d2b7b0bfb43b85514f62df817aa841",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 48,
+    "title": "48 · 新增 · 雨棚底部支撑近景",
+    "url": "/references/48.jpg",
+    "original": "references/chilis-detail/01_新增原图/09_雨棚底部支撑近景.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "45b829341520bb0912d20bf822a24a5b75b44b8957e06f07ceb1560a56fe51e8",
+    "visible_subject": "雨棚底部支撑近景",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "04:49.925",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "45b829341520bb0912d20bf822a24a5b75b44b8957e06f07ceb1560a56fe51e8",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 49,
+    "title": "49 · 新增 · 门内回看黑框玻璃门",
+    "url": "/references/49.jpg",
+    "original": "references/chilis-detail/01_新增原图/10_门内回看黑框玻璃门.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "d88f12775829ab7f8ee04b65e0ac459d1a43e93e1e46483dabbb39a2054852c9",
+    "visible_subject": "门内回看黑框玻璃门",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "04:55.075",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "d88f12775829ab7f8ee04b65e0ac459d1a43e93e1e46483dabbb39a2054852c9",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 50,
+    "title": "50 · 新增 · 反向看露台桌椅及伞座",
+    "url": "/references/50.jpg",
+    "original": "references/chilis-detail/01_新增原图/11_反向看露台桌椅及伞座.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+    "visible_subject": "反向看露台桌椅及伞座",
+    "confidence": "门面及细节可见；尺寸与两立面夹角未实测；不复制积雪及临时开业/圣诞布置",
+    "source": "Chilis detail supplement",
+    "reference_type": "视频截图",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "published_date": "2025-12-18",
+    "captured_date": null,
+    "video_time": "10:20.421",
+    "provenance_notes": "references/chilis-detail/说明与来源.txt",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+    "current_aerial_evidence": false
+  },
+  {
+    "number": 51,
+    "title": "51 · A段_斜看左围栏与篮筐_00-14.30",
+    "url": "/references/51.png",
+    "original": "references/r12-left/selected/01_A段_斜看左围栏与篮筐_00-14.30.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7",
+    "visible_subject": "左长围栏在画面左侧；Chili’s及篮筐在右，用于固定“面筐左手”的方向",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:14.30",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/01_A段_斜看左围栏与篮筐_00-14.30.png",
+      "title": "A段_斜看左围栏与篮筐_00-14.30",
+      "timestamp_seconds": 14.3,
+      "timestamp": "00:14.30",
+      "sequence": "A段",
+      "caption": "左长围栏在画面左侧；Chili’s及篮筐在右，用于固定“面筐左手”的方向",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "fcfa61a14da667696897411de6f01f7028ed419e8023892379e00cb78c55e3c7"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 52,
+    "title": "52 · A段_左围栏到篮下转角_00-15.30",
+    "url": "/references/52.png",
+    "original": "references/r12-left/selected/02_A段_左围栏到篮下转角_00-15.30.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960",
+    "visible_subject": "左侧黑白A牌、低灰色建筑与篮筐后围网同框；外侧细节有球员和网格遮挡",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:15.30",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/02_A段_左围栏到篮下转角_00-15.30.png",
+      "title": "A段_左围栏到篮下转角_00-15.30",
+      "timestamp_seconds": 15.3,
+      "timestamp": "00:15.30",
+      "sequence": "A段",
+      "caption": "左侧黑白A牌、低灰色建筑与篮筐后围网同框；外侧细节有球员和网格遮挡",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "fed6917fbcc3d9f763283751a947de5760b835d77dd97745132cfdad40a5a960"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 53,
+    "title": "53 · A段_篮下斜向看左围网_00-16.25",
+    "url": "/references/53.png",
+    "original": "references/r12-left/selected/03_A段_篮下斜向看左围网_00-16.25.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1",
+    "visible_subject": "同一进攻镜头继续移动到篮下；左侧护网后可见低矮屋面和远楼",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:16.25",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/03_A段_篮下斜向看左围网_00-16.25.png",
+      "title": "A段_篮下斜向看左围网_00-16.25",
+      "timestamp_seconds": 16.25,
+      "timestamp": "00:16.25",
+      "sequence": "A段",
+      "caption": "同一进攻镜头继续移动到篮下；左侧护网后可见低矮屋面和远楼",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "3fbd1eab8fb4ca07c705f668fee91c416bcdfb1a94b94aa071f6a4a70d1dd6a1"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 54,
+    "title": "54 · B段_正对左围栏全幅_00-20.25",
+    "url": "/references/54.png",
+    "original": "references/r12-left/selected/04_B段_正对左围栏全幅_00-20.25.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6",
+    "visible_subject": "主画面为指定左长围栏；可见黑色矮挡板、A牌、外侧低矮灰色构筑物和远处方格立面楼",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:20.25",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/04_B段_正对左围栏全幅_00-20.25.png",
+      "title": "B段_正对左围栏全幅_00-20.25",
+      "timestamp_seconds": 20.25,
+      "timestamp": "00:20.25",
+      "sequence": "B段",
+      "caption": "主画面为指定左长围栏；可见黑色矮挡板、A牌、外侧低矮灰色构筑物和远处方格立面楼",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "c65d0b85aec541edf637b212cbc3ac7fbbd3e7e4abdb7e1f8f46164afacc71b6"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 55,
+    "title": "55 · B段_沿左围栏右移_00-20.75",
+    "url": "/references/55.png",
+    "original": "references/r12-left/selected/05_B段_沿左围栏右移_00-20.75.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d",
+    "visible_subject": "与上一帧重叠；护网外低矮灰色横格和玻璃立面相对位置延续",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:20.75",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/05_B段_沿左围栏右移_00-20.75.png",
+      "title": "B段_沿左围栏右移_00-20.75",
+      "timestamp_seconds": 20.75,
+      "timestamp": "00:20.75",
+      "sequence": "B段",
+      "caption": "与上一帧重叠；护网外低矮灰色横格和玻璃立面相对位置延续",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "387f173de1e868d041e5e1d37617fc8fcde9971f5cca07988d5eafdb168e501d"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 56,
+    "title": "56 · B段_左围栏接篮筐端_00-21.25",
+    "url": "/references/56.png",
+    "original": "references/r12-left/selected/06_B段_左围栏接篮筐端_00-21.25.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec",
+    "visible_subject": "镜头向篮筐转角抬起；网后 boots 字样出现，可与泥靴外观图核对",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:21.25",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/06_B段_左围栏接篮筐端_00-21.25.png",
+      "title": "B段_左围栏接篮筐端_00-21.25",
+      "timestamp_seconds": 21.25,
+      "timestamp": "00:21.25",
+      "sequence": "B段",
+      "caption": "镜头向篮筐转角抬起；网后 boots 字样出现，可与泥靴外观图核对",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "2b46a940929adf375ae204ccfcd9a75bf1652ffe1f60e640052afecfca6154ec"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 57,
+    "title": "57 · C段_另一斜角固定围栏关系_00-26.35",
+    "url": "/references/57.png",
+    "original": "references/r12-left/selected/07_C段_另一斜角固定围栏关系_00-26.35.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c",
+    "visible_subject": "另一段活动镜头，左长边、A牌、Chili’s立面并列；不能接在B段假装连续",
+    "confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+    "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:26.35",
+    "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published_date": "2026-05-22"
+    },
+    "manifest_item": {
+      "file": "selected/07_C段_另一斜角固定围栏关系_00-26.35.png",
+      "title": "C段_另一斜角固定围栏关系_00-26.35",
+      "timestamp_seconds": 26.35,
+      "timestamp": "00:26.35",
+      "sequence": "独立补充角度",
+      "caption": "另一段活动镜头，左长边、A牌、Chili’s立面并列；不能接在B段假装连续",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "creator": "NBA ATELIER隧行服饰专卖店",
+      "published": "2026-05-22",
+      "capture_method": "从此前经公开播放器取得的原视频精确提取，本次重新分组核对；不是新增来源",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "location_confidence": "高：与篮筐/Chili’s和围网转角交叉核对",
+      "coverage_limitation": "只覆盖场内看左长边的局部；不提供全长外侧步行路线",
+      "sha256": "cacf33d155c35a8c5c025814ffc6f8694f24de725fae6a920dd5984a8a63646c"
+    },
+    "current_aerial_evidence": false,
+    "creator": "NBA ATELIER隧行服饰专卖店",
+    "published_date": "2026-05-22"
+  },
+  {
+    "number": 58,
+    "title": "58 · 泥靴建筑外观补充",
+    "url": "/references/58.jpg",
+    "original": "references/r12-left/selected/08_泥靴外观补充_03-32.525.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc",
+    "visible_subject": "从Chili’s露台看The boots：灰色立面/横格、发光字、玻璃门、红白收拢伞、绿球盆栽、圆形树池、低栏杆和两块落地牌。只能定位为同一周边商户，不能声称这些小物件全部位于左长围栏紧贴外侧",
+    "confidence": "同一商圈和建筑身份高；各小物件与左围栏精确距离未证实",
+    "coverage_limitation": "短暂独立回看镜头，不与活动视频拼接成连续路线",
+    "source": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "reference_type": "视频截图",
+    "video_time": "03:32.525",
+    "capture_method": "2026-10-04 在云端浏览器播放器新截取；时间读取video.currentTime，约有小于0.1秒截屏延迟",
+    "provenance_notes": "references/r12-left/manifest.json",
+    "attribution": {
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "capture_method": "2026-10-04 在云端浏览器播放器新截取；时间读取video.currentTime，约有小于0.1秒截屏延迟",
+      "manifest": "references/r12-left/manifest.json",
+      "creator": "我是峻范",
+      "published_date": "2025-12-18"
+    },
+    "manifest_item": {
+      "file": "selected/08_泥靴外观补充_03-32.525.jpg",
+      "title": "泥靴建筑外观补充",
+      "timestamp_seconds": 212.525,
+      "timestamp": "03:32.525",
+      "sequence": "独立补充角度",
+      "caption": "从Chili’s露台看The boots：灰色立面/横格、发光字、玻璃门、红白收拢伞、绿球盆栽、圆形树池、低栏杆和两块落地牌。只能定位为同一周边商户，不能声称这些小物件全部位于左长围栏紧贴外侧",
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "creator": "我是峻范",
+      "published": "2025-12-18",
+      "capture_method": "2026-10-04 在云端浏览器播放器新截取；时间读取video.currentTime，约有小于0.1秒截屏延迟",
+      "source_resolution": [
+        640,
+        360
+      ],
+      "screenshot_resolution": [
+        1180,
+        757
+      ],
+      "location_confidence": "同一商圈和建筑身份高；各小物件与左围栏精确距离未证实",
+      "coverage_limitation": "短暂独立回看镜头，不与活动视频拼接成连续路线",
+      "sha256": "bcb8b65222c260c05450a1e501ba57a0688bfc3beca6da2fba9777d4fed813dc"
+    },
+    "current_aerial_evidence": false,
+    "creator": "我是峻范",
+    "published_date": "2025-12-18"
+  },
+  {
+    "number": 59,
+    "title": "59 · 新中关｜场内正对围网",
+    "url": "/references/59.png",
+    "original": "references/r12-skyline/原始截图/01_场内看新中关_00-20.50.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a",
+    "visible_subject": "场内，长边围网、A牌、黄黑地面同框；后方新中关红色竖向标识清楚。",
+    "confidence": "高：红色标识可读，立面/顶层与北京文旅参考图相符",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:20.500",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/01_场内看新中关_00-20.50.png",
+      "title": "新中关｜场内正对围网",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 20.5,
+      "timestamp": "00:20.500",
+      "observed": "场内，长边围网、A牌、黄黑地面同框；后方新中关红色竖向标识清楚。",
+      "building_label": "新中关",
+      "identification_confidence": "高：红色标识可读，立面/顶层与北京文旅参考图相符",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "7d6cd8ed0cee455b436cc484cccabbc4467638e51c974a93bd869b950ecc4b8a",
+      "building_identity_reference_urls": [
+        "https://www.visitbeijing.com.cn/article/47Qlycb5tXH"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://www.visitbeijing.com.cn/article/47Qlycb5tXH"
+    ]
+  },
+  {
+    "number": 60,
+    "title": "60 · 新中关｜篮筐端斜向",
+    "url": "/references/60.png",
+    "original": "references/r12-skyline/原始截图/02_新中关与篮筐端_00-14.80.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30",
+    "visible_subject": "球场内斜看围网和篮筐端，远楼与Chili’s所在低层建筑相对位置同框。",
+    "confidence": "高",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:14.800",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/02_新中关与篮筐端_00-14.80.png",
+      "title": "新中关｜篮筐端斜向",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 14.8,
+      "timestamp": "00:14.800",
+      "observed": "球场内斜看围网和篮筐端，远楼与Chili’s所在低层建筑相对位置同框。",
+      "building_label": "新中关",
+      "identification_confidence": "高",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "7af06fe2326433c763fc4d3ab71426db54915f6facdd042eed5c255a1d366c30",
+      "building_identity_reference_urls": [
+        "https://www.visitbeijing.com.cn/article/47Qlycb5tXH"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://www.visitbeijing.com.cn/article/47Qlycb5tXH"
+    ]
+  },
+  {
+    "number": 61,
+    "title": "61 · 新东方大厦南楼｜圆盘棚侧",
+    "url": "/references/61.png",
+    "original": "references/r12-skyline/原始截图/03_新东方字样楼与圆盘棚_00-11.40.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031",
+    "visible_subject": "场内向圆盘棚侧看；围网与A牌为近景，圆盘棚在网外，楼上有可读的新东方字样。",
+    "confidence": "高：新东方字样与原始实景照片的楼顶台阶、竖向分格吻合",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:11.400",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/03_新东方字样楼与圆盘棚_00-11.40.png",
+      "title": "新东方大厦南楼｜圆盘棚侧",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 11.4,
+      "timestamp": "00:11.400",
+      "observed": "场内向圆盘棚侧看；围网与A牌为近景，圆盘棚在网外，楼上有可读的新东方字样。",
+      "building_label": "新东方大厦南楼",
+      "identification_confidence": "高：新东方字样与原始实景照片的楼顶台阶、竖向分格吻合",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "62ac46833fe9574954a673072feab0e2af52d74b93c615caa2c6a5760eb1f031",
+      "building_identity_reference_urls": [
+        "https://commons.wikimedia.org/wiki/File:New_Oriental_South_Building,_Zhongguancun_(20220429161338).jpg"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://commons.wikimedia.org/wiki/File:New_Oriental_South_Building,_Zhongguancun_(20220429161338).jpg"
+    ]
+  },
+  {
+    "number": 62,
+    "title": "62 · 互联网金融中心｜篮筐侧",
+    "url": "/references/62.png",
+    "original": "references/r12-skyline/原始截图/04_篮筐侧蓝玻璃楼群_00-24.25.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046",
+    "visible_subject": "场内宽角度，地面图案、篮筐、围栏、低层商场和后方数栋蓝玻璃楼同框。右侧为新东方大厦南楼，左侧大体量蓝玻璃楼为互联网金融中心（外形比对）。",
+    "confidence": "高：同一立面的楼顶开口、窗格及前景商场外观与CoWorkingHub实景图库吻合；属于外形比对",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:24.250",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/04_篮筐侧蓝玻璃楼群_00-24.25.png",
+      "title": "互联网金融中心｜篮筐侧",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 24.25,
+      "timestamp": "00:24.250",
+      "observed": "场内宽角度，地面图案、篮筐、围栏、低层商场和后方数栋蓝玻璃楼同框。右侧为新东方大厦南楼，左侧大体量蓝玻璃楼为互联网金融中心（外形比对）。",
+      "building_label": "左侧蓝玻璃高楼：互联网金融中心",
+      "identification_confidence": "高：同一立面的楼顶开口、窗格及前景商场外观与CoWorkingHub实景图库吻合；属于外形比对",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "0eda00ffe61828d948033659e73ef8e44e3f8e22a714ed726cb98d9258c55046",
+      "building_identity_reference_urls": [
+        "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+    ]
+  },
+  {
+    "number": 63,
+    "title": "63 · 互联网金融中心｜相邻角度",
+    "url": "/references/63.png",
+    "original": "references/r12-skyline/原始截图/05_蓝玻璃楼群相邻角度_00-23.10.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f",
+    "visible_subject": "场内另一较靠边角度，Chili’s竖向牌、篮筐和网柱可锚定；补充蓝玻璃楼体及商场层次。与24.25秒之间有剪辑，不能合成为连续转镜。",
+    "confidence": "高：同一立面的楼顶开口、窗格及前景商场外观与CoWorkingHub实景图库吻合；属于外形比对",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:23.100",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/05_蓝玻璃楼群相邻角度_00-23.10.png",
+      "title": "互联网金融中心｜相邻角度",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 23.1,
+      "timestamp": "00:23.100",
+      "observed": "场内另一较靠边角度，Chili’s竖向牌、篮筐和网柱可锚定；补充蓝玻璃楼体及商场层次。与24.25秒之间有剪辑，不能合成为连续转镜。",
+      "building_label": "左侧蓝玻璃高楼：互联网金融中心",
+      "identification_confidence": "高：同一立面的楼顶开口、窗格及前景商场外观与CoWorkingHub实景图库吻合；属于外形比对",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "221e21bd206829c0652ca5b8e0b1ee2230ab59b854c891ce592268c4d588c57f",
+      "building_identity_reference_urls": [
+        "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://www.coworkinghub.com/cn_beijing/en/building/internet-financial-center/13055"
+    ]
+  },
+  {
+    "number": 64,
+    "title": "64 · 篮下反看｜中钢国际广场",
+    "url": "/references/64.png",
+    "original": "references/r12-skyline/原始截图/06_篮下看高蓝玻璃塔楼_00-28.85.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c",
+    "visible_subject": "近景篮板、篮圈、围网和A牌；中景圆盘棚；远处高玻璃塔楼。塔楼大部分轮廓可见。",
+    "confidence": "高：塔楼错层顶部、侧面轮廓及竖向玻璃立面与原始实景照片相符",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:28.850",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/06_篮下看高蓝玻璃塔楼_00-28.85.png",
+      "title": "篮下反看｜中钢国际广场",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 28.85,
+      "timestamp": "00:28.850",
+      "observed": "近景篮板、篮圈、围网和A牌；中景圆盘棚；远处高玻璃塔楼。塔楼大部分轮廓可见。",
+      "building_label": "中钢国际广场",
+      "identification_confidence": "高：塔楼错层顶部、侧面轮廓及竖向玻璃立面与原始实景照片相符",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "fe7b10b8727f437298c5c181425a9294c29ba5c4c63942c343192598b70ef40c",
+      "building_identity_reference_urls": [
+        "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg"
+    ]
+  },
+  {
+    "number": 65,
+    "title": "65 · 开放广场侧｜中钢＋疑似e世界",
+    "url": "/references/65.png",
+    "original": "references/r12-skyline/原始截图/07_场内向开放广场看_00-19.20.png",
+    "original_dimensions": [
+      576,
+      1024
+    ],
+    "sha256": "01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661",
+    "preview_dimensions": [
+      576,
+      1024
+    ],
+    "preview_sha256": "01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661",
+    "visible_subject": "黄黑球场与边界在近处，开放广场及绿化在中间，左侧高玻璃塔楼、右侧较低弧形玻璃楼在后方；高楼屋顶被画面裁断。",
+    "confidence": "中钢：高；e世界：外形比对推断，标识未读清；不据透视图估算距离",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.douyin.com/video/7642712639428136228",
+    "source_url": "https://www.douyin.com/video/7642712639428136228",
+    "reference_type": "视频截图",
+    "video_time": "00:19.200",
+    "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/07_场内向开放广场看_00-19.20.png",
+      "title": "开放广场侧｜中钢＋疑似e世界",
+      "source_url": "https://www.douyin.com/video/7642712639428136228",
+      "timestamp_seconds": 19.2,
+      "timestamp": "00:19.200",
+      "observed": "黄黑球场与边界在近处，开放广场及绿化在中间，左侧高玻璃塔楼、右侧较低弧形玻璃楼在后方；高楼屋顶被画面裁断。",
+      "building_label": "左：中钢国际广场；右：疑似中关村e世界",
+      "identification_confidence": "中钢：高；e世界：外形比对推断，标识未读清；不据透视图估算距离",
+      "source_resolution": [
+        576,
+        1024
+      ],
+      "file_resolution": [
+        576,
+        1024
+      ],
+      "capture_method": "原公开活动视频按时间码重新提取的无裁切PNG",
+      "sha256": "01897684aca8fa75b1c6ca5153cbd53b3955600a6275055a873d4f112eb62661",
+      "building_identity_reference_urls": [
+        "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg",
+        "https://mall.zol.com.cn/picture_78.html",
+        "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://commons.wikimedia.org/wiki/File:Sinosteel_Plaza_(20201130135237).jpg",
+      "https://mall.zol.com.cn/picture_78.html",
+      "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg"
+    ]
+  },
+  {
+    "number": 66,
+    "title": "66 · 露台补充｜疑似中关村e世界",
+    "url": "/references/66.jpg",
+    "original": "references/r12-skyline/原始截图/08_露台回看远楼_10-20.421.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+    "visible_subject": "从Chili’s外摆露台看向浅绿玻璃楼与更远的蓝面浅色楼。近景有Chili’s字样、雨棚、喷泉及桌椅；不冒充站在球场内拍摄。",
+    "confidence": "e世界为立面、屋顶轮廓比对推断，未读清楼名；不是场内视角",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "reference_type": "视频截图",
+    "video_time": "10:20.421",
+    "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/08_露台回看远楼_10-20.421.jpg",
+      "title": "露台补充｜疑似中关村e世界",
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "timestamp_seconds": 620.421,
+      "timestamp": "10:20.421",
+      "observed": "从Chili’s外摆露台看向浅绿玻璃楼与更远的蓝面浅色楼。近景有Chili’s字样、雨棚、喷泉及桌椅；不冒充站在球场内拍摄。",
+      "building_label": "浅绿玻璃楼：疑似中关村e世界；远处蓝面浅色楼未核实",
+      "identification_confidence": "e世界为立面、屋顶轮廓比对推断，未读清楼名；不是场内视角",
+      "source_resolution": [
+        640,
+        360
+      ],
+      "file_resolution": [
+        1180,
+        757
+      ],
+      "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+      "sha256": "f6594e08b2afe8761108a036c647c078bdc449e983d479dab7b8108613a12aa3",
+      "building_identity_reference_urls": [
+        "https://mall.zol.com.cn/picture_78.html",
+        "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg"
+      ]
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": [
+      "https://mall.zol.com.cn/picture_78.html",
+      "https://commons.wikimedia.org/wiki/File:Zhongguancun_e-Plaza_(20221107100746).jpg"
+    ]
+  },
+  {
+    "number": 67,
+    "title": "67 · 定位补充｜球场旁的餐厅通道",
+    "url": "/references/67.jpg",
+    "original": "references/r12-skyline/原始截图/09_球场与Chilis通道定位_04-46.478.jpg",
+    "original_dimensions": [
+      1180,
+      757
+    ],
+    "sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+    "preview_dimensions": [
+      1180,
+      757
+    ],
+    "preview_sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+    "visible_subject": "球场围网、篮筐、Chili’s弧面店角与鸡尾酒灯牌同框；用于证明露台所属餐厅紧邻目标球场，不是远楼主体照片。",
+    "confidence": "定位用，不用于远楼身份确认",
+    "coverage_limitation": "按方向归组，不是360度连续实拍；05到04之间原片有剪辑。不可接成全景或推算测距。",
+    "source": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+    "reference_type": "视频截图",
+    "video_time": "04:46.478",
+    "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+    "provenance_notes": "references/r12-skyline/manifest.json",
+    "attribution": {
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+      "manifest": "references/r12-skyline/manifest.json"
+    },
+    "manifest_item": {
+      "file": "原始截图/09_球场与Chilis通道定位_04-46.478.jpg",
+      "title": "定位补充｜球场旁的餐厅通道",
+      "source_url": "https://www.bilibili.com/video/BV1ExqpBsEo2/",
+      "timestamp_seconds": 286.478,
+      "timestamp": "04:46.478",
+      "observed": "球场围网、篮筐、Chili’s弧面店角与鸡尾酒灯牌同框；用于证明露台所属餐厅紧邻目标球场，不是远楼主体照片。",
+      "building_label": "背景楼未确认",
+      "identification_confidence": "定位用，不用于远楼身份确认",
+      "source_resolution": [
+        640,
+        360
+      ],
+      "file_resolution": [
+        1180,
+        757
+      ],
+      "capture_method": "先前已保存的公开播放器截图，保留原作者水印和界面，本次重新筛选",
+      "sha256": "c7c06a6542b1410945e9da18bf8f1464617d3bf5e7809ee5ca9a2c0341614c2a",
+      "building_identity_reference_urls": []
+    },
+    "current_aerial_evidence": false,
+    "building_identity_reference_urls": []
+  }
+]

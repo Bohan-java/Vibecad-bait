@@ -1,0 +1,1851 @@
+{
+  "build_id": "20261005T045109359Z-beefe91f",
+  "source_version": "S-beefe91fc3",
+  "input_hash": "beefe91fc31185222f323e768413685f790245b62e92189ff9d7d5c78d532412",
+  "blender": "D:/Blender/blender.exe",
+  "inputs": [
+    {
+      "path": "source/BUILD_NOTES.txt",
+      "sha256": "7294ce241f883b15a9e09d830c46c1d948e1ca27e743ce6f72cb8d8e612d3348",
+      "bytes": 5499
+    },
+    {
+      "path": "source/reconstruction_notes.json",
+      "sha256": "0c982c540f611e119fc1ed4b51f3274f5396f3ce736b441cfe3eb518e40ed4d4",
+      "bytes": 3366
+    },
+    {
+      "path": "source/scene.blend",
+      "sha256": "884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b",
+      "bytes": 65428978
+    },
+    {
+      "path": "artwork/ARTWORK_NOTES.txt",
+      "sha256": "6e7ac7a9b435f7caef09b1be58c54c9d45aa5fe5d50ea4fb8af5b86f4cff5e99",
+      "bytes": 1204
+    },
+    {
+      "path": "artwork/court.svg",
+      "sha256": "67283ea8e589f34f3dcebeb904b5d577a4a76af81fa350ea2521d97b8d166f07",
+      "bytes": 42262
+    },
+    {
+      "path": "artwork/PAVING_ATLAS_NOTES.txt",
+      "sha256": "edc7b31a30509b202e03e78fa585a2c1b7772994eb4f0000f5ad941674b3f29d",
+      "bytes": 1927
+    },
+    {
+      "path": "artwork/paving-context.svg",
+      "sha256": "79893cec6d2e8af0430deb8c5196e09a2ebea1412467b94ec67b1e05fcd104e6",
+      "bytes": 18271
+    },
+    {
+      "path": "artwork/R02_NOTES.txt",
+      "sha256": "73b09cd74f16cc772f3ad6bd03b5842359148d93bb49ea7a6fd251d6e16fe32b",
+      "bytes": 2668
+    },
+    {
+      "path": "config/project.json",
+      "sha256": "a4e04d6898f5120068d4669e127ee164a8dad10152be5477418ad175bbdb3022",
+      "bytes": 7526
+    },
+    {
+      "path": "tools/export_scene.py",
+      "sha256": "d6c392a21d403a4055a972442dfcf7ff89d13b7e476c71f232835d5f892d1f25",
+      "bytes": 4302
+    },
+    {
+      "path": "tools/rasterize_artwork.mjs",
+      "sha256": "43e03f4da513a1f5a278dd20a5f2e63f487d0dfdfad18ce599b165f9816ae70b",
+      "bytes": 3437
+    },
+    {
+      "path": "tools/create_scene.py",
+      "sha256": "b89cf37ea0b7edcfef8b3f21022bffdd9a473e97aec0b3ad7c3c627634f9b7d6",
+      "bytes": 31116
+    }
+  ]
+}
+
+地面 SVG 栅格化
+Updated editable court SVG texture: artwork/court.png
+Updated shared world paving atlas: 8192x5266; central court.svg preserved at original scale
+
+Blender 导出
+00:00.875  blend            | Read blend: "E:\CodexData\2karena\zgc-court\source\scene.blend"
+INFO Draco is available, use library at D:\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at D:\Blender\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+21:52:41 | INFO: Starting glTF 2.0 export
+21:52:41 | INFO: Extracting primitive: R02 arching ornamental grass
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK glass corner fine mullions
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK independent upper red fascia
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK individual cladding tone link_stone
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK individual cladding tone link_stone_dark
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK individual cladding tone link_stone_light
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK integrated glazed corner
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK rear high red band identity
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK recessed glazing bays
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK separate large pale mall volume
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 architecture LINK structural bays and projecting ledges
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 ART PARK editable lettering
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 bench dark supports
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 broadleaf canopy 0
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 broadleaf canopy 1
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 broadleaf canopy 2
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 broadleaf canopy 3
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 continuous low garden groundcover
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 continuous pale plaza ground
+21:52:41 | INFO: Primitives created: 2
+21:52:41 | INFO: Extracting primitive: R02 curb expansion joints
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 curved bench timber slats
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 curved funnel shelters
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 curving raised stone edges
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 disk roof fine perimeter lips
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 disk roof recessed undersides
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 distant poster abstract printed detail
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 distant poster faces poster_blue
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 distant poster faces poster_cream
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 distant poster faces poster_dark
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 distant poster faces poster_red
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 distant poster faces poster_warm
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 exterior stone fine joints
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 fine white flower florets current mesh
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 flowerbed natural stones
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 grass warm tips
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 layered disk roof shells
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 low groundcover leaf clusters 0 current mesh
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 low groundcover leaf clusters 1 current mesh
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 low groundcover leaf clusters 2 current mesh
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 observed low plaza wave outside court
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 organic planted ground
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 pale signage and sculptural loop
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 plaza discreet fixtures
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 plaza metal tables and stools
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 scattered grey stone inserts
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 shelter bright thin lips
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 shrub leaves 0
+21:52:41 | INFO: Primitives created: 1
+21:52:41 | INFO: Extracting primitive: R02 shrub leaves 1
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 shrub leaves 2
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 shrub twig structure
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 slender circular canopy posts
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 soft grey plaza transition
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 trees branching trunks
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 white allium flower stems
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 willow branches
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 willow hanging filaments
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 willow leaves 0
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 willow leaves 1
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R02 willow leaves 2
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 allium fallen petal highlights
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 canopy bench recessed fasteners
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 canopy bench screw slots
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 plaza drain dark slots
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 plaza drain grate bars
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 small fallen olive leaves
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 small fallen tan leaves
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R03 small flowerbed aggregate
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R10 left tall floodlight housings and brackets
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R10 left tall floodlight mechanical fixings
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R10 left tall floodlight non-emitting lens faces
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R10 left tall floodlight tapered mast
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building alcove cafe descriptor.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building alcove established date.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building alcove logo fine golden edge.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building alcove logo green pepper apostrophe.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building alcove logo warm orange letter bodies.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building elevator call plate.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building elevator deep metal jambs.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building elevator two brushed door leaves.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry CAFE AND BAR.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry clear window and door perimeter seams.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry concave rolled silver pilasters.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry cornice narrow reveal.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry cream retractable canvas and scalloped valance.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry door transom and narrow reveals.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry EST 1975.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry exact Chinese canvas inscription.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry grey staggered stone course 0.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry grey staggered stone course 1.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry grey staggered stone course 2.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry hinged retractable awning frame.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry local grey stone mortar bedding.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry narrow vertical diffuser strips unlit.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry paired long door pulls hinges and threshold.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry pilaster folded seam flanges.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry sewn canvas seams.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry shallow interior dark mineral floor.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry shallow interior warm back plane.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry shallow interior warm timber planes.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry slender black window and double door frames.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry solid dusty mauve sign panel.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry three folded cornice rails.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry visible interior table legs.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry visible low green upholstered benches.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building entry visible shallow wood table tops.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building fine vertical red terracotta tile joints.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building rectangular lower storey recessed glazing
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building rectangular restaurant roof and rear envelope
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building red terracotta recessed elevator walls.002
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building roof louvre fine reveal borders.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building roof louvre pitched blades.001
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building straight eaves with short radius corner returns.001
+21:52:42 | INFO: Primitives created: 2
+21:52:42 | INFO: Extracting primitive: R11 Chilis building straight flank and small corner glazing
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building straight flank individual silver fins.001
+21:52:42 | INFO: Primitives created: 2
+21:52:42 | INFO: Extracting primitive: R11 Chilis building straight flank slender glazing mullions.001
+21:52:42 | INFO: Primitives created: 2
+21:52:42 | INFO: Extracting primitive: R11 Chilis building straight upper flank and small corner glazing
+21:52:42 | INFO: Primitives created: 1
+21:52:42 | INFO: Extracting primitive: R11 Chilis building terrace CAFE AND BAR.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace concave rolled silver pilasters.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace continuous interior red floor.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace cornice narrow reveal.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace cream retractable canvas and scalloped valance.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace EST 1975.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace exact Chinese canvas inscription.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace fin backing recessed shadow.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace five wide weather screen edge strips.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace hinged retractable awning frame.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace individually folded vertical facade fins.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace inner low wood wainscot.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace inner warm plaster return wall.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace logo fine golden edge.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace logo green pepper apostrophe.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace logo warm orange letter bodies.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace lower clear screen seams.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace narrow vertical diffuser strips unlit.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace pilaster folded seam flanges.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace roof projection solid body and folded cap.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace sewn canvas seams.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace slender ivory weather screen mullions.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building terrace three folded cornice rails.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis building three roof louvre framed recesses.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace clipped planter foliage.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace curved chair champagne tube frames.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace curved chair pale diagonal weave.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace curved chair woven red bodies.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry advertising broad pale shapes.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry advertising broad red shapes.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry cabinet restrained wood grain.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry cabinet small feet.002
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry hinged menu stands.002
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry lectern fine page divisions.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry lectern pale menu paper.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry oak welcome cabinet.002
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry poster panel 0.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry poster panel 1.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry poster panel 2.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace entry separate sloped menu lectern.002
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace fountain small blue inner mosaic.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace fountain small pale inner mosaic.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace fountain still recessed basin.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace parasol beige summer canvas.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace parasol cantilever masts ribs and fixed feet.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace parasol fine panel seams.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace parasol visible floor anchors.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace sage vase planters.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace square mosaic table black frames.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace square mosaic table dark inserts.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace square mosaic table fine grout.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace square mosaic table ochre inserts.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace three tier fountain carved limestone.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace warm red square terrace tile variants.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace warm red square terrace tiles.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R11 Chilis terrace warm red terrace grout bed.001
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context boots Chinese name
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context boots letter dark channel returns
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context boots rounded outlined dimensional lettering
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context boots sign slim dark ribbed panel
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context celadon ribbed round shop planters
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context cornice recessed dark gaps
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context deep silver bay frames and door surrounds
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context drain cross bars
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context flat horizontal metal grille cornice
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context folded red ivory parasol fabric umbrella crimson
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context folded red ivory parasol fabric umbrella ivory
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context grey shop forecourt bedding
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context left forecourt deciduous foliage 0
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context left forecourt deciduous foliage 1
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context left forecourt deciduous foliage 2
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context left forecourt single deciduous tree branches
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context low continuous stone plinth
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context low dark guardrail around round tree well
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context menu abstract untranscribed printed blocks
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context near shop grey stone slab 0
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context near shop grey stone slab 1
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context planter and tree pit soil
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context recessed lower glazing alternating 0
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context recessed lower glazing alternating 1
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context recessed lower glazing alternating 2
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context rectangular low shop shell
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context retained garden new straight termination
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context round grey tree well chamfered stone wall
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context round tree well inner soil
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context shop clipped foliage 0
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context shop clipped foliage 1
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context shop clipped foliage 2
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context shop topiary hidden stems
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context slim linear entry drain grate
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context striped parasol pole and weighted crossfoot
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context The small word
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context two portable menu A frame rails
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context two portable menu dark boards
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context upper dark transom glass
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context west end silver corner frames
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 left context window inset perimeter gaskets
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 right bench feet
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 right bench frames
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 right bench hardware
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 right bench pads
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage canopy side leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage canopy side leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage canopy side leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage canopy understory leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage canopy understory leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage canopy understory leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 0 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 0 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 0 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 1 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 1 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 1 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 2 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 2 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 2 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 3 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 3 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 3 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 4 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 4 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 4 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 5 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 5 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 5 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 6 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 6 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 6 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 7 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 7 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon 7 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 0 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 0 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 0 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 1 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 1 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 1 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 2 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 2 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 2 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 3 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 3 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 3 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 4 leaves_dark
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 4 leaves_light
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 4 leaves_mid
+21:52:43 | INFO: Primitives created: 1
+21:52:43 | INFO: Extracting primitive: R12 skyline background foliage horizon low 5 leaves_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 5 leaves_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 5 leaves_mid
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 6 leaves_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 6 leaves_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 6 leaves_mid
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 7 leaves_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 7 leaves_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage horizon low 7 leaves_mid
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage left open end leaves_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage left open end leaves_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage left open end leaves_mid
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage open plaza leaves_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage open plaza leaves_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage open plaza leaves_mid
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage open understory leaves_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage open understory leaves_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background foliage open understory leaves_mid
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks canopy side tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks canopy understory tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 0 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 1 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 2 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 3 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 4 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 5 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 6 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon 7 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 0 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 1 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 2 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 3 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 4 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 5 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 6 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks horizon low 7 tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks left open end tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks open plaza tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline background trunks open understory tree_trunk
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white body shadow
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white floor bands mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white glazing glass
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white glazing glass_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white glazing glass_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white pale ends white
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white plinth concrete
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline blue_white vertical fins mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green crown glass_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green curved floors mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green curved glazing glass_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green curved glazing glass_green
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green curved glazing glass_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green curved glazing white
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green plinth concrete
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green rear volume glass_green
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline curved_green vertical crown fins mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 0-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 1-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 2-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 3-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 4-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 5-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 6-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-0 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-1 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-2 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-3 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-4 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-5 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-6 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ground tile 7-7 terrain
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc body shadow
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc floor bands mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc glazing glass
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc glazing glass_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc glazing glass_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc open crown cap stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc open roof loggia pier mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc plinth concrete
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc sandstone side pier stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline ifc vertical fins mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental body shadow
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental floor bands mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental glazing glass
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental glazing glass_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental glazing glass_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental sign
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental pale edge fin mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental plinth concrete
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental upper central step glass
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_oriental vertical fins mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan body shadow
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan glass thin floor bands mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan glazing glass
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan glazing glass_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan glazing glass_light
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan sign
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan plinth concrete
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan stone crown stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan stone edge stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan stone paired floor bands stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline new_zhongguan vertical fins stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel body shadow
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel crown stone cheek stone
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel floor bands sino_horizontal
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel glazing glass_sino
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel plinth concrete
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel recessed narrow crown glass_dark
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel upper unequal crown glass
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R12 skyline sinosteel vertical fins mullion
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade awning rectangular arms brackets and knuckle end caps
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade awning rolled front hem and sewn end returns
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade awning stainless pins and front rail end plates
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade channel letters concealed standoffs
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade channel letters deep rear casing
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade channel letters fine unlit diffuser outline
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade channel letters inset amber acrylic faces
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade channel letters red orange return walls
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade door closer articulated arms and threshold track
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade door leaf perimeter recessed weather seals
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade door pull escutcheons hinge pins and countersunk fixings
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade entry stone exposed front tile bevel band
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade pepper apostrophe extruded return
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade pepper apostrophe shaped acrylic front
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade pilaster seam countersunk fastener heads
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R13 Chilis court facade welcome cabinet small dark identity inlay
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: Current A banner badge outlines
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 0.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 1.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 2.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 3.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 4.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 5.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 6.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 7.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 0.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 1.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 2.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 3.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 4.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence panel mark 0.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence panel mark 1.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence panel mark 2.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence panel mark 3.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence panel mark 4.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence panel mark 5.001
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: Current cloth stitched hems
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence diamond mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.043
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.044
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.045
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 0 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 1 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 2 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 3 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 4 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 5 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 6 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence NBA ATELIER panel 7 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 0
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 1
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 2
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 3
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 4
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 5
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 6
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: End fence panel mark 7
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.034
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.035
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.036
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.037
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.038
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.039
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.040
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.041
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.042
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence diamond mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.076
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.077
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.078
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence NBA ATELIER panel 0 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence NBA ATELIER panel 1 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence NBA ATELIER panel 2 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence NBA ATELIER panel 3 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence NBA ATELIER panel 4 current mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 0
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 1
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 2
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 3
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: South partial fence panel mark 4
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.070
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.071
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.072
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.073
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.074
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.075
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.168
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.169
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.170
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.172
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.173
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.174
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.176
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.177
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.178
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.180
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.181
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.182
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.184
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.185
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.186
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.188
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.189
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.190
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.192
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.193
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.194
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.196
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.197
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.198
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.200
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.201
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.202
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.204
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.205
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.206
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.208
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.209
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.210
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.212
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.213
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.214
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.216
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.217
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.218
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.220
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.221
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.222
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.224
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.225
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.226
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.228
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.229
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.230
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.232
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.233
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.234
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.236
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.237
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.238
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.240
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.241
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.242
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.244
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.245
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.246
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.248
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.249
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.250
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.252
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.253
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.254
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.167
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.171
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.175
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.179
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.183
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.187
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.191
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.195
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.199
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.203
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.207
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.211
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.215
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.219
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.223
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.227
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.231
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.235
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.239
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.243
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.247
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.251
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A capsule enclosure.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A capsule enclosure.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A inner letter channel.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A inner letter channel.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A inner white diffuser.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A inner white diffuser.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A recessed channel 1.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A recessed channel 1.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A recessed channel -1.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A recessed channel -1.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A stand-off brackets.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A stand-off brackets.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A unlit diffuser 1.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A unlit diffuser 1.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A unlit diffuser -1.left
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: R09 A unlit diffuser -1.right
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: North partial fence diamond mesh
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.061
+21:52:44 | INFO: Primitives created: 1
+21:52:44 | INFO: Extracting primitive: 立方体.062
+21:52:44 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.063
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence NBA ATELIER panel 0 current mesh
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence NBA ATELIER panel 1 current mesh
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence NBA ATELIER panel 2 current mesh
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence NBA ATELIER panel 3 current mesh
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence NBA ATELIER panel 4 current mesh
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence NBA ATELIER panel 5 current mesh
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence panel mark 0
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence panel mark 1
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence panel mark 2
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence panel mark 3
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence panel mark 4
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: North partial fence panel mark 5
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.054
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.055
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.056
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.057
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.058
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.059
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.060
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: Native bounds glass placeholder.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.017
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.019
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.015
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.017
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.013
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.018
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.014
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.016
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.012
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.0.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.0.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.0.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.1.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.1.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.1.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.2.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.2.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.2.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.3.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.3.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.3.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.4.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.4.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.4.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.5.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.5.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.5.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.6.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.6.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.6.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.7.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.7.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.7.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.8.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.8.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.8.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.9.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.9.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.9.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.10.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.10.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.10.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.11.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.11.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.11.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.0.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.0.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.0.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.1.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.1.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.1.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.2.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.2.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.2.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.3.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.3.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.3.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.4.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.4.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.4.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.5.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.5.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.5.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.6.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.6.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.6.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.7.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.7.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.7.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.8.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.8.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.8.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.9.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.9.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.9.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.10.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.10.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.10.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.11.0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.11.1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.11.2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.0
+21:52:45 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.1
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.2
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.3
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.4
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.5
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.6
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.7
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.8
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.9
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.10
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.open.11
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 bolt head recess marks.open retained floor hardware
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 machined collars and hex heads.open retained floor hardware
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 support weld beads.open retained floor hardware
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 woven net filament band 0.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 woven net filament band 1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 woven net filament band 2.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.019
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.020
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.014
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.013
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.021
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.011
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.010
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.012
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 board V brace 1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 board V brace -1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 connected board fasteners.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 lower post brace.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 rear connection lugs.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 round main reach.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 round rear stay 1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 round rear stay -1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 seated glass gaskets.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 single printed board target.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 threaded rear stay end 1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 threaded rear stay end -1.open
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.033
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.032
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 环体.001
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.018
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: Native bounds glass placeholder.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: Continuous ground with exact NBA playing face
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.007
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.003
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.005
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.001
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.006
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.002
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体.004
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 柱体
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.0.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.0.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.0.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.1.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.1.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.1.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.2.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.2.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.2.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.3.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.3.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.3.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.4.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.4.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.4.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.5.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.5.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.5.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.6.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.6.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.6.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.7.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.7.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.7.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.8.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.8.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.8.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.9.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.9.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.9.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.10.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.10.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.10.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.11.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.11.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net 1.11.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.0.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.0.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.0.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.1.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.1.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.1.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.2.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.2.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.2.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.3.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.3.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.3.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.4.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.4.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.4.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.5.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.5.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.5.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.6.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.6.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.6.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.7.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.7.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.7.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.8.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.8.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.8.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.9.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.9.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.9.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.10.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.10.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.10.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.11.0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.11.1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net -1.11.2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.0
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.1
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.2
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.3
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.4
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.5
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.6
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.7
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.8
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.9
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.10
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R02 net hook.reference.11
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 bolt head recess marks.reference retained floor hardware
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 machined collars and hex heads.reference retained floor hardware
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 support weld beads.reference retained floor hardware
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 woven net filament band 0.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 woven net filament band 1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R03 woven net filament band 2.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.007
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.008
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.006
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.005
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.009
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.003
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.002
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.004
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 board V brace 1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 board V brace -1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 connected board fasteners.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 lower post brace.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 rear connection lugs.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 round main reach.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 round rear stay 1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 round rear stay -1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 seated glass gaskets.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 single printed board target.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 threaded rear stay end 1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: R08 threaded rear stay end -1.reference
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.016
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.015
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 环体
+21:52:45 | INFO: Primitives created: 1
+21:52:45 | INFO: Extracting primitive: 立方体.001
+21:52:45 | INFO: Primitives created: 1
+21:52:48 | INFO: Finished glTF 2.0 export in 7.103981018066406 s
+
+ZGC_EXPORT_READY {"output": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\20261005T045109359Z-beefe91f\\scene.glb", "bytes": 134218284, "source": "E:\\CodexData\\2karena\\zgc-court\\source\\scene.blend", "build_id": "20261005T045109359Z-beefe91f", "source_version": "S-beefe91fc3", "geometry_validation": "passed", "artwork_loaded": true, "excluded_helper_objects": ["lights", "Daylight reference", "preview_helpers", "Overview source camera"], "game_status": "unverified"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

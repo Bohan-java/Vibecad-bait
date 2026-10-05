@@ -1,0 +1,118 @@
+{
+  "revision": "R13",
+  "scope": "Chili’s 朝球场主入口立面、其材质细节与两侧转角，逐张实际查看原图；不修改模型或贴图",
+  "method": "每张记录对应一次 view_image 实际查看。先查看 39 张：全部 11 张 chilis-detail 新增原图、全部 8 张 chilis 建筑与空间关系图，以及 20 张 part1/part2/r12-left 交叉照片。后补看 r12-skyline 原始截图全部 9 张。用 SHA256 核对发现 3 张为前述图片的完全相同副本，列在 duplicate_viewed_paths 中，不重复计图。共实际查看 48 个路径、45 张不同图片。",
+  "viewed_image_count": 45,
+  "viewed_file_path_count": 48,
+  "duplicate_viewed_paths": [
+    {"path":"references/r12-skyline/原始截图/04_篮筐侧蓝玻璃楼群_00-24.25.png","same_as":"part1_06","verification":"SHA256 完全一致；本轮仍实际 view_image 补看。"},
+    {"path":"references/r12-skyline/原始截图/08_露台回看远楼_10-20.421.jpg","same_as":"detail11","verification":"SHA256 完全一致；本轮仍实际 view_image 补看。"},
+    {"path":"references/r12-skyline/原始截图/09_球场与Chilis通道定位_04-46.478.jpg","same_as":"detail07","verification":"SHA256 完全一致；本轮仍实际 view_image 补看。"}
+  ],
+  "spatial_guardrails": [
+    "面对球场后 Chili’s 主入口，喷泉露台在左侧绕过转角，这是用户已明确的关系。",
+    "朝球场主入口是灰紫色平门头；喷泉露台门头后为竖向金属百叶。不可把两处立面合并或互换。",
+    "主建筑总体长方形、主正面较直，仅局部转角为弧形/分段玻璃。旧文件名含弧形不代表整幢椭圆。",
+    "雪季原图铺装白色为积雪，不应作为灰色石材/水泥铺装的底色。",
+    "照片支持材料类别与形状，不支持未经标定的绝对尺寸或精确 PBR 数值。"
+  ],
+  "material_targets": {
+    "front_chilis_letters": {
+      "evidence": ["detail02", "chilis02", "part1_09", "part1_10", "part2_19"],
+      "visible": "有厚度的独立小写 chili’s 灯箱字，红橙侧壁/面壳，较浅暖橙色窄内沿，绿色辣椒形撇号；字与底板有真实间隙和投影。近照橙黄、球场视频偏珊瑚红，存在色温/亮灯差异。",
+      "action": "做深红橙侧壳、红橙/暖橙亚克力正面与窄浅色内沿的分层实体，边缘微倒角；本轮 emission 为零，不烘光晕，不只画橙色细轮廓。",
+      "uncertain": "灯箱准确腔深、内部灯管结构和不通电时的绝对色值不可由照片精确确定。"
+    },
+    "small_sign_letters": {
+      "evidence": ["detail02", "chilis02", "part2_19"],
+      "visible": "左 CAFE&BAR、右 EST.1975 是细金黄金属/浅金色立体字，后方可见暗投影；排字有较宽字距。",
+      "action": "保持独立薄立体字、有限金属反射与倒角，避免纯白贴字或镜面金块。"
+    },
+    "front_signboard": {
+      "evidence": ["detail02", "chilis02", "part2_19"],
+      "visible": "灰紫/灰棕的低饱和哑光平面，近照有细竖向表面纹理。",
+      "action": "用克制的竖向细纹与轻微色差，保持非金属，不做大块石缝、明亮泛白或夸张水泥颗粒。"
+    },
+    "silver_structure": {
+      "evidence": ["detail02", "chilis02", "chilis03", "r12_07"],
+      "visible": "银灰金属凹面立柱、三道平行顶檐、玻璃上部竖向百叶/条带与中间水平银框。凹面柱中有细长竖条，顶部凹口随柱截面。",
+      "action": "细拉丝方向、温灰金属底色、合理中等粗糙度、真实边缘高光；条带深浅交替来自几何，不用白线替代。柱上的灯条本轮保持未点亮实体。"
+    },
+    "awning": {
+      "evidence": ["detail02", "detail08", "detail09", "part2_19"],
+      "visible": "米色/暖灰布质下斜雨棚，前沿柔软起伏波浪边，棚底浅棕色，黑色金属细杆与斜撑，局部固定件；黑色中文奇利斯美式小餐馆。",
+      "action": "布面细织纹、无金属光泽、较高粗糙度，薄前檐与轻微自然折痕；补齐底部撑杆、边条和连接。不要做厚硬石板。"
+    },
+    "doors_and_glass": {
+      "evidence": ["detail02", "detail08", "detail10", "part2_19"],
+      "visible": "黑色窄金属门窗框；中央双扇玻璃门，成对银色竖把手与黑下框；侧固定窗，暗反射之下可辨室内桌椅/暖色灯具。",
+      "action": "门框用低光泽黑色烤漆金属，银把手带圆角，玻璃保留暗透射/反射与框槽层次；不把整面窗做不透明黑板。"
+    },
+    "stone_concrete": {
+      "evidence": ["detail02", "chilis04", "chilis08"],
+      "visible": "主门前灰色长方石材铺装有分缝、轻微色差和磨旧；花池/台阶基座灰色。电梯凹口是红褐色竖向窄条釉砖，电梯门是不锈钢。",
+      "action": "灰石材/水泥分别表现细孔、接缝与克制斑驳；不能把金属柱、灰紫门头或红釉砖统一成水泥材质。"
+    },
+    "backboard_reference": {
+      "evidence": ["part1_07", "part1_10", "part1_11", "part2_14", "part2_19"],
+      "visible": "篮板有可辨灰绿玻璃实体感，背景仍清楚可见，反射柔和，无镜面白块；金属细外框、白内框、底边黑护垫。",
+      "action": "按照用户本轮要求降低透明程度并降低反射，使玻璃更可见但不过黑；保留此前骨骼、摆动和框线修复，不另加重叠静态玻璃。",
+      "uncertain": "照片不能证明游戏回放透明排序已经修复，需要最终游戏确认。"
+    }
+  },
+  "images": [
+    {"id":"detail01","path":"references/chilis-detail/01_新增原图/01_露台正立面与招牌_Tripadvisor管理方_2026年6月.jpg","side":"左转角喷泉露台","observations":["夜景；大灯牌位于银色竖条金属带前，字有厚度和橙红外壳，绿色撇号。","米色棚前沿中文；下方透明卷帘围护。","喷泉外盆灰白水泥/石质，内侧蓝白马赛克；地面红褐色砖。"],"use":"灯牌层次与露台材质的交叉依据。","uncertainty":"夜间光色不作为主立面不发光的精确底色。"},
+    {"id":"detail02","path":"references/chilis-detail/01_新增原图/02_主入口门窗与字位_iziRetail_2026年1月.png","side":"朝球场主入口","observations":["最清晰主正面近照：灰紫细竖纹招牌面、中央实体灯箱字、两端细金黄色立体英文。","三层银色顶檐、两侧凹面银柱、柱中竖窄灯条；左上蓝灰竖条。","米色下斜布雨棚波浪前檐；黑框双门和银色竖把手。","左侧三块黑架广告牌，右侧木纹迎宾台与斜面菜单架；灰长方铺地石和接缝。"],"use":"主入口几何/材质主基准。","uncertainty":"圣诞树为季节性布置，不必须加入永久立面。小菜单内容不够清晰，不杜撰文字。"},
+    {"id":"detail03","path":"references/chilis-detail/01_新增原图/03_侧棚字标与竖向 COFFEE 招牌.jpg","side":"左侧露台长边","observations":["高米色棚檐印黑 chili’s 与中文，端部竖向红色 COFFEE 牌。","下方透明围护与深色框，外摆桌椅和树池。","LINK 在后方有距离，不能并成同一房子。"],"use":"限定侧面元素位置，避免将黑印字替代主入口实体灯箱字。","uncertainty":"雪覆盖地面。"},
+    {"id":"detail04","path":"references/chilis-detail/01_新增原图/04_入口外两块落地广告牌.jpg","side":"入口外摆细节","observations":["两块黑色圆角细金属 A 字广告架，有后撑。","画面可读 Ladies’ Night、现磨美式咖啡及部分价格，但大面积积雪遮挡。"],"use":"广告架形状、哑黑金属边框、纸面/覆膜层次。","uncertainty":"内容随季节更换；不要把全部模糊小字重写。"},
+    {"id":"detail05","path":"references/chilis-detail/01_新增原图/05_喷泉、桌椅、透明围护同框.jpg","side":"左转角喷泉露台","observations":["银色顶条、竖条底带、大独立灯牌和米色波浪棚。","喷泉三层小碟、蓝白内盆马赛克、灰白外筒。","红白编织椅面配黄铜/藤色细腿，黑桌边及黑中柱。"],"use":"区分露台和主门面；布/金属/石材/透明帘的质感。","uncertainty":"积雪遮盖桌面与地面底色。"},
+    {"id":"detail06","path":"references/chilis-detail/01_新增原图/06_并排桌面与椅背纹样.jpg","side":"露台家具近景","observations":["红色椅背有两种米色编织纹：中心竖条与满面棋盘。","桌缘为黑色薄框，桌腿中柱连接环形底座，金色细椅架有斜撑。"],"use":"本轮仅作为已存在家具材质核对。","uncertainty":"桌面被雪盖，不按白雪作纯白材质。"},
+    {"id":"detail07","path":"references/chilis-detail/01_新增原图/07_篮球场与店侧的步行通道.jpg","side":"球场与入口之间通道","observations":["围栏与店面之间有步行通道和低灌木带。","店角红褐色竖墙，外挑鸡尾酒形招牌；下方有开业花篮。","围栏外灌木间有黑色短柱灯。"],"use":"近场通道层次、角部材质和细节所在。","uncertainty":"花篮是临时陈设；招牌小字看不清。"},
+    {"id":"detail08","path":"references/chilis-detail/01_新增原图/08_顺通道看门窗与雨棚连接.jpg","side":"主入口侧向","observations":["雨棚是薄米色布面；黑细杆支撑、下斜布面和前侧波浪边分层。","银柱、黑玻璃门窗框与玻璃反射清楚，前方广告架成排。","围栏边矮绿篱和短柱灯，通道与门前保持距离。"],"use":"棚底支架及实际厚度。","uncertainty":"大部分地面及植物覆雪。"},
+    {"id":"detail09","path":"references/chilis-detail/01_新增原图/09_雨棚底部支撑近景.jpg","side":"主入口雨棚下","observations":["布棚底面浅棕色，黑色横杆/撑杆，边缘有分段小连接点。","前檐米白波浪带有弯曲厚度；相邻金属柱的竖向表面反光。"],"use":"布棚微厚度、杆件位置、固定件的近景证据。","uncertainty":"人物遮挡多，不由此推整棚总尺寸。"},
+    {"id":"detail10","path":"references/chilis-detail/01_新增原图/10_门内回看黑框玻璃门.jpg","side":"主入口内侧回看","observations":["双玻璃门黑框厚度可见，向外开。","门顶深色横梁与闭门器区域，外侧雨棚的细撑杆可见。"],"use":"门框实体深度和室内外分层。","uncertainty":"人物遮挡门底及把手，不推断未见硬件。"},
+    {"id":"detail11","path":"references/chilis-detail/01_新增原图/11_反向看露台桌椅及伞座.jpg","side":"喷泉露台向外","observations":["米色悬臂伞及黑立杆基座，红白编织椅、黑桌边。","喷泉侧影及蓝白内盆，银色屋顶字牌从背侧可见有支架。"],"use":"证明露台牌独立支架与主门头贴板字不同。","uncertainty":"雪盖地面。"},
+    {"id":"chilis01","path":"references/chilis/01_Chilis建筑与空间关系/01_南入口看双层弧形建筑.jpg","side":"南入口远景","observations":["双层商业建筑与 ART PARK 入口相邻，楼上玻璃内有另一 Chili’s 发光标识。","银灰立柱/横框、上层玻璃分格，下层另有品牌店。"],"use":"只作建筑材料家族与整体关系，不直接复制到球场正门。","uncertainty":"与球场主入口不同高差/立面，不能当同一门面。"},
+    {"id":"chilis02","path":"references/chilis/01_Chilis建筑与空间关系/02_Chilis正面招牌及檐口_0259.jpg","side":"朝球场主入口","observations":["灰紫招牌底、较宽字距的金色小字与橙红灯箱字、绿色撇号。","凹面银柱顶是 U 形缺口，中部细竖条；顶檐三道银条。","米布雨棚和黑色中文，黑框双门下方银把手。"],"use":"主正面与 detail02 交叉确认。","uncertainty":"低清视频字壳准确断面不明。"},
+    {"id":"chilis03","path":"references/chilis/01_Chilis建筑与空间关系/03_Chilis弧形转角与球场围网_0301.jpg","side":"店面转角","observations":["局部转角上部为密集银蓝竖条，下部为分段黑框玻璃。","窄红褐色竖墙带与双面鸡尾酒形小招牌。","球场围网与建筑间有通道。"],"use":"转角细节和红褐材料位置。","uncertainty":"弧度仅局部，不据此椭圆化整建筑。"},
+    {"id":"chilis04","path":"references/chilis/01_Chilis建筑与空间关系/04_沿弧形转角看露台步道_0308.jpg","side":"左转角到露台","observations":["转角玻璃下有深色窄踢脚，旁边开业花篮。","外侧为灰色低花池/平台边、玻璃栏杆、黑短柱灯；远端 Boots 门店独立。"],"use":"连接通道与灰色基座位置。","uncertainty":"雪使水平面颜色不可用。"},
+    {"id":"chilis05","path":"references/chilis/01_Chilis建筑与空间关系/05_Chilis露台与LINK同框_0308.jpg","side":"露台长边","observations":["米色高檐黑印字与透明围护，红竖 COFFEE 牌。","直线侧面低灰花池、黑座椅、树木支撑；另一商户和 LINK 各自分离。"],"use":"侧面界限，防混入主门面。","uncertainty":"与球场朝向关系依用户确认补足。"},
+    {"id":"chilis06","path":"references/chilis/01_Chilis建筑与空间关系/06_较低活动区仰看LINK与弧形建筑_0248.jpg","side":"低层活动区仰视","observations":["Chili’s 所在层高于黄色活动设施，右侧可见银色顶檐、竖条和玻璃。","LINK 红横带在更远后方。"],"use":"仅高差/材料轮廓佐证。","uncertainty":"主入口细节不可见。"},
+    {"id":"chilis07","path":"references/chilis/01_Chilis建筑与空间关系/07_Chilis正面与屋顶突出体_0334.jpg","side":"喷泉露台正面","observations":["喷泉和伞在前；上方金属竖条带、独立 Chili’s 与 EST.1975 立体字。","屋顶突出矩形设备体有三块通风面，顶部薄盖檐。"],"use":"露台与屋顶的形状佐证。","uncertainty":"文件名正面指露台，不是朝球场灰紫底正面。"},
+    {"id":"chilis08","path":"references/chilis/01_Chilis建筑与空间关系/08_Chilis电梯凹口与侧墙_0304.jpg","side":"电梯凹口","observations":["红褐色细长竖条釉面砖，明显长边竖缝和分层横缝。","不锈钢拉丝双开电梯门和小黑按钮板。","墙上较小 Chili’s/CAFE & BAR/EST.1975 立体标识；外侧黑色古典壁灯。"],"use":"禁止把砖墙和电梯金属当成水泥。","uncertainty":"凹口不是主入口玻璃双门。"},
+    {"id":"part1_06","path":"references/part1/06_球场斜向纵深_00-24.25.png","side":"场内斜望门店右端","observations":["门店上半密集灰色竖条、下半玻璃与红褐竖带。","与后方高层明显分开。"],"use":"门店宽度和外材料组合。","uncertainty":"主招牌不完整、细节小。"},
+    {"id":"part1_07","path":"references/part1/07_篮架正面与商场_00-12.45.png","side":"篮下正面","observations":["主门头右侧 EST.1975，银色凹面柱分隔竖条窗带。","右边红褐侧墙上的小字牌、红白条纹伞、玻璃窗黑横框。","篮板灰绿玻璃、白内框和黑底护垫。"],"use":"正对球场右端家具和侧牌位置、篮板质感。","uncertainty":"小字牌细文模糊。"},
+    {"id":"part1_08","path":"references/part1/08_斜向Chilis门头_00-13.85.png","side":"场内斜向主门头","observations":["Chili’s 字呈红橙色，金色小字、灰紫底；门店主体正直。","左侧 Boots 为远侧另一建筑。"],"use":"日景色彩与店体关系。","uncertainty":"人物遮挡大，不能量门窗。"},
+    {"id":"part1_09","path":"references/part1/09_弧线与Chilis背景_00-17.50.png","side":"正对主门头","observations":["灰紫门头明确平直，红橙灯箱字和绿色撇号，米色棚。","三层金属檐口、后方水平百叶设备面，灰玻璃门窗。"],"use":"主正面整体比例和色彩的关键场内证据。","uncertainty":"灯字颜色受日照/亮灯状态影响。"},
+    {"id":"part1_10","path":"references/part1/10_侧看篮架与商场楼体_00-27.80.png","side":"篮筐侧下方望主入口","observations":["Chili’s 字有亮边/红壳，金色小字，灰紫底。","雨棚实际薄、下垂边；广告架在玻璃窗前靠近入口。","篮板仍能透过后方，反射柔和。"],"use":"材质和实际厚度。","uncertainty":"网格遮挡，不能采样成真实表面纹理。"},
+    {"id":"part1_11","path":"references/part1/11_低角度看篮板_00-04.90.png","side":"篮下低角度","observations":["门店右端局部弧形转角、上部竖条和下部玻璃，红白条纹伞。","灰绿透明篮板、细金属边框和黑底护垫，反光不刺眼。"],"use":"篮板玻璃和门店转角佐证。","uncertainty":"不推断玻璃精确 IOR。"},
+    {"id":"part1_12","path":"references/part1/12_篮下向外看围网_00-16.20.png","side":"球场左端回看","observations":["门店边部玻璃和灰色金属框在右侧，背景商场分离。"],"use":"仅边部空间交叉。","uncertainty":"主门面不可见。"},
+    {"id":"part1_13","path":"references/part1/13_围网转角与建筑_00-20.70.png","side":"左围栏方向","observations":["右边仅少量局部转角檐口，远方为独立高层。"],"use":"限制场景误归属。","uncertainty":"不提供主入口细节。"},
+    {"id":"part2_14","path":"references/part2/14_篮板篮圈和围网细节_00-21.40.png","side":"篮架近景/主门面边部","observations":["米布棚和窗前广告牌，灰绿固定玻璃上横框、黑下框。","篮板可透背景，白框、灰边框、黑护垫分离。"],"use":"主面左侧窗组和篮板质感。","uncertainty":"广告文字不可读。"},
+    {"id":"part2_18","path":"references/part2/18_黄色区域及围网边界_00-11.55.png","side":"球场右侧外望","observations":["主要是凉亭和围栏，铺地偏暖灰。"],"use":"排除无关照片；铺地不是纯白。","uncertainty":"无 Chili’s 主门面。"},
+    {"id":"part2_19","path":"references/part2/19_篮筐与Chili’s同框.jpg","side":"正对球场主入口","observations":["完整灰紫门头、中央红橙字/绿撇号、左右金色小字。","米布棚前黑中文，黑框玻璃，右侧红白条纹伞与木色柜体。","银柱、竖条窗带、三层屋檐；字和边框均有厚度。"],"use":"最直接的球场位置与正面元素次序证据。","uncertainty":"粗网格来自球场围网，不属于门头表面。"},
+    {"id":"part2_20","path":"references/part2/20_从休息区望向球场.jpg","side":"圆棚区外看店体","observations":["门店主灯牌在左，侧红褐墙及小字牌在右，被花草分隔；上部金属条带连续。"],"use":"右端红褐墙/植物遮挡/店面关系。","uncertainty":"远景细字不可辨。"},
+    {"id":"r12_01","path":"references/r12-left/selected/01_A段_斜看左围栏与篮筐_00-14.30.png","side":"场内左斜角","observations":["灰紫底主灯牌、CAFE&BAR、红字绿撇号，棚在下。","左右金属分格和后方 LINK 留出层次。"],"use":"正面比例重复交叉。","uncertainty":"人物遮挡门。"},
+    {"id":"r12_02","path":"references/r12-left/selected/02_A段_左围栏到篮下转角_00-15.30.png","side":"左边部","observations":["主入口左窗组是大玻璃面分格，银灰竖柱/横梁。","小角部屋顶与远高层分离。"],"use":"左侧窗组结构，不凭空增门。","uncertainty":"浅绿玻璃反射不等于绿色实体墙。"},
+    {"id":"r12_03","path":"references/r12-left/selected/03_A段_篮下斜向看左围网_00-16.25.png","side":"左边部低角度","observations":["银灰檐口和横框、下层玻璃，左侧独立商户远景。"],"use":"边部几何连续。","uncertainty":"主灯牌未见。"},
+    {"id":"r12_04","path":"references/r12-left/selected/04_B段_正对左围栏全幅_00-20.25.png","side":"左围栏","observations":["主面基本不在画内，背景是 Boots 与远大厦。"],"use":"不将背景材料混入 Chili’s。","uncertainty":"无主面细节。"},
+    {"id":"r12_05","path":"references/r12-left/selected/05_B段_沿左围栏右移_00-20.75.png","side":"左围栏","observations":["画面最右少量 Chili’s 转角顶边，主面未见。"],"use":"限定可用范围。","uncertainty":"无主面细节。"},
+    {"id":"r12_06","path":"references/r12-left/selected/06_B段_左围栏接篮筐端_00-21.25.png","side":"左窗组斜看","observations":["灰绿色玻璃分格、银灰金属边框与横梁，主门棚右缘和下方广告板。"],"use":"玻璃墙层次与广告牌落位。","uncertainty":"视频不支持精确窗格数量/厘米尺寸。"},
+    {"id":"r12_07","path":"references/r12-left/selected/07_C段_另一斜角固定围栏关系_00-26.35.png","side":"主门头左斜角","observations":["直主立面、灰紫招牌、密集上部竖条、三道顶檐，凹银柱。","后方设备盒有水平通风百叶，LINK 更高更远。"],"use":"多个材料分区和立体檐口关系。","uncertainty":"设备盒真实深度不明。"},
+    {"id":"r12_08","path":"references/r12-left/selected/08_泥靴外观补充_03-32.525.jpg","side":"Boots 店面","observations":["另一店面的银灰竖条和三道檐口共享建筑语言，但招牌和门组不同。"],"use":"只作相邻建筑材料家族；不复制其门组到 Chili’s。","uncertainty":"非 Chili’s 原图。"},
+    {"id":"skyline01","path":"references/r12-skyline/原始截图/01_场内看新中关_00-20.50.png","side":"左侧围栏远楼方向","observations":["主要是新中关和左侧商户；最右少量 Chili’s 转角檐口。"],"use":"无新增主面材料细节，避免把远楼玻璃误归给店面。","uncertainty":"主门面不在图内。"},
+    {"id":"skyline02","path":"references/r12-skyline/原始截图/02_新中关与篮筐端_00-14.80.png","side":"球场左斜向主入口","observations":["灰紫门头及 CAFE&BAR、银色凹柱和叠层金属顶檐清楚，米色下斜棚位于其下。","主门左侧玻璃分格有黑下框、水平银框；屋顶矩形突出体与后方 LINK 分离。"],"use":"补强已有主正面材料分区和长直立面证据，未见与主报告冲突。","uncertainty":"招牌主体和门被截断/人物遮挡，不增补未见细节。"},
+    {"id":"skyline03","path":"references/r12-skyline/原始截图/03_新东方字样楼与圆盘棚_00-11.40.png","side":"圆盘棚方向","observations":["主要是圆盘棚、围栏、新东方字样楼及灰色铺装。"],"use":"明确无 Chili’s 主立面证据。","uncertainty":"不能用于主门面材质。"},
+    {"id":"skyline05","path":"references/r12-skyline/原始截图/05_蓝玻璃楼群相邻角度_00-23.10.png","side":"球场右斜向店面端部","observations":["门店端部上半密集竖条、下半玻璃和一条红褐色竖墙；墙上有 Chili’s/CAFE & BAR 等小层级标识。","与大型 LINK 楼体之间有明显不同体量和前后层次，侧边绿植遮挡店面下缘。"],"use":"补强右侧红褐墙和小招牌位置，不改变已审计的灰紫主门头材料。","uncertainty":"小字较小不可逐字精确读取，不由此编细字。"},
+    {"id":"skyline06","path":"references/r12-skyline/原始截图/06_篮下看高蓝玻璃塔楼_00-28.85.png","side":"篮板背侧向开放区","observations":["篮板背部透明灰玻璃、金属细边和黑底护垫可见；其后主要为圆盘棚与蓝玻璃塔楼。"],"use":"篮板材料的侧后方交叉，柔和透明体感，非黑实板；不提供 Chili’s 主面细节。","uncertainty":"天空曝光高，不用作篮板不透明度的精确数值。"},
+    {"id":"skyline07","path":"references/r12-skyline/原始截图/07_场内向开放广场看_00-19.20.png","side":"开放广场方向","observations":["广场灰色地面、树木与高层，Chili’s 主入口不在画面内。"],"use":"排除无关主面证据。","uncertainty":"不支持主入口材料判断。"}
+  ],
+  "not_to_invent": [
+    "模糊或被雪遮挡的菜单/广告小字。",
+    "由雪景推纯白水泥或纯白桌面。",
+    "由夜景光晕推出当前未通电材质的亮度。",
+    "照片看不到的灯箱内部 LED、螺丝排列或电气布线。",
+    "把照片上的球场网格烘到招牌/玻璃纹理中。",
+    "把左转角露台、右侧红砖凹口和朝球场灰紫主门头合成一张面。"
+  ]
+}

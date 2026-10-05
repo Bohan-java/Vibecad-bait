@@ -1,0 +1,1070 @@
+{
+  "revision": "R13",
+  "status": "passed_offline_final_native_glass_check",
+  "input_iff": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-native\\arena_700_int.iff",
+  "input_iff_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+  "input_iff_bytes": 1685622410,
+  "expected_sha256_matched": true,
+  "comparison_iff": "E:\\CodexData\\2karena\\zgc-court\\output\\arena_700_int.iff",
+  "comparison_iff_sha256": "9b792998b97ba726738c4d641b9ceea728b8f102b1672741a2e53096227b144e",
+  "comparison_revision": "R12.1",
+  "output_iff_written": false,
+  "source_blend_read_or_written": false,
+  "scene_objects_and_MAIN_exactly_unchanged_from_R12_1": true,
+  "all_basket_geometry_and_skinning_buffers_byte_identical_to_R12_1": true,
+  "all_basket_effects_unchanged_from_R12_1": true,
+  "native_specialized_effect_identical_to_template": true,
+  "native_Opacity": 1,
+  "native_AlphaCutOffForDepth": 0.9,
+  "actual_materials": [
+    {
+      "name": "basket_stanchiont_outdoor:glass_shader_mat",
+      "effect": "basket_glass.fx#fbbf6988cee09674",
+      "script": "basket_glass.9c3a099189c7c26f.script",
+      "resource": {
+        "Albedo": {
+          "Pixelmap": "zgc_r10:glass_albedo"
+        },
+        "RoughnessTexture": {
+          "Pixelmap": "zgc_r10:glass_roughness"
+        }
+      },
+      "presentation_enable_mask": 2,
+      "material_definition_exactly_unchanged_from_R12_1": true
+    },
+    {
+      "name": "basket_stanchiont_outdoor:glasshole_shader_mat",
+      "effect": "basket_glass.fx#fbbf6988cee09674",
+      "script": "basket_glass.9c3a099189c7c26f.script",
+      "resource": {
+        "Albedo": {
+          "Pixelmap": "zgc_r10:glass_albedo"
+        },
+        "RoughnessTexture": {
+          "Pixelmap": "zgc_r10:glass_roughness"
+        }
+      },
+      "presentation_enable_mask": 2,
+      "material_definition_exactly_unchanged_from_R12_1": true
+    }
+  ],
+  "actual_texture_checks": [
+    {
+      "slot": "Albedo",
+      "pixelmap": "zgc_r10:glass_albedo",
+      "dds": "zgc_r13_glass_albedo.d43d2428ec37147a.dds",
+      "sha256": "d43d2428ec37147a740db8919cc70308097df08f3b1892e038ff092d730661ac",
+      "bytes": 349700,
+      "descriptor": {
+        "Width": 512,
+        "Height": 512,
+        "Mips": 10,
+        "Format": "BC7_UNORM",
+        "Min": [
+          0.05448027644244237,
+          0.05448027644244237,
+          0.05448027644244237,
+          0.1411764705882353
+        ],
+        "Max": [
+          0.05448027644244237,
+          0.05448027644244237,
+          0.05448027644244237,
+          0.1411764705882353
+        ],
+        "PixelDataSize": 349552,
+        "Binary": "zgc_r13_glass_albedo.d43d2428ec37147a.tld"
+      },
+      "all_10_mips_fully_decoded_verified": true,
+      "levels": [
+        {
+          "mip": 0,
+          "dimensions": [
+            512,
+            512
+          ],
+          "payload_offset": 148,
+          "payload_bytes": 262144,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 1,
+          "dimensions": [
+            256,
+            256
+          ],
+          "payload_offset": 262292,
+          "payload_bytes": 65536,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 2,
+          "dimensions": [
+            128,
+            128
+          ],
+          "payload_offset": 327828,
+          "payload_bytes": 16384,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 3,
+          "dimensions": [
+            64,
+            64
+          ],
+          "payload_offset": 344212,
+          "payload_bytes": 4096,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 4,
+          "dimensions": [
+            32,
+            32
+          ],
+          "payload_offset": 348308,
+          "payload_bytes": 1024,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 5,
+          "dimensions": [
+            16,
+            16
+          ],
+          "payload_offset": 349332,
+          "payload_bytes": 256,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 6,
+          "dimensions": [
+            8,
+            8
+          ],
+          "payload_offset": 349588,
+          "payload_bytes": 64,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 7,
+          "dimensions": [
+            4,
+            4
+          ],
+          "payload_offset": 349652,
+          "payload_bytes": 16,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 8,
+          "dimensions": [
+            2,
+            2
+          ],
+          "payload_offset": 349668,
+          "payload_bytes": 16,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        },
+        {
+          "mip": 9,
+          "dimensions": [
+            1,
+            1
+          ],
+          "payload_offset": 349684,
+          "payload_bytes": 16,
+          "decoded_full_level_extrema": [
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              66,
+              66
+            ],
+            [
+              36,
+              36
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "RoughnessTexture",
+      "pixelmap": "zgc_r10:glass_roughness",
+      "dds": "zgc_r13_glass_roughness.76c3fe4f32b4fec1.dds",
+      "sha256": "76c3fe4f32b4fec14cdff8b481bb61f58a375ef50b63eb907ebe233961aa2228",
+      "bytes": 174904,
+      "descriptor": {
+        "Width": 512,
+        "Height": 512,
+        "Mips": 10,
+        "Format": "BC1_UNORM",
+        "Min": [
+          0.3215686274509804,
+          0.3176470588235294,
+          0.3215686274509804,
+          1.0
+        ],
+        "Max": [
+          0.3215686274509804,
+          0.3176470588235294,
+          0.3215686274509804,
+          1.0
+        ],
+        "PixelDataSize": 174776,
+        "Binary": "zgc_r13_glass_roughness.76c3fe4f32b4fec1.tld",
+        "TexelUsage": "LINEAR"
+      },
+      "all_10_mips_fully_decoded_verified": true,
+      "levels": [
+        {
+          "mip": 0,
+          "dimensions": [
+            512,
+            512
+          ],
+          "payload_offset": 128,
+          "payload_bytes": 131072,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 1,
+          "dimensions": [
+            256,
+            256
+          ],
+          "payload_offset": 131200,
+          "payload_bytes": 32768,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 2,
+          "dimensions": [
+            128,
+            128
+          ],
+          "payload_offset": 163968,
+          "payload_bytes": 8192,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 3,
+          "dimensions": [
+            64,
+            64
+          ],
+          "payload_offset": 172160,
+          "payload_bytes": 2048,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 4,
+          "dimensions": [
+            32,
+            32
+          ],
+          "payload_offset": 174208,
+          "payload_bytes": 512,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 5,
+          "dimensions": [
+            16,
+            16
+          ],
+          "payload_offset": 174720,
+          "payload_bytes": 128,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 6,
+          "dimensions": [
+            8,
+            8
+          ],
+          "payload_offset": 174848,
+          "payload_bytes": 32,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 7,
+          "dimensions": [
+            4,
+            4
+          ],
+          "payload_offset": 174880,
+          "payload_bytes": 8,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 8,
+          "dimensions": [
+            2,
+            2
+          ],
+          "payload_offset": 174888,
+          "payload_bytes": 8,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        },
+        {
+          "mip": 9,
+          "dimensions": [
+            1,
+            1
+          ],
+          "payload_offset": 174896,
+          "payload_bytes": 8,
+          "decoded_full_level_extrema": [
+            [
+              82,
+              82
+            ],
+            [
+              81,
+              81
+            ],
+            [
+              82,
+              82
+            ],
+            [
+              255,
+              255
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "native_shader_and_script_checks": [
+    {
+      "member": "AHS.de9edc821ef26a76.shader",
+      "bytes": 7032,
+      "sha256": "efd0ff310619876a6f036900f7e7077b0d2f0802a7ba929fe45d9dfa88783b45",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.5fdd03ba1e6d1cd9.shader",
+      "bytes": 26736,
+      "sha256": "d451ce65a09c9a6c3feb5178807360ed92dbfbd59e7fa46e348b561e767c2c8f",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.66823e7969ce912a.shader",
+      "bytes": 27036,
+      "sha256": "afe144323fc24b9976e7ab289331b036dc6df2c39aa9add0afa71af145c707e0",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.70f809cbac1aa505.shader",
+      "bytes": 3384,
+      "sha256": "cee61e339ea8a12ba1b8d4c79882b7dad8c22b18f57051a3a85f9d5b6e19562e",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.964b07872198a129.shader",
+      "bytes": 27068,
+      "sha256": "9ace57e1999abeb093b7568019d255a3cfde888ba402b8ec0567b4461736e837",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.968c9803909ee4fb.shader",
+      "bytes": 29636,
+      "sha256": "bf442d71de863e960a8a4e9ebe7bb0b7212b720a791221e23a8ec7ede270ec97",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.a769dcdfe8ff13a1.shader",
+      "bytes": 3376,
+      "sha256": "43e323d7a692e2ca0b6c8e6fa8861cd7cc8bef6119ddcef40847ba5e9a7081cb",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.ab3b9850dc4a1574.shader",
+      "bytes": 2544,
+      "sha256": "c7b43b0c5c288a8764a8c17006d9e3d914558139e0266c105f3a78d9ca028817",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.b2b89af73987b43e.shader",
+      "bytes": 2552,
+      "sha256": "97dcc95cf7c359d06288565cac6dd54a9455cd00f55bb8ef8dd95ec47654326e",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.c8eff3dddf2459dc.shader",
+      "bytes": 29600,
+      "sha256": "afe6cd1fe8546585bd22fa58e3cc9270cbff4aa0a3aabb195161210f0a34d1c0",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.cfdadcf2e0b51fd2.shader",
+      "bytes": 2812,
+      "sha256": "5afcc1cf3d770a3d2365f7627fbf0a2f958f60e0830a6740e8a3ebb01c1cad89",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "PS.f7705409bcd0b193.shader",
+      "bytes": 2820,
+      "sha256": "fcbf9989ce23b020da826307696438ac633dff12534267b0f9735bf6110e8529",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "VS.0ec873e995e4dd69.shader",
+      "bytes": 4648,
+      "sha256": "bca782eb55949d9dfb92581de165d0a8ed7344c0308d732c2c3cfca9324fbab2",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "VS.7686a8a62e2bfb95.shader",
+      "bytes": 5632,
+      "sha256": "7d43f51391592cb14cd7190cba69de1ef2c6d6ea8ce9b4c66b0894d6e8d807c5",
+      "byte_identical_to_native_and_R12_1": true
+    },
+    {
+      "member": "basket_glass.9c3a099189c7c26f.script",
+      "bytes": 267,
+      "sha256": "ffbf2325904d118a69674d3e8f3a5134d8cc632086ed6cdf899c29481decc968",
+      "byte_identical_to_native_and_R12_1": true
+    }
+  ],
+  "native_model_checks": [
+    {
+      "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:basket",
+      "raw_model_definition_identical": false,
+      "descriptor_including_skeleton_and_transforms_unchanged_except_equivalent_material_id_reindex": true,
+      "material_id_reindex": [
+        {
+          "primitive": 5,
+          "before": "zgc_r09:skinned_material_185",
+          "after": "zgc_r09:skinned_material_198",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 6,
+          "before": "zgc_r09:skinned_material_185",
+          "after": "zgc_r09:skinned_material_198",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 7,
+          "before": "zgc_r09:skinned_material_185",
+          "after": "zgc_r09:skinned_material_198",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 8,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 9,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 10,
+          "before": "zgc_r09:skinned_material_187",
+          "after": "zgc_r09:skinned_material_200",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 11,
+          "before": "zgc_r09:skinned_material_187",
+          "after": "zgc_r09:skinned_material_200",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 12,
+          "before": "zgc_r09:skinned_material_187",
+          "after": "zgc_r09:skinned_material_200",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 13,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 14,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 15,
+          "before": "zgc_r09:skinned_material_188",
+          "after": "zgc_r09:skinned_material_201",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 16,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 17,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 18,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 19,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 20,
+          "before": "zgc_r09:skinned_material_186",
+          "after": "zgc_r09:skinned_material_199",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 21,
+          "before": "zgc_r09:skinned_material_189",
+          "after": "zgc_r09:skinned_material_202",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 22,
+          "before": "zgc_r09:skinned_material_190",
+          "after": "zgc_r09:skinned_material_203",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 23,
+          "before": "zgc_r09:skinned_material_188",
+          "after": "zgc_r09:skinned_material_201",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 24,
+          "before": "zgc_r09:skinned_material_188",
+          "after": "zgc_r09:skinned_material_201",
+          "resolved_material_definition_identical": true
+        },
+        {
+          "primitive": 25,
+          "before": "zgc_r09:skinned_material_176",
+          "after": "zgc_r09:skinned_material_189",
+          "resolved_material_definition_identical": true
+        }
+      ],
+      "buffers": [
+        {
+          "member": "IndexBuffer.948236cc681c0c6c.bin",
+          "bytes": 534252,
+          "sha256": "948236cc681c0c6cb731a49b60caf178ba839de0f781fe00c4149b5ca278e57f",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "MatrixWeightsBuffer.fee4b65e1c76c154.bin",
+          "bytes": 32,
+          "sha256": "fee4b65e1c76c1542623df59d640504a4de1c43dfbb64f4423be6a734cd94827",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.8dbf46d36dbead74.bin",
+          "bytes": 80752,
+          "sha256": "8dbf46d36dbead74c80c4d96b1c338735a6931b9bf802bfcedb5b482e704c4b2",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.9342541291b4697f.bin",
+          "bytes": 40376,
+          "sha256": "9342541291b4697f6d239bd8aec421ed5f9a4d1a66ebb9a0a599876739aaa394",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.fa3507ec078ac341.bin",
+          "bytes": 80752,
+          "sha256": "fa3507ec078ac34195ccd3e6670d5c0ba19db212f4c48079c3839a79bdb988e7",
+          "byte_identical_to_R12_1": true
+        }
+      ]
+    },
+    {
+      "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:rimr",
+      "raw_model_definition_identical": true,
+      "descriptor_including_skeleton_and_transforms_unchanged_except_equivalent_material_id_reindex": true,
+      "material_id_reindex": [],
+      "buffers": [
+        {
+          "member": "IndexBuffer.3cd7f9d8c0f8d9a1.bin",
+          "bytes": 25332,
+          "sha256": "fdbca23ad5be0f2ba532e0f57c72237895d92d8fcdea97aed30fdc1c9b11b721",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.bb8866d1aa27b7a6.bin",
+          "bytes": 13980,
+          "sha256": "d5fbec2691da6765a5859cdfda1e81ea52b61d392aa925e36a68527fbbddd351",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.cf24ba8d9ce22186.bin",
+          "bytes": 9320,
+          "sha256": "eaa0dbbcf97f3e4089bb742bf704e6a86319757c10ae78ec4f872ecf7948a475",
+          "byte_identical_to_R12_1": true
+        }
+      ]
+    },
+    {
+      "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+      "raw_model_definition_identical": true,
+      "descriptor_including_skeleton_and_transforms_unchanged_except_equivalent_material_id_reindex": true,
+      "material_id_reindex": [],
+      "buffers": [
+        {
+          "member": "IndexBuffer.8847cadfb80874a2.bin",
+          "bytes": 311640,
+          "sha256": "3e842371756a275fccfe4f3bc32b2ed8c686251f6654ed8461e5d36712cc919c",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "MatrixWeightsBuffer.f4a586351e1b9f4b.bin",
+          "bytes": 4,
+          "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.2b8ec81dc22b7e81.bin",
+          "bytes": 96388,
+          "sha256": "9e5cb9196b58bbad99d24919f984f287d548de4c721b982bf8a909f2133b26af",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.456bf2f1547d5609.bin",
+          "bytes": 192776,
+          "sha256": "2e33256a46e08d976f02fb4113326ccc4a704772d695d01d0ad16b46b9b1c47d",
+          "byte_identical_to_R12_1": true
+        },
+        {
+          "member": "VertexBuffer.b2baa9cf50c1ce45.bin",
+          "bytes": 192776,
+          "sha256": "4a8db2e75d1d679fbcc7340b735d474367e6ab618199e0f17cb5955387028bb2",
+          "byte_identical_to_R12_1": true
+        }
+      ]
+    }
+  ],
+  "other_basket_material_id_reindex_count": 21,
+  "other_basket_material_id_reindex_interpretation": "Source export reordered material IDs; 21 appended basket primitive bindings use seven renamed materials whose entire definitions are equal. All model fields are otherwise exactly equal.",
+  "glass_model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+  "glass_model_exactly_unchanged": true,
+  "glass_primitive_materials": [
+    "basket_stanchiont_outdoor:glass_shader_mat",
+    "basket_stanchiont_outdoor:glasshole_shader_mat",
+    "basket_stanchiont_outdoor:glass_shader_mat"
+  ],
+  "both_native_glass_instances": {
+    "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass": {
+      "Type": "OBJECT",
+      "Target": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+      "Transform": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:|basket_stanchiont_outdoor_low|glass|basketpivot",
+      "Matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1310.64001,
+        1.0
+      ]
+    },
+    "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1:glass": {
+      "Type": "OBJECT",
+      "Target": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+      "Transform": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1:|basket_stanchiont_outdoor_low|glass|basketpivot",
+      "Matrix": [
+        -1.0,
+        0.0,
+        8.74227766e-08,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -8.74227766e-08,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1310.64001,
+        1.0
+      ]
+    }
+  },
+  "MAIN": {
+    "MAIN": {
+      "Type": "MARKER",
+      "UserText": "court_marker",
+      "Attribute": {
+        "VC_CourtType": "NBA",
+        "VC_BasketType": "PARK_NORMAL",
+        "VC_NetHomeType": "CLOTH",
+        "VC_NetAwayType": "CLOTH",
+        "VC_NetHomeVariation": "DEFAULT",
+        "VC_NetAwayVariation": "DEFAULT",
+        "VC_HomeBasket": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0",
+        "VC_AwayBasket": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1",
+        "VC_BasketHomeAssembly": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:basket",
+        "VC_BasketHomeGlass": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+        "VC_BasketHomeRimReflection": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:rimr",
+        "VC_BasketAwayAssembly": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1:basket",
+        "VC_BasketAwayGlass": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1:glass",
+        "VC_BasketAwayRimReflection": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1:rimr"
+      }
+    }
+  },
+  "render_contract": {
+    "presentation_effect_and_material_preserved": true,
+    "skinning_descriptors_vertex_weights_transforms_and_object_instances_preserved": true,
+    "alpha_before": 0.0392156862745098,
+    "alpha_after": 0.1411764705882353,
+    "roughness_before": 0.06274509803921569,
+    "roughness_after": 0.3215686274509804,
+    "interpretation": "Less transparent glass; roughness softens reflections/highlights. No independent reflection-energy multiplier was changed."
+  },
+  "game_tested": false,
+  "limitations": [
+    "Static byte/schema checks cannot establish replay rendering or hang-on-rim animation in the game.",
+    "Native alpha/roughness controls are verified; total reflected energy reduction is not demonstrated."
+  ]
+}

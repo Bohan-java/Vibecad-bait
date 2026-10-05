@@ -1,0 +1,163 @@
+{
+  "revision": "R11",
+  "status": "photo-audit-complete",
+  "source": "Direct view_image inspection; no AI reconstructed reference; no source model edited",
+  "orientation": "面对Chili’s主入口，球场在背后；画面左=source -Y、右=source +Y。",
+  "photos_inspected": [
+    "chilis-detail/01_新增原图/01",
+    "chilis-detail/01_新增原图/02",
+    "chilis-detail/01_新增原图/03",
+    "chilis-detail/01_新增原图/04",
+    "chilis-detail/01_新增原图/05",
+    "chilis-detail/01_新增原图/06",
+    "chilis-detail/01_新增原图/07",
+    "chilis-detail/01_新增原图/08",
+    "chilis-detail/01_新增原图/09",
+    "chilis-detail/01_新增原图/10",
+    "chilis-detail/01_新增原图/11",
+    "chilis/01_Chilis建筑与空间关系/01–08",
+    "part1/07",
+    "part1/08",
+    "part1/10",
+    "part1/13",
+    "part2/19",
+    "part2/21",
+    "chilis/02_LINK与俯视参照/05"
+  ],
+  "proven": [
+    {
+      "claim": "灰紫实体底、CAFE&BAR / chili’s / EST.1975、黑框玻璃主入口朝向球场；该面并非银色竖格露台招牌面。",
+      "evidence": [
+        "新增02",
+        "球场part2/19",
+        "球场part1/08、10"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "从球场看店，主chili’s字位偏篮架左，EST.1975接近篮架后；招牌右侧接银色竖格高窗/玻璃圆弧体，再右有红陶标志墙。",
+      "evidence": [
+        "球场part2/19",
+        "球场part1/07"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "喷泉露台是另一门面：银色竖格作背衬，chili’s和两侧字架空于棚前上缘；有透明围护、砖地、喷泉、红编织椅、偏置伞杆。不能把它与主入口合成同一立面。",
+      "evidence": [
+        "新增01、05、11",
+        "旧建筑07"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "店与球场围栏之间存在连续可走通道和低矮绿化带；不能直接贴围栏建店或桌椅堵满通道。",
+      "evidence": [
+        "新增07、08",
+        "旧建筑03"
+      ],
+      "confidence": "high"
+    },
+    {
+      "claim": "露台旁有较低空间及透明栏杆，步道通往The boots；远后方LINK是独立建筑层次。",
+      "evidence": [
+        "旧建筑04、05、06",
+        "新增03、05"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "user_confirmed_spatial_relationship": {
+    "source": "Human user reply relayed by root during this turn",
+    "relationship": "面对主入口，左侧绕转角到喷泉露台。",
+    "blender_mapping": "负Y端回转后的另一个门面",
+    "not_confirmed": "两面夹角、转角半径、柱跨与绝对米数仍未实测"
+  },
+  "orientation_inferences": [
+    {
+      "claim": "露台沿主入口一端圆弧转到另一个朝向，照片未给出无歧义的两面同框俯视或连续完整转弯。",
+      "confidence": "high for distinct faces; low for absolute left/right"
+    },
+    {
+      "claim": "The boots在球场朝店视角左外侧（part1/08、13），且露台步道朝The boots延伸（旧04、05），较相容于露台在朝店左段/负Y回转后侧。",
+      "confidence": "medium-low; cannot prove final yaw or exact side"
+    },
+    {
+      "claim": "曾以红陶板推断右侧回转，但不是可靠唯一标志；不据此翻转全楼。",
+      "confidence": "withdrawn inference"
+    }
+  ],
+  "proportions": {
+    "main_entry": {
+      "evidence": "新增02 (1080×720),透视未校正",
+      "facade_sign_span_between_columns_px": [
+        240,
+        925
+      ],
+      "double_door_span_px": [
+        528,
+        716
+      ],
+      "door_to_column_span_approx": 0.27,
+      "sign_panel_height_to_door_height_approx": 0.65,
+      "notes": "黑框双门较窄，门两侧是独立大玻璃窗；银柱为两翼凸起、中间内凹的金属竖件，不是均匀普通扁条；暖白纵向灯槽现在只建形体。"
+    },
+    "terrace": {
+      "evidence": "新增01 (1000×758),近正面",
+      "inner_column_span_px": [
+        295,
+        777
+      ],
+      "logo_approx_box_px": [
+        380,
+        194,
+        632,
+        290
+      ],
+      "logo_width_to_inner_column_span_approx": 0.52,
+      "logo_height_to_inner_column_span_approx": 0.2,
+      "notes": "logo悬置于棚上前缘；CAFE&BAR及EST.1975高度比主字小得多；正面两主柱附近有竖向灯槽。近处喷泉不能直接按像素比确定真实直径。"
+    },
+    "roof": {
+      "evidence": "新增01、旧07",
+      "protrusion_width_to_terrace_outer_visible_width_approx": 0.38,
+      "protrusion_height_to_sign_band_height_approx": 0.5,
+      "vent_bays": 3,
+      "notes": "矩形低矮突出体不是三块深色实心窗，3组水平百叶、竖边框、薄外挑顶帽，位于露台字背后略偏画面右。绝对尺寸/用途未知。"
+    },
+    "fountain": {
+      "evidence": "新增01、05、11",
+      "inferred_basin_diameter_m": [
+        1.6,
+        1.9
+      ],
+      "inferred_total_height_m": [
+        2,
+        2.3
+      ],
+      "tiers": "圆盆+中央雕塑立柱与逐级缩小盘碟",
+      "notes": "上述为人身/桌面辅助估算，不是测量。无夜景亮度迁移。"
+    }
+  },
+  "model_changes_required": [
+    "朝球场主入口：灰紫实体字底、3组字正确比例位置、黑框双门与独立窗格、门把、米色波浪帘檐、背后支撑。",
+    "露台另立面：银色密竖格与架空招牌、透明围护、正确喷泉位置，桌椅组与伞杆留通道。",
+    "银色内凹柱、连续多层水平金属檐口、圆弧玻璃沿弧分格及底裙，避免方盒堆接。",
+    "红陶细竖砖立面与电梯凹口不是普通无细节矩形广告片。",
+    "屋顶低突出体加真实3组百叶、边框与薄盖板；不要新建巨大屋顶盒体。",
+    "保留场地、灯杆、篮架、球员标志、地板原生几何及已修复材质；本轮不重新改灯光。"
+  ],
+  "not_provable": [
+    "露台相对主入口回转角（左侧已由用户确认）",
+    "建筑与LINK精确间距",
+    "真实柱跨/屋顶高/透视未校正尺寸",
+    "照片外完整背墙与室内布局",
+    "不同时季桌椅每一张是否固定",
+    "夜景发光材料的白天亮度"
+  ],
+  "reference_use_limits": [
+    "冬季雪景的白桌面/白地不是材质原色。",
+    "新增01夏季彩图用于砖地/红椅/伞布颜色，冬季图用于结构与视角。",
+    "官方总平面没有明确标注当前Chili’s与球场，不能当作精确当前测绘。"
+  ]
+}

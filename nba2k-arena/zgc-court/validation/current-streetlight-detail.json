@@ -1,0 +1,187 @@
+{
+  "status": "passed",
+  "revision": "R10 photo21 left tall unlit floodlight and concrete palette",
+  "source_output": "E:\\CodexData\\2karena\\zgc-court\\source\\scene.blend",
+  "source_sha256": "1586edcd33400091d3fe9f67746deb5cd05ba3b1608c2bb2c7da94b0133de361",
+  "lamp": {
+    "position_m": [
+      -4.2,
+      -9.85,
+      0.0
+    ],
+    "height_m": 10.8,
+    "mast_diameter_m": [
+      0.16,
+      0.095
+    ],
+    "head_rows_z_m": [
+      10.0,
+      10.43
+    ],
+    "paired_main_head_count": 4,
+    "head_body_width_height_depth_m": [
+      0.34,
+      0.2,
+      0.126
+    ],
+    "small_lower_attachment": "Visible in photo21; purpose unassigned.",
+    "side": "Chilis / negative X at top; negative Y is left, outside long fence",
+    "fence_y_m": -9.17,
+    "offset_from_fence_center_m": 0.68,
+    "photo_evidence": {
+      "21": "High slender pole outside left fence near open end; two paired rectangular tiers, small lower fitting, short top projection.",
+      "23": "Secondary view corroborates flat rectangular paired heads and lower attachment, but does not survey the requested pole.",
+      "16,22,24": "Other plaza poles are visually distinct; no mirrored high pole is added.",
+      "chilis/01/03": "Glass reflection supplies weak silhouette corroboration, not a base position."
+    },
+    "metric_status": "Placement, height, diameters and fabrication dimensions are editable estimates, not photogrammetric measurements.",
+    "emission": false,
+    "new_light_objects": 0
+  },
+  "new_objects": [
+    "R10 left tall floodlight tapered mast",
+    "R10 left tall floodlight housings and brackets",
+    "R10 left tall floodlight non-emitting lens faces",
+    "R10 left tall floodlight mechanical fixings"
+  ],
+  "new_vertices": 948,
+  "original_objects_protected": 585,
+  "unexpected_geometry_changes": [],
+  "all_original_geometry_transforms_and_UVs_unchanged": true,
+  "all_baskets_fences_anchors_unchanged": true,
+  "light_objects_world_exposure_unchanged": true,
+  "non_atlas_material_changes": [
+    {
+      "material": "R02 environment | ivory_wave",
+      "before_linear_rgba": [
+        0.6444796919822693,
+        0.6307571530342102,
+        0.5457244515419006,
+        1.0
+      ],
+      "after_srgb": "#ADB0A7",
+      "roughness": 0.94,
+      "users": [
+        {
+          "object": "R02 observed low plaza wave outside court",
+          "affected_faces": 864
+        }
+      ]
+    },
+    {
+      "material": "R02 architecture | terrace",
+      "before_linear_rgba": [
+        0.47353148460388184,
+        0.4910208582878113,
+        0.42869049310684204,
+        1.0
+      ],
+      "after_srgb": "#9FA399",
+      "roughness": 0.96,
+      "users": [
+        {
+          "object": "R02 architecture Chilis narrow restaurant terrace",
+          "affected_faces": 76
+        }
+      ]
+    },
+    {
+      "material": "R02 environment | pale_paving",
+      "before_linear_rgba": [
+        0.533276379108429,
+        0.5394794940948486,
+        0.47353148460388184,
+        1.0
+      ],
+      "after_srgb": "#949994",
+      "roughness": 0.96,
+      "users": [
+        {
+          "object": "R02 continuous pale plaza ground",
+          "affected_faces": 5
+        }
+      ]
+    },
+    {
+      "material": "R02 environment | stone_insert",
+      "before_linear_rgba": [
+        0.42869049310684204,
+        0.46207699179649353,
+        0.43415364623069763,
+        1.0
+      ],
+      "after_srgb": "#9BA097",
+      "roughness": 0.94,
+      "users": [
+        {
+          "object": "R02 scattered grey stone inserts",
+          "affected_faces": 384
+        }
+      ]
+    }
+  ],
+  "atlas_ownership": "SVG/PNG and atlas shader untouched; artwork agent supplies grey paving image.",
+  "validation": {
+    "source": "scene.blend actual evaluated coordinates",
+    "coordinate_system": "metres; X length; Y width; Z up; reference X<0",
+    "status": "passed",
+    "tolerance_m": 4e-06,
+    "game_geometry_mapping": "unverified",
+    "playing_surface": {
+      "expected_length_m": 28.651200000000003,
+      "measured_length_m": 28.651199340820312,
+      "expected_width_m": 15.24,
+      "measured_width_m": 15.239999771118164,
+      "surface_z_m": 0.0
+    },
+    "ground": {
+      "object": "court_surface",
+      "mesh_count": 1,
+      "connected_vertices": 16,
+      "vertices": 16,
+      "connected": true,
+      "apron_m": 4.0,
+      "centre_seam": false
+    },
+    "hoops": {
+      "reference": {
+        "rim_center_x_m": -12.7253999710083,
+        "expected_center_x_m": -12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962898,
+        "backboard_front_x_m": -13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": -13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      },
+      "open": {
+        "rim_center_x_m": 12.7253999710083,
+        "expected_center_x_m": 12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962881,
+        "backboard_front_x_m": 13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": 13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      }
+    },
+    "limits": [
+      "No NBA 2K game mesh, physics, scoring trigger, collision or animated net verified.",
+      "Support geometry is an editable provisional visual reconstruction.",
+      "Geometry validation does not establish donor compatibility."
+    ]
+  },
+  "game_package_written": false
+}

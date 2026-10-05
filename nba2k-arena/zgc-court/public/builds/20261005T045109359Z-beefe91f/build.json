@@ -1,0 +1,76 @@
+{
+  "build_id": "20261005T045109359Z-beefe91f",
+  "source_version": "S-beefe91fc3",
+  "input_hash": "beefe91fc31185222f323e768413685f790245b62e92189ff9d7d5c78d532412",
+  "inputs": [
+    {
+      "path": "source/BUILD_NOTES.txt",
+      "sha256": "7294ce241f883b15a9e09d830c46c1d948e1ca27e743ce6f72cb8d8e612d3348",
+      "bytes": 5499
+    },
+    {
+      "path": "source/reconstruction_notes.json",
+      "sha256": "0c982c540f611e119fc1ed4b51f3274f5396f3ce736b441cfe3eb518e40ed4d4",
+      "bytes": 3366
+    },
+    {
+      "path": "source/scene.blend",
+      "sha256": "884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b",
+      "bytes": 65428978
+    },
+    {
+      "path": "artwork/ARTWORK_NOTES.txt",
+      "sha256": "6e7ac7a9b435f7caef09b1be58c54c9d45aa5fe5d50ea4fb8af5b86f4cff5e99",
+      "bytes": 1204
+    },
+    {
+      "path": "artwork/court.svg",
+      "sha256": "67283ea8e589f34f3dcebeb904b5d577a4a76af81fa350ea2521d97b8d166f07",
+      "bytes": 42262
+    },
+    {
+      "path": "artwork/PAVING_ATLAS_NOTES.txt",
+      "sha256": "edc7b31a30509b202e03e78fa585a2c1b7772994eb4f0000f5ad941674b3f29d",
+      "bytes": 1927
+    },
+    {
+      "path": "artwork/paving-context.svg",
+      "sha256": "79893cec6d2e8af0430deb8c5196e09a2ebea1412467b94ec67b1e05fcd104e6",
+      "bytes": 18271
+    },
+    {
+      "path": "artwork/R02_NOTES.txt",
+      "sha256": "73b09cd74f16cc772f3ad6bd03b5842359148d93bb49ea7a6fd251d6e16fe32b",
+      "bytes": 2668
+    },
+    {
+      "path": "config/project.json",
+      "sha256": "a4e04d6898f5120068d4669e127ee164a8dad10152be5477418ad175bbdb3022",
+      "bytes": 7526
+    },
+    {
+      "path": "tools/export_scene.py",
+      "sha256": "d6c392a21d403a4055a972442dfcf7ff89d13b7e476c71f232835d5f892d1f25",
+      "bytes": 4302
+    },
+    {
+      "path": "tools/rasterize_artwork.mjs",
+      "sha256": "43e03f4da513a1f5a278dd20a5f2e63f487d0dfdfad18ce599b165f9816ae70b",
+      "bytes": 3437
+    },
+    {
+      "path": "tools/create_scene.py",
+      "sha256": "b89cf37ea0b7edcfef8b3f21022bffdd9a473e97aec0b3ad7c3c627634f9b7d6",
+      "bytes": 31116
+    }
+  ],
+  "asset": {
+    "bytes": 134218284,
+    "sha256": "02a8bf6df7646a402b1e1d9c9e4a24e9fb4e03cb34ee52b19d486c9646295acd",
+    "meshes": 883,
+    "nodes": 895
+  },
+  "blender": "D:/Blender/blender.exe",
+  "node": "v24.19.0",
+  "exported_at": "2026-10-05T04:52:48.913Z"
+}

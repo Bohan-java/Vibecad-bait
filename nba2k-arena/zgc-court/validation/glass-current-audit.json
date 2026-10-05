@@ -1,0 +1,259 @@
+{
+  "game_verified": false,
+  "strategy": "complete native outdoor basket_glass pipeline with Presentation; neutral alpha-bearing albedo and roughness avoid duplicate painted frames",
+  "new_skinning_weight_factory": false,
+  "reason": "No demonstrated single-root static dynamic-glass binding in available native level. Constant basket weight belongs to an existing four-node runtime skeleton.",
+  "removed_static_model_count": 2,
+  "removed_models": [
+    {
+      "model": "zgc_r03:part-0646",
+      "materials": [
+        "zgc_r03:material_188"
+      ],
+      "index_buffer_unchanged": "IndexBuffer.0f96898ada4ab54e.bin",
+      "vertex_buffers_unchanged": [
+        "VertexBuffer.3bbfbc9b2f96e13f.bin",
+        "VertexBuffer.2ea9ab9198d16380.bin",
+        "VertexBuffer.208e7edf9d4ec888.bin"
+      ]
+    },
+    {
+      "model": "zgc_r03:part-0770",
+      "materials": [
+        "zgc_r03:material_188"
+      ],
+      "index_buffer_unchanged": "IndexBuffer.0f96898ada4ab54e.bin",
+      "vertex_buffers_unchanged": [
+        "VertexBuffer.3bbfbc9b2f96e13f.bin",
+        "VertexBuffer.2ea9ab9198d16380.bin",
+        "VertexBuffer.208e7edf9d4ec888.bin"
+      ]
+    }
+  ],
+  "removed_objects": [
+    "zgc_r03:part-0646",
+    "zgc_r03:part-0770"
+  ],
+  "documented_source_omissions": [
+    "R02 architecture Chilis terrace side-walk glass guard"
+  ],
+  "guard_glass": "R11 source replaced the old terrace sheet and guardrail with photo-guided wide framed viewing openings",
+  "native_glass": {
+    "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:glass",
+    "restored_model_exactly_matches_donor": true,
+    "restored_original_binary": "IndexBuffer.8847cadfb80874a2.bin",
+    "index_payload_sha256": "3e842371756a275fccfe4f3bc32b2ed8c686251f6654ed8461e5d36712cc919c",
+    "index_count": 155820,
+    "changed_from_degenerate_indices": 155792,
+    "weight_value_copied_without_reencoding": "0x00000100",
+    "weight_vertex_count": 24097,
+    "transform_count": 4,
+    "local_visible_bounds_game_cm": {
+      "min": [
+        -85.13328645181963,
+        290.43453196879534,
+        -0.6429570820935453
+      ],
+      "max": [
+        85.00862245181963,
+        385.42575803120474,
+        -0.005892917906464845
+      ]
+    },
+    "instances_and_binding_unchanged": true,
+    "glass_materials_changed": true,
+    "unused_original_texture_bytes_unchanged": true
+  },
+  "geometry_payloads_modified": false,
+  "new_extra_payloads": [
+    "zgc_r03_texture.ececebf7280fa319.tld",
+    "zgc_r03_texture.ececebf7280fa319.dds",
+    "floor_line.71af6dc754935e49.dds",
+    "floor_line_thin.b8e9b0535e40bbaf.dds",
+    "floor_line_double.b070a8a6acc12d69.dds",
+    "IndexBuffer.8847cadfb80874a2.bin",
+    "AHS.de9edc821ef26a76.shader",
+    "PS.5fdd03ba1e6d1cd9.shader",
+    "PS.66823e7969ce912a.shader",
+    "PS.70f809cbac1aa505.shader",
+    "PS.964b07872198a129.shader",
+    "PS.968c9803909ee4fb.shader",
+    "PS.a769dcdfe8ff13a1.shader",
+    "PS.ab3b9850dc4a1574.shader",
+    "PS.b2b89af73987b43e.shader",
+    "PS.c8eff3dddf2459dc.shader",
+    "PS.cfdadcf2e0b51fd2.shader",
+    "PS.f7705409bcd0b193.shader",
+    "VS.0ec873e995e4dd69.shader",
+    "VS.7686a8a62e2bfb95.shader",
+    "basket_glass.9c3a099189c7c26f.script",
+    "zgc_r13_glass_albedo.d43d2428ec37147a.dds",
+    "zgc_r13_glass_roughness.76c3fe4f32b4fec1.dds",
+    "baskets.SCNE"
+  ],
+  "glass_material_changes": [
+    {
+      "material": "basket_stanchiont_outdoor:glass_shader_mat",
+      "old_effect": "asset.fx#77e66c2fe4283f3e",
+      "new_effect": "basket_glass.fx#fbbf6988cee09674"
+    },
+    {
+      "material": "basket_stanchiont_outdoor:glasshole_shader_mat",
+      "old_effect": "asset.fx#a5527f30280be4a2",
+      "new_effect": "basket_glass.fx#fbbf6988cee09674"
+    }
+  ],
+  "glass_texture_changes": [
+    {
+      "slot": "Albedo",
+      "pixelmap": "zgc_r10:glass_albedo",
+      "dds": "zgc_r13_glass_albedo.d43d2428ec37147a.dds",
+      "format": "BC7_UNORM",
+      "size": [
+        512,
+        512
+      ],
+      "mips": 10,
+      "decoded_rgba_all_mips": [
+        66,
+        66,
+        66,
+        36
+      ],
+      "dds_sha256": "d43d2428ec37147a740db8919cc70308097df08f3b1892e038ff092d730661ac"
+    },
+    {
+      "slot": "RoughnessTexture",
+      "pixelmap": "zgc_r10:glass_roughness",
+      "dds": "zgc_r13_glass_roughness.76c3fe4f32b4fec1.dds",
+      "format": "BC1_UNORM",
+      "size": [
+        512,
+        512
+      ],
+      "mips": 10,
+      "decoded_rgba_all_mips": [
+        82,
+        81,
+        82,
+        255
+      ],
+      "dds_sha256": "76c3fe4f32b4fec14cdff8b481bb61f58a375ef50b63eb907ebe233961aa2228"
+    }
+  ],
+  "dedicated_glass_pipeline": {
+    "revision": "R13",
+    "game_tested": false,
+    "template_archive": "E:\\CodexData\\2karena\\build\\high_hoop\\reference\\arena_blacktop_ext.iff",
+    "template_material": "basket_stanchiond_outdoor:glass_shader",
+    "effect": "basket_glass.fx#fbbf6988cee09674",
+    "script": "basket_glass.9c3a099189c7c26f.script",
+    "full_native_dependencies_copied": [
+      "AHS.de9edc821ef26a76.shader",
+      "PS.5fdd03ba1e6d1cd9.shader",
+      "PS.66823e7969ce912a.shader",
+      "PS.70f809cbac1aa505.shader",
+      "PS.964b07872198a129.shader",
+      "PS.968c9803909ee4fb.shader",
+      "PS.a769dcdfe8ff13a1.shader",
+      "PS.ab3b9850dc4a1574.shader",
+      "PS.b2b89af73987b43e.shader",
+      "PS.c8eff3dddf2459dc.shader",
+      "PS.cfdadcf2e0b51fd2.shader",
+      "PS.f7705409bcd0b193.shader",
+      "VS.0ec873e995e4dd69.shader",
+      "VS.7686a8a62e2bfb95.shader",
+      "basket_glass.9c3a099189c7c26f.script"
+    ],
+    "material_changes": [
+      {
+        "material": "basket_stanchiont_outdoor:glass_shader_mat",
+        "old_effect": "asset.fx#77e66c2fe4283f3e",
+        "new_effect": "basket_glass.fx#fbbf6988cee09674"
+      },
+      {
+        "material": "basket_stanchiont_outdoor:glasshole_shader_mat",
+        "old_effect": "asset.fx#a5527f30280be4a2",
+        "new_effect": "basket_glass.fx#fbbf6988cee09674"
+      }
+    ],
+    "textures": [
+      {
+        "slot": "Albedo",
+        "pixelmap": "zgc_r10:glass_albedo",
+        "dds": "zgc_r13_glass_albedo.d43d2428ec37147a.dds",
+        "format": "BC7_UNORM",
+        "size": [
+          512,
+          512
+        ],
+        "mips": 10,
+        "decoded_rgba_all_mips": [
+          66,
+          66,
+          66,
+          36
+        ],
+        "dds_sha256": "d43d2428ec37147a740db8919cc70308097df08f3b1892e038ff092d730661ac"
+      },
+      {
+        "slot": "RoughnessTexture",
+        "pixelmap": "zgc_r10:glass_roughness",
+        "dds": "zgc_r13_glass_roughness.76c3fe4f32b4fec1.dds",
+        "format": "BC1_UNORM",
+        "size": [
+          512,
+          512
+        ],
+        "mips": 10,
+        "decoded_rgba_all_mips": [
+          82,
+          81,
+          82,
+          255
+        ],
+        "dds_sha256": "76c3fe4f32b4fec14cdff8b481bb61f58a375ef50b63eb907ebe233961aa2228"
+      }
+    ],
+    "native_geometry_skeleton_instances_unchanged": true,
+    "native_opacity_preserved": 1.0,
+    "native_depth_alpha_cutoff_preserved": 0.9,
+    "material_adjustment": {
+      "previous_albedo_rgba": [
+        66,
+        66,
+        66,
+        10
+      ],
+      "current_albedo_rgba": [
+        66,
+        66,
+        66,
+        36
+      ],
+      "previous_roughness_r": 0.06274509803921569,
+      "current_roughness_r": 0.3215686274509804,
+      "purpose": "Less transparent neutral glass; softer reflected detail and less sharp highlights.",
+      "reflection_energy_multiplier_changed": false,
+      "reason": "No independent reflectivity-intensity parameter is evidenced in the native basket_glass effect."
+    },
+    "blend_contract": "Shader premultiplies straight Albedo RGB by A; ONE/INVSRCALPHA; explicit Presentation pass",
+    "shader_evidence": [
+      "Default and Presentation output Albedo.A directly.",
+      "Translucent multiplies its output by native Opacity.",
+      "ZPrepass discards when Albedo.A is below AlphaCutOffForDepth; no OneOverIoR condition.",
+      "RoughnessTexture uses R."
+    ],
+    "limits": [
+      "Actual replay pass selection and visual outcome require game validation.",
+      "Roughness changes reflection sharpness and distribution; it is not proof of reduced total reflected energy.",
+      "The original perforated glass topology is retained; this change replaces its entire render contract.",
+      "The white target remains separate geometry 0.517596 mm in front of the native front glass."
+    ]
+  },
+  "limitations": [
+    "Dedicated basket_glass replay response still needs in-game confirmation; geometry and bone binding remain exact donor data.",
+    "Terrace transparent guard sheet omitted in this compatibility candidate.",
+    "No in-game rendering or global-lighting result established."
+  ]
+}

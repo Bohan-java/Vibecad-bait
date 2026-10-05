@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "entry_count": 17743,
+  "changed_entries": [
+    "albedomapbc3.8195d23caeafe771.dds",
+    "glass_shader_mat_roughness.4d555f64a227659e.dds"
+  ],
+  "all_other_entry_bytes_identical": true,
+  "both_archives_crc_checked": true,
+  "all_scenes_geometry_collision_unchanged": true,
+  "source_sha256": "458da14e8bdfd35b72cd9b9c47d691b51198a20561c17391800bd054fdab4cb1",
+  "result_sha256": "cfff28ce8b84a551add4d813f67207e8637aa4f6bfe2bf058f520c75ca9c551f",
+  "source_path": "E:\\CodexData\\2karena\\洛克公园\\篮板修复\\原始备份\\arena_blacktop_ext.iff",
+  "textures": {
+    "albedomapbc3.8195d23caeafe771.dds": {
+      "format": "DXT5",
+      "mips": [
+        {
+          "mip": 0,
+          "width": 1024,
+          "height": 1024,
+          "bytes": 1048576
+        },
+        {
+          "mip": 1,
+          "width": 512,
+          "height": 512,
+          "bytes": 262144
+        },
+        {
+          "mip": 2,
+          "width": 256,
+          "height": 256,
+          "bytes": 65536
+        },
+        {
+          "mip": 3,
+          "width": 128,
+          "height": 128,
+          "bytes": 16384
+        },
+        {
+          "mip": 4,
+          "width": 64,
+          "height": 64,
+          "bytes": 4096
+        },
+        {
+          "mip": 5,
+          "width": 32,
+          "height": 32,
+          "bytes": 1024
+        },
+        {
+          "mip": 6,
+          "width": 16,
+          "height": 16,
+          "bytes": 256
+        },
+        {
+          "mip": 7,
+          "width": 8,
+          "height": 8,
+          "bytes": 64
+        },
+        {
+          "mip": 8,
+          "width": 4,
+          "height": 4,
+          "bytes": 16
+        },
+        {
+          "mip": 9,
+          "width": 2,
+          "height": 2,
+          "bytes": 16
+        },
+        {
+          "mip": 10,
+          "width": 1,
+          "height": 1,
+          "bytes": 16
+        }
+      ],
+      "old_sha256": "a0b67e14a94a8d704396001da9064b393c81fd8a3ea6f399d47456a865b71129",
+      "new_sha256": "2b9dea42718522f35169c1e73193e5a4637550eed3ed551badcb60d2fc592c9f"
+    },
+    "glass_shader_mat_roughness.4d555f64a227659e.dds": {
+      "format": "DXT1",
+      "mips": [
+        {
+          "mip": 0,
+          "width": 1024,
+          "height": 1024,
+          "bytes": 524288
+        },
+        {
+          "mip": 1,
+          "width": 512,
+          "height": 512,
+          "bytes": 131072
+        },
+        {
+          "mip": 2,
+          "width": 256,
+          "height": 256,
+          "bytes": 32768
+        },
+        {
+          "mip": 3,
+          "width": 128,
+          "height": 128,
+          "bytes": 8192
+        },
+        {
+          "mip": 4,
+          "width": 64,
+          "height": 64,
+          "bytes": 2048
+        },
+        {
+          "mip": 5,
+          "width": 32,
+          "height": 32,
+          "bytes": 512
+        },
+        {
+          "mip": 6,
+          "width": 16,
+          "height": 16,
+          "bytes": 128
+        },
+        {
+          "mip": 7,
+          "width": 8,
+          "height": 8,
+          "bytes": 32
+        },
+        {
+          "mip": 8,
+          "width": 4,
+          "height": 4,
+          "bytes": 8
+        },
+        {
+          "mip": 9,
+          "width": 2,
+          "height": 2,
+          "bytes": 8
+        },
+        {
+          "mip": 10,
+          "width": 1,
+          "height": 1,
+          "bytes": 8
+        }
+      ],
+      "old_sha256": "94f19cc3357fa5bf0aa14fcd1ba11eea2a31779c47b29a48d83e331381d4065d",
+      "new_sha256": "5ef7365d05efb76eac3d20f865a826bbc44e34089a128c1ab6aa3e7fcf1aa6aa"
+    },
+    "glass_alpha_median": 0.0392156862745098,
+    "paint_alpha_median": 1.0,
+    "max_rgb_channel_spread": 4
+  },
+  "live_game_modified": false,
+  "in_game_verified": false,
+  "result_path": "E:\\CodexData\\2karena\\洛克公园\\arena_blacktop_ext.iff"
+}

@@ -1,0 +1,29 @@
+R02 开放铺地衔接修正
+
+源：court.svg（原有中央图案）+ paving-context.svg（新增外围灰米曲线）。
+派生：court.png（原尺寸兼容预览）+ paving-atlas.svg / paving-atlas.png。
+执行 tools/rasterize_artwork.mjs 会同时刷新两个 PNG，因此后续只编辑 court.svg
+也会同步到共享 atlas，不需要手工复制或重新描绘中央球场。
+
+atlas世界范围：X[-18,38]、Y[-18,18] m；8192×5266，约146.3px/m。
+原court.svg仍以0,0到2865.12,1524的坐标、原比例嵌入。不扩展黄黑涂装，
+不改比赛尺寸，外围曲线穿过1.8m apron并在更远广场收束；纹理最外31像素
+严格为#c1c2b7，不存在曲线被atlas边缘裁断。外围延续路径为照片风格适配推定，
+不是实测园路全图。
+
+tools/refine_paving_r02.py 只修改现有地面材质和UV：
+- court_surface的9个既有面共用同一atlas，16个顶点和面连接不变。
+- 现有R02 continuous pale plaza ground顶面使用同一世界XY坐标纹理。
+- 现有R02 soft grey plaza transition也取同一纹理，避免旧纯灰面遮断新曲线；
+  该对象原有顶点/面仍不变。没有新加浮面、地形、高差、物件或碰撞。
+- 篮筐、园林、楼体、光照和其它材质不动。
+
+显式标记ground_artwork_mode=world-paving-atlas仅由此脚本设置。
+create_scene.bind_ground_artwork对未标记的旧场景仍用court.png和旧UV；对已标记
+的场景刷新paving-atlas.png。返回值保持bool供现有导出器使用。
+PNG和派生SVG均使用进程独立临时文件后rename，避免读取半成品。
+
+验证：validation/r02-paving-test-validation.json（几何/UV/材质）；
+validation/r02-paving-texture-validation.json（纹理尺寸、SHA256、纯色边缘、
+中央原SVG原文嵌入与边界接缝采样）。独立测试源为.build-staging/paving-test.blend。
+这次仍未写入或验证任何IFF游戏资源。

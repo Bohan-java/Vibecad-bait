@@ -1,0 +1,985 @@
+{
+  "revision": "R10",
+  "status": "passed",
+  "actual_iff": "E:\\CodexData\\2karena\\zgc-court\\output\\arena_700_int.iff",
+  "sha256": "d1bbe8f2c269e26b48a806bbbec00091383571523c1d01b0d9847470a0748777",
+  "bytes": 1662988495,
+  "labels_sha256": "168ae0b656724f2ff5d8580f99c341e69005d10cccdb622acd34b171aed55e78",
+  "source_blend_or_source_glb_read": false,
+  "geometry_source": "Final IFF native VertexBuffer/IndexBuffer, active SCNE Model/Object and native material DDS",
+  "level_scne_sha256": "39894ab12112c39f1a1a7e2f402cf1cbd5de8d479a502e605a072d1ea4d6ad9e",
+  "lamp": {
+    "components": {
+      "R10 left tall floodlight tapered mast": {
+        "native_geometry": {
+          "vertices": 552,
+          "triangles": 656,
+          "materials": [
+            "zgc_r03:material_096"
+          ],
+          "bounds_blender_m": [
+            [
+              -4.585071335925241,
+              -9.985001174948598,
+              0.004000000059604645
+            ],
+            [
+              -3.8149286640747597,
+              -9.714998214699841,
+              10.8
+            ]
+          ],
+          "index_buffer_sha256": "65b5cf35346c330c9125e73b91fe1aaa283f7ec9b431a83fd0bf4b2879ef1674",
+          "vertex_buffers": [
+            {
+              "binary": "VertexBuffer.dbcda6bfa5c127ec.bin",
+              "sha256": "dbcda6bfa5c127ec3c513b10492083a60b9e6ee51ec10db025ea56aa07021477"
+            },
+            {
+              "binary": "VertexBuffer.8e7b9d1bcc26c42f.bin",
+              "sha256": "8e7b9d1bcc26c42f6cc92f9222c9922ee30ecd2ad97cbbb633cf6ef8569f103a"
+            },
+            {
+              "binary": "VertexBuffer.e943e8ec1c6ecfd7.bin",
+              "sha256": "e943e8ec1c6ecfd73d9ef7147ef82a9b80cbaf7198a3f01f6d8d591cfc3c5c72"
+            }
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "model": "zgc_r03:part-0116",
+          "object": "zgc_r03:part-0116",
+          "label": "R10 left tall floodlight tapered mast"
+        },
+        "material": {
+          "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+          "native_dynamic_asset_techniques": [
+            "AssetHires",
+            "AssetLores"
+          ],
+          "explicit_emission_fields": {},
+          "no_emission_binding": true,
+          "alpha_style": "OPAQUE",
+          "actual_albedo_dds": {
+            "pixelmap": "local/zgc/r03/zgc_r03_texture.424454bc1b38a20b",
+            "dds": "zgc_r03_texture.424454bc1b38a20b.dds",
+            "sha256": "99fe1bb28ce152e9722c62aaf1390ac9984524a1a4b84daf6a0f8536b9d851e8",
+            "size": [
+              4,
+              4
+            ],
+            "median_encoded_rgb": [
+              66.0,
+              77.0,
+              74.0
+            ]
+          }
+        },
+        "color_comparison": {
+          "expected_srgb": "#444C4B",
+          "actual_encoded_rgb": [
+            66.0,
+            77.0,
+            74.0
+          ],
+          "per_channel_error_8bit": [
+            2.0,
+            1.0,
+            1.0
+          ],
+          "max_channel_error_8bit": 2.0,
+          "accepted_bc1_quantization_error_8bit": 5,
+          "matches": true,
+          "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+        }
+      },
+      "R10 left tall floodlight housings and brackets": {
+        "native_geometry": {
+          "vertices": 9720,
+          "triangles": 4908,
+          "materials": [
+            "zgc_r03:material_093"
+          ],
+          "bounds_blender_m": [
+            [
+              -4.666443922724323,
+              -9.886605984999294,
+              9.547499389648438
+            ],
+            [
+              -3.7335563824514577,
+              -9.656147310899144,
+              10.549364013671875
+            ]
+          ],
+          "index_buffer_sha256": "8e4c6a7787b28e1cffdc0b41811437d131c9da3b88e81d69e1a0b818cd5f25a7",
+          "vertex_buffers": [
+            {
+              "binary": "VertexBuffer.d903c778123ef233.bin",
+              "sha256": "d903c778123ef2332061e84bab69743e70f7afc71d52410330ff7ab74a9c9eef"
+            },
+            {
+              "binary": "VertexBuffer.e4c43fcf95595d3d.bin",
+              "sha256": "e4c43fcf95595d3d6fb42dc764ad35b43a7e2a7f708d0f92129815cc014ed0b7"
+            },
+            {
+              "binary": "VertexBuffer.423c4ebdf9924727.bin",
+              "sha256": "423c4ebdf99247271b02c750d3b7dfc313c8b5ae98acd728abf3bd706e850a78"
+            }
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "model": "zgc_r03:part-0113",
+          "object": "zgc_r03:part-0113",
+          "label": "R10 left tall floodlight housings and brackets"
+        },
+        "material": {
+          "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+          "native_dynamic_asset_techniques": [
+            "AssetHires",
+            "AssetLores"
+          ],
+          "explicit_emission_fields": {},
+          "no_emission_binding": true,
+          "alpha_style": "OPAQUE",
+          "actual_albedo_dds": {
+            "pixelmap": "local/zgc/r03/zgc_r03_texture.7313eef6e9dfb48e",
+            "dds": "zgc_r03_texture.7313eef6e9dfb48e.dds",
+            "sha256": "f1145f601a32c7864a8a93bec5bcaac4f39f0db9e4c356a058f603189787e93e",
+            "size": [
+              4,
+              4
+            ],
+            "median_encoded_rgb": [
+              49.0,
+              56.0,
+              57.0
+            ]
+          }
+        },
+        "color_comparison": {
+          "expected_srgb": "#343B3B",
+          "actual_encoded_rgb": [
+            49.0,
+            56.0,
+            57.0
+          ],
+          "per_channel_error_8bit": [
+            3.0,
+            3.0,
+            2.0
+          ],
+          "max_channel_error_8bit": 3.0,
+          "accepted_bc1_quantization_error_8bit": 5,
+          "matches": true,
+          "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+        }
+      },
+      "R10 left tall floodlight non-emitting lens faces": {
+        "native_geometry": {
+          "vertices": 1080,
+          "triangles": 540,
+          "materials": [
+            "zgc_r03:material_095"
+          ],
+          "bounds_blender_m": [
+            [
+              -4.612998344569818,
+              -9.752493571932131,
+              9.585
+            ],
+            [
+              -3.7870013502544,
+              -9.672001056974118,
+              10.4893505859375
+            ]
+          ],
+          "index_buffer_sha256": "4dcd3cb6b8482821420fc43af3189d9cc7fb6d95f7976486e33d668f65db55bf",
+          "vertex_buffers": [
+            {
+              "binary": "VertexBuffer.27fba27277a2cd0c.bin",
+              "sha256": "27fba27277a2cd0c3ea9b8c582ebe374288ca4b6e7efeab5b6abe8321daf321a"
+            },
+            {
+              "binary": "VertexBuffer.7dabd08dcacc92f1.bin",
+              "sha256": "7dabd08dcacc92f1b1a5c53b96d5b976c2f622a799ae98d2ef94c9dc239b396e"
+            },
+            {
+              "binary": "VertexBuffer.50a7c7390206feb7.bin",
+              "sha256": "50a7c7390206feb7addfe52b2495b3ee1ba5f2f93771398590b1d4c170d63ccd"
+            }
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "model": "zgc_r03:part-0115",
+          "object": "zgc_r03:part-0115",
+          "label": "R10 left tall floodlight non-emitting lens faces"
+        },
+        "material": {
+          "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+          "native_dynamic_asset_techniques": [
+            "AssetHires",
+            "AssetLores"
+          ],
+          "explicit_emission_fields": {},
+          "no_emission_binding": true,
+          "alpha_style": "OPAQUE",
+          "actual_albedo_dds": {
+            "pixelmap": "local/zgc/r03/zgc_r03_texture.8d05a829c279e09d",
+            "dds": "zgc_r03_texture.8d05a829c279e09d.dds",
+            "sha256": "ff73ded08c4536b2a4b5e642c7db6ffbad32eec77c0a7b3c026c7803bd38d0f6",
+            "size": [
+              4,
+              4
+            ],
+            "median_encoded_rgb": [
+              90.0,
+              101.0,
+              99.0
+            ]
+          }
+        },
+        "color_comparison": {
+          "expected_srgb": "#596563",
+          "actual_encoded_rgb": [
+            90.0,
+            101.0,
+            99.0
+          ],
+          "per_channel_error_8bit": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "max_channel_error_8bit": 1.0,
+          "accepted_bc1_quantization_error_8bit": 5,
+          "matches": true,
+          "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+        }
+      },
+      "R10 left tall floodlight mechanical fixings": {
+        "native_geometry": {
+          "vertices": 528,
+          "triangles": 304,
+          "materials": [
+            "zgc_r03:material_094"
+          ],
+          "bounds_blender_m": [
+            [
+              -4.660063815026023,
+              -9.93453298561495,
+              0.02700000047683716
+            ],
+            [
+              -3.7399364901497596,
+              -9.727993259502238,
+              10.447000732421875
+            ]
+          ],
+          "index_buffer_sha256": "43a3d02055e0e6f7401a264a7d982911a05c933527990db54f4e68dd1dd49b41",
+          "vertex_buffers": [
+            {
+              "binary": "VertexBuffer.0e7cfe559cb16e4c.bin",
+              "sha256": "0e7cfe559cb16e4c5cd0f4e607baff98c15bc8a0970ff188920a27cc85052b1a"
+            },
+            {
+              "binary": "VertexBuffer.80b67b115f8e28f3.bin",
+              "sha256": "80b67b115f8e28f3b67fddcd4cd1daac24a054603d1dd0cb13793a299a5dadfc"
+            },
+            {
+              "binary": "VertexBuffer.75941803e029ffb8.bin",
+              "sha256": "75941803e029ffb8736144cea71a4eb509925e5edd72c22b6d7d72156178d0f6"
+            }
+          ],
+          "matrix": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "model": "zgc_r03:part-0114",
+          "object": "zgc_r03:part-0114",
+          "label": "R10 left tall floodlight mechanical fixings"
+        },
+        "material": {
+          "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+          "native_dynamic_asset_techniques": [
+            "AssetHires",
+            "AssetLores"
+          ],
+          "explicit_emission_fields": {},
+          "no_emission_binding": true,
+          "alpha_style": "OPAQUE",
+          "actual_albedo_dds": {
+            "pixelmap": "local/zgc/r03/zgc_r03_texture.8c05f596175f7b6c",
+            "dds": "zgc_r03_texture.8c05f596175f7b6c.dds",
+            "sha256": "6e564c3ebae4c508f5da963cfc130614cf3e555106efc1f4650705c5cef5a5fe",
+            "size": [
+              4,
+              4
+            ],
+            "median_encoded_rgb": [
+              115.0,
+              125.0,
+              123.0
+            ]
+          }
+        },
+        "color_comparison": {
+          "expected_srgb": "#767D79",
+          "actual_encoded_rgb": [
+            115.0,
+            125.0,
+            123.0
+          ],
+          "per_channel_error_8bit": [
+            3.0,
+            0.0,
+            2.0
+          ],
+          "max_channel_error_8bit": 3.0,
+          "accepted_bc1_quantization_error_8bit": 5,
+          "matches": true,
+          "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+        }
+      }
+    },
+    "actual_total_bounds_blender_m": [
+      [
+        -4.666443922724323,
+        -9.985001174948598,
+        0.004000000059604645
+      ],
+      [
+        -3.7335563824514577,
+        -9.656147310899144,
+        10.8
+      ]
+    ],
+    "mast_height_top_m": 10.8,
+    "mast_center_xy_m": [
+      -4.2,
+      -9.84999969482422
+    ],
+    "no_explicit_emission_bindings": true,
+    "dimensions_status": "Photo-supported silhouette; metric placement/height inferred."
+  },
+  "four_non_atlas_paving_materials": {
+    "R02 observed low plaza wave outside court": {
+      "native_geometry": {
+        "vertices": 865,
+        "triangles": 1656,
+        "materials": [
+          "zgc_r03:material_070"
+        ],
+        "bounds_blender_m": [
+          [
+            19.200001220703125,
+            -3.799965219181172,
+            -0.0018198122406187167
+          ],
+          [
+            28.6,
+            3.099965219181172,
+            0.3982198092663469
+          ]
+        ],
+        "index_buffer_sha256": "9321a6804d07876766a959be55245f3d25a2f377c2adaacd0a92b2aca6f9a9ae",
+        "vertex_buffers": [
+          {
+            "binary": "VertexBuffer.e48fb9a795a34187.bin",
+            "sha256": "e48fb9a795a3418783a0503f336e27a282000f744e61c8d1f728d2b038ed96e7"
+          },
+          {
+            "binary": "VertexBuffer.e15722fcf83e081f.bin",
+            "sha256": "e15722fcf83e081fb9d14c7a98e55b2474e412ebf325bcbcaca4806c8612fc14"
+          },
+          {
+            "binary": "VertexBuffer.015f25123d2cbbff.bin",
+            "sha256": "015f25123d2cbbff0d0bb0e6663d029d5852fb493f16e0e96fa0d4afa57d84a5"
+          }
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "model": "zgc_r03:part-0084",
+        "object": "zgc_r03:part-0084",
+        "label": "R02 observed low plaza wave outside court"
+      },
+      "material": {
+        "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+        "native_dynamic_asset_techniques": [
+          "AssetHires",
+          "AssetLores"
+        ],
+        "explicit_emission_fields": {},
+        "no_emission_binding": true,
+        "alpha_style": "OPAQUE",
+        "actual_albedo_dds": {
+          "pixelmap": "local/zgc/r03/zgc_r03_texture.227796bc3586d20c",
+          "dds": "zgc_r03_texture.227796bc3586d20c.dds",
+          "sha256": "759895827e6c23a8983110d3579ec809ec3e42b648a886a0e8703080483878ee",
+          "size": [
+            4,
+            4
+          ],
+          "median_encoded_rgb": [
+            173.0,
+            178.0,
+            165.0
+          ]
+        }
+      },
+      "color_comparison": {
+        "expected_srgb": "#ADB0A7",
+        "actual_encoded_rgb": [
+          173.0,
+          178.0,
+          165.0
+        ],
+        "per_channel_error_8bit": [
+          0.0,
+          2.0,
+          2.0
+        ],
+        "max_channel_error_8bit": 2.0,
+        "accepted_bc1_quantization_error_8bit": 5,
+        "matches": true,
+        "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+      }
+    },
+    "R02 architecture Chilis narrow restaurant terrace": {
+      "native_geometry": {
+        "vertices": 154,
+        "triangles": 152,
+        "materials": [
+          "zgc_r03:material_018"
+        ],
+        "bounds_blender_m": [
+          [
+            -24.270399436191063,
+            -13.8833984375,
+            0.03299999952316284
+          ],
+          [
+            -17.650193825527687,
+            15.04992431640625,
+            0.03299999952316284
+          ]
+        ],
+        "index_buffer_sha256": "9690ea7e875cef941815124ca46058424755d4b4569aad3a2fb4cda3c2244ace",
+        "vertex_buffers": [
+          {
+            "binary": "VertexBuffer.e9751a94ed5d0942.bin",
+            "sha256": "e9751a94ed5d09425c553818972e10071636f852a9177ff74827cc425def7a03"
+          },
+          {
+            "binary": "VertexBuffer.f9d54bbe3ccaf085.bin",
+            "sha256": "f9d54bbe3ccaf08564c2928c55218a3f696989a05dffc8edf057773751aae153"
+          },
+          {
+            "binary": "VertexBuffer.0bb4acfeed6b77c1.bin",
+            "sha256": "0bb4acfeed6b77c1c77be674a716f4816ac86975621666d98f29f9b936f35ed3"
+          }
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "model": "zgc_r03:part-0024",
+        "object": "zgc_r03:part-0024",
+        "label": "R02 architecture Chilis narrow restaurant terrace"
+      },
+      "material": {
+        "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+        "native_dynamic_asset_techniques": [
+          "AssetHires",
+          "AssetLores"
+        ],
+        "explicit_emission_fields": {},
+        "no_emission_binding": true,
+        "alpha_style": "OPAQUE",
+        "actual_albedo_dds": {
+          "pixelmap": "local/zgc/r03/zgc_r03_texture.262f3f459d4ac997",
+          "dds": "zgc_r03_texture.262f3f459d4ac997.dds",
+          "sha256": "9bf8c0b5336442fdb5efb1ca4be3d3b04e12c572d54581dc6994cbc5d5cbc7db",
+          "size": [
+            4,
+            4
+          ],
+          "median_encoded_rgb": [
+            156.0,
+            162.0,
+            156.0
+          ]
+        }
+      },
+      "color_comparison": {
+        "expected_srgb": "#9FA399",
+        "actual_encoded_rgb": [
+          156.0,
+          162.0,
+          156.0
+        ],
+        "per_channel_error_8bit": [
+          3.0,
+          1.0,
+          3.0
+        ],
+        "max_channel_error_8bit": 3.0,
+        "accepted_bc1_quantization_error_8bit": 5,
+        "matches": true,
+        "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+      }
+    },
+    "R02 continuous pale plaza ground": {
+      "native_geometry": {
+        "vertices": 20,
+        "triangles": 10,
+        "materials": [
+          "zgc_r03:material_049"
+        ],
+        "bounds_blender_m": [
+          [
+            -51.0,
+            -32.00041199359121,
+            -0.1025378795830875
+          ],
+          [
+            45.0,
+            54.00041199359121,
+            -0.0014621185393662018
+          ]
+        ],
+        "index_buffer_sha256": "4c5df8db7d4756fecfa10fe89e550c8c90a93798c936712333ac329023142d93",
+        "vertex_buffers": [
+          {
+            "binary": "VertexBuffer.09940ee664b3591e.bin",
+            "sha256": "09940ee664b3591ea8e878a196bd22ca331a665d0a05ffad88e10a1550c958ab"
+          },
+          {
+            "binary": "VertexBuffer.8d57538c4d9cb6a1.bin",
+            "sha256": "8d57538c4d9cb6a1cd12bc96443f7be84d436a486f9dbf02abde74537525096c"
+          },
+          {
+            "binary": "VertexBuffer.7942cba64e55df48.bin",
+            "sha256": "7942cba64e55df48ed1f416961958f29452b452d13a00db490f37029d1c08e75"
+          }
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "model": "zgc_r03:part-0059",
+        "object": "zgc_r03:part-0059",
+        "label": "R02 continuous pale plaza ground"
+      },
+      "material": {
+        "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+        "native_dynamic_asset_techniques": [
+          "AssetHires",
+          "AssetLores"
+        ],
+        "explicit_emission_fields": {},
+        "no_emission_binding": true,
+        "alpha_style": "OPAQUE",
+        "actual_albedo_dds": {
+          "pixelmap": "local/zgc/r03/zgc_r03_texture.28c39d1e8582a1aa",
+          "dds": "zgc_r03_texture.28c39d1e8582a1aa.dds",
+          "sha256": "fb8c14f198c2819e1c7740cc5191171fc45db7c4cf0216327f0b8eb3a50d71d6",
+          "size": [
+            4,
+            4
+          ],
+          "median_encoded_rgb": [
+            148.0,
+            154.0,
+            148.0
+          ]
+        }
+      },
+      "color_comparison": {
+        "expected_srgb": "#949994",
+        "actual_encoded_rgb": [
+          148.0,
+          154.0,
+          148.0
+        ],
+        "per_channel_error_8bit": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "max_channel_error_8bit": 1.0,
+        "accepted_bc1_quantization_error_8bit": 5,
+        "matches": true,
+        "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+      }
+    },
+    "R02 scattered grey stone inserts": {
+      "native_geometry": {
+        "vertices": 1536,
+        "triangles": 768,
+        "materials": [
+          "zgc_r03:material_074"
+        ],
+        "bounds_blender_m": [
+          [
+            -16.114013135518142,
+            -24.14556640625,
+            -0.0012599008856477667
+          ],
+          [
+            38.065072705830644,
+            36.13364501953125,
+            -0.00034009907858944643
+          ]
+        ],
+        "index_buffer_sha256": "71773d9f0a6123d8a3dba37784a4849e2ce5510168ae79683eab6ca0366784d9",
+        "vertex_buffers": [
+          {
+            "binary": "VertexBuffer.6fff805c1aa950ae.bin",
+            "sha256": "6fff805c1aa950aecc463ba9633e4a194c2c19a1f21ddee043b0238e9b7eb001"
+          },
+          {
+            "binary": "VertexBuffer.fd9243e1ba57263e.bin",
+            "sha256": "fd9243e1ba57263ed469c3bdbd7ade6ec5254e7ed924a9f5737fa44749933cc0"
+          },
+          {
+            "binary": "VertexBuffer.0f44f64d07360c7a.bin",
+            "sha256": "0f44f64d07360c7a94d8965eedee2fe998d6b3e772d6314017dbb7c96c1903f6"
+          }
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "model": "zgc_r03:part-0089",
+        "object": "zgc_r03:part-0089",
+        "label": "R02 scattered grey stone inserts"
+      },
+      "material": {
+        "effect": "asset_CLOD.fx#bc7f3951b8da0d55",
+        "native_dynamic_asset_techniques": [
+          "AssetHires",
+          "AssetLores"
+        ],
+        "explicit_emission_fields": {},
+        "no_emission_binding": true,
+        "alpha_style": "OPAQUE",
+        "actual_albedo_dds": {
+          "pixelmap": "local/zgc/r03/zgc_r03_texture.da4afc99b4932f7f",
+          "dds": "zgc_r03_texture.da4afc99b4932f7f.dds",
+          "sha256": "efae525c0fffbc13b7d62301f115c99c45a91eefbc9f994832f0b9b0601e3ec5",
+          "size": [
+            4,
+            4
+          ],
+          "median_encoded_rgb": [
+            156.0,
+            162.0,
+            148.0
+          ]
+        }
+      },
+      "color_comparison": {
+        "expected_srgb": "#9BA097",
+        "actual_encoded_rgb": [
+          156.0,
+          162.0,
+          148.0
+        ],
+        "per_channel_error_8bit": [
+          1.0,
+          2.0,
+          3.0
+        ],
+        "max_channel_error_8bit": 3.0,
+        "accepted_bc1_quantization_error_8bit": 5,
+        "matches": true,
+        "source": "Actual compressed DDS decoded by Pillow; no source PNG or GLB loaded."
+      }
+    }
+  },
+  "native_basket_anchors": {
+    "basket_object_definitions_exactly_equal_to_donor": true,
+    "decoded_native_rim_models": [
+      {
+        "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:basket",
+        "native_rim_lods_preserved": 12,
+        "original_position_prefix_bytes": 48528,
+        "position_prefix_sha256": "ffa93e1498e4a71e603c48d1f237fafec014b19b7edc3d388cdeb9a22e39c917",
+        "native_bone_transforms_unchanged": true,
+        "instances": [
+          {
+            "name": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket0:basket",
+            "native_instance_matrix": [
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              -1310.64001,
+              1.0
+            ],
+            "actual_rim_bounds_blender_m": [
+              [
+                -13.096369099638057,
+                -0.2441066534206149,
+                2.8840073593174638
+              ],
+              [
+                -12.483323562253299,
+                0.24455800294300759,
+                3.0491747051476312
+              ]
+            ]
+          },
+          {
+            "name": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@MAIN@basket1:basket",
+            "native_instance_matrix": [
+              -1.0,
+              0.0,
+              8.74227766e-08,
+              0.0,
+              0.0,
+              1.0,
+              0.0,
+              0.0,
+              -8.74227766e-08,
+              0.0,
+              -1.0,
+              0.0,
+              0.0,
+              0.0,
+              1310.64001,
+              1.0
+            ],
+            "actual_rim_bounds_blender_m": [
+              [
+                12.483323562254837,
+                -0.24455803625918968,
+                2.8840073593174638
+              ],
+              [
+                13.096369107628556,
+                0.2441066201200261,
+                3.0491747051476312
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "method": "Native instance definitions, bone transforms, original position bytes and every native rim LOD draw verified against original donor."
+  },
+  "court_surface": {
+    "actual_native_bounds_blender_m": [
+      [
+        -18.325599365234375,
+        -11.620054652053323,
+        0.0
+      ],
+      [
+        18.325599365234375,
+        11.620054652053323,
+        0.0
+      ]
+    ],
+    "exact_zero_height": true,
+    "native_meshes": [
+      {
+        "vertices": 25,
+        "triangles": 30,
+        "materials": [
+          "zgc_r03:material_127"
+        ],
+        "bounds_blender_m": [
+          [
+            -18.325599365234375,
+            -11.620054652053323,
+            0.0
+          ],
+          [
+            18.325599365234375,
+            11.620054652053323,
+            0.0
+          ]
+        ],
+        "index_buffer_sha256": "4e29aebc07f4e5c39d2de7beaa9c0ef7cd6b1050dfb2d6cb9410613e34498a61",
+        "vertex_buffers": [
+          {
+            "binary": "VertexBuffer.1162efe7daa75e0c.bin",
+            "sha256": "1162efe7daa75e0c512c101da4993d05d57783f5dc9411a2e993cb65cd5dfe2a"
+          },
+          {
+            "binary": "VertexBuffer.6f55a71611f2c439.bin",
+            "sha256": "6f55a71611f2c439550a29da7b3a726164c12b4e9f4550df879883287c506be6"
+          },
+          {
+            "binary": "VertexBuffer.28efa6fb0bb42bad.bin",
+            "sha256": "28efa6fb0bb42badbeed777f6392a4cc5ac664d79d1b8148c84e8bdd577ad1dc"
+          }
+        ],
+        "matrix": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "model": "zgc_r03:part-0457",
+        "object": "zgc_r03:part-0457",
+        "label": "court_surface"
+      }
+    ]
+  },
+  "checks": {
+    "all_four_lamp_meshes_from_native_package": true,
+    "height_position_match_approved_source_plan": true,
+    "four_non_atlas_grays_match_with_BC1_quantization": true,
+    "no_lamp_emission_binding": true,
+    "original_native_basket_positions_bones_instances_and_rim_lods_preserved": true,
+    "court_exact_zero_height_and_existing_apron_extent_preserved": true
+  },
+  "limitations": [
+    "This is an asset/decode audit, not a game screenshot or game lighting validation.",
+    "Source labels identify models only; no source geometry or texture supplies these results."
+  ]
+}

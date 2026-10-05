@@ -1,0 +1,167 @@
+{
+  "action": "latest_only_cleanup_completed",
+  "project_root": "E:\\CodexData\\2karena\\zgc-court",
+  "completed_at_utc": "2026-10-05T20:09:19.2401782Z",
+  "current_source_build": "20261005T045109359Z-beefe91f",
+  "current_game_preview": "iff-9e9cd0f73b1c-40723c272b13",
+  "current_iff_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+  "deleted": [
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\iff",
+      "bytes": 226136448
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-before",
+      "bytes": 60517603
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-chilis",
+      "bytes": 72881182
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-native",
+      "bytes": 1992344377
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-native-render",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\audit_chilis_iff_current.cpython-312.pyc",
+      "bytes": 37687
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\audit_fence_iff_current.cpython-312.pyc",
+      "bytes": 18434
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\audit_r13_native.cpython-312.pyc",
+      "bytes": 9051
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\create_scene.cpython-313.pyc",
+      "bytes": 55083
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\ground_depth_policy.cpython-312.pyc",
+      "bytes": 5729
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\half_court_orientation.cpython-312.pyc",
+      "bytes": 6406
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\iff_codec.cpython-312.pyc",
+      "bytes": 22164
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\iff_codec.cpython-313.pyc",
+      "bytes": 22205
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\native_archive.cpython-312.pyc",
+      "bytes": 5602
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\native_basket_rig.cpython-312.pyc",
+      "bytes": 40518
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\native_floor_overlay.cpython-312.pyc",
+      "bytes": 21570
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\native_textures.cpython-312.pyc",
+      "bytes": 9903
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\r04_glass.cpython-312.pyc",
+      "bytes": 21896
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\r04_materials.cpython-312.pyc",
+      "bytes": 6601
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\r12_seating.cpython-312.pyc",
+      "bytes": 17930
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\refine_architecture_r02.cpython-313.pyc",
+      "bytes": 53315
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\refine_chilis_current.cpython-313.pyc",
+      "bytes": 63774
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\refine_chilis_rect_current.cpython-313.pyc",
+      "bytes": 23586
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\refine_details_r03.cpython-313.pyc",
+      "bytes": 50133
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\refine_hoop_current.cpython-313.pyc",
+      "bytes": 30295
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\refine_streetlight_current.cpython-313.pyc",
+      "bytes": 22954
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\render_chilis_native_current.cpython-313.pyc",
+      "bytes": 19053
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\render_context_native_current.cpython-313.pyc",
+      "bytes": 20190
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\shared_floor_line_override.cpython-312.pyc",
+      "bytes": 9878
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\specialized_basket_glass.cpython-312.pyc",
+      "bytes": 13431
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\tools\\__pycache__\\validate_d3d_textures.cpython-312.pyc",
+      "bytes": 7568
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\public\\builds\\20261004T193656900Z-5343f43a",
+      "bytes": 126820622
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\validation\\r12-context-open.png",
+      "bytes": 2148810
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.preview-runtime\\textures\\iff-9b792998b97b-a23c552bcba5",
+      "bytes": 20202805
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\logs\\20261004T193656900Z-5343f43a.log",
+      "bytes": 103168
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.preview-runtime\\service-55468367ea0d4e50a6b13298bd1a5e72.stderr.log",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.preview-runtime\\service-55468367ea0d4e50a6b13298bd1a5e72.stdout.log",
+      "bytes": 180
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.preview-runtime\\service-56a6bfbc5d7b4f80bb52935f64b73610.stderr.log",
+      "bytes": 0
+    },
+    {
+      "path": "E:\\CodexData\\2karena\\zgc-court\\.preview-runtime\\service-56a6bfbc5d7b4f80bb52935f64b73610.stdout.log",
+      "bytes": 309
+    }
+  ],
+  "deleted_bytes": 2501770460.0
+}

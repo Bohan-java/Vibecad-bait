@@ -1,0 +1,626 @@
+{
+  "revision": "R11",
+  "objects": [
+    "R11 Chilis terrace warm red terrace grout bed",
+    "R11 Chilis terrace warm red square terrace tiles",
+    "R11 Chilis terrace warm red square terrace tile variants",
+    "R11 Chilis terrace three tier fountain carved limestone",
+    "R11 Chilis terrace fountain small blue inner mosaic",
+    "R11 Chilis terrace fountain small pale inner mosaic",
+    "R11 Chilis terrace fountain still recessed basin",
+    "R11 Chilis terrace square mosaic table black frames",
+    "R11 Chilis terrace square mosaic table fine grout",
+    "R11 Chilis terrace square mosaic table ochre inserts",
+    "R11 Chilis terrace square mosaic table dark inserts",
+    "R11 Chilis terrace curved chair champagne tube frames",
+    "R11 Chilis terrace curved chair woven red bodies",
+    "R11 Chilis terrace curved chair pale diagonal weave",
+    "R11 Chilis terrace parasol cantilever masts ribs and fixed feet",
+    "R11 Chilis terrace parasol beige summer canvas",
+    "R11 Chilis terrace parasol fine panel seams",
+    "R11 Chilis terrace parasol visible floor anchors",
+    "R11 Chilis terrace sage vase planters",
+    "R11 Chilis terrace clipped planter foliage",
+    "R11 Chilis terrace entry hinged menu stands",
+    "R11 Chilis terrace entry poster panel 0",
+    "R11 Chilis terrace entry advertising broad red shapes",
+    "R11 Chilis terrace entry advertising broad pale shapes",
+    "R11 Chilis terrace entry poster panel 1",
+    "R11 Chilis terrace entry poster panel 2",
+    "R11 Chilis terrace entry separate sloped menu lectern",
+    "R11 Chilis terrace entry lectern pale menu paper",
+    "R11 Chilis terrace entry lectern fine page divisions",
+    "R11 Chilis terrace entry oak welcome cabinet",
+    "R11 Chilis terrace entry cabinet restrained wood grain",
+    "R11 Chilis terrace entry cabinet small feet"
+  ],
+  "mesh_count": 32,
+  "vertices": 30408,
+  "triangles": 33300,
+  "world_bounds": {
+    "min": [
+      -3.407283306121826,
+      0.029999999329447746,
+      0.03400000184774399
+    ],
+    "max": [
+      17.64299964904785,
+      3.6842427253723145,
+      2.8318285942077637
+    ]
+  },
+  "anchors": [
+    {
+      "label": "three-tier-fountain",
+      "face": "terrace",
+      "u": 0.3,
+      "offset": 2.2,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.8248999999999999,
+          -0.8248999999999999,
+          0.02166
+        ],
+        "max": [
+          0.8248999999999999,
+          0.8248999999999999,
+          2.1010199999999997
+        ]
+      },
+      "world_origin": [
+        0.30000001192092896,
+        2.200000047683716,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "paired-square-table-0",
+      "face": "terrace",
+      "u": -2.0,
+      "offset": 1.65,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.704,
+          -0.35,
+          0.018
+        ],
+        "max": [
+          0.704,
+          0.35,
+          0.768
+        ]
+      },
+      "world_origin": [
+        -2.0,
+        1.649999976158142,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-0",
+      "face": "terrace",
+      "u": -2.35,
+      "offset": 1.0499999999999998,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        -2.3499999046325684,
+        1.0499999523162842,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-1",
+      "face": "terrace",
+      "u": -1.65,
+      "offset": 1.0499999999999998,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        -1.649999976158142,
+        1.0499999523162842,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-2",
+      "face": "terrace",
+      "u": -2.35,
+      "offset": 2.25,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        -2.3499999046325684,
+        2.25,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-3",
+      "face": "terrace",
+      "u": -1.65,
+      "offset": 2.25,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        -1.649999976158142,
+        2.25,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "paired-square-table-1",
+      "face": "terrace",
+      "u": 2.0,
+      "offset": 1.65,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.704,
+          -0.35,
+          0.018
+        ],
+        "max": [
+          0.704,
+          0.35,
+          0.768
+        ]
+      },
+      "world_origin": [
+        2.0,
+        1.649999976158142,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-4",
+      "face": "terrace",
+      "u": 1.65,
+      "offset": 1.0499999999999998,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        1.649999976158142,
+        1.0499999523162842,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-5",
+      "face": "terrace",
+      "u": 2.35,
+      "offset": 1.0499999999999998,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        2.3499999046325684,
+        1.0499999523162842,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-6",
+      "face": "terrace",
+      "u": 1.65,
+      "offset": 2.25,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        1.649999976158142,
+        2.25,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "woven-chair-7",
+      "face": "terrace",
+      "u": 2.35,
+      "offset": 2.25,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.22271350026130676,
+          -0.20960530638694763,
+          0.030898602679371834
+        ],
+        "max": [
+          0.22271350026130676,
+          0.31637105345726013,
+          0.9076062440872192
+        ]
+      },
+      "world_origin": [
+        2.3499999046325684,
+        2.25,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "cantilever-parasol-0",
+      "face": "terrace",
+      "u": -2.1,
+      "offset": 2.6,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -1.0822460651397705,
+          -1.202246069908142,
+          0.010000000000000002
+        ],
+        "max": [
+          1.0822460651397705,
+          0.9622460007667542,
+          2.7978286743164062
+        ]
+      },
+      "world_origin": [
+        -2.0999999046325684,
+        2.5999999046325684,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "cantilever-parasol-1",
+      "face": "terrace",
+      "u": 2.1,
+      "offset": 2.6,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -1.0822460651397705,
+          -1.202246069908142,
+          0.010000000000000002
+        ],
+        "max": [
+          1.0822460651397705,
+          0.9622460007667542,
+          2.7978286743164062
+        ]
+      },
+      "world_origin": [
+        2.0999999046325684,
+        2.5999999046325684,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "vase-planter",
+      "face": "terrace",
+      "u": -3.0,
+      "offset": 0.55,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.255,
+          -0.255,
+          0.02
+        ],
+        "max": [
+          0.255,
+          0.255,
+          0.705
+        ]
+      },
+      "world_origin": [
+        -3.0,
+        0.550000011920929,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "vase-planter",
+      "face": "terrace",
+      "u": 3.0,
+      "offset": 0.55,
+      "z": 0.034,
+      "local_bounds": {
+        "min": [
+          -0.255,
+          -0.255,
+          0.02
+        ],
+        "max": [
+          0.255,
+          0.255,
+          0.705
+        ]
+      },
+      "world_origin": [
+        3.0,
+        0.550000011920929,
+        0.03400000184774399
+      ]
+    },
+    {
+      "label": "entry-menu-board-0",
+      "face": "entry",
+      "u": -2.9,
+      "offset": 1.05,
+      "z": 0.025,
+      "local_bounds": {
+        "min": [
+          -0.27799999713897705,
+          -0.22216905653476715,
+          0.021369537338614464
+        ],
+        "max": [
+          0.27799999713897705,
+          0.22216905653476715,
+          1.1804734468460083
+        ]
+      },
+      "world_origin": [
+        11.100000381469727,
+        1.0499999523162842,
+        0.02500000037252903
+      ]
+    },
+    {
+      "label": "entry-menu-board-1",
+      "face": "entry",
+      "u": -2.24,
+      "offset": 1.05,
+      "z": 0.025,
+      "local_bounds": {
+        "min": [
+          -0.27799999713897705,
+          -0.22216905653476715,
+          0.021369537338614464
+        ],
+        "max": [
+          0.27799999713897705,
+          0.22216905653476715,
+          1.1804734468460083
+        ]
+      },
+      "world_origin": [
+        11.760000228881836,
+        1.0499999523162842,
+        0.02500000037252903
+      ]
+    },
+    {
+      "label": "entry-menu-board-2",
+      "face": "entry",
+      "u": -1.58,
+      "offset": 1.05,
+      "z": 0.025,
+      "local_bounds": {
+        "min": [
+          -0.27799999713897705,
+          -0.22216905653476715,
+          0.021369537338614464
+        ],
+        "max": [
+          0.27799999713897705,
+          0.22216905653476715,
+          1.1804734468460083
+        ]
+      },
+      "world_origin": [
+        12.420000076293945,
+        1.0499999523162842,
+        0.02500000037252903
+      ]
+    },
+    {
+      "label": "entry-sloped-menu-lectern",
+      "face": "entry",
+      "u": 2.5,
+      "offset": 1.2,
+      "z": 0.025,
+      "local_bounds": {
+        "min": [
+          -0.265,
+          -0.185,
+          0.012500000000000004
+        ],
+        "max": [
+          0.265,
+          0.185,
+          1.115
+        ]
+      },
+      "world_origin": [
+        16.5,
+        1.2000000476837158,
+        0.02500000037252903
+      ]
+    },
+    {
+      "label": "entry-oak-host-desk",
+      "face": "entry",
+      "u": 3.25,
+      "offset": 0.8,
+      "z": 0.025,
+      "local_bounds": {
+        "min": [
+          -0.393,
+          -0.27,
+          0.039999999999999925
+        ],
+        "max": [
+          0.393,
+          0.2755,
+          1.1275000000000002
+        ]
+      },
+      "world_origin": [
+        17.25,
+        0.800000011920929,
+        0.02500000037252903
+      ]
+    }
+  ],
+  "photo_evidence": {
+    "01": "Summer restaurant photo: warm red outdoor tile, paired square mosaic tables, ivory open umbrellas, three-tier fountain and blue/white basin.",
+    "04": "Two narrow black A-frame advertising stands outside entry. No invented prices or unreadable menu copy.",
+    "05": "Fountain basin wall and blue/white inner mosaic; three upper dishes; clear terrace screen behind; cafe chairs have curved woven red backs.",
+    "06": "Two square tables abut with a visible join; red curved backs carry narrow cream woven marks, champagne metal frame.",
+    "11": "Reverse terrace view: offset cantilever parasol mast, bolted feet, repeated paired tables, vase planter. Snow/seasonal decoration excluded."
+  },
+  "layout": {
+    "u_range": [
+      -3.4,
+      3.4
+    ],
+    "depth": 3.35,
+    "fountain_offset": 2.2,
+    "tables": [
+      [
+        -2.0,
+        1.65,
+        0
+      ],
+      [
+        2.0,
+        1.65,
+        0
+      ]
+    ],
+    "parasols": [
+      [
+        -2.1,
+        2.6,
+        true,
+        1.5707963267948966
+      ],
+      [
+        2.1,
+        2.6,
+        true,
+        -1.5707963267948966
+      ]
+    ],
+    "planters": [
+      [
+        -3.0,
+        0.55
+      ],
+      [
+        3.0,
+        0.55
+      ]
+    ]
+  },
+  "entry_layout": {
+    "menus": [
+      [
+        -2.9,
+        1.05
+      ],
+      [
+        -2.24,
+        1.05
+      ],
+      [
+        -1.58,
+        1.05
+      ]
+    ],
+    "welcome": true
+  },
+  "scale_status": "Relative photo reconstruction, metric dimensions inferred",
+  "excluded": [
+    "snow",
+    "Christmas decorations",
+    "invented menu prices",
+    "emissive lighting"
+  ],
+  "fountain_dimensions_m": {
+    "basin_diameter": 1.6498,
+    "stone_height": 2.10102,
+    "three_dishes": 3
+  },
+  "table_dimensions_m": {
+    "each_square_width": 0.7,
+    "pair_join": 0.008,
+    "height": 0.779
+  },
+  "deleted_old_objects": [],
+  "independent_validation": {
+    "finite_geometry": true,
+    "emission_zero": true,
+    "source_scene_saved": false
+  },
+  "validation_space": "Independent planar furniture module fixture, entry translated 14m solely for visual QA. Final world placement belongs to main R11 architectural integration."
+}

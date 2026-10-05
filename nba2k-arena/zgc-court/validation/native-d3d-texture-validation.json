@@ -1,0 +1,2448 @@
+{
+  "api": "D3D11 CreateTexture2D with complete DDS mip payloads",
+  "feature_level": "0xb000",
+  "input": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r13-native\\arena_700_int.iff.pending",
+  "textures": [
+    {
+      "binary": "zgc_r03_texture.120a7211c22ba1d6.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6395dda6eab12a5c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5e3cee3d205e6645.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5c7937a1c9de1d7c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0524beb0dea30287.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0c62ff916718fb8d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7f9fe0ffdb7adbdd.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1b168dd7e354a3e0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a0ff853a1a6f924e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2a40fd4bc23def93.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.06bf472fc623853b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d86a404ee6127b1e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6e6e3fa390534cfc.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.89eb052970ac4fec.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1f3c6c143ad8301a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.cd03bfba17f66d06.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.22e5db1dd72ae6ad.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8f8022048877b743.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6e3a23e7fa8dfd23.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.c98d1ce6996a9ee0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.645a4ba5ea78a7ee.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f7eb525618ecc3cd.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3e56f67b11c5ffd8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.30063a839d89bdc7.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5978b73dfd5b9686.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8f8fda5dbde509af.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7875f4343687df4c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.307f2b9abfb9d603.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3e456bb48c0a2821.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.76aa21c0bfcb7fc3.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.28c39d1e8582a1aa.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ff0e6e0a0ab3a373.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a5df33cc2b54f029.dds",
+      "width": 8192,
+      "height": 8192,
+      "mips": 14,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.05023be3ba1215e2.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0f424fa353b03e4a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b85d9970618240d3.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.be989236e56c2aaa.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e58c442a4e9dad82.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.77d1d8baecd93912.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.82a596326cc45e1d.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.c5ce6c58698d73c6.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.013ffeac3f306b6e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ae397e00c9721a72.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.391b601fba4676c8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3b55fc91f9daa32a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1f52ff5fdfa749c6.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.70e564f3e24aaad0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.264debdddc423854.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.eebed379aad16cb8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.de1acbd1b828f61a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f7f37bd0a084e623.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0c9817770960ce19.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.9eace06e4cf1f13b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.506b31c8c25a956a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.38b51e6d59399cf0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.495617755da5e582.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.88f29cf0299b956f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6b1ff1088c2b9840.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.42a6e4eb983e2302.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.227796bc3586d20c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b1e491007c79db4a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b681943c17b735ae.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.392a1bfa07d10b3a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e391b5f21e831588.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f43202783efff66e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.da4afc99b4932f7f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d7189a43803e4993.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d76a5b3e60c95ad2.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.72f42e2c49590749.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.01bd204ef0a4322c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.4767850a35d5ad82.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.984357c537c768db.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.68638aa52a3568cc.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a4b9725c19eb50c9.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6f5e6c1cb335665f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3d02a33a4e982500.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.39b225ebe3308836.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b023e3d5818b9466.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8d334cfa98c55921.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d7313aba7ad39a9b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.78b9b75814e9f972.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2a9aa96df2145930.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.9238decbc4ba59fb.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.42e4363837d58915.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.00f572608fd6b39a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e2d33afad5de99e0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6598d9b098bbd2e0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7313eef6e9dfb48e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8c05f596175f7b6c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1b2ce49ba4676b87.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8d05a829c279e09d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f8023111ce40d379.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.424454bc1b38a20b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7cf7fdd9aa1d53f8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d6014fe2d519f902.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5c2a08e4ea32bd95.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.fd8337ae66fe8e2d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.964633abb070ebd4.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.073a20821bb3cf91.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a53ba75a7d7bd9e8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1b6ca51c54292e68.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3596e529c3db713e.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ebe5002c43c09594.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.41d7493de9c498f0.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.769682e28b5481cc.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ecbdb66083219997.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d50b64b20d0959f1.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e04bd9602cfc7a79.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b41a52a14ea304fc.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e66b4e9eb12df335.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.9785b9edf1ef16d0.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.101fd9212e0a7612.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.de7fcce8d343192b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.c4200139eb467ff5.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ee7ebf4462e6fd5e.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2e27e6c722cc2ce1.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b69bc0cf9a7c0096.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d49d84631e4427cb.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e4b1af29a567e32f.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a43d35d290eb76f6.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d97985da830506cc.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.eb69ad574e0025ca.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b0d218d88ae99982.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.41c8a8b55fb9b3b4.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1532e150bd6a7f08.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.aeb0ae90a17db82b.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b519929ca7d03263.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.46b1c23b25eceb09.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3752dce46d90c558.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.058e7ea648723d43.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0e4a91a70e1a0852.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.06c75a8a6091906d.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.83e23b0782dd6489.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ad46a02e09677132.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8df698658637a094.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0599b053542dfaf3.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f76b6cc00faa0eb3.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5c24a1ae8e2d47a2.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1b3329563372771d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e0e63533ef0bc273.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ce161e3752704dc3.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a9d42ca7bc7cef13.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.eac07b8ed8a459c0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0751825a9449c220.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1063000bf39da009.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.cc9986558cc481b6.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6d174df3550fb900.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3e631aa18699e22e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.54c7c501bf2f5be5.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.15b2032a07509bd7.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.fd4b967884f74722.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5cb7f217369b59dc.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.dd358289c8a5688d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.aee80c609b23617b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.876b7b7ff4333fdf.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.99abad8934fa849a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.915081607aba6dea.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0c4c67169516c51f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.20950f5efbd7c14f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ae9069c8bc7fa23c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.cfe4209d0a0fedb2.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.cf363a58235fed33.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2477ec0dd5fccb33.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.087f1aba3f24c336.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e81b95881d4e7700.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1149c876078a6fcb.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1868bd4973ff391e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.904f4e9ac09a16fb.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.04c514477d9d5278.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.80f733430c5d205d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.018dae81d508c84e.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ecd43524fbdd2beb.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.87c1d6d1afddc6e0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.205add326935b011.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.392db4d3bd14ecfd.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.80d2b27c2729e992.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.c54348097df32544.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e4cc26fb1d97b4f8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.009b83e405137af1.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7dbc982556a1272b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2a676c4bf7d997b5.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0bab1dc08bacbba2.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.1d4af970f9772690.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2b72afaa9c9ae5fa.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.251dc61becb77640.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.fe13d2073856188f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.4f5d21646a4abe8c.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.bbef58dbeccab75a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.746529f28d27dc51.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a3cd222a761aaa7d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.40d423dd7fd46c57.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ba52a4ea02bdb089.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.bb3991f9b596fd96.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7a4d98808961b237.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a4e098389ec885e9.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.dc25defce4a8b4aa.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3d18dc2319f533d8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b2d9392ad640a832.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b9d0c02a3975edaf.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e57a2d07bec596d9.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7beea118da187ddb.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.914110715a5758fa.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.41f135a6299dd679.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.76d3debd6e81b390.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7b052c24bef46662.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7850af63f377c4cd.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.66ca99b350983a5d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.72b8fa8bb7a6a740.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.0a4b622ffc5feabe.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.60440189ee22e9fe.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3a1615b0d67f4e56.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.43ea6ff88f1cd152.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b1247276368a5fe4.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.9cbc2fe2189bff76.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.cc9689d73391f8a0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.22692d9dfc7a5b9b.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ca9f7eafb7ab3a39.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.5b300cae26beb3dc.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.4c46824ff1f5a953.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.04ee2473094eb582.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2955b93aae7162f9.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8b8b4841c9c51663.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e119d62040f486bc.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.e9ff404735a4f449.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.72e1f0939e274f45.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f592f09b9ff43216.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ac1e8e1f631b320f.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8aeba0a43c9ecc63.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.658160f701d2cd42.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ac0effd32d156f84.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.79c8bf81b93297e0.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.201bc9ad2bedd139.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.663a07b89ab4059f.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.07acc4ba93e93308.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.107a272ad79565d6.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.eee4d8e95db32158.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.bee303bca39b965d.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.79a1e7a75d35d367.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ed0d2438e4329545.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.2b5fa543121965f7.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a4f66e61ea6a6f7f.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.b77ca7266edd71a2.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.05a266daa9b8b3e1.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.d9059dc964b6f421.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.6dc0cef6b582c54a.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.261cc7f02dcb04fa.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.37080c0bbe9fa175.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7eff7edb3bf50ed3.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.16c8822048dbc9e6.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.8e8a8ed2e8f8c6fb.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.22d7bdcad77de7b8.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3e191fbaed737f88.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.fc1b215154855117.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f5188cc341042db3.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3532505eab078cf9.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.4e0993087f924617.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f336e69d796c15ce.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7e32fe5cea4e51b7.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f3acc0ed4a5d7296.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.cfec6031d03a28ec.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.7b607a143b55de56.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.be24fadf65ed2f83.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f57853a25228da77.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT5",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.ececebf7280fa319.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "floor_line.71af6dc754935e49.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DX10",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "floor_line_thin.b8e9b0535e40bbaf.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DX10",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "floor_line_double.b070a8a6acc12d69.dds",
+      "width": 512,
+      "height": 512,
+      "mips": 10,
+      "format": "DX10",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.f1a4593b00400633.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.3bcbb1f7c51182d2.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.a05eba726586226d.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    },
+    {
+      "binary": "zgc_r03_texture.82ec70548f516cf1.dds",
+      "width": 4,
+      "height": 4,
+      "mips": 3,
+      "format": "DXT1",
+      "hresult": "0x00000000",
+      "success": true
+    }
+  ],
+  "failed": [],
+  "passed_count": 271
+}

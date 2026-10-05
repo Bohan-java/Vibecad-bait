@@ -1,0 +1,110 @@
+{
+  "revision": "R12",
+  "merge_into": "config/project.json preview.chilis_views",
+  "coordinate_system": "Preview glTF = (source X, source Z, -source Y), metres",
+  "chilis_views": {
+    "bench": {
+      "position": [
+        0,
+        21,
+        11
+      ],
+      "target": [
+        0,
+        0.45,
+        -8.6
+      ],
+      "fov": 72
+    },
+    "left_shop": {
+      "position": [
+        -10.6,
+        2.35,
+        11.0
+      ],
+      "target": [
+        -15.1,
+        1.95,
+        16.3
+      ],
+      "fov": 72
+    },
+    "skyline": {
+      "position": [
+        150,
+        135,
+        170
+      ],
+      "target": [
+        0,
+        20,
+        0
+      ],
+      "fov": 60,
+      "maxDistance": 450
+    },
+    "skyline_left": {
+      "position": [
+        -1,
+        2.6,
+        -1
+      ],
+      "target": [
+        -18,
+        14,
+        40
+      ],
+      "fov": 65,
+      "maxPolarAngle": 1.98
+    },
+    "skyline_open": {
+      "position": [
+        -15,
+        3.1,
+        3
+      ],
+      "target": [
+        82,
+        30,
+        -44
+      ],
+      "fov": 65,
+      "maxPolarAngle": 1.98
+    },
+    "chilis_plan": {
+      "position": [
+        -26.3265,
+        58,
+        2.5
+      ],
+      "target": [
+        -26.3265,
+        0,
+        2.5
+      ],
+      "projection": "orthographic",
+      "up": [
+        0,
+        0,
+        -1
+      ],
+      "zoom": 1.04
+    }
+  },
+  "reference_for_view_numbers": {
+    "left_shop": 58,
+    "skyline": 62,
+    "skyline_left": 59,
+    "skyline_open": 65,
+    "chilis_plan": 67
+  },
+  "notes": [
+    "Existing game-IFF preview remains the default.",
+    "Bench overview includes both teams; no simulated players are shown.",
+    "The skyline total view allows maxDistance 450 to retain the proposed high camera, without changing the other view controls.",
+    "The Chilis plan preset is orthographic and uses the building long axis vertically. No claim of aerial photo or measured floor plan.",
+    "Absolute distant building distances are inferred; on-screen note is shown in all skyline presets.",
+    "Ground skyline presets permit looking upward to the photographed towers; existing other presets retain their current orbit angle limit."
+  ],
+  "browser_verified": false
+}

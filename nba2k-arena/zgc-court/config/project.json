@@ -1,0 +1,284 @@
+{
+  "project": "中关村大融城 · NBA 2K26 球场",
+  "stage": "R12 photo-guided court-side bench, left foreground, rectangular Chilis and distant skyline",
+  "constraints": {
+    "game_deliverable": "exactly one genuine IFF",
+    "workspace_write_boundary": "E:/CodexData/2karena",
+    "exception": "Blender may be used",
+    "install_to_game": false,
+    "donor_role": "optional technical research only; never visual template",
+    "reference_half": "negative X",
+    "open_half": "Gray concrete plaza paving with simple white three-point, free-throw and key lines; opposite hoop and garden",
+    "retention": "latest-only: one current game IFF, one latest preview GLB/build, and current source; outdated preview builds/logs/cache removed after equivalence verification"
+  },
+  "game_version": "Steam build 24237529 (read-only observation before workspace restriction)",
+  "game_root": "D:/steam/steamapps/common/NBA 2K26",
+  "target_mode": "Blacktop",
+  "target_slot": "arena_700_int.iff",
+  "loader": "User drags IFF into levels; no loader assumption",
+  "deployment_relative_path": "levels/arena_700_int.iff",
+  "source_to_game": {
+    "units": "centimetres",
+    "matrix": [
+      [
+        0,
+        100,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        100,
+        0
+      ],
+      [
+        100,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "basket_anchor_status": "matches native Blacktop MAIN pivots; game operation unverified"
+  },
+  "source_to_preview": [
+    [
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "tools": {
+    "blender_path": "D:/Blender/blender.exe",
+    "blender_version": "5.2.2 LTS d13f752e3b9c",
+    "node_path": "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe",
+    "sharp_module": "C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp"
+  },
+  "dimensions_m": {
+    "length": 28.6512,
+    "width": 15.24,
+    "rim_centers_x": [
+      -12.7254,
+      12.7254
+    ],
+    "rim_top_z": 3.048,
+    "rim_inner_diameter": 0.4572,
+    "backboard_front_x": [
+      -13.1064,
+      13.1064
+    ],
+    "backboard_width": 1.8288,
+    "backboard_height": 1.0668,
+    "three_point_outside_radius": 7.239,
+    "corner_three_outside_y": 6.7056,
+    "line_width": 0.0508
+  },
+  "source": {
+    "blend": "source/scene.blend",
+    "artwork": "artwork/court.svg",
+    "texture": "artwork/paving-atlas.png",
+    "court_texture": "artwork/court.png",
+    "paving_context": "artwork/paving-context.svg",
+    "latest_saved_source": "R12 integrated context: right bench markers and black chairs, left shop and trees, rectangular Chilis, photographic skyline"
+  },
+  "preview": {
+    "port": 4173,
+    "host": "127.0.0.1",
+    "reference_sign": -1,
+    "chilis_views": {
+      "chilis": {
+        "position": [
+          -17.2,
+          2.9,
+          4.2
+        ],
+        "target": [
+          -21.08,
+          2.25,
+          4.2
+        ],
+        "fov": 76
+      },
+      "chilis_terrace": {
+        "position": [
+          -27.2,
+          3.9,
+          24.6
+        ],
+        "target": [
+          -28.1,
+          2.1,
+          16.9
+        ],
+        "fov": 59
+      },
+      "chilis_walk": {
+        "position": [
+          -17.3,
+          1.85,
+          9.8
+        ],
+        "target": [
+          -23.1,
+          1.8,
+          14.5
+        ],
+        "fov": 60
+      },
+      "chilis_detail": {
+        "position": [
+          -25.3,
+          2.65,
+          21.8
+        ],
+        "target": [
+          -28.1,
+          1.15,
+          18.5
+        ],
+        "fov": 54
+      },
+      "bench": {
+        "position": [
+          0,
+          21,
+          11
+        ],
+        "target": [
+          0,
+          0.45,
+          -8.6
+        ],
+        "fov": 72
+      },
+      "left_shop": {
+        "position": [
+          -10.6,
+          2.35,
+          11.0
+        ],
+        "target": [
+          -15.1,
+          1.95,
+          16.3
+        ],
+        "fov": 72
+      },
+      "skyline": {
+        "position": [
+          150,
+          135,
+          170
+        ],
+        "target": [
+          0,
+          20,
+          0
+        ],
+        "fov": 60,
+        "maxDistance": 450
+      },
+      "skyline_left": {
+        "position": [
+          -1,
+          2.6,
+          -1
+        ],
+        "target": [
+          -18,
+          14,
+          40
+        ],
+        "fov": 65,
+        "maxPolarAngle": 1.98
+      },
+      "skyline_open": {
+        "position": [
+          -15,
+          3.1,
+          3
+        ],
+        "target": [
+          82,
+          30,
+          -44
+        ],
+        "fov": 65,
+        "maxPolarAngle": 1.98
+      },
+      "chilis_plan": {
+        "position": [
+          -26.3265,
+          58,
+          2.5
+        ],
+        "target": [
+          -26.3265,
+          0,
+          2.5
+        ],
+        "projection": "orthographic",
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "zoom": 1.04
+      }
+    }
+  },
+  "iff_version": "R12 · 替补席、左侧近景、矩形门店与远楼",
+  "game_verified_version": "R11-gameplay-visible-with-seating-and-context-defects",
+  "reference_count": 67,
+  "reference_state": "50 retained images plus 8 left-fence/storefront and 9 skyline originals from two user Gmail drafts. Original bytes and SHA256 retained.",
+  "standards_sources": [
+    "https://official.nba.com/rule-no-1-court-dimensions-equipment/",
+    "https://cdn.nba.com/manage/2026/01/Official-2025-26-NBA-Playing-Rules.pdf"
+  ],
+  "gates": {
+    "A": "unverified",
+    "B": "unverified",
+    "C": "unverified",
+    "single_iff": "unverified"
+  },
+  "target_confirmation": "User confirms Blacktop using arena_700_int.iff in levels; R06 visible.",
+  "latest_art_direction": {
+    "source": "direct user feedback 2026-10-03",
+    "court_artwork": "Do not force photo artwork into a perfect geometric half-court footprint; refine visible shapes and boundary brushwork",
+    "open_half_and_garden": "Model the opposite paving and surrounding garden character from existing photographs",
+    "link_chilis_relationship": "Separate rectangular low Chilis frontage with short corner roundovers, in front of larger pale LINK building. Fountain terrace is left around corner; all unmeasured offsets remain estimates.",
+    "current_focus": "Right black bench with independent native role markers; photograph-backed left storefront/fence/tree relationships; simplified surrounding skyline; rectangular Chili footprint.",
+    "chilis_spatial_confirmation": "User confirmed 2026-10-04: facing main entry with court behind, fountain terrace is left around the corner (source -Y). Exact turn angle and dimensions unmeasured."
+  },
+  "game_visibility": "visible",
+  "last_game_test": {
+    "revision": "R11",
+    "game_visibility": "gameplay_visible",
+    "user_result": "Substitutes overlap, left context sparse, world edge visible, Chilis footprint too oval. Replay glass outcome was not reported."
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "status": "passed",
+  "old_source_glb_sha256": "afb2f4af80019bc69a8b871355ee72d9460a5fbed3ac61b174687812cd3c99f0",
+  "source_glb_matches_original_baseline": true,
+  "models": [
+    {
+      "source_object": "R02 fence weighted foot 3",
+      "baseline_full_model_contract_reproduced_exactly": true,
+      "baseline_canonical_sha256": "e84ba776ab0a4fa4bef2298d35eaaddbc47d039438d67cace6121875a56cb67d",
+      "current_canonical_sha256": "4d8ced61ef524457025ab5a3ef5080a9c81897e72d0fc6cf11092833789ecc46",
+      "all_native_streams_index_bytes_formats_object_and_materials_identical": true,
+      "metadata_changes": [
+        {
+          "path": "/Duv0/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Duv1/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Duv2/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Duv7/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Prim/0/Duv0/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Prim/0/Duv1/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Prim/0/Duv2/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        },
+        {
+          "path": "/Prim/0/Duv7/0",
+          "old": 0.0312066807201717,
+          "new": 0.031206677596358135,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.0010079551458232e-07
+        }
+      ]
+    },
+    {
+      "source_object": "R02 fence weighted foot 6",
+      "baseline_full_model_contract_reproduced_exactly": true,
+      "baseline_canonical_sha256": "2dc295ece96523bdc71e0d3cc3d9d2adf369dac2b1b6c89818164e025e7a1fb3",
+      "current_canonical_sha256": "21a9c54f58d9a088f4996e8f6745c0051d8d1996862160c6ff486354aa267bf3",
+      "all_native_streams_index_bytes_formats_object_and_materials_identical": true,
+      "metadata_changes": [
+        {
+          "path": "/Duv0/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Duv1/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Duv2/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Duv7/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Prim/0/Duv0/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Prim/0/Duv1/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Prim/0/Duv2/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        },
+        {
+          "path": "/Prim/0/Duv7/0",
+          "old": 0.031206677596358135,
+          "new": 0.0312066807201717,
+          "absolute_delta": 3.123813565458766e-09,
+          "relative_delta": 1.001008055347526e-07
+        }
+      ]
+    },
+    {
+      "source_object": "R02 fence weighted foot 7",
+      "baseline_full_model_contract_reproduced_exactly": true,
+      "baseline_canonical_sha256": "bce64fcec1cf97d2414e8f54410b44fc07b95f6aac820e68e66222b837f15c5b",
+      "current_canonical_sha256": "a2f5840cd87837929e1e0373d9446a5a4987a5686902ca94e71ce9e5ba09c6cf",
+      "all_native_streams_index_bytes_formats_object_and_materials_identical": true,
+      "metadata_changes": [
+        {
+          "path": "/Duv0/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Duv1/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Duv2/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Duv7/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Prim/0/Duv0/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Prim/0/Duv1/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Prim/0/Duv2/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        },
+        {
+          "path": "/Prim/0/Duv7/0",
+          "old": 0.031206781534573846,
+          "new": 0.03120678465839237,
+          "absolute_delta": 3.1238185232984605e-09,
+          "relative_delta": 1.0010063100668029e-07
+        }
+      ]
+    },
+    {
+      "source_object": "R02 fence weighted foot 9",
+      "baseline_full_model_contract_reproduced_exactly": true,
+      "baseline_canonical_sha256": "e6eba79d1bba6254d793f437204bdc31bf6cdc7eea3a36449f9b40741cd14b13",
+      "current_canonical_sha256": "e6c99657031d79fbdc2acb7626cfd9b98e6ebe655e49b165e2e08ca8037e00d0",
+      "all_native_streams_index_bytes_formats_object_and_materials_identical": true,
+      "metadata_changes": [
+        {
+          "path": "/Duv0/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Duv1/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Duv2/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Duv7/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Prim/0/Duv0/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Prim/0/Duv1/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Prim/0/Duv2/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        },
+        {
+          "path": "/Prim/0/Duv7/0",
+          "old": 0.03120660021690453,
+          "new": 0.031206587721611667,
+          "absolute_delta": 1.2495292862901852e-08,
+          "relative_delta": 4.0040545192530095e-07
+        }
+      ]
+    },
+    {
+      "source_object": "R02 fence weighted foot 11",
+      "baseline_full_model_contract_reproduced_exactly": true,
+      "baseline_canonical_sha256": "707d52d57f2f085222779acbd63ac819bd546aafe50c98a1a8c78c02f7bc53f4",
+      "current_canonical_sha256": "f908439c2f78d1f50b440f8b266462af5ae7d834b4d32617aea9fbfeb52449b9",
+      "all_native_streams_index_bytes_formats_object_and_materials_identical": true,
+      "metadata_changes": [
+        {
+          "path": "/Duv0/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Duv1/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Duv2/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Duv7/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Prim/0/Duv0/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Prim/0/Duv1/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Prim/0/Duv2/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        },
+        {
+          "path": "/Prim/0/Duv7/0",
+          "old": 0.031206409953708263,
+          "new": 0.031206406830055607,
+          "absolute_delta": 3.1236526559785815e-09,
+          "relative_delta": 1.0009650775633027e-07
+        }
+      ]
+    },
+    {
+      "source_object": "Base plate.reference",
+      "baseline_full_model_contract_reproduced_exactly": true,
+      "baseline_canonical_sha256": "bb9f152e3bfff56b0c0af515a73f0e943b529de31eed6848b9e353410e3dd223",
+      "current_canonical_sha256": "f3c37c86950b3e6d3f2a61c760f96b437e3bee24f87fa42a631f9ca1f2190699",
+      "all_native_streams_index_bytes_formats_object_and_materials_identical": true,
+      "metadata_changes": [
+        {
+          "path": "/Duv0/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Duv0/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Duv1/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Duv1/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Duv2/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Duv2/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Duv7/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Duv7/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Prim/0/Duv0/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Prim/0/Duv0/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Prim/0/Duv1/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Prim/0/Duv1/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Prim/0/Duv2/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Prim/0/Duv2/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        },
+        {
+          "path": "/Prim/0/Duv7/0",
+          "old": 0.09213319296796951,
+          "new": 0.09213319296836382,
+          "absolute_delta": 3.9430958498343216e-13,
+          "relative_delta": 4.27977770314023e-12
+        },
+        {
+          "path": "/Prim/0/Duv7/1",
+          "old": 0.006723316039133802,
+          "new": 0.006723303121402486,
+          "absolute_delta": 1.2917731316043624e-08,
+          "relative_delta": 1.921333348135733e-06
+        }
+      ]
+    }
+  ]
+}

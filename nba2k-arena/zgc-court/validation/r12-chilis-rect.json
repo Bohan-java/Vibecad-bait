@@ -1,0 +1,2443 @@
+{
+  "revision": "R12",
+  "status": "passed",
+  "game_verified": false,
+  "parameters": {
+    "front_x": -21.05299186706543,
+    "rear_x": -31.6,
+    "left_y": -16.2,
+    "right_y": 14.6,
+    "corner_radius": 1.2,
+    "entry_center_y": -4.2,
+    "entry_width": 10.6,
+    "terrace_center_x": -28.1,
+    "terrace_width": 6.8
+  },
+  "facade_frames": {
+    "entry": {
+      "origin": [
+        -21.05299186706543,
+        -4.199999809265137,
+        0.0
+      ],
+      "outward_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "tangent": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "width_m": 10.6
+    },
+    "terrace": {
+      "origin": [
+        -28.100000381469727,
+        -16.209999084472656,
+        0.0
+      ],
+      "outward_normal": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "tangent": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "width_m": 6.8
+    }
+  },
+  "removed_old_building_objects": [
+    "R02 architecture Chilis lower storey conceptual glazing",
+    "R02 architecture Chilis lower storey sill",
+    "R11 Chilis building alcove cafe descriptor",
+    "R11 Chilis building alcove established date",
+    "R11 Chilis building alcove logo fine golden edge",
+    "R11 Chilis building alcove logo green pepper apostrophe",
+    "R11 Chilis building alcove logo warm orange letter bodies",
+    "R11 Chilis building continuous original curved folded eaves",
+    "R11 Chilis building curved flank individual silver ribs",
+    "R11 Chilis building curved flank slender mullions",
+    "R11 Chilis building curved flank upper glazing",
+    "R11 Chilis building elevator call plate",
+    "R11 Chilis building elevator deep metal jambs",
+    "R11 Chilis building elevator two brushed door leaves",
+    "R11 Chilis building entry CAFE AND BAR",
+    "R11 Chilis building entry clear window and door perimeter seams",
+    "R11 Chilis building entry concave rolled silver pilasters",
+    "R11 Chilis building entry cornice narrow reveal",
+    "R11 Chilis building entry cream retractable canvas and scalloped valance",
+    "R11 Chilis building entry door transom and narrow reveals",
+    "R11 Chilis building entry EST 1975",
+    "R11 Chilis building entry exact Chinese canvas inscription",
+    "R11 Chilis building entry grey staggered stone course 0",
+    "R11 Chilis building entry grey staggered stone course 1",
+    "R11 Chilis building entry grey staggered stone course 2",
+    "R11 Chilis building entry hinged retractable awning frame",
+    "R11 Chilis building entry local grey stone mortar bedding",
+    "R11 Chilis building entry logo fine golden edge",
+    "R11 Chilis building entry logo green pepper apostrophe",
+    "R11 Chilis building entry logo warm orange letter bodies",
+    "R11 Chilis building entry narrow vertical diffuser strips unlit",
+    "R11 Chilis building entry paired long door pulls hinges and threshold",
+    "R11 Chilis building entry pilaster folded seam flanges",
+    "R11 Chilis building entry sewn canvas seams",
+    "R11 Chilis building entry shallow interior dark mineral floor",
+    "R11 Chilis building entry shallow interior warm back plane",
+    "R11 Chilis building entry shallow interior warm timber planes",
+    "R11 Chilis building entry slender black window and double door frames",
+    "R11 Chilis building entry solid dusty mauve sign panel",
+    "R11 Chilis building entry three folded cornice rails",
+    "R11 Chilis building entry visible interior table legs",
+    "R11 Chilis building entry visible low green upholstered benches",
+    "R11 Chilis building entry visible shallow wood table tops",
+    "R11 Chilis building fine vertical red terracotta tile joints",
+    "R11 Chilis building red terracotta recessed elevator walls",
+    "R11 Chilis building retained curved restaurant envelope",
+    "R11 Chilis building roof louvre fine reveal borders",
+    "R11 Chilis building roof louvre pitched blades",
+    "R11 Chilis building terrace CAFE AND BAR",
+    "R11 Chilis building terrace concave rolled silver pilasters",
+    "R11 Chilis building terrace continuous interior red floor",
+    "R11 Chilis building terrace cornice narrow reveal",
+    "R11 Chilis building terrace cream retractable canvas and scalloped valance",
+    "R11 Chilis building terrace EST 1975",
+    "R11 Chilis building terrace exact Chinese canvas inscription",
+    "R11 Chilis building terrace fin backing recessed shadow",
+    "R11 Chilis building terrace five wide weather screen edge strips",
+    "R11 Chilis building terrace hinged retractable awning frame",
+    "R11 Chilis building terrace individually folded vertical facade fins",
+    "R11 Chilis building terrace inner low wood wainscot",
+    "R11 Chilis building terrace inner warm plaster return wall",
+    "R11 Chilis building terrace logo fine golden edge",
+    "R11 Chilis building terrace logo green pepper apostrophe",
+    "R11 Chilis building terrace logo warm orange letter bodies",
+    "R11 Chilis building terrace lower clear screen seams",
+    "R11 Chilis building terrace narrow vertical diffuser strips unlit",
+    "R11 Chilis building terrace pilaster folded seam flanges",
+    "R11 Chilis building terrace roof projection solid body and folded cap",
+    "R11 Chilis building terrace sewn canvas seams",
+    "R11 Chilis building terrace slender ivory weather screen mullions",
+    "R11 Chilis building terrace three folded cornice rails",
+    "R11 Chilis building three roof louvre framed recesses",
+    "R11 Chilis building unmodified extent flank curved glass"
+  ],
+  "new_building_objects": [
+    "R12 Chilis building entry exact Chinese canvas inscription",
+    "R12 Chilis building entry CAFE AND BAR",
+    "R12 Chilis building entry EST 1975",
+    "R12 Chilis building terrace exact Chinese canvas inscription",
+    "R12 Chilis building terrace CAFE AND BAR",
+    "R12 Chilis building terrace EST 1975",
+    "R12 Chilis building alcove cafe descriptor",
+    "R12 Chilis building alcove established date",
+    "R12 Chilis building rectangular restaurant roof and rear envelope",
+    "R12 Chilis building rectangular lower storey recessed glazing",
+    "R12 Chilis building straight eaves with short radius corner returns",
+    "R12 Chilis building straight flank and small corner glazing",
+    "R12 Chilis building straight upper flank and small corner glazing",
+    "R12 Chilis building straight flank individual silver fins",
+    "R12 Chilis building straight flank slender glazing mullions",
+    "R12 Chilis building terrace inner warm plaster return wall",
+    "R12 Chilis building terrace continuous interior red floor",
+    "R12 Chilis building terrace inner low wood wainscot",
+    "R12 Chilis building entry solid dusty mauve sign panel",
+    "R12 Chilis building entry concave rolled silver pilasters",
+    "R12 Chilis building entry pilaster folded seam flanges",
+    "R12 Chilis building entry narrow vertical diffuser strips unlit",
+    "R12 Chilis building entry three folded cornice rails",
+    "R12 Chilis building entry cornice narrow reveal",
+    "R12 Chilis building entry clear window and door perimeter seams",
+    "R12 Chilis building entry slender black window and double door frames",
+    "R12 Chilis building entry paired long door pulls hinges and threshold",
+    "R12 Chilis building entry door transom and narrow reveals",
+    "R12 Chilis building entry cream retractable canvas and scalloped valance",
+    "R12 Chilis building entry hinged retractable awning frame",
+    "R12 Chilis building entry sewn canvas seams",
+    "R12 Chilis building entry logo warm orange letter bodies",
+    "R12 Chilis building entry logo fine golden edge",
+    "R12 Chilis building entry logo green pepper apostrophe",
+    "R12 Chilis building terrace fin backing recessed shadow",
+    "R12 Chilis building terrace individually folded vertical facade fins",
+    "R12 Chilis building terrace concave rolled silver pilasters",
+    "R12 Chilis building terrace pilaster folded seam flanges",
+    "R12 Chilis building terrace narrow vertical diffuser strips unlit",
+    "R12 Chilis building terrace three folded cornice rails",
+    "R12 Chilis building terrace cornice narrow reveal",
+    "R12 Chilis building terrace five wide weather screen edge strips",
+    "R12 Chilis building terrace slender ivory weather screen mullions",
+    "R12 Chilis building terrace lower clear screen seams",
+    "R12 Chilis building terrace cream retractable canvas and scalloped valance",
+    "R12 Chilis building terrace hinged retractable awning frame",
+    "R12 Chilis building terrace sewn canvas seams",
+    "R12 Chilis building terrace logo warm orange letter bodies",
+    "R12 Chilis building terrace logo fine golden edge",
+    "R12 Chilis building terrace logo green pepper apostrophe",
+    "R12 Chilis building terrace roof projection solid body and folded cap",
+    "R12 Chilis building three roof louvre framed recesses",
+    "R12 Chilis building roof louvre fine reveal borders",
+    "R12 Chilis building roof louvre pitched blades",
+    "R12 Chilis building red terracotta recessed elevator walls",
+    "R12 Chilis building fine vertical red terracotta tile joints",
+    "R12 Chilis building elevator two brushed door leaves",
+    "R12 Chilis building elevator deep metal jambs",
+    "R12 Chilis building alcove logo warm orange letter bodies",
+    "R12 Chilis building alcove logo fine golden edge",
+    "R12 Chilis building alcove logo green pepper apostrophe",
+    "R12 Chilis building elevator call plate",
+    "R12 Chilis building entry local grey stone mortar bedding",
+    "R12 Chilis building entry grey staggered stone course 0",
+    "R12 Chilis building entry grey staggered stone course 1",
+    "R12 Chilis building entry grey staggered stone course 2",
+    "R12 Chilis building entry shallow interior warm back plane",
+    "R12 Chilis building entry shallow interior warm timber planes",
+    "R12 Chilis building entry shallow interior dark mineral floor",
+    "R12 Chilis building entry visible low green upholstered benches",
+    "R12 Chilis building entry visible interior table legs",
+    "R12 Chilis building entry visible shallow wood table tops"
+  ],
+  "protected_objects": 551,
+  "unexpected_changes": [],
+  "non_chilis_geometry_materials_transforms_uv_preserved": true,
+  "lights_world_exposure_preserved": true,
+  "facade_evidence": {
+    "entry": "New02 and court photo19: mauve board, black double door, small logo, scalloped awning, coved silver columns",
+    "terrace": "New01: larger logo directly over individual silver fins, no mauve sign panel, cream Chinese awning",
+    "awning": "New08/09/10: articulated slender black supports and scalloped valance",
+    "roof": "New01: three real horizontal louvre panels",
+    "footprint": "Explicit user correction: generally rectangular. New02/old02 show planar purple signboard; old03/04 show local rounded turn only; new07/08/09 show long straight court-side walk. r12 skyline08/09 anchor terrace and court; r12 left08 identifies The boots as a separate shop."
+  },
+  "layout_limits": [
+    "User confirmed generally rectangular form and fountain terrace around the left corner when facing the entry.",
+    "Exact metric size and 1.20 m corner radius are photographic estimates, not a measured survey.",
+    "Entry and terrace viewing apertures retain R11 perimeter-seam geometry; optical transparent sheets are not introduced.",
+    "R11 door/sign/awning/pilaster/fountain/furniture detail geometry is regenerated in corrected planar frames.",
+    "Courts, baskets, fences, LINK, other site modules, lighting and exposure are protected before/after."
+  ],
+  "furniture": {
+    "revision": "R11",
+    "objects": [
+      "R12 Chilis terrace warm red terrace grout bed",
+      "R12 Chilis terrace warm red square terrace tiles",
+      "R12 Chilis terrace warm red square terrace tile variants",
+      "R12 Chilis terrace three tier fountain carved limestone",
+      "R12 Chilis terrace fountain small blue inner mosaic",
+      "R12 Chilis terrace fountain small pale inner mosaic",
+      "R12 Chilis terrace fountain still recessed basin",
+      "R12 Chilis terrace square mosaic table black frames",
+      "R12 Chilis terrace square mosaic table fine grout",
+      "R12 Chilis terrace square mosaic table ochre inserts",
+      "R12 Chilis terrace square mosaic table dark inserts",
+      "R12 Chilis terrace curved chair champagne tube frames",
+      "R12 Chilis terrace curved chair woven red bodies",
+      "R12 Chilis terrace curved chair pale diagonal weave",
+      "R12 Chilis terrace parasol cantilever masts ribs and fixed feet",
+      "R12 Chilis terrace parasol beige summer canvas",
+      "R12 Chilis terrace parasol fine panel seams",
+      "R12 Chilis terrace parasol visible floor anchors",
+      "R12 Chilis terrace sage vase planters",
+      "R12 Chilis terrace clipped planter foliage",
+      "R12 Chilis terrace entry hinged menu stands",
+      "R12 Chilis terrace entry poster panel 0",
+      "R12 Chilis terrace entry advertising broad red shapes",
+      "R12 Chilis terrace entry advertising broad pale shapes",
+      "R12 Chilis terrace entry poster panel 1",
+      "R12 Chilis terrace entry poster panel 2",
+      "R12 Chilis terrace entry separate sloped menu lectern",
+      "R12 Chilis terrace entry lectern pale menu paper",
+      "R12 Chilis terrace entry lectern fine page divisions",
+      "R12 Chilis terrace entry oak welcome cabinet",
+      "R12 Chilis terrace entry cabinet restrained wood grain",
+      "R12 Chilis terrace entry cabinet small feet"
+    ],
+    "mesh_count": 32,
+    "vertices": 46656,
+    "triangles": 50132,
+    "world_bounds": {
+      "min": [
+        -31.50728416442871,
+        -19.894241333007812,
+        0.03400000184774399
+      ],
+      "max": [
+        -19.667991638183594,
+        -0.5569999814033508,
+        2.8318285942077637
+      ]
+    },
+    "anchors": [
+      {
+        "label": "three-tier-fountain",
+        "face": "terrace",
+        "u": 0.3,
+        "offset": 2.2,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.8248999999999999,
+            -0.8248999999999999,
+            0.02166
+          ],
+          "max": [
+            0.8248999999999999,
+            0.8248999999999999,
+            2.1010199999999997
+          ]
+        },
+        "world_origin": [
+          -27.799999237060547,
+          -18.40999984741211,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "paired-square-table-0",
+        "face": "terrace",
+        "u": -2.0,
+        "offset": 1.65,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.704,
+            -0.35,
+            0.018
+          ],
+          "max": [
+            0.704,
+            0.35,
+            0.768
+          ]
+        },
+        "world_origin": [
+          -30.100000381469727,
+          -17.860000610351562,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-0",
+        "face": "terrace",
+        "u": -2.35,
+        "offset": 1.0499999999999998,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -30.450000762939453,
+          -17.260000228881836,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-1",
+        "face": "terrace",
+        "u": -1.65,
+        "offset": 1.0499999999999998,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -29.75,
+          -17.260000228881836,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-2",
+        "face": "terrace",
+        "u": -2.35,
+        "offset": 2.25,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -30.450000762939453,
+          -18.459999084472656,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-3",
+        "face": "terrace",
+        "u": -1.65,
+        "offset": 2.25,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -29.75,
+          -18.459999084472656,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "paired-square-table-1",
+        "face": "terrace",
+        "u": 2.0,
+        "offset": 1.65,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.704,
+            -0.35,
+            0.018
+          ],
+          "max": [
+            0.704,
+            0.35,
+            0.768
+          ]
+        },
+        "world_origin": [
+          -26.100000381469727,
+          -17.860000610351562,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-4",
+        "face": "terrace",
+        "u": 1.65,
+        "offset": 1.0499999999999998,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -26.450000762939453,
+          -17.260000228881836,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-5",
+        "face": "terrace",
+        "u": 2.35,
+        "offset": 1.0499999999999998,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -25.75,
+          -17.260000228881836,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-6",
+        "face": "terrace",
+        "u": 1.65,
+        "offset": 2.25,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -26.450000762939453,
+          -18.459999084472656,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-7",
+        "face": "terrace",
+        "u": 2.35,
+        "offset": 2.25,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -25.75,
+          -18.459999084472656,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "paired-square-table-2",
+        "face": "terrace",
+        "u": -1.85,
+        "offset": -1.25,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.704,
+            -0.35,
+            0.018
+          ],
+          "max": [
+            0.704,
+            0.35,
+            0.768
+          ]
+        },
+        "world_origin": [
+          -29.950000762939453,
+          -14.960000038146973,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-8",
+        "face": "terrace",
+        "u": -2.2,
+        "offset": -1.85,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -30.299999237060547,
+          -14.359999656677246,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-9",
+        "face": "terrace",
+        "u": -1.5,
+        "offset": -1.85,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -29.600000381469727,
+          -14.359999656677246,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-10",
+        "face": "terrace",
+        "u": -2.2,
+        "offset": -0.65,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -30.299999237060547,
+          -15.5600004196167,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-11",
+        "face": "terrace",
+        "u": -1.5,
+        "offset": -0.65,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -29.600000381469727,
+          -15.5600004196167,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "paired-square-table-3",
+        "face": "terrace",
+        "u": 1.85,
+        "offset": -1.25,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.704,
+            -0.35,
+            0.018
+          ],
+          "max": [
+            0.704,
+            0.35,
+            0.768
+          ]
+        },
+        "world_origin": [
+          -26.25,
+          -14.960000038146973,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-12",
+        "face": "terrace",
+        "u": 1.5,
+        "offset": -1.85,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -26.600000381469727,
+          -14.359999656677246,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-13",
+        "face": "terrace",
+        "u": 2.2,
+        "offset": -1.85,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -25.899999618530273,
+          -14.359999656677246,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-14",
+        "face": "terrace",
+        "u": 1.5,
+        "offset": -0.65,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -26.600000381469727,
+          -15.5600004196167,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "woven-chair-15",
+        "face": "terrace",
+        "u": 2.2,
+        "offset": -0.65,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.22271350026130676,
+            -0.20960530638694763,
+            0.030898602679371834
+          ],
+          "max": [
+            0.22271350026130676,
+            0.31637105345726013,
+            0.9076062440872192
+          ]
+        },
+        "world_origin": [
+          -25.899999618530273,
+          -15.5600004196167,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "cantilever-parasol-0",
+        "face": "terrace",
+        "u": -2.1,
+        "offset": 2.6,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -1.0822460651397705,
+            -1.202246069908142,
+            0.010000000000000002
+          ],
+          "max": [
+            1.0822460651397705,
+            0.9622460007667542,
+            2.7978286743164062
+          ]
+        },
+        "world_origin": [
+          -30.200000762939453,
+          -18.809999465942383,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "cantilever-parasol-1",
+        "face": "terrace",
+        "u": 2.1,
+        "offset": 2.6,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -1.0822460651397705,
+            -1.202246069908142,
+            0.010000000000000002
+          ],
+          "max": [
+            1.0822460651397705,
+            0.9622460007667542,
+            2.7978286743164062
+          ]
+        },
+        "world_origin": [
+          -26.0,
+          -18.809999465942383,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "vase-planter",
+        "face": "terrace",
+        "u": -3.0,
+        "offset": 0.55,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.255,
+            -0.255,
+            0.02
+          ],
+          "max": [
+            0.255,
+            0.255,
+            0.705
+          ]
+        },
+        "world_origin": [
+          -31.100000381469727,
+          -16.760000228881836,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "vase-planter",
+        "face": "terrace",
+        "u": 3.0,
+        "offset": 0.55,
+        "z": 0.034,
+        "local_bounds": {
+          "min": [
+            -0.255,
+            -0.255,
+            0.02
+          ],
+          "max": [
+            0.255,
+            0.255,
+            0.705
+          ]
+        },
+        "world_origin": [
+          -25.100000381469727,
+          -16.760000228881836,
+          0.03400000184774399
+        ]
+      },
+      {
+        "label": "entry-menu-board-0",
+        "face": "entry",
+        "u": -2.9,
+        "offset": 1.05,
+        "z": 0.025,
+        "local_bounds": {
+          "min": [
+            -0.27799999713897705,
+            -0.22216905653476715,
+            0.021369537338614464
+          ],
+          "max": [
+            0.27799999713897705,
+            0.22216905653476715,
+            1.1804734468460083
+          ]
+        },
+        "world_origin": [
+          -20.002992630004883,
+          -7.099999904632568,
+          0.02500000037252903
+        ]
+      },
+      {
+        "label": "entry-menu-board-1",
+        "face": "entry",
+        "u": -2.24,
+        "offset": 1.05,
+        "z": 0.025,
+        "local_bounds": {
+          "min": [
+            -0.27799999713897705,
+            -0.22216905653476715,
+            0.021369537338614464
+          ],
+          "max": [
+            0.27799999713897705,
+            0.22216905653476715,
+            1.1804734468460083
+          ]
+        },
+        "world_origin": [
+          -20.002992630004883,
+          -6.440000057220459,
+          0.02500000037252903
+        ]
+      },
+      {
+        "label": "entry-menu-board-2",
+        "face": "entry",
+        "u": -1.58,
+        "offset": 1.05,
+        "z": 0.025,
+        "local_bounds": {
+          "min": [
+            -0.27799999713897705,
+            -0.22216905653476715,
+            0.021369537338614464
+          ],
+          "max": [
+            0.27799999713897705,
+            0.22216905653476715,
+            1.1804734468460083
+          ]
+        },
+        "world_origin": [
+          -20.002992630004883,
+          -5.78000020980835,
+          0.02500000037252903
+        ]
+      },
+      {
+        "label": "entry-sloped-menu-lectern",
+        "face": "entry",
+        "u": 2.5,
+        "offset": 1.2,
+        "z": 0.025,
+        "local_bounds": {
+          "min": [
+            -0.265,
+            -0.185,
+            0.012500000000000004
+          ],
+          "max": [
+            0.265,
+            0.185,
+            1.115
+          ]
+        },
+        "world_origin": [
+          -19.852991104125977,
+          -1.7000000476837158,
+          0.02500000037252903
+        ]
+      },
+      {
+        "label": "entry-oak-host-desk",
+        "face": "entry",
+        "u": 3.25,
+        "offset": 0.8,
+        "z": 0.025,
+        "local_bounds": {
+          "min": [
+            -0.393,
+            -0.27,
+            0.039999999999999925
+          ],
+          "max": [
+            0.393,
+            0.2755,
+            1.1275000000000002
+          ]
+        },
+        "world_origin": [
+          -20.252992630004883,
+          -0.949999988079071,
+          0.02500000037252903
+        ]
+      }
+    ],
+    "photo_evidence": {
+      "01": "Summer restaurant photo: warm red outdoor tile, paired square mosaic tables, ivory open umbrellas, three-tier fountain and blue/white basin.",
+      "04": "Two narrow black A-frame advertising stands outside entry. No invented prices or unreadable menu copy.",
+      "05": "Fountain basin wall and blue/white inner mosaic; three upper dishes; clear terrace screen behind; cafe chairs have curved woven red backs.",
+      "06": "Two square tables abut with a visible join; red curved backs carry narrow cream woven marks, champagne metal frame.",
+      "11": "Reverse terrace view: offset cantilever parasol mast, bolted feet, repeated paired tables, vase planter. Snow/seasonal decoration excluded."
+    },
+    "layout": {
+      "u_range": [
+        -3.4,
+        3.4
+      ],
+      "depth": 3.35,
+      "fountain_u": 0.3,
+      "fountain_offset": 2.2,
+      "tables": [
+        [
+          -2.0,
+          1.65,
+          0
+        ],
+        [
+          2.0,
+          1.65,
+          0
+        ]
+      ],
+      "interior_tables": [
+        [
+          -1.85,
+          -1.25,
+          0
+        ],
+        [
+          1.85,
+          -1.25,
+          0
+        ]
+      ],
+      "parasols": [
+        [
+          -2.1,
+          2.6,
+          true,
+          1.5707963267948966
+        ],
+        [
+          2.1,
+          2.6,
+          true,
+          -1.5707963267948966
+        ]
+      ],
+      "planters": [
+        [
+          -3.0,
+          0.55
+        ],
+        [
+          3.0,
+          0.55
+        ]
+      ]
+    },
+    "entry_layout": {
+      "menus": [
+        [
+          -2.9,
+          1.05
+        ],
+        [
+          -2.24,
+          1.05
+        ],
+        [
+          -1.58,
+          1.05
+        ]
+      ],
+      "welcome": true,
+      "lectern": [
+        2.5,
+        1.2
+      ],
+      "host_desk": [
+        3.25,
+        0.8
+      ]
+    },
+    "scale_status": "Relative photo reconstruction, metric dimensions inferred",
+    "excluded": [
+      "snow",
+      "Christmas decorations",
+      "invented menu prices",
+      "emissive lighting"
+    ],
+    "fountain_dimensions_m": {
+      "basin_diameter": 1.6498,
+      "stone_height": 2.10102,
+      "three_dishes": 3
+    },
+    "table_dimensions_m": {
+      "each_square_width": 0.7,
+      "pair_join": 0.008,
+      "height": 0.779
+    },
+    "deleted_old_objects": [
+      "R11 Chilis terrace clipped planter foliage",
+      "R11 Chilis terrace curved chair champagne tube frames",
+      "R11 Chilis terrace curved chair pale diagonal weave",
+      "R11 Chilis terrace curved chair woven red bodies",
+      "R11 Chilis terrace entry advertising broad pale shapes",
+      "R11 Chilis terrace entry advertising broad red shapes",
+      "R11 Chilis terrace entry cabinet restrained wood grain",
+      "R11 Chilis terrace entry cabinet small feet",
+      "R11 Chilis terrace entry hinged menu stands",
+      "R11 Chilis terrace entry lectern fine page divisions",
+      "R11 Chilis terrace entry lectern pale menu paper",
+      "R11 Chilis terrace entry oak welcome cabinet",
+      "R11 Chilis terrace entry poster panel 0",
+      "R11 Chilis terrace entry poster panel 1",
+      "R11 Chilis terrace entry poster panel 2",
+      "R11 Chilis terrace entry separate sloped menu lectern",
+      "R11 Chilis terrace fountain small blue inner mosaic",
+      "R11 Chilis terrace fountain small pale inner mosaic",
+      "R11 Chilis terrace fountain still recessed basin",
+      "R11 Chilis terrace parasol beige summer canvas",
+      "R11 Chilis terrace parasol cantilever masts ribs and fixed feet",
+      "R11 Chilis terrace parasol fine panel seams",
+      "R11 Chilis terrace parasol visible floor anchors",
+      "R11 Chilis terrace sage vase planters",
+      "R11 Chilis terrace square mosaic table black frames",
+      "R11 Chilis terrace square mosaic table dark inserts",
+      "R11 Chilis terrace square mosaic table fine grout",
+      "R11 Chilis terrace square mosaic table ochre inserts",
+      "R11 Chilis terrace three tier fountain carved limestone",
+      "R11 Chilis terrace warm red square terrace tile variants",
+      "R11 Chilis terrace warm red square terrace tiles",
+      "R11 Chilis terrace warm red terrace grout bed"
+    ],
+    "historical_removed_source_objects": [
+      "R02 architecture Chilis terrace side-walk glass guard"
+    ]
+  },
+  "nba_validation": {
+    "source": "scene.blend actual evaluated coordinates",
+    "coordinate_system": "metres; X length; Y width; Z up; reference X<0",
+    "status": "passed",
+    "tolerance_m": 4e-06,
+    "game_geometry_mapping": "unverified",
+    "playing_surface": {
+      "expected_length_m": 28.651200000000003,
+      "measured_length_m": 28.651199340820312,
+      "expected_width_m": 15.24,
+      "measured_width_m": 15.239999771118164,
+      "surface_z_m": 0.0
+    },
+    "ground": {
+      "object": "court_surface",
+      "mesh_count": 1,
+      "connected_vertices": 16,
+      "vertices": 16,
+      "connected": true,
+      "apron_m": 4.0,
+      "centre_seam": false
+    },
+    "hoops": {
+      "reference": {
+        "rim_center_x_m": -12.7253999710083,
+        "expected_center_x_m": -12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962898,
+        "backboard_front_x_m": -13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": -13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      },
+      "open": {
+        "rim_center_x_m": 12.7253999710083,
+        "expected_center_x_m": 12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962881,
+        "backboard_front_x_m": 13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": 13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      }
+    },
+    "limits": [
+      "No NBA 2K game mesh, physics, scoring trigger, collision or animated net verified.",
+      "Support geometry is an editable provisional visual reconstruction.",
+      "Geometry validation does not establish donor compatibility."
+    ]
+  },
+  "footprint": {
+    "type": "rectangle with two small front corner roundovers",
+    "long_straight_front_length_m": 28.4,
+    "straight_front_x_max_deviation_m": 0.0,
+    "body_width_m": 30.799999999999997,
+    "body_depth_m": 10.547008132934572,
+    "rounded_corner_radius_m": 1.2,
+    "full_facade_ellipse_removed": true,
+    "former_lower_storey_ellipse_removed": true,
+    "sampled_xy": [
+      [
+        -31.600000381469727,
+        -16.200000762939453
+      ],
+      [
+        -31.405271530151367,
+        -16.200000762939453
+      ],
+      [
+        -31.210540771484375,
+        -16.200000762939453
+      ],
+      [
+        -31.015811920166016,
+        -16.200000762939453
+      ],
+      [
+        -30.821083068847656,
+        -16.200000762939453
+      ],
+      [
+        -30.626354217529297,
+        -16.200000762939453
+      ],
+      [
+        -30.431623458862305,
+        -16.200000762939453
+      ],
+      [
+        -30.236894607543945,
+        -16.200000762939453
+      ],
+      [
+        -30.042165756225586,
+        -16.200000762939453
+      ],
+      [
+        -29.847436904907227,
+        -16.200000762939453
+      ],
+      [
+        -29.652706146240234,
+        -16.200000762939453
+      ],
+      [
+        -29.457977294921875,
+        -16.200000762939453
+      ],
+      [
+        -29.263248443603516,
+        -16.200000762939453
+      ],
+      [
+        -29.068517684936523,
+        -16.200000762939453
+      ],
+      [
+        -28.873788833618164,
+        -16.200000762939453
+      ],
+      [
+        -28.679059982299805,
+        -16.200000762939453
+      ],
+      [
+        -28.484331130981445,
+        -16.200000762939453
+      ],
+      [
+        -28.289600372314453,
+        -16.200000762939453
+      ],
+      [
+        -28.094871520996094,
+        -16.200000762939453
+      ],
+      [
+        -27.900142669677734,
+        -16.200000762939453
+      ],
+      [
+        -27.705413818359375,
+        -16.200000762939453
+      ],
+      [
+        -27.510683059692383,
+        -16.200000762939453
+      ],
+      [
+        -27.315954208374023,
+        -16.200000762939453
+      ],
+      [
+        -27.121225357055664,
+        -16.200000762939453
+      ],
+      [
+        -26.926496505737305,
+        -16.200000762939453
+      ],
+      [
+        -26.731765747070312,
+        -16.200000762939453
+      ],
+      [
+        -26.537036895751953,
+        -16.200000762939453
+      ],
+      [
+        -26.342308044433594,
+        -16.200000762939453
+      ],
+      [
+        -26.147579193115234,
+        -16.200000762939453
+      ],
+      [
+        -25.952848434448242,
+        -16.200000762939453
+      ],
+      [
+        -25.758119583129883,
+        -16.200000762939453
+      ],
+      [
+        -25.563390731811523,
+        -16.200000762939453
+      ],
+      [
+        -25.368661880493164,
+        -16.200000762939453
+      ],
+      [
+        -25.173931121826172,
+        -16.200000762939453
+      ],
+      [
+        -24.979202270507812,
+        -16.200000762939453
+      ],
+      [
+        -24.784473419189453,
+        -16.200000762939453
+      ],
+      [
+        -24.589744567871094,
+        -16.200000762939453
+      ],
+      [
+        -24.3950138092041,
+        -16.200000762939453
+      ],
+      [
+        -24.200284957885742,
+        -16.200000762939453
+      ],
+      [
+        -24.005556106567383,
+        -16.200000762939453
+      ],
+      [
+        -23.810827255249023,
+        -16.200000762939453
+      ],
+      [
+        -23.61609649658203,
+        -16.200000762939453
+      ],
+      [
+        -23.421367645263672,
+        -16.200000762939453
+      ],
+      [
+        -23.226638793945312,
+        -16.200000762939453
+      ],
+      [
+        -23.031909942626953,
+        -16.200000762939453
+      ],
+      [
+        -22.83717918395996,
+        -16.200000762939453
+      ],
+      [
+        -22.6424503326416,
+        -16.200000762939453
+      ],
+      [
+        -22.447721481323242,
+        -16.200000762939453
+      ],
+      [
+        -22.252992630004883,
+        -16.200000762939453
+      ],
+      [
+        -22.174509048461914,
+        -16.197431564331055
+      ],
+      [
+        -22.09636116027832,
+        -16.189733505249023
+      ],
+      [
+        -22.018882751464844,
+        -16.176942825317383
+      ],
+      [
+        -21.94240951538086,
+        -16.15911102294922
+      ],
+      [
+        -21.867263793945312,
+        -16.136316299438477
+      ],
+      [
+        -21.793771743774414,
+        -16.10865592956543
+      ],
+      [
+        -21.722246170043945,
+        -16.076248168945312
+      ],
+      [
+        -21.652992248535156,
+        -16.039230346679688
+      ],
+      [
+        -21.586307525634766,
+        -15.997763633728027
+      ],
+      [
+        -21.522478103637695,
+        -15.952024459838867
+      ],
+      [
+        -21.461776733398438,
+        -15.902207374572754
+      ],
+      [
+        -21.404462814331055,
+        -15.848527908325195
+      ],
+      [
+        -21.350784301757812,
+        -15.791214942932129
+      ],
+      [
+        -21.300968170166016,
+        -15.730513572692871
+      ],
+      [
+        -21.25522804260254,
+        -15.6666841506958
+      ],
+      [
+        -21.213762283325195,
+        -15.600000381469727
+      ],
+      [
+        -21.17674446105957,
+        -15.530746459960938
+      ],
+      [
+        -21.144336700439453,
+        -15.459219932556152
+      ],
+      [
+        -21.116676330566406,
+        -15.385726928710938
+      ],
+      [
+        -21.093881607055664,
+        -15.310583114624023
+      ],
+      [
+        -21.0760498046875,
+        -15.234107971191406
+      ],
+      [
+        -21.063257217407227,
+        -15.156631469726562
+      ],
+      [
+        -21.055561065673828,
+        -15.078483581542969
+      ],
+      [
+        -21.05299186706543,
+        -15.0
+      ],
+      [
+        -21.05299186706543,
+        -14.822500228881836
+      ],
+      [
+        -21.05299186706543,
+        -14.645000457763672
+      ],
+      [
+        -21.05299186706543,
+        -14.467499732971191
+      ],
+      [
+        -21.05299186706543,
+        -14.289999961853027
+      ],
+      [
+        -21.05299186706543,
+        -14.112500190734863
+      ],
+      [
+        -21.05299186706543,
+        -13.9350004196167
+      ],
+      [
+        -21.05299186706543,
+        -13.757499694824219
+      ],
+      [
+        -21.05299186706543,
+        -13.579999923706055
+      ],
+      [
+        -21.05299186706543,
+        -13.40250015258789
+      ],
+      [
+        -21.05299186706543,
+        -13.225000381469727
+      ],
+      [
+        -21.05299186706543,
+        -13.047499656677246
+      ],
+      [
+        -21.05299186706543,
+        -12.869999885559082
+      ],
+      [
+        -21.05299186706543,
+        -12.692500114440918
+      ],
+      [
+        -21.05299186706543,
+        -12.515000343322754
+      ],
+      [
+        -21.05299186706543,
+        -12.337499618530273
+      ],
+      [
+        -21.05299186706543,
+        -12.15999984741211
+      ],
+      [
+        -21.05299186706543,
+        -11.982500076293945
+      ],
+      [
+        -21.05299186706543,
+        -11.805000305175781
+      ],
+      [
+        -21.05299186706543,
+        -11.6274995803833
+      ],
+      [
+        -21.05299186706543,
+        -11.449999809265137
+      ],
+      [
+        -21.05299186706543,
+        -11.272500038146973
+      ],
+      [
+        -21.05299186706543,
+        -11.095000267028809
+      ],
+      [
+        -21.05299186706543,
+        -10.917499542236328
+      ],
+      [
+        -21.05299186706543,
+        -10.739999771118164
+      ],
+      [
+        -21.05299186706543,
+        -10.5625
+      ],
+      [
+        -21.05299186706543,
+        -10.385000228881836
+      ],
+      [
+        -21.05299186706543,
+        -10.207500457763672
+      ],
+      [
+        -21.05299186706543,
+        -10.029999732971191
+      ],
+      [
+        -21.05299186706543,
+        -9.852499961853027
+      ],
+      [
+        -21.05299186706543,
+        -9.675000190734863
+      ],
+      [
+        -21.05299186706543,
+        -9.4975004196167
+      ],
+      [
+        -21.05299186706543,
+        -9.319999694824219
+      ],
+      [
+        -21.05299186706543,
+        -9.142499923706055
+      ],
+      [
+        -21.05299186706543,
+        -8.96500015258789
+      ],
+      [
+        -21.05299186706543,
+        -8.787500381469727
+      ],
+      [
+        -21.05299186706543,
+        -8.609999656677246
+      ],
+      [
+        -21.05299186706543,
+        -8.432499885559082
+      ],
+      [
+        -21.05299186706543,
+        -8.255000114440918
+      ],
+      [
+        -21.05299186706543,
+        -8.077500343322754
+      ],
+      [
+        -21.05299186706543,
+        -7.900000095367432
+      ],
+      [
+        -21.05299186706543,
+        -7.722499847412109
+      ],
+      [
+        -21.05299186706543,
+        -7.545000076293945
+      ],
+      [
+        -21.05299186706543,
+        -7.367499828338623
+      ],
+      [
+        -21.05299186706543,
+        -7.190000057220459
+      ],
+      [
+        -21.05299186706543,
+        -7.012499809265137
+      ],
+      [
+        -21.05299186706543,
+        -6.835000038146973
+      ],
+      [
+        -21.05299186706543,
+        -6.65749979019165
+      ],
+      [
+        -21.05299186706543,
+        -6.480000019073486
+      ],
+      [
+        -21.05299186706543,
+        -6.302499771118164
+      ],
+      [
+        -21.05299186706543,
+        -6.125
+      ],
+      [
+        -21.05299186706543,
+        -5.947500228881836
+      ],
+      [
+        -21.05299186706543,
+        -5.769999980926514
+      ],
+      [
+        -21.05299186706543,
+        -5.59250020980835
+      ],
+      [
+        -21.05299186706543,
+        -5.414999961853027
+      ],
+      [
+        -21.05299186706543,
+        -5.237500190734863
+      ],
+      [
+        -21.05299186706543,
+        -5.059999942779541
+      ],
+      [
+        -21.05299186706543,
+        -4.882500171661377
+      ],
+      [
+        -21.05299186706543,
+        -4.704999923706055
+      ],
+      [
+        -21.05299186706543,
+        -4.527500152587891
+      ],
+      [
+        -21.05299186706543,
+        -4.349999904632568
+      ],
+      [
+        -21.05299186706543,
+        -4.172500133514404
+      ],
+      [
+        -21.05299186706543,
+        -3.994999885559082
+      ],
+      [
+        -21.05299186706543,
+        -3.817500114440918
+      ],
+      [
+        -21.05299186706543,
+        -3.640000104904175
+      ],
+      [
+        -21.05299186706543,
+        -3.4625000953674316
+      ],
+      [
+        -21.05299186706543,
+        -3.2850000858306885
+      ],
+      [
+        -21.05299186706543,
+        -3.1075000762939453
+      ],
+      [
+        -21.05299186706543,
+        -2.930000066757202
+      ],
+      [
+        -21.05299186706543,
+        -2.752500057220459
+      ],
+      [
+        -21.05299186706543,
+        -2.575000047683716
+      ],
+      [
+        -21.05299186706543,
+        -2.3975000381469727
+      ],
+      [
+        -21.05299186706543,
+        -2.2200000286102295
+      ],
+      [
+        -21.05299186706543,
+        -2.0425000190734863
+      ],
+      [
+        -21.05299186706543,
+        -1.8650000095367432
+      ],
+      [
+        -21.05299186706543,
+        -1.6875
+      ],
+      [
+        -21.05299186706543,
+        -1.5099999904632568
+      ],
+      [
+        -21.05299186706543,
+        -1.3324999809265137
+      ],
+      [
+        -21.05299186706543,
+        -1.1549999713897705
+      ],
+      [
+        -21.05299186706543,
+        -0.9775000214576721
+      ],
+      [
+        -21.05299186706543,
+        -0.800000011920929
+      ],
+      [
+        -21.05299186706543,
+        -0.6225000023841858
+      ],
+      [
+        -21.05299186706543,
+        -0.4449999928474426
+      ],
+      [
+        -21.05299186706543,
+        -0.26750001311302185
+      ],
+      [
+        -21.05299186706543,
+        -0.09000000357627869
+      ],
+      [
+        -21.05299186706543,
+        0.08749999850988388
+      ],
+      [
+        -21.05299186706543,
+        0.26499998569488525
+      ],
+      [
+        -21.05299186706543,
+        0.4424999952316284
+      ],
+      [
+        -21.05299186706543,
+        0.6200000047683716
+      ],
+      [
+        -21.05299186706543,
+        0.7975000143051147
+      ],
+      [
+        -21.05299186706543,
+        0.9750000238418579
+      ],
+      [
+        -21.05299186706543,
+        1.152500033378601
+      ],
+      [
+        -21.05299186706543,
+        1.3300000429153442
+      ],
+      [
+        -21.05299186706543,
+        1.5075000524520874
+      ],
+      [
+        -21.05299186706543,
+        1.684999942779541
+      ],
+      [
+        -21.05299186706543,
+        1.8624999523162842
+      ],
+      [
+        -21.05299186706543,
+        2.0399999618530273
+      ],
+      [
+        -21.05299186706543,
+        2.2174999713897705
+      ],
+      [
+        -21.05299186706543,
+        2.3949999809265137
+      ],
+      [
+        -21.05299186706543,
+        2.572499990463257
+      ],
+      [
+        -21.05299186706543,
+        2.75
+      ],
+      [
+        -21.05299186706543,
+        2.927500009536743
+      ],
+      [
+        -21.05299186706543,
+        3.1050000190734863
+      ],
+      [
+        -21.05299186706543,
+        3.2825000286102295
+      ],
+      [
+        -21.05299186706543,
+        3.4600000381469727
+      ],
+      [
+        -21.05299186706543,
+        3.637500047683716
+      ],
+      [
+        -21.05299186706543,
+        3.815000057220459
+      ],
+      [
+        -21.05299186706543,
+        3.992500066757202
+      ],
+      [
+        -21.05299186706543,
+        4.170000076293945
+      ],
+      [
+        -21.05299186706543,
+        4.347499847412109
+      ],
+      [
+        -21.05299186706543,
+        4.525000095367432
+      ],
+      [
+        -21.05299186706543,
+        4.702499866485596
+      ],
+      [
+        -21.05299186706543,
+        4.880000114440918
+      ],
+      [
+        -21.05299186706543,
+        5.057499885559082
+      ],
+      [
+        -21.05299186706543,
+        5.235000133514404
+      ],
+      [
+        -21.05299186706543,
+        5.412499904632568
+      ],
+      [
+        -21.05299186706543,
+        5.590000152587891
+      ],
+      [
+        -21.05299186706543,
+        5.767499923706055
+      ],
+      [
+        -21.05299186706543,
+        5.945000171661377
+      ],
+      [
+        -21.05299186706543,
+        6.122499942779541
+      ],
+      [
+        -21.05299186706543,
+        6.300000190734863
+      ],
+      [
+        -21.05299186706543,
+        6.477499961853027
+      ],
+      [
+        -21.05299186706543,
+        6.65500020980835
+      ],
+      [
+        -21.05299186706543,
+        6.832499980926514
+      ],
+      [
+        -21.05299186706543,
+        7.010000228881836
+      ],
+      [
+        -21.05299186706543,
+        7.1875
+      ],
+      [
+        -21.05299186706543,
+        7.364999771118164
+      ],
+      [
+        -21.05299186706543,
+        7.542500019073486
+      ],
+      [
+        -21.05299186706543,
+        7.71999979019165
+      ],
+      [
+        -21.05299186706543,
+        7.897500038146973
+      ],
+      [
+        -21.05299186706543,
+        8.074999809265137
+      ],
+      [
+        -21.05299186706543,
+        8.2524995803833
+      ],
+      [
+        -21.05299186706543,
+        8.430000305175781
+      ],
+      [
+        -21.05299186706543,
+        8.607500076293945
+      ],
+      [
+        -21.05299186706543,
+        8.78499984741211
+      ],
+      [
+        -21.05299186706543,
+        8.962499618530273
+      ],
+      [
+        -21.05299186706543,
+        9.140000343322754
+      ],
+      [
+        -21.05299186706543,
+        9.317500114440918
+      ],
+      [
+        -21.05299186706543,
+        9.494999885559082
+      ],
+      [
+        -21.05299186706543,
+        9.672499656677246
+      ],
+      [
+        -21.05299186706543,
+        9.850000381469727
+      ],
+      [
+        -21.05299186706543,
+        10.02750015258789
+      ],
+      [
+        -21.05299186706543,
+        10.204999923706055
+      ],
+      [
+        -21.05299186706543,
+        10.382499694824219
+      ],
+      [
+        -21.05299186706543,
+        10.5600004196167
+      ],
+      [
+        -21.05299186706543,
+        10.737500190734863
+      ],
+      [
+        -21.05299186706543,
+        10.914999961853027
+      ],
+      [
+        -21.05299186706543,
+        11.092499732971191
+      ],
+      [
+        -21.05299186706543,
+        11.270000457763672
+      ],
+      [
+        -21.05299186706543,
+        11.447500228881836
+      ],
+      [
+        -21.05299186706543,
+        11.625
+      ],
+      [
+        -21.05299186706543,
+        11.802499771118164
+      ],
+      [
+        -21.05299186706543,
+        11.979999542236328
+      ],
+      [
+        -21.05299186706543,
+        12.157500267028809
+      ],
+      [
+        -21.05299186706543,
+        12.335000038146973
+      ],
+      [
+        -21.05299186706543,
+        12.512499809265137
+      ],
+      [
+        -21.05299186706543,
+        12.6899995803833
+      ],
+      [
+        -21.05299186706543,
+        12.867500305175781
+      ],
+      [
+        -21.05299186706543,
+        13.045000076293945
+      ],
+      [
+        -21.05299186706543,
+        13.22249984741211
+      ],
+      [
+        -21.05299186706543,
+        13.399999618530273
+      ],
+      [
+        -21.055561065673828,
+        13.478484153747559
+      ],
+      [
+        -21.063257217407227,
+        13.556631088256836
+      ],
+      [
+        -21.0760498046875,
+        13.634108543395996
+      ],
+      [
+        -21.093881607055664,
+        13.710582733154297
+      ],
+      [
+        -21.116676330566406,
+        13.785727500915527
+      ],
+      [
+        -21.144336700439453,
+        13.859220504760742
+      ],
+      [
+        -21.17674446105957,
+        13.930746078491211
+      ],
+      [
+        -21.213762283325195,
+        14.0
+      ],
+      [
+        -21.25522804260254,
+        14.06668472290039
+      ],
+      [
+        -21.300968170166016,
+        14.130514144897461
+      ],
+      [
+        -21.350784301757812,
+        14.191214561462402
+      ],
+      [
+        -21.404462814331055,
+        14.248528480529785
+      ],
+      [
+        -21.461776733398438,
+        14.302207946777344
+      ],
+      [
+        -21.522478103637695,
+        14.35202407836914
+      ],
+      [
+        -21.586307525634766,
+        14.3977632522583
+      ],
+      [
+        -21.652992248535156,
+        14.439230918884277
+      ],
+      [
+        -21.722246170043945,
+        14.47624683380127
+      ],
+      [
+        -21.793771743774414,
+        14.508655548095703
+      ],
+      [
+        -21.867263793945312,
+        14.53631591796875
+      ],
+      [
+        -21.94240951538086,
+        14.559110641479492
+      ],
+      [
+        -22.018882751464844,
+        14.576942443847656
+      ],
+      [
+        -22.09636116027832,
+        14.589734077453613
+      ],
+      [
+        -22.174509048461914,
+        14.597431182861328
+      ],
+      [
+        -22.252992630004883,
+        14.600000381469727
+      ],
+      [
+        -22.447721481323242,
+        14.600000381469727
+      ],
+      [
+        -22.6424503326416,
+        14.600000381469727
+      ],
+      [
+        -22.83717918395996,
+        14.600000381469727
+      ],
+      [
+        -23.031909942626953,
+        14.600000381469727
+      ],
+      [
+        -23.226638793945312,
+        14.600000381469727
+      ],
+      [
+        -23.421367645263672,
+        14.600000381469727
+      ],
+      [
+        -23.61609649658203,
+        14.600000381469727
+      ],
+      [
+        -23.810827255249023,
+        14.600000381469727
+      ],
+      [
+        -24.005556106567383,
+        14.600000381469727
+      ],
+      [
+        -24.200284957885742,
+        14.600000381469727
+      ],
+      [
+        -24.3950138092041,
+        14.600000381469727
+      ],
+      [
+        -24.589744567871094,
+        14.600000381469727
+      ],
+      [
+        -24.784473419189453,
+        14.600000381469727
+      ],
+      [
+        -24.979202270507812,
+        14.600000381469727
+      ],
+      [
+        -25.173931121826172,
+        14.600000381469727
+      ],
+      [
+        -25.368661880493164,
+        14.600000381469727
+      ],
+      [
+        -25.563390731811523,
+        14.600000381469727
+      ],
+      [
+        -25.758119583129883,
+        14.600000381469727
+      ],
+      [
+        -25.952848434448242,
+        14.600000381469727
+      ],
+      [
+        -26.147579193115234,
+        14.600000381469727
+      ],
+      [
+        -26.342308044433594,
+        14.600000381469727
+      ],
+      [
+        -26.537036895751953,
+        14.600000381469727
+      ],
+      [
+        -26.731765747070312,
+        14.600000381469727
+      ],
+      [
+        -26.926496505737305,
+        14.600000381469727
+      ],
+      [
+        -27.121225357055664,
+        14.600000381469727
+      ],
+      [
+        -27.315954208374023,
+        14.600000381469727
+      ],
+      [
+        -27.510683059692383,
+        14.600000381469727
+      ],
+      [
+        -27.705413818359375,
+        14.600000381469727
+      ],
+      [
+        -27.900142669677734,
+        14.600000381469727
+      ],
+      [
+        -28.094871520996094,
+        14.600000381469727
+      ],
+      [
+        -28.289600372314453,
+        14.600000381469727
+      ],
+      [
+        -28.484331130981445,
+        14.600000381469727
+      ],
+      [
+        -28.679059982299805,
+        14.600000381469727
+      ],
+      [
+        -28.873788833618164,
+        14.600000381469727
+      ],
+      [
+        -29.068517684936523,
+        14.600000381469727
+      ],
+      [
+        -29.263248443603516,
+        14.600000381469727
+      ],
+      [
+        -29.457977294921875,
+        14.600000381469727
+      ],
+      [
+        -29.652706146240234,
+        14.600000381469727
+      ],
+      [
+        -29.847436904907227,
+        14.600000381469727
+      ],
+      [
+        -30.042165756225586,
+        14.600000381469727
+      ],
+      [
+        -30.236894607543945,
+        14.600000381469727
+      ],
+      [
+        -30.431623458862305,
+        14.600000381469727
+      ],
+      [
+        -30.626354217529297,
+        14.600000381469727
+      ],
+      [
+        -30.821083068847656,
+        14.600000381469727
+      ],
+      [
+        -31.015811920166016,
+        14.600000381469727
+      ],
+      [
+        -31.210540771484375,
+        14.600000381469727
+      ],
+      [
+        -31.405271530151367,
+        14.600000381469727
+      ],
+      [
+        -31.600000381469727,
+        14.600000381469727
+      ]
+    ]
+  },
+  "references_actually_viewed": [
+    "references/chilis-detail/00_总览/新增细节总览_01.jpg",
+    "references/chilis-detail/00_总览/新增细节总览_02.jpg",
+    "references/chilis/00_总览/Chilis建筑与LINK_8图总览.jpg",
+    "references/chilis/00_总览/周边补充_5张总览.jpg",
+    "references/r12-skyline/原始截图/08_露台回看远楼_10-20.421.jpg",
+    "references/r12-skyline/原始截图/09_球场与Chilis通道定位_04-46.478.jpg",
+    "references/r12-left/selected/08_泥靴外观补充_03-32.525.jpg"
+  ],
+  "output": "E:\\CodexData\\2karena\\zgc-court\\.build-staging\\r12-chilis\\scene-rect.blend",
+  "source_sha256": "fb8f9ce684a078c69b26a951f6db7ffad36b53bb595dc92084782d049a0fc693"
+}

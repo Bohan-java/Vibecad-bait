@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    {
+      "workspace_relative_path": "洛克公园/arena_blacktop_ext.iff",
+      "exists": true,
+      "bytes": 1629069247,
+      "required_for_current_rebuild": true,
+      "purpose": "Technical donor for compatible native level, baskets, skeletons, resource conventions. Not the visual model.",
+      "evidence": "tools/build_source_iff.py:26; tools/repair_iff.py:19",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "donor/original/arena_020_int_original.iff",
+      "exists": true,
+      "bytes": 45028875,
+      "required_for_current_rebuild": true,
+      "purpose": "Original stadium marker names/schema for distinct 44 bench and coach anchors.",
+      "evidence": "tools/r12_seating.py:19",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "build/high_hoop/reference/arena_blacktop_ext.iff",
+      "exists": true,
+      "bytes": 420010838,
+      "required_for_current_rebuild": true,
+      "purpose": "Native outdoor basket_glass material/effect/script/Presentation pipeline.",
+      "evidence": "tools/specialized_basket_glass.py:19",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "build/local_game_reference/levels/arena_700_int_floor.iff",
+      "exists": true,
+      "bytes": 721467,
+      "required_for_current_rebuild": true,
+      "purpose": "Cached native floor scene supplies shared line references for transparent aliases.",
+      "evidence": "tools/repair_iff.py:71; tools/native_floor_overlay.py:308",
+      "preserve_relative_location": true
+    },
+    {
+      "workspace_relative_path": "build/local_game_reference/levels/arena_020_int_floor.iff",
+      "exists": true,
+      "bytes": 606343,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical comparison reference, not required by current native pipeline.",
+      "evidence": "local permitted cached native reference",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "build/local_game_reference/shared/0f/vertexbuffer.0f3b6fcaf86b59a6.gz",
+      "exists": true,
+      "bytes": 90468,
+      "required_for_current_rebuild": false,
+      "purpose": "Existing cached external native resource; useful provenance, not referenced by current rebuild scripts.",
+      "evidence": "local permitted cached native reference",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/修复说明.md",
+      "exists": true,
+      "bytes": 3035,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor backboard repair provenance, include under archive if preserving supplied guides.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/验证报告.json",
+      "exists": true,
+      "bytes": 4041,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor backboard diagnosis/verification provenance.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/逐级贴图验证.json",
+      "exists": true,
+      "bytes": 3207,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor mipmap validation provenance.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    },
+    {
+      "workspace_relative_path": "洛克公园/篮板修复/repair_backboard.py",
+      "exists": true,
+      "bytes": 9511,
+      "required_for_current_rebuild": false,
+      "purpose": "Historical donor repair script; current build instead uses specialized_basket_glass.py.",
+      "evidence": "donor repair provenance",
+      "preserve_relative_location": false
+    }
+  ]
+}

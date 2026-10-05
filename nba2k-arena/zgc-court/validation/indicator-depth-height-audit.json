@@ -1,0 +1,139 @@
+{
+  "scope": "Narrow cached indicator local-height and flat-axis encoding audit; no scene/package modified",
+  "indicator_local_geometry": [
+    {
+      "scene": "indicator.SCNE",
+      "model": "indicator_mesh",
+      "vertices": 4,
+      "local_y_min_cm": 0.0,
+      "local_y_max_cm": 0.0,
+      "object": {
+        "Type": "OBJECT",
+        "Target": "indicator_mesh"
+      },
+      "camera_depth_states": {
+        "indicator_mat": {
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        }
+      },
+      "animation_present": true
+    },
+    {
+      "scene": "indicator.SCNE",
+      "model": "ring",
+      "vertices": 260,
+      "local_y_min_cm": 0.0,
+      "local_y_max_cm": 0.0,
+      "object": {
+        "Type": "OBJECT",
+        "Target": "ring"
+      },
+      "camera_depth_states": {
+        "indicator_core": {
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        }
+      },
+      "animation_present": true
+    },
+    {
+      "scene": "indicator.SCNE",
+      "model": "pDisc1",
+      "vertices": 256,
+      "local_y_min_cm": 0.771297812461853,
+      "local_y_max_cm": 0.771297812461853,
+      "object": {
+        "Type": "OBJECT",
+        "Target": "pDisc1"
+      },
+      "camera_depth_states": {
+        "indicator_mat_tri": {
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        }
+      },
+      "animation_present": true
+    },
+    {
+      "scene": "indicator_shot_meter_feet.SCNE",
+      "model": "pCylinder1",
+      "vertices": 320,
+      "local_y_min_cm": 0.0,
+      "local_y_max_cm": 0.0,
+      "object": {
+        "Type": "OBJECT",
+        "Target": "pCylinder1",
+        "Transform": "root"
+      },
+      "camera_depth_states": {
+        "indicator_mat": {
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "SHOT_METER_BACKGROUND": {
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "SHOT_METER": {
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        }
+      },
+      "animation_present": true
+    }
+  ],
+  "runtime_world_transform_verified": false,
+  "conclusion": "Multiple actual indicator meshes are authored at Y=0 with ordinary depth tests. Removing unintended positive ground quantization is justified, but runtime indicator placement/animation is not established by local meshes alone.",
+  "encoder": {
+    "file": "tools/iff_codec.py",
+    "sha256": "9f405010ca7a506acaecb6f9f7fb58f341bf9dcfd75aa7048ce471d233b791de",
+    "source_court_npz": "zgc-court\\.build-staging\\current-native\\assets\\meshes\\part-0443.npz",
+    "source_court_vertices": 16,
+    "source_y_cm": 0.0,
+    "pre_fix_decoded_y_cm": 0.02796307219841765,
+    "fixed_decoded_y_cm": 0.0,
+    "q_y_all_zero": true,
+    "position_offset_y": 0.0,
+    "varying_axes_quantization_offsets_and_decoded_values_unchanged": true,
+    "position_W_stays_65535": true,
+    "uniform_scale_preserved": [
+      3665.119873046875,
+      3665.119873046875,
+      3665.119873046875,
+      1.0
+    ]
+  },
+  "axis_regression_checks": [
+    {
+      "constant_axis": 0,
+      "constant_value_cm": 0.0,
+      "new_quant_is_zero": true,
+      "constant_decoded_exact": true,
+      "other_axes_old_quant_unchanged": true
+    },
+    {
+      "constant_axis": 1,
+      "constant_value_cm": 7.3,
+      "new_quant_is_zero": true,
+      "constant_decoded_exact": true,
+      "other_axes_old_quant_unchanged": true
+    },
+    {
+      "constant_axis": 2,
+      "constant_value_cm": -2.1,
+      "new_quant_is_zero": true,
+      "constant_decoded_exact": true,
+      "other_axes_old_quant_unchanged": true
+    }
+  ],
+  "physical_ground_raise_or_lower_not_required": true,
+  "game_tested": false,
+  "final_archive_decode_not_done_here": "Root final build in progress; this checks the exact current encoder on actual source court data."
+}

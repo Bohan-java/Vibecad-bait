@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "source_output": "E:\\CodexData\\2karena\\zgc-court\\source\\scene.blend",
+  "orientation": "Chili’s / negative X up; negative Y left; positive Y right",
+  "photo_evidence": {
+    "13,15,18": "Narrow vertical A enclosure, rounded ends, top/bottom white-strip interruptions. White shape modeled as unlit fabricated parts.",
+    "03,18,21": "The layered-canopy side opens earlier; this is positive Y / right when Chili’s is up. Relative extent supported, metric endpoints inferred.",
+    "22,23,24": "Grey, warm mineral paving and local ivory low wave. Atlas colors owned by artwork agent."
+  },
+  "fence_runs": {
+    "left": {
+      "source_y_m": -9.17,
+      "start_x_m": -16.08,
+      "end_x_m": -2.8,
+      "post_outer_extent_x_m": [
+        -16.11750030517578,
+        -2.7624993324279785
+      ],
+      "run_length_m": 13.28,
+      "extent_status": "Relative orientation corrected; absolute spacing/endpoints remain inferred."
+    },
+    "right": {
+      "source_y_m": 9.17,
+      "start_x_m": -16.08,
+      "end_x_m": -4.8,
+      "post_outer_extent_x_m": [
+        -16.11750030517578,
+        -4.762500286102295
+      ],
+      "run_length_m": 11.28,
+      "extent_status": "Relative orientation corrected; absolute spacing/endpoints remain inferred."
+    }
+  },
+  "exchanged_named_objects": 54,
+  "signs": [
+    {
+      "side": "left",
+      "center_m": [
+        -9.5,
+        -9.123,
+        2.03
+      ],
+      "enclosure_width_height_m": [
+        0.565,
+        1.17
+      ],
+      "height_width_ratio": 2.0707964601769913,
+      "white_outline": "Two real domed diffuser strips in charcoal channels, interrupted at top/bottom",
+      "inner_A": "Extruded narrow silhouette with real triangular counter",
+      "emission": false,
+      "dimensions": "Inferred visual proportions; no surveyed sign size"
+    },
+    {
+      "side": "right",
+      "center_m": [
+        -11.9,
+        9.123,
+        2.03
+      ],
+      "enclosure_width_height_m": [
+        0.565,
+        1.17
+      ],
+      "height_width_ratio": 2.0707964601769913,
+      "white_outline": "Two real domed diffuser strips in charcoal channels, interrupted at top/bottom",
+      "inner_A": "Extruded narrow silhouette with real triangular counter",
+      "emission": false,
+      "dimensions": "Inferred visual proportions; no surveyed sign size"
+    }
+  ],
+  "removed_objects": [
+    "Current cloth stitched hems",
+    "Current A banner badge outlines",
+    "R02 A badge outline -1",
+    "R02 A badge outline 1",
+    "R02 fence A badge -1",
+    "R02 fence A badge 1",
+    "R02 fence A glyph -1",
+    "R02 fence A glyph 1"
+  ],
+  "new_objects": [
+    "Current cloth stitched hems",
+    "Current A banner badge outlines",
+    "R09 A capsule enclosure.left",
+    "R09 A recessed channel -1.left",
+    "R09 A unlit diffuser -1.left",
+    "R09 A recessed channel 1.left",
+    "R09 A unlit diffuser 1.left",
+    "R09 A inner letter channel.left",
+    "R09 A inner white diffuser.left",
+    "R09 A stand-off brackets.left",
+    "R09 A capsule enclosure.right",
+    "R09 A recessed channel -1.right",
+    "R09 A unlit diffuser -1.right",
+    "R09 A recessed channel 1.right",
+    "R09 A unlit diffuser 1.right",
+    "R09 A inner letter channel.right",
+    "R09 A inner white diffuser.right",
+    "R09 A stand-off brackets.right"
+  ],
+  "protected_objects_unchanged": 449,
+  "unexpected_changes": [],
+  "court_height_m": 0,
+  "court_mesh_uv_and_atlas_material_unchanged": true,
+  "all_baskets_and_anchors_unchanged": true,
+  "bottom_cloth_marks": "Printed small marks remain distinct from fabricated large A signs.",
+  "non_atlas_paving_change": {
+    "object": "R02 observed low plaza wave outside court",
+    "material": "R02 environment | ivory_wave",
+    "srgb": "#D2D0C3",
+    "roughness": 0.94,
+    "geometry_unchanged": true
+  },
+  "geometry_validation": {
+    "source": "scene.blend actual evaluated coordinates",
+    "coordinate_system": "metres; X length; Y width; Z up; reference X<0",
+    "status": "passed",
+    "tolerance_m": 4e-06,
+    "game_geometry_mapping": "unverified",
+    "playing_surface": {
+      "expected_length_m": 28.651200000000003,
+      "measured_length_m": 28.651199340820312,
+      "expected_width_m": 15.24,
+      "measured_width_m": 15.239999771118164,
+      "surface_z_m": 0.0
+    },
+    "ground": {
+      "object": "court_surface",
+      "mesh_count": 1,
+      "connected_vertices": 16,
+      "vertices": 16,
+      "connected": true,
+      "apron_m": 4.0,
+      "centre_seam": false
+    },
+    "hoops": {
+      "reference": {
+        "rim_center_x_m": -12.7253999710083,
+        "expected_center_x_m": -12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962898,
+        "backboard_front_x_m": -13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": -13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      },
+      "open": {
+        "rim_center_x_m": 12.7253999710083,
+        "expected_center_x_m": 12.7254,
+        "rim_center_y_m": 0.0,
+        "rim_upper_surface_m": 3.0480000972747803,
+        "rim_inner_diameter_m": 0.4571990386962881,
+        "backboard_front_x_m": 13.10645866394043,
+        "backboard_width_m": 1.7014190554618835,
+        "backboard_height_m": 0.9499123096466064,
+        "backboard_bottom_m": 2.9043452739715576,
+        "backboard_expected_front_x_m": 13.10645866394043,
+        "backboard_expected_width_m": 1.7014190554618835,
+        "backboard_expected_height_m": 0.9499123096466064,
+        "backboard_expected_bottom_m": 2.9043452739715576,
+        "functional_in_game": "unverified"
+      }
+    },
+    "limits": [
+      "No NBA 2K game mesh, physics, scoring trigger, collision or animated net verified.",
+      "Support geometry is an editable provisional visual reconstruction.",
+      "Geometry validation does not establish donor compatibility."
+    ]
+  },
+  "game_package_written": false,
+  "source_sha256": "5e44eb361d569e3ebeac8792a52eb63f06ab579bf633658f8f1905352b33af86",
+  "canonical_reopen_validation": "passed",
+  "all_fence_transforms_have_positive_determinant": true,
+  "all_sign_emission_strengths_zero": true
+}

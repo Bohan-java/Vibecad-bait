@@ -1,0 +1,3156 @@
+{
+  "scope": "read-only R09 source and native basket_glass migration audit; no IFF/helper/source changes",
+  "runtime_tested": false,
+  "sources": [
+    "洛克公园/arena_blacktop_ext.iff",
+    "zgc-court/output/arena_700_int.iff",
+    "build/high_hoop/reference/arena_blacktop_ext.iff"
+  ],
+  "method_reference": "https://llvm.org/docs/BitCodeFormat.html",
+  "r09": {
+    "material_except_resources_exact_donor": true,
+    "all_basket_effects_exact_donor": true,
+    "passes": [
+      {
+        "technique": "Default",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 1,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0,
+          "COLORWRITEENABLE": 0,
+          "MASTERCOLORWRITEENABLE": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "Default",
+        "pass": "DepthOnlyPrepass",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 2048,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 8,
+          "COLORWRITEENABLE": 0,
+          "MASTERCOLORWRITEENABLE": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 1,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "Projected",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 2,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "UseSoftShadowMaps",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 4,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "UseHardShadowMaps",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 8,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "OnlyDepthDoubleSided",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 32,
+          "DepthFormat": "D16_UNORM",
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL"
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "OnlyDepthCSM",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 64,
+          "DepthFormat": "D16_UNORM",
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "CLIPPING": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "GBuffer",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 512,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "INDEPENDENTBLENDENABLE": 1,
+          "COLORWRITEENABLE6": 0,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0,
+          "ZWRITEENABLE": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "DepthOnlyPrepass",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 2048,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 8
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetHires",
+        "pass": "DepthVelocityPrepass",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 128,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 8
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 1,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "Projected",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 2,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "UseSoftShadowMaps",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 4,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "UseHardShadowMaps",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 8,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "OnlyDepthDoubleSided",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 32,
+          "DepthFormat": "D16_UNORM",
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL"
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "OnlyDepthCSM",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 64,
+          "DepthFormat": "D16_UNORM",
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "CLIPPING": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "GBuffer",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 512,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "INDEPENDENTBLENDENABLE": 1,
+          "COLORWRITEENABLE6": 0,
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0,
+          "ZWRITEENABLE": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "DepthOnlyPrepass",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 2048,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 8
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "AssetLores",
+        "pass": "DepthVelocityPrepass",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 128,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 8
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "ZPass",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "NONE",
+          "ZFUNC": "LESSEQUAL",
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "Translucent",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 1,
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "Translucent",
+        "pass": "Projected",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 2,
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "Translucent",
+        "pass": "UseShadowMaps",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 12,
+          "COLORWRITEENABLE1": 0,
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "SRC1COLOR",
+          "INDEPENDENTBLENDENABLE": 1,
+          "CULLMODE": "NONE",
+          "ZWRITEENABLE": 0,
+          "ZFUNC": "LESSEQUAL",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CONSERVATIVERASTER": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 128,
+          "STENCILWRITEMASK": 63,
+          "STENCILREF": 0
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "RayTracing_Reflections",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 1,
+          "ALPHABLENDENABLE": 1
+        },
+        "absent_fields_not_inferred": true
+      },
+      {
+        "technique": "RayTracing_Reflections_Shadow",
+        "pass": "Default",
+        "effect_plus_local_material_fields": {
+          "EnableMask": 1,
+          "ALPHABLENDENABLE": 1
+        },
+        "absent_fields_not_inferred": true
+      }
+    ],
+    "textures": [
+      {
+        "slot": "AlbedoMapBC3",
+        "original": {
+          "Width": 1024,
+          "Height": 1024,
+          "Mips": 11,
+          "Format": "BC3_UNORM",
+          "Min": [
+            0.00699540973,
+            0.0168073773,
+            0.00518151699,
+            0.0784313753
+          ],
+          "Max": [
+            0.502886474,
+            0.502886474,
+            0.502886474,
+            1.0
+          ],
+          "PixelDataSize": 1398128,
+          "Twiddled": 1,
+          "Segments": [
+            {
+              "FileOffset": 32,
+              "FileSize": 974,
+              "MemoryOffset": 1396736,
+              "MemorySize": 1392,
+              "MinMip": 5,
+              "MaxMip": 10
+            },
+            {
+              "FileOffset": 1006,
+              "FileSize": 2289,
+              "MemoryOffset": 1392640,
+              "MemorySize": 4096,
+              "MinMip": 4,
+              "MaxMip": 4
+            },
+            {
+              "FileOffset": 3295,
+              "FileSize": 8115,
+              "MemoryOffset": 1376256,
+              "MemorySize": 16384,
+              "MinMip": 3,
+              "MaxMip": 3
+            },
+            {
+              "FileOffset": 11410,
+              "FileSize": 29275,
+              "MemoryOffset": 1310720,
+              "MemorySize": 65536,
+              "MinMip": 2,
+              "MaxMip": 2
+            },
+            {
+              "FileOffset": 40685,
+              "FileSize": 109837,
+              "MemoryOffset": 1048576,
+              "MemorySize": 262144,
+              "MinMip": 1,
+              "MaxMip": 1
+            },
+            {
+              "FileOffset": 150522,
+              "FileSize": 408180,
+              "MemorySize": 1048576
+            }
+          ],
+          "CompressionMethod": 33,
+          "Binary": "albedomapbc3.8195d23caeafe771.tld"
+        },
+        "current": {
+          "Width": 4,
+          "Height": 4,
+          "Mips": 3,
+          "Format": "BC3_UNORM",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "PixelDataSize": 48,
+          "Binary": "zgc_r03_texture.4e3138196a27aece.tld"
+        },
+        "dds": "zgc_r03_texture.4e3138196a27aece.dds",
+        "dds_sha256": "3f3c991b45763e1d2e46af42a851672d57510e01c799b17572f6fa2d0d15fdf0",
+        "all_mips": [
+          {
+            "mip": 0,
+            "size": [
+              4,
+              4
+            ],
+            "unique_rgba": [
+              [
+                222,
+                219,
+                222,
+                10
+              ]
+            ]
+          },
+          {
+            "mip": 1,
+            "size": [
+              2,
+              2
+            ],
+            "unique_rgba": [
+              [
+                231,
+                231,
+                231,
+                10
+              ]
+            ]
+          },
+          {
+            "mip": 2,
+            "size": [
+              1,
+              1
+            ],
+            "unique_rgba": [
+              [
+                231,
+                231,
+                231,
+                10
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "AlphaMaskMap",
+        "original": {
+          "Width": 1024,
+          "Height": 1024,
+          "Mips": 11,
+          "Format": "BC7_UNORM",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Max": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "PixelDataSize": 1398128,
+          "Segments": [
+            {
+              "FileOffset": 32,
+              "FileSize": 392,
+              "MemoryOffset": 1396736,
+              "MemorySize": 1392,
+              "MinMip": 5,
+              "MaxMip": 10
+            },
+            {
+              "FileOffset": 424,
+              "FileSize": 360,
+              "MemoryOffset": 1392640,
+              "MemorySize": 4096,
+              "InflatedSize": 2544,
+              "MinMip": 4,
+              "MaxMip": 4
+            },
+            {
+              "FileOffset": 784,
+              "FileSize": 467,
+              "MemoryOffset": 1376256,
+              "MemorySize": 16384,
+              "InflatedSize": 7404,
+              "MinMip": 3,
+              "MaxMip": 3
+            },
+            {
+              "FileOffset": 1251,
+              "FileSize": 614,
+              "MemoryOffset": 1310720,
+              "MemorySize": 65536,
+              "InflatedSize": 23712,
+              "MinMip": 2,
+              "MaxMip": 2
+            },
+            {
+              "FileOffset": 1865,
+              "FileSize": 791,
+              "MemoryOffset": 1048576,
+              "MemorySize": 262144,
+              "InflatedSize": 83472,
+              "MinMip": 1,
+              "MaxMip": 1
+            },
+            {
+              "FileOffset": 2656,
+              "FileSize": 892,
+              "MemorySize": 1048576,
+              "InflatedSize": 313692
+            }
+          ],
+          "CompressionMethod": 33,
+          "Binary": "glass_shader_mat_globalalpha.d6e94917d9bd7cc5.tld"
+        },
+        "current": {
+          "Width": 4,
+          "Height": 4,
+          "Mips": 3,
+          "Format": "BC3_UNORM",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "Max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "PixelDataSize": 48,
+          "Binary": "zgc_r03_texture.7375465f797535dc.tld",
+          "TexelUsage": "LINEAR"
+        },
+        "dds": "zgc_r03_texture.7375465f797535dc.dds",
+        "dds_sha256": "8125a8da7df694cb3f66fb80fd5891d44b945a368c2eb655088fd12f3048f3c6",
+        "all_mips": [
+          {
+            "mip": 0,
+            "size": [
+              4,
+              4
+            ],
+            "unique_rgba": [
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "mip": 1,
+            "size": [
+              2,
+              2
+            ],
+            "unique_rgba": [
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          },
+          {
+            "mip": 2,
+            "size": [
+              1,
+              1
+            ],
+            "unique_rgba": [
+              [
+                0,
+                0,
+                0,
+                0
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "ConeAngleMap",
+        "original": {
+          "Width": 1024,
+          "Height": 1024,
+          "Mips": 11,
+          "Format": "BC1_UNORM",
+          "TexelUsage": "LINEAR",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "PixelDataSize": 699064,
+          "Twiddled": 1,
+          "Segments": [
+            {
+              "FileOffset": 32,
+              "FileSize": 976,
+              "MemoryOffset": 696320,
+              "MemorySize": 2744,
+              "MinMip": 4,
+              "MaxMip": 10
+            },
+            {
+              "FileOffset": 1008,
+              "FileSize": 1457,
+              "MemoryOffset": 688128,
+              "MemorySize": 8192,
+              "MinMip": 3,
+              "MaxMip": 3
+            },
+            {
+              "FileOffset": 2465,
+              "FileSize": 3389,
+              "MemoryOffset": 655360,
+              "MemorySize": 32768,
+              "MinMip": 2,
+              "MaxMip": 2
+            },
+            {
+              "FileOffset": 5854,
+              "FileSize": 8369,
+              "MemoryOffset": 524288,
+              "MemorySize": 131072,
+              "MinMip": 1,
+              "MaxMip": 1
+            },
+            {
+              "FileOffset": 14223,
+              "FileSize": 22603,
+              "MemorySize": 524288
+            }
+          ],
+          "CompressionMethod": 33,
+          "Binary": "glass_shader_mat_ambientocclusion.3f5c1f1a228ee039.tld"
+        },
+        "current": {
+          "Width": 4,
+          "Height": 4,
+          "Mips": 3,
+          "Format": "BC1_UNORM",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "PixelDataSize": 24,
+          "Binary": "zgc_r03_texture.ececebf7280fa319.tld",
+          "TexelUsage": "LINEAR"
+        },
+        "dds": "zgc_r03_texture.ececebf7280fa319.dds",
+        "dds_sha256": "51d7e6493b7c9a07a7b7c2246163d169bbb4c49b45d773e73457532ac4ce2ba2",
+        "all_mips": [
+          {
+            "mip": 0,
+            "size": [
+              4,
+              4
+            ],
+            "unique_rgba": [
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "mip": 1,
+            "size": [
+              2,
+              2
+            ],
+            "unique_rgba": [
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ]
+          },
+          {
+            "mip": 2,
+            "size": [
+              1,
+              1
+            ],
+            "unique_rgba": [
+              [
+                255,
+                255,
+                255,
+                255
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "RoughMap",
+        "original": {
+          "Width": 1024,
+          "Height": 1024,
+          "Mips": 11,
+          "Format": "BC1_UNORM",
+          "TexelUsage": "LINEAR",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Max": [
+            0.878431439,
+            0.878431439,
+            0.878431439,
+            1.0
+          ],
+          "PixelDataSize": 699064,
+          "Twiddled": 1,
+          "Segments": [
+            {
+              "FileOffset": 32,
+              "FileSize": 1855,
+              "MemoryOffset": 696320,
+              "MemorySize": 2744,
+              "MinMip": 4,
+              "MaxMip": 10
+            },
+            {
+              "FileOffset": 1887,
+              "FileSize": 4584,
+              "MemoryOffset": 688128,
+              "MemorySize": 8192,
+              "MinMip": 3,
+              "MaxMip": 3
+            },
+            {
+              "FileOffset": 6471,
+              "FileSize": 15883,
+              "MemoryOffset": 655360,
+              "MemorySize": 32768,
+              "MinMip": 2,
+              "MaxMip": 2
+            },
+            {
+              "FileOffset": 22354,
+              "FileSize": 57140,
+              "MemoryOffset": 524288,
+              "MemorySize": 131072,
+              "MinMip": 1,
+              "MaxMip": 1
+            },
+            {
+              "FileOffset": 79494,
+              "FileSize": 202243,
+              "MemorySize": 524288
+            }
+          ],
+          "CompressionMethod": 33,
+          "Binary": "glass_shader_mat_roughness.4d555f64a227659e.tld"
+        },
+        "current": {
+          "Width": 4,
+          "Height": 4,
+          "Mips": 3,
+          "Format": "BC1_UNORM",
+          "Min": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "Max": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "PixelDataSize": 24,
+          "Binary": "zgc_r03_texture.60440189ee22e9fe.tld",
+          "TexelUsage": "LINEAR"
+        },
+        "dds": "zgc_r03_texture.60440189ee22e9fe.dds",
+        "dds_sha256": "44dff4a4236d0d071496d1b5f05cbd082bce5cd781de9ac2d7f1c69e9805842a",
+        "all_mips": [
+          {
+            "mip": 0,
+            "size": [
+              4,
+              4
+            ],
+            "unique_rgba": [
+              [
+                16,
+                16,
+                16,
+                255
+              ]
+            ]
+          },
+          {
+            "mip": 1,
+            "size": [
+              2,
+              2
+            ],
+            "unique_rgba": [
+              [
+                16,
+                16,
+                16,
+                255
+              ]
+            ]
+          },
+          {
+            "mip": 2,
+            "size": [
+              1,
+              1
+            ],
+            "unique_rgba": [
+              [
+                16,
+                16,
+                16,
+                255
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "depth_ir": {
+      "PS.1370942c4902b5ba.shader": [
+        "%49 = dx.op.createHandle(57, 2, 1, 4, 0)",
+        "%50 = dx.op.createHandle(57, 2, 0, 12, 0)",
+        "%51 = dx.op.loadInput.f32(4, 0, 0, 0, undef)",
+        "%52 = dx.op.loadInput.f32(4, 0, 0, 1, undef)",
+        "%53 = dx.op.cbufferLoadLegacy.f32(59, %50, 8)",
+        "%54 = extract %53[3]",
+        "%55 = cmp1 %54, 1.0",
+        "branch [1, 3, 1]",
+        "%56 = dx.op.cbufferLoadLegacy.i32(59, %50, 18)",
+        "%57 = extract %56[2]",
+        "%58 = binop0 %57, 13",
+        "%59 = dx.op.createHandle(57, 0, 0, %58, 0)",
+        "%60 = dx.op.cbufferLoadLegacy.i32(59, %50, 11)",
+        "%61 = extract %60[3]",
+        "%62 = binop0 %61, 13",
+        "%63 = dx.op.createHandle(57, 3, 0, %62, 0)",
+        "%64 = dx.op.cbufferLoadLegacy.f32(59, %50, 12)",
+        "%65 = extract %64[0]",
+        "%66 = extract %64[1]",
+        "%67 = extract %64[2]",
+        "%68 = dx.op.cbufferLoadLegacy.f32(59, %50, 6)",
+        "%69 = extract %68[0]",
+        "%70 = extract %68[1]",
+        "%71 = extract %68[2]",
+        "%72 = binop2 %71, %51",
+        "%73 = binop2 %70, %52",
+        "%74 = binop0 %73, %69",
+        "%75 = binop0 %74, %72",
+        "%76 = binop2 %66, %51",
+        "%77 = binop2 %67, %52",
+        "%78 = binop0 %77, %65",
+        "%79 = binop0 %78, %76",
+        "%80 = dx.op.cbufferLoadLegacy.f32(59, %50, 4)",
+        "%81 = extract %80[3]",
+        "%82 = dx.op.cbufferLoadLegacy.f32(59, %49, 15)",
+        "%83 = extract %82[3]",
+        "%84 = dx.op.sampleBias.f32(61, %59, %63, %75, %79, undef, undef, 0, 0, undef, %83, undef)",
+        "%85 = extract %84[3]",
+        "%86 = binop2 %85, %81",
+        "%87 = cmp4 %86, 1.0",
+        "branch [2, 3, 1]",
+        "dx.op.discard(82, -1)",
+        "branch [3]",
+        "dx.op.storeOutput.f32(5, 0, 0, 0, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 1, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 2, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 3, 0)",
+        "ret []"
+      ],
+      "PS.e94f5c62176664d2.shader": [
+        "%45 = dx.op.createHandle(57, 2, 1, 4, 0)",
+        "%46 = dx.op.createHandle(57, 2, 0, 12, 0)",
+        "%47 = dx.op.loadInput.f32(4, 0, 0, 0, undef)",
+        "%48 = dx.op.loadInput.f32(4, 0, 0, 1, undef)",
+        "%49 = dx.op.cbufferLoadLegacy.f32(59, %46, 8)",
+        "%50 = extract %49[3]",
+        "%51 = cmp1 %50, 1.0",
+        "branch [1, 3, 1]",
+        "%52 = dx.op.cbufferLoadLegacy.i32(59, %46, 18)",
+        "%53 = extract %52[2]",
+        "%54 = binop0 %53, 13",
+        "%55 = dx.op.createHandle(57, 0, 0, %54, 0)",
+        "%56 = dx.op.cbufferLoadLegacy.i32(59, %46, 11)",
+        "%57 = extract %56[3]",
+        "%58 = binop0 %57, 13",
+        "%59 = dx.op.createHandle(57, 3, 0, %58, 0)",
+        "%60 = dx.op.cbufferLoadLegacy.f32(59, %46, 12)",
+        "%61 = extract %60[0]",
+        "%62 = extract %60[1]",
+        "%63 = extract %60[2]",
+        "%64 = dx.op.cbufferLoadLegacy.f32(59, %46, 6)",
+        "%65 = extract %64[0]",
+        "%66 = extract %64[1]",
+        "%67 = extract %64[2]",
+        "%68 = binop2 %67, %47",
+        "%69 = binop2 %66, %48",
+        "%70 = binop0 %69, %65",
+        "%71 = binop0 %70, %68",
+        "%72 = binop2 %62, %47",
+        "%73 = binop2 %63, %48",
+        "%74 = binop0 %73, %61",
+        "%75 = binop0 %74, %72",
+        "%76 = dx.op.cbufferLoadLegacy.f32(59, %46, 4)",
+        "%77 = extract %76[3]",
+        "%78 = dx.op.cbufferLoadLegacy.f32(59, %45, 15)",
+        "%79 = extract %78[3]",
+        "%80 = dx.op.sampleBias.f32(61, %55, %59, %71, %75, undef, undef, 0, 0, undef, %79, undef)",
+        "%81 = extract %80[3]",
+        "%82 = binop2 %81, %77",
+        "%83 = cmp4 %82, 1.0",
+        "branch [2, 3, 1]",
+        "dx.op.discard(82, -1)",
+        "branch [3]",
+        "ret []"
+      ],
+      "PS.39b8793d74870403.shader": [
+        "%50 = dx.op.createHandle(57, 2, 1, 4, 0)",
+        "%51 = dx.op.createHandle(57, 2, 0, 12, 0)",
+        "%52 = dx.op.loadInput.f32(4, 0, 0, 0, undef)",
+        "%53 = dx.op.loadInput.f32(4, 0, 0, 1, undef)",
+        "%54 = dx.op.cbufferLoadLegacy.f32(59, %51, 8)",
+        "%55 = extract %54[3]",
+        "%56 = cmp1 %55, 1.0",
+        "branch [1, 3, 1]",
+        "%57 = dx.op.cbufferLoadLegacy.f32(59, %51, 17)",
+        "%58 = extract %57[0]",
+        "%59 = dx.op.cbufferLoadLegacy.i32(59, %51, 18)",
+        "%60 = extract %59[2]",
+        "%61 = binop0 %60, 13",
+        "%62 = dx.op.createHandle(57, 0, 0, %61, 0)",
+        "%63 = dx.op.cbufferLoadLegacy.i32(59, %51, 11)",
+        "%64 = extract %63[3]",
+        "%65 = binop0 %64, 13",
+        "%66 = dx.op.createHandle(57, 3, 0, %65, 0)",
+        "%67 = dx.op.cbufferLoadLegacy.f32(59, %51, 12)",
+        "%68 = extract %67[0]",
+        "%69 = extract %67[1]",
+        "%70 = extract %67[2]",
+        "%71 = dx.op.cbufferLoadLegacy.f32(59, %51, 6)",
+        "%72 = extract %71[0]",
+        "%73 = extract %71[1]",
+        "%74 = extract %71[2]",
+        "%75 = binop2 %74, %52",
+        "%76 = binop2 %73, %53",
+        "%77 = binop0 %76, %72",
+        "%78 = binop0 %77, %75",
+        "%79 = binop2 %69, %52",
+        "%80 = binop2 %70, %53",
+        "%81 = binop0 %80, %68",
+        "%82 = binop0 %81, %79",
+        "%83 = dx.op.cbufferLoadLegacy.f32(59, %51, 4)",
+        "%84 = extract %83[3]",
+        "%85 = dx.op.cbufferLoadLegacy.f32(59, %50, 15)",
+        "%86 = extract %85[3]",
+        "%87 = dx.op.sampleBias.f32(61, %62, %66, %78, %82, undef, undef, 0, 0, undef, %86, undef)",
+        "%88 = extract %87[3]",
+        "%89 = binop2 %88, %84",
+        "%90 = cmp4 %89, %58",
+        "branch [2, 3, 1]",
+        "dx.op.discard(82, -1)",
+        "branch [3]",
+        "dx.op.storeOutput.f32(5, 0, 0, 0, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 1, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 2, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 3, 0)",
+        "ret []"
+      ]
+    },
+    "depth_ir_interpretation": {
+      "texture": "AlbedoMapBC3 at Effect byte offset 296; not AlphaMaskMap",
+      "alpha": "sample.a * AlbedoModulateLinear.a (byte offset 76)",
+      "guard": "OneOverIoR (byte offset 140) == 1.0",
+      "prepass_discard": "guard AND alpha < 1.0",
+      "shadow_discard": "guard AND alpha < ShadowAlphaZWriteCutOff (byte offset 272; default 0.9)",
+      "r09_expected": "All albedo mips alpha=10/255, so discard if runtime constants honor IoR=1",
+      "limitation": "Runtime constant buffer values and replay selection are not captured"
+    }
+  },
+  "specialized_candidate": {
+    "source_material": "basket_stanchiond_outdoor:glass_shader",
+    "effect_name": "basket_glass.fx#fbbf6988cee09674",
+    "material": {
+      "Effect": "basket_glass.fx#fbbf6988cee09674",
+      "Script": "basket_glass.9c3a099189c7c26f.script",
+      "Resource": {
+        "Albedo": {
+          "Pixelmap": "%databuild_art_root%/asset_library/basket_stanchiond_outdoor/texture/basket_glass_c.png"
+        },
+        "RoughnessTexture": {
+          "Pixelmap": "%databuild_art_root%/asset_library/basket_stanchiond_outdoor/texture/basket_glass_c_roughness.png"
+        }
+      },
+      "Technique": {
+        "Default": {
+          "EnableMask": 201326595,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1
+            },
+            "Presentation": {
+              "EnableMask": 2
+            },
+            "UseSoftShadowMaps": {
+              "EnableMask": 4
+            },
+            "UseHardShadowMaps": {
+              "EnableMask": 8
+            },
+            "ZPrepass": {
+              "EnableMask": 2048
+            },
+            "DepthVelocityPrepass": {
+              "EnableMask": 128
+            },
+            "ZAndNormalPrepass": {
+              "EnableMask": 16
+            },
+            "OnlyDepthDoubleSided": {
+              "EnableMask": 32
+            },
+            "OnlyDepthCSM": {
+              "EnableMask": 64
+            }
+          }
+        },
+        "Translucent": {
+          "EnableMask": 536879104,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1
+            },
+            "Projected": {
+              "EnableMask": 2
+            },
+            "UseShadowMaps": {
+              "EnableMask": 12
+            },
+            "ZPrepass": {
+              "EnableMask": 2048
+            },
+            "DepthVelocityPrepass": {
+              "EnableMask": 128
+            },
+            "ZAndNormalPrepass": {
+              "EnableMask": 16
+            }
+          }
+        },
+        "RayTracing_Reflections": {
+          "EnableMask": 17179869184,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1
+            }
+          }
+        },
+        "RayTracing_Reflections_Shadow": {
+          "EnableMask": 34359738368,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1
+            }
+          }
+        }
+      }
+    },
+    "effect": {
+      "Version": 5,
+      "Technique": {
+        "Default": {
+          "EnableMask": 201326594,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.66823e7969ce912a.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIDAAEEAgQAAwEAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloEAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAAGAAAAGBoEAAkAAAAYGgQADQEAARgCBAANAgABGAIEAAUAAAIYIgQACAAAAhgiBAAJAAACGCIEAAwAAAIYFAQADQ4AAhgIBAASAAACGAoEAB8AAAIYEAQAIAAAAhgQBAA="
+            },
+            "Presentation": {
+              "EnableMask": 2,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.c8eff3dddf2459dc.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIEAAEEAgQAAwMAAQQCBAAEAQABBAIEAH4GAAIECAQAfwAAAgQIBAAKAAAACloAAAsAAAAKWgQADAAAAAoaBAANAAAADVoAAA0AAAIKYAAAMQAAAgpgAAAEAAAAGBoEAAYAAAAYGgQACAAAABgaBAAJAAAAGBoEAA0BAAEYAgQADQIAARgCBAAFAAACGCIEAAgAAAIYIgQACQAAAhgiBAAMAAACGBQEAA0OAAIYCAQAEgAAAhgKBAAaAAACGAgEABsAAAIYCAQAHAAAAhgIBAAfAAACGBAEACAAAAIYEAQA"
+            },
+            "UseSoftShadowMaps": {
+              "EnableMask": 4,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.66823e7969ce912a.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIDAAEEAgQAAwEAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloEAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAAGAAAAGBoEAAkAAAAYGgQADQEAARgCBAANAgABGAIEAAUAAAIYIgQACAAAAhgiBAAJAAACGCIEAAwAAAIYFAQADQ4AAhgIBAASAAACGAoEAB8AAAIYEAQAIAAAAhgQBAA="
+            },
+            "UseHardShadowMaps": {
+              "EnableMask": 8,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.66823e7969ce912a.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIDAAEEAgQAAwEAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloEAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAAGAAAAGBoEAAkAAAAYGgQADQEAARgCBAANAgABGAIEAAUAAAIYIgQACAAAAhgiBAAJAAACGCIEAAwAAAIYFAQADQ4AAhgIBAASAAACGAoEAB8AAAIYEAQAIAAAAhgQBAA="
+            },
+            "ZPrepass": {
+              "EnableMask": 2048,
+              "COLORWRITEENABLE": 0,
+              "CULLMODE": "CW",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.cfdadcf2e0b51fd2.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAB_AAACBAgEAAoAAAAKWgAACwAAAApaAAAMAAAAChoEAA0AAAANWgAADQAAAgpgAAAxAAACCmAAAAQAAAAYGgQADQEAARgCBAANDgACGAgEAA=="
+            },
+            "DepthVelocityPrepass": {
+              "EnableMask": 128,
+              "COLORWRITEENABLE": 0,
+              "CULLMODE": "CW",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.ab3b9850dc4a1574.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAB_AAACBAgEAAoAAAAKWgAACwAAAApaAAAMAAAAChoEAA0AAAANWgAADQAAAgpgAAAxAAACCmAAAAQAAAAYGgQADQEAARgCBAANDgACGAgEAA=="
+            },
+            "ZAndNormalPrepass": {
+              "EnableMask": 16,
+              "BakePso": 1,
+              "DepthFormat": "D32_FLOAT_S8X24_UINT",
+              "CULLMODE": "CW",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "uint4",
+                    "Format": "R8G8B8A8_UINT"
+                  },
+                  "SV_TARGET1": {
+                    "Type": "float2",
+                    "Format": "R16G16_FLOAT"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.a769dcdfe8ff13a1.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloAAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAANAQABGAIEAA0OAAIYCAQA"
+            },
+            "OnlyDepthDoubleSided": {
+              "EnableMask": 32,
+              "DepthFormat": "D16_UNORM",
+              "CULLMODE": "NONE",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "COLORWRITEENABLE": 0,
+              "MASTERCOLORWRITEENABLE": 0,
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 1
+                  }
+                },
+                "Output": {
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.0ec873e995e4dd69.shader"
+              },
+              "ResourceMapping": "CgAAAApaAAALAAAACloAAA0AAAANWgAADQAAAgpgAAAxAAACCmAAAA=="
+            },
+            "OnlyDepthCSM": {
+              "EnableMask": 64,
+              "DepthFormat": "D16_UNORM",
+              "CULLMODE": "NONE",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "CLIPPING": 0,
+              "COLORWRITEENABLE": 0,
+              "MASTERCOLORWRITEENABLE": 0,
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 1
+                  }
+                },
+                "Output": {
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.0ec873e995e4dd69.shader"
+              },
+              "ResourceMapping": "CgAAAApaAAALAAAACloAAA0AAAANWgAADQAAAgpgAAAxAAACCmAAAA=="
+            }
+          }
+        },
+        "Translucent": {
+          "EnableMask": 536870912,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.964b07872198a129.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIDAAEEAgQAAwEAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloEAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAAGAAAAGBoEAAkAAAAYGgQADQEAARgCBAANAgABGAIEAAUAAAIYIgQACAAAAhgiBAAJAAACGCIEAAwAAAIYFAQADQ4AAhgIBAASAAACGAoEAB8AAAIYEAQAIAAAAhgQBAA="
+            },
+            "Projected": {
+              "EnableMask": 2,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.968c9803909ee4fb.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIEAAEEAgQAAwMAAQQCBAAEAQABBAIEAH4GAAIECAQAfwAAAgQIBAAKAAAACloAAAsAAAAKWgQADAAAAAoaBAANAAAADVoAAA0AAAIKYAAAMQAAAgpgAAAEAAAAGBoEAAYAAAAYGgQACAAAABgaBAAJAAAAGBoEAA0BAAEYAgQADQIAARgCBAAFAAACGCIEAAgAAAIYIgQACQAAAhgiBAAMAAACGBQEAA0OAAIYCAQAEgAAAhgKBAAaAAACGAgEABsAAAIYCAQAHAAAAhgIBAAfAAACGBAEACAAAAIYEAQA"
+            },
+            "UseShadowMaps": {
+              "EnableMask": 12,
+              "CULLMODE": "CW",
+              "ALPHABLENDENABLE": 1,
+              "BLENDOP": "ADD",
+              "SRCBLEND": "ONE",
+              "DESTBLEND": "INVSRCALPHA",
+              "ZWRITEENABLE": 0,
+              "STENCILENABLE": 1,
+              "STENCILFUNC": "ALWAYS",
+              "STENCILPASS": "REPLACE",
+              "STENCILMASK": 8,
+              "STENCILWRITEMASK": 8,
+              "STENCILREF": 8,
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.5fdd03ba1e6d1cd9.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAABBQABBAIEAAIDAAEEAgQAAwEAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloEAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAAGAAAAGBoEAAkAAAAYGgQADQEAARgCBAANAgABGAIEAAUAAAIYIgQACAAAAhgiBAAJAAACGCIEAAwAAAIYFAQADQ4AAhgIBAASAAACGAoEAB8AAAIYEAQAIAAAAhgQBAA="
+            },
+            "ZPrepass": {
+              "EnableMask": 2048,
+              "COLORWRITEENABLE": 0,
+              "CULLMODE": "CW",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.f7705409bcd0b193.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAB_AAACBAgEAAoAAAAKWgAACwAAAApaAAAMAAAAChoEAA0AAAANWgAADQAAAgpgAAAxAAACCmAAAAQAAAAYGgQADQEAARgCBAANDgACGAgEAA=="
+            },
+            "DepthVelocityPrepass": {
+              "EnableMask": 128,
+              "COLORWRITEENABLE": 0,
+              "CULLMODE": "CW",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.b2b89af73987b43e.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAB_AAACBAgEAAoAAAAKWgAACwAAAApaAAAMAAAAChoEAA0AAAANWgAADQAAAgpgAAAxAAACCmAAAAQAAAAYGgQADQEAARgCBAANDgACGAgEAA=="
+            },
+            "ZAndNormalPrepass": {
+              "EnableMask": 16,
+              "BakePso": 1,
+              "DepthFormat": "D32_FLOAT_S8X24_UINT",
+              "CULLMODE": "CW",
+              "SLOPESCALEDEPTHBIAS": 0.0,
+              "PS": {
+                "Input": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  }
+                },
+                "Output": {
+                  "SV_TARGET0": {
+                    "Type": "uint4",
+                    "Format": "R8G8B8A8_UINT"
+                  },
+                  "SV_TARGET1": {
+                    "Type": "float2",
+                    "Format": "R16G16_FLOAT"
+                  }
+                },
+                "Profile": "ps_6_0",
+                "Binary": "PS.70f809cbac1aa505.shader"
+              },
+              "VS": {
+                "Input": {
+                  "POSITION0": {
+                    "Type": "float3",
+                    "BindPoint": 0
+                  },
+                  "TANGENTFRAME0": {
+                    "Type": "uint4",
+                    "BindPoint": 1
+                  },
+                  "TEXCOORD0": {
+                    "Type": "float4",
+                    "BindPoint": 2
+                  },
+                  "WEIGHTDATA0": {
+                    "Type": "uint",
+                    "BindPoint": 3
+                  }
+                },
+                "Output": {
+                  "TEXCOORD0": {
+                    "Type": "float4"
+                  },
+                  "TEXCOORD1": {
+                    "Type": "float4"
+                  },
+                  "SV_POSITION0": {
+                    "Type": "float4"
+                  }
+                },
+                "RootConst": 64,
+                "Profile": "vs_6_0",
+                "Binary": "VS.7686a8a62e2bfb95.shader"
+              },
+              "ResourceMapping": "AAIAAQQCBAB-BgACBAgEAH8AAAIECAQACgAAAApaAAALAAAACloAAAwAAAAKGgQADQAAAA1aAAANAAACCmAAADEAAAIKYAAABAAAABgaBAANAQABGAIEAA0OAAIYCAQA"
+            }
+          }
+        },
+        "RayTracing_Reflections": {
+          "EnableMask": 17179869184,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1,
+              "ALPHABLENDENABLE": 1,
+              "AHS": {
+                "BakedFetchShader": 1,
+                "Profile": "lib_6_3",
+                "Binary": "AHS.de9edc821ef26a76.shader"
+              },
+              "ResourceMapping": "AgAAABgagAAEAAAAGBqAAAYAAAAYGoAACQAAABgagAALAAAAGBqAAAQAAAIYIoAABQAAAhgigAAIAAACGCKAAAkAAAIYIoAADAAAAhgUgAASAAACGAqAABQAAAIYCIAAHQAAAhgQgAAfAAACGBCAACAAAAIYEIAAPgAAAhgogAA="
+            }
+          }
+        },
+        "RayTracing_Reflections_Shadow": {
+          "EnableMask": 34359738368,
+          "Pass": {
+            "Default": {
+              "EnableMask": 1,
+              "ALPHABLENDENABLE": 1,
+              "AHS": {
+                "BakedFetchShader": 1,
+                "Profile": "lib_6_3",
+                "Binary": "AHS.de9edc821ef26a76.shader"
+              },
+              "ResourceMapping": "AgAAABgagAAEAAAAGBqAAAYAAAAYGoAACQAAABgagAALAAAAGBqAAAQAAAIYIoAABQAAAhgigAAIAAACGCKAAAkAAAIYIoAADAAAAhgUgAASAAACGAqAABQAAAIYCIAAHQAAAhgQgAAfAAACGBCAACAAAAIYEIAAPgAAAhgogAA="
+            }
+          }
+        }
+      },
+      "Parameter": {
+        "AlphaCutOffForDepth": {
+          "Type": "float",
+          "NonWidget": 1,
+          "Value": 0.9,
+          "Offset": 20
+        },
+        "ConstantIsolate": {
+          "Type": "float",
+          "NonWidget": 1,
+          "Value": 1.0,
+          "Offset": 28
+        },
+        "Albedo": {
+          "Type": "Texture2D",
+          "Offset": 36
+        },
+        "ConstSamplerComparisonState_b78e7445": {
+          "Type": "SamplerComparisonState",
+          "Offset": 32
+        },
+        "ConstSamplerState_10fad58c": {
+          "Type": "SamplerState",
+          "Offset": 0
+        },
+        "ConstSamplerState_390173a6": {
+          "Type": "SamplerState",
+          "Offset": 12
+        },
+        "ConstSamplerState_8562905f": {
+          "Type": "SamplerState",
+          "Offset": 8
+        },
+        "ConstSamplerState_b78e7445": {
+          "Type": "SamplerState",
+          "Offset": 4
+        },
+        "RoughnessTexture": {
+          "Type": "Texture2D",
+          "Offset": 24
+        },
+        "Opacity": {
+          "Type": "float",
+          "NonWidget": 1,
+          "Value": 1.0,
+          "Offset": 16
+        }
+      },
+      "Resource": {
+        "Albedo": {
+          "Sampler": "AlbedoSampler",
+          "NonWidget": 1,
+          "TexcoordScale": 1.0,
+          "Texcoord": 0
+        },
+        "ConstSamplerComparisonState_b78e7445": {
+          "Type": "SAMPLERSTATE",
+          "NonWidget": 1,
+          "COMPAREFUNC": "GREATER",
+          "ADDRESSU": "CLAMP",
+          "ADDRESSV": "CLAMP",
+          "MINFILTER": "LINEAR",
+          "MAGFILTER": "LINEAR"
+        },
+        "ConstSamplerState_10fad58c": {
+          "Type": "SAMPLERSTATE",
+          "NonWidget": 1,
+          "ADDRESSU": "WRAP",
+          "ADDRESSV": "WRAP",
+          "ADDRESSW": "CLAMP",
+          "MINFILTER": "LINEAR",
+          "MAGFILTER": "LINEAR",
+          "MIPFILTER": "LINEAR"
+        },
+        "ConstSamplerState_390173a6": {
+          "Type": "SAMPLERSTATE",
+          "NonWidget": 1,
+          "ADDRESSU": "CLAMP",
+          "ADDRESSV": "CLAMP",
+          "ADDRESSW": "CLAMP",
+          "MINFILTER": "LINEAR",
+          "MAGFILTER": "LINEAR",
+          "MIPFILTER": "POINT",
+          "MAXMIPLEVEL": 0
+        },
+        "ConstSamplerState_8562905f": {
+          "Type": "SAMPLERSTATE",
+          "NonWidget": 1,
+          "ADDRESSU": "BORDER",
+          "ADDRESSV": "BORDER",
+          "MINFILTER": "LINEAR",
+          "MAGFILTER": "LINEAR",
+          "MIPFILTER": "LINEAR",
+          "BORDERCOLOR": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "ConstSamplerState_b78e7445": {
+          "Type": "SAMPLERSTATE",
+          "NonWidget": 1,
+          "ADDRESSU": "CLAMP",
+          "ADDRESSV": "CLAMP",
+          "MINFILTER": "LINEAR",
+          "MAGFILTER": "LINEAR",
+          "MIPFILTER": "LINEAR"
+        },
+        "RoughnessTexture": {
+          "NonWidget": 1,
+          "TexcoordScale": 1.0,
+          "Texcoord": 0
+        }
+      }
+    },
+    "passes": [
+      {
+        "technique": "Default",
+        "pass": "Default",
+        "states": {
+          "EnableMask": 1,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.66823e7969ce912a.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "Presentation",
+        "states": {
+          "EnableMask": 2,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.c8eff3dddf2459dc.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "UseSoftShadowMaps",
+        "states": {
+          "EnableMask": 4,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.66823e7969ce912a.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "UseHardShadowMaps",
+        "states": {
+          "EnableMask": 8,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.66823e7969ce912a.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "ZPrepass",
+        "states": {
+          "EnableMask": 2048,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "CW",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.cfdadcf2e0b51fd2.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "DepthVelocityPrepass",
+        "states": {
+          "EnableMask": 128,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "CW",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.ab3b9850dc4a1574.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "ZAndNormalPrepass",
+        "states": {
+          "EnableMask": 16,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "CULLMODE": "CW",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.a769dcdfe8ff13a1.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "OnlyDepthDoubleSided",
+        "states": {
+          "EnableMask": 32,
+          "DepthFormat": "D16_UNORM",
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "COLORWRITEENABLE": 0,
+          "MASTERCOLORWRITEENABLE": 0
+        },
+        "shaders": {
+          "VS": "VS.0ec873e995e4dd69.shader"
+        }
+      },
+      {
+        "technique": "Default",
+        "pass": "OnlyDepthCSM",
+        "states": {
+          "EnableMask": 64,
+          "DepthFormat": "D16_UNORM",
+          "CULLMODE": "NONE",
+          "SLOPESCALEDEPTHBIAS": 0.0,
+          "CLIPPING": 0,
+          "COLORWRITEENABLE": 0,
+          "MASTERCOLORWRITEENABLE": 0
+        },
+        "shaders": {
+          "VS": "VS.0ec873e995e4dd69.shader"
+        }
+      },
+      {
+        "technique": "Translucent",
+        "pass": "Default",
+        "states": {
+          "EnableMask": 1,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.964b07872198a129.shader"
+        }
+      },
+      {
+        "technique": "Translucent",
+        "pass": "Projected",
+        "states": {
+          "EnableMask": 2,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.968c9803909ee4fb.shader"
+        }
+      },
+      {
+        "technique": "Translucent",
+        "pass": "UseShadowMaps",
+        "states": {
+          "EnableMask": 12,
+          "CULLMODE": "CW",
+          "ALPHABLENDENABLE": 1,
+          "BLENDOP": "ADD",
+          "SRCBLEND": "ONE",
+          "DESTBLEND": "INVSRCALPHA",
+          "ZWRITEENABLE": 0,
+          "STENCILENABLE": 1,
+          "STENCILFUNC": "ALWAYS",
+          "STENCILPASS": "REPLACE",
+          "STENCILMASK": 8,
+          "STENCILWRITEMASK": 8,
+          "STENCILREF": 8,
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.5fdd03ba1e6d1cd9.shader"
+        }
+      },
+      {
+        "technique": "Translucent",
+        "pass": "ZPrepass",
+        "states": {
+          "EnableMask": 2048,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "CW",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.f7705409bcd0b193.shader"
+        }
+      },
+      {
+        "technique": "Translucent",
+        "pass": "DepthVelocityPrepass",
+        "states": {
+          "EnableMask": 128,
+          "COLORWRITEENABLE": 0,
+          "CULLMODE": "CW",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.b2b89af73987b43e.shader"
+        }
+      },
+      {
+        "technique": "Translucent",
+        "pass": "ZAndNormalPrepass",
+        "states": {
+          "EnableMask": 16,
+          "BakePso": 1,
+          "DepthFormat": "D32_FLOAT_S8X24_UINT",
+          "CULLMODE": "CW",
+          "SLOPESCALEDEPTHBIAS": 0.0
+        },
+        "shaders": {
+          "VS": "VS.7686a8a62e2bfb95.shader",
+          "PS": "PS.70f809cbac1aa505.shader"
+        }
+      },
+      {
+        "technique": "RayTracing_Reflections",
+        "pass": "Default",
+        "states": {
+          "EnableMask": 1,
+          "ALPHABLENDENABLE": 1
+        },
+        "shaders": {
+          "AHS": "AHS.de9edc821ef26a76.shader"
+        }
+      },
+      {
+        "technique": "RayTracing_Reflections_Shadow",
+        "pass": "Default",
+        "states": {
+          "EnableMask": 1,
+          "ALPHABLENDENABLE": 1
+        },
+        "shaders": {
+          "AHS": "AHS.de9edc821ef26a76.shader"
+        }
+      }
+    ],
+    "dependency_closure": [
+      {
+        "entry": "AHS.de9edc821ef26a76.shader",
+        "bytes": 7032,
+        "sha256": "efd0ff310619876a6f036900f7e7077b0d2f0802a7ba929fe45d9dfa88783b45",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.5fdd03ba1e6d1cd9.shader",
+        "bytes": 26736,
+        "sha256": "d451ce65a09c9a6c3feb5178807360ed92dbfbd59e7fa46e348b561e767c2c8f",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.66823e7969ce912a.shader",
+        "bytes": 27036,
+        "sha256": "afe144323fc24b9976e7ab289331b036dc6df2c39aa9add0afa71af145c707e0",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.70f809cbac1aa505.shader",
+        "bytes": 3384,
+        "sha256": "cee61e339ea8a12ba1b8d4c79882b7dad8c22b18f57051a3a85f9d5b6e19562e",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.964b07872198a129.shader",
+        "bytes": 27068,
+        "sha256": "9ace57e1999abeb093b7568019d255a3cfde888ba402b8ec0567b4461736e837",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.968c9803909ee4fb.shader",
+        "bytes": 29636,
+        "sha256": "bf442d71de863e960a8a4e9ebe7bb0b7212b720a791221e23a8ec7ede270ec97",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.a769dcdfe8ff13a1.shader",
+        "bytes": 3376,
+        "sha256": "43e323d7a692e2ca0b6c8e6fa8861cd7cc8bef6119ddcef40847ba5e9a7081cb",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.ab3b9850dc4a1574.shader",
+        "bytes": 2544,
+        "sha256": "c7b43b0c5c288a8764a8c17006d9e3d914558139e0266c105f3a78d9ca028817",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.b2b89af73987b43e.shader",
+        "bytes": 2552,
+        "sha256": "97dcc95cf7c359d06288565cac6dd54a9455cd00f55bb8ef8dd95ec47654326e",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.c8eff3dddf2459dc.shader",
+        "bytes": 29600,
+        "sha256": "afe6cd1fe8546585bd22fa58e3cc9270cbff4aa0a3aabb195161210f0a34d1c0",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.cfdadcf2e0b51fd2.shader",
+        "bytes": 2812,
+        "sha256": "5afcc1cf3d770a3d2365f7627fbf0a2f958f60e0830a6740e8a3ebb01c1cad89",
+        "already_in_r09": false
+      },
+      {
+        "entry": "PS.f7705409bcd0b193.shader",
+        "bytes": 2820,
+        "sha256": "fcbf9989ce23b020da826307696438ac633dff12534267b0f9735bf6110e8529",
+        "already_in_r09": false
+      },
+      {
+        "entry": "VS.0ec873e995e4dd69.shader",
+        "bytes": 4648,
+        "sha256": "bca782eb55949d9dfb92581de165d0a8ed7344c0308d732c2c3cfca9324fbab2",
+        "already_in_r09": false
+      },
+      {
+        "entry": "VS.7686a8a62e2bfb95.shader",
+        "bytes": 5632,
+        "sha256": "7d43f51391592cb14cd7190cba69de1ef2c6d6ea8ce9b4c66b0894d6e8d807c5",
+        "already_in_r09": false
+      },
+      {
+        "entry": "basket_glass.9c3a099189c7c26f.script",
+        "bytes": 267,
+        "sha256": "ffbf2325904d118a69674d3e8f3a5134d8cc632086ed6cdf899c29481decc968",
+        "already_in_r09": false
+      }
+    ],
+    "shader_symbols": {
+      "AHS.de9edc821ef26a76.shader": [
+        "\u0001?VCAnyHit@@YAXURayTracing_PackedMaterialClosestHitPayload@@UBuiltInTriangleIntersectionAttributes@@@Z",
+        "dx.op.ignoreHit",
+        "Attr",
+        "Packed"
+      ],
+      "PS.5fdd03ba1e6d1cd9.shader": [
+        "\u0001?CASCADE_FLAG@?1??Shadow_GetLightIntensityFromShadowMap@@YAMUShadow_Settings@@@Z@3QBIB",
+        "VCMain",
+        "dx.op.binary.f32",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.f32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.dot3.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.sampleCmpLevelZero.f32",
+        "dx.op.sampleLevel.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32",
+        "dx.op.unary.f32",
+        "dx.op.unaryBits.i32",
+        "dx.op.waveActiveAllEqual.i32",
+        "dx.op.waveActiveBit.i32",
+        "dx.op.waveReadLaneFirst.i32"
+      ],
+      "PS.66823e7969ce912a.shader": [
+        "\u0001?CASCADE_FLAG@?1??Shadow_GetLightIntensityFromShadowMap@@YAMUShadow_Settings@@@Z@3QBIB",
+        "VCMain",
+        "dx.op.binary.f32",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.f32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.dot3.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.sampleCmpLevelZero.f32",
+        "dx.op.sampleLevel.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32",
+        "dx.op.unary.f32",
+        "dx.op.unaryBits.i32",
+        "dx.op.waveActiveAllEqual.i32",
+        "dx.op.waveActiveBit.i32",
+        "dx.op.waveReadLaneFirst.i32"
+      ],
+      "PS.70f809cbac1aa505.shader": [
+        "VCMain",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.discard",
+        "dx.op.dot3.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.storeOutput.i32",
+        "dx.op.unary.f32"
+      ],
+      "PS.964b07872198a129.shader": [
+        "\u0001?CASCADE_FLAG@?1??Shadow_GetLightIntensityFromShadowMap@@YAMUShadow_Settings@@@Z@3QBIB",
+        "VCMain",
+        "dx.op.binary.f32",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.f32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.dot3.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.sampleCmpLevelZero.f32",
+        "dx.op.sampleLevel.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32",
+        "dx.op.unary.f32",
+        "dx.op.unaryBits.i32",
+        "dx.op.waveActiveAllEqual.i32",
+        "dx.op.waveActiveBit.i32",
+        "dx.op.waveReadLaneFirst.i32"
+      ],
+      "PS.968c9803909ee4fb.shader": [
+        "\u0001?CASCADE_FLAG@?1??Shadow_GetLightIntensityFromShadowMap@@YAMUShadow_Settings@@@Z@3QBIB",
+        "VCMain",
+        "dx.op.binary.f32",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.f32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.dot3.f32",
+        "dx.op.dot4.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sample.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.sampleCmpLevelZero.f32",
+        "dx.op.sampleLevel.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32",
+        "dx.op.unary.f32",
+        "dx.op.unaryBits.i32",
+        "dx.op.waveActiveAllEqual.i32",
+        "dx.op.waveActiveBit.i32",
+        "dx.op.waveReadLaneFirst.i32"
+      ],
+      "PS.a769dcdfe8ff13a1.shader": [
+        "VCMain",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.discard",
+        "dx.op.dot3.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.storeOutput.i32",
+        "dx.op.unary.f32"
+      ],
+      "PS.ab3b9850dc4a1574.shader": [
+        "VCMain",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.discard",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32"
+      ],
+      "PS.b2b89af73987b43e.shader": [
+        "VCMain",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.discard",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32"
+      ],
+      "PS.c8eff3dddf2459dc.shader": [
+        "\u0001?CASCADE_FLAG@?1??Shadow_GetLightIntensityFromShadowMap@@YAMUShadow_Settings@@@Z@3QBIB",
+        "VCMain",
+        "dx.op.binary.f32",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.f32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.dot3.f32",
+        "dx.op.dot4.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.sample.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.sampleCmpLevelZero.f32",
+        "dx.op.sampleLevel.f32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32",
+        "dx.op.unary.f32",
+        "dx.op.unaryBits.i32",
+        "dx.op.waveActiveAllEqual.i32",
+        "dx.op.waveActiveBit.i32",
+        "dx.op.waveReadLaneFirst.i32"
+      ],
+      "PS.cfdadcf2e0b51fd2.shader": [
+        "VCMain",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.discard",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.storeOutput.f32"
+      ],
+      "PS.f7705409bcd0b193.shader": [
+        "VCMain",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.discard",
+        "dx.op.loadInput.f32",
+        "dx.op.sampleBias.f32",
+        "dx.op.storeOutput.f32"
+      ],
+      "VS.0ec873e995e4dd69.shader": [
+        "VCMain",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.loadInput.f32",
+        "dx.op.loadInput.i32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32"
+      ],
+      "VS.7686a8a62e2bfb95.shader": [
+        "VCMain",
+        "dx.op.binary.i32",
+        "dx.op.bufferLoad.i32",
+        "dx.op.cbufferLoadLegacy.f32",
+        "dx.op.cbufferLoadLegacy.i32",
+        "dx.op.createHandle",
+        "dx.op.dot3.f32",
+        "dx.op.loadInput.f32",
+        "dx.op.loadInput.i32",
+        "dx.op.storeOutput.f32",
+        "dx.op.tertiary.f32",
+        "dx.op.unary.f32"
+      ]
+    },
+    "depth_ir": {
+      "PS.cfdadcf2e0b51fd2.shader": [
+        "%45 = dx.op.createHandle(57, 2, 1, 4, 0)",
+        "%46 = dx.op.createHandle(57, 2, 0, 12, 0)",
+        "%47 = dx.op.loadInput.f32(4, 1, 0, 3, undef)",
+        "%48 = dx.op.loadInput.f32(4, 0, 0, 3, undef)",
+        "%49 = dx.op.cbufferLoadLegacy.i32(59, %46, 0)",
+        "%50 = extract %49[0]",
+        "%51 = binop0 %50, 13",
+        "%52 = dx.op.createHandle(57, 3, 0, %51, 0)",
+        "%53 = dx.op.cbufferLoadLegacy.i32(59, %46, 2)",
+        "%54 = extract %53[1]",
+        "%55 = binop0 %54, 13",
+        "%56 = dx.op.createHandle(57, 0, 0, %55, 0)",
+        "%57 = dx.op.cbufferLoadLegacy.f32(59, %45, 15)",
+        "%58 = extract %57[3]",
+        "%59 = dx.op.sampleBias.f32(61, %56, %52, %48, %47, undef, undef, 0, 0, undef, %58, undef)",
+        "%60 = extract %59[3]",
+        "%61 = dx.op.cbufferLoadLegacy.f32(59, %46, 1)",
+        "%62 = extract %61[1]",
+        "%63 = cmp4 %60, %62",
+        "branch [1, 2, 1]",
+        "dx.op.discard(82, -1)",
+        "branch [2]",
+        "dx.op.storeOutput.f32(5, 0, 0, 0, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 1, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 2, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 3, 0)",
+        "ret []"
+      ],
+      "PS.ab3b9850dc4a1574.shader": [
+        "%40 = dx.op.createHandle(57, 2, 1, 4, 0)",
+        "%41 = dx.op.createHandle(57, 2, 0, 12, 0)",
+        "%42 = dx.op.loadInput.f32(4, 1, 0, 3, undef)",
+        "%43 = dx.op.loadInput.f32(4, 0, 0, 3, undef)",
+        "%44 = dx.op.cbufferLoadLegacy.i32(59, %41, 0)",
+        "%45 = extract %44[0]",
+        "%46 = binop0 %45, 13",
+        "%47 = dx.op.createHandle(57, 3, 0, %46, 0)",
+        "%48 = dx.op.cbufferLoadLegacy.i32(59, %41, 2)",
+        "%49 = extract %48[1]",
+        "%50 = binop0 %49, 13",
+        "%51 = dx.op.createHandle(57, 0, 0, %50, 0)",
+        "%52 = dx.op.cbufferLoadLegacy.f32(59, %40, 15)",
+        "%53 = extract %52[3]",
+        "%54 = dx.op.sampleBias.f32(61, %51, %47, %43, %42, undef, undef, 0, 0, undef, %53, undef)",
+        "%55 = extract %54[3]",
+        "%56 = dx.op.cbufferLoadLegacy.f32(59, %41, 1)",
+        "%57 = extract %56[1]",
+        "%58 = cmp4 %55, %57",
+        "branch [1, 2, 1]",
+        "dx.op.discard(82, -1)",
+        "branch [2]",
+        "ret []"
+      ],
+      "PS.f7705409bcd0b193.shader": [
+        "%45 = dx.op.createHandle(57, 2, 1, 4, 0)",
+        "%46 = dx.op.createHandle(57, 2, 0, 12, 0)",
+        "%47 = dx.op.loadInput.f32(4, 1, 0, 3, undef)",
+        "%48 = dx.op.loadInput.f32(4, 0, 0, 3, undef)",
+        "%49 = dx.op.cbufferLoadLegacy.i32(59, %46, 0)",
+        "%50 = extract %49[0]",
+        "%51 = binop0 %50, 13",
+        "%52 = dx.op.createHandle(57, 3, 0, %51, 0)",
+        "%53 = dx.op.cbufferLoadLegacy.i32(59, %46, 2)",
+        "%54 = extract %53[1]",
+        "%55 = binop0 %54, 13",
+        "%56 = dx.op.createHandle(57, 0, 0, %55, 0)",
+        "%57 = dx.op.cbufferLoadLegacy.f32(59, %45, 15)",
+        "%58 = extract %57[3]",
+        "%59 = dx.op.sampleBias.f32(61, %56, %52, %48, %47, undef, undef, 0, 0, undef, %58, undef)",
+        "%60 = extract %59[3]",
+        "%61 = dx.op.cbufferLoadLegacy.f32(59, %46, 1)",
+        "%62 = extract %61[0]",
+        "%63 = binop2 %62, %60",
+        "%64 = extract %61[1]",
+        "%65 = cmp4 %63, %64",
+        "branch [1, 2, 1]",
+        "dx.op.discard(82, -1)",
+        "branch [2]",
+        "dx.op.storeOutput.f32(5, 0, 0, 0, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 1, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 2, 0)",
+        "dx.op.storeOutput.f32(5, 0, 0, 3, 0)",
+        "ret []"
+      ]
+    },
+    "depth_rule": "Default: Albedo.a < AlphaCutOffForDepth(.9); Translucent: Albedo.a*Opacity(1) < cutoff. Neither depends on IoR.",
+    "bind_resources": {
+      "Albedo": "local/zgc/r03/zgc_r03_texture.4e3138196a27aece",
+      "RoughnessTexture": "local/zgc/r03/zgc_r03_texture.60440189ee22e9fe"
+    },
+    "retain_original_model_and_bone_bytes": true,
+    "native_vertex_format_compatible": "8/4/8 streams; POSITION UNORM16x4, UV SNORM16x2, tangent UINT10x3A2, packed weight UINT32 at stream2 offset4; source native specialized model uses same storage despite VS TEXCOORD0 float4",
+    "risks": [
+      "All 15 shader/script payloads and complete Effect incl ResourceMapping must be copied; all absent in R09.",
+      "Use full specialized Material, not old ScriptParameter/Technique/Resource names.",
+      "CW culling differs from original NONE; verify front/back winding and holes faces without blanket override.",
+      "Specialized OnlyDepthDoubleSided/OnlyDepthCSM contain VS only and no explicit alpha-test PS; shadow silhouette can differ.",
+      "Presentation pass existence does not prove actual replay selection.",
+      "Single-target premultiplied output belongs with ONE/INVSRCALPHA; never change only Rucker blend factors."
+    ],
+    "color_shader_semantics": {
+      "source": "Direct parsing of DXIL bitcode from local outdoor native shader payloads",
+      "default_ps": "PS.66823e7969ce912a.shader",
+      "presentation_ps": "PS.c8eff3dddf2459dc.shader",
+      "translucent_ps": "PS.964b07872198a129.shader",
+      "Albedo_channels": "RGBA; samples texture index held at Effect byte offset36",
+      "RoughnessTexture_channel": "R only; samples texture index held at Effect byte offset24",
+      "default_and_presentation_output_alpha": "Albedo sample alpha directly",
+      "default_and_presentation_output_rgb": "Shader internally multiplies diffuse term by Albedo.a * approximately0.905 * Albedo.rgb, then adds specular/reflection lighting; texture must not be premultiplied again",
+      "translucent_output": "Same computed RGB and Albedo.a, then multiplies all RGBA by Opacity at byte offset16",
+      "recommended_candidate_input_rgba_srgb": [
+        66,
+        66,
+        66,
+        10
+      ],
+      "rgb66_converted_linear": 0.05448027644244237,
+      "reference_descriptor_linear_rgb": 0.0544802882,
+      "recommended_roughness_linear_r": 0.06274509803921569,
+      "preview_limit": "Standard alpha blend with neutral tint approximates transmission but not native specular/IBL terms",
+      "evidence_files": [
+        "r10-PS.66823e7969ce912a.shader.ir.txt",
+        "r10-PS.c8eff3dddf2459dc.shader.ir.txt",
+        "r10-PS.964b07872198a129.shader.ir.txt"
+      ],
+      "parser_scope": "Full bitstream validated. Function output uses decoded SSA operations; memory load/store/gep/alloca are recorded as raw operands. This is a targeted audit representation, not an official DXC disassembly."
+    },
+    "script_audit": {
+      "bytes": 267,
+      "same_bytes_in_indoor_and_outdoor_reference": true,
+      "native_script_semantic_decoding": "Not available; proprietary script instructions not reverse-engineered. No claim of absence of camera-dependent behavior."
+    }
+  },
+  "findings": [
+    "No confirmed illegal R09 DDS resource or newly enabled ZWrite in its visible color passes.",
+    "R09 native generic depth shaders read Albedo alpha and conditionally discard under OneOverIoR==1; AlphaMask=0 is not evidence of depth being forced opaque.",
+    "A complete native specialized basket_glass contract provides a concrete alternative with Presentation and alpha-only prepass decisions; runtime success remains unverified."
+  ]
+}

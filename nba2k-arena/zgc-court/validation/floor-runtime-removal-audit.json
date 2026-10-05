@@ -1,0 +1,78 @@
+{
+  "scope": "Read-only single-main-IFF floor-line removal investigation after R07 player-marker occlusion feedback",
+  "known_user_result": "R07 player marker disappears near basket and returns farther away; -5 slope-biased ground is rejected",
+  "recommended_depth_action": "Remove the 28 R07 ground bias overrides and restore the ordinary native camera-depth state",
+  "cached_indicator_evidence": {
+    "archive": "build\\high_hoop\\reference\\gamedata.iff",
+    "scene_count_scanned": 229,
+    "floor_line_name_or_hash_reference_hits": [],
+    "specific_marker": {
+      "scene": "indicator.SCNE",
+      "material": "indicator_mat",
+      "pixelmap": "%databuild_art_root%/ui/_textures/indicator_customization/t_player_indicator7_purple.tga",
+      "native_effect": "unlit.fx#2fe9e7154bd67a7e",
+      "camera_depth_state": {
+        "ZWRITEENABLE": 0,
+        "ZFUNC": "LESSEQUAL",
+        "SLOPESCALEDEPTHBIAS": 0.0
+      }
+    },
+    "scope_limit": "All cached gamedata SCNEs, not every possible game/mod resource"
+  },
+  "original_donor_court": {
+    "model": "park_streetball_a_master@park_rucker_ext_sharedcourt@GameObjects@court_group@court_full_city:court_full_city_low",
+    "native_y_bounds_cm": [
+      0,
+      0
+    ],
+    "object_matrix_identity": true,
+    "no_material_depth_bias_overrides": true,
+    "prepass_stencil_ref": 8,
+    "meaning": "The original donor provides no demonstrated special floor-disable or camera-bias trick to copy"
+  },
+  "separate_floor_evidence": {
+    "archive": "build\\local_game_reference\\levels\\arena_700_int_floor.iff",
+    "index_descriptor": {
+      "Format": "R16_UINT",
+      "CompressionMethod": 33,
+      "Size": 40692,
+      "Binary": "IndexBuffer.21197e39f086bb73.gz"
+    },
+    "IndexBufferCrc32": 3194780975,
+    "main_and_floor_both_have_level_floor_SCNE": true,
+    "same_scene_name_does_not_demonstrate_override": "Original main already has marker-only level_floor.SCNE, yet stock 700 floor lines remained visible in R06",
+    "FLOOR_marker_attributes": {
+      "VC_FloorShadowMultiplier": 1.0
+    }
+  },
+  "route_assessment": [
+    {
+      "route": "Slightly smaller slope bias",
+      "verdict": "Rejected: retains same HUD-depth occlusion mechanism"
+    },
+    {
+      "route": "Small constant-only bias or color-pass-only bias",
+      "verdict": "May reduce marker displacement but cannot reliably hide native slope-biased lines; no proof of draw order makes this a solution"
+    },
+    {
+      "route": "Main-IFF same-name index override",
+      "verdict": "Not selected: index payload is locally owned by separate floor IFF, unknown precedence, plus original SCNE CRC mismatch"
+    },
+    {
+      "route": "Main-IFF transparent shared line DDS aliases",
+      "verdict": "Best limited single-IFF candidate: native floor lacks these payloads; exact external names, format and mip count retained; no HUD/depth assets changed. Cross-package priority remains unverified"
+    },
+    {
+      "route": "Second floor IFF with selected degenerate draw ranges",
+      "verdict": "Directly addresses the owning resource and is statically implementable, but violates the current one-IFF delivery constraint; not generated"
+    }
+  ],
+  "candidate_helper": "tools/shared_floor_line_override.py",
+  "candidate_report": "validation/shared-floor-line-override.json",
+  "candidate_game_tested": false,
+  "unresolved": "Single-main-IFF texture lookup/registration precedence cannot be proven from the available asset packages; no mod-loader implementation is present",
+  "three_point_scoring_logic": "No rule/radius parameter found in cached gamedata SCNE/config resources. Native visible primitive bounds are known; actual 700 vertex payload and scoring-code boundary remain unavailable",
+  "geometric_reference": "validation/native-nba-line-reference.json",
+  "BC7_primary_reference": "https://learn.microsoft.com/en-us/windows/win32/direct3d11/bc7-format-mode-reference",
+  "final_IFF_modified_by_this_audit": false
+}
