@@ -123,6 +123,8 @@ def main():
         assert level['Light']==original['Light'] and level['Attribute']==original['Attribute']
         from half_court_orientation import apply_orientation, update_report
         update_report(report, level, apply_orientation(level))
+        from night_lighting import apply_night
+        report['night_lighting']={k:v for k,v in apply_night(level).items() if k not in ('before','after')}
         facade_path=ROOT/'validation/r13-chilis-material-current.json'
         if any('R13 Chili' in row.get('source_material','') for row in labels.get('textures',[])):
             facade=json.loads(facade_path.read_text(encoding='utf8'))
@@ -173,7 +175,7 @@ def main():
             assert final.read('PostEffect.FxTweakables')==donor.read('PostEffect.FxTweakables')
             report.update(archive_entries=count,archive_crc_verified=True,resource_closure_missing=missing,
                           original_geometry_buffers_byte_identical=len(verified_buffers),
-                          global_sun_and_postfx_unchanged=True,output_bytes=pending.stat().st_size)
+                          global_sun_and_postfx_unchanged=False,postfx_unchanged=True,output_bytes=pending.stat().st_size)
         from validate_d3d_textures import validate
         d3d=validate(pending)
         if d3d['failed']:raise RuntimeError('Native Direct3D texture resource creation failed: '+str(d3d['failed']))

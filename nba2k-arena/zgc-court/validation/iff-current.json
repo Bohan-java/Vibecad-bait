@@ -1,10 +1,10 @@
 {
-  "revision": "R13",
+  "revision": "R13+N1",
   "target": "Blacktop / arena_700_int.iff",
   "source_iff_sha256": "5dc20021ddfa76ddc5e2beba9c36066adf8f0528cfe8759a5f7f54572127fea7",
   "source_version": "S-beefe91fc3",
   "source_glb_sha256": "02a8bf6df7646a402b1e1d9c9e4a24e9fb4e03cb34ee52b19d486c9646295acd",
-  "source_feedback": "User accepts the overall model and requests photo-by-photo refinement of the court-facing Chilis facade, non-emissive lightbox lettering, metal and concrete/stone material differentiation, plus less transparent and less mirror-sharp basketball glass.",
+  "source_feedback": "User requests a night look with court-side light strips; first test the night base only, then a single emissive A-sign diffuser.",
   "last_game_confirmed": {
     "revision": "R12",
     "visibility": "half_court_uses_gray_end",
@@ -32,7 +32,8 @@
     "Refine the court-facing Chilis facade from individually inspected photographs with layered non-emissive channel letters, differentiated metal/acrylic/coated surfaces, fabric, stone and concrete textures, door hardware and awning construction. Keep the rectangular site layout and corrected half-court orientation.",
     "Increase native basket glass alpha and roughness using its existing dedicated render path; preserve geometry, skin weights and Presentation shaders.",
     "Use donor-style DDS-only texture override resources; remove the experimental direct TLD path.",
-    "Preserve donor entry order and metadata; use DEFLATE for all changed or new entries and formatted SCNE fragments."
+    "Preserve donor entry order and metadata; use DEFLATE for all changed or new entries and formatted SCNE fragments.",
+    "N1 night base: dim the native sun to cool moonlight, lower sky and baked probe ambient; no geometry, material, texture or post-effect change."
   ],
   "material_repair": {
     "game_verified": false,
@@ -5985,8 +5986,8 @@
   "archive_crc_verified": true,
   "resource_closure_missing": [],
   "original_geometry_buffers_byte_identical": 1821,
-  "global_sun_and_postfx_unchanged": true,
-  "output_bytes": 1685622410,
+  "global_sun_and_postfx_unchanged": false,
+  "output_bytes": 1685622391,
   "after_d3d": {
     "api": "D3D11 CreateTexture2D with complete DDS mip payloads",
     "feature_level": "0xb000",
@@ -8436,5 +8437,21 @@
     "passed_count": 271
   },
   "output": "E:\\CodexData\\2karena\\zgc-court\\output\\arena_700_int.iff",
-  "output_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622"
+  "output_sha256": "12efd7a280d5a3521e72434534cd16a2b1948777a58464ad66f06f2e9a3d531f",
+  "night_lighting": {
+    "revision": "N1",
+    "scope": "level.SCNE values only: Light.Sun intensity/colour, TIME_OF_DAY sky and sun-disc intensity, light-probe EV100 tags.",
+    "unchanged": "Sun direction and shadows, TIME_OF_DAY enable flag and camera EV100, IBL cubemaps, PostEffect.FxTweakables, all geometry, materials and textures.",
+    "sun_scale": 0.04,
+    "probe_ev_shift": -2.5,
+    "probe_tags_changed": 48,
+    "assumption": "Lower probe EV100 tag = dimmer baked ambient. Unverified; a brighter in-game result means it is inverted.",
+    "source_iff_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+    "unchanged_compressed_entries": 19955,
+    "changed_archive_members": [
+      "level.SCNE"
+    ],
+    "archive_crc_verified": true
+  },
+  "postfx_unchanged": true
 }

@@ -253,7 +253,13 @@ blender --background --python tools/render_r13_material_current.py -- --views en
 
 保存测试用 IFF 身份、入口、结果和截图。只有用户确实测试了对应包，才能把 `game_tested` 改为 true；不能因为网页正常或报告全绿而改这个状态。
 
-## 10. 留存、迁移与继续工作
+## 10. N1 夜景基调（R13 之后）
+
+用户要求做夜景和场边灯带，先只测夜景基调，再单独试 A 字牌白色灯罩发光。`tools/night_lighting.py` 只改 `level.SCNE` 已有数值：`Light.Sun` 强度降为 1/25 并改冷色，`TIME_OF_DAY` 的 `VC_SkyIntensity`/`VC_SunIntensity` 降低，48 个 `LIGHT_PROBE_GRID_*_EV100` 下调 2.5 EV。`repair_iff.py` 在半场换端后调用它，所以完整构建会保留夜景；它会拒绝非原始白天数值，防止重复叠加。已有包用 `tools/patch_night_current.py` 补丁。PostEffect 仍强制与底包一致；`global_sun_and_postfx_unchanged` 因此改为 false，另记 `postfx_unchanged`。
+
+参考：室内底包 `arena_020_int_original.iff` 关闭太阳、使用 18 个 SPOT 和 4 个 AREA 灯，并有 `VC_IsNightOnly` 字段，可作为后续给球场加原生灯光的结构依据。项目自制材质（`asset_CLOD`）没有发光参数；底包发光物件使用带 Lightmap 技术的 `simplepbr_CLOD`，套用到自制模型存在旧黑屏风险，必须一处一处试。
+
+## 11. 留存、迁移与继续工作
 
 当前源、SVG、引用纹理、原始附件、必要底包、构建工具、当前验证记录以及唯一当前 IFF 应保留。只在新包、对应预览和必要近景验证完成后清理旧产物；临时回滚副本必须放项目内且在游戏加载目录、IFF 容器外，完成后遵循最新版本政策删除。
 

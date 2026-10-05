@@ -1,0 +1,369 @@
+{
+  "revision": "N1",
+  "scope": "level.SCNE values only: Light.Sun intensity/colour, TIME_OF_DAY sky and sun-disc intensity, light-probe EV100 tags.",
+  "unchanged": "Sun direction and shadows, TIME_OF_DAY enable flag and camera EV100, IBL cubemaps, PostEffect.FxTweakables, all geometry, materials and textures.",
+  "sun_scale": 0.04,
+  "probe_ev_shift": -2.5,
+  "probe_tags_changed": 48,
+  "assumption": "Lower probe EV100 tag = dimmer baked ambient. Unverified; a brighter in-game result means it is inverted.",
+  "before": {
+    "Light": {
+      "Sun": {
+        "Type": "DIRECTIONAL",
+        "Intensity": 110000.0,
+        "Color": [
+          0.87962234,
+          0.921581924,
+          1.0,
+          1.0
+        ],
+        "Attribute": {
+          "VC_IsActive": 1,
+          "VC_Direction": [
+            0.195801511,
+            -0.772746921,
+            0.603758276,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "VC_CastsShadows": 1,
+          "VC_EnableVolumetric": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_DPCFEnable": 1,
+          "VC_DPCFPenumbra": 5.0
+        },
+        "Rotate": [
+          3.14159274,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "TIME_OF_DAY": {
+      "Type": "MARKER",
+      "Attribute": {
+        "VC_Enabled": 0,
+        "VC_CourtReflectionsEnabled": 0,
+        "VC_SkyEnabled": 1,
+        "VC_SkyTextuteFadeToBlackEnabled": 0,
+        "VC_OzoneCoordinate": 0.180000007,
+        "VC_NorthAngle": 305.660309,
+        "VC_SkyIntensity": 1.0,
+        "VC_NightSkyIntensity": 0.5,
+        "VC_NightSkyTwilightIntensity": 1.0,
+        "VC_MoonColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "VC_MoonIntensity": 3.0,
+        "VC_SunColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "VC_SunIntensity": 1500.0,
+        "VC_MoonLightColor": [
+          0.300543845,
+          0.55834043,
+          1.0,
+          1.0
+        ],
+        "VC_MoonLightIntensity": 1.5,
+        "VC_NightSkyColor": [
+          0.187820747,
+          0.246201351,
+          0.679542542,
+          1.0
+        ],
+        "VC_NightSkyColorHorizon": [
+          0.617206514,
+          0.955973387,
+          0.982250392,
+          1.0
+        ],
+        "VC_NightEV100": 8.0,
+        "VC_AutomaticEV100Enabled": 0,
+        "VC_EV100": 14.8000002,
+        "VC_CurrentTime": 12.0,
+        "VC_TimeOfDayCloudsEnabled": 1,
+        "VC_CloudCountLayer0": 9,
+        "VC_CloudScaleLayer0": 25000.0,
+        "VC_CloudWindSpeedLayer0": 60.0,
+        "VC_CloudWindDirectionAngleLayer0": 4.32841635,
+        "VC_CloudCountLayer1": 9,
+        "VC_CloudScaleLayer1": 25000.0,
+        "VC_CloudWindSpeedLayer1": 60.0,
+        "VC_CloudWindDirectionAngleLayer1": 4.32841635,
+        "VC_CloudCountLayer2": 20,
+        "VC_CloudScaleLayer2": 25000.0,
+        "VC_CloudWindSpeedLayer2": 60.0,
+        "VC_CloudWindDirectionAngleLayer2": 4.32841635,
+        "VC_SunDiffractionEnable": 0,
+        "VC_SunGhostLensFlareEnable": 0,
+        "VC_SunDiffractionType": 1,
+        "VC_SunDiffractionRadius": 0.0700000003,
+        "VC_SunDiffractionIntensity": 3000.0,
+        "VC_SunGhostLensFlareIntensity": 1.0
+      }
+    },
+    "LIGHT_PROBE_GRID_DATA": {
+      "Type": "MARKER",
+      "Attribute": {
+        "VERSION": 4,
+        "USE_RELIGHTING": 0,
+        "USE_BORDER_BLENDING": 1,
+        "GRID_ORIGIN": [
+          -42000.0,
+          -2800.0,
+          -29600.0,
+          1.0
+        ],
+        "SECTOR_DIMENSIONS": [
+          7,
+          2,
+          6,
+          0
+        ],
+        "VISIBILITY_ATLAS_BLOCK_WIDTH": 16,
+        "VISIBILITY_ATLAS_BLOCK_HEIGHT": 16,
+        "LIGHT_PROBE_GRID_0_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_1_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_6_0_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_1_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_1_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_1_0_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_0_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_1_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_6_0_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_1_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_1_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_1_1_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_0_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_1_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_6_0_2_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_0_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_1_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_6_0_3_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_0_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_1_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_6_0_4_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_0_0_5_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_1_0_5_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_2_0_5_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_3_0_5_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_4_0_5_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_5_0_5_TIME_0000_EV100": 14.8000002,
+        "LIGHT_PROBE_GRID_6_0_5_TIME_0000_EV100": 14.8000002
+      }
+    }
+  },
+  "after": {
+    "Light": {
+      "Sun": {
+        "Type": "DIRECTIONAL",
+        "Intensity": 4400.0,
+        "Color": [
+          0.55,
+          0.68,
+          1.0,
+          1.0
+        ],
+        "Attribute": {
+          "VC_IsActive": 1,
+          "VC_Direction": [
+            0.195801511,
+            -0.772746921,
+            0.603758276,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "VC_CastsShadows": 1,
+          "VC_EnableVolumetric": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_DPCFEnable": 1,
+          "VC_DPCFPenumbra": 5.0
+        },
+        "Rotate": [
+          3.14159274,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "TIME_OF_DAY": {
+      "Type": "MARKER",
+      "Attribute": {
+        "VC_Enabled": 0,
+        "VC_CourtReflectionsEnabled": 0,
+        "VC_SkyEnabled": 1,
+        "VC_SkyTextuteFadeToBlackEnabled": 0,
+        "VC_OzoneCoordinate": 0.180000007,
+        "VC_NorthAngle": 305.660309,
+        "VC_SkyIntensity": 0.05,
+        "VC_NightSkyIntensity": 0.5,
+        "VC_NightSkyTwilightIntensity": 1.0,
+        "VC_MoonColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "VC_MoonIntensity": 3.0,
+        "VC_SunColor": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "VC_SunIntensity": 0.0,
+        "VC_MoonLightColor": [
+          0.300543845,
+          0.55834043,
+          1.0,
+          1.0
+        ],
+        "VC_MoonLightIntensity": 1.5,
+        "VC_NightSkyColor": [
+          0.187820747,
+          0.246201351,
+          0.679542542,
+          1.0
+        ],
+        "VC_NightSkyColorHorizon": [
+          0.617206514,
+          0.955973387,
+          0.982250392,
+          1.0
+        ],
+        "VC_NightEV100": 8.0,
+        "VC_AutomaticEV100Enabled": 0,
+        "VC_EV100": 14.8000002,
+        "VC_CurrentTime": 12.0,
+        "VC_TimeOfDayCloudsEnabled": 1,
+        "VC_CloudCountLayer0": 9,
+        "VC_CloudScaleLayer0": 25000.0,
+        "VC_CloudWindSpeedLayer0": 60.0,
+        "VC_CloudWindDirectionAngleLayer0": 4.32841635,
+        "VC_CloudCountLayer1": 9,
+        "VC_CloudScaleLayer1": 25000.0,
+        "VC_CloudWindSpeedLayer1": 60.0,
+        "VC_CloudWindDirectionAngleLayer1": 4.32841635,
+        "VC_CloudCountLayer2": 20,
+        "VC_CloudScaleLayer2": 25000.0,
+        "VC_CloudWindSpeedLayer2": 60.0,
+        "VC_CloudWindDirectionAngleLayer2": 4.32841635,
+        "VC_SunDiffractionEnable": 0,
+        "VC_SunGhostLensFlareEnable": 0,
+        "VC_SunDiffractionType": 1,
+        "VC_SunDiffractionRadius": 0.0700000003,
+        "VC_SunDiffractionIntensity": 3000.0,
+        "VC_SunGhostLensFlareIntensity": 1.0
+      }
+    },
+    "LIGHT_PROBE_GRID_DATA": {
+      "Type": "MARKER",
+      "Attribute": {
+        "VERSION": 4,
+        "USE_RELIGHTING": 0,
+        "USE_BORDER_BLENDING": 1,
+        "GRID_ORIGIN": [
+          -42000.0,
+          -2800.0,
+          -29600.0,
+          1.0
+        ],
+        "SECTOR_DIMENSIONS": [
+          7,
+          2,
+          6,
+          0
+        ],
+        "VISIBILITY_ATLAS_BLOCK_WIDTH": 16,
+        "VISIBILITY_ATLAS_BLOCK_HEIGHT": 16,
+        "LIGHT_PROBE_GRID_0_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_1_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_6_0_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_1_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_1_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_1_0_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_0_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_1_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_6_0_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_1_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_1_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_1_1_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_0_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_1_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_6_0_2_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_0_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_1_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_6_0_3_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_0_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_1_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_6_0_4_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_0_0_5_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_1_0_5_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_2_0_5_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_3_0_5_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_4_0_5_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_5_0_5_TIME_0000_EV100": 12.3,
+        "LIGHT_PROBE_GRID_6_0_5_TIME_0000_EV100": 12.3
+      }
+    }
+  },
+  "source_iff_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+  "unchanged_compressed_entries": 19955,
+  "changed_archive_members": [
+    "level.SCNE"
+  ],
+  "archive_crc_verified": true,
+  "output_sha256": "12efd7a280d5a3521e72434534cd16a2b1948777a58464ad66f06f2e9a3d531f",
+  "output_bytes": 1685622391,
+  "game_tested": false,
+  "checked_at": "2026-10-05T23:26:03Z"
+}
