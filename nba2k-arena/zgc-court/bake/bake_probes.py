@@ -41,6 +41,7 @@ import numpy as np
 from mathutils import Vector
 
 HERE = Path(__file__).resolve().parent
+PROJECT = HERE.parent   # nba2k-arena/zgc-court
 # Six cube-face look directions (Blender coordinates). Camera roll does not
 # matter: pixel directions are taken from the camera's actual matrix_world.
 FACES = [(1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0), (0, 0, 1), (0, 0, -1)]
@@ -81,6 +82,33 @@ def setup_gpu(force_cpu):
             continue
     scene.cycles.device = 'CPU'
     return 'CPU (no GPU backend found)'
+
+
+def relink_images():
+    """scene.blend stores absolute paths from the authoring PC (E:/CodexData/2karena/zgc-court/...).
+    Missing images render magenta in Cycles and would tint every bounce, so re-point
+    them at the same relative path inside this checkout."""
+    fixed, missing = [], []
+    for img in bpy.data.images:
+        if img.source != 'FILE' or img.packed_file is not None or not img.filepath:
+            continue
+        current = Path(bpy.path.abspath(img.filepath))
+        if current.exists():
+            continue
+        parts = img.filepath.replace('\\', '/').split('/')
+        candidate = None
+        for marker in ('zgc-court',):
+            if marker in parts:
+                candidate = PROJECT.joinpath(*parts[parts.index(marker) + 1:])
+        if candidate is not None and candidate.exists():
+            img.filepath = str(candidate)
+            img.reload()
+            fixed.append(img.name)
+        else:
+            missing.append(img.filepath)
+    print(f'[bake] relinked {len(fixed)} images', flush=True)
+    if missing:
+        raise RuntimeError('Images still missing (would render magenta): ' + ', '.join(missing))
 
 
 def setup_scene(res, samples):
@@ -251,6 +279,7 @@ def main():
             if line.strip():
                 row = json.loads(line)
                 done.add((row['sector'], row['id']))
+    relink_images()
     device = setup_gpu(args.cpu)
     cam = setup_scene(args.res, args.samples)
     groups = setup_lights(spec, wanted)

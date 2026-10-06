@@ -38,7 +38,8 @@ blender -b source/scene.blend -P bake/bake_probes.py -- --out bake/output/test.n
 正常会看到类似：
 
 ```text
-[bake] hidden 12 lights/cameras/helpers
+[bake] relinked 11 images
+[bake] hidden 4 lights/cameras/helpers
 [bake] device OPTIX: NVIDIA ...; 3 probes, 0 already done; groups ['a_signs', 'chilis', 'boots', 'floodlight']
 [bake] probe 1/3 id 2248 done (0.4 min)
 ...
@@ -46,6 +47,8 @@ blender -b source/scene.blend -P bake/bake_probes.py -- --out bake/output/test.n
 ```
 
 记下每个探针大概用了多久，乘以 568 就是总时长。如果报 `Light source objects not found in the .blend`，把报错截图发回来，不要自己改名。
+
+`.blend` 里的贴图存的是原作者 Windows 电脑上的绝对路径，脚本会自动改到仓库里的对应文件（`relinked N images`）。如果报 `images still missing`，说明 `git lfs pull` 没拉全，先重新拉取。参考速度：Apple M5 GPU 每个探针约 7–9 秒（第一次运行要额外编译着色器约 1 分钟）。
 
 ## 第二步：正式烘焙
 
