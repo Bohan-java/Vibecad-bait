@@ -1,0 +1,25 @@
+test_short_named_reference_is_followed (test_light_brick_inventory.CollectorTests.test_short_named_reference_is_followed) ... FAIL
+test_ambiguous_short_reference_is_not_guessed (test_light_brick_inventory.CollectorTests.test_ambiguous_short_reference_is_not_guessed) ... FAIL
+
+======================================================================
+FAIL: test_short_named_reference_is_followed (test_light_brick_inventory.CollectorTests.test_short_named_reference_is_followed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/light_research_v2/tools/test_light_brick_inventory.py", line 24, in test_short_named_reference_is_followed
+    self.assertIn('map.bin', collect_refs(selected))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'map.bin' not found in defaultdict(<class 'list'>, {})
+
+======================================================================
+FAIL: test_ambiguous_short_reference_is_not_guessed (test_light_brick_inventory.CollectorTests.test_ambiguous_short_reference_is_not_guessed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/mnt/data/light_research_v2/tools/test_light_brick_inventory.py", line 30, in test_ambiguous_short_reference_is_not_guessed
+    self.assertTrue(any(row['token'] == 'B0' for row in ambiguous))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=2)

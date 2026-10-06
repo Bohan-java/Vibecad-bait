@@ -1,0 +1,22 @@
+test_alias_missing_probe_skip_and_source_preserved (test_light_brick_inventory.CollectorTests.test_alias_missing_probe_skip_and_source_preserved) ... ok
+test_ambiguous_same_name_archive_member (test_light_brick_inventory.CollectorTests.test_ambiguous_same_name_archive_member) ... ok
+test_ambiguous_short_reference_is_not_guessed (test_light_brick_inventory.CollectorTests.test_ambiguous_short_reference_is_not_guessed) ... ok
+test_exact_cached_gzip_preserved_and_decoded (test_light_brick_inventory.CollectorTests.test_exact_cached_gzip_preserved_and_decoded) ... ok
+test_fragment_and_duplicate_keys (test_light_brick_inventory.CollectorTests.test_fragment_and_duplicate_keys) ... ok
+test_lfs_pointer_rejected (test_light_brick_inventory.CollectorTests.test_lfs_pointer_rejected) ... ok
+test_output_not_overwritten (test_light_brick_inventory.CollectorTests.test_output_not_overwritten) ... ok
+test_path_escape_rejected (test_light_brick_inventory.CollectorTests.test_path_escape_rejected) ... ok
+test_short_named_reference_is_followed (test_light_brick_inventory.CollectorTests.test_short_named_reference_is_followed) ... ok
+test_size_budget_does_not_mean_missing (test_light_brick_inventory.CollectorTests.test_size_budget_does_not_mean_missing) ... ok
+test_unsupported_scne_retains_raw (test_light_brick_inventory.CollectorTests.test_unsupported_scne_retains_raw) ... ok
+test_all_legacy_light_prefixes_are_removed (test_pipeline_contracts.PipelineContractTests.test_all_legacy_light_prefixes_are_removed) ... ok
+test_distinct_namespace_and_native_light_survive_cleanup (test_pipeline_contracts.PipelineContractTests.test_distinct_namespace_and_native_light_survive_cleanup) ... ok
+test_old_content_removed_from_all_five_sections (test_pipeline_contracts.PipelineContractTests.test_old_content_removed_from_all_five_sections) ... ok
+test_probe_data_restored_but_spatial_indices_retained (test_pipeline_contracts.PipelineContractTests.test_probe_data_restored_but_spatial_indices_retained) ... ok
+test_relighting_one_violates_current_probe_gate (test_pipeline_contracts.PipelineContractTests.test_relighting_one_violates_current_probe_gate) ... ok
+test_shared_resource_is_not_marked_orphaned (test_pipeline_contracts.PipelineContractTests.test_shared_resource_is_not_marked_orphaned) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.006s
+
+OK

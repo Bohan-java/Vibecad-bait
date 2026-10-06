@@ -1,0 +1,382 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>NBA 2K26 灯光研究报告 V2</title><style>
+:root{color-scheme:light;}*{box-sizing:border-box;}body{margin:0;background:#f4f5f7;color:#18222d;font:16px/1.85 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;}main{max-width:1100px;margin:32px auto;background:white;padding:54px 58px;border:1px solid #dce2e8;border-radius:8px;}h1{font-size:29px;line-height:1.45;margin:0 0 28px;}h2{font-size:23px;margin:44px 0 18px;padding-top:8px;border-top:1px solid #dce2e8;}h3{font-size:19px;margin:28px 0 12px;}p{margin:14px 0;}a{color:#205a97;text-decoration:none;overflow-wrap:anywhere;}a:hover{text-decoration:underline;}code{font-size:.88em;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;}p code,li code,td code{background:#eef1f4;padding:2px 4px;border-radius:3px;}pre{background:#f5f7f9;border:1px solid #dce2e8;padding:16px 18px;overflow:auto;line-height:1.55;}pre code{overflow-wrap:normal;white-space:pre;}table{border-collapse:collapse;width:100%;font-size:14px;margin:20px 0;}th,td{padding:11px 12px;text-align:left;vertical-align:top;border:1px solid #dce2e8;overflow-wrap:anywhere;}th{background:#edf2f6;}li{padding-left:3px;margin:10px 0;}blockquote{border-left:3px solid #547a9c;padding:0 18px;margin-left:0;}hr{border:0;border-top:1px solid #dce2e8;margin:26px 0;}footer{font-size:13px;margin-top:40px;color:#576778;border-top:1px solid #dce2e8;padding-top:18px;}@media(max-width:750px){main{margin:0;padding:24px 18px;border:0;border-radius:0;}h1{font-size:25px;}table{font-size:12px;}th,td{padding:8px 6px;}}@media print{body{background:white;}main{margin:0;padding:0;border:0;max-width:none;}h2,h3{break-after:avoid;}pre,table{font-size:11px;}a{color:inherit;}}
+</style></head><body><main><h1>NBA 2K26 原生灯光与 LIGHT_BRICK_MAP：第二轮研究报告</h1>
+<p><strong>项目：</strong> Bohan-java/Vibecad-bait · 中关村大融城球场<br />
+<strong>研究日期：</strong> 2026-10-06<br />
+<strong>研究基线：</strong> <code>大融城OG-Snippy-snoopy-Dingus-court</code>，提交 <code>92056876b32e7f383e591cedd25494747f48fea3</code><br />
+<strong>历史对照：</strong> N4，提交 <code>0f13c96577b723978f766b3aedc2356e546590ef</code><br />
+<strong>读者：</strong> 建模、材质、原生封装、测试及后续协作 AI<br />
+<strong>交付性质：</strong> 源码审计、照明机制分析、可复现实验设计及只读取证工具；尚未完成多灯索引表的二进制解码，尚无新增实时灯／新增动态阴影的本轮游戏验证。</p>
+<hr />
+<h2>1. 结论与下一步决策</h2>
+<p><strong>继续研究原生实时灯光有明确价值。当前第一优先级是让一个保留原生身份与配套引用的灯，在最终游戏文件里可控地生效，同时证明它没有被构建流程删掉。</strong></p>
+<p>本轮比第一轮多确定了三个直接影响实验可靠性的事项：</p>
+<ol>
+<li><strong>N16 会主动删除旧测试前缀下的灯。</strong> <code>strip_scene()</code> 清理 <code>zgc_n4:</code> 至当前夜景前缀以及旧诊断前缀，覆盖 <code>Light</code> 等五类内容；<code>patch_scene_current.py</code> 在重新生成夜景之前调用它。把旧诊断灯加回去再跑现有补丁，会在输出之前丢失该灯。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py">S1</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/patch_scene_current.py">S2</a></li>
+<li><strong>当前补丁明确假定探针 <code>USE_RELIGHTING == 0</code>。</strong> 随手把该值改为 1，会与 <code>_probe_gain()</code> 的断言冲突。它不能被当成已经证实的实时灯开关；引擎端实际含义仍需独立验证。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a></li>
+<li><strong>上一轮只读取证工具会忽略长度小于 5 的名称引用。</strong> 本轮用 <code>B0</code> 合成样本重现了漏提取，并修复为跟随非空、唯一精确名称引用；歧义继续明确报告。旧工具可能漏掉短名称引用，但本轮尚未证明实际球场使用此类短引用。</li>
+</ol>
+<p>这些发现<strong>不构成最初 N4 失败的完整根因</strong>。尤其 N16 清理规则属于后续流程，不能倒推为早期 N4 的失败原因。</p>
+<p>推荐推进顺序：</p>
+<pre><code class="language-text">确认最终文件保留实验灯与控制变量
+  → 验证已有原生灯在其已知有效场景中可控
+  → 保留身份和依赖关系，验证目标 Blacktop 的接入
+  → 再研究移位、影响范围与索引更新
+  → 最后独立验证新增动态阴影
+</code></pre>
+<p>不要把全部工作压在一个未经验证的命题上：<code>LIGHT_BRICK_MAP</code> 是否就是新灯被忽略的唯一原因，目前仍未确证。</p>
+<h2>2. 证据等级与当前交付状态</h2>
+<p>本报告采用四种证据标记：<strong>源码事实</strong>代表本轮直接读到的程序行为；<strong>项目历史记录</strong>代表仓库保存的此前游戏反馈；<strong>合成复现</strong>代表本轮用人工小样本执行的测试；<strong>研究假说</strong>代表仍需真实样本或游戏验证的解释。历史截图中的现象、程序注释、离线验证和游戏验证不能相互替代。</p>
+<p>当前 <code>validation/night-scene-current.json</code> 在研究提交中记录：<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/night-scene-current.json">S4</a></p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>文件中记载的值</th>
+<th>正确理解</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>revision</code></td>
+<td><code>N16</code></td>
+<td>当前夜景模块版本</td>
+</tr>
+<tr>
+<td><code>lights_added</code></td>
+<td><code>0</code></td>
+<td>此模块没有新增原生 <code>Light</code></td>
+</tr>
+<tr>
+<td>被修改的探针扇区</td>
+<td><code>LIGHT_PROBE_GRID_3_0_2_TIME_0000_PROBE_DATA</code></td>
+<td>当前增益照明的数据入口</td>
+</tr>
+<tr>
+<td>扇区记录数／改动记录数</td>
+<td>7,480／1,725</td>
+<td>项目报告的统计，本轮没有重新读取这些原始记录</td>
+</tr>
+<tr>
+<td>最大增益</td>
+<td>45.62724602952447</td>
+<td>探针乘数统计，不能当作光源流明数</td>
+</tr>
+<tr>
+<td><code>output_bytes</code></td>
+<td>1,686,988,259</td>
+<td>N16 报告记载的输出大小；旧交接首页的 R13 大小已不适用于此输出</td>
+</tr>
+<tr>
+<td><code>game_tested</code></td>
+<td><code>false</code></td>
+<td>N16 整包仍没有在这份报告中标记为已验收</td>
+</tr>
+<tr>
+<td><code>checked_at</code></td>
+<td><code>2026-10-06T07:14:37Z</code></td>
+<td>此报告的检查时间</td>
+</tr>
+</tbody>
+</table>
+<p>源码和报告保存了 N4 及高强度诊断无效果、LDIAG1 绑定后发光、探针增益照亮球员等历史结果。本轮没有重新启动游戏或独立重放这些场景。<code>iff-current.json</code> 仍保留 <code>confirmed_root_cause: false</code>。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/night-scene-current.json">S4</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/iff-current.json">S5</a></p>
+<h2>3. 现在场景里的“灯光”实际上由哪些部分组成</h2>
+<h3>3.1 灯具表面发光与泛光</h3>
+<p><code>_add_emitter()</code> 使用原生路灯发光材质，给新物体复制路灯 <code>UserData</code>，创建与物体同名的 <code>level.Texture</code>，写入独立 UV7 和 <code>Duv7</code>。项目历史记录中，缺少同名纹理绑定的诊断盒不亮，完整绑定的盒子发光并带泛光。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/night-scene-current.json">S4</a></p>
+<p><strong>这套绑定解决的是发光表面如何被该材质路径正确解释。</strong> 它与新增一个可投影的 <code>Light</code> 对象是不同的接口。48 字节 <code>UserData</code> 的每个字段还没有在本报告中解码；照抄这段数据的成功经验，也不能自动推广到灯的注册。</p>
+<h3>3.2 球员与地面的亮区来自预计算探针的修改</h3>
+<p>当前 <code>_probe_gain()</code> 从已有探针读入 SH 系数，按高斯区域施加增益、颜色变化和指向光源的 L1 分量。源代码对数据规定以下读取契约：<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a></p>
+<pre><code class="language-text">LIGHT_PROBE_GRID_DATA.Attribute:
+    VERSION = 4
+    USE_RELIGHTING = 0
+
+PROBE_DATA 描述:
+    Dimension = BYTEADDRESSBUFFER
+    Format = R32G32B32A32_FLOAT
+    Width = 7
+    Height = count
+    原始字节数 = count × 112
+
+每条记录:
+    28 个 little-endian float32
+    [0:3] 为第一组 RGB；第 4 个 float（索引 3）要求为零
+    后续 24 个 float 被按 8 组 RGB 处理
+</code></pre>
+<p>这里的 112 字节来自 <code>7 × 4 × 4</code>，属于<strong>探针记录</strong>。它没有建立 <code>LIGHT_BRICK_MAP</code> 的步长、字节序或字段含义。</p>
+<p>探针位置使用 <code>PROBE_POSITIONS + GRID_ORIGIN</code>；单元引用使用每单元 8 个 <code>uint32</code> 索引，以及一个字节的状态位。源码据此筛出实际被引用的探针。报告记录的 L1 轴顺序 <code>Y, Z, X</code> 来自项目 N14 游戏诊断；本轮没有重新校准引擎的 SH 符号、归一化或卷积约定。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/night-scene-current.json">S4</a></p>
+<h3>3.3 当前照明为什么容易“亮了，但没有真实灯的空间感”</h3>
+<p>下面是从代码得到的直接分析，范围限于当前自制探针增益算法：</p>
+<ul>
+<li><strong>发光强度与照射强度分开调。</strong> 发光表面由 <code>EMITTERS</code> 控制，附近亮区由 <code>PROBE_GAIN_REGIONS</code> / <code>WARM_GAIN_REGIONS</code> 控制；两者没有在这段实现中建立统一的能量换算。调亮字母本身，不会按同一物理模型自动增加门口的照度。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L1-L152">S6</a></li>
+<li><strong>亮区继承 donor 的原始探针能量。</strong> 代码使用 <code>changed[selected] *= multiplier[selected]</code>，新增 L1 的 <code>added_l0</code> 也乘以原始 <code>data[:, channel]</code>。因此增益与旧探针的能量和颜色耦合；某通道原值为零时，该写法不会凭增益创造该通道的 L0 能量。这是算法性质；当前 donor 每条记录的实际数值还需要另行读取。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a></li>
+<li><strong>新增几何的遮挡没有被这段算法重新计算。</strong> 高斯权重使用位置距离和高度淡出，没有对 Chili’s 墙面、围栏或门洞做光线可见性求解；报告也明确保持原有可见性数据不变。这解释了为什么继续堆高斯增益无法自动获得新墙体的准确遮光边界。游戏已有的其他阴影效果仍可能存在。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/night-scene-current.json">S4</a></li>
+</ul>
+<p>所以，玩家走到 A 字牌旁变亮，可以由既有探针方案产生。判断新增实时灯是否成功，必须固定探针与发光材质，只改变候选灯，并观察与该变化一致的直接受光响应。</p>
+<h3>3.4 新增直接光与新增动态阴影需分别验收</h3>
+<p>一盏灯的直接受光、镜面响应、阴影资源建立、动态物体参与遮挡，是不同的验证项。N4 的 SPOT 已包含 <code>VC_CastsShadows</code>、<code>VC_IgnoreDynamicCasters</code> 等字段，但仅有这些字段无法证明运行时成功分配了阴影资源。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/0f13c96577b723978f766b3aedc2356e546590ef/nba2k-arena/zgc-court/tools/night_scene.py">S7</a></p>
+<p>最终阴影验收应让球员或其他可控动态遮挡物跨过候选灯光路，观察接收面上与候选灯位置对应的阴影变化。仅凭脚底既有阴影、接触暗角、球员身上的明暗变化或场景泛光，都不足以单独确证新灯的动态投影。</p>
+<h2>4. 本轮新增发现：实验灯会被现有流水线清理</h2>
+<h3>4.1 源码链条</h3>
+<p>研究提交的 <code>night_scene.py</code> 定义：<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py">S1</a></p>
+<pre><code class="language-python">PREFIX = 'zgc_n16:'
+OLD_PREFIXES = (
+    'zgc_n4:', 'zgc_n5:', 'zgc_n6:',
+    'zgc_probe_emit:', 'zgc_diag_receiver:',
+    'zgc_n7:', 'zgc_n8:', 'zgc_n9:', 'zgc_n10:',
+    'zgc_n11:', 'zgc_n12:', 'zgc_n13:',
+    'zgc_n14:', 'zgc_n15:', PREFIX,
+)
+</code></pre>
+<p><code>strip_scene()</code> 的关键逻辑：<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py">S1</a></p>
+<pre><code class="language-python">for section in ('Object', 'Material', 'Light'):
+    for name in [k for k in level[section] if old(k)]:
+        del level[section][name]
+</code></pre>
+<p>同一函数也清理旧 <code>Model</code>、<code>Texture</code>，并恢复 R13 的探针数据描述。调用它的顺序是：<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/patch_scene_current.py">S2</a></p>
+<pre><code class="language-python">orphans = strip_scene(level, base_level)
+# 保存清理后的基线
+scene = apply_scene(level, current, extra)
+</code></pre>
+<p>而当前 <code>apply_scene()</code> 返回 <code>lights_added: 0</code>，没有把这些被删掉的实验灯重新加回来。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3</a></p>
+<h3>4.2 对下一轮实验的实际影响</h3>
+<p>若协作者沿用旧 N4 脚本加灯，随后运行当前完整夜景补丁，最终 IFF 可以加载正常、夜景也正常，但候选灯已经消失。这个现象很容易被误判为“游戏忽略新增灯”。</p>
+<p><strong>需要增加一道打包后检查：从真正要交给游戏的 IFF 再读取 SCNE，确认候选灯及其配套引用仍在。</strong> 检查源 Python 字典、编辑中的 SCNE 或 Blender 灯对象都不够。</p>
+<p>建议独立研究入口在生产夜景清理完成之后加入诊断；新增研究对象可使用与旧前缀无交集的名称，例如 <code>zgc_lbdiag_v1:</code>。该名称只为避免当前清理规则，完全不代表游戏认可此名称。复用已有原生灯槽时，应首先保留原生名称和原生关联，不能为了命名整齐先改掉身份。</p>
+<p>本报告随附 6 项合成流程测试，覆盖旧前缀清理、独立名称保留、五类内容清理、探针描述恢复、共享资源保护以及 relighting 断言。测试使用源码摘录和简化资源遍历桩，未运行完整项目封装或游戏。</p>
+<h2>5. N4 的注册问题：哪些已知，哪些仍是假说</h2>
+<p>N4 新灯已有 <code>vc_ingame_light: 1</code>、<code>VC_IsActive: 1</code>，全部设为 <code>VC_IsMovable: 0</code>。SPOT 也写了方向、锥角、阴影属性和世界位置。再次启用同样的布尔字段、再次加大强度，都没有解决新增的证据缺口。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/0f13c96577b723978f766b3aedc2356e546590ef/nba2k-arena/zgc-court/tools/night_scene.py">S7</a></p>
+<p>值得核对的具体关联是：</p>
+<pre><code class="language-text">Light 字典键：  zgc_n4:flood_upper
+VC_LocatorName：zgc_n4_flood_upper
+</code></pre>
+<p>N4 的这个补丁没有为候选灯显式创建同名定位节点。但以下两件事都尚未被证明：定位节点是否必须存在；灯键与 <code>VC_LocatorName</code> 是否应该相同。原生样本可能使用完全不同的组织规则，所以不要直接统一改名。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/0f13c96577b723978f766b3aedc2356e546590ef/nba2k-arena/zgc-court/tools/night_scene.py">S7</a></p>
+<table>
+<thead>
+<tr>
+<th>研究假说</th>
+<th>当前依据</th>
+<th>最有区分力的检查</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>灯根本没进入最终产物</td>
+<td>N16 有明确清理行为</td>
+<td>最终 IFF 提取，确认条目、属性与引用</td>
+</tr>
+<tr>
+<td>场景入口、模式或运行时覆盖不同</td>
+<td>当前测试目标是 Blacktop；原生 donor 来自另一场景</td>
+<td>在样本已经有效的同一入口先控制已有灯，再测试目标入口</td>
+</tr>
+<tr>
+<td>灯身份／定位／关联不完整</td>
+<td>N4 只追加定义，存在待核对的 locator 关系</td>
+<td>对照可控原生灯，保留身份与配套引用</td>
+</tr>
+<tr>
+<td>静态候选集没有包含新灯</td>
+<td>N4 设为静态且未同步索引</td>
+<td>先复用原生灯槽；再以真实表和受控差分检查成员关系</td>
+</tr>
+<tr>
+<td><code>VC_IsMovable</code> 选择另一条路径</td>
+<td>字段实际存在，N4 未测试值 1</td>
+<td>一个灯只改该项；不同时改表、位置、材质</td>
+</tr>
+<tr>
+<td>接收材质或渲染通道有差异</td>
+<td>项目存在不同静态／Lightmap／Presentation 路径</td>
+<td>对比已知可受光的原生接收物、球员与自制材质</td>
+</tr>
+<tr>
+<td>表实际用于其他光照环节</td>
+<td>本轮未取得消费该表的实际代码／字节</td>
+<td>追查实际读表者，区分直接光、探针重照明或其他用途</td>
+</tr>
+</tbody>
+</table>
+<p>这些解释可以同时存在。表未更新是有价值的候选，尚不具备排他性。</p>
+<h2>6. 对 LIGHT_BRICK_MAP 的研究需要怎样升级</h2>
+<h3>6.1 先确认谁读取这张表</h3>
+<p>第一轮重点是“拿样本做差分”。第二轮应增加<strong>反查读表代码</strong>：从真实 SCNE 的绑定、关联 <code>.fx</code> / 脚本 / shader 定位消费端，检查表是直接传给着色器，还是经过 CPU 解码或运行时重新生成后才使用。</p>
+<p>这一步可以避免两个误区：把探针重照明映射当成局部直接光索引；把 GPU 运行时展开后的布局直接当成磁盘上的压缩布局。</p>
+<p>若实际资源是 HLSL <code>ByteAddressBuffer</code>，微软定义只说明它按字节寻址，并支持不同宽度的 Load；资源名字或 <code>Format</code> 标签没有替项目定义业务字段。即使某份描述列出了 RGBA 格式，也不能据此推定每项一定是四个 float。<a href="https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/sm5-object-byteaddressbuffer">E1</a></p>
+<p>对于可识别、工具支持的已编译 HLSL，微软提供 <code>D3DDisassemble</code> 取得指令文本。这是调查读取偏移、位运算和边界检查的一条工具路线；它不承诺处理所有 2K 私有 shader 容器，也不代表本轮已经反汇编了游戏 shader。<a href="https://learn.microsoft.com/en-us/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble">E2</a></p>
+<p>若需要运行时图形捕获，应仅在允许捕获的本地测试环境中进行；捕获被环境阻止时就停止该路线，不修改反作弊。追查所有相关 draw / dispatch 的读写链，不能只检查球员材质的一个像素着色器。报告不预设 2K26 的具体渲染架构。</p>
+<h3>6.2 成对样本要记录什么</h3>
+<p>优先顺序是：已有可用原生灯的同版本样本；该样本的单灯参数对照；最后才是新增灯或空间重分配样本。网上“更好看的 Lighting Mod”可以提供线索，但要通过文件差分区分其改变了灯参数、探针、材质、后期，还是新增了注册数据。</p>
+<p>每份证据至少保存：原始 SCNE、灯条目的顺序和完整值、真实资源描述、实际引用名、包内／显式缓存解析情况、原始字节、gzip 魔数识别结果、加载入口和游戏版本。未解析引用、重复名称和预算跳过要分开列出。</p>
+<p>目前已有的室内 donor 路径为：</p>
+<pre><code class="language-text">nba2k-arena/donor/original/arena_020_int_original.iff
+</code></pre>
+<p>依赖清单／LFS 指针记载它为 45,028,875 字节；项目交接记录写有 18 个 SPOT 和 4 个 AREA。本轮没有重新数到这些原始灯，也未证明该文件包内包含全部外部照明资源。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/BUILD_DEPENDENCIES.json">S8</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/TRANSFER_GUIDE.md">S9</a></p>
+<p>Git LFS 指针与真实文件分离是正常机制，拿到指针不能当作读到了 IFF。此次真实 LFS 内容下载未成功，因此本报告没有具体的多灯表十六进制布局可展示。<a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage">E3</a></p>
+<h3>6.3 索引格式候选应当如何被证伪</h3>
+<p>以下列出候选编码族，尚未建立实际格式定义：</p>
+<table>
+<thead>
+<tr>
+<th>候选</th>
+<th>可以检查的可重复性质</th>
+<th>不能据此直接断言的内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>定长位图</td>
+<td>新增单个成员时少量 bit 改变；大小与候选容量有可解释关系</td>
+<td>bit 编号未必等于 SCNE 灯顺序</td>
+</tr>
+<tr>
+<td>固定槽位索引</td>
+<td>多块相同步长、可解释空槽、值域受稳定约束</td>
+<td><code>0</code> 可能既是有效 ID，也可能是空值</td>
+</tr>
+<tr>
+<td>offset/count 加索引池</td>
+<td>列表边界始终落在资源内，偏移和长度共同解释差分</td>
+<td>相邻两个整数碰巧合理不等于格式成立</td>
+</tr>
+<tr>
+<td>空间多级映射</td>
+<td>位置变化对应局部块变化，可解释范围／层级</td>
+<td>名称中的 brick 不能证明具体网格轴序或 Morton 编码</td>
+</tr>
+<tr>
+<td>运行时派生数据</td>
+<td>磁盘表与 GPU 缓冲有稳定转换关系</td>
+<td>GPU 值域不能直接用来覆盖磁盘文件</td>
+</tr>
+</tbody>
+</table>
+<p>特别要保留灯条目的原始顺序。实际索引可能针对全部声明灯、仅局部灯、仅活动灯、按类型分组后的灯或另一层资源 ID。Sun 是否占索引位也未知。把灯名排序后重新输出，会给这种研究引入额外变量。</p>
+<p>成对字节比较也要区分覆盖式修改与插入式修改：前端插入一个记录可能让后面所有偏移变化，普通逐字节 diff 会夸大改动范围。任何布局假说都应在另一份未用于推导的样本上复核，并先完成无修改往返与未知字节保留，再进入写回实验。</p>
+<h2>7. 最小实验安排：每一步都有停止条件</h2>
+<p>以下是顺序执行的实验矩阵，<strong>不要求一次交给用户所有候选</strong>。先在离线检查中排除无效文件，每轮只交一个候选与明确观察目标；确需对照时一起说明原版基线。</p>
+<table>
+<thead>
+<tr>
+<th>阶段</th>
+<th>只改变什么</th>
+<th>保持什么</th>
+<th>通过标准／失败后的去向</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>P0 最终文件核验</td>
+<td>不进游戏，仅检查交付 IFF</td>
+<td>所有生产内容</td>
+<td>候选灯、顺序、定位引用、资源条目确实仍在；不在则先修研究入口</td>
+</tr>
+<tr>
+<td>P1 控制一个已有灯</td>
+<td>现有灯的颜色；必要时强度零／非零另做一对</td>
+<td>名称、数量、类型、位置、表、探针、材质、后期</td>
+<td>在该样本已知有效入口出现对应变化；无变化先查入口／覆盖／绑定</td>
+</tr>
+<tr>
+<td>P2 验证目标接入</td>
+<td>将保留身份的原生灯及实际必要依赖接入研究副本</td>
+<td>当前场地、玩法锚点、篮架与材质</td>
+<td>Blacktop 中直接受光按候选灯变化；不要整份覆盖 donor SCNE</td>
+</tr>
+<tr>
+<td>P3 检查可移动路径</td>
+<td>单灯 <code>VC_IsMovable: 0 → 1</code></td>
+<td>其他灯参数和表</td>
+<td>若有可重复差异再追运行时登记；失败不能证明引擎不支持</td>
+</tr>
+<tr>
+<td>P4 空间与范围</td>
+<td>位置或范围其中一项</td>
+<td>灯身份、其他参数</td>
+<td>比较旧覆盖区与新覆盖区；异常截断是索引范围假说的线索</td>
+</tr>
+<tr>
+<td>P5 新增成员</td>
+<td>单个新灯及已理解的登记数据</td>
+<td>已通过的灯与控制区域</td>
+<td>原有灯保持正确，新灯可控；检查编号、容量和溢出</td>
+</tr>
+<tr>
+<td>P6 动态投影</td>
+<td>在已通过直接受光的灯下移动遮挡物</td>
+<td>探针、相机、后期</td>
+<td>接收面出现与该灯对应的动态阴影；单独记录比赛与回放</td>
+</tr>
+</tbody>
+</table>
+<p>P2 有一项必须前置核对：<strong>原生灯原有影响范围是否覆盖目标测试位置。</strong> 为保留表而完全不移动灯，可能让它照在球场之外；一口气把灯搬到 Chili’s 门口，又会把空间映射问题混入首次接入验证。先查原有坐标与覆盖范围，再选测试区域。</p>
+<p>项目自制场景有 180° 对象变换，代码记录模型空间 <code>(x,y,z)</code> 显示为世界 <code>(-x,y,-z)</code>。诊断中所有灯位置、光锥方向、AREA 端点、locator 及网格范围都应注明坐标空间，避免重复旋转或遗漏旋转。保留原生样本契约，再验证每个字段的空间含义。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L1-L152">S6</a> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/0f13c96577b723978f766b3aedc2356e546590ef/nba2k-arena/zgc-court/tools/night_scene.py">S7</a></p>
+<h2>8. 新增最终文件检查门槛</h2>
+<p>后续研究候选在交给游戏前应逐项通过：</p>
+<p><strong>产物身份：</strong> 从实际交付路径读取，不从缓存的中间 SCNE 推断；记录已有版本信息和输出字节数，不触发整包重新哈希。</p>
+<p><strong>实验内容：</strong> 候选灯存在且唯一；关键参数等于计划值；灯序列／原有条目数量变化符合实验；同名或短名称引用无未解释歧义。研究名前缀不受当前 cleanup 影响，复用的原生灯保留其原生身份。</p>
+<p><strong>依赖：</strong> 所有所需条目的包内／缓存来源可解释；<code>.gz</code> 引用到 <code>.bin</code> 成员的别名保留；压缩处理依据真实头部。仅通过 CRC 或 ZIP 打开，不代表引擎读取了正确资源。<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/iff_codec.py">S10</a></p>
+<p><strong>控制变量：</strong> 材质、SH 探针、曝光、天空、PostEffect、地面深度与篮架资源没有混入非计划修改。修改 <code>USE_RELIGHTING</code> 的实验与当前要求该值为 0 的探针补丁隔离。不要通过删除全部断言来强行继续构建。</p>
+<p><strong>验收状态：</strong> 离线解析、最终 IFF 存在性检查、直接受光游戏结果和动态阴影游戏结果分别记载；没有对应游戏测试就保持未验证。</p>
+<h2>9. 只读取证工具修订与实测范围</h2>
+<p>随附 <code>tools/light_brick_inventory.py</code> 升级为 <strong>1.1</strong>。沿用 Python 3.10+ 标准库方案，输入只读，不导入生产构建模块，不计算项目整文件哈希，不递归扫描游戏目录，不覆盖已有输出目录。</p>
+<p>修复如下：</p>
+<pre><code class="language-diff">- if token in seen_tokens or len(token) &lt; 5:
++ if token in seen_tokens or not token:
+</code></pre>
+<p>原实现会忽略例如 <code>LIGHT_BRICK_MAP → B0 → Binary</code> 的短名称链。先以未修复代码运行两个新增测试，结果均失败；修复后，<strong>11 项取证测试与 6 项流程契约测试，共 17 项通过</strong>。原始终端日志见 <code>evidence/v1_short_reference_regression.txt</code>、<code>evidence/synthetic_tests_v2.txt</code>。</p>
+<p>这个结果限定为合成数据验证。它没有证明真实 IFF 的全部依赖已可解析，更没有证明已解码多灯表。工具对于多个同名候选仍报告歧义；它不会自行猜选。没有解析到资源的结果也不等于游戏里没有该资源。</p>
+<p>建议把本报告目录作为一个独立研究目录，例如 <code>nba2k-arena/zgc-court/docs/light-brick-research/</code>，保持其 <code>tools/</code> 与 <code>evidence/</code> 相对位置。现有生产脚本不需要因此被替换。</p>
+<p>从仓库的 <code>nba2k-arena</code> 目录运行：</p>
+<pre><code class="language-powershell">python -X utf8 zgc-court/docs/light-brick-research/tools/light_brick_inventory.py --workspace . --iff &quot;donor/original/arena_020_int_original.iff&quot; --cache-root &quot;build/local_game_reference&quot; --out &quot;zgc-court/.build-staging/light-research-v2/indoor&quot;
+</code></pre>
+<pre><code class="language-powershell">python -X utf8 zgc-court/docs/light-brick-research/tools/light_brick_inventory.py --workspace . --iff &quot;zgc-court/output/arena_700_int.iff&quot; --cache-root &quot;build/local_game_reference&quot; --out &quot;zgc-court/.build-staging/light-research-v2/current&quot;
+</code></pre>
+<p>缓存目录若本地不存在，去掉 <code>--cache-root</code> 及其值。输出必须是新目录。已有、可合法使用的有效灯光样本先放入项目内，再以它的准确路径执行同样提取。必要时通过 <code>--scene</code> 选择清单中实际出现的其他 SCNE。</p>
+<p>重新执行测试：</p>
+<pre><code class="language-powershell">python -m unittest discover -s zgc-court/docs/light-brick-research/tools -p &quot;test_*.py&quot; -v
+</code></pre>
+<p>提取结果包含原始 SCNE、保留重复键的诊断视图、资源引用及解析状态、预算内的原始字节。<code>selected.ordered-pairs.json</code> 是诊断视图，<strong>不能直接替换游戏中的 SCNE</strong>。只提取字节数预算之内的文件；预算跳过与缺失分别记载。</p>
+<h2>10. 如何在索引研究期间继续提升成品</h2>
+<p>生产夜景与原生灯实验应保持分离。保留已经工作的灯牌发光路径，避免为了测试实时灯再次更换所有材质、地面或后期。现有高斯探针光可承担环境氛围，但精细门洞投光、围栏遮挡和新增玩家投影，应归入各自需要验证的路径。</p>
+<p>为本场景推进完整品质，可按以下职责分工：</p>
+<table>
+<thead>
+<tr>
+<th>工作</th>
+<th>交付内容</th>
+<th>不应宣称的结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>原生灯接入</td>
+<td>一个可控灯槽、完整引用及单变量受光测试</td>
+<td>仅有发光表面就叫实时灯成功</td>
+</tr>
+<tr>
+<td>索引反解</td>
+<td>样本、消费端证据、字段假说、往返测试与独立样本验证</td>
+<td>只有合理整数统计就叫格式已破解</td>
+</tr>
+<tr>
+<td>静态照明</td>
+<td>新几何对应的遮挡与烘焙效果、材质接收路径验证</td>
+<td>烘焙结果能自动产生新增动态投影</td>
+</tr>
+<tr>
+<td>游戏验收</td>
+<td>最终文件、入口、相机、设置及成对结果记录</td>
+<td>网页预览或 CRC 通过就算游戏成功</td>
+</tr>
+</tbody>
+</table>
+<h2>11. 本轮交付边界</h2>
+<p>本轮完成：重新读取 N4／N16 源码与当前验证记录；定位清理顺序和 relighting 断言冲突；分析发光与探针增益的独立控制及 donor 能量耦合；补充消费端追查和逐步实验设计；修复只读取证器的短名称引用遗漏；实际执行并保存 17 项合成测试结果。</p>
+<p>本轮未完成：取得真实 donor 的多灯表字节、证实该表的唯一用途、编写经过样本验证的索引编码器、执行游戏或图形捕获、交付已验证的实时灯补丁。</p>
+<p>已有 donor 的真实 LFS 内容与一个已知有效的灯光样本，仍是二进制反解所需输入。此次 GitHub 文本读取能提供源码和 LFS 指针，但未成功取得实际 IFF；大型历史 SCNE 的读取也未获得完整正文。不能把访问限制写成文件损坏、样本不存在或引擎能力不足。</p>
+<p><strong>下一轮的成功标准：最终 IFF 中保留的一个候选原生灯，在控制其他照明数据后，产生可重复的直接受光变化。通过这个门槛后，再扩大到任意位置加灯与动态阴影。</strong></p>
+<h2>12. 可复核来源</h2>
+<p>以下项目链接固定到研究提交，避免分支后续更新改变证据含义。后续协作者应核对自己使用的提交，并将新的游戏结果作为单独证据追加。</p>
+<p><strong>源码索引：</strong> <a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py">S1：前缀／清理</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/patch_scene_current.py">S2：补丁执行顺序</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L193-L355">S3：发光绑定／探针算法</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/night-scene-current.json">S4：N16 验证记录</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/validation/iff-current.json">S5：总报告</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/night_scene.py#L1-L152">S6：参数与坐标</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/0f13c96577b723978f766b3aedc2356e546590ef/nba2k-arena/zgc-court/tools/night_scene.py">S7：N4 追加灯代码</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/BUILD_DEPENDENCIES.json">S8：donor 依赖</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/TRANSFER_GUIDE.md">S9：项目测试历史</a>；<a href="https://github.com/Bohan-java/Vibecad-bait/blob/92056876b32e7f383e591cedd25494747f48fea3/nba2k-arena/zgc-court/tools/iff_codec.py">S10：SCNE／二进制别名</a>。</p>
+<p><strong>外部资料：</strong> <a href="https://learn.microsoft.com/en-us/windows/win32/direct3dhlsl/sm5-object-byteaddressbuffer">E1：ByteAddressBuffer</a>；<a href="https://learn.microsoft.com/en-us/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3ddisassemble">E2：D3DDisassemble</a>；<a href="https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage">E3：Git LFS</a>；<a href="https://github.com/PWMods/NBA_Model_SCNE">E4：NBA2K Scene Reader / 2K26 支持分支</a>。E4 的公开说明面向 SCNE 场景／模型读取；本轮检索没有找到可核验的 <code>LIGHT_BRICK_MAP</code> 写入实现，不能由“支持 2K26”推导出“支持重建多灯索引”。公开检索未找到实现，也不证明社区不存在可用方法。</p>
+<footer>研究报告与合成测试；真实多灯表及游戏验证仍待取得。仓库发布尝试返回 403，本报告当前以文件交付。</footer></main></body></html>
