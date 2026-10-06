@@ -1,287 +1,610 @@
 {
-  "revision": "N4",
+  "revision": "N16",
+  "emitter_template": "light_lamppost_genericb:light_mat",
+  "emitter_binding": {
+    "userdata": "AACAPwAAAAAAAAAAAAAAAEAAEFBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    "object_name_texture_from": "park_streetball_a_master@park_rucker_ext_shared@GameObjects@GameObjectGroup_121@light_lamppost_genericb_19:light_lamppost_genericb_low",
+    "uv7": "independent, inside [0.03, 0.97]"
+  },
   "emitters": {
     "flood_lens": {
-      "colour": [
+      "colour_linear": [
         1.0,
-        0.97,
-        0.9
+        0.93,
+        0.8
       ],
-      "intensity": 150000.0
+      "intensity": 5250.0
     },
     "a_sign": {
-      "colour": [
+      "colour_linear": [
         1.0,
         1.0,
         1.0
       ],
-      "intensity": 60000.0
+      "intensity": 7000.0
     },
     "chilis_letters": {
-      "colour": [
+      "colour_linear": [
         1.0,
-        0.35,
-        0.08
+        0.24,
+        0.03
       ],
-      "intensity": 40000.0
+      "intensity": 16000.0
     },
     "chilis_pepper": {
-      "colour": [
+      "colour_linear": [
+        0.35,
         1.0,
-        0.12,
-        0.06
+        0.22
       ],
-      "intensity": 40000.0
+      "intensity": 28000.0
     },
     "warm_strip": {
-      "colour": [
+      "colour_linear": [
         1.0,
-        0.85,
-        0.65
+        0.8,
+        0.55
       ],
-      "intensity": 30000.0
+      "intensity": 28000.0
     },
     "logo_letters": {
-      "colour": [
+      "colour_linear": [
         1.0,
-        0.4,
-        0.1
+        0.24,
+        0.03
       ],
-      "intensity": 30000.0
+      "intensity": 16000.0
     },
     "boots_letters": {
-      "colour": [
+      "colour_linear": [
         1.0,
         0.9,
         0.75
       ],
-      "intensity": 25000.0
+      "intensity": 28000.0
     },
-    "fence_led": {
-      "colour": [
-        0.85,
-        0.92,
-        1.0
+    "interior_back": {
+      "colour_linear": [
+        1.0,
+        0.55,
+        0.2
       ],
-      "intensity": 50000.0
+      "intensity": 4900.0
+    },
+    "interior_timber": {
+      "colour_linear": [
+        1.0,
+        0.5,
+        0.18
+      ],
+      "intensity": 3500.0
     }
   },
-  "emitter_template": "light_lamppost_genericb:light_mat",
   "overlays": [
     {
-      "model": "zgc_n4:glow-part-0073",
+      "model": "zgc_n16:glow-part-0073",
       "source": "zgc_r03:part-0073",
       "emitter": "flood_lens",
       "vertices": 1080,
       "triangles": 540
     },
     {
-      "model": "zgc_n4:glow-part-0611",
+      "model": "zgc_n16:glow-part-0611",
       "source": "zgc_r03:part-0611",
       "emitter": "a_sign",
       "vertices": 126,
       "triangles": 176
     },
     {
-      "model": "zgc_n4:glow-part-0612",
+      "model": "zgc_n16:glow-part-0612",
       "source": "zgc_r03:part-0612",
       "emitter": "a_sign",
       "vertices": 126,
       "triangles": 176
     },
     {
-      "model": "zgc_n4:glow-part-0619",
+      "model": "zgc_n16:glow-part-0619",
       "source": "zgc_r03:part-0619",
       "emitter": "a_sign",
       "vertices": 726,
       "triangles": 1448
     },
     {
-      "model": "zgc_n4:glow-part-0620",
+      "model": "zgc_n16:glow-part-0620",
       "source": "zgc_r03:part-0620",
       "emitter": "a_sign",
       "vertices": 726,
       "triangles": 1448
     },
     {
-      "model": "zgc_n4:glow-part-0621",
+      "model": "zgc_n16:glow-part-0621",
       "source": "zgc_r03:part-0621",
       "emitter": "a_sign",
       "vertices": 726,
       "triangles": 1448
     },
     {
-      "model": "zgc_n4:glow-part-0622",
+      "model": "zgc_n16:glow-part-0622",
       "source": "zgc_r03:part-0622",
       "emitter": "a_sign",
       "vertices": 726,
       "triangles": 1448
     },
     {
-      "model": "zgc_n4:glow-part-0439",
+      "model": "zgc_n16:glow-part-0439",
       "source": "zgc_r03:part-0439",
       "emitter": "chilis_letters",
       "vertices": 1464,
       "triangles": 944
     },
     {
-      "model": "zgc_n4:glow-part-0446",
+      "model": "zgc_n16:glow-part-0446",
       "source": "zgc_r03:part-0446",
       "emitter": "chilis_pepper",
       "vertices": 216,
       "triangles": 140
     },
     {
-      "model": "zgc_n4:glow-part-0096",
+      "model": "zgc_n16:glow-part-0096",
       "source": "zgc_r03:part-0096",
       "emitter": "warm_strip",
       "vertices": 48,
       "triangles": 24
     },
     {
-      "model": "zgc_n4:glow-part-0140",
+      "model": "zgc_n16:glow-part-0140",
       "source": "zgc_r03:part-0140",
       "emitter": "warm_strip",
       "vertices": 48,
       "triangles": 24
     },
     {
-      "model": "zgc_n4:glow-part-0079",
+      "model": "zgc_n16:glow-part-0079",
       "source": "zgc_r03:part-0079",
       "emitter": "logo_letters",
       "vertices": 488,
       "triangles": 944
     },
     {
-      "model": "zgc_n4:glow-part-0138",
+      "model": "zgc_n16:glow-part-0138",
       "source": "zgc_r03:part-0138",
       "emitter": "logo_letters",
       "vertices": 488,
       "triangles": 944
     },
     {
-      "model": "zgc_n4:glow-part-0181",
+      "model": "zgc_n16:glow-part-0181",
       "source": "zgc_r03:part-0181",
       "emitter": "boots_letters",
       "vertices": 4512,
       "triangles": 7896
+    },
+    {
+      "model": "zgc_n16:glow-part-0101",
+      "source": "zgc_r03:part-0101",
+      "emitter": "interior_back",
+      "vertices": 130,
+      "triangles": 128
+    },
+    {
+      "model": "zgc_n16:glow-part-0102",
+      "source": "zgc_r03:part-0102",
+      "emitter": "interior_timber",
+      "vertices": 706,
+      "triangles": 416
     }
   ],
-  "fence_strips": {
-    "fence_led_end": {
-      "min": [
-        -914.0,
-        67.0,
-        -1609.5
-      ],
-      "max": [
-        914.0,
-        69.0,
-        -1606.5
-      ]
-    },
-    "fence_led_north": {
-      "min": [
-        915.5,
-        67.0,
-        -1605.0
-      ],
-      "max": [
-        918.5,
-        69.0,
-        -483.0
-      ]
-    },
-    "fence_led_south": {
-      "min": [
-        -918.5,
-        67.0,
-        -1605.0
-      ],
-      "max": [
-        -915.5,
-        69.0,
-        -283.0
-      ]
+  "cornice_reflections": {
+    "source": "zgc_r03:part-0105",
+    "material_template": "light_lampsconce_swirls:light_lampsconce_swirls_mat",
+    "world_x_range": [
+      -143.0,
+      983.0
+    ],
+    "bands": {
+      "below": {
+        "faces": 4,
+        "intensity": 1600.0,
+        "blur_sigma_cm": 7.0
+      },
+      "above_1": {
+        "faces": 6,
+        "intensity": 2400.0,
+        "blur_sigma_cm": 6.0
+      },
+      "above_2": {
+        "faces": 9,
+        "intensity": 1500.0,
+        "blur_sigma_cm": 8.0
+      },
+      "above_3": {
+        "faces": 6,
+        "intensity": 900.0,
+        "blur_sigma_cm": 10.0
+      }
     }
   },
-  "lights": {
-    "zgc_n4:flood_upper": {
-      "type": "SPOT",
-      "intensity": 4000000.0,
-      "translate": [
-        975.0,
-        1035.0,
-        420.0
-      ]
+  "lit_windows": {
+    "link": {
+      "parts": [
+        "zgc_r03:part-0008",
+        "zgc_r03:part-0006"
+      ],
+      "floors": 5,
+      "lit_windows": 117,
+      "cells": 320,
+      "intensity": 5000.0,
+      "texture_height": 64
     },
-    "zgc_n4:flood_lower": {
-      "type": "SPOT",
-      "intensity": 4000000.0,
-      "translate": [
-        975.0,
-        975.0,
-        420.0
-      ]
+    "blue_white": {
+      "parts": [
+        "zgc_r03:part-0315",
+        "zgc_r03:part-0316",
+        "zgc_r03:part-0317"
+      ],
+      "floors": 11,
+      "lit_windows": 230,
+      "cells": 704,
+      "intensity": 8000.0,
+      "texture_height": 128
     },
-    "zgc_n4:fill_left": {
-      "type": "SPOT",
-      "intensity": 1200000.0,
-      "translate": [
-        -1800.0,
-        1400.0,
-        700.0
-      ]
+    "curved_green": {
+      "parts": [
+        "zgc_r03:part-0323",
+        "zgc_r03:part-0324",
+        "zgc_r03:part-0325"
+      ],
+      "floors": 12,
+      "lit_windows": 245,
+      "cells": 768,
+      "intensity": 8000.0,
+      "texture_height": 128
     },
-    "zgc_n4:chilis_spill": {
-      "type": "SPOT",
-      "intensity": 300000.0,
-      "translate": [
-        420.0,
-        450.0,
-        2050.0
-      ]
+    "ifc": {
+      "parts": [
+        "zgc_r03:part-0396",
+        "zgc_r03:part-0397",
+        "zgc_r03:part-0398"
+      ],
+      "floors": 20,
+      "lit_windows": 410,
+      "cells": 1280,
+      "intensity": 8000.0,
+      "texture_height": 256
     },
-    "zgc_n4:fence_led_end": {
-      "type": "AREA",
-      "intensity": 150000.0,
-      "translate": [
+    "new_oriental": {
+      "parts": [
+        "zgc_r03:part-0406",
+        "zgc_r03:part-0407",
+        "zgc_r03:part-0408"
+      ],
+      "floors": 15,
+      "lit_windows": 269,
+      "cells": 960,
+      "intensity": 8000.0,
+      "texture_height": 128
+    },
+    "new_zhongguan": {
+      "parts": [
+        "zgc_r03:part-0416",
+        "zgc_r03:part-0417",
+        "zgc_r03:part-0418"
+      ],
+      "floors": 13,
+      "lit_windows": 267,
+      "cells": 832,
+      "intensity": 8000.0,
+      "texture_height": 128
+    },
+    "sinosteel": {
+      "parts": [
+        "zgc_r03:part-0428"
+      ],
+      "floors": 29,
+      "lit_windows": 590,
+      "cells": 1856,
+      "intensity": 8000.0,
+      "texture_height": 256
+    }
+  },
+  "probe_gain": {
+    "method": "scalar gain of whole 28-float probe records (LDIAG1-verified); warm regions tinted per assumed RGB triple",
+    "regions": [
+      {
+        "label": "court_base_south",
+        "center_cm": [
+          0.0,
+          150.0,
+          -700.0
+        ],
+        "inner_radius_cm": 600.0,
+        "outer_radius_cm": 1200.0,
+        "gain": 1.6
+      },
+      {
+        "label": "court_base_north",
+        "center_cm": [
+          0.0,
+          150.0,
+          700.0
+        ],
+        "inner_radius_cm": 600.0,
+        "outer_radius_cm": 1200.0,
+        "gain": 1.6
+      },
+      {
+        "label": "a_sign_east",
+        "center_cm": [
+          800.0,
+          150.0,
+          950.0
+        ],
+        "sigma_cm": 320.0,
+        "gain": 30.0,
+        "tint": [
+          0.92,
+          0.97,
+          1.0
+        ],
+        "source_cm": [
+          906.0,
+          200.0,
+          950.0
+        ]
+      },
+      {
+        "label": "a_sign_west",
+        "center_cm": [
+          -800.0,
+          150.0,
+          1190.0
+        ],
+        "sigma_cm": 320.0,
+        "gain": 30.0,
+        "tint": [
+          0.92,
+          0.97,
+          1.0
+        ],
+        "source_cm": [
+          -906.0,
+          200.0,
+          1190.0
+        ]
+      },
+      {
+        "label": "flood_pool",
+        "center_cm": [
+          975.0,
+          0.0,
+          420.0
+        ],
+        "sigma_cm": 550.0,
+        "gain": 2.5,
+        "tint": [
+          1.0,
+          0.9,
+          0.78
+        ],
+        "source_cm": [
+          975.0,
+          1000.0,
+          420.0
+        ]
+      }
+    ],
+    "tinted_regions": [
+      {
+        "label": "chilis_interior",
+        "center_cm": [
+          420.0,
+          120.0,
+          2200.0
+        ],
+        "sigma_cm": 420.0,
+        "gain": 24.0,
+        "tint": [
+          1.0,
+          0.58,
+          0.25
+        ],
+        "y_fade": [
+          200.0,
+          380.0
+        ],
+        "source_cm": [
+          420.0,
+          180.0,
+          2180.0
+        ]
+      },
+      {
+        "label": "chilis_door_west",
+        "center_cm": [
+          50.0,
+          50.0,
+          2030.0
+        ],
+        "sigma_cm": 450.0,
+        "gain": 10.0,
+        "tint": [
+          1.0,
+          0.58,
+          0.25
+        ],
+        "y_fade": [
+          200.0,
+          380.0
+        ],
+        "source_cm": [
+          420.0,
+          180.0,
+          2180.0
+        ]
+      },
+      {
+        "label": "chilis_door_mid",
+        "center_cm": [
+          420.0,
+          50.0,
+          2030.0
+        ],
+        "sigma_cm": 450.0,
+        "gain": 10.0,
+        "tint": [
+          1.0,
+          0.58,
+          0.25
+        ],
+        "y_fade": [
+          200.0,
+          380.0
+        ],
+        "source_cm": [
+          420.0,
+          180.0,
+          2180.0
+        ]
+      },
+      {
+        "label": "chilis_door_east",
+        "center_cm": [
+          800.0,
+          50.0,
+          2030.0
+        ],
+        "sigma_cm": 450.0,
+        "gain": 10.0,
+        "tint": [
+          1.0,
+          0.58,
+          0.25
+        ],
+        "y_fade": [
+          200.0,
+          380.0
+        ],
+        "source_cm": [
+          420.0,
+          180.0,
+          2180.0
+        ]
+      },
+      {
+        "label": "chilis_entry_broad",
+        "center_cm": [
+          420.0,
+          50.0,
+          1900.0
+        ],
+        "sigma_cm": 700.0,
+        "gain": 5.0,
+        "tint": [
+          1.0,
+          0.58,
+          0.25
+        ],
+        "y_fade": [
+          200.0,
+          380.0
+        ],
+        "source_cm": [
+          420.0,
+          180.0,
+          2180.0
+        ]
+      },
+      {
+        "label": "chilis_terrace",
+        "center_cm": [
+          1550.0,
+          150.0,
+          2800.0
+        ],
+        "sigma_cm": 400.0,
+        "gain": 8.0,
+        "tint": [
+          1.0,
+          0.58,
+          0.25
+        ],
+        "y_fade": [
+          200.0,
+          380.0
+        ],
+        "source_cm": [
+          1633.0,
+          250.0,
+          2800.0
+        ]
+      },
+      {
+        "label": "boots_facade",
+        "center_cm": [
+          1550.0,
+          150.0,
+          1442.0
+        ],
+        "sigma_cm": 350.0,
+        "gain": 6.0,
+        "tint": [
+          1.0,
+          0.82,
+          0.6
+        ],
+        "source_cm": [
+          1610.0,
+          290.0,
+          1442.0
+        ]
+      }
+    ],
+    "cool_grade": {
+      "center_cm": [
         0.0,
-        75.0,
-        1608.0
+        0.0,
+        500.0
+      ],
+      "inner_radius_cm": 2500.0,
+      "outer_radius_cm": 3500.0,
+      "rgb": [
+        0.7,
+        0.85,
+        1.08
       ]
     },
-    "zgc_n4:fence_led_north": {
-      "type": "AREA",
-      "intensity": 150000.0,
-      "translate": [
-        -917.0,
-        75.0,
-        1044.0
-      ]
-    },
-    "zgc_n4:fence_led_south": {
-      "type": "AREA",
-      "intensity": 150000.0,
-      "translate": [
-        917.0,
-        75.0,
-        944.0
-      ]
-    }
+    "directionality": 0.85,
+    "l1_order": "Y, Z, X (N14 game diagnostic)",
+    "sectors": [
+      {
+        "texture": "LIGHT_PROBE_GRID_3_0_2_TIME_0000_PROBE_DATA",
+        "records": 7480,
+        "changed_records": 1725,
+        "gain_max": 45.62724602952447,
+        "member": "light_probe_grid_3_0_2_time_0000_probe_data.715d4bbd3ab55cdf.bin"
+      }
+    ],
+    "unchanged": "positions, cell indices/states, visibility atlas, EV100 tags, USE_RELIGHTING"
   },
-  "unchanged": "All pre-existing models, objects, materials, textures and lights; new content only under zgc_n4:.",
-  "unverified": "Emissive output of a lightmap-only native material on custom static geometry, and native light intensity units at EV100 14.8.",
-  "source_iff_sha256": "4eb36acd0f2ed47f9000f256a432eafbf640c821d47dcfaf4b122cbce705f76e",
-  "unchanged_compressed_entries": 19980,
-  "added_archive_members": 0,
-  "removed_previous_n4_members": 0,
+  "lights_added": 0,
+  "previous_game_results": [
+    "N4 and its 100x saturated-colour light diagnostic: added SPOT/AREA lights show nothing in Blacktop.",
+    "N5/N6: scoreboard-shader surfaces render but look flat; transparent halo cards look wrong.",
+    "LDIAG1: same-name-texture-bound lamp emitter glows with bloom; unbound does not; probe gain lights floor, static board and players.",
+    "N7: emitters glow with bloom and the court is lit; fence LED strips unwanted; tall floodlight too bright."
+  ],
+  "unchanged": "All pre-existing models, objects, materials and lights; probe data only scaled inside the gain regions.",
+  "unverified": "Large warm interior/glazing emitters; warm probe tint relies on an assumed RGB record layout.",
+  "source_iff_sha256": "0571bb0dffc909eb131afd1d9050dd301720b77022c951049d4f6045810ef03f",
+  "unchanged_compressed_entries": 20063,
+  "added_archive_members": 7,
+  "removed_previous_scene_members": 7,
   "changed_archive_members": [
     "level.SCNE"
   ],
   "archive_crc_verified": true,
-  "output_sha256": "8de3b50d2d0c6491520075445df40f5d6532bc19a3a0241a52ccb7869b9f043a",
-  "output_bytes": 1685687867,
+  "output_sha256": "67937dec20a213047b53d895d27140bda309052426511be624e97ea4c3dcbdd9",
+  "output_bytes": 1686988259,
   "game_tested": false,
-  "checked_at": "2026-10-06T03:22:40Z"
+  "checked_at": "2026-10-06T07:14:37Z"
 }

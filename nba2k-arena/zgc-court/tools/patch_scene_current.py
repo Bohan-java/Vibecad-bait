@@ -1,8 +1,8 @@
-"""Checked patch that adds the N4 night scene (night_scene) to the current package.
+"""Checked patch that (re)applies the night scene (night_scene) to the current package.
 
 The current package must already carry the night base (night_lighting). Only
-level.SCNE changes; new vertex/index buffers are appended; every other record
-is copied byte-for-byte and verified.
+level.SCNE changes; new buffers and probe data are appended; earlier night-scene
+members are dropped; every other record is copied byte-for-byte and verified.
 """
 from pathlib import Path
 import json
@@ -12,11 +12,13 @@ import zipfile
 from iff_codec import load_scne
 from native_archive import write_compatible
 from night_lighting import is_night
-from night_scene import apply_scene, strip_scene, REVISION, PREFIX
+from night_scene import apply_scene, strip_scene, REVISION, PREFIX, PROBE_DATA_KEY
 from patch_half_court_current import digest, raw_record_hash
 from repair_iff import dump_native, binaries, present
 
 ROOT = Path(__file__).resolve().parents[1]
+R13_SHA256 = '9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622'
+R13 = ROOT.parents[1] / '.git/lfs/objects' / R13_SHA256[:2] / R13_SHA256[2:4] / R13_SHA256
 
 
 def main():
@@ -34,12 +36,16 @@ def main():
         assert dump_native(doc) == raw
         level = doc['level']
         assert is_night(level), 'Apply the night base first'
-        orphans = strip_scene(level)
-        before = {k: dict(level[k]) for k in ('Light', 'Material', 'Model', 'Object')}
+        with zipfile.ZipFile(R13) as day:
+            base_level = load_scne(day.read('level.SCNE'))['level']
+        orphans = strip_scene(level, base_level)
+        before = {k: dict(level[k]) for k in ('Light', 'Material', 'Model', 'Object', 'Texture')}
         extra = {}
         scene = apply_scene(level, current, extra)
         for key, old in before.items():
             for name, value in old.items():
+                if key == 'Texture' and PROBE_DATA_KEY.fullmatch(name):
+                    continue   # probe gain replaces these descriptors on purpose
                 assert level[key][name] is value or level[key][name] == value, (key, name)
             assert all(n.startswith(PREFIX) for n in set(level[key]) - set(old)), key
         for name in set(extra) & orphans:
@@ -57,10 +63,11 @@ def main():
             assert names[:len(kept)] == kept and len(set(names)) == count
             assert set(names[len(kept):]) == set(extra)
             assert load_scne(final.read('level.SCNE')) == doc
-            for name in [*level['Model']]:
-                if name.startswith(PREFIX):
-                    for binary in binaries(level['Model'][name]):
-                        present(final, binary)
+            for section in ('Model', 'Texture'):
+                for name, value in level[section].items():
+                    if name.startswith(PREFIX):
+                        for binary in binaries(value):
+                            present(final, binary)
             identical = 0
             for old in current.infolist():
                 if old.filename == 'level.SCNE' or old.filename in orphans:
@@ -71,14 +78,14 @@ def main():
                 identical += 1
             assert final.read('PostEffect.FxTweakables') == current.read('PostEffect.FxTweakables')
     scene.update(source_iff_sha256=original_hash, unchanged_compressed_entries=identical,
-                 added_archive_members=len(extra), removed_previous_n4_members=len(orphans), changed_archive_members=['level.SCNE'], archive_crc_verified=True)
+                 added_archive_members=len(extra), removed_previous_scene_members=len(orphans), changed_archive_members=['level.SCNE'], archive_crc_verified=True)
     report['revision'] = report['revision'].split('+')[0] + '+' + report['night_lighting']['revision'] + '+' + REVISION
     report['night_scene'] = scene
     report['game_tested'] = False
     report['game_visibility'] = 'pending'
-    report['source_feedback'] = 'N3 night sky confirmed in game (moon, stars, dark glass). User asks for a complete, good-looking lit night scene at Claude\'s discretion.'
+    report['source_feedback'] = 'LDIAG1 confirmed in game: same-name-texture-bound lamp emitters glow with bloom and probe gain lights the court and players; build the full night scene with these native paths.'
     report['changes'] = [c for c in report['changes'] if not c.startswith('Night scene')]
-    report['changes'].append(f'Night scene {REVISION}: add emissive overlays (floodlight lenses, A sign, Chilis letters/strips, logos, boots sign), fence LED strips, two floodlight spots, a Chilis spill spot and three fence line lights; no existing content changed.')
+    report['changes'].append(f'Night scene {REVISION}: native lightmap-bound emitters (floodlight lenses, A signs, Chilis letters/strips/logos, boots sign, fence LED strips) and scalar baked probe light over the court; no added lights; no existing model or material changed.')
     report.update(output_bytes=pending.stat().st_size, output_sha256=digest(pending),
                   archive_crc_verified=True, archive_entries=count)
     os.replace(pending, output)

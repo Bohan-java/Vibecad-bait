@@ -253,13 +253,17 @@ blender --background --python tools/render_r13_material_current.py -- --views en
 
 保存测试用 IFF 身份、入口、结果和截图。只有用户确实测试了对应包，才能把 `game_tested` 改为 true；不能因为网页正常或报告全绿而改这个状态。
 
-## 10. 夜景 N1–N4（R13 之后）
+## 10. 夜景 N1–N16（R13 之后）
 
 用户要求做夜景和场边灯带，先只测夜景基调，再单独试 A 字牌白色灯罩发光。`tools/night_lighting.py` 只改 `level.SCNE` 已有数值：`Light.Sun` 强度降为 1/200 并改冷蓝，`TIME_OF_DAY` 的 `VC_SkyIntensity`/`VC_SunIntensity` 降低并关闭云层，48 个 `LIGHT_PROBE_GRID_*_EV100` 下调 6 EV（N2）。N2 实测地面和建筑已暗，但天空、远处白雾、玻璃反射仍亮，因此 N3 再开启原生 `TIME_OF_DAY`（22:00，`VC_NightEV100` 固定为相机 EV100 14.8）并打开两个 IBL 的 `VC_IsLitDynamically`。N1（1/25、-2.5 EV）游戏实测：整体变暗未发白，但呈阴天/雾天，证明探针标记下调确实压暗环境光。目标值按白天底包绝对计算，可在旧夜景包上重复补丁而不叠加。`repair_iff.py` 在半场换端后调用它，所以完整构建会保留夜景；已有包用 `tools/patch_night_current.py` 补丁；其他 Windows 机器可只拷贝 `tools/standalone_night_patch.py`（仅标准库）给本机 R13/N1/N2 包打补丁，结果与本仓库输出逐字节相同。PostEffect 仍强制与底包一致；`global_sun_and_postfx_unchanged` 因此改为 false，另记 `postfx_unchanged`。
 
 参考：室内底包 `arena_020_int_original.iff` 关闭太阳、使用 18 个 SPOT 和 4 个 AREA 灯，并有 `VC_IsNightOnly` 字段，可作为后续给球场加原生灯光的结构依据。项目自制材质（`asset_CLOD`）没有发光参数；底包发光物件使用带 Lightmap 技术的 `simplepbr_CLOD`，套用到自制模型存在旧黑屏风险，必须一处一处试。
 
 N3 游戏实测：夜空（月亮、星星）出现，玻璃反射变暗。N4 在此基础上由 `tools/night_scene.py` 新增 `zgc_n4:` 内容，不改任何已有对象：沿法线外移 0.4 cm 的发光表皮（高杆灯面、A 字牌灯罩、Chili's 字与灯条、logo、The boots 字），围栏底板顶部三段 LED 盒，以及 SPOT/线型 AREA 光源（格式取自室内底包）。发光材质克隆原生 `light_lamppost_genericb:light_mat` 并复制原生路灯 `UserData`；该材质只有 Lightmap 技术，用于自制几何的效果需游戏验证。`repair_iff.py` 在夜景基调后调用它；已有包用 `tools/patch_scene_current.py`（会先清除旧 `zgc_n4:` 内容再重建）。改动后运行 `tools/make_standalone_patch.py` 重新生成给其他 Windows 机器用的独立补丁。若游戏全黑或闪退，先在 `night_scene.py` 去掉发光表皮只保留光源，或反之，逐项排除。
+
+N4–N6 实测失败或效果差（新增 Light 被忽略；未完整绑定的路灯发光不亮；记分牌着色器呆板；透明卡片有角度和排序问题）。ChatGPT 的 LDIAG1 诊断实测确认两条原生路线：① 路灯发光材质 `light_lamppost_genericb:light_mat` 用于新物件时，必须同时具备与物件同名的 `level.Texture`（照抄路灯 64×64 BC4 描述）、路灯 48 字节 `UserData` 和独立 UV7（0–1 内）才会发光并带泛光；② 对球场附近 `LIGHT_PROBE_GRID_*_PROBE_DATA` 每条 112 字节（28 个 float）整体乘增益，可照亮地面、静态物体和球员。N7 按此在 `tools/night_scene.py` 实现，`strip_scene` 会删除 `zgc_n4/n5/n6/probe_emit/diag_receiver/n7` 前缀内容并从 R13 恢复探针描述后重建。实时灯需要重建 `LIGHT_BRICK_MAP`，其多灯格式未破解，缺带灯样本数据；不要再往 `level.Light` 直接加灯。
+
+N8–N16（按用户逐轮游戏截图调整）：去掉场边灯带，高灯杆调到极暗，以 Chili's 和两块 A 字牌为主光源营造午夜氛围；整体环境光由 `night_lighting.py` 的探针 EV100 标记压暗（当前 -7.6 EV，N3.5），不改相机 EV100。`night_scene.py` 的探针增益改为高斯衰减并相加（避免地面分界线），Chili's 暖光带高度淡出（招牌高度不提亮）。N14 游戏诊断确认探针记录为交错 RGB 的 9 系数球谐、L1 顺序 (Y, Z, X)，据此为每个光源加指向光源的 L1 方向光（DIRECTIONALITY 0.85），并做冷色分级 (0.70, 0.85, 1.08)。带发光贴图的原生壁灯材质 `light_lampsconce_swirls:light_lampsconce_swirls_mat`（同样需同名光照贴图绑定）用于：Chili's 檐口上的字母模糊倒影（回放才有屏幕空间反射），以及远景楼宇和 LINK 玻璃上的世界坐标亮灯窗格。夜空由 TIME_OF_DAY 的 VC_NightSkyIntensity/颜色调成深藏蓝。回放模式使用自己的曝光与后期，与比赛视角不同，无法从场景文件统一。
 
 ## 11. 留存、迁移与继续工作
 

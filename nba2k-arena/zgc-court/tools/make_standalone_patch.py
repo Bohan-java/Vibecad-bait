@@ -11,6 +11,7 @@ from pathlib import Path
 import base64
 import hashlib
 import json
+import os
 import sys
 import zipfile
 import zlib
@@ -18,13 +19,21 @@ from iff_codec import load_scne
 
 ROOT = Path(__file__).resolve().parents[1]
 R13_SHA256 = '9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622'
+# Inputs are recognised by level.SCNE content: ZIP metadata of appended members
+# (create_system) differs between Windows and macOS Python, file hashes do not match.
 EARLIER = {
-    R13_SHA256: 'R13 day',
-    '12efd7a280d5a3521e72434534cd16a2b1948777a58464ad66f06f2e9a3d531f': 'R13+N1 night',
-    '92e0c75b9b7af82387bbb9c8f05534f35aa450c27cf6f22753ec9446761e804d': 'R13+N2 night',
-    '8f8a4d119242a1098651f04fdcc6344c5a6a086288ed55fb206310d6c483b0cb': 'R13+N3 night',
+    '7ca3aa302d3faa7d8d316ab045e2512ddf765f42b732f3ca911a0c5fb517d0ec': 'R13 day',
+    '7083d5bf3ba8539efea801e89f71e52f4f51ee9dbeb1d94c0ad1dde05605aff9': 'R13+N1 night',
+    '0447d8a261b4ce6e01bc6a8e8026e904d641355de48a74ccd83cdaba8e661d44': 'R13+N2 night',
+    '006732d281a524a7d24727b48b7d08fda3219e8108773a77df63f1af60cf680b': 'R13+N3 night',
+    'b8c57adb561f45bf026941c78605b47f4eda0fc1e48fc2a2d35f9d371980c729': 'R13+N3+N4 night scene',
+    'fa40f55db0141e95a862d7b3720a1c99626084d7250ee7f8943011ff4d43bf0d': 'R13+N3+N6 night scene',
+    '42c9914321c43ace70fc8645a8e9c936a79dd2249a2fa45bb2158a2fff2537df': 'LDIAG1 lighting diagnostic',
+    '6e8459ea0ff7b2a70418b42dece3653e8f3eb1d7ba014047c5ded0cc62e5b795': 'R13+N3+N4 light diagnostic',
 }
-SECTIONS = ('Light', 'Material', 'Model', 'Object')
+SECTIONS = ('Light', 'Material', 'Model', 'Object', 'Texture')
+# Earlier night-scene test entries the patch removes before applying this output.
+DELETE_PREFIXES = ['zgc_n4:', 'zgc_n5:', 'zgc_n6:', 'zgc_probe_emit:', 'zgc_diag_receiver:', 'zgc_n7:', 'zgc_n8:', 'zgc_n9:', 'zgc_n10:', 'zgc_n11:', 'zgc_n12:', 'zgc_n13:', 'zgc_n14:', 'zgc_n15:', 'zgc_n16:']
 
 TEMPLATE = r'''"""Standalone {revision} night patch for an existing arena_700_int.iff (Python 3.8+, stdlib only).
 
@@ -47,6 +56,8 @@ import zlib
 REVISION = {revision!r}
 KNOWN_INPUTS = {known!r}
 EXPECTED_SCNE_SHA256 = {scne_sha!r}
+BASE_COUNT = {base_count!r}
+BASE_NAMES_SHA256 = {base_names!r}
 PAYLOAD = {payload!r}
 
 
@@ -96,22 +107,40 @@ def main():
     if len(sys.argv) != 2:
         sys.exit(__doc__)
     path = os.path.abspath(sys.argv[1])
-    print('Checking input identity (about a minute for 1.7 GB)...', flush=True)
-    digest = sha256_file(path)
-    if digest not in KNOWN_INPUTS:
-        sys.exit('Refusing: input is not a known R13 / night test package (sha256 %s)' % digest)
-    print('Input is', KNOWN_INPUTS[digest], '-> patching to', REVISION, flush=True)
+    with zipfile.ZipFile(path) as probe:
+        digest = hashlib.sha256(probe.read('level.SCNE')).hexdigest()
+        base_ok = len(probe.namelist()) >= BASE_COUNT and hashlib.sha256(
+            '\n'.join(probe.namelist()[:BASE_COUNT]).encode()).hexdigest() == BASE_NAMES_SHA256
+    if digest == EXPECTED_SCNE_SHA256:
+        sys.exit('Already ' + REVISION + '; nothing to do')
+    if not base_ok:
+        sys.exit('Refusing: input is not built on the R13 package')
+    # Any earlier night test is accepted only if the patched scene matches exactly (checked below).
+    print('Input is', KNOWN_INPUTS.get(digest, 'an earlier night test'), '-> patching to', REVISION, flush=True)
     payload = json.loads(zlib.decompress(base64.b64decode(PAYLOAD)))
-    added = [(name, base64.b64decode(data)) for name, data in payload['members']]
     pending = path + '.pending'
     with zipfile.ZipFile(path) as src:
+        final_appended = {{n for n, _ in payload['members']}}
+        drop = {{n for n in src.namelist()[BASE_COUNT:] if n not in final_appended}}
+        added = []
+        for name, data in payload['members']:
+            data = base64.b64decode(data)
+            if name in src.NameToInfo:
+                # Content-addressed buffer already present from an earlier test package.
+                assert src.read(name) == data, name
+            else:
+                added.append((name, data))
         doc = load_scne(src.read('level.SCNE'))
         level = doc['level']
+        for section in list(level):
+            if isinstance(level[section], dict):
+                for key in [k for k in level[section] if k.startswith(tuple(payload['delete_prefixes']))]:
+                    del level[section][key]
         for section, entries in payload['set'].items():
             level[section].update(entries)
         new_scne = dump_scne(doc)
         if hashlib.sha256(new_scne).hexdigest() != EXPECTED_SCNE_SHA256:
-            sys.exit('Refusing: patched level.SCNE does not match the expected ' + REVISION + ' content')
+            sys.exit('Refusing: input is not a recognised R13 / night test package (patched level.SCNE differs)')
         ordered = sorted(src.infolist(), key=lambda i: i.header_offset)
         ends = {{i.filename: (ordered[j + 1].header_offset if j + 1 < len(ordered) else src.start_dir)
                 for j, i in enumerate(ordered)}}
@@ -119,6 +148,8 @@ def main():
         with zipfile.ZipFile(pending, 'w', compression=zipfile.ZIP_DEFLATED, allowZip64=False) as out:
             out.comment = src.comment
             for info in src.infolist():
+                if info.filename in drop:
+                    continue
                 if info.filename == 'level.SCNE':
                     item = copy.copy(info)
                     item.compress_type = zipfile.ZIP_DEFLATED
@@ -127,16 +158,19 @@ def main():
                     copy_record(src, out, info, ends[info.filename])
             for name, data in added:
                 info = zipfile.ZipInfo(name, (2014, 1, 1, 17, 0, 0))
+                info.create_system = 0
                 info.compress_type = zipfile.ZIP_DEFLATED
                 out.writestr(info, data, compress_type=zipfile.ZIP_DEFLATED, compresslevel=6)
         print('Verifying...', flush=True)
         with zipfile.ZipFile(pending) as final:
-            assert final.namelist() == src.namelist() + [n for n, _ in added]
+            assert final.namelist() == [n for n in src.namelist() if n not in drop] + [n for n, _ in added]
             assert final.testzip() is None
             assert hashlib.sha256(final.read('level.SCNE')).hexdigest() == EXPECTED_SCNE_SHA256
             for name, data in added:
                 assert final.read(name) == data
             for old in src.infolist():
+                if old.filename in drop:
+                    continue
                 new = final.getinfo(old.filename)
                 if old.filename != 'level.SCNE':
                     assert (old.CRC, old.file_size, old.compress_size) == (new.CRC, new.file_size, new.compress_size)
@@ -170,6 +204,7 @@ def main():
         delta = {}
         for section in SECTIONS:
             assert set(before[section]) <= set(after[section]), section
+            assert not any(k.startswith(tuple(DELETE_PREFIXES[:-1])) for k in after[section]), section
             changed = {k: v for k, v in after[section].items() if before[section].get(k) != v}
             if changed:
                 delta[section] = changed
@@ -177,11 +212,13 @@ def main():
         names = current.namelist()
         assert names[:len(old_names)] == old_names
         members = [(n, base64.b64encode(current.read(n)).decode()) for n in names[len(old_names):]]
-    payload = base64.b64encode(zlib.compress(json.dumps({'set': delta, 'members': members}).encode(), 9)).decode()
-    revision = report['revision']
-    known = {k: v for k, v in EARLIER.items() if k != report['output_sha256']}
+    payload = base64.b64encode(zlib.compress(json.dumps({'set': delta, 'members': members,
+                                                         'delete_prefixes': DELETE_PREFIXES}).encode(), 9)).decode()
+    revision = report['revision'] + ('-light-diagnostic' if os.environ.get('ZGC_LIGHT_DIAGNOSTIC') == '1' else '')
+    known = {k: v for k, v in EARLIER.items() if k != hashlib.sha256(raw).hexdigest()}
     text = TEMPLATE.format(revision=revision, accepted=', '.join(v for v in known.values() if v != 'R13 day'),
-                           known=known, scne_sha=hashlib.sha256(raw).hexdigest(), payload=payload)
+                           known=known, scne_sha=hashlib.sha256(raw).hexdigest(), payload=payload,
+                           base_count=len(old_names), base_names=hashlib.sha256('\n'.join(old_names).encode()).hexdigest())
     out = ROOT / 'tools/standalone_night_patch.py'
     out.write_text(text, encoding='utf8')
     print(json.dumps({'script': str(out), 'bytes': len(text.encode()), 'revision': revision,

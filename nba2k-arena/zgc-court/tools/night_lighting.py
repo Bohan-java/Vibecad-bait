@@ -15,6 +15,13 @@ pre-lit daylight. N3 therefore switches on the native TIME_OF_DAY at 22:00 with
 its night exposure pinned to the existing camera EV100 (so the dimmed probes
 keep their N2 brightness), and lets both IBLs relight from their stored
 G-buffer cubemaps. Both switches are unverified in game.
+N3.1: the user asked for a darker overall exposure; rather than touching the
+camera EV100 (tied to the TIME_OF_DAY night state) the probe ambient is lowered
+another 0.6 EV and night_scene scales every emitter by 0.7. N3.2: for stronger
+contrast the ambient drops one more EV while night_scene raises its local gains.
+N3.3: TIME_OF_DAY clouds re-enabled (game: invisible at night). N3.4: clouds off,
+night sky raised to a faint city glow. N3.5: deep navy sky as in the on-site photo
+(no orange horizon).
 Targets are absolute (derived from the donor daylight values), so applying a
 newer revision on top of an older night package does not compound.
 """
@@ -23,11 +30,11 @@ from __future__ import annotations
 import copy
 import re
 
-REVISION = 'N3'
+REVISION = 'N3.5'
 DAY_PROBE_EV100 = 14.8000002
 # Fractions of the donor's daylight values; relative EV steps are log2 ratios.
 SUN_SCALE = 1 / 200
-PROBE_EV_SHIFT = -6.0
+PROBE_EV_SHIFT = -7.6
 MOONLIGHT_COLOR = [0.45, 0.6, 1.0, 1.0]
 SKY_INTENSITY = 0.005
 PROBE_KEY = re.compile(r'LIGHT_PROBE_GRID_\d+_\d+_\d+_TIME_0000_EV100')
@@ -35,6 +42,7 @@ DAY_SUN = {'Intensity': 110000.0, 'Color': [0.87962234, 0.921581924, 1.0, 1.0]}
 DAY_TIME_OF_DAY = {'VC_SkyIntensity': 1.0, 'VC_SunIntensity': 1500.0, 'VC_TimeOfDayCloudsEnabled': 1}
 FIXED_TIME_OF_DAY = {'VC_EV100': 14.8000002, 'VC_AutomaticEV100Enabled': 0}
 NIGHT_TIME_OF_DAY = {'VC_Enabled': 1, 'VC_CurrentTime': 22.0, 'VC_NightEV100': 14.8000002}
+NIGHT_SKY = {'intensity': 20.0, 'zenith': [0.10, 0.12, 0.22, 1.0], 'horizon': [0.22, 0.25, 0.35, 1.0]}
 IBL_OBJECTS = ('IBL1', 'park_streetball_a_master@park_rucker_ext_lighting@GameObjects@court_PillIbl')
 
 
@@ -69,7 +77,11 @@ def apply_night(level):
     sun['Color'] = MOONLIGHT_COLOR[:]
     tod['VC_SkyIntensity'] = SKY_INTENSITY
     tod['VC_SunIntensity'] = 0.0
-    tod['VC_TimeOfDayCloudsEnabled'] = 0
+    tod['VC_TimeOfDayCloudsEnabled'] = 0   # N3.3 clouds were invisible at night
+    # N3.4: faint city sky glow instead of pure black (dark blue-grey zenith,
+    # sodium-orange horizon). Intensity units are unverified; 0.5 rendered black.
+    tod.update(VC_NightSkyIntensity=NIGHT_SKY['intensity'], VC_NightSkyColor=NIGHT_SKY['zenith'],
+               VC_NightSkyColorHorizon=NIGHT_SKY['horizon'])
     tod.update(NIGHT_TIME_OF_DAY)
     for attributes in ibls:
         attributes['VC_IsLitDynamically'] = 1
