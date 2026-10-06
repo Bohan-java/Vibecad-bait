@@ -1,0 +1,47 @@
+{
+  "description": "Night light sources for the probe bake. Coordinates are source/scene.blend metres (X = -world_z/100, Y = -world_x/100, Z = world_y/100). Colours are linear RGB. Emission strength is Blender emission strength; area/spot power is Blender watts. Absolute levels do not matter much: each group is baked separately and scaled per group when the result is imported into the game.",
+  "groups": {
+    "a_signs": {
+      "emitters": [
+        {"objects": ["R09 A inner white diffuser.left", "R09 A inner white diffuser.right",
+                     "R09 A unlit diffuser 1.left", "R09 A unlit diffuser 1.right",
+                     "R09 A unlit diffuser -1.left", "R09 A unlit diffuser -1.right"],
+         "colour": [0.92, 0.97, 1.0], "strength": 60.0}
+      ],
+      "lights": []
+    },
+    "chilis": {
+      "emitters": [
+        {"objects": ["R13 Chilis court facade channel letters inset amber acrylic faces"], "colour": [1.0, 0.24, 0.03], "strength": 40.0},
+        {"objects": ["R13 Chilis court facade pepper apostrophe shaped acrylic front"], "colour": [0.35, 1.0, 0.22], "strength": 30.0},
+        {"objects": ["R12 Chilis building entry narrow vertical diffuser strips unlit",
+                     "R12 Chilis building terrace narrow vertical diffuser strips unlit"], "colour": [1.0, 0.8, 0.55], "strength": 30.0},
+        {"objects": ["R12 Chilis building alcove logo warm orange letter bodies",
+                     "R12 Chilis building terrace logo warm orange letter bodies"], "colour": [1.0, 0.24, 0.03], "strength": 30.0},
+        {"objects": ["R12 Chilis building entry shallow interior warm back plane"], "colour": [1.0, 0.55, 0.2], "strength": 8.0},
+        {"objects": ["R12 Chilis building entry shallow interior warm timber planes"], "colour": [1.0, 0.5, 0.18], "strength": 4.0}
+      ],
+      "lights": [
+        {"name": "bake_chilis_interior_ceiling", "type": "AREA", "location": [-21.9, -4.2, 2.95],
+         "size_x": 1.6, "size_y": 9.5, "aim": null, "colour": [1.0, 0.58, 0.25], "power": 2500.0,
+         "note": "Store lighting just inside the entry, facing down, so light pours out of the door with frame shadows."}
+      ]
+    },
+    "boots": {
+      "emitters": [
+        {"objects": ["R12 left context boots rounded outlined dimensional lettering"], "colour": [1.0, 0.82, 0.6], "strength": 30.0}
+      ],
+      "lights": []
+    },
+    "floodlight": {
+      "emitters": [
+        {"objects": ["R10 left tall floodlight non-emitting lens faces"], "colour": [1.0, 0.9, 0.78], "strength": 20.0}
+      ],
+      "lights": [
+        {"name": "bake_floodlight_spot", "type": "SPOT", "location": [-4.2, -9.7, 10.0], "aim": [0.0, 0.0, 0.0],
+         "spot_size_deg": 70.0, "colour": [1.0, 0.9, 0.78], "power": 800.0,
+         "note": "The tall pole lamp; kept very dim in game, so this group is imported at a low weight."}
+      ]
+    }
+  }
+}

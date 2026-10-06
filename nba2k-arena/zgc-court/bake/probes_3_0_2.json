@@ -1,0 +1,7959 @@
+{
+ "description": "Probes to bake for the ZGC night lights (sector LIGHT_PROBE_GRID_3_0_2, referenced by cells, within 15 m of a light or around the court).",
+ "coordinate_note": "world_cm = game world (Y up, after the 180 degree scene rotation); blender_m = source/scene.blend coordinates: X=-world_z/100, Y=-world_x/100, Z=world_y/100.",
+ "count": 568,
+ "probes": [
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 969,
+   "world_cm": [
+    -1218.93,
+    70.146,
+    -1997.146
+   ],
+   "blender_m": [
+    19.97146,
+    12.1893,
+    0.70146
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 970,
+   "world_cm": [
+    -824.637,
+    66.861,
+    -2011.18
+   ],
+   "blender_m": [
+    20.1118,
+    8.24637,
+    0.66861
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 971,
+   "world_cm": [
+    -435.113,
+    61.874,
+    -2006.357
+   ],
+   "blender_m": [
+    20.06357,
+    4.35113,
+    0.61874
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 972,
+   "world_cm": [
+    61.789,
+    39.712,
+    -2015.16
+   ],
+   "blender_m": [
+    20.1516,
+    -0.61789,
+    0.39712
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 973,
+   "world_cm": [
+    377.359,
+    64.448,
+    -1985.473
+   ],
+   "blender_m": [
+    19.85473,
+    -3.77359,
+    0.64448
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 974,
+   "world_cm": [
+    767.895,
+    72.826,
+    -2014.029
+   ],
+   "blender_m": [
+    20.14029,
+    -7.67895,
+    0.72826
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 975,
+   "world_cm": [
+    1282.316,
+    44.225,
+    -1994.285
+   ],
+   "blender_m": [
+    19.94285,
+    -12.82316,
+    0.44225
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1002,
+   "world_cm": [
+    -1227.137,
+    377.91,
+    -1994.57
+   ],
+   "blender_m": [
+    19.9457,
+    12.27137,
+    3.7791
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1003,
+   "world_cm": [
+    -800.0,
+    400.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1004,
+   "world_cm": [
+    -400.0,
+    400.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1005,
+   "world_cm": [
+    0.0,
+    400.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1006,
+   "world_cm": [
+    800.0,
+    400.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1007,
+   "world_cm": [
+    1200.0,
+    400.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1033,
+   "world_cm": [
+    -1309.828,
+    692.426,
+    -1929.439
+   ],
+   "blender_m": [
+    19.29439,
+    13.09828,
+    6.92426
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1034,
+   "world_cm": [
+    -800.0,
+    800.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1035,
+   "world_cm": [
+    -400.0,
+    800.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1036,
+   "world_cm": [
+    0.0,
+    800.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1037,
+   "world_cm": [
+    400.0,
+    800.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1038,
+   "world_cm": [
+    800.0,
+    800.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1039,
+   "world_cm": [
+    1200.0,
+    800.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1064,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1065,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1066,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1067,
+   "world_cm": [
+    0.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1068,
+   "world_cm": [
+    400.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1069,
+   "world_cm": [
+    800.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1070,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    -2000.0
+   ],
+   "blender_m": [
+    20.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1222,
+   "world_cm": [
+    -1249.242,
+    68.487,
+    -1687.881
+   ],
+   "blender_m": [
+    16.87881,
+    12.49242,
+    0.68487
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1223,
+   "world_cm": [
+    -800.0,
+    0.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1224,
+   "world_cm": [
+    -400.0,
+    0.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1225,
+   "world_cm": [
+    0.0,
+    0.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1226,
+   "world_cm": [
+    400.0,
+    0.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1227,
+   "world_cm": [
+    800.0,
+    0.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1228,
+   "world_cm": [
+    1229.363,
+    103.096,
+    -1598.043
+   ],
+   "blender_m": [
+    15.98043,
+    -12.29363,
+    1.03096
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1252,
+   "world_cm": [
+    -1200.801,
+    402.161,
+    -1598.662
+   ],
+   "blender_m": [
+    15.98662,
+    12.00801,
+    4.02161
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1253,
+   "world_cm": [
+    -800.0,
+    400.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1254,
+   "world_cm": [
+    -400.0,
+    400.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1255,
+   "world_cm": [
+    0.0,
+    400.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1256,
+   "world_cm": [
+    400.0,
+    400.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1257,
+   "world_cm": [
+    800.0,
+    400.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1258,
+   "world_cm": [
+    1200.0,
+    400.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1281,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1282,
+   "world_cm": [
+    -800.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1283,
+   "world_cm": [
+    -400.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1284,
+   "world_cm": [
+    0.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1285,
+   "world_cm": [
+    400.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1286,
+   "world_cm": [
+    800.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1287,
+   "world_cm": [
+    1200.0,
+    800.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1312,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1313,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1314,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1315,
+   "world_cm": [
+    0.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1316,
+   "world_cm": [
+    400.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1317,
+   "world_cm": [
+    800.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1318,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    -1600.0
+   ],
+   "blender_m": [
+    16.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1480,
+   "world_cm": [
+    -800.0,
+    0.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1481,
+   "world_cm": [
+    -400.0,
+    0.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1482,
+   "world_cm": [
+    -5.832,
+    70.582,
+    -1224.682
+   ],
+   "blender_m": [
+    12.24682,
+    0.05832,
+    0.70582
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1483,
+   "world_cm": [
+    405.367,
+    19.218,
+    -1168.25
+   ],
+   "blender_m": [
+    11.6825,
+    -4.05367,
+    0.19218
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1484,
+   "world_cm": [
+    800.0,
+    0.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1485,
+   "world_cm": [
+    1114.488,
+    67.127,
+    -1163.537
+   ],
+   "blender_m": [
+    11.63537,
+    -11.14488,
+    0.67127
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1512,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1513,
+   "world_cm": [
+    -800.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1514,
+   "world_cm": [
+    -400.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1515,
+   "world_cm": [
+    0.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1516,
+   "world_cm": [
+    400.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1517,
+   "world_cm": [
+    800.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1518,
+   "world_cm": [
+    1200.0,
+    400.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1541,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1542,
+   "world_cm": [
+    -800.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1543,
+   "world_cm": [
+    -400.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1544,
+   "world_cm": [
+    0.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1545,
+   "world_cm": [
+    400.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1546,
+   "world_cm": [
+    800.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1547,
+   "world_cm": [
+    1200.0,
+    800.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1572,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1573,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1574,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1575,
+   "world_cm": [
+    0.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1576,
+   "world_cm": [
+    400.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1577,
+   "world_cm": [
+    800.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1578,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    -1200.0
+   ],
+   "blender_m": [
+    12.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1735,
+   "world_cm": [
+    -800.0,
+    0.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1736,
+   "world_cm": [
+    -400.0,
+    0.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1737,
+   "world_cm": [
+    -0.656,
+    24.586,
+    -771.691
+   ],
+   "blender_m": [
+    7.71691,
+    0.00656,
+    0.24586
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1738,
+   "world_cm": [
+    400.0,
+    0.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1739,
+   "world_cm": [
+    971.082,
+    46.247,
+    -808.914
+   ],
+   "blender_m": [
+    8.08914,
+    -9.71082,
+    0.46247
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1740,
+   "world_cm": [
+    1167.551,
+    119.401,
+    -796.301
+   ],
+   "blender_m": [
+    7.96301,
+    -11.67551,
+    1.19401
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1766,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1767,
+   "world_cm": [
+    -800.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1768,
+   "world_cm": [
+    -400.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1769,
+   "world_cm": [
+    0.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1770,
+   "world_cm": [
+    400.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1771,
+   "world_cm": [
+    800.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1772,
+   "world_cm": [
+    1200.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1773,
+   "world_cm": [
+    1600.0,
+    400.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1796,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1797,
+   "world_cm": [
+    -800.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1798,
+   "world_cm": [
+    -400.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1799,
+   "world_cm": [
+    0.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1800,
+   "world_cm": [
+    400.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1801,
+   "world_cm": [
+    800.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1802,
+   "world_cm": [
+    1200.0,
+    800.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1803,
+   "world_cm": [
+    1606.051,
+    804.273,
+    -811.07
+   ],
+   "blender_m": [
+    8.1107,
+    -16.06051,
+    8.04273
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1825,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1826,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1827,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1828,
+   "world_cm": [
+    0.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1829,
+   "world_cm": [
+    400.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1830,
+   "world_cm": [
+    800.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1831,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1832,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    -800.0
+   ],
+   "blender_m": [
+    8.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1990,
+   "world_cm": [
+    -1259.055,
+    57.045,
+    -489.537
+   ],
+   "blender_m": [
+    4.89537,
+    12.59055,
+    0.57045
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1991,
+   "world_cm": [
+    -800.0,
+    0.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1992,
+   "world_cm": [
+    -400.0,
+    0.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1993,
+   "world_cm": [
+    29.512,
+    22.054,
+    -393.006
+   ],
+   "blender_m": [
+    3.93006,
+    -0.29512,
+    0.22054
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1994,
+   "world_cm": [
+    400.0,
+    0.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1995,
+   "world_cm": [
+    800.0,
+    0.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1996,
+   "world_cm": [
+    1176.688,
+    121.721,
+    -429.463
+   ],
+   "blender_m": [
+    4.29463,
+    -11.76688,
+    1.21721
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 1997,
+   "world_cm": [
+    1568.82,
+    37.935,
+    -388.732
+   ],
+   "blender_m": [
+    3.88732,
+    -15.6882,
+    0.37935
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2022,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2023,
+   "world_cm": [
+    -800.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2024,
+   "world_cm": [
+    -400.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2025,
+   "world_cm": [
+    0.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2026,
+   "world_cm": [
+    400.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2027,
+   "world_cm": [
+    800.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2028,
+   "world_cm": [
+    1200.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2029,
+   "world_cm": [
+    1600.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2030,
+   "world_cm": [
+    2000.0,
+    400.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2054,
+   "world_cm": [
+    -800.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2055,
+   "world_cm": [
+    -400.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2056,
+   "world_cm": [
+    0.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2057,
+   "world_cm": [
+    400.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2058,
+   "world_cm": [
+    800.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2059,
+   "world_cm": [
+    1200.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2060,
+   "world_cm": [
+    1600.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2061,
+   "world_cm": [
+    2000.0,
+    800.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2085,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2086,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2087,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2088,
+   "world_cm": [
+    0.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2089,
+   "world_cm": [
+    400.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2090,
+   "world_cm": [
+    800.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2091,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2092,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2093,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    -400.0
+   ],
+   "blender_m": [
+    4.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2245,
+   "world_cm": [
+    -1600.848,
+    43.668,
+    0.811
+   ],
+   "blender_m": [
+    -0.00811,
+    16.00848,
+    0.43668
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2246,
+   "world_cm": [
+    -851.82,
+    10.212,
+    53.246
+   ],
+   "blender_m": [
+    -0.53246,
+    8.5182,
+    0.10212
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2247,
+   "world_cm": [
+    -367.84,
+    19.259,
+    -1.062
+   ],
+   "blender_m": [
+    0.01062,
+    3.6784,
+    0.19259
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2248,
+   "world_cm": [
+    25.23,
+    18.563,
+    -20.617
+   ],
+   "blender_m": [
+    0.20617,
+    -0.2523,
+    0.18563
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2249,
+   "world_cm": [
+    385.938,
+    21.544,
+    -27.283
+   ],
+   "blender_m": [
+    0.27283,
+    -3.85938,
+    0.21544
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2250,
+   "world_cm": [
+    857.148,
+    0.964,
+    -48.559
+   ],
+   "blender_m": [
+    0.48559,
+    -8.57148,
+    0.00964
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2251,
+   "world_cm": [
+    1083.211,
+    77.369,
+    -20.879
+   ],
+   "blender_m": [
+    0.20879,
+    -10.83211,
+    0.77369
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2252,
+   "world_cm": [
+    1564.043,
+    19.132,
+    -17.232
+   ],
+   "blender_m": [
+    0.17232,
+    -15.64043,
+    0.19132
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2253,
+   "world_cm": [
+    1998.621,
+    71.184,
+    1.32
+   ],
+   "blender_m": [
+    -0.0132,
+    -19.98621,
+    0.71184
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2273,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2274,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2275,
+   "world_cm": [
+    -800.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2276,
+   "world_cm": [
+    -400.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2277,
+   "world_cm": [
+    0.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2278,
+   "world_cm": [
+    400.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2279,
+   "world_cm": [
+    800.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2280,
+   "world_cm": [
+    1200.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2281,
+   "world_cm": [
+    1600.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2282,
+   "world_cm": [
+    2000.0,
+    400.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2307,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2308,
+   "world_cm": [
+    -800.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2309,
+   "world_cm": [
+    -400.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2310,
+   "world_cm": [
+    0.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2311,
+   "world_cm": [
+    400.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2312,
+   "world_cm": [
+    800.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2313,
+   "world_cm": [
+    1200.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2314,
+   "world_cm": [
+    1600.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2315,
+   "world_cm": [
+    2000.0,
+    800.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2338,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2339,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2340,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2341,
+   "world_cm": [
+    0.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2342,
+   "world_cm": [
+    400.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2343,
+   "world_cm": [
+    800.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2344,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2345,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    0.0
+   ],
+   "blender_m": [
+    -0.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2346,
+   "world_cm": [
+    2000.977,
+    1199.375,
+    -2.701
+   ],
+   "blender_m": [
+    0.02701,
+    -20.00977,
+    11.99375
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2499,
+   "world_cm": [
+    -2075.109,
+    44.436,
+    392.098
+   ],
+   "blender_m": [
+    -3.92098,
+    20.75109,
+    0.44436
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2500,
+   "world_cm": [
+    -1600.848,
+    43.668,
+    400.811
+   ],
+   "blender_m": [
+    -4.00811,
+    16.00848,
+    0.43668
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2501,
+   "world_cm": [
+    -1142.238,
+    144.566,
+    410.211
+   ],
+   "blender_m": [
+    -4.10211,
+    11.42238,
+    1.44566
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2502,
+   "world_cm": [
+    -800.0,
+    0.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2503,
+   "world_cm": [
+    -410.707,
+    19.117,
+    430.432
+   ],
+   "blender_m": [
+    -4.30432,
+    4.10707,
+    0.19117
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2504,
+   "world_cm": [
+    0.0,
+    0.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2505,
+   "world_cm": [
+    427.578,
+    22.895,
+    411.023
+   ],
+   "blender_m": [
+    -4.11023,
+    -4.27578,
+    0.22895
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2506,
+   "world_cm": [
+    800.0,
+    0.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2507,
+   "world_cm": [
+    1167.551,
+    119.396,
+    403.699
+   ],
+   "blender_m": [
+    -4.03699,
+    -11.67551,
+    1.19396
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2508,
+   "world_cm": [
+    1576.438,
+    28.667,
+    408.514
+   ],
+   "blender_m": [
+    -4.08514,
+    -15.76438,
+    0.28667
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2509,
+   "world_cm": [
+    1998.621,
+    71.184,
+    401.32
+   ],
+   "blender_m": [
+    -4.0132,
+    -19.98621,
+    0.71184
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2510,
+   "world_cm": [
+    2398.621,
+    71.184,
+    401.32
+   ],
+   "blender_m": [
+    -4.0132,
+    -23.98621,
+    0.71184
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2527,
+   "world_cm": [
+    -2000.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2528,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2529,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2530,
+   "world_cm": [
+    -800.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2531,
+   "world_cm": [
+    -400.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2532,
+   "world_cm": [
+    0.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2533,
+   "world_cm": [
+    400.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2534,
+   "world_cm": [
+    800.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2535,
+   "world_cm": [
+    1200.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2536,
+   "world_cm": [
+    1600.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2537,
+   "world_cm": [
+    2000.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2538,
+   "world_cm": [
+    2400.0,
+    400.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -24.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2556,
+   "world_cm": [
+    -2000.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2557,
+   "world_cm": [
+    -1600.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2558,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2559,
+   "world_cm": [
+    -800.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2560,
+   "world_cm": [
+    -400.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2561,
+   "world_cm": [
+    0.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2562,
+   "world_cm": [
+    400.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2563,
+   "world_cm": [
+    800.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2564,
+   "world_cm": [
+    1200.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2565,
+   "world_cm": [
+    1600.0,
+    800.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2566,
+   "world_cm": [
+    1983.566,
+    799.598,
+    514.373
+   ],
+   "blender_m": [
+    -5.14373,
+    -19.83566,
+    7.99598
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2567,
+   "world_cm": [
+    2316.812,
+    780.899,
+    354.893
+   ],
+   "blender_m": [
+    -3.54893,
+    -23.16812,
+    7.80899
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2590,
+   "world_cm": [
+    -1600.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2591,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2592,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2593,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2594,
+   "world_cm": [
+    0.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2595,
+   "world_cm": [
+    400.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2596,
+   "world_cm": [
+    800.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2597,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2598,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2599,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    400.0
+   ],
+   "blender_m": [
+    -4.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2750,
+   "world_cm": [
+    -2001.0,
+    51.649,
+    800.959
+   ],
+   "blender_m": [
+    -8.00959,
+    20.01,
+    0.51649
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2751,
+   "world_cm": [
+    -1535.289,
+    57.783,
+    801.049
+   ],
+   "blender_m": [
+    -8.01049,
+    15.35289,
+    0.57783
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2752,
+   "world_cm": [
+    -1202.512,
+    138.187,
+    841.01
+   ],
+   "blender_m": [
+    -8.4101,
+    12.02512,
+    1.38187
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2753,
+   "world_cm": [
+    -800.0,
+    0.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2754,
+   "world_cm": [
+    -405.676,
+    24.441,
+    772.131
+   ],
+   "blender_m": [
+    -7.72131,
+    4.05676,
+    0.24441
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2755,
+   "world_cm": [
+    0.0,
+    0.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -0.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2756,
+   "world_cm": [
+    400.0,
+    0.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2757,
+   "world_cm": [
+    915.227,
+    22.769,
+    733.236
+   ],
+   "blender_m": [
+    -7.33236,
+    -9.15227,
+    0.22769
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2758,
+   "world_cm": [
+    1153.723,
+    116.593,
+    857.18
+   ],
+   "blender_m": [
+    -8.5718,
+    -11.53723,
+    1.16593
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2759,
+   "world_cm": [
+    1584.441,
+    24.732,
+    814.508
+   ],
+   "blender_m": [
+    -8.14508,
+    -15.84441,
+    0.24732
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2760,
+   "world_cm": [
+    1998.621,
+    71.185,
+    801.32
+   ],
+   "blender_m": [
+    -8.0132,
+    -19.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2761,
+   "world_cm": [
+    2398.621,
+    71.185,
+    801.32
+   ],
+   "blender_m": [
+    -8.0132,
+    -23.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2762,
+   "world_cm": [
+    2798.621,
+    71.185,
+    801.32
+   ],
+   "blender_m": [
+    -8.0132,
+    -27.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2778,
+   "world_cm": [
+    -1952.312,
+    455.488,
+    788.754
+   ],
+   "blender_m": [
+    -7.88754,
+    19.52312,
+    4.55488
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2779,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2780,
+   "world_cm": [
+    -1176.48,
+    347.664,
+    804.924
+   ],
+   "blender_m": [
+    -8.04924,
+    11.7648,
+    3.47664
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2781,
+   "world_cm": [
+    -800.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2782,
+   "world_cm": [
+    -400.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2783,
+   "world_cm": [
+    0.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2784,
+   "world_cm": [
+    400.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2785,
+   "world_cm": [
+    800.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2786,
+   "world_cm": [
+    1200.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2787,
+   "world_cm": [
+    1600.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2788,
+   "world_cm": [
+    2000.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2789,
+   "world_cm": [
+    2400.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -24.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2790,
+   "world_cm": [
+    2800.0,
+    400.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -28.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2806,
+   "world_cm": [
+    -2000.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2807,
+   "world_cm": [
+    -1600.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2808,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2809,
+   "world_cm": [
+    -800.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2810,
+   "world_cm": [
+    -400.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2811,
+   "world_cm": [
+    0.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2812,
+   "world_cm": [
+    400.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2813,
+   "world_cm": [
+    800.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2814,
+   "world_cm": [
+    1200.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2815,
+   "world_cm": [
+    1600.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2816,
+   "world_cm": [
+    2400.0,
+    800.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -24.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2817,
+   "world_cm": [
+    2825.645,
+    804.724,
+    767.471
+   ],
+   "blender_m": [
+    -7.67471,
+    -28.25645,
+    8.04724
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2839,
+   "world_cm": [
+    -1600.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2840,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2841,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2842,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2843,
+   "world_cm": [
+    0.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2844,
+   "world_cm": [
+    400.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2845,
+   "world_cm": [
+    800.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2846,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2847,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    800.0
+   ],
+   "blender_m": [
+    -8.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2848,
+   "world_cm": [
+    2009.457,
+    1181.448,
+    813.232
+   ],
+   "blender_m": [
+    -8.13232,
+    -20.09457,
+    11.81448
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 2849,
+   "world_cm": [
+    2295.684,
+    1190.585,
+    756.77
+   ],
+   "blender_m": [
+    -7.5677,
+    -22.95684,
+    11.90585
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3013,
+   "world_cm": [
+    -2004.645,
+    117.145,
+    1112.168
+   ],
+   "blender_m": [
+    -11.12168,
+    20.04645,
+    1.17145
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3014,
+   "world_cm": [
+    -1546.914,
+    65.915,
+    1200.945
+   ],
+   "blender_m": [
+    -12.00945,
+    15.46914,
+    0.65915
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3015,
+   "world_cm": [
+    -800.0,
+    0.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    8.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3016,
+   "world_cm": [
+    -371.812,
+    23.985,
+    1193.957
+   ],
+   "blender_m": [
+    -11.93957,
+    3.71812,
+    0.23985
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3017,
+   "world_cm": [
+    -0.477,
+    66.052,
+    1235.521
+   ],
+   "blender_m": [
+    -12.35521,
+    0.00477,
+    0.66052
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3018,
+   "world_cm": [
+    400.0,
+    0.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3019,
+   "world_cm": [
+    953.809,
+    18.614,
+    1173.201
+   ],
+   "blender_m": [
+    -11.73201,
+    -9.53809,
+    0.18614
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3020,
+   "world_cm": [
+    1172.301,
+    92.214,
+    1173.334
+   ],
+   "blender_m": [
+    -11.73334,
+    -11.72301,
+    0.92214
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3021,
+   "world_cm": [
+    1583.34,
+    17.205,
+    1227.943
+   ],
+   "blender_m": [
+    -12.27943,
+    -15.8334,
+    0.17205
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3022,
+   "world_cm": [
+    2095.773,
+    98.692,
+    1164.721
+   ],
+   "blender_m": [
+    -11.64721,
+    -20.95773,
+    0.98692
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3023,
+   "world_cm": [
+    2398.621,
+    71.185,
+    1201.32
+   ],
+   "blender_m": [
+    -12.0132,
+    -23.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3024,
+   "world_cm": [
+    2798.621,
+    71.185,
+    1201.32
+   ],
+   "blender_m": [
+    -12.0132,
+    -27.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3039,
+   "world_cm": [
+    -2000.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3040,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3041,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3042,
+   "world_cm": [
+    -800.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3043,
+   "world_cm": [
+    -400.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3044,
+   "world_cm": [
+    0.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3045,
+   "world_cm": [
+    400.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3046,
+   "world_cm": [
+    800.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3047,
+   "world_cm": [
+    1200.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3048,
+   "world_cm": [
+    1600.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3049,
+   "world_cm": [
+    2000.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3050,
+   "world_cm": [
+    2367.367,
+    432.32,
+    1222.408
+   ],
+   "blender_m": [
+    -12.22408,
+    -23.67367,
+    4.3232
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3051,
+   "world_cm": [
+    2800.0,
+    400.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -28.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3066,
+   "world_cm": [
+    -2000.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3067,
+   "world_cm": [
+    -1600.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3068,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3069,
+   "world_cm": [
+    -800.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3070,
+   "world_cm": [
+    -400.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3071,
+   "world_cm": [
+    0.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3072,
+   "world_cm": [
+    400.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3073,
+   "world_cm": [
+    800.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3074,
+   "world_cm": [
+    1200.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3075,
+   "world_cm": [
+    1665.406,
+    742.262,
+    1118.396
+   ],
+   "blender_m": [
+    -11.18396,
+    -16.65406,
+    7.42262
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3076,
+   "world_cm": [
+    2400.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -24.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3077,
+   "world_cm": [
+    2800.0,
+    800.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -28.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3098,
+   "world_cm": [
+    -2000.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3099,
+   "world_cm": [
+    -1600.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3100,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3101,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3102,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3103,
+   "world_cm": [
+    0.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3104,
+   "world_cm": [
+    400.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3105,
+   "world_cm": [
+    800.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3106,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3107,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    1200.0
+   ],
+   "blender_m": [
+    -12.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3108,
+   "world_cm": [
+    2417.902,
+    1199.085,
+    1235.297
+   ],
+   "blender_m": [
+    -12.35297,
+    -24.17902,
+    11.99085
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3268,
+   "world_cm": [
+    -1901.48,
+    83.716,
+    1578.311
+   ],
+   "blender_m": [
+    -15.78311,
+    19.0148,
+    0.83716
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3269,
+   "world_cm": [
+    -1545.172,
+    70.968,
+    1574.514
+   ],
+   "blender_m": [
+    -15.74514,
+    15.45172,
+    0.70968
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3270,
+   "world_cm": [
+    -1200.727,
+    37.487,
+    1600.695
+   ],
+   "blender_m": [
+    -16.00695,
+    12.00727,
+    0.37487
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3271,
+   "world_cm": [
+    -808.812,
+    61.749,
+    1731.164
+   ],
+   "blender_m": [
+    -17.31164,
+    8.08812,
+    0.61749
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3272,
+   "world_cm": [
+    -357.801,
+    69.044,
+    1742.553
+   ],
+   "blender_m": [
+    -17.42553,
+    3.57801,
+    0.69044
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3273,
+   "world_cm": [
+    16.922,
+    68.717,
+    1742.729
+   ],
+   "blender_m": [
+    -17.42729,
+    -0.16922,
+    0.68717
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3274,
+   "world_cm": [
+    408.844,
+    32.809,
+    1723.562
+   ],
+   "blender_m": [
+    -17.23562,
+    -4.08844,
+    0.32809
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3275,
+   "world_cm": [
+    726.633,
+    22.224,
+    1722.572
+   ],
+   "blender_m": [
+    -17.22572,
+    -7.26633,
+    0.22224
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3276,
+   "world_cm": [
+    1151.172,
+    75.948,
+    1510.127
+   ],
+   "blender_m": [
+    -15.10127,
+    -11.51172,
+    0.75948
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3277,
+   "world_cm": [
+    1594.484,
+    4.271,
+    1618.326
+   ],
+   "blender_m": [
+    -16.18326,
+    -15.94484,
+    0.04271
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3278,
+   "world_cm": [
+    1998.621,
+    71.185,
+    1601.32
+   ],
+   "blender_m": [
+    -16.0132,
+    -19.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3279,
+   "world_cm": [
+    2398.621,
+    71.185,
+    1601.32
+   ],
+   "blender_m": [
+    -16.0132,
+    -23.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3280,
+   "world_cm": [
+    2798.621,
+    71.185,
+    1601.32
+   ],
+   "blender_m": [
+    -16.0132,
+    -27.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3296,
+   "world_cm": [
+    -2000.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3297,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3298,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3299,
+   "world_cm": [
+    -800.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3300,
+   "world_cm": [
+    -400.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3301,
+   "world_cm": [
+    0.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3302,
+   "world_cm": [
+    400.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3303,
+   "world_cm": [
+    800.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3304,
+   "world_cm": [
+    1200.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3305,
+   "world_cm": [
+    1600.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3306,
+   "world_cm": [
+    2000.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3307,
+   "world_cm": [
+    2400.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -24.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3308,
+   "world_cm": [
+    2800.0,
+    400.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -28.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3324,
+   "world_cm": [
+    -2000.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3325,
+   "world_cm": [
+    -1600.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3326,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3327,
+   "world_cm": [
+    -800.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3328,
+   "world_cm": [
+    -400.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3329,
+   "world_cm": [
+    0.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3330,
+   "world_cm": [
+    400.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3331,
+   "world_cm": [
+    800.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3332,
+   "world_cm": [
+    1200.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3333,
+   "world_cm": [
+    1599.691,
+    800.099,
+    1600.992
+   ],
+   "blender_m": [
+    -16.00992,
+    -15.99691,
+    8.00099
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3334,
+   "world_cm": [
+    2000.0,
+    800.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3335,
+   "world_cm": [
+    2442.562,
+    834.806,
+    1572.879
+   ],
+   "blender_m": [
+    -15.72879,
+    -24.42562,
+    8.34806
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3336,
+   "world_cm": [
+    2768.5,
+    788.411,
+    1615.486
+   ],
+   "blender_m": [
+    -16.15486,
+    -27.685,
+    7.88411
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3358,
+   "world_cm": [
+    -1600.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3359,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3360,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3361,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3362,
+   "world_cm": [
+    0.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3363,
+   "world_cm": [
+    400.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3364,
+   "world_cm": [
+    800.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3365,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3366,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3367,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3368,
+   "world_cm": [
+    2400.0,
+    1200.0,
+    1600.0
+   ],
+   "blender_m": [
+    -16.0,
+    -24.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3532,
+   "world_cm": [
+    -1977.938,
+    57.659,
+    1971.693
+   ],
+   "blender_m": [
+    -19.71693,
+    19.77938,
+    0.57659
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3533,
+   "world_cm": [
+    -1592.008,
+    60.1,
+    1934.285
+   ],
+   "blender_m": [
+    -19.34285,
+    15.92008,
+    0.601
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3534,
+   "world_cm": [
+    -1165.953,
+    36.509,
+    2015.586
+   ],
+   "blender_m": [
+    -20.15586,
+    11.65953,
+    0.36509
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3535,
+   "world_cm": [
+    -728.699,
+    0.328,
+    1986.021
+   ],
+   "blender_m": [
+    -19.86021,
+    7.28699,
+    0.00328
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3536,
+   "world_cm": [
+    -400.0,
+    0.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3537,
+   "world_cm": [
+    55.312,
+    51.414,
+    1994.164
+   ],
+   "blender_m": [
+    -19.94164,
+    -0.55312,
+    0.51414
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3538,
+   "world_cm": [
+    446.336,
+    0.213,
+    1990.916
+   ],
+   "blender_m": [
+    -19.90916,
+    -4.46336,
+    0.00213
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3539,
+   "world_cm": [
+    850.305,
+    31.318,
+    1978.582
+   ],
+   "blender_m": [
+    -19.78582,
+    -8.50305,
+    0.31318
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3540,
+   "world_cm": [
+    1240.531,
+    31.79,
+    1987.688
+   ],
+   "blender_m": [
+    -19.87687,
+    -12.40531,
+    0.3179
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3541,
+   "world_cm": [
+    1609.719,
+    11.265,
+    2006.189
+   ],
+   "blender_m": [
+    -20.06189,
+    -16.09719,
+    0.11265
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3542,
+   "world_cm": [
+    1998.621,
+    71.185,
+    2001.32
+   ],
+   "blender_m": [
+    -20.0132,
+    -19.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3543,
+   "world_cm": [
+    2872.855,
+    63.024,
+    2004.898
+   ],
+   "blender_m": [
+    -20.04898,
+    -28.72855,
+    0.63024
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3559,
+   "world_cm": [
+    -2000.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3560,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3561,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3562,
+   "world_cm": [
+    -800.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3563,
+   "world_cm": [
+    -400.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3564,
+   "world_cm": [
+    0.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3565,
+   "world_cm": [
+    400.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3566,
+   "world_cm": [
+    800.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3567,
+   "world_cm": [
+    1200.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3568,
+   "world_cm": [
+    1600.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3569,
+   "world_cm": [
+    2000.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3570,
+   "world_cm": [
+    2414.895,
+    369.824,
+    1985.154
+   ],
+   "blender_m": [
+    -19.85154,
+    -24.14895,
+    3.69824
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3571,
+   "world_cm": [
+    2800.0,
+    400.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -28.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3587,
+   "world_cm": [
+    -2000.0,
+    800.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3588,
+   "world_cm": [
+    -1600.0,
+    800.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3589,
+   "world_cm": [
+    -1224.223,
+    848.048,
+    1991.734
+   ],
+   "blender_m": [
+    -19.91734,
+    12.24223,
+    8.48048
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3590,
+   "world_cm": [
+    -329.129,
+    873.8,
+    1993.926
+   ],
+   "blender_m": [
+    -19.93926,
+    3.29129,
+    8.738
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3591,
+   "world_cm": [
+    18.879,
+    786.931,
+    2011.449
+   ],
+   "blender_m": [
+    -20.11449,
+    -0.18879,
+    7.86931
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3592,
+   "world_cm": [
+    394.121,
+    832.84,
+    1946.033
+   ],
+   "blender_m": [
+    -19.46033,
+    -3.94121,
+    8.3284
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3593,
+   "world_cm": [
+    1207.438,
+    772.576,
+    2012.963
+   ],
+   "blender_m": [
+    -20.12963,
+    -12.07438,
+    7.72576
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3594,
+   "world_cm": [
+    1600.0,
+    800.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3595,
+   "world_cm": [
+    2000.0,
+    800.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3596,
+   "world_cm": [
+    2400.0,
+    800.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -24.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3597,
+   "world_cm": [
+    2800.0,
+    800.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -28.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3619,
+   "world_cm": [
+    -1600.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3620,
+   "world_cm": [
+    -1111.891,
+    1103.31,
+    2048.438
+   ],
+   "blender_m": [
+    -20.48438,
+    11.11891,
+    11.0331
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3621,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3622,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3623,
+   "world_cm": [
+    400.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3624,
+   "world_cm": [
+    800.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3625,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3626,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3627,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3628,
+   "world_cm": [
+    2400.0,
+    1200.0,
+    2000.0
+   ],
+   "blender_m": [
+    -20.0,
+    -24.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3807,
+   "world_cm": [
+    -1603.707,
+    77.987,
+    2404.367
+   ],
+   "blender_m": [
+    -24.04367,
+    16.03707,
+    0.77987
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3808,
+   "world_cm": [
+    -1161.625,
+    95.251,
+    2355.287
+   ],
+   "blender_m": [
+    -23.55287,
+    11.61625,
+    0.95251
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3809,
+   "world_cm": [
+    -798.281,
+    54.021,
+    2395.178
+   ],
+   "blender_m": [
+    -23.95178,
+    7.98281,
+    0.54021
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3810,
+   "world_cm": [
+    -398.703,
+    40.742,
+    2396.363
+   ],
+   "blender_m": [
+    -23.96363,
+    3.98703,
+    0.40742
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3811,
+   "world_cm": [
+    -37.777,
+    9.415,
+    2363.236
+   ],
+   "blender_m": [
+    -23.63236,
+    0.37777,
+    0.09415
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3812,
+   "world_cm": [
+    400.0,
+    0.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -4.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3813,
+   "world_cm": [
+    837.406,
+    58.825,
+    2393.705
+   ],
+   "blender_m": [
+    -23.93705,
+    -8.37406,
+    0.58825
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3814,
+   "world_cm": [
+    1200.0,
+    0.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -12.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3815,
+   "world_cm": [
+    1600.0,
+    0.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -16.0,
+    0.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3816,
+   "world_cm": [
+    1998.621,
+    71.185,
+    2401.32
+   ],
+   "blender_m": [
+    -24.0132,
+    -19.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3817,
+   "world_cm": [
+    2398.621,
+    71.185,
+    2401.32
+   ],
+   "blender_m": [
+    -24.0132,
+    -23.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3818,
+   "world_cm": [
+    2798.621,
+    71.185,
+    2401.32
+   ],
+   "blender_m": [
+    -24.0132,
+    -27.98621,
+    0.71185
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3839,
+   "world_cm": [
+    -1600.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3840,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3841,
+   "world_cm": [
+    -782.594,
+    413.886,
+    2400.283
+   ],
+   "blender_m": [
+    -24.00283,
+    7.82594,
+    4.13886
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3842,
+   "world_cm": [
+    -400.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3843,
+   "world_cm": [
+    0.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3844,
+   "world_cm": [
+    386.383,
+    398.408,
+    2404.861
+   ],
+   "blender_m": [
+    -24.04861,
+    -3.86383,
+    3.98408
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3845,
+   "world_cm": [
+    814.355,
+    457.899,
+    2358.965
+   ],
+   "blender_m": [
+    -23.58965,
+    -8.14355,
+    4.57899
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3846,
+   "world_cm": [
+    1200.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3847,
+   "world_cm": [
+    1600.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3848,
+   "world_cm": [
+    2000.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -20.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3849,
+   "world_cm": [
+    2400.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -24.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3850,
+   "world_cm": [
+    2800.0,
+    400.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -28.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3869,
+   "world_cm": [
+    -325.152,
+    943.968,
+    2405.363
+   ],
+   "blender_m": [
+    -24.05363,
+    3.25152,
+    9.43968
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3870,
+   "world_cm": [
+    800.0,
+    800.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3871,
+   "world_cm": [
+    1200.0,
+    800.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3872,
+   "world_cm": [
+    1599.582,
+    798.869,
+    2400.404
+   ],
+   "blender_m": [
+    -24.00404,
+    -15.99582,
+    7.98869
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3873,
+   "world_cm": [
+    2000.0,
+    800.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -20.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3874,
+   "world_cm": [
+    2400.0,
+    800.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -24.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3875,
+   "world_cm": [
+    2800.0,
+    800.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -28.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3898,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3899,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3900,
+   "world_cm": [
+    -347.914,
+    1205.885,
+    2339.557
+   ],
+   "blender_m": [
+    -23.39557,
+    3.47914,
+    12.05885
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3901,
+   "world_cm": [
+    -26.711,
+    1218.305,
+    2234.592
+   ],
+   "blender_m": [
+    -22.34592,
+    0.26711,
+    12.18305
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3902,
+   "world_cm": [
+    415.664,
+    1190.398,
+    2384.789
+   ],
+   "blender_m": [
+    -23.84789,
+    -4.15664,
+    11.90398
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3903,
+   "world_cm": [
+    800.0,
+    1200.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3904,
+   "world_cm": [
+    1141.586,
+    1251.688,
+    2391.818
+   ],
+   "blender_m": [
+    -23.91818,
+    -11.41586,
+    12.51688
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3905,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3906,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 3907,
+   "world_cm": [
+    2400.0,
+    1200.0,
+    2400.0
+   ],
+   "blender_m": [
+    -24.0,
+    -24.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4095,
+   "world_cm": [
+    -1201.289,
+    66.572,
+    2801.236
+   ],
+   "blender_m": [
+    -28.01236,
+    12.01289,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4096,
+   "world_cm": [
+    -801.289,
+    66.572,
+    2801.236
+   ],
+   "blender_m": [
+    -28.01236,
+    8.01289,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4097,
+   "world_cm": [
+    -401.289,
+    66.572,
+    2801.236
+   ],
+   "blender_m": [
+    -28.01236,
+    4.01289,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4098,
+   "world_cm": [
+    7.891,
+    102.806,
+    2798.857
+   ],
+   "blender_m": [
+    -27.98857,
+    -0.07891,
+    1.02806
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4099,
+   "world_cm": [
+    346.82,
+    87.791,
+    2834.314
+   ],
+   "blender_m": [
+    -28.34314,
+    -3.4682,
+    0.87791
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4100,
+   "world_cm": [
+    798.711,
+    66.572,
+    2801.236
+   ],
+   "blender_m": [
+    -28.01236,
+    -7.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4101,
+   "world_cm": [
+    1198.711,
+    66.572,
+    2801.236
+   ],
+   "blender_m": [
+    -28.01236,
+    -11.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4102,
+   "world_cm": [
+    1608.0,
+    13.441,
+    2787.609
+   ],
+   "blender_m": [
+    -27.87609,
+    -16.08,
+    0.13441
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4103,
+   "world_cm": [
+    1996.574,
+    -155.332,
+    2808.053
+   ],
+   "blender_m": [
+    -28.08053,
+    -19.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4104,
+   "world_cm": [
+    2396.574,
+    -155.332,
+    2808.053
+   ],
+   "blender_m": [
+    -28.08053,
+    -23.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4105,
+   "world_cm": [
+    2796.574,
+    -155.332,
+    2808.053
+   ],
+   "blender_m": [
+    -28.08053,
+    -27.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4125,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4126,
+   "world_cm": [
+    -800.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4127,
+   "world_cm": [
+    -400.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4128,
+   "world_cm": [
+    0.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4129,
+   "world_cm": [
+    400.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4130,
+   "world_cm": [
+    800.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4131,
+   "world_cm": [
+    1200.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4132,
+   "world_cm": [
+    1600.0,
+    400.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4145,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4146,
+   "world_cm": [
+    -800.0,
+    800.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4147,
+   "world_cm": [
+    -400.0,
+    800.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4148,
+   "world_cm": [
+    0.0,
+    800.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4149,
+   "world_cm": [
+    400.0,
+    800.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4150,
+   "world_cm": [
+    804.602,
+    799.153,
+    2800.977
+   ],
+   "blender_m": [
+    -28.00977,
+    -8.04602,
+    7.99153
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4151,
+   "world_cm": [
+    1200.0,
+    800.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4152,
+   "world_cm": [
+    1588.945,
+    810.184,
+    2762.918
+   ],
+   "blender_m": [
+    -27.62918,
+    -15.88945,
+    8.10184
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4164,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4165,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4166,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4167,
+   "world_cm": [
+    0.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4168,
+   "world_cm": [
+    400.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4169,
+   "world_cm": [
+    790.645,
+    1147.164,
+    2784.924
+   ],
+   "blender_m": [
+    -27.84924,
+    -7.90645,
+    11.47164
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4170,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4171,
+   "world_cm": [
+    1602.922,
+    1158.598,
+    2833.639
+   ],
+   "blender_m": [
+    -28.33639,
+    -16.02922,
+    11.58598
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4172,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4173,
+   "world_cm": [
+    2400.0,
+    1200.0,
+    2800.0
+   ],
+   "blender_m": [
+    -28.0,
+    -24.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4361,
+   "world_cm": [
+    -1201.289,
+    66.572,
+    3201.234
+   ],
+   "blender_m": [
+    -32.01234,
+    12.01289,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4362,
+   "world_cm": [
+    -801.289,
+    66.572,
+    3201.234
+   ],
+   "blender_m": [
+    -32.01234,
+    8.01289,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4363,
+   "world_cm": [
+    -401.289,
+    66.572,
+    3201.234
+   ],
+   "blender_m": [
+    -32.01234,
+    4.01289,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4364,
+   "world_cm": [
+    16.055,
+    90.038,
+    3193.523
+   ],
+   "blender_m": [
+    -31.93523,
+    -0.16055,
+    0.90038
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4365,
+   "world_cm": [
+    346.895,
+    86.273,
+    3204.047
+   ],
+   "blender_m": [
+    -32.04047,
+    -3.46895,
+    0.86273
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4366,
+   "world_cm": [
+    798.711,
+    66.572,
+    3201.234
+   ],
+   "blender_m": [
+    -32.01234,
+    -7.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4367,
+   "world_cm": [
+    1198.711,
+    66.572,
+    3201.234
+   ],
+   "blender_m": [
+    -32.01234,
+    -11.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4368,
+   "world_cm": [
+    1604.367,
+    6.086,
+    3211.191
+   ],
+   "blender_m": [
+    -32.11191,
+    -16.04367,
+    0.06086
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4369,
+   "world_cm": [
+    1996.574,
+    -155.332,
+    3208.051
+   ],
+   "blender_m": [
+    -32.08051,
+    -19.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4370,
+   "world_cm": [
+    2396.574,
+    -155.332,
+    3208.051
+   ],
+   "blender_m": [
+    -32.08051,
+    -23.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4371,
+   "world_cm": [
+    2796.574,
+    -155.332,
+    3208.051
+   ],
+   "blender_m": [
+    -32.08051,
+    -27.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4392,
+   "world_cm": [
+    -1200.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4393,
+   "world_cm": [
+    -800.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4394,
+   "world_cm": [
+    -400.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4395,
+   "world_cm": [
+    0.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4396,
+   "world_cm": [
+    400.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4397,
+   "world_cm": [
+    800.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4398,
+   "world_cm": [
+    1200.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4399,
+   "world_cm": [
+    1600.0,
+    400.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4411,
+   "world_cm": [
+    -1200.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4412,
+   "world_cm": [
+    -800.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4413,
+   "world_cm": [
+    -400.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4414,
+   "world_cm": [
+    0.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -0.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4415,
+   "world_cm": [
+    400.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -4.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4416,
+   "world_cm": [
+    800.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4417,
+   "world_cm": [
+    1200.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4418,
+   "world_cm": [
+    1600.0,
+    800.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4430,
+   "world_cm": [
+    -1200.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4431,
+   "world_cm": [
+    -800.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4432,
+   "world_cm": [
+    -400.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4433,
+   "world_cm": [
+    0.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -0.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4434,
+   "world_cm": [
+    400.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -4.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4435,
+   "world_cm": [
+    800.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4436,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4437,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4438,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4439,
+   "world_cm": [
+    2400.0,
+    1200.0,
+    3200.0
+   ],
+   "blender_m": [
+    -32.0,
+    -24.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4626,
+   "world_cm": [
+    16.055,
+    90.038,
+    3593.523
+   ],
+   "blender_m": [
+    -35.93523,
+    -0.16055,
+    0.90038
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4627,
+   "world_cm": [
+    346.895,
+    86.273,
+    3604.047
+   ],
+   "blender_m": [
+    -36.04047,
+    -3.46895,
+    0.86273
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4628,
+   "world_cm": [
+    798.711,
+    66.572,
+    3601.234
+   ],
+   "blender_m": [
+    -36.01234,
+    -7.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4629,
+   "world_cm": [
+    1198.711,
+    66.572,
+    3601.234
+   ],
+   "blender_m": [
+    -36.01234,
+    -11.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4630,
+   "world_cm": [
+    1605.523,
+    11.533,
+    3594.301
+   ],
+   "blender_m": [
+    -35.94301,
+    -16.05523,
+    0.11533
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4631,
+   "world_cm": [
+    1996.574,
+    -155.332,
+    3608.051
+   ],
+   "blender_m": [
+    -36.08051,
+    -19.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4632,
+   "world_cm": [
+    2396.574,
+    -155.332,
+    3608.051
+   ],
+   "blender_m": [
+    -36.08051,
+    -23.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4633,
+   "world_cm": [
+    2796.574,
+    -155.332,
+    3608.051
+   ],
+   "blender_m": [
+    -36.08051,
+    -27.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4657,
+   "world_cm": [
+    0.0,
+    400.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -0.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4658,
+   "world_cm": [
+    400.0,
+    400.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -4.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4659,
+   "world_cm": [
+    800.0,
+    400.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4660,
+   "world_cm": [
+    1200.0,
+    400.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4661,
+   "world_cm": [
+    1600.0,
+    400.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4678,
+   "world_cm": [
+    800.0,
+    800.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -8.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4679,
+   "world_cm": [
+    1200.0,
+    800.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4680,
+   "world_cm": [
+    1600.0,
+    800.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -16.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4697,
+   "world_cm": [
+    800.0,
+    1200.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -8.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4698,
+   "world_cm": [
+    1200.0,
+    1200.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -12.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4699,
+   "world_cm": [
+    1600.0,
+    1200.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -16.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4700,
+   "world_cm": [
+    2000.0,
+    1200.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -20.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4701,
+   "world_cm": [
+    2400.0,
+    1200.0,
+    3600.0
+   ],
+   "blender_m": [
+    -36.0,
+    -24.0,
+    12.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4890,
+   "world_cm": [
+    798.711,
+    66.572,
+    4001.234
+   ],
+   "blender_m": [
+    -40.01234,
+    -7.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4891,
+   "world_cm": [
+    1198.711,
+    66.572,
+    4001.234
+   ],
+   "blender_m": [
+    -40.01234,
+    -11.98711,
+    0.66572
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4892,
+   "world_cm": [
+    1605.762,
+    13.446,
+    4002.25
+   ],
+   "blender_m": [
+    -40.0225,
+    -16.05762,
+    0.13446
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4893,
+   "world_cm": [
+    1996.574,
+    -155.332,
+    4008.051
+   ],
+   "blender_m": [
+    -40.08051,
+    -19.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4894,
+   "world_cm": [
+    2396.574,
+    -155.332,
+    4008.051
+   ],
+   "blender_m": [
+    -40.08051,
+    -23.96574,
+    -1.55332
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4921,
+   "world_cm": [
+    800.0,
+    400.0,
+    4000.0
+   ],
+   "blender_m": [
+    -40.0,
+    -8.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4922,
+   "world_cm": [
+    1200.0,
+    400.0,
+    4000.0
+   ],
+   "blender_m": [
+    -40.0,
+    -12.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4923,
+   "world_cm": [
+    1600.0,
+    400.0,
+    4000.0
+   ],
+   "blender_m": [
+    -40.0,
+    -16.0,
+    4.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4940,
+   "world_cm": [
+    1200.0,
+    800.0,
+    4000.0
+   ],
+   "blender_m": [
+    -40.0,
+    -12.0,
+    8.0
+   ]
+  },
+  {
+   "sector": "LIGHT_PROBE_GRID_3_0_2",
+   "id": 4941,
+   "world_cm": [
+    1600.0,
+    800.0,
+    4000.0
+   ],
+   "blender_m": [
+    -40.0,
+    -16.0,
+    8.0
+   ]
+  }
+ ]
+}
