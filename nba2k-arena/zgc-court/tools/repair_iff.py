@@ -125,6 +125,8 @@ def main():
         update_report(report, level, apply_orientation(level))
         from night_lighting import apply_night
         report['night_lighting']={k:v for k,v in apply_night(level).items() if k not in ('before','after')}
+        from night_scene import apply_scene
+        report['night_scene']=apply_scene(level,current,extra)
         facade_path=ROOT/'validation/r13-chilis-material-current.json'
         if any('R13 Chili' in row.get('source_material','') for row in labels.get('textures',[])):
             facade=json.loads(facade_path.read_text(encoding='utf8'))

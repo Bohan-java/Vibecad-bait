@@ -1,10 +1,10 @@
 {
-  "revision": "R13+N1",
+  "revision": "R13+N3+N4",
   "target": "Blacktop / arena_700_int.iff",
   "source_iff_sha256": "5dc20021ddfa76ddc5e2beba9c36066adf8f0528cfe8759a5f7f54572127fea7",
   "source_version": "S-beefe91fc3",
   "source_glb_sha256": "02a8bf6df7646a402b1e1d9c9e4a24e9fb4e03cb34ee52b19d486c9646295acd",
-  "source_feedback": "User requests a night look with court-side light strips; first test the night base only, then a single emissive A-sign diffuser.",
+  "source_feedback": "N3 night sky confirmed in game (moon, stars, dark glass). User asks for a complete, good-looking lit night scene at Claude's discretion.",
   "last_game_confirmed": {
     "revision": "R12",
     "visibility": "half_court_uses_gray_end",
@@ -33,7 +33,8 @@
     "Increase native basket glass alpha and roughness using its existing dedicated render path; preserve geometry, skin weights and Presentation shaders.",
     "Use donor-style DDS-only texture override resources; remove the experimental direct TLD path.",
     "Preserve donor entry order and metadata; use DEFLATE for all changed or new entries and formatted SCNE fragments.",
-    "N1 night base: dim the native sun to cool moonlight, lower sky and baked probe ambient; no geometry, material, texture or post-effect change."
+    "Night base N3: dim the native sun to cool moonlight, darken sky and clouds, lower baked probe ambient; no geometry, material, texture or post-effect change.",
+    "Night scene N4: add emissive overlays (floodlight lenses, A sign, Chilis letters/strips, logos, boots sign), fence LED strips, two floodlight spots, a Chilis spill spot and three fence line lights; no existing content changed."
   ],
   "material_repair": {
     "game_verified": false,
@@ -5982,12 +5983,12 @@
     "published_source_sha256": "884f58b4d78e78d92c0bb848c67626802a9828d19c5b0a0b8bec21fbf16b208b"
   },
   "removed_experimental_tld_entries": 268,
-  "archive_entries": 19956,
+  "archive_entries": 19981,
   "archive_crc_verified": true,
   "resource_closure_missing": [],
   "original_geometry_buffers_byte_identical": 1821,
   "global_sun_and_postfx_unchanged": false,
-  "output_bytes": 1685622391,
+  "output_bytes": 1685687867,
   "after_d3d": {
     "api": "D3D11 CreateTexture2D with complete DDS mip payloads",
     "feature_level": "0xb000",
@@ -8437,21 +8438,307 @@
     "passed_count": 271
   },
   "output": "E:\\CodexData\\2karena\\zgc-court\\output\\arena_700_int.iff",
-  "output_sha256": "12efd7a280d5a3521e72434534cd16a2b1948777a58464ad66f06f2e9a3d531f",
+  "output_sha256": "8de3b50d2d0c6491520075445df40f5d6532bc19a3a0241a52ccb7869b9f043a",
   "night_lighting": {
-    "revision": "N1",
-    "scope": "level.SCNE values only: Light.Sun intensity/colour, TIME_OF_DAY sky and sun-disc intensity, light-probe EV100 tags.",
-    "unchanged": "Sun direction and shadows, TIME_OF_DAY enable flag and camera EV100, IBL cubemaps, PostEffect.FxTweakables, all geometry, materials and textures.",
-    "sun_scale": 0.04,
-    "probe_ev_shift": -2.5,
+    "revision": "N3",
+    "scope": "level.SCNE values only: Light.Sun intensity/colour, TIME_OF_DAY (enabled at 22:00, night EV100 pinned to camera EV100, sky, sun disc, clouds), IBL dynamic relighting switch, light-probe EV100 tags.",
+    "unchanged": "Sun direction, camera EV100, IBL cubemap textures, PostEffect.FxTweakables, all geometry, materials and textures.",
+    "sun_scale": 0.005,
+    "probe_ev_shift": -6.0,
     "probe_tags_changed": 48,
-    "assumption": "Lower probe EV100 tag = dimmer baked ambient. Unverified; a brighter in-game result means it is inverted.",
-    "source_iff_sha256": "9e9cd0f73b1c6c2baf6d9f45cb472ac110282e7d161c20ce9d373fd968532622",
+    "previous_game_results": [
+      "N1 (sun 1/25, probes -2.5 EV, sky 0.05): darker overcast/foggy grey, clouds still visible; not night.",
+      "N2 (sun 1/200, probes -6 EV, sky 0.005, clouds off): ground and buildings dark; sky, horizon haze and glass reflections still bright."
+    ],
+    "source_iff_sha256": "92e0c75b9b7af82387bbb9c8f05534f35aa450c27cf6f22753ec9446761e804d",
     "unchanged_compressed_entries": 19955,
     "changed_archive_members": [
       "level.SCNE"
     ],
     "archive_crc_verified": true
   },
-  "postfx_unchanged": true
+  "postfx_unchanged": true,
+  "night_scene": {
+    "revision": "N4",
+    "emitters": {
+      "flood_lens": {
+        "colour": [
+          1.0,
+          0.97,
+          0.9
+        ],
+        "intensity": 150000.0
+      },
+      "a_sign": {
+        "colour": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "intensity": 60000.0
+      },
+      "chilis_letters": {
+        "colour": [
+          1.0,
+          0.35,
+          0.08
+        ],
+        "intensity": 40000.0
+      },
+      "chilis_pepper": {
+        "colour": [
+          1.0,
+          0.12,
+          0.06
+        ],
+        "intensity": 40000.0
+      },
+      "warm_strip": {
+        "colour": [
+          1.0,
+          0.85,
+          0.65
+        ],
+        "intensity": 30000.0
+      },
+      "logo_letters": {
+        "colour": [
+          1.0,
+          0.4,
+          0.1
+        ],
+        "intensity": 30000.0
+      },
+      "boots_letters": {
+        "colour": [
+          1.0,
+          0.9,
+          0.75
+        ],
+        "intensity": 25000.0
+      },
+      "fence_led": {
+        "colour": [
+          0.85,
+          0.92,
+          1.0
+        ],
+        "intensity": 50000.0
+      }
+    },
+    "emitter_template": "light_lamppost_genericb:light_mat",
+    "overlays": [
+      {
+        "model": "zgc_n4:glow-part-0073",
+        "source": "zgc_r03:part-0073",
+        "emitter": "flood_lens",
+        "vertices": 1080,
+        "triangles": 540
+      },
+      {
+        "model": "zgc_n4:glow-part-0611",
+        "source": "zgc_r03:part-0611",
+        "emitter": "a_sign",
+        "vertices": 126,
+        "triangles": 176
+      },
+      {
+        "model": "zgc_n4:glow-part-0612",
+        "source": "zgc_r03:part-0612",
+        "emitter": "a_sign",
+        "vertices": 126,
+        "triangles": 176
+      },
+      {
+        "model": "zgc_n4:glow-part-0619",
+        "source": "zgc_r03:part-0619",
+        "emitter": "a_sign",
+        "vertices": 726,
+        "triangles": 1448
+      },
+      {
+        "model": "zgc_n4:glow-part-0620",
+        "source": "zgc_r03:part-0620",
+        "emitter": "a_sign",
+        "vertices": 726,
+        "triangles": 1448
+      },
+      {
+        "model": "zgc_n4:glow-part-0621",
+        "source": "zgc_r03:part-0621",
+        "emitter": "a_sign",
+        "vertices": 726,
+        "triangles": 1448
+      },
+      {
+        "model": "zgc_n4:glow-part-0622",
+        "source": "zgc_r03:part-0622",
+        "emitter": "a_sign",
+        "vertices": 726,
+        "triangles": 1448
+      },
+      {
+        "model": "zgc_n4:glow-part-0439",
+        "source": "zgc_r03:part-0439",
+        "emitter": "chilis_letters",
+        "vertices": 1464,
+        "triangles": 944
+      },
+      {
+        "model": "zgc_n4:glow-part-0446",
+        "source": "zgc_r03:part-0446",
+        "emitter": "chilis_pepper",
+        "vertices": 216,
+        "triangles": 140
+      },
+      {
+        "model": "zgc_n4:glow-part-0096",
+        "source": "zgc_r03:part-0096",
+        "emitter": "warm_strip",
+        "vertices": 48,
+        "triangles": 24
+      },
+      {
+        "model": "zgc_n4:glow-part-0140",
+        "source": "zgc_r03:part-0140",
+        "emitter": "warm_strip",
+        "vertices": 48,
+        "triangles": 24
+      },
+      {
+        "model": "zgc_n4:glow-part-0079",
+        "source": "zgc_r03:part-0079",
+        "emitter": "logo_letters",
+        "vertices": 488,
+        "triangles": 944
+      },
+      {
+        "model": "zgc_n4:glow-part-0138",
+        "source": "zgc_r03:part-0138",
+        "emitter": "logo_letters",
+        "vertices": 488,
+        "triangles": 944
+      },
+      {
+        "model": "zgc_n4:glow-part-0181",
+        "source": "zgc_r03:part-0181",
+        "emitter": "boots_letters",
+        "vertices": 4512,
+        "triangles": 7896
+      }
+    ],
+    "fence_strips": {
+      "fence_led_end": {
+        "min": [
+          -914.0,
+          67.0,
+          -1609.5
+        ],
+        "max": [
+          914.0,
+          69.0,
+          -1606.5
+        ]
+      },
+      "fence_led_north": {
+        "min": [
+          915.5,
+          67.0,
+          -1605.0
+        ],
+        "max": [
+          918.5,
+          69.0,
+          -483.0
+        ]
+      },
+      "fence_led_south": {
+        "min": [
+          -918.5,
+          67.0,
+          -1605.0
+        ],
+        "max": [
+          -915.5,
+          69.0,
+          -283.0
+        ]
+      }
+    },
+    "lights": {
+      "zgc_n4:flood_upper": {
+        "type": "SPOT",
+        "intensity": 4000000.0,
+        "translate": [
+          975.0,
+          1035.0,
+          420.0
+        ]
+      },
+      "zgc_n4:flood_lower": {
+        "type": "SPOT",
+        "intensity": 4000000.0,
+        "translate": [
+          975.0,
+          975.0,
+          420.0
+        ]
+      },
+      "zgc_n4:fill_left": {
+        "type": "SPOT",
+        "intensity": 1200000.0,
+        "translate": [
+          -1800.0,
+          1400.0,
+          700.0
+        ]
+      },
+      "zgc_n4:chilis_spill": {
+        "type": "SPOT",
+        "intensity": 300000.0,
+        "translate": [
+          420.0,
+          450.0,
+          2050.0
+        ]
+      },
+      "zgc_n4:fence_led_end": {
+        "type": "AREA",
+        "intensity": 150000.0,
+        "translate": [
+          0.0,
+          75.0,
+          1608.0
+        ]
+      },
+      "zgc_n4:fence_led_north": {
+        "type": "AREA",
+        "intensity": 150000.0,
+        "translate": [
+          -917.0,
+          75.0,
+          1044.0
+        ]
+      },
+      "zgc_n4:fence_led_south": {
+        "type": "AREA",
+        "intensity": 150000.0,
+        "translate": [
+          917.0,
+          75.0,
+          944.0
+        ]
+      }
+    },
+    "unchanged": "All pre-existing models, objects, materials, textures and lights; new content only under zgc_n4:.",
+    "unverified": "Emissive output of a lightmap-only native material on custom static geometry, and native light intensity units at EV100 14.8.",
+    "source_iff_sha256": "4eb36acd0f2ed47f9000f256a432eafbf640c821d47dcfaf4b122cbce705f76e",
+    "unchanged_compressed_entries": 19980,
+    "added_archive_members": 0,
+    "removed_previous_n4_members": 0,
+    "changed_archive_members": [
+      "level.SCNE"
+    ],
+    "archive_crc_verified": true
+  }
 }

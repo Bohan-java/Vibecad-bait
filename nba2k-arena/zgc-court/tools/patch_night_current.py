@@ -7,7 +7,7 @@ import time
 import zipfile
 from iff_codec import load_scne
 from native_archive import write_compatible
-from night_lighting import apply_night, is_night
+from night_lighting import apply_night, REVISION
 from patch_half_court_current import digest, raw_record_hash
 from repair_iff import dump_native
 
@@ -28,11 +28,12 @@ def main():
         doc = load_scne(raw)
         assert dump_native(doc) == raw, 'level.SCNE does not round-trip byte-identically'
         level = doc['level']
-        assert not is_night(level), 'Already night; do not republish'
         before = copy.deepcopy(level)
         night = apply_night(level)
+        assert level != before, 'Night values already current; do not republish'
         changed_objects = {k for k in level['Object'] if level['Object'][k] != before['Object'][k]}
-        assert changed_objects == {'TIME_OF_DAY', 'LIGHT_PROBE_GRID_DATA'}, changed_objects
+        from night_lighting import IBL_OBJECTS
+        assert changed_objects <= {'TIME_OF_DAY', 'LIGHT_PROBE_GRID_DATA', *IBL_OBJECTS}, changed_objects
         for key in before:
             if key not in ('Light', 'Object'):
                 assert before[key] == level[key], key
@@ -56,14 +57,15 @@ def main():
             assert final.read('PostEffect.FxTweakables') == current.read('PostEffect.FxTweakables')
     night.update(source_iff_sha256=original_hash, unchanged_compressed_entries=identical,
                  changed_archive_members=['level.SCNE'], archive_crc_verified=True)
-    report['revision'] = f"{report['revision']}+{night['revision']}"
+    report['revision'] = report['revision'].split('+')[0] + '+' + REVISION
     report['night_lighting'] = {k: v for k, v in night.items() if k not in ('before', 'after')}
     report['game_tested'] = False
     report['game_visibility'] = 'pending'
     report['global_sun_and_postfx_unchanged'] = False
     report['postfx_unchanged'] = True
     report['source_feedback'] = 'User requests a night look with court-side light strips; first test the night base only, then a single emissive A-sign diffuser.'
-    report['changes'].append('N1 night base: dim the native sun to cool moonlight, lower sky and baked probe ambient; no geometry, material, texture or post-effect change.')
+    report['changes'] = [c for c in report['changes'] if not c.startswith('Night base')]
+    report['changes'].append(f"Night base {REVISION}: dim the native sun to cool moonlight, darken sky and clouds, lower baked probe ambient; no geometry, material, texture or post-effect change.")
     report.update(output_bytes=pending.stat().st_size, output_sha256=digest(pending),
                   archive_crc_verified=True, archive_entries=count)
     os.replace(pending, output)

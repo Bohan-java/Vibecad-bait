@@ -1,8 +1,8 @@
-中关村大融城球场 · R13+N1（夜景基调测试）
+中关村大融城球场 · R13+N3+N4（夜景灯光测试）
 当前唯一游戏文件：output/arena_700_int.iff
 目标：Blacktop / arena_700_int.iff，手动拖入平时使用的 levels。
-大小：1,685,622,391 字节
-SHA256：12efd7a280d5a3521e72434534cd16a2b1948777a58464ad66f06f2e9a3d531f
+大小：1,685,687,867 字节
+SHA256：8de3b50d2d0c6491520075445df40f5d6532bc19a3a0241a52ccb7869b9f043a
 
 本轮逐张查看 45 张相关原图，专攻 Chili’s 正对球场这一侧。
 灯牌改为有厚度的红橙侧壳、亚克力字面、连续窄内沿和安装层次；所有发光强度保持零，不把照片光晕烘进贴图。
@@ -23,8 +23,16 @@ SHA256：12efd7a280d5a3521e72434534cd16a2b1948777a58464ad66f06f2e9a3d531f
 可编辑源为 source/scene.blend；当前纹理与原图继续保留供后续调整。
 output 仅保留最新 IFF，旧导出及临时副本清理。未修改游戏目录。
 
-N1 夜景基调（未进游戏验证）：只改 level.SCNE 中已有的光照数值。
-太阳强度降为白天的 1/25 并改为冷色月光；天空强度 1.0→0.05，天空太阳圆盘 1500→0；48 个光照探针 EV100 标记 14.8→12.3。
-太阳方向、阴影、相机曝光、TIME_OF_DAY 开关、IBL、PostEffect、全部几何/材质/纹理不变；其余压缩成员逐字节相同。
-探针 EV100 降低使环境光变暗是未证实假设；若游戏里整体反而更亮/发白，说明方向相反。工具：tools/night_lighting.py、tools/patch_night_current.py。
+N3 夜景游戏结果：夜空、月亮、星星出现，玻璃变暗，地面昏暗。：只改 level.SCNE 中已有的光照数值。
+N1 游戏结果（太阳 1/25、探针 -2.5 EV、天空 0.05）：整体变暗未发白，但像阴天/雾天。证明探针 EV100 下调确实压暗环境光。
+N2 游戏结果（太阳 1/200、探针 -6 EV、天空 0.005、关云层）：地面和建筑已暗，但天空、远处白雾和玻璃楼面反射仍亮；TIME_OF_DAY 关闭时天空不读 VC_SkyIntensity，IBL 是白天预烘焙。
+N3 = N2 + 开启原生 TIME_OF_DAY（VC_Enabled 1、时间 22:00、VC_NightEV100 固定为相机 EV100 14.8）+ 两个 IBL 的 VC_IsLitDynamically 1（用包内 G-buffer 立方图实时重算反射）。
+相机曝光、IBL 纹理、PostEffect、全部几何/材质/纹理不变；其余压缩成员逐字节相同。
+工具：tools/night_lighting.py、tools/patch_night_current.py；其他 Windows 机器用 tools/standalone_night_patch.py（仅标准库，接受 R13/N1/N2 包）。
 回退：git 中保留 R13 原包（SHA256 9e9cd0f7…）。
+N4 夜景灯光（未进游戏验证）：不修改任何已有内容，只新增 zgc_n4: 内容。
+发光表皮：沿已有部件法线外移 0.4 cm 复制几何，用原生路灯发光材质（light_lamppost_genericb:light_mat，simplepbr_CLOD，无纹理）并抄原生路灯 UserData。覆盖高杆灯灯面、A 字牌灯罩、Chili's 正面亚克力字和辣椒、入口/露台竖向灯条、门头/露台 logo 字、The boots 招牌字。
+场边灯带：NBA ATELIER 底板顶部三段 LED 盒（端部和两侧），冷白发光。
+光源：高杆灯两盏 SPOT（上层投向黄黑半场并投影，下层投向另一半）、对侧隐藏补光 SPOT、Chili's 门前暖色 SPOT、三段灯带上方线光源（AREA 线型，无阴影），格式照抄室内底包。
+强度均为在相机 EV100 14.8 下的估计值，需按游戏截图调整；发光材质只有 Lightmap 技术，用于自制几何是否正常发光未验证。
+工具：tools/night_scene.py、tools/patch_scene_current.py；tools/make_standalone_patch.py 生成 tools/standalone_night_patch.py（接受 R13/N1/N2/N3 包，结果与本仓库输出逐字节相同）。
