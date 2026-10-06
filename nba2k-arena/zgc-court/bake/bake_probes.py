@@ -4,7 +4,7 @@ Run from nba2k-arena/zgc-court (Blender 5.x, also works on 4.x):
 
   blender -b source/scene.blend -P bake/bake_probes.py -- --out bake/output/probe_sh.ndjson
 
-Optional: --limit 3 (quick test), --res 16, --samples 128, --groups a_signs,chilis
+Optional: --limit 3 (quick test), --res 128, --samples 128, --groups a_signs,chilis
 
 What it does
 - Never saves the .blend. Everything below happens in memory.
@@ -12,8 +12,8 @@ What it does
   and any emission already in the materials, so ONLY the night lights in
   bake/bake_lights.json contribute (the game keeps its own moonlit ambient;
   this bake is added on top of it).
-- For every probe in bake/probes_3_0_2.json and every light group, renders the
-  six 90-degree cube faces from the probe position and projects the radiance
+- For every probe in bake/probes_3_0_2.json and every light group, renders one
+  equirectangular panorama (2*res x res) from the probe position and projects the radiance
   onto 9 real SH coefficients per RGB channel, expressed in GAME world axes
   (x = -Blender Y, y = Blender Z (up), z = -Blender X) with the usual order
   [Y00, Y1-1(y), Y10(z), Y11(x), Y2-2(xy), Y2-1(yz), Y20(3z^2-1), Y21(xz), Y22(x^2-y^2)].
@@ -22,8 +22,14 @@ What it does
   interrupted bake can simply be started again with the same command; already
   finished probes are skipped.
 
-Cube faces are used instead of a panoramic camera because the perspective
-pixel -> direction mapping is unambiguous across Blender versions.
+One panorama per group instead of six cube faces: Cycles' per-render overhead
+dominates at these sizes, so a 256x128 panorama costs about as much as one 16x16
+face while giving ~20x more samples (small bright emitters such as the A signs
+were noticeably noisy and edge-biased with 16x16 faces). The pixel -> direction
+mapping was checked against cube-face renders and against where the floodlight
+and A signs appear in the image (camera rotated to look along +Y with +Z up:
+centre column = +Y, columns increase toward +X, rows bottom-up = latitude
+-90..+90 degrees).
 """
 from __future__ import annotations
 
@@ -42,9 +48,6 @@ from mathutils import Vector
 
 HERE = Path(__file__).resolve().parent
 PROJECT = HERE.parent   # nba2k-arena/zgc-court
-# Six cube-face look directions (Blender coordinates). Camera roll does not
-# matter: pixel directions are taken from the camera's actual matrix_world.
-FACES = [(1, 0, 0), (-1, 0, 0), (0, 1, 0), (0, -1, 0), (0, 0, 1), (0, 0, -1)]
 HELPER_COLLECTIONS = ('preview_helpers', 'lights')   # same allowlist logic as tools/export_scene.py
 
 
@@ -54,7 +57,7 @@ def parse():
     p.add_argument('--out', default=str(HERE / 'output' / 'probe_sh.ndjson'))
     p.add_argument('--probes', default=str(HERE / 'probes_3_0_2.json'))
     p.add_argument('--lights', default=str(HERE / 'bake_lights.json'))
-    p.add_argument('--res', type=int, default=16, help='cube face resolution in pixels')
+    p.add_argument('--res', type=int, default=128, help='panorama height in pixels (width is 2x)')
     p.add_argument('--samples', type=int, default=128)
     p.add_argument('--limit', type=int, default=0, help='bake only the first N probes (test run)')
     p.add_argument('--groups', default='', help='comma separated subset of light groups')
@@ -119,7 +122,7 @@ def setup_scene(res, samples):
     scene.cycles.use_adaptive_sampling = False
     scene.cycles.max_bounces = 6
     scene.render.use_persistent_data = True
-    scene.render.resolution_x = scene.render.resolution_y = res
+    scene.render.resolution_x, scene.render.resolution_y = 2 * res, res
     scene.render.resolution_percentage = 100
     scene.render.pixel_aspect_x = scene.render.pixel_aspect_y = 1
     scene.render.film_transparent = False
@@ -156,12 +159,12 @@ def setup_scene(res, samples):
             if node.type == 'EMISSION':
                 node.inputs['Strength'].default_value = 0.0
     cam_data = bpy.data.cameras.new('bake_probe_camera')
-    cam_data.type = 'PERSP'
-    cam_data.sensor_fit = 'HORIZONTAL'
-    cam_data.angle = math.radians(90.0)
+    cam_data.type = 'PANO'
+    cam_data.panorama_type = 'EQUIRECTANGULAR'
     cam_data.clip_start = 0.01
     cam_data.clip_end = 5000.0
     cam = bpy.data.objects.new('bake_probe_camera', cam_data)
+    cam.rotation_euler = (math.pi / 2, 0.0, 0.0)   # look along +Y, +Z up
     scene.collection.objects.link(cam)
     scene.camera = cam
     return cam
@@ -233,14 +236,16 @@ def enable_group(groups, active):
             obj.hide_render = not on
 
 
-def face_rays(res):
-    """Camera-space unit rays and solid angles for a 90-degree square face (pixel rows bottom-up)."""
-    t = (np.arange(res) + 0.5) / res * 2.0 - 1.0
-    x, y = np.meshgrid(t, t)          # y grows upwards with the row index (Blender pixel order)
-    z = -np.ones_like(x)
-    norm = np.sqrt(x * x + y * y + 1.0)
-    rays = np.stack([x / norm, y / norm, z / norm], axis=-1).reshape(-1, 3)
-    solid = (4.0 / (res * res)) / norm.reshape(-1) ** 3
+def pano_rays(res):
+    """Blender-axis unit rays and solid angles for the 2*res x res equirectangular image
+    (pixel rows bottom-up, as Blender stores them)."""
+    width, height = 2 * res, res
+    lon = ((np.arange(width) + 0.5) / width - 0.5) * 2.0 * math.pi
+    lat = ((np.arange(height) + 0.5) / height - 0.5) * math.pi
+    lon, lat = np.meshgrid(lon, lat)
+    lon, lat = lon.ravel(), lat.ravel()
+    rays = np.stack([np.cos(lat) * np.sin(lon), np.cos(lat) * np.cos(lon), np.sin(lat)], axis=1)
+    solid = (2.0 * math.pi / width) * (math.pi / height) * np.cos(lat)
     return rays, solid
 
 
@@ -254,7 +259,7 @@ def sh_basis(d):
         1.092548 * x * z, 0.546274 * (x * x - y * y)], axis=1)
 
 
-def render_face(cam, path):
+def render_pano(path):
     bpy.context.view_layer.update()
     bpy.context.scene.render.filepath = path
     bpy.ops.render.render(write_still=True)
@@ -283,10 +288,11 @@ def main():
     device = setup_gpu(args.cpu)
     cam = setup_scene(args.res, args.samples)
     groups = setup_lights(spec, wanted)
-    rays, solid = face_rays(args.res)
-    assert abs(solid.sum() * 6 - 4 * math.pi) < 0.05 * 4 * math.pi
+    rays, solid = pano_rays(args.res)
+    assert abs(solid.sum() - 4 * math.pi) < 0.01 * 4 * math.pi
+    basis = sh_basis(np.stack([-rays[:, 1], rays[:, 2], -rays[:, 0]], axis=1))   # game axes
     tmp = tempfile.mkdtemp(prefix='zgc_bake_')
-    face_path = os.path.join(tmp, 'face.exr')
+    pano_path = os.path.join(tmp, 'pano.exr')
     print(f'[bake] device {device}; {len(probes)} probes, {len(done)} already done; groups {list(groups)}', flush=True)
     start = time.time()
     with out.open('a', encoding='utf8') as stream:
@@ -297,21 +303,15 @@ def main():
             result = {}
             for group in groups:
                 enable_group(groups, group)
-                coeffs = np.zeros((9, 3))
-                for look in FACES:
-                    cam.rotation_euler = Vector(look).to_track_quat('-Z', 'Y').to_euler()
-                    bpy.context.view_layer.update()
-                    world_dirs = np.asarray(cam.matrix_world.to_3x3()) @ rays.T
-                    game = np.stack([-world_dirs[1], world_dirs[2], -world_dirs[0]], axis=1)
-                    radiance = render_face(cam, face_path)
-                    coeffs += sh_basis(game).T @ (radiance * solid[:, None])
+                radiance = render_pano(pano_path)
+                coeffs = basis.T @ (radiance * solid[:, None])
                 result[group] = np.round(coeffs, 7).tolist()
             stream.write(json.dumps({'sector': probe['sector'], 'id': probe['id'], 'world_cm': probe['world_cm'],
                                      'sh_rgb_9x3': result}) + '\n')
             stream.flush()
             elapsed = time.time() - start
             print(f'[bake] probe {n + 1}/{len(probes)} id {probe["id"]} done ({elapsed / 60:.1f} min)', flush=True)
-    meta = {'blender': bpy.app.version_string, 'device': device, 'res': args.res, 'samples': args.samples,
+    meta = {'blender': bpy.app.version_string, 'device': device, 'camera': 'equirectangular', 'res': args.res, 'samples': args.samples,
             'groups': list(groups), 'sh_axes': 'game world x=-Blender Y, y=Blender Z (up), z=-Blender X',
             'sh_order': ['Y00', 'Y1-1(y)', 'Y10(z)', 'Y11(x)', 'Y2-2(xy)', 'Y2-1(yz)', 'Y20(3z^2-1)', 'Y21(xz)', 'Y22(x^2-y^2)'],
             'quantity': 'radiance SH coefficients (integral of radiance * basis over the sphere), linear RGB',

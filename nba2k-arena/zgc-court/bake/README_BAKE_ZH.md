@@ -48,7 +48,7 @@ blender -b source/scene.blend -P bake/bake_probes.py -- --out bake/output/test.n
 
 记下每个探针大概用了多久，乘以 568 就是总时长。如果报 `Light source objects not found in the .blend`，把报错截图发回来，不要自己改名。
 
-`.blend` 里的贴图存的是原作者 Windows 电脑上的绝对路径，脚本会自动改到仓库里的对应文件（`relinked N images`）。如果报 `images still missing`，说明 `git lfs pull` 没拉全，先重新拉取。参考速度：Apple M5 GPU 每个探针约 7–9 秒（第一次运行要额外编译着色器约 1 分钟）。
+`.blend` 里的贴图存的是原作者 Windows 电脑上的绝对路径，脚本会自动改到仓库里的对应文件（`relinked N images`）。如果报 `images still missing`，说明 `git lfs pull` 没拉全，先重新拉取。参考速度：Apple M5 GPU 每个探针约 3 秒，568 个约半小时（第一次运行要额外编译着色器约 1 分钟）。
 
 ## 第二步：正式烘焙
 
@@ -56,10 +56,10 @@ blender -b source/scene.blend -P bake/bake_probes.py -- --out bake/output/test.n
 blender -b source/scene.blend -P bake/bake_probes.py -- --out bake/output/probe_sh.ndjson
 ```
 
-- 预计 1–3 小时（GPU），CPU 会更久。
+- 预计半小时到 1 小时（GPU），CPU 会更久。
 - **中途断了没关系**：用同一条命令重新运行，已经算完的探针会自动跳过。
 - 想先只算一组灯，可以加 `--groups chilis`（组名见 `bake_lights.json`）。
-- 画质参数：`--res`（每个立方体面的分辨率，默认 16）、`--samples`（默认 128）。默认值已经够用，一般不用改。
+- 画质参数：`--res`（全景图高度，宽度为两倍，默认 128）、`--samples`（默认 128）。默认值已经够用，一般不用改。
 
 ## 第三步：上传结果
 
@@ -79,6 +79,6 @@ git push
 ## 技术说明（给后续开发者）
 
 - 世界背景是纯黑，原有灯光、辅助物件和材质自带的发光全部关闭，只有 `bake_lights.json` 里的灯参与计算；游戏原有的月光环境光保留，烘焙结果是叠加上去的那部分。
-- 每个探针按灯组分别渲染 6 个 90° 立方体面，投影到 9 个实数球谐系数 × RGB，坐标轴换算成游戏世界轴（x = −Blender Y，y = Blender Z 向上，z = −Blender X），顺序与游戏一致：L1 为 (Y, Z, X)。存的是辐射度球谐，未做余弦卷积。
+- 每个探针按灯组分别渲染一张 360° 等距柱状全景图（256×128），投影到 9 个实数球谐系数 × RGB，坐标轴换算成游戏世界轴（x = −Blender Y，y = Blender Z 向上，z = −Blender X），顺序与游戏一致：L1 为 (Y, Z, X)。存的是辐射度球谐，未做余弦卷积。
 - 各组分开存，导入时可以分别调亮度和颜色，不用重新烘焙。绝对亮度在导入时用当前 N16 的观感做校准。
 - 第一期只烘探针（影响球员和动态物体）。地面、墙面的高精度光照贴图是第二期，要先在一小块地面上验证格式。
