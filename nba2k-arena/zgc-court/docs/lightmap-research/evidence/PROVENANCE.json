@@ -1,0 +1,144 @@
+{
+  "repository": "Bohan-java/Vibecad-bait",
+  "branch": "大融城OG-Snippy-snoopy-Dingus-court",
+  "code_review_commit": "abd8643af109fd93720595157b8f4792f0e14bcb",
+  "commit_timestamp_utc": "2026-10-06T22:16:28Z",
+  "commit_message": "Night patch N17.2: ring-2 probe bake (1399 baked probes)",
+  "working_directory": "nba2k-arena/zgc-court",
+  "created_output_scope": "docs/lightmap-research/",
+  "access_method": "Read-only GitHub connector, official Microsoft documentation, local synthetic tests",
+  "remote_repository_writes": false,
+  "real_iff_bytes_obtained": false,
+  "game_executed": false,
+  "blender_executed": false,
+  "native_shader_disassembled": false,
+  "full_iff_generated": false,
+  "native_tld_twiddle_decoded": false,
+  "compression_method_33_decoded": false,
+  "bc4_lighting_semantic_proven": false,
+  "minmax_shader_decode_proven": false,
+  "iff_lfs_pointer": {
+    "path": "output/arena_700_int.iff",
+    "git_blob_sha": "a6a11e7bae92c2b21a2fcaaef9625df08b1715b2",
+    "oid_sha256": "67937dec20a213047b53d895d27140bda309052426511be624e97ea4c3dcbdd9",
+    "size_bytes": 1686988259,
+    "oid_is_independently_verified_content_hash": false
+  },
+  "user_supplied_not_recounted": {
+    "native_same_name_bc4_count_approx": 9856,
+    "custom_object_count": 671,
+    "lamp_texture_size": [
+      64,
+      64
+    ],
+    "lamp_min_approx": [
+      -0.025,
+      0,
+      0,
+      0.997
+    ],
+    "lamp_max_approx": [
+      1.13,
+      0,
+      0,
+      1.002
+    ],
+    "lddiag1_emitter_binding_game_verified_by_user": true,
+    "sconce_textured_emission_verified_by_user": true
+  },
+  "sources": [
+    {
+      "id": "C1/C2",
+      "path": "tools/night_scene.py",
+      "git_blob_sha": "be1f7e523b6e9c127ac495738ffd4fbeb3371b81",
+      "read_range": "1-550",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/night_scene.py"
+    },
+    {
+      "id": "C3",
+      "path": "tools/r04_materials.py",
+      "git_blob_sha": "c4683ce0ba7023074b81eac8abedc9b261fa513a",
+      "read_range": "full",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/r04_materials.py"
+    },
+    {
+      "id": "C4",
+      "path": "tools/native_textures.py",
+      "git_blob_sha": "f8f728d91527203169c6a5332df7bbe16e43a68b",
+      "read_range": "full",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/native_textures.py"
+    },
+    {
+      "id": "C5",
+      "path": "tools/repair_iff.py",
+      "git_blob_sha": "ae9c2688bd675261f2a2e29e4dd385d297e776fd",
+      "read_range": "1-185",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/repair_iff.py"
+    },
+    {
+      "id": "C6",
+      "path": "tools/native_archive.py",
+      "git_blob_sha": "a429044c9bfa775374aa8caa8fef1b3f3891727d",
+      "read_range": "full",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/native_archive.py"
+    },
+    {
+      "id": "C7",
+      "path": "tools/iff_codec.py",
+      "git_blob_sha": "c9c3ea050952857da731b39bbe1bd75e8b17d4ba",
+      "read_range": "1-275",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/iff_codec.py"
+    },
+    {
+      "id": "C8",
+      "path": "tools/ground_depth_policy.py",
+      "git_blob_sha": "772c3fe09e6b10586b2fd10eb8f5073abbe81105",
+      "read_range": "full",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/tools/ground_depth_policy.py"
+    },
+    {
+      "id": "C9",
+      "path": "validation/ground-depth-current.json",
+      "git_blob_sha": "a743686bb208e8bb69ea9ea3f5e699973873c5c4",
+      "read_range": "full",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/validation/ground-depth-current.json"
+    },
+    {
+      "id": "C10",
+      "path": "docs/light-brick-research/LIGHTING_RESEARCH_V2_ZH.md",
+      "git_blob_sha": "45cb5804fb5095d4e3bf40d725a9f5c64cdcfbfc",
+      "read_range": "initial section and 200-330; response truncation limits apply",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/docs/light-brick-research/LIGHTING_RESEARCH_V2_ZH.md"
+    },
+    {
+      "id": "C11",
+      "path": "bake/bake_probes.py",
+      "git_blob_sha": "ca13943d40782c0253e3c1a9ca4dc191e0c680d5",
+      "read_range": "1-180",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/bake/bake_probes.py"
+    },
+    {
+      "id": "C12",
+      "path": "bake/bake_lights.json",
+      "git_blob_sha": "341f06e9eb32b54c6bded71134f9ac23c6c147a7",
+      "read_range": "full",
+      "url": "https://github.com/Bohan-java/Vibecad-bait/blob/abd8643af109fd93720595157b8f4792f0e14bcb/nba2k-arena/zgc-court/bake/bake_lights.json"
+    }
+  ],
+  "external_primary_sources": [
+    "https://learn.microsoft.com/en-us/windows/win32/direct3d11/texture-block-compression-in-direct3d-11",
+    "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
+    "https://learn.microsoft.com/en-us/windows/win32/direct3ddds/dds-header",
+    "https://learn.microsoft.com/en-us/windows/win32/direct3ddds/dds-header-dxt10"
+  ],
+  "failed_or_insufficient_external_checks": [
+    "No decisive source established NBA 2K26 Twiddled=1 layout or CompressionMethod=33 codec.",
+    "Official English Blender bake manual fetch failed; baking proposal uses inspected repository bake code and an explicitly stated rendering model."
+  ],
+  "synthetic_tests": {
+    "count": 35,
+    "passed": 35,
+    "log": "evidence/synthetic_tests.txt",
+    "interpretation": "Standard codecs, control variables, additive changes, inverse and CLI paths only. No engine validation."
+  }
+}

@@ -1,0 +1,40 @@
+test_array_not_treated_as_plain_texture (test_lightmap_diag.CodecTests.test_array_not_treated_as_plain_texture) ... ok
+test_bc4_asymmetric_orientation (test_lightmap_diag.CodecTests.test_bc4_asymmetric_orientation) ... ok
+test_bc4_constants (test_lightmap_diag.CodecTests.test_bc4_constants) ... ok
+test_bc4_eight_entry_known_vector (test_lightmap_diag.CodecTests.test_bc4_eight_entry_known_vector) ... ok
+test_bc4_six_entry_known_vector (test_lightmap_diag.CodecTests.test_bc4_six_entry_known_vector) ... ok
+test_bc4_size_and_mip_chain (test_lightmap_diag.CodecTests.test_bc4_size_and_mip_chain) ... ok
+test_complete_bc1_and_bc3 (test_lightmap_diag.CodecTests.test_complete_bc1_and_bc3) ... ok
+test_duplicate_scne_key_rejected (test_lightmap_diag.CodecTests.test_duplicate_scne_key_rejected) ... ok
+test_native_scne_roundtrip (test_lightmap_diag.CodecTests.test_native_scne_roundtrip) ... ok
+test_nonfinite_scne_rejected (test_lightmap_diag.CodecTests.test_nonfinite_scne_rejected) ... ok
+test_plane_position_uv7_and_winding (test_lightmap_diag.CodecTests.test_plane_position_uv7_and_winding) ... ok
+test_rectangular_non_power_two (test_lightmap_diag.CodecTests.test_rectangular_non_power_two) ... ok
+test_truncated_dds_rejected (test_lightmap_diag.CodecTests.test_truncated_dds_rejected) ... ok
+test_all_modes_are_additive_and_exactly_reversible (test_lightmap_diag.PlanTests.test_all_modes_are_additive_and_exactly_reversible) ... ok
+test_ambiguous_reference_not_guessed (test_lightmap_diag.PlanTests.test_ambiguous_reference_not_guessed) ... ok
+test_arbitrary_ground_matrix_rejected (test_lightmap_diag.PlanTests.test_arbitrary_ground_matrix_rejected) ... ok
+test_bc4_inversion_at_fixed_positions (test_lightmap_diag.PlanTests.test_bc4_inversion_at_fixed_positions) ... ok
+test_changed_diagnostic_blocks_rollback (test_lightmap_diag.PlanTests.test_changed_diagnostic_blocks_rollback) ... ok
+test_cli_inventory_plan_compose_roundtrip (test_lightmap_diag.PlanTests.test_cli_inventory_plan_compose_roundtrip) ... ok
+test_emission_off_is_exact_position_control (test_lightmap_diag.PlanTests.test_emission_off_is_exact_position_control) ... ok
+test_input_path_outside_workspace_rejected (test_lightmap_diag.PlanTests.test_input_path_outside_workspace_rejected) ... ok
+test_lfs_pointer_rejected (test_lightmap_diag.PlanTests.test_lfs_pointer_rejected) ... ok
+test_lighting_edit_blocks_rollback (test_lightmap_diag.PlanTests.test_lighting_edit_blocks_rollback) ... ok
+test_metadata_is_independent_axis (test_lightmap_diag.PlanTests.test_metadata_is_independent_axis) ... ok
+test_minmax_changes_only_red_range (test_lightmap_diag.PlanTests.test_minmax_changes_only_red_range) ... ok
+test_minmax_same_position_baseline_only_changes_ranges (test_lightmap_diag.PlanTests.test_minmax_same_position_baseline_only_changes_ranges) ... ok
+test_missing_userdata_rejected (test_lightmap_diag.PlanTests.test_missing_userdata_rejected) ... ok
+test_namespace_collision_rejected (test_lightmap_diag.PlanTests.test_namespace_collision_rejected) ... ok
+test_noncanonical_scene_stays_inventory_only (test_lightmap_diag.PlanTests.test_noncanonical_scene_stays_inventory_only) ... ok
+test_output_traversal_and_overwrite_rejected (test_lightmap_diag.PlanTests.test_output_traversal_and_overwrite_rejected) ... ok
+test_outside_ground_rejected (test_lightmap_diag.PlanTests.test_outside_ground_rejected) ... ok
+test_patch_is_exactly_four_meters (test_lightmap_diag.PlanTests.test_patch_is_exactly_four_meters) ... ok
+test_safe_bundle_composition (test_lightmap_diag.PlanTests.test_safe_bundle_composition) ... ok
+test_short_reference_followed (test_lightmap_diag.PlanTests.test_short_reference_followed) ... ok
+test_uv7_flip_does_not_change_textures_or_materials (test_lightmap_diag.PlanTests.test_uv7_flip_does_not_change_textures_or_materials) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 0.984s
+
+OK

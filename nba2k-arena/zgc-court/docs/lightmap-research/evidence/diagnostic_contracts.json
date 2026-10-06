@@ -1,0 +1,195 @@
+{
+  "source": "Entirely SYNTHETIC fixture; not the actual court archive",
+  "results": [
+    {
+      "mode": "bound-control",
+      "options": {},
+      "new_keys": {
+        "Texture": 7,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 7,
+      "resource_bytes": 588,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "bc4",
+      "options": {},
+      "new_keys": {
+        "Texture": 7,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 11,
+      "resource_bytes": 12076,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "bc4",
+      "options": {
+        "invert_bc4": true
+      },
+      "new_keys": {
+        "Texture": 7,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 11,
+      "resource_bytes": 12076,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "uv7-flip",
+      "options": {},
+      "new_keys": {
+        "Texture": 7,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 11,
+      "resource_bytes": 12076,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "minmax",
+      "options": {
+        "minmax_native": true
+      },
+      "new_keys": {
+        "Texture": 7,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 8,
+      "resource_bytes": 3460,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "minmax",
+      "options": {},
+      "new_keys": {
+        "Texture": 7,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 8,
+      "resource_bytes": 3460,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "emission",
+      "options": {
+        "emission_scale": 0
+      },
+      "new_keys": {
+        "Texture": 8,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 8,
+      "resource_bytes": 3460,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    },
+    {
+      "mode": "emission",
+      "options": {},
+      "new_keys": {
+        "Texture": 8,
+        "Material": 4,
+        "Model": 4,
+        "Object": 4
+      },
+      "resource_count": 8,
+      "resource_bytes": 3460,
+      "patch_bounds_world_cm": [
+        -200.0,
+        200.0,
+        500.0,
+        900.0
+      ],
+      "new_binary_extensions": [
+        ".bin",
+        ".dds"
+      ],
+      "game_tested": false
+    }
+  ]
+}
