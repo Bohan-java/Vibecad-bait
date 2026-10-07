@@ -1,0 +1,58 @@
+{
+  "ours/level_light_subset.json": {
+    "bytes": 121958,
+    "sha256": "2d872e7b766cae3f084a7a3cd598a76d000ea281c7f0f62926d4ad0f24c302e4"
+  },
+  "ours/light_brick_map_grid_runtime_data.4c92381972a58bee.bin": {
+    "bytes": 9643472,
+    "sha256": "331ee7990a7da5e63a86c8c7b108b7d10d330dd83e4bb227bafc70d1195eb535"
+  },
+  "ours/n4_light_schema.md": {
+    "bytes": 3208,
+    "sha256": "8c18e59fd260007ffbc81e4ada71c141443c7b509b6184c000672be85f2dd7c6"
+  },
+  "donors/arena_020_int/level.SCNE.raw": {
+    "bytes": 3537433,
+    "sha256": "8aaf539ce26d77f6b1511075b30bb7baa18c3430469b20a408b93303485e15b6"
+  },
+  "donors/arena_020_int/level_light_subset.json": {
+    "bytes": 64674,
+    "sha256": "691806503a639ce557591fdb7a14c8d4d03c732a65fbabf40fd95871376bbb1e"
+  },
+  "donors/arena_blacktop_ext/level.SCNE.raw": {
+    "bytes": 92007581,
+    "sha256": "d857fe0ee2bbcc08508852e6d54d218266325d94e9b856b9be496f2c6c25d88e"
+  },
+  "donors/arena_blacktop_ext/level_light_subset.json": {
+    "bytes": 50260,
+    "sha256": "f4428a669f020046d2ae72827f814335c7cc0e8a1b0a2a6df5c9bcbe85a3ab8f"
+  },
+  "tools/night_lighting.py": {
+    "bytes": 5740,
+    "sha256": "44b4387d780d1bad526e0388927fc64f1edf8ffce719c04c11f7a320f0f25831"
+  },
+  "tools/night_scene.py": {
+    "bytes": 42031,
+    "sha256": "99d2e8f8d589f323a576c73afbcc5bbdcafe1805f2ef41548e76808ff6690daf"
+  },
+  "tools/repair_iff.py": {
+    "bytes": 14995,
+    "sha256": "2341f101af5f67777161fb484669d369f2df8b7a3cc793ca6d066369aaaf6cd4"
+  },
+  "tools/native_floor_overlay.py": {
+    "bytes": 16547,
+    "sha256": "2d6272f79e788d8d7bab49dcc94d0917f917ab527ed7080cbb4b2a193494823c"
+  },
+  "tools/make_light_research_bundle.py": {
+    "bytes": 5754,
+    "sha256": "c4b03355204a917b5f00f8ac0e1c96a4eb5027b906d610009ca85d3ede56f7eb"
+  },
+  "tools/iff_codec.py": {
+    "bytes": 13124,
+    "sha256": "9f405010ca7a506acaecb6f9f7fb58f341bf9dcfd75aa7048ce471d233b791de"
+  },
+  "tools/native_archive.py": {
+    "bytes": 3477,
+    "sha256": "a4bd7b24a221d9a9aad8707d03287352d3d92cb949417c86b60a860a8e75f857"
+  }
+}

@@ -12,7 +12,7 @@ import zipfile
 from iff_codec import load_scne
 from native_archive import write_compatible
 from night_lighting import is_night
-from night_scene import apply_scene, strip_scene, REVISION, PREFIX, PROBE_DATA_KEY
+from night_scene import apply_scene, strip_scene, REVISION, PREFIX, PROBE_DATA_KEY, FOLIAGE_PALETTE
 from patch_half_court_current import digest, raw_record_hash
 from repair_iff import dump_native, binaries, present
 
@@ -38,14 +38,39 @@ def main():
         assert is_night(level), 'Apply the night base first'
         with zipfile.ZipFile(R13) as day:
             base_level = load_scne(day.read('level.SCNE'))['level']
-        orphans = strip_scene(level, base_level)
+            base_baskets = day.read('baskets.SCNE')
+        from repair_iff import binaries
+        from night_scene import _texture_archive_name
+        others = set()
+        for name in current.namelist():
+            if name.endswith('.SCNE') and name != 'level.SCNE':
+                try:
+                    others |= {_texture_archive_name(b) for b in binaries(load_scne(current.read(name)))}
+                except Exception:
+                    pass                                   # binary-format scenes carry no zgc members
+        orphans = strip_scene(level, base_level, others)
         before = {k: dict(level[k]) for k in ('Light', 'Material', 'Model', 'Object', 'Texture')}
         extra = {}
         scene = apply_scene(level, current, extra)
+        import backboard_glass
+        baskets_raw, scene['backboard_glass'] = backboard_glass.build(base_baskets, current, extra)
+        replaced = {'level.SCNE': dump_native(doc)}
+        if baskets_raw != current.read('baskets.SCNE'):
+            replaced['baskets.SCNE'] = baskets_raw
         for key, old in before.items():
             for name, value in old.items():
+                if key == 'Texture' and name == 'LIGHT_BRICK_MAP_GRID_RUNTIME_DATA':
+                    continue   # N23 RTL variant B points it at a patched copy
                 if key == 'Texture' and PROBE_DATA_KEY.fullmatch(name):
                     continue   # probe gain replaces these descriptors on purpose
+                if key == 'Texture' and name.endswith('ball_test_basketball/texture/ball_official_color.tga'):
+                    continue   # N30 blue game ball (ball_skin.py)
+                if key == 'Material' and name in FOLIAGE_PALETTE:
+                    continue   # N39 foliage palette (night_scene.FOLIAGE_PALETTE)
+                if key == 'Light' and name == 'Sun':
+                    continue   # N22 key light (night_scene.SUN_KEY)
+                if key == 'Object' and name == 'TIME_OF_DAY':
+                    continue   # N23 moonlight (night_scene.MOON_KEY)
                 assert level[key][name] is value or level[key][name] == value, (key, name)
             assert all(n.startswith(PREFIX) for n in set(level[key]) - set(old)), key
         for name in set(extra) & orphans:
@@ -54,7 +79,7 @@ def main():
             # Content-addressed buffers (e.g. reused UV streams) already exist.
             assert current.read(name) == extra.pop(name), name
         print(f'Writing level.SCNE plus {len(extra)} new buffers', flush=True)
-        count = write_compatible(current, current, pending, {'level.SCNE': dump_native(doc), **extra}, orphans)
+        count = write_compatible(current, current, pending, {**replaced, **extra}, orphans)
         print('Checking archive CRC, resource closure and exact preservation', flush=True)
         with zipfile.ZipFile(pending) as final:
             assert final.testzip() is None
@@ -63,6 +88,7 @@ def main():
             assert names[:len(kept)] == kept and len(set(names)) == count
             assert set(names[len(kept):]) == set(extra)
             assert load_scne(final.read('level.SCNE')) == doc
+            assert final.read('baskets.SCNE') == baskets_raw
             for section in ('Model', 'Texture'):
                 for name, value in level[section].items():
                     if name.startswith(PREFIX):
@@ -70,7 +96,7 @@ def main():
                             present(final, binary)
             identical = 0
             for old in current.infolist():
-                if old.filename == 'level.SCNE' or old.filename in orphans:
+                if old.filename in ('level.SCNE', 'baskets.SCNE') or old.filename in orphans:
                     continue
                 new = final.getinfo(old.filename)
                 assert (old.CRC, old.file_size, old.compress_size) == (new.CRC, new.file_size, new.compress_size)
@@ -78,7 +104,7 @@ def main():
                 identical += 1
             assert final.read('PostEffect.FxTweakables') == current.read('PostEffect.FxTweakables')
     scene.update(source_iff_sha256=original_hash, unchanged_compressed_entries=identical,
-                 added_archive_members=len(extra), removed_previous_scene_members=len(orphans), changed_archive_members=['level.SCNE'], archive_crc_verified=True)
+                 added_archive_members=len(extra), removed_previous_scene_members=len(orphans), changed_archive_members=['level.SCNE', 'baskets.SCNE'], archive_crc_verified=True)
     report['revision'] = report['revision'].split('+')[0] + '+' + report['night_lighting']['revision'] + '+' + REVISION
     report['night_scene'] = scene
     report['game_tested'] = False

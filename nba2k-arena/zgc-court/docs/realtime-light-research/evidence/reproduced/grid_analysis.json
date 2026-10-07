@@ -1,0 +1,417 @@
+{
+  "status": "structural observations only; generic decoder not established",
+  "sha256": "331ee7990a7da5e63a86c8c7b108b7d10d330dd83e4bb227bafc70d1195eb535",
+  "layout": {
+    "evidence_type": "data/arithmetic; region semantics unconfirmed",
+    "version": 6,
+    "fine_dimensions": [
+      840,
+      140,
+      656
+    ],
+    "build_dimensions": [
+      210,
+      35,
+      164
+    ],
+    "dimension_ratio": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "fine_cell_count": 77145600,
+    "coarse_record_count_candidate": 1205400,
+    "offsets_decimal": [
+      66,
+      64,
+      65537,
+      65
+    ],
+    "offsets_hex": [
+      "0x42",
+      "0x40",
+      "0x10001",
+      "0x41"
+    ],
+    "offset2_low16": 1,
+    "offset2_high16": 1,
+    "max_light_bitmask_words": 1,
+    "grid_light_capacity": 4,
+    "height_words": 2410868,
+    "bytes": 9643472,
+    "height_times_four_matches_bytes": true,
+    "prefix_multiple_of_64": true,
+    "prefix_64_word_blocks_candidate": 1,
+    "candidate_mask_rows": 1,
+    "mask_region_words": 1,
+    "row_width_equation_matches": true,
+    "directory_end_word_candidate": 2410866,
+    "trailer_words_candidate": 2,
+    "binary_reference": "light_brick_map_grid_runtime_data.4c92381972a58bee.gz"
+  },
+  "gzip_magic_present": false,
+  "first_32_bytes_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+  "byte_histogram": {
+    "0": 6027269,
+    "1": 2,
+    "4": 1,
+    "73": 1205400,
+    "146": 1205400,
+    "228": 1204560,
+    "229": 840
+  },
+  "uint32_histogram": {
+    "0": 1205465,
+    "1": 2,
+    "262144": 1,
+    "4821732": 1204560,
+    "4821733": 840
+  },
+  "prefix_words": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "candidate_mask_words": [
+    1
+  ],
+  "candidate_aux_words": [
+    1
+  ],
+  "conditional_bit_positions": [
+    0
+  ],
+  "conditional_bit_positions_warning": "Valid only if the candidate region is a uint32 light-membership bitmap; not verified runtime light IDs.",
+  "record_counts": [
+    {
+      "low32": 4821732,
+      "high32": 0,
+      "count": 1204560
+    },
+    {
+      "low32": 4821733,
+      "high32": 0,
+      "count": 840
+    }
+  ],
+  "trailer_start_word": 2410866,
+  "trailer_start_byte": 9643464,
+  "trailer_uint32": [
+    262144,
+    0
+  ],
+  "trailer_uint16": [
+    0,
+    4,
+    0,
+    0
+  ],
+  "competing_model_u16_offsets": [
+    {
+      "record_low32": 4821732,
+      "record_high32": 0,
+      "count": 1204560,
+      "byte_offset": 9643464,
+      "in_bounds": true,
+      "u16_at_target": 0
+    },
+    {
+      "record_low32": 4821733,
+      "record_high32": 0,
+      "count": 840,
+      "byte_offset": 9643466,
+      "in_bounds": true,
+      "u16_at_target": 4
+    }
+  ],
+  "competing_model_tagged_u32_offsets": [
+    {
+      "record_low32": 4821732,
+      "record_high32": 0,
+      "count": 1204560,
+      "low_bit": 0,
+      "word_offset": 2410866,
+      "in_bounds": true,
+      "u32_at_target": 262144
+    },
+    {
+      "record_low32": 4821733,
+      "record_high32": 0,
+      "count": 840,
+      "low_bit": 1,
+      "word_offset": 2410866,
+      "in_bounds": true,
+      "u32_at_target": 262144
+    }
+  ],
+  "both_address_models_fit_this_sample": true,
+  "rare_record": [
+    4821733,
+    0
+  ],
+  "rare_record_count": 840,
+  "rare_record_linear_index_bounds": [
+    493599,
+    590000
+  ],
+  "rare_record_coarse_bounds_xyz_inclusive": [
+    [
+      99,
+      110
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      67,
+      80
+    ]
+  ],
+  "rare_records_fill_box": true,
+  "axis_order_candidates": [
+    {
+      "fast_to_slow_axes": "xyz",
+      "shape": [
+        210,
+        35,
+        164
+      ],
+      "bounds": [
+        [
+          99,
+          110
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          67,
+          80
+        ]
+      ],
+      "fills_bounding_box": true
+    },
+    {
+      "fast_to_slow_axes": "xzy",
+      "shape": [
+        210,
+        164,
+        35
+      ],
+      "bounds": [
+        [
+          99,
+          110
+        ],
+        [
+          6,
+          163
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "fills_bounding_box": false
+    },
+    {
+      "fast_to_slow_axes": "yxz",
+      "shape": [
+        35,
+        210,
+        164
+      ],
+      "bounds": [
+        [
+          0,
+          34
+        ],
+        [
+          32,
+          57
+        ],
+        [
+          67,
+          80
+        ]
+      ],
+      "fills_bounding_box": false
+    },
+    {
+      "fast_to_slow_axes": "yzx",
+      "shape": [
+        35,
+        164,
+        210
+      ],
+      "bounds": [
+        [
+          0,
+          34
+        ],
+        [
+          4,
+          163
+        ],
+        [
+          85,
+          102
+        ]
+      ],
+      "fills_bounding_box": false
+    },
+    {
+      "fast_to_slow_axes": "zxy",
+      "shape": [
+        164,
+        210,
+        35
+      ],
+      "bounds": [
+        [
+          0,
+          163
+        ],
+        [
+          8,
+          209
+        ],
+        [
+          14,
+          17
+        ]
+      ],
+      "fills_bounding_box": false
+    },
+    {
+      "fast_to_slow_axes": "zyx",
+      "shape": [
+        164,
+        35,
+        210
+      ],
+      "bounds": [
+        [
+          0,
+          163
+        ],
+        [
+          1,
+          34
+        ],
+        [
+          85,
+          102
+        ]
+      ],
+      "fills_bounding_box": false
+    }
+  ],
+  "world_coordinate_inference": {
+    "evidence_type": "inference, not confirmed shader coordinate transform",
+    "formula": "origin=(offset.x-D.x*h/2, offset.y, offset.z-D.z*h/2); fine=floor((p-origin)/h); brick=fine//4; linear=x+Bx*(y+By*z)",
+    "fine_cell_cm_candidate": 100.0,
+    "brick_width_cm_candidate": 400.0,
+    "origin_cm": [
+      -42000.0,
+      -2800.0,
+      -29600.0
+    ],
+    "matches_probe_grid_origin": true,
+    "rare_record_world_bounds_cm_half_open": [
+      [
+        -2400.0,
+        2400.0
+      ],
+      [
+        -800.0,
+        1200.0
+      ],
+      [
+        -2800.0,
+        2800.0
+      ]
+    ],
+    "center_fine_cell": [
+      420,
+      28,
+      296
+    ],
+    "center_coarse_cell": [
+      105,
+      7,
+      74
+    ],
+    "center_linear_record": 545475,
+    "center_record_word_offset": 1091016,
+    "center_record": [
+      4821733,
+      0
+    ]
+  },
+  "reassembly_byte_identical": true,
+  "reassembly_warning": "Structural reassembly retains opaque regions; this is not a semantic encode/decode roundtrip."
+}

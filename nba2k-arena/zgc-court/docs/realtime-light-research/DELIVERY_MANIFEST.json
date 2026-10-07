@@ -1,0 +1,73 @@
+{
+  "scope": "research deliverables only; no game runtime validation",
+  "game_tested": false,
+  "offline_unit_tests_passed": 26,
+  "synthetic_cli_generate_commands_passed": 7,
+  "synthetic_cli_verify_commands_passed": 7,
+  "files": {
+    "GAME_TEST_LOG_TEMPLATE.md": {
+      "bytes": 1072,
+      "sha256": "5c8b1e6389e95e480acb048ef890f42e18a6e2f280ed5ce0bc524813524a22db"
+    },
+    "README_ZH.md": {
+      "bytes": 9563,
+      "sha256": "9817f90d7f2bd52be6bd4dbec5c0eeddb6e9d6b97a8eece5d9cf9ae50f6c7e94"
+    },
+    "REPORT_ZH.md": {
+      "bytes": 38760,
+      "sha256": "a9ff2f513e07a00d9c96d70be427b47ceda8a6de8cc51e396abd0d6a5cde7714"
+    },
+    "evidence/cli_smoke_results.txt": {
+      "bytes": 4691,
+      "sha256": "6da08018609e8ff31d0372942d996c02074de521c293579bdaf801f31a5a5c30"
+    },
+    "evidence/native_spot_template.json": {
+      "bytes": 1433,
+      "sha256": "e91cb33b101b8131c7d56d46aa9225550541d3c13b936c4adfd5f717d9129bab"
+    },
+    "evidence/reproduced/descriptor_comparison.json": {
+      "bytes": 3303,
+      "sha256": "2da90e83088eeaf3a08721ccdd19346220263666ac84acfebc646ccced21e470"
+    },
+    "evidence/reproduced/donor_scene_analysis.json": {
+      "bytes": 57093,
+      "sha256": "83514c2a9f0ab5b10cfa23413562a9029da27deba948baf0ed709c9338276dff"
+    },
+    "evidence/reproduced/grid_analysis.json": {
+      "bytes": 6864,
+      "sha256": "bc08b81da7fae9b705ff82d6122dcb0d2e476d4440535b7321b01d984a44bb87"
+    },
+    "evidence/reproduced/input_sha256.json": {
+      "bytes": 2048,
+      "sha256": "8ecde3ebdb43c4c6eb57a2564e7e425bcd7b54807afd9dcbb476654b19c09253"
+    },
+    "evidence/reproduced/n4_schema_comparison.json": {
+      "bytes": 2189,
+      "sha256": "101f8d98e94c6d2fc87667e0432a9c576bfe8088ab51f158933351dc6495f46d"
+    },
+    "evidence/reproduced/rare_record_cells.csv": {
+      "bytes": 14248,
+      "sha256": "f37a70798d98782d72539d638ded1480627461b5403bd25f3aac7bfe6ec7bda8"
+    },
+    "evidence/test_results.txt": {
+      "bytes": 3041,
+      "sha256": "a667abc4b8ca18e800969d43f302aaadb062240643e6002fe469a5304f10b6e9"
+    },
+    "tools/analyze_bundle.py": {
+      "bytes": 15334,
+      "sha256": "95b005ca0899d9e9864126d740be479504a20299af8b7df54b7807e7c17b79ca"
+    },
+    "tools/generate_diagnostic.py": {
+      "bytes": 19797,
+      "sha256": "2d933a41ad6ecacf8f069cb6e9551349c10530507be4923d261521ebed5b55f1"
+    },
+    "tools/rtl_common.py": {
+      "bytes": 7633,
+      "sha256": "2d745af224afdb9aed8aaa71a25ee84a50c102edfae99a52a1dcee60f2adb028"
+    },
+    "tools/test_diagnostic.py": {
+      "bytes": 11650,
+      "sha256": "9b60647d60f519c6d04e1359ef9468a0bc632843c5060da030bd3cdabb70fde4"
+    }
+  }
+}

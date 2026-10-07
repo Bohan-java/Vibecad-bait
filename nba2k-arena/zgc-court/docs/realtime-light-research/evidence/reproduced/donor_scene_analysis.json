@@ -1,0 +1,1857 @@
+{
+  "arena_020_int": {
+    "raw_sha256": "8aaf539ce26d77f6b1511075b30bb7baa18c3430469b20a408b93303485e15b6",
+    "format": "JSON",
+    "light_matches_supplied_subset": true,
+    "light_order": [
+      {
+        "scene_order": 0,
+        "name": "Sun",
+        "Type": "DIRECTIONAL",
+        "Intensity": 3.0,
+        "Color": [
+          1.0,
+          0.947306454,
+          0.930110753,
+          1.0
+        ],
+        "Attribute": {
+          "VC_IsActive": 0,
+          "VC_Direction": [
+            -3.82137093e-15,
+            -1.0,
+            -4.37113883e-08,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "VC_CastsShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1
+        },
+        "Rotate": [
+          3.14159274,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "scene_order": 1,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@court_line_lights_group@court_line_light_0",
+        "Type": "AREA",
+        "Intensity": 2023496.5,
+        "Color": [
+          1.0,
+          0.921581924,
+          0.863157272,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AreaLightType": 1,
+          "EndPoint1": [
+            -751.0849,
+            1195.26306,
+            -1437.05359,
+            0.0
+          ],
+          "EndPoint2": [
+            751.0849,
+            1195.26306,
+            -1437.05359,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "Radius": 4000.0,
+          "Direction": [
+            0.0,
+            -1.0,
+            1.50995803e-07,
+            0.0
+          ],
+          "HasDirection": 1,
+          "Alpha": 0.610865235,
+          "Beta": 0.959931076,
+          "PenumbraFalloffExponent": 3.0,
+          "VC_CastsShadows": 1,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "AreaRadius": 400.0,
+          "VC_LocatorName": "court_line_light_0"
+        },
+        "Translate": [
+          0.0,
+          1195.26306,
+          -1437.05359
+        ]
+      },
+      {
+        "scene_order": 2,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@court_line_lights_group@court_line_light_2",
+        "Type": "AREA",
+        "Intensity": 2023496.5,
+        "Color": [
+          1.0,
+          0.921581924,
+          0.863157272,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AreaLightType": 1,
+          "EndPoint1": [
+            -751.0849,
+            1195.26306,
+            -489.900513,
+            0.0
+          ],
+          "EndPoint2": [
+            751.0849,
+            1195.26306,
+            -489.900513,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "Radius": 4000.0,
+          "Direction": [
+            0.0,
+            -1.0,
+            1.50995803e-07,
+            0.0
+          ],
+          "HasDirection": 1,
+          "Alpha": 0.610865235,
+          "Beta": 0.959931076,
+          "PenumbraFalloffExponent": 3.0,
+          "VC_CastsShadows": 1,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "AreaRadius": 400.0,
+          "VC_LocatorName": "court_line_light_2"
+        },
+        "Translate": [
+          0.0,
+          1195.26306,
+          -489.900513
+        ]
+      },
+      {
+        "scene_order": 3,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@court_line_lights_group@court_line_light_1",
+        "Type": "AREA",
+        "Intensity": 2023496.5,
+        "Color": [
+          1.0,
+          0.921581924,
+          0.863157272,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AreaLightType": 1,
+          "EndPoint1": [
+            -751.0849,
+            1195.26306,
+            514.706299,
+            0.0
+          ],
+          "EndPoint2": [
+            751.0849,
+            1195.26306,
+            514.706299,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "Radius": 4000.0,
+          "Direction": [
+            0.0,
+            -1.0,
+            1.50995803e-07,
+            0.0
+          ],
+          "HasDirection": 1,
+          "Alpha": 0.610865235,
+          "Beta": 0.959931076,
+          "PenumbraFalloffExponent": 3.0,
+          "VC_CastsShadows": 1,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "AreaRadius": 400.0,
+          "VC_LocatorName": "court_line_light_1"
+        },
+        "Translate": [
+          0.0,
+          1195.26306,
+          514.706299
+        ]
+      },
+      {
+        "scene_order": 4,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@court_line_lights_group@court_line_light_3",
+        "Type": "AREA",
+        "Intensity": 2023496.5,
+        "Color": [
+          1.0,
+          0.921581924,
+          0.863157272,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AreaLightType": 1,
+          "EndPoint1": [
+            -751.0849,
+            1195.26306,
+            1437.01453,
+            0.0
+          ],
+          "EndPoint2": [
+            751.0849,
+            1195.26306,
+            1437.01453,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "Radius": 4000.0,
+          "Direction": [
+            0.0,
+            -1.0,
+            1.50995803e-07,
+            0.0
+          ],
+          "HasDirection": 1,
+          "Alpha": 0.610865235,
+          "Beta": 0.959931076,
+          "PenumbraFalloffExponent": 3.0,
+          "VC_CastsShadows": 1,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "AreaRadius": 400.0,
+          "VC_LocatorName": "court_line_light_3"
+        },
+        "Translate": [
+          0.0,
+          1195.26306,
+          1437.01453
+        ]
+      },
+      {
+        "scene_order": 5,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_00@boxseatrec_light_3",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_3"
+        },
+        "Translate": [
+          -807.979492,
+          1223.55408,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 6,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_1@boxseatrec_light_4",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_4"
+        },
+        "Translate": [
+          9.17558289,
+          1223.55408,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 7,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_2@boxseatrec_light_8",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_8"
+        },
+        "Translate": [
+          792.845398,
+          1223.55408,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 8,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_3@boxseatrec_light_22",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_22"
+        },
+        "Translate": [
+          -807.979492,
+          1836.49243,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 9,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_4@boxseatrec_light_26",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_26"
+        },
+        "Translate": [
+          9.17558289,
+          1836.49243,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 10,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_5@boxseatrec_light_30",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_30"
+        },
+        "Translate": [
+          792.845398,
+          1836.49243,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 11,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_6@boxseatrec_light_34",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_34"
+        },
+        "Translate": [
+          -807.979492,
+          605.607849,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 12,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_7@boxseatrec_light_38",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_38"
+        },
+        "Translate": [
+          9.17558289,
+          605.607849,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 13,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_8@boxseatrec_light_42",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.0,
+            -1.0,
+            -7.54979013e-08,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_42"
+        },
+        "Translate": [
+          792.845398,
+          605.607849,
+          2517.92847
+        ]
+      },
+      {
+        "scene_order": 14,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_9@boxseatrec_light_10",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_10"
+        },
+        "Translate": [
+          -791.94397,
+          1223.55408,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 15,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_10@boxseatrec_light_14",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_14"
+        },
+        "Translate": [
+          -791.94397,
+          1836.49243,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 16,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_11@boxseatrec_light_18",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_18"
+        },
+        "Translate": [
+          -791.94397,
+          605.607849,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 17,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_12@boxseatrec_light_49",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_49"
+        },
+        "Translate": [
+          10.0488558,
+          1223.55408,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 18,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_13@boxseatrec_light_53",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_53"
+        },
+        "Translate": [
+          10.0488558,
+          1836.49243,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 19,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_14@boxseatrec_light_57",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_57"
+        },
+        "Translate": [
+          10.0488558,
+          605.607849,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 20,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_15@boxseatrec_light_61",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_61"
+        },
+        "Translate": [
+          810.527954,
+          1223.55408,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 21,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_16@boxseatrec_light_65",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_65"
+        },
+        "Translate": [
+          810.527954,
+          1836.49243,
+          -2515.33984
+        ]
+      },
+      {
+        "scene_order": 22,
+        "name": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_17@boxseatrec_light_69",
+        "Type": "SPOT",
+        "Intensity": 576115.75,
+        "Color": [
+          1.0,
+          0.456411093,
+          0.149959803,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            1.5099576e-07,
+            -1.0,
+            2.26493711e-07,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.34906584,
+          "PENUMBRAFALLOFFEXPONENT": 2.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 25.0,
+          "VC_FarPlane": 555.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 2.0,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "boxseatrec_light_69"
+        },
+        "Translate": [
+          810.527954,
+          605.607849,
+          -2515.33984
+        ]
+      }
+    ],
+    "locator_occurrences_outside_light": [],
+    "duplicate_key_paths": [],
+    "light_brick_map_references": [
+      {
+        "path": [
+          "Texture",
+          "LIGHT_BRICK_MAP_GRID_RUNTIME_DATA"
+        ],
+        "kind": "key"
+      },
+      {
+        "path": [
+          "Texture",
+          "LIGHT_BRICK_MAP_GRID_RUNTIME_DATA",
+          "Binary"
+        ],
+        "value": "light_brick_map_grid_runtime_data.99205f5314268fd7.gz"
+      },
+      {
+        "path": [
+          "Object",
+          "LIGHT_BRICK_MAP_BUILD"
+        ],
+        "kind": "key"
+      },
+      {
+        "path": [
+          "Object",
+          "LIGHT_BRICK_MAP_DATA"
+        ],
+        "kind": "key"
+      }
+    ],
+    "extra_markers": {
+      "LINELIGHTSHADOWINGSPOTS": {
+        "Type": "MARKER",
+        "Attribute": {
+          "VC_OnlyDynamic": 0
+        }
+      },
+      "LINELIGHTSPOTAPPROXIMATIONSCALER": {
+        "Type": "MARKER",
+        "Attribute": {
+          "IntensityScaler": 0.349999994
+        }
+      },
+      "TIME_OF_DAY": {
+        "Type": "MARKER",
+        "Attribute": {
+          "VC_Enabled": 0,
+          "VC_SkyEnabled": 0,
+          "VC_OzoneCoordinate": 0.300000012,
+          "VC_NorthAngle": 0.0,
+          "VC_SkyIntensity": 3.0,
+          "VC_NightSkyIntensity": 1.0,
+          "VC_NightSkyTwilightIntensity": 1.0,
+          "VC_MoonColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "VC_MoonIntensity": 1.0,
+          "VC_SunColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "VC_SunIntensity": 2.0,
+          "VC_MoonLightColor": [
+            0.20155625,
+            0.496933043,
+            1.0,
+            0.033104766
+          ],
+          "VC_MoonLightIntensity": 0.5,
+          "VC_NightSkyColor": [
+            0.011612247,
+            0.011612247,
+            0.023153368,
+            1.0
+          ],
+          "VC_NightSkyColorHorizon": [
+            0.019382365,
+            0.019382365,
+            0.035601314,
+            1.0
+          ],
+          "VC_NightEV100": 2.0,
+          "VC_AutomaticEV100Enabled": 1,
+          "VC_EV100": 10.1999998,
+          "VC_CurrentTime": 12.0,
+          "VC_TimeOfDayCloudsEnabled": 0,
+          "VC_CloudCountLayer0": 9,
+          "VC_CloudScaleLayer0": 25000.0,
+          "VC_CloudWindSpeedLayer0": 500.0,
+          "VC_CloudWindDirectionAngleLayer0": 4.32841635,
+          "VC_CloudCountLayer1": 9,
+          "VC_CloudScaleLayer1": 25000.0,
+          "VC_CloudWindSpeedLayer1": 200.0,
+          "VC_CloudWindDirectionAngleLayer1": 4.32841635,
+          "VC_CloudCountLayer2": 9,
+          "VC_CloudScaleLayer2": 25000.0,
+          "VC_CloudWindSpeedLayer2": 200.0,
+          "VC_CloudWindDirectionAngleLayer2": 0.0,
+          "VC_SunDiffractionEnable": 0,
+          "VC_SunGhostLensFlareEnable": 0,
+          "VC_SunDiffractionType": 1,
+          "VC_SunDiffractionRadius": 0.079999998,
+          "VC_SunDiffractionIntensity": 1000.0,
+          "VC_SunGhostLensFlareIntensity": 1.0
+        }
+      }
+    },
+    "other_lighting_fields": [
+      {
+        "path": [
+          "Object",
+          "VC_NBAArenaLighting"
+        ],
+        "value": {
+          "Type": "MARKER"
+        }
+      },
+      {
+        "path": [
+          "Object",
+          "FLOOR",
+          "Attribute",
+          "VC_FloorShadowMultiplier"
+        ],
+        "value": 1.0
+      }
+    ],
+    "shader_candidates_not_proven_brick_consumers": [
+      {
+        "effect": "asset_CLOD.fx#8d8105ec7d037166",
+        "technique": "AssetHiresLightmap",
+        "pass": "Projected",
+        "enable_mask": 2,
+        "PS": "PS.48a80d6be6b612eb.shader",
+        "VS": "VS.004a8844f1f46754.shader",
+        "ResourceMapping": "AAUAAQQCBAABBAABBAIEAAIGAAEEAgQAAwMAAQQCBAAEAQABBAIEAH4AAAIECAQAfwcAAgQIBAALAAAACloEAAwAAAAKWgQADQAAAA1aBAANAAACCmAEAA4AAAIMCAQAJwAAAgpgAAA0AAACCmAAAAQAAAAYGgQABgAAABgaBAAIAAAAGBoEAAkAAAAYGgQADQEAARgCBAAFAAACGCIEAAYAAAIYCgQABwAAAhgIBAAIAAACGCIEAAkAAAIYIgQACgAAAhgIBAALAAACGAgEAAwAAAIYFAQADQEAAhhgAAANDQACGAoEAA0OAAIYCAQADRIAAhgIBAANGgACGAoEABEAAAIYCAQAEgAAAhgKBAATAAACGAgEABQAAAIYCAQAGgAAAhgIBAAbAAACGAgEABwAAAIYCAQAHgAAAhgIBAAjAAACGAgEAA=="
+      },
+      {
+        "effect": "asset_CLOD.fx#8d8105ec7d037166",
+        "technique": "AssetHiresLightmap",
+        "pass": "UseSoftShadowMaps",
+        "enable_mask": 4,
+        "PS": "PS.87bbea2b53049dd7.shader",
+        "VS": "VS.004a8844f1f46754.shader",
+        "ResourceMapping": "AAUAAQQCBAABBgABBAIEAAIDAAEEAgQAAwEAAQQCBAB-AAACBAgEAH8HAAIECAQACwAAAApaBAAMAAAACloEAA0AAAANWgQADQAAAgpgBAAOAAACDAgEACcAAAIKYAAANAAAAgpgAAAEAAAAGBoEAAYAAAAYGgQACQAAABgaBAANAQABGAIEAAUAAAIYIgQABgAAAhgKBAAHAAACGAgEAAgAAAIYIgQACQAAAhgiBAAKAAACGAgEAAsAAAIYCAQADAAAAhgUBAANAQACGGAAAA0NAAIYCgQADQ4AAhgIBAANEgACGAgEAA0aAAIYCgQAEQAAAhgIBAASAAACGAoEABMAAAIYCAQAFAAAAhgIBAAeAAACGAgEACMAAAIYCAQA"
+      },
+      {
+        "effect": "asset_CLOD.fx#8d8105ec7d037166",
+        "technique": "AssetHiresLightmap",
+        "pass": "UseHardShadowMaps",
+        "enable_mask": 8,
+        "PS": "PS.a4cd9d7059d57221.shader",
+        "VS": "VS.004a8844f1f46754.shader",
+        "ResourceMapping": "AAUAAQQCBAABBgABBAIEAAIDAAEEAgQAAwIAAQQCBAAEAQABBAIEAH4AAAIECAQAfwcAAgQIBAALAAAACloEAAwAAAAKWgQADQAAAA1aBAANAAACCmAEAA4AAAIMCAQAJwAAAgpgAAA0AAACCmAAAAQAAAAYGgQABgAAABgaBAAJAAAAGBoEAA0BAAEYAgQADQIAARgCBAAFAAACGCIEAAYAAAIYCgQABwAAAhgIBAAIAAACGCIEAAkAAAIYIgQACgAAAhgIBAALAAACGAgEAAwAAAIYFAQADQEAAhhgAAANDQACGAoEAA0OAAIYCAQADRIAAhgIBAANGgACGAoEABEAAAIYCAQAEgAAAhgKBAATAAACGAgEABQAAAIYCAQAHgAAAhgIBAAjAAACGAgEAA=="
+      },
+      {
+        "effect": "asset_CLOD.fx#8d8105ec7d037166",
+        "technique": "AssetHiresLightmap",
+        "pass": "OnlyDepthCSM",
+        "enable_mask": 64,
+        "PS": "PS.cd34710058ebaa04.shader",
+        "VS": "VS.84853dc91be40644.shader",
+        "ResourceMapping": "CwAAAApaAAAMAAAACloAAA0AAAANWgAADQAAAgpgAAAnAAACCmAAADQAAAIKYAAADQEAAhhgAAA="
+      }
+    ]
+  },
+  "arena_blacktop_ext": {
+    "raw_sha256": "d857fe0ee2bbcc08508852e6d54d218266325d94e9b856b9be496f2c6c25d88e",
+    "format": "binary E01FF891 v1 / lenient diagnostic view",
+    "light_matches_supplied_subset": true,
+    "light_order": [
+      {
+        "scene_order": 0,
+        "name": "Sun",
+        "Type": "DIRECTIONAL",
+        "Color": [
+          1.0,
+          0.976470649,
+          0.968627512,
+          1.0
+        ],
+        "Attribute": {
+          "VC_IsActive": 0,
+          "VC_Direction": [
+            3.821370930000001e-15,
+            -1.0,
+            4.37113883e-08,
+            0.0
+          ],
+          "VC_BlackLight": 0.0,
+          "VC_CastsShadows": 1,
+          "VC_EnableVolumetric": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1
+        },
+        "Rotate": [
+          3.14159274,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "scene_order": 1,
+        "name": "arena_blacktop_ext_master@arena_blacktop_ext_lighting@GameObjects@court_lights@Spotlight_Court_4",
+        "Type": "SPOT",
+        "Intensity": 363013888.0,
+        "Color": [
+          1.0,
+          0.814846575,
+          0.637596965,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.718580127,
+            -0.659429193,
+            -0.220897719,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.52359879,
+          "PENUMBRAFALLOFFEXPONENT": 3.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 200.0,
+          "VC_FarPlane": 5000.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 13.8399963,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "Spotlight_Court_4"
+        },
+        "Translate": [
+          -2162.28613,
+          1875.23193,
+          1284.73096
+        ]
+      },
+      {
+        "scene_order": 2,
+        "name": "arena_blacktop_ext_master@arena_blacktop_ext_lighting@GameObjects@court_lights@Spotlight_Court_1",
+        "Type": "SPOT",
+        "Intensity": 363013888.0,
+        "Color": [
+          1.0,
+          0.814846575,
+          0.637596965,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            -0.705151439,
+            -0.673124373,
+            -0.222856402,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.52359879,
+          "PENUMBRAFALLOFFEXPONENT": 3.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 200.0,
+          "VC_FarPlane": 5000.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 13.8399963,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 2.9000001,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "Spotlight_Court_1"
+        },
+        "Translate": [
+          2152.32642,
+          1901.11194,
+          1299.60498
+        ]
+      },
+      {
+        "scene_order": 3,
+        "name": "arena_blacktop_ext_master@arena_blacktop_ext_lighting@GameObjects@court_lights@Spotlight_Court_2",
+        "Type": "SPOT",
+        "Intensity": 363013888.0,
+        "Color": [
+          1.0,
+          0.814846575,
+          0.637596965,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            0.668009758,
+            -0.700852752,
+            0.250136822,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.52359879,
+          "PENUMBRAFALLOFFEXPONENT": 3.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 200.0,
+          "VC_FarPlane": 5000.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 13.8399963,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 1.0,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "Spotlight_Court_2"
+        },
+        "Translate": [
+          -2152.95435,
+          1875.23193,
+          -1301.31396
+        ]
+      },
+      {
+        "scene_order": 4,
+        "name": "arena_blacktop_ext_master@arena_blacktop_ext_lighting@GameObjects@court_lights@Spotlight_Court_3",
+        "Type": "SPOT",
+        "Intensity": 363013888.0,
+        "Color": [
+          1.0,
+          0.814846575,
+          0.637596965,
+          1.0
+        ],
+        "Attribute": {
+          "VC_AimDirection": [
+            -0.701235712,
+            -0.663594425,
+            0.260597378,
+            0.0
+          ],
+          "CONEANGLE": 0.52359879,
+          "PENUMBRAANGLE": 0.52359879,
+          "PENUMBRAFALLOFFEXPONENT": 3.0,
+          "VC_MinDistance": 0.0,
+          "VC_Decay": 1.0,
+          "VC_NearPlane": 200.0,
+          "VC_FarPlane": 5000.0,
+          "VC_SizeScale": 1.0,
+          "VC_BlackLight": 0.0,
+          "VC_NormalBias": 0.5,
+          "VC_CastsShadows": 1,
+          "VC_FakeLineLightShadows": 0,
+          "VC_EnableVolumetric": 0,
+          "VC_CastVolumetricShadow": 0,
+          "VC_FalloffExponent": 13.8399963,
+          "VC_IsNightOnly": 0,
+          "VC_IgnoreDynamicCasters": 0,
+          "VC_VolumetricIntensity": 2.9000001,
+          "vc_ingame_light": 1,
+          "VC_IsMovable": 0,
+          "VC_IsActive": 1,
+          "VC_PresentationLightId": 0,
+          "VC_LocatorName": "Spotlight_Court_3"
+        },
+        "Translate": [
+          2167.61816,
+          1923.99976,
+          -1291.54346
+        ]
+      }
+    ],
+    "locator_occurrences_outside_light": [],
+    "duplicate_key_paths": [
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirtd_folded_1:tshirt_folded_brown",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@clothing_group@shirt_checker_tan_1:shirt_dress_checker_tan",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@clothing_group@clothing_jerseyboston_hanging_1:jersey_hanging_boston",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_tent_floor01_extmarketc@TENT_FLOOR01_EXTMARKETC@sign_sale70offa_standing_1:sign_sale_standinga_low",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@clothing_group@clothing_tshirtb_hanging_1:tshirt_hanger_green",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirta_folded_1:tshirt_folded_black",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@clothing_group@clothing_sweatshirtb_hanging_1:sweatshirt_purple",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@clothing_group@clothing_tshirtc_hanging_1:tshirt_hanger_red",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_tshirta_folded_0:tshirt_folded_black",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@court_616_nbalines:court_616_nbalines",
+        "Attribute",
+        "VC_ApplyFloorAo#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_hawaiianshirtc_hanging_1:shirt_hawiian_orange",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_tshirtc_folded_2:tshirt_folded_black_002",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@GameObjectGroup_39@clothing_tshirtb_hanging_2:tshirt_hanger_green_001",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirta_folded_3:tshirt_folded_black",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_tshirte_folded_0:tshirt_folded_brown_001",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_tshirtd_folded_2:tshirt_folded_brown",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_tent_floor01_extmarketd@TENT_FLOOR01_EXTMARKETD@sign_sale70offa_standing:sign_sale_standinga_low",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirtb_folded_3:tshirt_folded_black_001",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirtd_folded_3:tshirt_folded_brown",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirtc_folded_1:tshirt_folded_black_002",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_jerseyboston_hanging_0:jersey_hanging_boston",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirtb_folded_1:tshirt_folded_black_001",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_tent_floor01_extmarkete@TENT_FLOOR01_EXTMARKETE@sign_sale70offc_standing:sign_sale_standingc_low",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirtc_folded_3:tshirt_folded_black_002",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_sweatshirtb_hanging_3:sweatshirt_purple",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@GameObjectGroup_39@clothing_tshirta_hanging_1:tshirt_hanger_green",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_tshirtg_folded_1:tshirt_folded_pink",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_tent_floor01_extmarkete@TENT_FLOOR01_EXTMARKETE@sign_sale70offc_standing_0:sign_sale_standingc_low",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_store_kiosk_set_dressing@clothing_hawaiianshirta_hanging_1:shirt_hawiian_blue",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirte_folded_1:tshirt_folded_brown_001",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ],
+      [
+        "Object",
+        "arena_blacktop_ext_master@GameObjects@Prototype_popup_store_setdec@box_group@clothing_tshirte_folded_3:tshirt_folded_brown_001",
+        "Attribute",
+        "VC_HideFromCubemap#dup2"
+      ]
+    ],
+    "light_brick_map_references": [
+      {
+        "path": [
+          "Texture",
+          "LIGHT_BRICK_MAP_GRID_RUNTIME_DATA"
+        ],
+        "kind": "key"
+      },
+      {
+        "path": [
+          "Texture",
+          "LIGHT_BRICK_MAP_GRID_RUNTIME_DATA",
+          "Binary"
+        ],
+        "value": "light_brick_map_grid_runtime_data.290981980968a75b.gz"
+      },
+      {
+        "path": [
+          "Object",
+          "LIGHT_BRICK_MAP_BUILD"
+        ],
+        "kind": "key"
+      },
+      {
+        "path": [
+          "Object",
+          "LIGHT_BRICK_MAP_DATA"
+        ],
+        "kind": "key"
+      }
+    ],
+    "extra_markers": {
+      "LINELIGHTSHADOWINGSPOTS": {
+        "Type": "MARKER",
+        "Attribute": {
+          "VC_OnlyDynamic": 0
+        }
+      },
+      "LINELIGHTSPOTAPPROXIMATIONSCALER": {
+        "Type": "MARKER",
+        "Attribute": {
+          "IntensityScaler": 0.75
+        }
+      },
+      "TIME_OF_DAY": {
+        "Type": "MARKER",
+        "Attribute": {
+          "VC_Enabled": 0,
+          "VC_SkyEnabled": 0,
+          "VC_OzoneCoordinate": 0.300000012,
+          "VC_NorthAngle": 325.0,
+          "VC_SkyIntensity": 1.0,
+          "VC_NightSkyIntensity": 1.0,
+          "VC_NightSkyTwilightIntensity": 1.0,
+          "VC_MoonColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "VC_MoonIntensity": 1.0,
+          "VC_SunColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "VC_SunIntensity": 2.0,
+          "VC_MoonLightColor": [
+            0.48627454,
+            0.733333349,
+            1.0,
+            1.0
+          ],
+          "VC_MoonLightIntensity": 0.5,
+          "VC_NightSkyColor": [
+            0.113725498,
+            0.113725498,
+            0.168627456,
+            1.0
+          ],
+          "VC_NightSkyColorHorizon": [
+            0.152941182,
+            0.152941182,
+            0.207843155,
+            1.0
+          ],
+          "VC_NightEV100": 2.0,
+          "VC_AutomaticEV100Enabled": 0,
+          "VC_EV100": 9.0,
+          "VC_CurrentTime": 12.0,
+          "VC_TimeOfDayCloudsEnabled": 0,
+          "VC_CloudCountLayer0": 9,
+          "VC_CloudScaleLayer0": 25000.0,
+          "VC_CloudWindSpeedLayer0": 500.0,
+          "VC_CloudWindDirectionAngleLayer0": 4.32841635,
+          "VC_CloudCountLayer1": 9,
+          "VC_CloudScaleLayer1": 25000.0,
+          "VC_CloudWindSpeedLayer1": 200.0,
+          "VC_CloudWindDirectionAngleLayer1": 4.32841635,
+          "VC_CloudCountLayer2": 9,
+          "VC_CloudScaleLayer2": 25000.0,
+          "VC_CloudWindSpeedLayer2": 200.0,
+          "VC_CloudWindDirectionAngleLayer2": 0.0,
+          "VC_SunDiffractionEnable": 0,
+          "VC_SunGhostLensFlareEnable": 0,
+          "VC_SunDiffractionType": 1,
+          "VC_SunDiffractionRadius": 0.100000001,
+          "VC_SunDiffractionIntensity": 500.0,
+          "VC_SunGhostLensFlareIntensity": 1.0
+        }
+      }
+    },
+    "other_lighting_fields": [
+      {
+        "path": [
+          "Object",
+          "VC_NBAArenaLighting"
+        ],
+        "value": {
+          "Type": "MARKER"
+        }
+      }
+    ],
+    "shader_candidates_not_proven_brick_consumers": [
+      {
+        "effect": "asset_CLOD.fx#c4c70e37e9b2b968",
+        "technique": "AssetHiresLightmap",
+        "pass": "Projected",
+        "enable_mask": 2,
+        "PS": "PS.0375d3d6df23620e.shader",
+        "VS": "VS.d0483dd0a3abf7e2.shader",
+        "ResourceMapping": "AAkAAQQCBAABCAABBAIEAAIKAAEEAgQAAwcAAQQCBAAEBgABBAIEAAUBAAEEAgQABgMAAQQCBAB7AgACBAgEAHwAAAIECAQAfQsAAgQIBAB-DAACBAgEAH8EAAIECAQACwAAAApaBAAMAAAACloEAA0AAAANWgQADQAAAgpgBAAOAAACDAgEACcAAAIKYAAANAAAAgpgAAAEAAAAGBoEAAYAAAAYGgQACAAAABgaBAAJAAAAGBoEAA0BAAEYAgQABQAAAhgiBAAGAAACGAoEAAcAAAIYCAQACAAAAhgiBAAJAAACGCIEAAoAAAIYCAQACwAAAhgIBAAMAAACGBQEAA0BAAIYYAAADQ0AAhgKBAANDgACGAgEAA0SAAIYCAQADRoAAhgKBAARAAACGAgEABIAAAIYCgQAEwAAAhgIBAAUAAACGAgEABoAAAIYCAQAGwAAAhgIBAAcAAACGAgEAB4AAAIYCAQAIwAAAhgIBAA="
+      },
+      {
+        "effect": "asset_CLOD.fx#c4c70e37e9b2b968",
+        "technique": "AssetHiresLightmap",
+        "pass": "UseSoftShadowMaps",
+        "enable_mask": 4,
+        "PS": "PS.78d9a9bde12fab13.shader",
+        "VS": "VS.d0483dd0a3abf7e2.shader",
+        "ResourceMapping": "AAkAAQQCBAABCgABBAIEAAIHAAEEAgQAAwYAAQQCBAAEAQABBAIEAAUDAAEEAgQAewIAAgQIBAB8AAACBAgEAH0LAAIECAQAfgwAAgQIBAB_BAACBAgEAAsAAAAKWgQADAAAAApaBAANAAAADVoEAA0AAAIKYAQADgAAAgwIBAAnAAACCmAAADQAAAIKYAAABAAAABgaBAAGAAAAGBoEAAkAAAAYGgQADQEAARgCBAAFAAACGCIEAAYAAAIYCgQABwAAAhgIBAAIAAACGCIEAAkAAAIYIgQACgAAAhgIBAALAAACGAgEAAwAAAIYFAQADQEAAhhgAAANDQACGAoEAA0OAAIYCAQADRIAAhgIBAANGgACGAoEABEAAAIYCAQAEgAAAhgKBAATAAACGAgEABQAAAIYCAQAHgAAAhgIBAAjAAACGAgEAA=="
+      },
+      {
+        "effect": "asset_CLOD.fx#c4c70e37e9b2b968",
+        "technique": "AssetHiresLightmap",
+        "pass": "UseHardShadowMaps",
+        "enable_mask": 8,
+        "PS": "PS.09899e02fd5eae4a.shader",
+        "VS": "VS.d0483dd0a3abf7e2.shader",
+        "ResourceMapping": "AAkAAQQCBAABCgABBAIEAAIHAAEEAgQAAwYAAQQCBAAEBQABBAIEAAUBAAEEAgQABgMAAQQCBAB7AgACBAgEAHwAAAIECAQAfQsAAgQIBAB-DAACBAgEAH8EAAIECAQACwAAAApaBAAMAAAACloEAA0AAAANWgQADQAAAgpgBAAOAAACDAgEACcAAAIKYAAANAAAAgpgAAAEAAAAGBoEAAYAAAAYGgQACQAAABgaBAANAQABGAIEAA0CAAEYAgQABQAAAhgiBAAGAAACGAoEAAcAAAIYCAQACAAAAhgiBAAJAAACGCIEAAoAAAIYCAQACwAAAhgIBAAMAAACGBQEAA0BAAIYYAAADQ0AAhgKBAANDgACGAgEAA0SAAIYCAQADRoAAhgKBAARAAACGAgEABIAAAIYCgQAEwAAAhgIBAAUAAACGAgEAB4AAAIYCAQAIwAAAhgIBAA="
+      },
+      {
+        "effect": "asset_CLOD.fx#c4c70e37e9b2b968",
+        "technique": "AssetHiresLightmap",
+        "pass": "OnlyDepthCSM",
+        "enable_mask": 64,
+        "PS": "PS.cd34710058ebaa04.shader",
+        "VS": "VS.84853dc91be40644.shader",
+        "ResourceMapping": "CwAAAApaAAAMAAAACloAAA0AAAANWgAADQAAAgpgAAAnAAACCmAAADQAAAIKYAAADQEAAhhgAAA="
+      }
+    ]
+  }
+}

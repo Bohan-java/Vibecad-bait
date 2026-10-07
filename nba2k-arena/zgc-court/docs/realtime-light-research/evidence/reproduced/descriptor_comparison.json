@@ -1,0 +1,146 @@
+{
+  "ours": {
+    "evidence_type": "data/arithmetic; region semantics unconfirmed",
+    "version": 6,
+    "fine_dimensions": [
+      840,
+      140,
+      656
+    ],
+    "build_dimensions": [
+      210,
+      35,
+      164
+    ],
+    "dimension_ratio": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "fine_cell_count": 77145600,
+    "coarse_record_count_candidate": 1205400,
+    "offsets_decimal": [
+      66,
+      64,
+      65537,
+      65
+    ],
+    "offsets_hex": [
+      "0x42",
+      "0x40",
+      "0x10001",
+      "0x41"
+    ],
+    "offset2_low16": 1,
+    "offset2_high16": 1,
+    "max_light_bitmask_words": 1,
+    "grid_light_capacity": 4,
+    "height_words": 2410868,
+    "bytes": 9643472,
+    "height_times_four_matches_bytes": true,
+    "prefix_multiple_of_64": true,
+    "prefix_64_word_blocks_candidate": 1,
+    "candidate_mask_rows": 1,
+    "mask_region_words": 1,
+    "row_width_equation_matches": true,
+    "directory_end_word_candidate": 2410866,
+    "trailer_words_candidate": 2,
+    "binary_reference": "light_brick_map_grid_runtime_data.4c92381972a58bee.gz"
+  },
+  "donors/arena_020_int": {
+    "evidence_type": "data/arithmetic; region semantics unconfirmed",
+    "version": 6,
+    "fine_dimensions": [
+      220,
+      40,
+      220
+    ],
+    "build_dimensions": [
+      55,
+      10,
+      55
+    ],
+    "dimension_ratio": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "fine_cell_count": 1936000,
+    "coarse_record_count_candidate": 30250,
+    "offsets_decimal": [
+      37041,
+      36864,
+      65538,
+      36982
+    ],
+    "offsets_hex": [
+      "0x90b1",
+      "0x9000",
+      "0x10002",
+      "0x9076"
+    ],
+    "offset2_low16": 2,
+    "offset2_high16": 1,
+    "max_light_bitmask_words": 2,
+    "grid_light_capacity": 4,
+    "height_words": 97597,
+    "bytes": 390388,
+    "height_times_four_matches_bytes": true,
+    "prefix_multiple_of_64": true,
+    "prefix_64_word_blocks_candidate": 576,
+    "candidate_mask_rows": 59,
+    "mask_region_words": 118,
+    "row_width_equation_matches": true,
+    "directory_end_word_candidate": 97541,
+    "trailer_words_candidate": 56,
+    "binary_reference": "light_brick_map_grid_runtime_data.99205f5314268fd7.gz"
+  },
+  "donors/arena_blacktop_ext": {
+    "evidence_type": "data/arithmetic; region semantics unconfirmed",
+    "version": 6,
+    "fine_dimensions": [
+      220,
+      40,
+      220
+    ],
+    "build_dimensions": [
+      55,
+      10,
+      55
+    ],
+    "dimension_ratio": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "fine_cell_count": 1936000,
+    "coarse_record_count_candidate": 30250,
+    "offsets_decimal": [
+      152962,
+      152960,
+      65537,
+      152961
+    ],
+    "offsets_hex": [
+      "0x25582",
+      "0x25580",
+      "0x10001",
+      "0x25581"
+    ],
+    "offset2_low16": 1,
+    "offset2_high16": 1,
+    "max_light_bitmask_words": 1,
+    "grid_light_capacity": 4,
+    "height_words": 213474,
+    "bytes": 853896,
+    "height_times_four_matches_bytes": true,
+    "prefix_multiple_of_64": true,
+    "prefix_64_word_blocks_candidate": 2390,
+    "candidate_mask_rows": 1,
+    "mask_region_words": 1,
+    "row_width_equation_matches": true,
+    "directory_end_word_candidate": 213462,
+    "trailer_words_candidate": 12,
+    "binary_reference": "light_brick_map_grid_runtime_data.290981980968a75b.gz"
+  }
+}

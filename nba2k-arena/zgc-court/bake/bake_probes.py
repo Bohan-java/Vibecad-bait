@@ -211,6 +211,8 @@ def setup_lights(spec, wanted):
                 data.shape = 'RECTANGLE'
                 data.size = light['size_x']
                 data.size_y = light['size_y']
+            if light['type'] == 'POINT':
+                data.shadow_soft_size = light.get('radius', 0.05)
             if light['type'] == 'SPOT':
                 data.spot_size = math.radians(light['spot_size_deg'])
                 data.spot_blend = 0.4
@@ -219,6 +221,8 @@ def setup_lights(spec, wanted):
             if light.get('aim') is not None:
                 direction = Vector(light['aim']) - Vector(light['location'])
                 obj.rotation_euler = direction.to_track_quat('-Z', 'Y').to_euler()
+            if light.get('rotation_z_deg'):
+                obj.rotation_euler = (0.0, 0.0, math.radians(light['rotation_z_deg']))
             scene.collection.objects.link(obj)
             lights.append((obj, light['power']))
         groups[group] = (nodes, lights)

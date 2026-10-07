@@ -1,0 +1,53 @@
+{
+  "evidence_type": "official SPOT schema plus explicitly selected untested diagnostic parameters",
+  "game_tested": false,
+  "source_template": "arena_clutchtime_int_master@arena_triplethreat_int_lighting@GameObjects@luxboxes_seating_group@lux_box_seating_00@boxseatrec_light_3",
+  "Light": {
+    "zgc_rtl:center_spot": {
+      "Type": "SPOT",
+      "Intensity": 363000000.0,
+      "Color": [
+        0.82,
+        0.91,
+        1.0,
+        1.0
+      ],
+      "Attribute": {
+        "VC_AimDirection": [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "CONEANGLE": 0.52359879,
+        "PENUMBRAANGLE": 0.34906584,
+        "PENUMBRAFALLOFFEXPONENT": 2.0,
+        "VC_MinDistance": 0.0,
+        "VC_Decay": 1.0,
+        "VC_NearPlane": 25.0,
+        "VC_FarPlane": 1600.0,
+        "VC_SizeScale": 1.0,
+        "VC_BlackLight": 0.0,
+        "VC_NormalBias": 0.5,
+        "VC_CastsShadows": 1,
+        "VC_FakeLineLightShadows": 0,
+        "VC_EnableVolumetric": 0,
+        "VC_CastVolumetricShadow": 0,
+        "VC_FalloffExponent": 2.0,
+        "VC_IsNightOnly": 0,
+        "VC_IgnoreDynamicCasters": 0,
+        "VC_VolumetricIntensity": 1.0,
+        "vc_ingame_light": 1,
+        "VC_IsMovable": 0,
+        "VC_IsActive": 1,
+        "VC_PresentationLightId": 0,
+        "VC_LocatorName": "zgc_rtl:center_spot"
+      },
+      "Translate": [
+        0.0,
+        800.0,
+        0.0
+      ]
+    }
+  }
+}

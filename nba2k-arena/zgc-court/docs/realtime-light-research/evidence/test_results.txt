@@ -1,0 +1,31 @@
+test_01_real_grid_fingerprint (__main__.DiagnosticTests.test_01_real_grid_fingerprint) ... ok
+test_02_real_grid_structural_analysis (__main__.DiagnosticTests.test_02_real_grid_structural_analysis) ... ok
+test_03_truncated_grid_rejected (__main__.DiagnosticTests.test_03_truncated_grid_rejected) ... ok
+test_04_out_of_bounds_candidate_address_detected (__main__.DiagnosticTests.test_04_out_of_bounds_candidate_address_detected) ... ok
+test_05_append_exact_scope (__main__.DiagnosticTests.test_05_append_exact_scope) ... ok
+test_06_original_sun_source_text_preserved (__main__.DiagnosticTests.test_06_original_sun_source_text_preserved) ... ok
+test_07_original_protected_sections_source_preserved (__main__.DiagnosticTests.test_07_original_protected_sections_source_preserved) ... ok
+test_08_prepend_zero_grid_change (__main__.DiagnosticTests.test_08_prepend_zero_grid_change) ... ok
+test_09_word64_needs_explicit_ack (__main__.DiagnosticTests.test_09_word64_needs_explicit_ack) ... ok
+test_10_alias_control_identical_scene_one_byte_grid_difference (__main__.DiagnosticTests.test_10_alias_control_identical_scene_one_byte_grid_difference) ... ok
+test_11_movable_is_only_light_value_difference (__main__.DiagnosticTests.test_11_movable_is_only_light_value_difference) ... ok
+test_12_shadow_off_control (__main__.DiagnosticTests.test_12_shadow_off_control) ... ok
+test_13_intensity_zero_control (__main__.DiagnosticTests.test_13_intensity_zero_control) ... ok
+test_14_unsupported_grid_fingerprint_rejected (__main__.DiagnosticTests.test_14_unsupported_grid_fingerprint_rejected) ... ok
+test_15_subset_cannot_be_used_as_level_scene (__main__.DiagnosticTests.test_15_subset_cannot_be_used_as_level_scene) ... ok
+test_16_relighting_change_rejected (__main__.DiagnosticTests.test_16_relighting_change_rejected) ... ok
+test_17_existing_diagnostic_rejected (__main__.DiagnosticTests.test_17_existing_diagnostic_rejected) ... ok
+test_18_duplicate_json_rejected (__main__.DiagnosticTests.test_18_duplicate_json_rejected) ... ok
+test_19_nonfinite_parameter_rejected (__main__.DiagnosticTests.test_19_nonfinite_parameter_rejected) ... ok
+test_20_json_bom_fragment_and_full_noop (__main__.DiagnosticTests.test_20_json_bom_fragment_and_full_noop) ... ok
+test_21_workspace_escape_rejected (__main__.DiagnosticTests.test_21_workspace_escape_rejected) ... ok
+test_22_game_like_path_rejected (__main__.DiagnosticTests.test_22_game_like_path_rejected) ... ok
+test_23_payload_output_refuses_overwrite (__main__.DiagnosticTests.test_23_payload_output_refuses_overwrite) ... ok
+test_24_payload_bridge_and_verifier_synthetic_archives (__main__.DiagnosticTests.test_24_payload_bridge_and_verifier_synthetic_archives) ... ok
+test_25_wrong_packaging_base_rejected (__main__.DiagnosticTests.test_25_wrong_packaging_base_rejected) ... ok
+test_26_no_extra_object_locator_or_probe_mutation (__main__.DiagnosticTests.test_26_no_extra_object_locator_or_probe_mutation) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 3.272s
+
+OK

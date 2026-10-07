@@ -1,47 +1,1400 @@
 {
-  "description": "Night light sources for the probe bake. Coordinates are source/scene.blend metres (X = -world_z/100, Y = -world_x/100, Z = world_y/100). Colours are linear RGB. Emission strength is Blender emission strength; area/spot power is Blender watts. Absolute levels do not matter much: each group is baked separately and scaled per group when the result is imported into the game.",
-  "groups": {
-    "a_signs": {
-      "emitters": [
-        {"objects": ["R09 A inner white diffuser.left", "R09 A inner white diffuser.right",
-                     "R09 A unlit diffuser 1.left", "R09 A unlit diffuser 1.right",
-                     "R09 A unlit diffuser -1.left", "R09 A unlit diffuser -1.right"],
-         "colour": [0.92, 0.97, 1.0], "strength": 60.0}
-      ],
-      "lights": []
-    },
-    "chilis": {
-      "emitters": [
-        {"objects": ["R13 Chilis court facade channel letters inset amber acrylic faces"], "colour": [1.0, 0.24, 0.03], "strength": 40.0},
-        {"objects": ["R13 Chilis court facade pepper apostrophe shaped acrylic front"], "colour": [0.35, 1.0, 0.22], "strength": 30.0},
-        {"objects": ["R12 Chilis building entry narrow vertical diffuser strips unlit",
-                     "R12 Chilis building terrace narrow vertical diffuser strips unlit"], "colour": [1.0, 0.8, 0.55], "strength": 30.0},
-        {"objects": ["R12 Chilis building alcove logo warm orange letter bodies",
-                     "R12 Chilis building terrace logo warm orange letter bodies"], "colour": [1.0, 0.24, 0.03], "strength": 30.0},
-        {"objects": ["R12 Chilis building entry shallow interior warm back plane"], "colour": [1.0, 0.55, 0.2], "strength": 8.0},
-        {"objects": ["R12 Chilis building entry shallow interior warm timber planes"], "colour": [1.0, 0.5, 0.18], "strength": 4.0}
-      ],
-      "lights": [
-        {"name": "bake_chilis_interior_ceiling", "type": "AREA", "location": [-21.9, -4.2, 2.95],
-         "size_x": 1.6, "size_y": 9.5, "aim": null, "colour": [1.0, 0.58, 0.25], "power": 2500.0,
-         "note": "Store lighting just inside the entry, facing down, so light pours out of the door with frame shadows."}
-      ]
-    },
-    "boots": {
-      "emitters": [
-        {"objects": ["R12 left context boots rounded outlined dimensional lettering"], "colour": [1.0, 0.82, 0.6], "strength": 30.0}
-      ],
-      "lights": []
-    },
-    "floodlight": {
-      "emitters": [
-        {"objects": ["R10 left tall floodlight non-emitting lens faces"], "colour": [1.0, 0.9, 0.78], "strength": 20.0}
-      ],
-      "lights": [
-        {"name": "bake_floodlight_spot", "type": "SPOT", "location": [-4.2, -9.7, 10.0], "aim": [0.0, 0.0, 0.0],
-         "spot_size_deg": 70.0, "colour": [1.0, 0.9, 0.78], "power": 800.0,
-         "note": "The tall pole lamp; kept very dim in game, so this group is imported at a low weight."}
-      ]
+ "description": "Night light sources for the probe bake. Coordinates are source/scene.blend metres (X = -world_z/100, Y = -world_x/100, Z = world_y/100). Colours are linear RGB. Emission strength is Blender emission strength; area/spot power is Blender watts. Absolute levels do not matter much: each group is baked separately and scaled per group when the result is imported into the game.",
+ "groups": {
+  "a_signs": {
+   "emitters": [
+    {
+     "objects": [
+      "R09 A inner white diffuser.left",
+      "R09 A inner white diffuser.right",
+      "R09 A unlit diffuser 1.left",
+      "R09 A unlit diffuser 1.right",
+      "R09 A unlit diffuser -1.left",
+      "R09 A unlit diffuser -1.right"
+     ],
+     "colour": [
+      0.92,
+      0.97,
+      1.0
+     ],
+     "strength": 60.0
     }
+   ],
+   "lights": []
+  },
+  "chilis": {
+   "emitters": [
+    {
+     "objects": [
+      "R13 Chilis court facade channel letters inset amber acrylic faces"
+     ],
+     "colour": [
+      1.0,
+      0.24,
+      0.03
+     ],
+     "strength": 40.0
+    },
+    {
+     "objects": [
+      "R13 Chilis court facade pepper apostrophe shaped acrylic front"
+     ],
+     "colour": [
+      0.35,
+      1.0,
+      0.22
+     ],
+     "strength": 30.0
+    },
+    {
+     "objects": [
+      "R12 Chilis building entry narrow vertical diffuser strips unlit",
+      "R12 Chilis building terrace narrow vertical diffuser strips unlit"
+     ],
+     "colour": [
+      1.0,
+      0.8,
+      0.55
+     ],
+     "strength": 30.0
+    },
+    {
+     "objects": [
+      "R12 Chilis building alcove logo warm orange letter bodies",
+      "R12 Chilis building terrace logo warm orange letter bodies"
+     ],
+     "colour": [
+      1.0,
+      0.24,
+      0.03
+     ],
+     "strength": 30.0
+    },
+    {
+     "objects": [
+      "R12 Chilis building entry shallow interior warm back plane"
+     ],
+     "colour": [
+      1.0,
+      0.55,
+      0.2
+     ],
+     "strength": 8.0
+    },
+    {
+     "objects": [
+      "R12 Chilis building entry shallow interior warm timber planes"
+     ],
+     "colour": [
+      1.0,
+      0.5,
+      0.18
+     ],
+     "strength": 4.0
+    }
+   ],
+   "lights": [
+    {
+     "name": "bake_chilis_interior_ceiling",
+     "type": "AREA",
+     "location": [
+      -21.9,
+      -4.2,
+      2.95
+     ],
+     "size_x": 1.6,
+     "size_y": 9.5,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.58,
+      0.25
+     ],
+     "power": 2500.0,
+     "note": "Store lighting just inside the entry, facing down, so light pours out of the door with frame shadows."
+    }
+   ]
+  },
+  "boots": {
+   "emitters": [
+    {
+     "objects": [
+      "R12 left context boots rounded outlined dimensional lettering"
+     ],
+     "colour": [
+      1.0,
+      0.82,
+      0.6
+     ],
+     "strength": 30.0
+    }
+   ],
+   "lights": []
+  },
+  "floodlight": {
+   "emitters": [
+    {
+     "objects": [
+      "R10 left tall floodlight non-emitting lens faces"
+     ],
+     "colour": [
+      1.0,
+      0.9,
+      0.78
+     ],
+     "strength": 20.0
+    }
+   ],
+   "lights": [
+    {
+     "name": "bake_floodlight_spot",
+     "type": "SPOT",
+     "location": [
+      -4.2,
+      -9.7,
+      10.0
+     ],
+     "aim": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "spot_size_deg": 70.0,
+     "colour": [
+      1.0,
+      0.9,
+      0.78
+     ],
+     "power": 800.0,
+     "note": "The tall pole lamp; kept very dim in game, so this group is imported at a low weight."
+    }
+   ]
+  },
+  "festoon": {
+   "emitters": [],
+   "lights": [
+    {
+     "name": "bake_festoon_000",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      8.941,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_001",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      8.483,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_002",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      8.025,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_003",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      7.567,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_004",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      7.109,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_005",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      6.65,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_006",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      6.19,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_007",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      5.73,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_008",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      5.27,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_009",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      4.81,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_010",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      4.351,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_011",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      3.893,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_012",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      3.435,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_013",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      2.977,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_014",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      2.519,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_015",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      2.061,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_016",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      1.603,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_017",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      1.145,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_018",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      0.687,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_019",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      0.229,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_020",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -0.229,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_021",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -0.687,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_022",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -1.145,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_023",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -1.603,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_024",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -2.061,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_025",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -2.52,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_026",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -2.98,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_027",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -3.44,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_028",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -3.9,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_029",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -4.36,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_030",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -4.819,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_031",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -5.277,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_032",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -5.735,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_033",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -6.193,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_034",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -6.651,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_035",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -7.109,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_036",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -7.567,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_037",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -8.025,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_038",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -8.483,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_039",
+     "type": "POINT",
+     "location": [
+      -16.08,
+      -8.941,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_040",
+     "type": "POINT",
+     "location": [
+      -15.859,
+      -9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_041",
+     "type": "POINT",
+     "location": [
+      -15.417,
+      -9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_042",
+     "type": "POINT",
+     "location": [
+      -14.975,
+      -9.17,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_043",
+     "type": "POINT",
+     "location": [
+      -14.533,
+      -9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_044",
+     "type": "POINT",
+     "location": [
+      -14.091,
+      -9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_045",
+     "type": "POINT",
+     "location": [
+      -13.649,
+      -9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_046",
+     "type": "POINT",
+     "location": [
+      -13.207,
+      -9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_047",
+     "type": "POINT",
+     "location": [
+      -12.765,
+      -9.17,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_048",
+     "type": "POINT",
+     "location": [
+      -12.323,
+      -9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_049",
+     "type": "POINT",
+     "location": [
+      -11.881,
+      -9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_050",
+     "type": "POINT",
+     "location": [
+      -15.855,
+      9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_051",
+     "type": "POINT",
+     "location": [
+      -15.405,
+      9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_052",
+     "type": "POINT",
+     "location": [
+      -14.955,
+      9.17,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_053",
+     "type": "POINT",
+     "location": [
+      -14.505,
+      9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_054",
+     "type": "POINT",
+     "location": [
+      -14.055,
+      9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_055",
+     "type": "POINT",
+     "location": [
+      -13.604,
+      9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_056",
+     "type": "POINT",
+     "location": [
+      -13.152,
+      9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_057",
+     "type": "POINT",
+     "location": [
+      -12.7,
+      9.17,
+      3.25
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_058",
+     "type": "POINT",
+     "location": [
+      -12.248,
+      9.17,
+      3.3012
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    },
+    {
+     "name": "bake_festoon_059",
+     "type": "POINT",
+     "location": [
+      -11.796,
+      9.17,
+      3.4548
+     ],
+     "radius": 0.032,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.6,
+      0.3
+     ],
+     "power": 3.5
+    }
+   ],
+   "note": "N22 warm filament bulbs strung along the north fence and the first two side spans."
+  },
+  "plaza_posts": {
+   "emitters": [],
+   "lights": [
+    {
+     "name": "bake_plaza_post_0",
+     "type": "AREA",
+     "location": [
+      0.8,
+      12.1,
+      5.35
+     ],
+     "size_x": 0.32,
+     "size_y": 0.2,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_1",
+     "type": "AREA",
+     "location": [
+      1.195,
+      12.1,
+      5.35
+     ],
+     "size_x": 0.31,
+     "size_y": 0.2,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_2",
+     "type": "AREA",
+     "location": [
+      16.295,
+      12.2,
+      5.35
+     ],
+     "size_x": 0.31,
+     "size_y": 0.22,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_3",
+     "type": "AREA",
+     "location": [
+      16.7,
+      12.2,
+      5.35
+     ],
+     "size_x": 0.3,
+     "size_y": 0.22,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_4",
+     "type": "AREA",
+     "location": [
+      17.605,
+      -12.7,
+      5.35
+     ],
+     "size_x": 0.31,
+     "size_y": 0.22,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_5",
+     "type": "AREA",
+     "location": [
+      18.0,
+      -12.7,
+      5.35
+     ],
+     "size_x": 0.32,
+     "size_y": 0.22,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_6",
+     "type": "AREA",
+     "location": [
+      29.805,
+      -6.795,
+      5.35
+     ],
+     "size_x": 0.31,
+     "size_y": 0.21,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    },
+    {
+     "name": "bake_plaza_post_7",
+     "type": "AREA",
+     "location": [
+      30.2,
+      -6.795,
+      5.35
+     ],
+     "size_x": 0.32,
+     "size_y": 0.21,
+     "aim": null,
+     "colour": [
+      1.0,
+      0.86,
+      0.68
+     ],
+     "power": 170.0
+    }
+   ],
+   "note": "N26 the scene's own four twin-head plaza lamp posts (part-0046), lenses facing down."
+  },
+  "vending": {
+   "emitters": [],
+   "lights": [
+    {
+     "name": "bake_vending_0",
+     "type": "AREA",
+     "location": [
+      9.55,
+      -11.41,
+      1.12
+     ],
+     "size_x": 0.9,
+     "size_y": 1.3,
+     "aim": [
+      9.55,
+      -10.41,
+      1.12
+     ],
+     "colour": [
+      0.93,
+      0.96,
+      1.0
+     ],
+     "power": 95.0
+    },
+    {
+     "name": "bake_vending_1",
+     "type": "AREA",
+     "location": [
+      10.67,
+      -11.41,
+      1.12
+     ],
+     "size_x": 0.9,
+     "size_y": 1.3,
+     "aim": [
+      10.67,
+      -10.41,
+      1.12
+     ],
+     "colour": [
+      0.93,
+      0.96,
+      1.0
+     ],
+     "power": 95.0
+    }
+   ],
+   "note": "N26 two vending machine fronts on the far half, facing the court."
   }
+ }
 }

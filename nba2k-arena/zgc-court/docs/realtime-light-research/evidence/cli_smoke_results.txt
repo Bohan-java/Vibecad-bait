@@ -1,0 +1,168 @@
+CLI smoke test. Input is a SYNTHETIC complete-scene archive using the real supplied grid.
+This is NOT a game test and NOT the current night-scene payload.
+All synthetic payloads are excluded from the delivered archive.
+
+GENERATE append: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/append",
+  "experiment": "append",
+  "light_order": [
+    "Sun",
+    "zgc_rtl:center_spot"
+  ],
+  "added_member_count": 0,
+  "raw_grid_changed_byte_count": 0,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY append: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+GENERATE alias: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/alias",
+  "experiment": "alias",
+  "light_order": [
+    "Sun",
+    "zgc_rtl:center_spot"
+  ],
+  "added_member_count": 1,
+  "raw_grid_changed_byte_count": 0,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY alias: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+GENERATE word64-2: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/word64-2",
+  "experiment": "word64-2",
+  "light_order": [
+    "Sun",
+    "zgc_rtl:center_spot"
+  ],
+  "added_member_count": 1,
+  "raw_grid_changed_byte_count": 1,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY word64-2: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+GENERATE prepend: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/prepend",
+  "experiment": "prepend",
+  "light_order": [
+    "zgc_rtl:center_spot",
+    "Sun"
+  ],
+  "added_member_count": 0,
+  "raw_grid_changed_byte_count": 0,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY prepend: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+GENERATE movable: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/movable",
+  "experiment": "movable",
+  "light_order": [
+    "Sun",
+    "zgc_rtl:center_spot"
+  ],
+  "added_member_count": 0,
+  "raw_grid_changed_byte_count": 0,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY movable: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+GENERATE append-no-shadow: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/append-no-shadow",
+  "experiment": "append",
+  "light_order": [
+    "Sun",
+    "zgc_rtl:center_spot"
+  ],
+  "added_member_count": 0,
+  "raw_grid_changed_byte_count": 0,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY append-no-shadow: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+GENERATE append-zero: exit=0
+{
+  "output": "/mnt/data/rtl_work/cli_fixture/docs/realtime-light-research/generated/append-zero",
+  "experiment": "append",
+  "light_order": [
+    "Sun",
+    "zgc_rtl:center_spot"
+  ],
+  "added_member_count": 0,
+  "raw_grid_changed_byte_count": 0,
+  "game_tested": false,
+  "complete_IFF_written": false
+}
+Transfer ZIP contains only replacement SCNE, manifest, and optional raw grid member.
+VERIFY append-zero: exit=0
+{
+  "payload_members_match": true,
+  "light_order_matches": true,
+  "PostEffect_and_original_member_inventory_covered": true,
+  "game_tested": false,
+  "warning": null
+}
+
+Final cross-check: alias and word64-2 SCNE bytes identical.
+Final cross-check: grid differs at ONLY byte offset 256.
+7 generate commands and 7 verify commands passed. game_tested=false.
